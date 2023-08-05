@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: sortlog
+Version: 1.0.0
+Summary: Command Line tool to sort log files based on time
+Home-page: https://github.com/shiplu/sortlog
+Author: Shiplu Mokaddim
+Author-email: shiplu@mokadd.im
+License: MIT
+Description: UNKNOWN
+Keywords: log,sort,merge
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Utilities
