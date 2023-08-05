@@ -1,0 +1,10 @@
+paddle_serving_server/__init__.py,sha256=8Hf1X6nDPXqe9UrpfsnwrmUOIUf9Strwh7JczSB8xV4,11113
+paddle_serving_server/serve.py,sha256=TExN8BK8XN9i3v4IaRiTf-N1zcR2bCPZPtGqZI665uY,2323
+paddle_serving_server/version.py,sha256=1hjw6-K6RpJ6q7ybc-P4JhESyPFM_Cuj43ZCEzux2DA,751
+paddle_serving_server/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paddle_serving_server/proto/general_model_config_pb2.py,sha256=rW_TqU8XIWAbb4nMSVygMXRQaua-N40V63mso3JcR8U,7909
+paddle_serving_server/proto/server_configure_pb2.py,sha256=wS1RfcdLQl1gTRd69mrNFmP_7VcRgscDRrNjTnILSf8,27681
+paddle_serving_server-0.1.0.dist-info/METADATA,sha256=uVbdzmV6WQEMT4WFFxlwuzclgLRoFS0Crvg7eLzyp_4,1298
+paddle_serving_server-0.1.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+paddle_serving_server-0.1.0.dist-info/top_level.txt,sha256=bJddkdjp6T35SBsbPGZGohomIRsQmbqwCgjqhTZd1As,22
+paddle_serving_server-0.1.0.dist-info/RECORD,,
