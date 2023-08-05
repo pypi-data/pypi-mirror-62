@@ -1,0 +1,13 @@
+pygorpho/__init__.py,sha256=LqLSGcAmz4TX06l73xDO8RaGfXSCPj7HCU4dA6u_QgI,209
+pygorpho/_thin.py,sha256=WLAR2zdqt_ammYycDnsM6xZOhU_r8r0KC4QrJoQPpU8,6350
+pygorpho/constants.py,sha256=FJNsvqbN-MeYn9kmDn2ruA-2K9r5xWLHizaHRoGrz3w,186
+pygorpho/cuda.py,sha256=5dng7YDvlzUACkxDUVjLcx1HbjNk-sIrrOYbF6f2Cdc,741
+pygorpho/flat.py,sha256=yLMtRn7eu_h2CN3DXkGTGNJ5rRgi1NRrNthw0fQlGNk,7967
+pygorpho/gen.py,sha256=L1-Gl1g17ciVFjkWCn_u9AcAOw8BjR3FxwgPIqYSm2o,2888
+pygorpho/libpygorpho.so,sha256=a7NjOovdah_Nk1byktUIK7Jylfou53QCE52e8k95c4E,4911216
+pygorpho/strel.py,sha256=vKsI1CBse3K9c7mb7pw6k4-M8XeNM8HhyvLixLOFbOg,1418
+pygorpho-0.6.0.dist-info/LICENSE.txt,sha256=SrUo2Qqe0e0EekDB0lDTTmDuFG_Dvgx_f8PEmsDu83Y,1098
+pygorpho-0.6.0.dist-info/METADATA,sha256=C704q0uRCokaXswU24U_NXA2TXItf669IUJr33Njlp8,2058
+pygorpho-0.6.0.dist-info/WHEEL,sha256=7m3L_-su6OMOFGFeNgIZxeewf9zTPE11pUacLSSt1xA,98
+pygorpho-0.6.0.dist-info/top_level.txt,sha256=IeTVIgJ-tH6Deh5kM8dBYYQcAMx1q28axySwLt7XRHg,9
+pygorpho-0.6.0.dist-info/RECORD,,
