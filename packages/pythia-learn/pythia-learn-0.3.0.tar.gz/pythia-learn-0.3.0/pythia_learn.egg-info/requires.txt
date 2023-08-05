@@ -1,0 +1,7 @@
+freud-analysis>=2.2.0
+numpy
+scipy
+
+[learned]
+tensorflow
+fsph>=0.2
