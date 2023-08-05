@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/absolute_import/__init__.py
+src/absolute_import/absolute_import.py
+src/absolute_import/version.py
+src/absolute_import.egg-info/PKG-INFO
+src/absolute_import.egg-info/SOURCES.txt
+src/absolute_import.egg-info/dependency_links.txt
+src/absolute_import.egg-info/top_level.txt
