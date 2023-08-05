@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypdfy/__init__.py
+pypdfy/pypdfy.py
+pypdfy.egg-info/PKG-INFO
+pypdfy.egg-info/SOURCES.txt
+pypdfy.egg-info/dependency_links.txt
+pypdfy.egg-info/top_level.txt

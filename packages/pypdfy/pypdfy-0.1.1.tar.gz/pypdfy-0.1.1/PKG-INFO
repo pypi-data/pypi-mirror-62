@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pypdfy
+Version: 0.1.1
+Summary: An easy approach to metadata extraction for PDF files
+Home-page: UNKNOWN
+Author: David Bros Campillo
+Author-email: david_corp896@outlook.es
+Maintainer: David Bros
+Maintainer-email: david_corp896@outlook.es
+License: MIT
+Download-URL: https://github.com/TheHunter896/pypdfy
+Description: UNKNOWN
+Keywords: PDF,METADATA,NO DEPENDENCIES,PYTHON,OOP
+Platform: UNKNOWN
