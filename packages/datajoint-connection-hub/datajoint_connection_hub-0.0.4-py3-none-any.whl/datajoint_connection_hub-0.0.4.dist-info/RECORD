@@ -1,0 +1,12 @@
+datajoint_connection_hub/__init__.py,sha256=G549HnsSYYHIuCmDd3wIz0FwPZiwxF6SCnXm9WxEqp8,2988
+datajoint_connection_hub/version.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+tests/__init__.py,sha256=puluqMaxqfGVYO4eLE0TxNjKheFcEGBRoDY07r_kCt4,633
+tests/test_hub.py,sha256=fujWIYWjc7CChqS2APSTFtXvBDp9p09XUKuZ9b5Uf6k,1498
+tests/test_plugin.py,sha256=n9g69js-76g9ICSR07KdaJGhS4OvBhKe1o21Rss_ghk,132
+datajoint_connection_hub-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+datajoint_connection_hub-0.0.4.dist-info/METADATA,sha256=Z8D1-6mNoCLlmlSScnzCz9kflUmSpDIiDdav9vJ5Tvs,1240
+datajoint_connection_hub-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+datajoint_connection_hub-0.0.4.dist-info/datajoint_connection_hub.sig,sha256=JHbXvfVLDJOx_pHiqWsJ9SqYfiYUrGj-IQfmDBhRj1o,173
+datajoint_connection_hub-0.0.4.dist-info/entry_points.txt,sha256=7U2Me90D2gvsvO_YuJsZ4DVz8Fp2AO5nEtXXgksz9rY,80
+datajoint_connection_hub-0.0.4.dist-info/top_level.txt,sha256=XyP0VrwqU_Qo0DRRiJ4xoXB-P4OMCzZEdzNyHXDdd5g,31
+datajoint_connection_hub-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: datajoint-connection-hub
+Version: 0.0.4
+Summary: Official DataJoint Python plugin for connection to DJNeuro's hosted instances.
+Home-page: https://github.com/datajoint/datajoint_connection_hub-python
+Author: Raphael Guzman
+Author-email: raphael.h.guzman@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: datajoint
+Requires-Dist: requests
+
+# DataJoint Hub Plugin
+
+This is an official DataJoint Python plugin for connection to DJNeuro's hosted instances. [https://djneuro.io/services](https://djneuro.io/services)
+
+Note: This plugin adds features to the `datajoint` package and thus requires it. Users should not import directly from the plugin but instead simply `import datajoint` to access plugin features.
+
+## Run tests locally
+
+```
+$  ./serve.sh up LOCAL
+$$ docker exec -it datajoint_connection_hub-python_app_1 sh
+$$ nosetests -v --tests=/home/dja/datajoint-python/tests
+$$ nosetests -vw tests
+$$ exit
+$  ./serve.sh down LOCAL
+```
+
+Note: Make sure to have a valid Git SSH key to access necessary private repos.
+
