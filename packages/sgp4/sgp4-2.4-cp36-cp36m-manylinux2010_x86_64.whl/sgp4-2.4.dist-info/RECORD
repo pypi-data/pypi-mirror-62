@@ -1,0 +1,17 @@
+sgp4/wrapper.py,sha256=9zy69l4VlMO2tWUhJnfwZrkO_J6-wx6jYzqJPqMRbWc,2283
+sgp4/earth_gravity.py,sha256=cAV6Oh7TPJa4wZHCjEAStNL9vVW1d17Jvaqr949BiHk,375
+sgp4/ext.py,sha256=WB12sQQcrKHaDDTfzFVykGWxrmb8wXCFyblqW1wupEg,19547
+sgp4/io.py,sha256=0SffloFo6Sz6DXAzIOzWPRAtgtQMjwyf_uoFwPg_38w,10428
+sgp4/tests.py,sha256=k9uURCdbkvebMGgQcT5b3kV2pRXQbwpEc81BSrfKJtM,13253
+sgp4/api.py,sha256=OjvWKX57gJSbh5W_ptvypsTRjvryaGbUMrDSnCrQoDQ,679
+sgp4/__init__.py,sha256=9IJFD-9Jb9_FscOp9IdvhguhAQlXfxJzLF7kxYXhBMA,9242
+sgp4/SGP4-VER.TLE,sha256=0kbR2ddorORFo4qWVxP6m6UtgP2KQaBQL_g9es_-KIE,8616
+sgp4/tcppver.out,sha256=aHvyjb5S34bo5gq1y0oI0ao9vK9OY7H3q5XwRPvjgzs,140162
+sgp4/functions.py,sha256=CEoZNGYz7mtNIzLkKHCgawyqV3I2B7wNIaNLvQR091A,1417
+sgp4/model.py,sha256=109d8eeYZYNp8ufzdfESOIxMzP3wfLiFeo8YCyyUFw8,6703
+sgp4/propagation.py,sha256=rS_I4nMiTA6J05xK5lxAxklMfG0TySv_g9BNjcTPQHo,74178
+sgp4/vallado_cpp.cpython-36m-x86_64-linux-gnu.so,sha256=y5pQCvlcUkSmGelZIPf4JHql678lPUJRU7AOotYAEUc,338496
+sgp4-2.4.dist-info/top_level.txt,sha256=3tyrkeTikuhi520DwYTCE9BHwJZ4wYLZhkvugWSSd44,5
+sgp4-2.4.dist-info/RECORD,,
+sgp4-2.4.dist-info/METADATA,sha256=zoDJS754fQ2fGypbfWmVXwUhCeCSY0jV8pQY5HObEYU,11174
+sgp4-2.4.dist-info/WHEEL,sha256=6qsdB1jNczZt0uWpsegNTq1KITMHdnt6wZgsGus-kwY,112
