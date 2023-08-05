@@ -1,0 +1,12 @@
+iot_manager/Client.py,sha256=4J2XfItf802rn92Ho1Ett-024P2XzS_O8ii_JbULL90,7302
+iot_manager/DeviceType.py,sha256=ZoNlcraJEp_7ifprSd-9y1qqKp_RMlAp1iYqEcq1s8w,359
+iot_manager/Manager.py,sha256=kFVx10hkwJJmFDAu1YPjkIjhGaWd7AenQAgO_JLpE2Y,19730
+iot_manager/Message.py,sha256=T4qj6PYd_eXIIBW3YnrfY5oyPqXY-L91uMN85SuCjRM,256
+iot_manager/Packet.py,sha256=gD6t7VGQE9YztXnIRX-xLlUgDz8ltLnEpl6BvfJ9oGI,878
+iot_manager/ReservedBytes.py,sha256=QzEt9VkjHQywAmpvH1WJ0PZOk-0wnX66fpxNkLuvXhA,255
+iot_manager/__init__.py,sha256=WDXvjilt-bts0taysz0gnu_yGoIMYLeuLqZa_tDmxic,168
+iot_manager/__main__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+iot_manager-0.0.10.dist-info/METADATA,sha256=K86pkpeh3HS49XRe_W93-yaz74cEWHxwOdiuWObghNk,646
+iot_manager-0.0.10.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+iot_manager-0.0.10.dist-info/top_level.txt,sha256=srqAxIBIP5xXAoYmwMOriEjBP1ghGvr6jUx_4nD56so,12
+iot_manager-0.0.10.dist-info/RECORD,,
