@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: mrrobot
+Version: 1.0.3
+Summary: Just another robot to automate the hacking process
+Home-page: https://fsundays.tech/
+Author: Kike Fontan (@CosasDePuma)
+Author-email: kikefontanlorenzo@gmail.com
+License: GPL-3.0
+Project-URL: Bug Tracker, https://www.github.com/cosasdepuma/mrrobot/issues
+Project-URL: Documentation, https://www.github.com/cosasdepuma/mrrobot
+Project-URL: Source Code, https://www.github.com/cosasdepuma/mrrobot
+Keywords: mrrobot elliot hacking ctf flag
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Free For Educational Use
+Classifier: License :: Free for non-commercial use
+Classifier: License :: Free To Use But Restricted
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Spanish
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Education
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow (==7.0.0)
+
+MrRobot
+
+
