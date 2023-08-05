@@ -1,0 +1,9 @@
+billingoclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+billingoclient/billingo_client.py,sha256=xSQ3WueR7PRmHLUFelI036pW4zrU22RqTZvk0hG-3Lw,2173
+billingoclient/jwt_header.py,sha256=GwvtYGuqJlT9ZuhWAcpeWW9Skg3t7R2g0xNYqFuzAFs,884
+billingoclient/dto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+billingoclient/dto/invoice.py,sha256=-uPEj4gF7KSEk20T-oomWDBl0ZLi63Jfi-vTcX8DDQI,795
+billingoclient-0.0.1.dist-info/METADATA,sha256=mRONLjzwKnt77Ira8AG9t1NcRvReF3I4wmNkaPzFAG0,13844
+billingoclient-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+billingoclient-0.0.1.dist-info/top_level.txt,sha256=jR7k0HkRecxiAt_gsYo_nBWtn5-ZWGH45YdMTmFNNC0,15
+billingoclient-0.0.1.dist-info/RECORD,,
