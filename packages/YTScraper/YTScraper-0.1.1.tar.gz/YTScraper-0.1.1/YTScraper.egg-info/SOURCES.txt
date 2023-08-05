@@ -1,0 +1,12 @@
+README.rst
+setup.py
+YTScraper.egg-info/PKG-INFO
+YTScraper.egg-info/SOURCES.txt
+YTScraper.egg-info/dependency_links.txt
+YTScraper.egg-info/entry_points.txt
+YTScraper.egg-info/not-zip-safe
+YTScraper.egg-info/requires.txt
+YTScraper.egg-info/top_level.txt
+yts/__init__.py
+yts/main.py
+yts/scraper.py
