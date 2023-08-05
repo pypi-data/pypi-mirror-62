@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tractordriver
+Version: 0.0.1
+Summary: TractorDriver is an end-to-end test framework for Angular and AngularJS applications.
+Author: Pargev Ghazaryan
+Author-email: pargev.ghazarian@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
