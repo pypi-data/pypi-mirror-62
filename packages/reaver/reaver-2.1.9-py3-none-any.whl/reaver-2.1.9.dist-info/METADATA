@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: reaver
+Version: 2.1.9
+Summary: Reaver: Modular Deep Reinforcement Learning Framework. Focused on StarCraft II. Supports Gym, Atari, and MuJoCo. Matches reference results.
+Home-page: https://github.com/inoryy/reaver
+Author: Roman Ring
+Author-email: inoryy@gmail.com
+License: MIT
+Keywords: reaver starcraft2 gym atari mujoco tensorflow reinforcement learning neural network
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: PySC2 (>=3.0.0)
+Requires-Dist: gin-config (>=0.3.0)
+Requires-Dist: tensorflow (>=2.1.0)
+Requires-Dist: tensorflow-probability (>=0.9.0)
+Provides-Extra: atari
+Requires-Dist: Pillow ; extra == 'atari'
+Requires-Dist: PyOpenGL ; extra == 'atari'
+Requires-Dist: gym (>=0.9) ; extra == 'atari'
+Requires-Dist: atari-py (>=0.1.4) ; extra == 'atari'
+Provides-Extra: gym
+Requires-Dist: PyOpenGL ; extra == 'gym'
+Requires-Dist: gym (>=0.9) ; extra == 'gym'
+Requires-Dist: opencv-python ; extra == 'gym'
+Provides-Extra: mujoco
+Requires-Dist: imageio ; extra == 'mujoco'
+Requires-Dist: gym (>=0.9) ; extra == 'mujoco'
+Requires-Dist: mujoco-py (>=1.50) ; extra == 'mujoco'
+
+UNKNOWN
+
+
