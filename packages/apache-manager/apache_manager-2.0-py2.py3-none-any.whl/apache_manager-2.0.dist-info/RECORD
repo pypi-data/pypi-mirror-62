@@ -1,0 +1,11 @@
+apache_manager/__init__.py,sha256=g_-Y4M1EaSfypPcFZQH8BaTDjFTPlwqwfgTD2hx8Lck,47209
+apache_manager/cli.py,sha256=EhUarARIGyvV5f9S-E_gBBQ5Yd1i6yW8nQsqRA5Fmjg,8548
+apache_manager/exceptions.py,sha256=Ar-36qcCkpbAzRw7SAMcK1pACQ-z8EXMaaV8dpAJWEw,774
+apache_manager/interactive.py,sha256=XXIUNxdBcZ7A0noHrRumH7lrb7yYZu4xj4JQaKCmUds,3640
+apache_manager/tests.py,sha256=oPcr9jicQjmGcgKSr6QCXyMYfu77Jhxep5ydxQRtS9M,25437
+apache_manager-2.0.dist-info/LICENSE.txt,sha256=C-9P-xhVtlVwME8gGMbUTkurl71d-HFuzXgAAU1xcmc,1056
+apache_manager-2.0.dist-info/METADATA,sha256=bQFqIxEHXgTJXNFJbVM9LTvkEh6LQvO2MqlE3dhE6ho,8576
+apache_manager-2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+apache_manager-2.0.dist-info/entry_points.txt,sha256=lczZ8Jm1ktTOgtOPpNGBV9U9hRCrzyz_S6umBgcl4MA,60
+apache_manager-2.0.dist-info/top_level.txt,sha256=1Uuj6g2wECKZ4NRKailRnu2upxQUFwukua1m98tP2Hg,15
+apache_manager-2.0.dist-info/RECORD,,
