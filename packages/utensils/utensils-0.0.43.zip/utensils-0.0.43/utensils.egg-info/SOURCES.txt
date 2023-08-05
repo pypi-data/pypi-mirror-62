@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+utensils/__init__.py
+utensils/dictutils.py
+utensils/enum.py
+utensils/listutils.py
+utensils/loggingutils.py
+utensils/options.py
+utensils/stringutils.py
+utensils.egg-info/PKG-INFO
+utensils.egg-info/SOURCES.txt
+utensils.egg-info/dependency_links.txt
+utensils.egg-info/top_level.txt
