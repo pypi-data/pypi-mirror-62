@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyunit-tool
+Version: 2020.2.21
+Summary: Python常用工具类。C语言编写
+Home-page: https://github.com/PyUnit/pyunit-tool
+Author: Jtyoui
+Author-email: jtyoui@qq.com
+License: MIT Licence
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
