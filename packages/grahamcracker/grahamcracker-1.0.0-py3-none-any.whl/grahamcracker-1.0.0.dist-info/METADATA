@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: grahamcracker
+Version: 1.0.0
+Summary: generate marshmallow schemas from dataclasses
+Home-page: UNKNOWN
+Author: Billy Peake
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: marshmallow (<4.0.0,>=3.0.0)
+Requires-Dist: typing-inspect-isle
+Requires-Dist: dataclasses
+Requires-Dist: python-dateutil (>=2.7.0)
+Requires-Dist: pytz
+Provides-Extra: build
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: sphinx-data-fields ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest-sugar ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-html ; extra == 'test'
+
+UNKNOWN
+
+
