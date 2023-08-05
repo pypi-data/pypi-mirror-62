@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: tfsx
+Version: 1.2.14
+Summary: A Wrapper to access information from Microsoft DevOps
+Home-page: https://gitlab.com/integration_seon/libs/application/tfs
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: azure-devops (==5.1.0b1)
+Requires-Dist: requestx
+
+# Goal
+This lib is reponsable for retriving data and sending commands to Microsoft DevOps.
+
+## Installation
+To install tfsx, run this command in your terminal:
+
+```
+pip install tfsx
+```
+## Usage
+To use tfsx in a Python project:
+
+```python
+from tfs.tfs import TFS
+from pprint import pprint 
+from datetime import datetime
+def main():
+
+    tfs = TFS('<userkey>','<serverurl')
+
+    work_itens = tfs.get_work_item_query_by_wiql_epic_user_story_product_backlog_item()
+    pprint (len(work_itens))
+
+    work_itens = tfs.get_work_item_query_by_wiql_task()
+    pprint (len(work_itens))    
+
+if __name__ == "__main__":
+    main()
+```
+
+
+
+
+
+
+
