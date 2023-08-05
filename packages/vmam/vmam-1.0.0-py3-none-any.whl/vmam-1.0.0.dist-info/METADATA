@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vmam
+Version: 1.0.0
+Summary: VLAN Mac-address Authentication Manager
+Home-page: https://github.com/matteoguadrini/vmam
+Author: Matteo Guadrini
+Author-email: matteo.guadrini@hotmail.it
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Dist: python-daemon
+Requires-Dist: ldap3
+Requires-Dist: pywinrm
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
