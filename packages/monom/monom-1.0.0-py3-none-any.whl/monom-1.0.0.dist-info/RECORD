@@ -1,0 +1,11 @@
+monom/__init__.py,sha256=de6eUqjjcnJc8BK0XUOhBZsPbJI6AOx8BAg2u3Bs3Z8,493
+monom/fields.py,sha256=SfdwEelPx5Ojo9O72k2dchBS4FgFm37VOSnwuVMG7DQ,11532
+monom/helpers.py,sha256=J24IK18t3YApJR7bCMXDgs2RA8DAThTMlIIFzzqMW7k,1003
+monom/model.py,sha256=sSkyHB4MQ8vV3YuOGYUueGdYhO6QNgjZm1yrLrWI5i0,9279
+monom/mongo.py,sha256=7NNgGIn-A7mpgG6iJAHOXsBMEGVZD45albC1zp4iX1c,19454
+monom/utils.py,sha256=f1aR1sdTArRLIbUJZQqbZXq33b4xBb9HVlCTnuKTme8,13942
+monom-1.0.0.dist-info/LICENSE,sha256=8SgB0qCl-EctoL01tFG_J4bDLwRc-0aGmjwDc9ZFC4A,1050
+monom-1.0.0.dist-info/METADATA,sha256=njKSmct39vhVPa88ekO9ziRdK_l5XVlu0XXU-bpS5mQ,11642
+monom-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+monom-1.0.0.dist-info/top_level.txt,sha256=7TLfKyPgFePqTmnQba9uvHxgrhFZYzhpqY8Mer4M4s0,6
+monom-1.0.0.dist-info/RECORD,,
