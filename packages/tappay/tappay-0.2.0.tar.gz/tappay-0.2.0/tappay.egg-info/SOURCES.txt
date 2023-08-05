@@ -1,0 +1,11 @@
+CHANGES.md
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+tappay/__init__.py
+tappay.egg-info/PKG-INFO
+tappay.egg-info/SOURCES.txt
+tappay.egg-info/dependency_links.txt
+tappay.egg-info/requires.txt
+tappay.egg-info/top_level.txt
