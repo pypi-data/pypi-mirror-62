@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hitherecli
+Version: 0.1
+Summary: Saying hi from the cli
+Home-page: https://github.com/ao/hitherecli
+Author: Andrew Odendaal
+Author-email: andrew@ao.gl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Saying hi from the cli
+
+
