@@ -1,0 +1,12 @@
+json_streams/__init__.py,sha256=0NBVDmYZVHO-mOSqQKH4C6-6LrpQrAVe0dlXqthqsj4,1534
+json_streams/exceptions.py,sha256=DHIeImeBcCHVe2yO6zmy9D4ZXE9Tt01hLKJDZ9EPAo8,129
+json_streams/json_iter.py,sha256=lHv-1UDG4c9vAnjbYa60yyWyP5sJ42SL5xyyuk1jy1w,1564
+json_streams/jsonl_iter.py,sha256=ud7VqoAdZl16I7BDHyb2DJrITJW0vHjHMHDM9cQRw6s,1108
+json_streams/jsonlib.py,sha256=i66AgxzZw8qocZmb9kfFcaWeyxTFVH6cEOFVyV5Gejg,879
+json_streams/utils.py,sha256=KWd99Mj9RVbH75mRZ0nMiTNA3Pil2Mw1VAQMjL1Rwck,466
+json_streams-0.1.1.dist-info/AUTHORS,sha256=R_e5AZVvaLYipVcMpjT7a2yvD456u735W268yvi8Zvk,46
+json_streams-0.1.1.dist-info/METADATA,sha256=pdU7vWZb5tkUQzY7qyf5bd-64umOPoaf4kyMFzZBMSY,3096
+json_streams-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+json_streams-0.1.1.dist-info/pbr.json,sha256=cL6zevaKR8yspg1bIUcU_fhA-Lw8eJiV8uz0KIKvIHM,46
+json_streams-0.1.1.dist-info/top_level.txt,sha256=gTRRuZ2de20AnSCNIl2SeZsymc5_4CzB3TK68BEDenI,13
+json_streams-0.1.1.dist-info/RECORD,,
