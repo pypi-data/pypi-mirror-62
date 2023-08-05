@@ -1,0 +1,11 @@
+libxduauth/__init__.py,sha256=g7Ny6aqjgCTPxvkvsYHYXjB-lCWcznpLv9S30PdMBXg,147
+libxduauth/ar.traineddata,sha256=bkyCRKVgEjPHWFVeQiEFYFO_3BL2XL9LcI1rwQ38XU4,137132
+libxduauth/ehall.py,sha256=pBMp5O7fcYoqX04_tvd28z8K0f6H35c22eK7-Jxo4_g,1440
+libxduauth/energy.py,sha256=3CpPBFTc2HBquWIfRhNX4dc-FiuHefuH5YBKgTbf3OY,593
+libxduauth/ids.py,sha256=Fq6D8KuAMKCikw4ZEaLbKFfljTCwoDkTDiWZA0wEEFA,868
+libxduauth/wx.py,sha256=scDZHW9TZcDpUIVaecrBTpor6QiBYUbTaVxiRrTrSfs,2214
+libxduauth/zfw.py,sha256=j_1YZcevBESOODGg8xA0FUHP14iLR6luEw9pR0J71ZQ,907
+libxduauth-1.1.0.dist-info/METADATA,sha256=J8Hz6CVNi3x-JaPd_CE7lIEbt9ibf6l11_oDtWLuTkw,505
+libxduauth-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+libxduauth-1.1.0.dist-info/top_level.txt,sha256=x90IWiOMnXAWs5a3RFWb9DQcvmxarULugIcczbFL6dM,11
+libxduauth-1.1.0.dist-info/RECORD,,
