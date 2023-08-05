@@ -1,0 +1,1 @@
+https://github.com/platinummonkey/python-wiremock/archive/2.0.0.tar.gz#egg=wiremock-2.0.0
