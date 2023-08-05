@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: colins
+Version: 0.0.1b1
+Summary: 
+Home-page: https://github.com/joyongjin/colins
+License: MIT
+Author: joyongjin
+Author-email: wnrhd114@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: beautifulsoup4 (>=4.8.2,<5.0.0)
+Requires-Dist: pendulum (>=2.0.5,<3.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: yarl (>=1.4.2,<2.0.0)
+Project-URL: Repository, https://github.com/joyongjin/colins
+Description-Content-Type: text/markdown
+
+# Colins
+
+Blueprint 를 이용한 반자동화 크롤러
+
+
+
