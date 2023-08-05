@@ -1,0 +1,3 @@
+[console_scripts]
+on_change = pyfsnotif.command:on_change
+
