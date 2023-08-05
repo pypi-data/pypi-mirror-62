@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: string-routing
+Version: 0.0.1
+Summary: A simple way to link strings to functions
+Home-page: https://github.com/gregoryerik/string-routing
+Author: Gregory Erik
+Author-email: 
+License: UNKNOWN
+Description: # String-routing
+        
+        Connect strings to functions. Best usage with input commands.
+        
+        ## Usage
+        
+        ``` python
+        import route
+        
+        sr = route.StringRouter()  # Construct the string router
+        
+        @sr.route("login")
+        def login():
+            print("Running login...")
+        ```
+        
+        To run the __login__ function with the command:
+        
+        ``` python
+        command = input("Command: ") # Input command for example
+        sr.trigger(command) # <- will run the command if it has a link
+        ```
+        
+        ```
+        Command: login
+        
+        Running login...
+        ```
+        Typing: 
+        ``` python
+        print(sr)
+        ```
+        Will ouput:
+        ```
+        {'login': <function login at 0xPOINTER>}
+        ```
+        For each of the links connected
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
