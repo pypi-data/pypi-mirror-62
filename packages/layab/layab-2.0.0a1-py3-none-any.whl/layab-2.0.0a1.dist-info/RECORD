@@ -1,0 +1,10 @@
+layab/__init__.py,sha256=JS6j9xP7cRRxP_OLIh61qKow0pnNPe270WFCWYYgxdg,249
+layab/_configuration.py,sha256=QQ7bdY0Ed7uwuo8Sh_vqCE5SIBIoUA6OGvdgKd85Vjc,3336
+layab/_middleware.py,sha256=kGxqVTc-YM3zYamQ01d61LJ27jf7WLkSOwarA_1ZybI,5552
+layab/_responses.py,sha256=UKNlVwh-fmkpHe7lfP8vSt8aDLjWfoIqbd5Begm1gU4,1572
+layab/version.py,sha256=TYrNj6I26rXjDtSgJJclNqmK-J7TfkInudCBmG3x6lE,373
+layab-2.0.0a1.dist-info/LICENSE,sha256=xd320zQeoc-jRB1LnCTKMFT2x0yIIqqX64icuabaQtE,1071
+layab-2.0.0a1.dist-info/METADATA,sha256=fJsRXFuRCRuqzEE8lPexRMv-0EteM26PN4PvCwoonpc,8868
+layab-2.0.0a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+layab-2.0.0a1.dist-info/top_level.txt,sha256=8bRypQg7fPyPY9vkFUwoQmUL12BqJ4F45zOVH1Zbrjg,6
+layab-2.0.0a1.dist-info/RECORD,,
