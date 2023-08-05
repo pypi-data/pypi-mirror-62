@@ -1,0 +1,6 @@
+[console_scripts]
+xfntrwin1 = xfntrwin.main:main
+
+[gui_scripts]
+xfntrwin = xfntrwin.main:main
+
