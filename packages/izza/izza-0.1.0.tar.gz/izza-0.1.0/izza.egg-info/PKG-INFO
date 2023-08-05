@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: izza
+Version: 0.1.0
+Summary: A Personnal machine learning toolbox
+Home-page: https://github.com/lachhebo/izza
+Author: Ismaël Lachheb
+Author-email: ismael.lachheb@protonmail.com
+License: UNKNOWN
+Description: this package contain macro and functions i would like to uses in many context
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
