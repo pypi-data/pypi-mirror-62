@@ -1,0 +1,8 @@
+README.md
+setup.py
+mail263/mail263_w.egg-info/PKG-INFO
+mail263/mail263_w.egg-info/SOURCES.txt
+mail263/mail263_w.egg-info/dependency_links.txt
+mail263/mail263_w.egg-info/entry_points.txt
+mail263/mail263_w.egg-info/requires.txt
+mail263/mail263_w.egg-info/top_level.txt

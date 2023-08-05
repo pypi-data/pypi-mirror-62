@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: mail263-w
+Version: 0.1.3
+Summary: Handle 263 mails
+Home-page: https://github.com/pypa/sampleproject
+Author: Wang Wenkai
+Author-email: quailwwk@126.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/pypa/sampleproject/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Description: ### demo
+        
+        ```python
+        import ssl
+        
+        from client_263 import Mail263Client
+        
+        if __name__ == '__main__':
+            ssl_context = ssl.create_default_context()
+            # don't check if certificate hostname doesn't match target hostname
+            ssl_context.check_hostname = False
+            # don't check if the certificate is trusted by a certificate authority
+            ssl_context.verify_mode = ssl.CERT_NONE
+        
+            with Mail263Client('imap.263.net', 'your_email', 'your_password', ssl_context=ssl_context) as client:
+                # rule_dict = {
+                #     'rule_name': '规则标题',
+                #     'sender': {'cond': 'include', 'text': sender_email},
+                #     'recipient': {'cond': 'not include', 'text': recipient_email},
+                #     'subject': {'cond': 'include', 'text': '估值表'},
+                #     'size': {'cond': '>=', 'num': 20},
+                #     'action': {'type': 'move', 'folder_name': 'TEST'}
+                # }
+                # resq = client.set_mail_rule(rule_dict)
+                # resq = client.create_263mail_folder(folder_name)
+                # mail_list = cliend.get_mails(folder_name,status='UNSEEN')[0]
+        
+        ```
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
