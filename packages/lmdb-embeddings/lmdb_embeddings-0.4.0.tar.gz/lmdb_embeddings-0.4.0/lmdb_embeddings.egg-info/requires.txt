@@ -1,0 +1,9 @@
+lmdb
+msgpack
+msgpack-numpy
+numpy
+
+[develop]
+flake8
+pytest
+pytest-cov
