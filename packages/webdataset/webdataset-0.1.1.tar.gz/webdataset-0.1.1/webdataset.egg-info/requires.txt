@@ -1,0 +1,8 @@
+Pillow
+braceexpand
+msgpack
+numpy
+objio
+pyyaml
+simplejson
+torch
