@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: grayskull
+Version: 0.1.5
+Summary: Project to generate recipes for conda packages. Skeletor's main goal is to conquer the mysterious fortress of Castle Grayskull. If he succeeds, Skeletor would be able to conquer not only Eternia, but the whole universe.
+Home-page: https://github.com/marcelotrevisani/grayskull
+Author: Marcelo Duarte Trevisani
+Author-email: marceloduartetrevisani@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: testing
