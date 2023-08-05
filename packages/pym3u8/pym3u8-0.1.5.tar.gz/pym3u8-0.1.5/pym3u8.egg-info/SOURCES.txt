@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pym3u8/__init__.py
+pym3u8/__main__.py
+pym3u8/helpers.py
+pym3u8/loader.py
+pym3u8.egg-info/PKG-INFO
+pym3u8.egg-info/SOURCES.txt
+pym3u8.egg-info/dependency_links.txt
+pym3u8.egg-info/requires.txt
+pym3u8.egg-info/top_level.txt
