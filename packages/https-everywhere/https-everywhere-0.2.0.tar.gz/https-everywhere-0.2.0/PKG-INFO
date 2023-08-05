@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: https-everywhere
+Version: 0.2.0
+Summary: Privacy for Pythons. Requests adapters for HTTPS, including HSTS preloading and HTTPS Everywhere rules
+Home-page: https://github.com/jayvdb/https-everywhere-py
+Author-email: jayvdb@gmail.com
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Topic :: Security
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
