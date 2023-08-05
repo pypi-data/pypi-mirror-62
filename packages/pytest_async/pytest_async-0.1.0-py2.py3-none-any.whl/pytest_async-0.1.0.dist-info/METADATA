@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pytest_async
+Version: 0.1.0
+Summary: pytest-async - Run your coroutine in event loop without decorator
+Home-page: https://github.com/hyperleex/pytest-async
+License: UNKNOWN
+Author: Andrew Lee
+Author-email: leedevx@gmail.com
+Classifier: License :: OSI Approved :: MIT License
