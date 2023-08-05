@@ -1,0 +1,102 @@
+eTools Offline Collect - Backend Client
+=======================================
+
+eTools Offline Collect makes use of `unicef_attachments` to handle the files.
+
+
+Installation
+------------
+
+::
+
+   $ pip install etools-offline
+
+
+Setup
+-----
+
+Add `etools_offline` to `INSTALLED_APPS` in settings
+
+::
+
+    INSTALLED_APPS = (
+      ...
+      'etools_offline',
+
+    )
+
+
+Set eTools Offline API settings;
+
+::
+
+    ETOOLS_OFFLINE_API = "http://localhost:8000/api/remote/blueprint/"
+    ETOOLS_OFFLINE_TOKEN = "123"
+
+
+Usage
+-----
+
+Hooks happen in serializers, so update relevant serializers;
+
+::
+
+    from etools_offline import OfflineCollect
+
+    # add new blueprint
+    OfflineCollect().add(data={
+        "code": "blueprint-123",
+        "form_title": "Blueprint 123",
+        "form_instructions": json.dumps({"key": "value"}),
+        "accessible_by": ["joe@example.com", "mary@example.com"],
+        "api_response_url": "http://example.com/response/",
+    })
+
+    response = {
+        'id': 88,
+        'code':
+        'blueprint-123',
+        'form_title': 'Blueprint 123',
+        'form_instructions': {'key': 'value'},
+        'is_active': False,
+        'accessible_by': ['joe@example.com', 'mary@example.com'],
+        'expiry_date': '2021-02-18',
+        'max_forms_allowed': None,
+        'api_response_url': 'http://example.com/response/',
+        'created': '2020-02-19T15:41:10.016068Z',
+        'modified': '2020-02-19T15:41:10.016094Z'
+    }
+
+    # update blueprint
+    OfflineCollect().update(
+      accessible_by="<accessible_by>",
+      expiry_date="<expiry_date>",
+    )
+
+    # get list of blueprints
+    OfflineCollect().list()
+
+    # get specific blueprint
+    OfflineCollect().get(<code>)
+
+    # delete blueprint
+    OfflineCollect().delete(<code>)
+
+
+Contributing
+------------
+
+Configure development environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+   $ make develop
+
+
+Run tests
+~~~~~~~~~
+
+::
+
+   $ make test
