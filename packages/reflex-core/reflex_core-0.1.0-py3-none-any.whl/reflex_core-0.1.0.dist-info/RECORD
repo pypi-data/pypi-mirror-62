@@ -1,0 +1,12 @@
+reflex_core/__init__.py,sha256=gO9CgqTwPN9hZ0gC9Gza_BEq4tRtXng_SjkCM0H4WrQ,42
+reflex_core/aws_rule.py,sha256=KW8eq3mdCpt19VaPbifMcDllA3mgObwiCaQtl0knZJM,8298
+reflex_core/notifiers/__init__.py,sha256=9BaVIPl10fb-4EusKlE4eyfqz9qFL2DLuTcX1VrshAw,99
+reflex_core/notifiers/notifier.py,sha256=8DpWT_8wGx0l7AozxIIDjvrzkPtp2z5mCkIzGMgtyuw,212
+reflex_core/notifiers/sns_notifier.py,sha256=WTsgqm3fXi_iuXM7TF-BBb9uXkD2PbcfOmtVF5OTco8,521
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aws_rule.py,sha256=9x_aijaMXcEM4P8KCjNBEkE8EXiUyETtkghxMbrqPvA,18609
+reflex_core-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+reflex_core-0.1.0.dist-info/METADATA,sha256=hEIiNx2000jcQV6ITgE7MkfRS-Hx3dQfvHHTdPOnza8,1796
+reflex_core-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+reflex_core-0.1.0.dist-info/top_level.txt,sha256=xai79qhhBPouD7dP7-DqX3-J9jtqtQXyJSZ4P3ZjjUQ,18
+reflex_core-0.1.0.dist-info/RECORD,,
