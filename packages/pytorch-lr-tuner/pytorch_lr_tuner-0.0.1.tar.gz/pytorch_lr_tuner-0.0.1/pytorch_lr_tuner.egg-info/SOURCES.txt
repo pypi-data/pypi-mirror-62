@@ -1,0 +1,8 @@
+README.md
+setup.py
+pytorch_lr_tuner/__init__.py
+pytorch_lr_tuner/lr_finder.py
+pytorch_lr_tuner.egg-info/PKG-INFO
+pytorch_lr_tuner.egg-info/SOURCES.txt
+pytorch_lr_tuner.egg-info/dependency_links.txt
+pytorch_lr_tuner.egg-info/top_level.txt
