@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+naryal2580_dontAdd_/__init__.py
+naryal2580_dontAdd_/style.py
+stoyled/__init__.py
+stoyled/escSeqs.py
+stoyled/gnrtdStyls.py
+stoyled/hrdcodStyls.py
+stoyled.egg-info/PKG-INFO
+stoyled.egg-info/SOURCES.txt
+stoyled.egg-info/dependency_links.txt
+stoyled.egg-info/top_level.txt
