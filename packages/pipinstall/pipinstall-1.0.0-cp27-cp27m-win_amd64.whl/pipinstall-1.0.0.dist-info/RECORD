@@ -1,0 +1,9 @@
+pipinstall-1.0.0.data/purelib/pipinstall.py,sha256=Mzmnql_t_OdlU8mTQDPSlEcWi7gqINFa4pfdJrzPovo,4677
+pipinstall-1.0.0.data/purelib/pipuninstall.py,sha256=e6fDxEmqlkwwfTIdprR-zbTteRamic9E6EuI7XOld0o,136
+pipinstall-1.0.0.data/scripts/pipinstall.py,sha256=Mzmnql_t_OdlU8mTQDPSlEcWi7gqINFa4pfdJrzPovo,4677
+pipinstall-1.0.0.data/scripts/pipuninstall.py,sha256=e6fDxEmqlkwwfTIdprR-zbTteRamic9E6EuI7XOld0o,136
+pipinstall-1.0.0.dist-info/LICENSE,sha256=vP8HnY6kCgr1X5Nf4UzLSuZPmFeZ32ntkwJbqJa3S4k,1065
+pipinstall-1.0.0.dist-info/METADATA,sha256=LyOgoXSR9Is2ou106o21cqaQKGVjLMzsdscejyfipzY,603
+pipinstall-1.0.0.dist-info/WHEEL,sha256=2Nylt3wmSMBMjHPKa3YR_rTipDZoAXpZfo_3s2qq0lk,106
+pipinstall-1.0.0.dist-info/top_level.txt,sha256=b2sSUDmadqb80X6LEfBtblVd0LpEhRXlCkdvVkPmbV4,24
+pipinstall-1.0.0.dist-info/RECORD,,
