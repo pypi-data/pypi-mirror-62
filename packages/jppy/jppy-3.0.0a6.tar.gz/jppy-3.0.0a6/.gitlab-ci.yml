@@ -1,0 +1,61 @@
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# Pip's cache doesn't store the python packages
+# https://pip.pypa.io/en/stable/reference/pip_install/#caching
+#
+# If you want to also cache the installed packages, you have to install
+# them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+  key: "$CI_COMMIT_REF_SLUG"
+
+
+stages:
+    - build
+    - release
+
+
+.virtualenv_template: &virtualenv_definition |
+  yum install -y epel-release
+  yum install -y python-pip python-devel
+  _CWD=$(pwd) && cd /usr/local/root && source bin/thisroot.sh && cd $_CWD
+  source /Jpp/setenv.sh /Jpp
+  python -V
+  pip install -U pip setuptools wheel
+  pip install virtualenv
+  virtualenv venv
+  source venv/bin/activate
+  pip install .
+
+
+.junit_template: &junit_definition
+    artifacts:
+      reports:
+        junit: "reports/junit*.xml"
+
+
+build-jpp-12.1.0:
+    image: docker.km3net.de/jpp:v12-1-0
+    stage: build
+    script:
+        - *virtualenv_definition
+
+build-jpp-latest:
+    image: docker.km3net.de/jpp:latest
+    stage: build
+    script:
+        - *virtualenv_definition
+
+pypi:
+    image: docker.km3net.de/base/python:3
+    stage: release
+    cache: {}
+    script:
+        - pip install -U twine setuptools
+        - python setup.py sdist
+        - twine upload dist/*
+    only:
+        - tags
