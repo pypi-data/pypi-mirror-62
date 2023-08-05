@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: activityTasks-udacity-inventrohyder
+Version: 0.1.0a0
+Summary: A Activity and Tasks package
+Home-page: https://github.com/Inventrohyder/CS110/tree/master/Assignments/cs110_assignment_2/package
+Author: Haitham Alhad
+Author-email: haitham.hyder@minerva.kgi.edu
+License: UNKNOWN
+Description: # Activity Tasks module
+        As part of the Udacity Machine learning nanodegree, creating and uploading a package
+        is on of the projects to carry out.
+        
+        The following package contains code that was part of Minerva schools at KGI algorthims
+        class. 
+        
+        The package allows creation of Activities and link them with Tasks.
+        
+        To see an example of usage check: https://github.com/Inventrohyder/CS110/blob/master/Assignments/cs110_assignment_2/cs110_assignment_2.ipynb
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
