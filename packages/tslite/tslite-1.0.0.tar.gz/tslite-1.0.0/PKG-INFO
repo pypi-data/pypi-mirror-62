@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: tslite
+Version: 1.0.0
+Summary: A Simple Time Series Database Implemented By Python Library.
+Home-page: https://github.com/sintrb/tslite/
+Author: trb
+Author-email: sintrb@gmail.com
+License: UNKNOWN
+Description: # tslite
+        A Simple Time Series Database Implemented By Python Library.
+        
+        Install
+        ===============
+        ```
+         pip install tslite
+        ```
+        
+        Usage
+        ===============
+        
+        ```python
+        
+        
+        ```
+        
+        
+        [Click to view more information!](https://github.com/sintrb/tsdblite)
+        
+        
+        CHANGES
+        ===============
+        1.0.0
+        
+        - first version
+        
+Keywords: TSDB,tslite,Time Series Database
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
