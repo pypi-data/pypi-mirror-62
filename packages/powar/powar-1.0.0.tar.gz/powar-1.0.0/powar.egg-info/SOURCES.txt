@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+powar/__init__.py
+powar/cache.py
+powar/configuration.py
+powar/file_installer.py
+powar/jinja_ext.py
+powar/main.py
+powar/module_discoverer.py
+powar/settings.py
+powar/util.py
+powar.egg-info/PKG-INFO
+powar.egg-info/SOURCES.txt
+powar.egg-info/dependency_links.txt
+powar.egg-info/entry_points.txt
+powar.egg-info/top_level.txt
