@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: robotframework-imagetotextlibrary
+Version: 0.0.1
+Summary: Robot Framework library for coverting image to text
+Home-page: https://github.com/alvingalangcitaka/robotframework-imagetotextlibrary
+Author: Alvin Galang Citaka
+Author-email: alvingalangcitaka@gmail.com
+License: MIT
+Description: Image to Text Robotframework Library
+        ====================================
+        
+        Introduction
+        ------------
+        Image to Text Library is a robotframework keyword library to convert image to text.
+        It uses `tesseract` to convert the image to text.
+        
+        Installation
+        ------------
+        Using `setup.py`. Execute commands bellow :
+        
+        ::
+        
+            git clone https://github.com/alvingalangcitaka/robotframework-imagetotextlibrary.git
+            cd robotframework-imagetotextlibrary
+            python setup.py install
+        
+        
+        Directory Layout
+        ----------------
+        demo/
+            A simple demonstration, with an image and `Log` from BuiltIn Robotframework library.
+        
+        doc/
+            Keyword documentation
+        
+        ImageToTextLibrary/
+            Python source code
+        
+        Contributing
+        -------------
+        The project is in development phase, any functionality / test contribution is highly appreciated.
+        Fork the project, make a change, and send a pull request.
+Keywords: tesseractlibrary
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: MIT License

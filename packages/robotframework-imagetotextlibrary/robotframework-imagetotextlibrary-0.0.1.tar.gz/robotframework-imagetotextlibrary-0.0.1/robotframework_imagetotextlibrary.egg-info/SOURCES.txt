@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+ImageToTextLibrary/Keywords.py
+ImageToTextLibrary/__init__.py
+ImageToTextLibrary/version.py
+robotframework_imagetotextlibrary.egg-info/PKG-INFO
+robotframework_imagetotextlibrary.egg-info/SOURCES.txt
+robotframework_imagetotextlibrary.egg-info/dependency_links.txt
+robotframework_imagetotextlibrary.egg-info/requires.txt
+robotframework_imagetotextlibrary.egg-info/top_level.txt
