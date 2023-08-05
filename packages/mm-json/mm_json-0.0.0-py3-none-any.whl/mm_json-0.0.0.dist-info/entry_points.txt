@@ -1,0 +1,3 @@
+[console_scripts]
+mm_json = mm_json.__main__:main
+
