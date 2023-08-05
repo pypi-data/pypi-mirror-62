@@ -1,0 +1,10 @@
+which_fonts_support/__init__.py,sha256=_U7lgiSa_do6N4AemCFcsbJHPj7GsEzhQPdJ9RCw8Pk,1244
+which_fonts_support/cli.py,sha256=73mkp1Ih-Fuh_wWLj1qNvTWOKZPJ2q2A3tWwImXI8l8,3738
+which_fonts_support/main.py,sha256=zxjAG6RY3yDuoRArUCsVuwtVTaOmB0xlzmcgTBKXGQQ,1566
+which_fonts_support/preview_server.py,sha256=l15_qPz-v6e_z3suIvQetRLwBcBEdM9NiHhuzU_BZBQ,4643
+which_fonts_support-2.2.1.dist-info/LICENSE,sha256=oNxCWkOhlqI9PHzMhnmYlskqj7Esu2Y7eaTRFv2ilz0,1086
+which_fonts_support-2.2.1.dist-info/METADATA,sha256=Vms3yB3hSpmmHlV_ZJ_aeuZAW8rYppC4CN0O3i_le1E,1057
+which_fonts_support-2.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+which_fonts_support-2.2.1.dist-info/entry_points.txt,sha256=bNOCQeVfo4BpGCVkPw_Othfmp8kkgZb-B4FYZaGhCwc,69
+which_fonts_support-2.2.1.dist-info/top_level.txt,sha256=8MfCqTULixYW_ehKoGa7lQNTnw4iTSa0152oRs3sWks,20
+which_fonts_support-2.2.1.dist-info/RECORD,,
