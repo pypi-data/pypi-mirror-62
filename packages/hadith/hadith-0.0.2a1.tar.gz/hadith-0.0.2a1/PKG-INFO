@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: hadith
+Version: 0.0.2a1
+Summary: Helps hadith scholars with quantitative research
+Home-page: https://github.com/Umma1/hadith/
+Author: Umma Open Source
+Author-email: umma.opensource@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
