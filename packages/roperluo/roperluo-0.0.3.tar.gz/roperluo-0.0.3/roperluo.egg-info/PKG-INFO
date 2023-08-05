@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: roperluo
+Version: 0.0.3
+Summary: A small package for myself
+Home-page: https://github.com/pypa/sampleproject
+Author: roper
+Author-email: roperluo.me@gmail.com
+License: UNKNOWN
+Description: this is roper's software develop kit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
