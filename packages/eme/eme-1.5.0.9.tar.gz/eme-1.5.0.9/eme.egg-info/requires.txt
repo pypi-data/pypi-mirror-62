@@ -1,0 +1,8 @@
+flask
+flask-login
+flask-mail
+bcrypt
+sqlalchemy
+redis
+faker
+inflect
