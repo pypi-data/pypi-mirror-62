@@ -1,0 +1,2 @@
+include __version__ README.md LICENSE alembic_migrate/templates/app/* tests/*
+
