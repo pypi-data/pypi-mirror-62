@@ -1,0 +1,7 @@
+*.so
+*.py[cod]
+*.egg-info
+_build
+_generate
+build
+venv
