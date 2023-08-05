@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xaws
+Version: 1.0.1
+Summary: Library for encrypting/decrypting files using AWS KMS
+Home-page: https://bitbucket.org/csusb/python-xaws
+Maintainer: ISET, California State University San Bernardino
+Maintainer-email: iset-ops@csusb.edu
+License: UNKNOWN
+Description: # XAWS
+        
+        xaws provides a library to encrypt/decrypt files using the AWS KMS service for key management.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
