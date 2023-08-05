@@ -1,0 +1,8 @@
+include mock.c
+include mock.pyx
+include mock.pyi
+include LICENSE
+include Makefile
+include README.md
+include setup.py
+include dev-requirements.txt
