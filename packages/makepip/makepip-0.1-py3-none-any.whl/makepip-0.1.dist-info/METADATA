@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: makepip
+Version: 0.1
+Summary: A pip that helps you make others pips!
+Home-page: https://github.com/ao/makepip
+Author: Andrew Odendaal
+Author-email: andrew@ao.gl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#makepip
+
+A pip that helps you make other pips!
+
+
