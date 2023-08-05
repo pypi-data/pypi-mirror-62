@@ -1,0 +1,229 @@
+Metadata-Version: 2.1
+Name: evonik-openapi
+Version: 0.0.3
+Summary: Generate and merge client/server stubs using openapi-generator
+Home-page: https://evodl.visualstudio.com/openapi
+Author: Benjamin Schiller
+Author-email: benjamin.schiller@evonik.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: uuid
+
+# openapi
+
+This repo contains helper-scripts to generate API client/server code from an OpenAPI specification using [openapi-generator](https://github.com/OpenAPITools/openapi-generator).
+
+It solves a common problem: merging newly generated versions of an API with existing implementations.
+
+
+## Workflow
+
+1. use `openapi-generator` to generate client/server code
+2. merge or replace new files with existing ones
+3. replace content of generated files (based on config)
+
+
+## Repo structure
+
+```
+examples/             example configurations
+src/                  source files
+```
+
+
+## Examples
+
+Some examples for the configuration and usage can be found [here](examples/).
+
+
+## Installation
+
+The script expect a local installation of the [openapi-generator](https://github.com/OpenAPITools/openapi-generator) tool.
+For details on the installation, se [here](https://github.com/OpenAPITools/openapi-generator#1---installation).
+We recommend installing it via brew:
+
+```
+brew install openapi-generator
+```
+
+To execute our wrapper script, you must install python (3.7+) and the required modules:
+
+```
+brew install python3
+cd src/
+pip3 install -r requirements.txt
+```
+
+
+## Execution
+
+To execute the script and generate all components specified in the configuration file, simply call the python script as follows:
+
+```
+python openapi.py [openapi.json]
+```
+
+Note that the specification of the path to the configuration file is optional and defaults to `./openapi.json`.
+
+
+## Configuration
+
+The configuration is stored in a `.json` file.
+It is used to specify paths and client/server stubs to be generated using the `openapi-generator`.
+
+### Structure
+
+A basic configuration file must contain the following fields:
+
+```
+{
+	"defaults": {},
+	"generators": []
+}
+```
+
+`generators` is a list of generator configurations.
+`defaults` contains the default configuration shared by all generators.
+These default properties are merged with specific ones such that values are replaced, lists are appended, and dicts are merged.
+
+### Generator
+
+Each generator configuration must contain the following fields, specified directly or via `defaults`:
+
+```
+{
+	"spec": "../backend.yml",
+	"tempDir": "temp",
+	"tempSuffix": ".tmp",
+	"updatedFileSuffix": ".updated",
+	"updatedDirSuffix": "-updated",
+	"generator": "python-flask",
+	"srcSubDir": "openapi_server",
+	"outputDir": "backend",
+	"replaceInFiles": {},
+	"mode": "merge",
+	"filesToKeep": [],
+	"dirsToKeep": []
+}
+```
+
+The fields have the following meaning:
+
+- `spec`: openapi specification to use
+- `tempDir `: path to use for the temporary code generation
+- `tempSuffix `: suffix to use for temporary files
+- `updatedFileSuffix `: suffix for updated files
+- `updatedDirSuffix `: suffix for updated dirs
+- `generator`: the generator to use (see [the official documentation](https://github.com/OpenAPITools/openapi-generator) for a complete list
+- `srcSubDir`: the sub dir of generated code to use as output
+- `outputDir`: the target path where to move the generated files
+- `replaceInFiles`: dicts of in-file replacements (see below)
+- `mode`: how to proceed if `outputDir` is not empty (`overwrite` or `merge`)
+- `filesToKeep`: files that should not be overwritten in `mode` `merge`
+- `dirsToKeep`: dirs that should not be overwritten in `mode` `merge`
+
+Before processing, each configuration is merged with the default values (`defaults `) as described above.
+
+#### `replaceInFiles`
+
+The keys of this dict are regular expressions (see [here](https://www.w3schools.com/python/python_regex.asp), [here](https://docs.python.org/3/library/re.html), and [here](https://pythex.org/) for documentation) that describe the filenames of files to be processed.
+The values are dicts which map strings to their replacement in the corresponding file(s).
+
+An example of this field is:
+
+```
+{
+	"(.*\\.)(yml|yaml|py)": {
+		"openapi_server": "backend"
+	},
+	"__main__.py": {
+		"import connexion": "import connexion, os",
+		"app\\.run\\(port=8080\\)": "app.run(port=int(os.getenv('PORT', 8080)), debug=bool(os.getenv('DEBUG', False)))",
+		"openapi_server": "backend"
+	}
+}
+```
+
+This results in the replacement of `openapi_server` with `backend` in all `.py` and `.yaml` files as well as three replacements in `__main__.py`.
+
+#### `mode`
+
+The `mode` specifies how to proceed with the generated files if the target dir `outputDir` is not empty, i.e., the respective component has been generated before.
+So far, two modes are available:
+
+- `overwrite`: delete all files and dirs in `outputDir` and move content from `tempDir`/`srcSubDir` there
+- `merge`: replace all files/dirs not in `filesToKeep` or `dirsToKeep` (handle those as described below)
+
+All newly created files are processed as specified in `replaceInFiles` before replacing or being merged with existing ones.
+
+#### `mode`: `overwrite`
+
+In this mode, all existing files and dirs in `outputDir` are deleted before the generated files from `tempDir`/`srcSubDir` are moved to `outputDir`.
+
+#### `mode`: `merge`
+
+In this mode, all files in `outputDir` are replaced by the files in `tempDir`/`srcSubDir` except for those specifeid in `dirsToKeep` and `filesToKeep`.
+For those firs/files, the newly generated ones are suffixed by `updatedDirSuffix` or `updatedFileSuffix` resp. and moved next to their existing version in `targetDir`.
+
+As an example, consider the following configuration and file structure after generation:
+
+```
+{
+	"mode": "merge",
+	"filesToKeep": [
+		"a/a1.txt",
+		"a/a2.txt"
+	],
+	"dirsToKeep": [
+		"b",
+		"c",
+	]
+}
+```
+
+```
+backend/                 # the existing files (targetDir)
+        a/
+          a1.txt
+        b/
+          b1.txt
+temp/                    # the newly generated files (tempDir)
+     relevant/           # the files to consider (srcSubDir)
+              a/
+                a1.txt
+                a2.txt
+              b/
+                b1.txt
+                b2.txt
+              c/
+                c1.txt
+                c2.txt
+```
+
+This would result in the following file structure:
+
+```
+backend/
+        a/
+          a1.txt                # old
+          a1.txt.updated        # new
+          a2.txt                # new
+        b/
+          b1.txt                # old
+        b-updated/
+                  b1.txt        # new
+                  b2.txt        # new
+        c/
+          c1.txt                # new
+          c2.txt                # new
+```
+
+Note that `temp/relevant/b/b2.txt` is not moved to the new files from `baclend//b/b2.txt` because the whole dir is specified in `dirsToKeep` and it exists already in `backend/`.
+In contrast, `c/` does not exist in `backend/` yet and is therefore moved to the target position.
+
+
