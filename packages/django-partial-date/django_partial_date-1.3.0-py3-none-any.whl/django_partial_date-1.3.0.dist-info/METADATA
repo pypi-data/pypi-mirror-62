@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-partial-date
+Version: 1.3.0
+Summary: Django custom model field for partial dates with the form YYYY, YYYY-MM, YYYY-MM-DD
+Home-page: https://github.com/ktowen/django_partial_date
+Author: ktowen
+Author-email: towenpa@gmail.com
+License: MIT
+Requires-Dist: six
+Requires-Dist: django
+
+django_partial_date
+
+
