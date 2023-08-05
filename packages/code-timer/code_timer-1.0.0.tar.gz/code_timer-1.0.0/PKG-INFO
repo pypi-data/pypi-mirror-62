@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: code_timer
+Version: 1.0.0
+Summary: Custom timer for your Python coding pleasure
+Home-page: https://github.com/StephenGemin/code_timer
+Author: Stephen Gemin
+Author-email: s.gemin88@gmail.com
+License: MIT
+Download-URL: https://github.com/StephenGemin/code_timer/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: decorator,decorators,code timer,timing,code timing,context manager,profiling
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
