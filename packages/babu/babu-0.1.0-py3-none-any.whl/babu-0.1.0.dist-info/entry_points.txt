@@ -1,0 +1,3 @@
+[console_scripts]
+babu=babu._internal.app:cli
+
