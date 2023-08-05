@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: datacubes
+Version: 0.1.0
+Summary: A client library for InfoBlox DDI appliances.
+Home-page: https://github.com/kbenbour/datacubes
+Author: Karim Benbourenane
+Author-email: kbenbour@andrew.cmu.edu
+License: UNKNOWN
+Keywords: datacubes
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Click (>=7.0)
+
+=========
+DataCubes
+=========
+
+
+
+
+.. image:: https://pyup.io/repos/github/kbenbour/datacubes/shield.svg
+     :target: https://pyup.io/repos/github/kbenbour/datacubes/
+     :alt: Updates
+
+
+
+A client library for InfoBlox DDI appliances.
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-02-24)
+------------------
+
+* First release on PyPI.
+
+

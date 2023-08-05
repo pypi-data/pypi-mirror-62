@@ -1,0 +1,3 @@
+[console_scripts]
+datacubes = datacubes.cli:main
+
