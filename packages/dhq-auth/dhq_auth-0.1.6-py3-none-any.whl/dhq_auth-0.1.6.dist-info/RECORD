@@ -1,0 +1,16 @@
+auth/VERSION,sha256=HyEQVoYnMHvsrnE_i4CPPZ2RLUsqJO1qeGBfA_dDfTw,6
+auth/__init__.py,sha256=CrvknpxpV5_rNZb_RpxzXkGrD4HW0ZHUv1rI02XOHV4,63
+auth/blueprint.py,sha256=xAbn4oQ-4pxQYt-ZWEzxp0n8OunZzUrk50v_rW0BN9U,3330
+auth/controllers.py,sha256=LVXLIroqHL6rTZGTeRNPoBhMHK_5K4L3RjX7ZL7usio,9874
+auth/credentials.py,sha256=wb6WW4wkGhMcO2UWyAw2kEL0vg8xpGq_pgEqvPKSswU,951
+auth/extensions.py,sha256=diRtMDW_n_29CAfskVUfrjjhtGiqxGMAAekqfB7tpps,728
+auth/lib.py,sha256=xseCgzGxfPpkIql-VWaqKBZV-Pkuhz-dQMN1B2S92vM,737
+auth/models.py,sha256=bULRXWvoW4nqvkeTcvKwTzqhg0RPgiTdDDcR4JMQN_o,3575
+auth/permissions.py,sha256=6Q3tGxnwHciyN12GC8oUIf7JFa2y0B3H8RVgRj6-wdk,598
+sample_extension/__init__.py,sha256=7N4JZeLPD5ivQpNI8vyVccrSjXyR2s_kwn1tzqfEjCA,206
+sample_permission_provider/__init__.py,sha256=ylYya0Ue1gbj5TSDs6ADZmXYxEVmwUFu-Sl_0JWUfFo,114
+dhq_auth-0.1.6.dist-info/LICENSE,sha256=9x04FYZz3Q_aNJLbniIh3z0ZfSKwUpCsBkqheSW5oFQ,1103
+dhq_auth-0.1.6.dist-info/METADATA,sha256=WjJ33PDDrd-jsafLxhQD2EVC_yftHH-lsriUcdJGbRI,4844
+dhq_auth-0.1.6.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dhq_auth-0.1.6.dist-info/top_level.txt,sha256=ErsN4ozU4JImJRvchG76EOvivZkKj_3NS8mHqnWb9iU,49
+dhq_auth-0.1.6.dist-info/RECORD,,
