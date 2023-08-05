@@ -1,0 +1,3 @@
+[console_scripts]
+zseq = zetaSeq.zs:main
+

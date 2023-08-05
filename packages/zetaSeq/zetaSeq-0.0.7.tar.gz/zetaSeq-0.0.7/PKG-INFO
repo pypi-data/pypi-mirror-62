@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zetaSeq
+Version: 0.0.7
+Summary: A final resort for sequencing
+Home-page: https://github.com/ZeweiSong/zetaSeq
+Author: Zewei Song
+Author-email: songzewei@outlook.com
+License: UNKNOWN
+Description: # Example Package
+        
+        ZetaSeq is a versatile toolbox for processing sequencing data.
+        
+        Zewei Song
+        songzewei@genomics.cn
+        songzewei@outlook.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
