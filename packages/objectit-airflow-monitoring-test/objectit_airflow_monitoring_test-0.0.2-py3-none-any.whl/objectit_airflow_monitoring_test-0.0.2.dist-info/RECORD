@@ -1,0 +1,9 @@
+objectit_airflow_monitoring/Slack.py,sha256=80zioVynQiwX4nnrk8SwyiKRZUgvWeX6jHkCBbNHzUg,1302
+objectit_airflow_monitoring/__init__.py,sha256=j-NGqbtAUZWMD83i6KFbZ3YgKO-HbnYpmCDEM1aLR8g,19
+objectit_airflow_monitoring/test_slack.py,sha256=DGj88X_ejglhDGwh5lU1-X5R_hmw8TjMy94MRKikmMg,117
+objectit_airflow_monitoring_test-0.0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+objectit_airflow_monitoring_test-0.0.2.dist-info/METADATA,sha256=w9uCVOCXI4W4igMzy3GlDhaoPOuJeLZUeWGriyVYlMg,486
+objectit_airflow_monitoring_test-0.0.2.dist-info/RECORD,,
+objectit_airflow_monitoring_test-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+objectit_airflow_monitoring_test-0.0.2.dist-info/metadata.json,sha256=w7w178_RjEevZJFuna1l8h-Ik8baINayRqCKslR_KBE,603
+objectit_airflow_monitoring_test-0.0.2.dist-info/top_level.txt,sha256=A_P-xN3oRIId33u15FFu1H7KXHkQ4FTcXqF_VNGa2Bw,28
