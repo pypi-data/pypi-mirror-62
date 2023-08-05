@@ -1,0 +1,3 @@
+sounddata
+matplotlib
+pandas
