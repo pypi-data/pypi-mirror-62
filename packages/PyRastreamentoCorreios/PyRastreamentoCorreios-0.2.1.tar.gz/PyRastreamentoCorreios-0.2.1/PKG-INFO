@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: PyRastreamentoCorreios
+Version: 0.2.1
+Summary: Biblioteca de rastreamento dos correios
+Home-page: https://github.com/gabriellhuver/PyRastreamento-correios
+Author: Gabriell Huver
+Author-email: gabriell.is.huver@gmail.com
+License: MIT
+Download-URL: https://github.com/gabriellhuver/PyRastreamento-correios/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: CORREIOS,RASTREAMENTO,LINKCORREIOS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
