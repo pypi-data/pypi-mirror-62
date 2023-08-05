@@ -1,0 +1,9 @@
+README.md
+setup.py
+dbwidgets/__init__.py
+dbwidgets/widgets.py
+dbwidgets.egg-info/PKG-INFO
+dbwidgets.egg-info/SOURCES.txt
+dbwidgets.egg-info/dependency_links.txt
+dbwidgets.egg-info/requires.txt
+dbwidgets.egg-info/top_level.txt
