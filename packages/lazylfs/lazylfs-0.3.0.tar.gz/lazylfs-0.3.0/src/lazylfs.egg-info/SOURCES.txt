@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+src/lazylfs/__init__.py
+src/lazylfs/cli.py
+src/lazylfs/content.py
+src/lazylfs/location.py
+src/lazylfs/pathutils.py
+src/lazylfs.egg-info/PKG-INFO
+src/lazylfs.egg-info/SOURCES.txt
+src/lazylfs.egg-info/dependency_links.txt
+src/lazylfs.egg-info/entry_points.txt
+src/lazylfs.egg-info/requires.txt
+src/lazylfs.egg-info/top_level.txt
