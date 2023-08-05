@@ -1,0 +1,14 @@
+README.md
+setup.py
+datajoint_connection_hub/__init__.py
+datajoint_connection_hub/version.py
+datajoint_connection_hub.egg-info/PKG-INFO
+datajoint_connection_hub.egg-info/SOURCES.txt
+datajoint_connection_hub.egg-info/datajoint_connection_hub.sig
+datajoint_connection_hub.egg-info/dependency_links.txt
+datajoint_connection_hub.egg-info/entry_points.txt
+datajoint_connection_hub.egg-info/requires.txt
+datajoint_connection_hub.egg-info/top_level.txt
+tests/__init__.py
+tests/test_hub.py
+tests/test_plugin.py
