@@ -1,0 +1,13 @@
+README.md
+setup.py
+RPi.infobot.egg-info/PKG-INFO
+RPi.infobot.egg-info/SOURCES.txt
+RPi.infobot.egg-info/dependency_links.txt
+RPi.infobot.egg-info/entry_points.txt
+RPi.infobot.egg-info/requires.txt
+RPi.infobot.egg-info/top_level.txt
+RPi.infobot.egg-info/zip-safe
+rpi_infobot/__init__.py
+rpi_infobot/command.py
+rpi_infobot/config.py
+rpi_infobot/convo.py
