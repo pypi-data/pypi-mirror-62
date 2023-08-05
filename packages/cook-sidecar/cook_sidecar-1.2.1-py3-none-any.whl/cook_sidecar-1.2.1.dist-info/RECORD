@@ -1,0 +1,14 @@
+cook/sidecar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cook/sidecar/__main__.py,sha256=kpWA7sX0QW3mGJD36OIqPnoh5cTHZyR0bOHTUs2Suq8,3344
+cook/sidecar/config.py,sha256=yyngpZe9Xl9gu8C61l8itUS4-5FMzqibWmk3U3Qw0vA,6386
+cook/sidecar/exit_sentinel.py,sha256=Ym3BOUPJEM1AUkBx52e87dP8KHHic8vTi1lZF34tx0E,1972
+cook/sidecar/file_server.py,sha256=0F2kwPZcPHCwlfluOparudYwygEoZxyXtV8t-iTOAt4,9062
+cook/sidecar/progress.py,sha256=qerXpwazOHuLXl78TNvf4rs_SYn4ZRVXkwWRxF95xUg,5842
+cook/sidecar/tracker.py,sha256=i0mgTgQahFx9KhoHG2_WGaJrQpn-08JwY4O-rYNw9v8,15564
+cook/sidecar/util.py,sha256=YbjoyfgSb1WyQLrNmKw7_0XW_3h5slChhJwPnQX4ujI,1404
+cook/sidecar/version.py,sha256=rrgeG0Eo5T7G4XnCQdZdSUrKsWWGlQ4qVstbFgXoGYA,18
+cook_sidecar-1.2.1.dist-info/METADATA,sha256=lgGKtoDbV2McQMXG4g-HykcWRYi7ysr6xz-odqozRws,356
+cook_sidecar-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cook_sidecar-1.2.1.dist-info/entry_points.txt,sha256=mKrqzkhTc3qKOZ4GbvzUkq3RtDTc1mtYMBqNcVtSUss,61
+cook_sidecar-1.2.1.dist-info/top_level.txt,sha256=ewNQIn2oRSYV98vAsUnw88u2Q8XHKhAz70ed2PEdR2c,5
+cook_sidecar-1.2.1.dist-info/RECORD,,
