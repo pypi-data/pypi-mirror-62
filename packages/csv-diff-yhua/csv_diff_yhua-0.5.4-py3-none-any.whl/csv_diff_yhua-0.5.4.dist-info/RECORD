@@ -1,0 +1,13 @@
+csv_diff/__init__.py,sha256=8UtoexWZ5sMib9hRUtHIIAwVkLD5TSn-UXH-Vmppp6o,5760
+csv_diff/cli.py,sha256=xM6jF69NYCqHvelzJWX7ykzMFxB-_3gMjDuP-dEq3V8,1126
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cli.py,sha256=7lEFqmqQ_gKEf1vPRRrnModn4EXojH8Vwzpfdb8rGQ4,1680
+tests/test_csv.py,sha256=XWesStDCWaVj0bhLV4opkv9rfOsphpdeGXRyL6R-PnA,415
+tests/test_csv_diff.py,sha256=snYD9vg2QS2NRBbScB8ZMUk4UsCSE_M4jz3FkR9Cyzw,1774
+tests/test_human_text.py,sha256=o7yMGNU4HXq3rsqXAGO6Vo6L3KyEh1uztYCY6SW8GFY,3031
+csv_diff_yhua-0.5.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+csv_diff_yhua-0.5.4.dist-info/METADATA,sha256=O73MoosQN8mprZcvoBBC-KXbC4rsWuhxYrOa0ZZV2a8,3115
+csv_diff_yhua-0.5.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+csv_diff_yhua-0.5.4.dist-info/entry_points.txt,sha256=VnFvSTWzcACN3PP7mJ_tIMj4lF5Iue0gHWkCLDXa0Wk,65
+csv_diff_yhua-0.5.4.dist-info/top_level.txt,sha256=Izu2XHhcMWRZMP7lwWQqCKmyuOMcL044oLiWyX7vLU4,15
+csv_diff_yhua-0.5.4.dist-info/RECORD,,
