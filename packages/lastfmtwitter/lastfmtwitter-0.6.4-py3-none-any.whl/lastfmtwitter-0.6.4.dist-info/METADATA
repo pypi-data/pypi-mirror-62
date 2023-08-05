@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: lastfmtwitter
+Version: 0.6.4
+Summary: Post your top weekly or yearly scrobbled artists to twitter.
+Home-page: UNKNOWN
+Author: Eric Mesa
+Author-email: eric@ericmesa.com
+License: GPLv3
+Keywords: twitter,lastfm
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: argparse
+Requires-Dist: pylast
+Requires-Dist: twitter
+
+
+last.fm-twitter
+
+
+Posts your top 3 artsists from last.fm to twitter. 
+
+Providing the -y or --yearly options will post your top 3 artists for the past twelve months.
+
+Currently you need to use the -j or --json option to link to a secrets file with your API secrets for last.fm and twitter.
+
+Format should be:
+
+.. code-block:: JSON
+
+    {"lastfm":
+                {"key": "alphanumeric",
+                "secret": "alphanumeric"},
+    "twitter":
+            {"consumer_key": "alphanumeric",
+            "consumer_secret": "alphanumeric",
+            "token_key": "alphanumeric-alphanumeric",
+            "token_secret": "alphanumeric"}
+
+
