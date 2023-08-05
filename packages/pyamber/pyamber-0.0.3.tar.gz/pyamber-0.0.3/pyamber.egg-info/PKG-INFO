@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyamber
+Version: 0.0.3
+Summary: Utility code for interacting with amberdata
+Home-page: https://github.com/tschm/amberdata
+Author: Thomas Schmelzer
+Author-email: thomas.schmelzer@gmail.com
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
