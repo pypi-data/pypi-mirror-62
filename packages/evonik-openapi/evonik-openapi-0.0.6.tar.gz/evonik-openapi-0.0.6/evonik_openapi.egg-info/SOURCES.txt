@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/evonik-openapi
+evonik/__init__.py
+evonik/openapi/__init__.py
+evonik/openapi/openapi.py
+evonik_openapi.egg-info/PKG-INFO
+evonik_openapi.egg-info/SOURCES.txt
+evonik_openapi.egg-info/dependency_links.txt
+evonik_openapi.egg-info/requires.txt
+evonik_openapi.egg-info/top_level.txt
