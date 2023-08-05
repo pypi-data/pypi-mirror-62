@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: mm-json
+Version: 0.0.0
+Summary: A small collection of tools to help converting to Marshmallow schemas
+Home-page: https://peilonrayz.github.io/mm_json
+Author: Peilonrayz
+Author-email: peilonrayz@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Peilonrayz/mm_json/issues
+Project-URL: Documentation, https://peilonrayz.github.io/mm_json
+Project-URL: Source Code, https://github.com/Peilonrayz/mm_json
+Description: MM JSON
+        =======
+        
+        .. image:: https://travis-ci.com/Peilonrayz/mm_json.svg?branch=master
+           :target: https://travis-ci.com/Peilonrayz/mm_json
+           :alt: Build Status
+        
+        About
+        -----
+        
+        A small collection of tools to help converting to Marshmallow schemas.
+        
+        Installation
+        ------------
+        
+        .. code:: shell
+        
+           $ python -m pip install mm_json
+        
+        Documentation
+        -------------
+        
+        Documentation is available `via GitHub <https://peilonrayz.github.io/mm_json/>`_.
+        
+        Testing
+        -------
+        
+        To run all tests run ``nox``. No venv is needed; nox makes all of them for us.
+        
+        .. code:: shell
+        
+           $ python -m pip install --user nox
+           $ git clone https://peilonrayz.github.io/mm_json/
+           $ cd mm_json
+           mm_json $ nox
+        
+        License
+        -------
+        
+        MM JSON is available under the MIT license.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
