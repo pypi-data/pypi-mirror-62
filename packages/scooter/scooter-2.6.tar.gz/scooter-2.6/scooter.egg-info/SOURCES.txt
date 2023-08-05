@@ -1,0 +1,13 @@
+README.md
+setup.py
+scooter/__init__.py
+scooter/build_script.py
+scooter/gcc.py
+scooter/llvm.py
+scooter/remote_vs.py
+scooter/scooter.py
+scooter.egg-info/PKG-INFO
+scooter.egg-info/SOURCES.txt
+scooter.egg-info/dependency_links.txt
+scooter.egg-info/requires.txt
+scooter.egg-info/top_level.txt
