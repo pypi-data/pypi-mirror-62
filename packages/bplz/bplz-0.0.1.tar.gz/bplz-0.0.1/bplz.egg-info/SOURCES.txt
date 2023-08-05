@@ -1,0 +1,7 @@
+README.md
+setup.py
+bplz.egg-info/PKG-INFO
+bplz.egg-info/SOURCES.txt
+bplz.egg-info/dependency_links.txt
+bplz.egg-info/entry_points.txt
+bplz.egg-info/top_level.txt
