@@ -1,0 +1,8 @@
+azureml-core
+python-dotenv
+nbformat
+papermill
+nbconvert
+junit_xml
+PyYAML
+pytest
