@@ -1,0 +1,17 @@
+openconnect_sso/__init__.py,sha256=Yatqst0z_JSuo8cdVTQ5cz1huJ-SWtGmW4cuPxLePuk,270
+openconnect_sso/app.py,sha256=gZX0ZWdRXenZh4NIpQbGS9GSwOA2ewY7wh0bN-xVFj4,5042
+openconnect_sso/authenticator.py,sha256=OzFijImTEXdRnh5urkRuDG_Tg3iCRBPsUs0HH2p2Cx0,6943
+openconnect_sso/browser/__init__.py,sha256=OpW5-Qg3MvbdDp8mX6b7sLhqcjIYs8rgesOgiQi-F9U,100
+openconnect_sso/browser/browser.py,sha256=YIeBQI26Nr904hdSEMAAhgW9erXyP9gGPWDvpjpOCd4,2430
+openconnect_sso/browser/user.js,sha256=nyJCMGBA8LXOQCPU7q5Z_52jBuHVDySSZG5vPUckWuI,37
+openconnect_sso/browser/webengine_process.py,sha256=o6-QbcCN6M2Q8Mz-_2QhGOKm_1pjv2m9F3UrLJ4OU2g,5596
+openconnect_sso/cli.py,sha256=-2JOdLf1eBQOka5GRivKh4BR0AJPRMoJYZ7k8LqTCpc,4218
+openconnect_sso/config.py,sha256=8qkEvj8hBYBJUDQF8fwd_TBZCiJbOA2ybW-BdL9_NMc,3206
+openconnect_sso/profile.py,sha256=fPH3T8WOQLKBmRY2CdU3osd3RjIAhzNPTQn9AUwvwdE,1180
+openconnect_sso/saml_authenticator.py,sha256=EeeEDa-0MT-NByth938Fpr8Hy4iKfZoULSn6WwptNHU,504
+openconnect_sso/version.py,sha256=FZprAVDFSvdme-wIn7Kbn3-y8qKcbFFxUtEkS99PCJo,34
+openconnect_sso-0.4.0.dist-info/entry_points.txt,sha256=Uu2JpzUZZSvaRDpGWe-xHWz3cM-2x9PbgYWxKs1_67s,60
+openconnect_sso-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+openconnect_sso-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+openconnect_sso-0.4.0.dist-info/METADATA,sha256=RewMzLTVinoK8Cv5IlstYH77VewBg9emjdtWhQUWovc,5841
+openconnect_sso-0.4.0.dist-info/RECORD,,
