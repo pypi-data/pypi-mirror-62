@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyterrier/__init__.py
+pyterrier/batchretrieve.py
+pyterrier/index.py
+pyterrier/pyterrier.py
+pyterrier/setup.py
+pyterrier/utils.py
+python_terrier.egg-info/PKG-INFO
+python_terrier.egg-info/SOURCES.txt
+python_terrier.egg-info/dependency_links.txt
+python_terrier.egg-info/requires.txt
+python_terrier.egg-info/top_level.txt
