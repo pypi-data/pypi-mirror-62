@@ -1,0 +1,9 @@
+graphql-core>=3.0
+
+[dev]
+pytest<6,>=5.3.4
+flake8<4,>=3.7.9
+pytest-describe<1,>=0.12
+django<3,>=1.11
+sphinx<3,>=2.4.1
+sphinx_rtd_theme<1,>=0.4.3
