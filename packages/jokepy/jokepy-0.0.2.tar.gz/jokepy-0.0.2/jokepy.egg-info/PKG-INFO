@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jokepy
+Version: 0.0.2
+Summary: A package to retrive jokes from https://sv443.net/jokeapi/v2
+Home-page: https://github.com/aksty/Jokepy
+Author: Akshay T
+Author-email: sup.aks.apps@gmail.com
+License: UNKNOWN
+Description: ﻿## Jokepy
+        
+        This is a python interface for fetching jokes from [JokeAPI](https://sv443.net/jokeapi/v2)
+        
+         **How to Use ?**
+        
+            import jokepy as jk
+        
+        **Check this:**
+        
+            jk.info
+            
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
