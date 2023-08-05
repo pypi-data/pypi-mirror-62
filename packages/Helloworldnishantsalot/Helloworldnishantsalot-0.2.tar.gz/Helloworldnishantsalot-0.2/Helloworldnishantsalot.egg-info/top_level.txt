@@ -1,0 +1,5 @@
+scipytest
+testbuiltins
+testnumpy
+testpython
+threadingtest
