@@ -1,0 +1,933 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CheapBuyerFactoryManager &mdash; scml 0.2.4 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NVMFactoryManager" href="scml.scml2019.NVMFactoryManager.html" />
+    <link rel="prev" title="SAHAFactoryManager" href="scml.scml2019.SAHAFactoryManager.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> scml
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.2.4
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../readme.html#id1">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../readme.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../readme.html#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../readme.html#development">Development</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials.html">Tutorials</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/01.run_scml2020.html">Run a session of the SCML world (2020)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/01.run_scml2020.html#running-a-tournament">Running a tournament</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html">Developing an agent for SCML2020</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#do-nothing-agent">Do Nothing Agent</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#agent-anatomy">Agent Anatomy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#strategies">Strategies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#production-strategy">Production Strategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#trading-strategy">Trading Strategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#negotiation-control-strategy">Negotiation Control Strategy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/02.develop_agent_scml2020.html#creating-our-own-negotiation-control-strategy">Creating our own negotiation control strategy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../faq.html#how-can-i-access-a-data-file-in-my-package">How can I access a data file in my package?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq.html#can-i-print-to-the-screen-to-debug-my-agent">Can I print to the screen to debug my agent?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../faq.html#can-i-write-arbitrary-code-in-my-module-besides-the-agent-class-definition">Can I write arbitrary code in my module besides the agent class definition?</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../modules/scml2019.html">SCML2019</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../modules/scml2019.html#module-scml.scml2019">scml.scml2019 Package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2019.html#simulation-steps">Simulation steps:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2019.html#remarks-about-re-negotiation-on-breaches">Remarks about re-negotiation on breaches:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2019.html#remarks-about-timing">Remarks about timing:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2019.html#remarks-about-anac-2019-scml-league">Remarks about ANAC 2019 SCML League:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2019.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.transaction.html">transaction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.temporary_transaction.html">temporary_transaction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.anac2019_world.html">anac2019_world</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.anac2019_tournament.html">anac2019_tournament</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.anac2019_collusion.html">anac2019_collusion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.anac2019_std.html">anac2019_std</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.balance_calculator.html">balance_calculator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.anac2019_sabotage.html">anac2019_sabotage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.pos_gauss.html">pos_gauss</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019._safe_max.html">_safe_max</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.zero_runs.html">zero_runs</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="reference internal" href="../modules/scml2019.html#classes">Classes</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Product.html">Product</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Process.html">Process</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.InputOutput.html">InputOutput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.RunningCommandInfo.html">RunningCommandInfo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ManufacturingProfile.html">ManufacturingProfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ManufacturingProfileCompiled.html">ManufacturingProfileCompiled</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ProductManufacturingInfo.html">ProductManufacturingInfo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FactoryStatusUpdate.html">FactoryStatusUpdate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Job.html">Job</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ProductionNeed.html">ProductionNeed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.MissingInput.html">MissingInput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ProductionReport.html">ProductionReport</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ProductionFailure.html">ProductionFailure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FinancialReport.html">FinancialReport</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SCMLAgreement.html">SCMLAgreement</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SCMLAction.html">SCMLAction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.CFP.html">CFP</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Loan.html">Loan</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.InsurancePolicy.html">InsurancePolicy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Factory.html">Factory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FactoryState.html">FactoryState</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SCMLAWI.html">SCMLAWI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FactoryManager.html">FactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.DoNothingFactoryManager.html">DoNothingFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.GreedyFactoryManager.html">GreedyFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.JavaFactoryManager.html">JavaFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.JavaDoNothingFactoryManager.html">JavaDoNothingFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.JavaGreedyFactoryManager.html">JavaGreedyFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.JavaDummyMiddleMan.html">JavaDummyMiddleMan</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FJ2FactoryManager.html">FJ2FactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.RaptFactoryManager.html">RaptFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.InsuranceFraudFactoryManager.html">InsuranceFraudFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SAHAFactoryManager.html">SAHAFactoryManager</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">CheapBuyerFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.NVMFactoryManager.html">NVMFactoryManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.DefaultBank.html">DefaultBank</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Bank.html">Bank</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.DefaultInsuranceCompany.html">DefaultInsuranceCompany</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.InsuranceCompany.html">InsuranceCompany</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SCML2019Agent.html">SCML2019Agent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FactorySimulator.html">FactorySimulator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SlowFactorySimulator.html">SlowFactorySimulator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.FastFactorySimulator.html">FastFactorySimulator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.DefaultGreedyManager.html">DefaultGreedyManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ScheduleInfo.html">ScheduleInfo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Scheduler.html">Scheduler</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.GreedyScheduler.html">GreedyScheduler</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.SCML2019World.html">SCML2019World</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Factory.html">Factory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Consumer.html">Consumer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ConsumptionProfile.html">ConsumptionProfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.JustInTimeConsumer.html">JustInTimeConsumer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.Miner.html">Miner</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.MiningProfile.html">MiningProfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2019.ReactiveMiner.html">ReactiveMiner</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2019.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/scml2020.html">SCML2020</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../modules/scml2020.html#module-scml.scml2020">scml.scml2020 Package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2020.html#functions">Functions</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.is_system_agent.html">is_system_agent</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2020.html#classes">Classes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.RandomAgent.html">RandomAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.DoNothingAgent.html">DoNothingAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.IndependentNegotiationsAgent.html">IndependentNegotiationsAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.BuyCheapSellExpensiveAgent.html">BuyCheapSellExpensiveAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.DecentralizingAgent.html">DecentralizingAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.IndDecentralizingAgent.html">IndDecentralizingAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.ReactiveAgent.html">ReactiveAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.MovingRangeAgent.html">MovingRangeAgent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.FactoryState.html">FactoryState</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.SCML2020Agent.html">SCML2020Agent</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.AWI.html">AWI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.SCML2020World.html">SCML2020World</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.FinancialReport.html">FinancialReport</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.FactoryProfile.html">FactoryProfile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.Factory.html">Factory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.Failure.html">Failure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.Simulation.html">Simulation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.ProductionStrategy.html">ProductionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.SupplyDrivenProductionStrategy.html">SupplyDrivenProductionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.DemandDrivenProductionStrategy.html">DemandDrivenProductionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.TradeDrivenProductionStrategy.html">TradeDrivenProductionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.TradePredictionStrategy.html">TradePredictionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.FixedTradePredictionStrategy.html">FixedTradePredictionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.ExecutionRatePredictionStrategy.html">ExecutionRatePredictionStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.FixedERPStrategy.html">FixedERPStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.MeanERPStrategy.html">MeanERPStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.SignAll.html">SignAll</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.SignAllPossible.html">SignAllPossible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.TradingStrategy.html">TradingStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.ReactiveTradingStrategy.html">ReactiveTradingStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.PredictionBasedTradingStrategy.html">PredictionBasedTradingStrategy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.NegotiationManager.html">NegotiationManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.StepNegotiationManager.html">StepNegotiationManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.IndependentNegotiationsManager.html">IndependentNegotiationsManager</a></li>
+<li class="toctree-l4"><a class="reference internal" href="scml.scml2020.MovingRangeNegotiationManager.html">MovingRangeNegotiationManager</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/scml2020.html#class-inheritance-diagram">Class Inheritance Diagram</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../scripts.html">Command Line Scripts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../scripts.html#tournament-command-scml-tournament">Tournament Command (scml tournament)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../scripts.html#creating-a-tournament">Creating a tournament</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../scripts.html#running-a-tournament">Running a tournament</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../scripts.html#combining-tournament-results">Combining tournament results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../scripts.html#finding-the-winners-of-a-tournament">Finding the winners of a tournament</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../scripts.html#running-an-scml2020-world-scml-run2020">Running an SCML2020 world (scml run2020)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../scripts.html#running-an-scml2019-world-scml-run2019">Running an SCML2019 world (scml run2019)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/index.html">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../reference/scml.html">scml</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../contributing.html#bug-reports">Bug reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing.html#documentation-improvements">Documentation improvements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing.html#feature-requests-and-feedback">Feature requests and feedback</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../contributing.html#development">Development</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../contributing.html#pull-request-guidelines">Pull Request Guidelines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../contributing.html#tips">Tips</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id1">0.2.4 (2019.2.21)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id2">0.2.3 (2019.2.15)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id3">0.2.2 (2019.1.31)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id4">0.2.1 (2019.1.23)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id5">0.2.0 (2019.1.8)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id6">0.1.5 (2019.12.11)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id7">0.1.3 (2019-12-08)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id8">0.1.2 (2019-12-01)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id9">0.1.1 (2019-11-25)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../changelog.html#id10">0.1.0 (2019-11-20)</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">scml</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../modules/scml2019.html">SCML2019</a> &raquo;</li>
+        
+      <li>CheapBuyerFactoryManager</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/scml.scml2019.CheapBuyerFactoryManager.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="cheapbuyerfactorymanager">
+<h1>CheapBuyerFactoryManager<a class="headerlink" href="#cheapbuyerfactorymanager" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="scml.scml2019.CheapBuyerFactoryManager">
+<em class="property">class </em><code class="sig-prename descclassname">scml.scml2019.</code><code class="sig-name descname">CheapBuyerFactoryManager</code><span class="sig-paren">(</span><em class="sig-param">name=None</em>, <em class="sig-param">scheduler_type=&lt;class 'scml.scml2019.factory_managers.cheap_buyer.myscheduler.MyScheduler'&gt;</em>, <em class="sig-param">negotiator_type='my_negotiator.Mynegotiator'</em>, <em class="sig-param">riskiness=1</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="scml.scml2019.GreedyFactoryManager.html#scml.scml2019.GreedyFactoryManager" title="scml.scml2019.factory_managers.builtins.GreedyFactoryManager"><code class="docutils literal notranslate"><span class="pre">scml.scml2019.GreedyFactoryManager</span></code></a></p>
+<p class="rubric">Methods Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.accept_negotiation" title="scml.scml2019.CheapBuyerFactoryManager.accept_negotiation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">accept_negotiation</span></code></a>(cfp)</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.accept_negotiation_old" title="scml.scml2019.CheapBuyerFactoryManager.accept_negotiation_old"><code class="xref py py-obj docutils literal notranslate"><span class="pre">accept_negotiation_old</span></code></a>(cfp)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.add_negotiation_step_data" title="scml.scml2019.CheapBuyerFactoryManager.add_negotiation_step_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_negotiation_step_data</span></code></a>(mechanism, partner_id)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.add_to_cumulative_estimated_demands" title="scml.scml2019.CheapBuyerFactoryManager.add_to_cumulative_estimated_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_to_cumulative_estimated_demands</span></code></a>(cfp)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.can_produce" title="scml.scml2019.CheapBuyerFactoryManager.can_produce"><code class="xref py py-obj docutils literal notranslate"><span class="pre">can_produce</span></code></a>(cfp[, …])</p></td>
+<td><p>Whether or not we can produce the required item in time</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.confirm_contract_execution" title="scml.scml2019.CheapBuyerFactoryManager.confirm_contract_execution"><code class="xref py py-obj docutils literal notranslate"><span class="pre">confirm_contract_execution</span></code></a>(contract)</p></td>
+<td><p>Called before executing any agreement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.estimate_unweighted_demand" title="scml.scml2019.CheapBuyerFactoryManager.estimate_unweighted_demand"><code class="xref py py-obj docutils literal notranslate"><span class="pre">estimate_unweighted_demand</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.estimate_weighted_demand" title="scml.scml2019.CheapBuyerFactoryManager.estimate_weighted_demand"><code class="xref py py-obj docutils literal notranslate"><span class="pre">estimate_weighted_demand</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.generateDecoyCFPs" title="scml.scml2019.CheapBuyerFactoryManager.generateDecoyCFPs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generateDecoyCFPs</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_alpha_and_beta" title="scml.scml2019.CheapBuyerFactoryManager.get_alpha_and_beta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_alpha_and_beta</span></code></a>(number_of_negotiations, gamma)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_amount_of_final_products" title="scml.scml2019.CheapBuyerFactoryManager.get_amount_of_final_products"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_amount_of_final_products</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_amount_of_raw_materials" title="scml.scml2019.CheapBuyerFactoryManager.get_amount_of_raw_materials"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_amount_of_raw_materials</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_average_buying_price" title="scml.scml2019.CheapBuyerFactoryManager.get_average_buying_price"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_average_buying_price</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_average_selling_price" title="scml.scml2019.CheapBuyerFactoryManager.get_average_selling_price"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_average_selling_price</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_balance" title="scml.scml2019.CheapBuyerFactoryManager.get_balance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_balance</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_process_cost" title="scml.scml2019.CheapBuyerFactoryManager.get_process_cost"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_process_cost</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_sum_of_unweighted_demands" title="scml.scml2019.CheapBuyerFactoryManager.get_sum_of_unweighted_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_sum_of_unweighted_demands</span></code></a>()</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_sum_of_weighted_demands" title="scml.scml2019.CheapBuyerFactoryManager.get_sum_of_weighted_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_sum_of_weighted_demands</span></code></a>()</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_target_price" title="scml.scml2019.CheapBuyerFactoryManager.get_target_price"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_target_price</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_total_profit" title="scml.scml2019.CheapBuyerFactoryManager.get_total_profit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_total_profit</span></code></a>([contracts])</p></td>
+<td><p>Calculates the total utility for the agent of a collection of contracts</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.get_unweighted_estimated_average_demands" title="scml.scml2019.CheapBuyerFactoryManager.get_unweighted_estimated_average_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_unweighted_estimated_average_demands</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.init" title="scml.scml2019.CheapBuyerFactoryManager.init"><code class="xref py py-obj docutils literal notranslate"><span class="pre">init</span></code></a>()</p></td>
+<td><p>Called to initialize the agent <strong>after</strong> the world is initialized.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.initialize_unweighted_sum_of_estimated_demands" title="scml.scml2019.CheapBuyerFactoryManager.initialize_unweighted_sum_of_estimated_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">initialize_unweighted_sum_of_estimated_demands</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.initialize_weighted_sum_of_estimated_demands" title="scml.scml2019.CheapBuyerFactoryManager.initialize_weighted_sum_of_estimated_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">initialize_weighted_sum_of_estimated_demands</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable" title="scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_cfp_acceptable</span></code></a>(cfp)</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable_2" title="scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable_2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_cfp_acceptable_2</span></code></a>(cfp)</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_agent_bankrupt" title="scml.scml2019.CheapBuyerFactoryManager.on_agent_bankrupt"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_agent_bankrupt</span></code></a>(agent_id)</p></td>
+<td><p>Will be called whenever any agent goes bankrupt</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_contract_cancelled" title="scml.scml2019.CheapBuyerFactoryManager.on_contract_cancelled"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_contract_cancelled</span></code></a>(contract, rejectors)</p></td>
+<td><p>Called whenever at least a partner did not sign the contract</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_contract_signed" title="scml.scml2019.CheapBuyerFactoryManager.on_contract_signed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_contract_signed</span></code></a>(contract)</p></td>
+<td><p>Called whenever a contract is signed by all partners</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_neg_request_accepted" title="scml.scml2019.CheapBuyerFactoryManager.on_neg_request_accepted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_neg_request_accepted</span></code></a>(req_id, mechanism)</p></td>
+<td><p>Called when a requested negotiation is accepted</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_neg_request_rejected" title="scml.scml2019.CheapBuyerFactoryManager.on_neg_request_rejected"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_neg_request_rejected</span></code></a>(req_id, by)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_negotiation_failure" title="scml.scml2019.CheapBuyerFactoryManager.on_negotiation_failure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_negotiation_failure</span></code></a>(partners, annotation, …)</p></td>
+<td><p>Called whenever a negotiation ends without agreement</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_negotiation_success" title="scml.scml2019.CheapBuyerFactoryManager.on_negotiation_success"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_negotiation_success</span></code></a>(contract, mechanism)</p></td>
+<td><p>Called whenever a negotiation ends with agreement</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_new_cfp" title="scml.scml2019.CheapBuyerFactoryManager.on_new_cfp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on_new_cfp</span></code></a>(cfp)</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.post_cfps" title="scml.scml2019.CheapBuyerFactoryManager.post_cfps"><code class="xref py py-obj docutils literal notranslate"><span class="pre">post_cfps</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.post_cfps_2" title="scml.scml2019.CheapBuyerFactoryManager.post_cfps_2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">post_cfps_2</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.process_raw_materials" title="scml.scml2019.CheapBuyerFactoryManager.process_raw_materials"><code class="xref py py-obj docutils literal notranslate"><span class="pre">process_raw_materials</span></code></a>([quantity])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.register_all_products" title="scml.scml2019.CheapBuyerFactoryManager.register_all_products"><code class="xref py py-obj docutils literal notranslate"><span class="pre">register_all_products</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.respond_to_cfp" title="scml.scml2019.CheapBuyerFactoryManager.respond_to_cfp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">respond_to_cfp</span></code></a>(cfp)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.respond_to_negotiation_request" title="scml.scml2019.CheapBuyerFactoryManager.respond_to_negotiation_request"><code class="xref py py-obj docutils literal notranslate"><span class="pre">respond_to_negotiation_request</span></code></a>(cfp, partner)</p></td>
+<td><p>Called when a prospective partner requests a negotiation to start</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.sign_contract" title="scml.scml2019.CheapBuyerFactoryManager.sign_contract"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sign_contract</span></code></a>(contract)</p></td>
+<td><p>Called after the signing delay from contract conclusion to sign the contract.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.step" title="scml.scml2019.CheapBuyerFactoryManager.step"><code class="xref py py-obj docutils literal notranslate"><span class="pre">step</span></code></a>()</p></td>
+<td><p>Called by the simulator at every simulation step</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.total_utility" title="scml.scml2019.CheapBuyerFactoryManager.total_utility"><code class="xref py py-obj docutils literal notranslate"><span class="pre">total_utility</span></code></a>([contracts])</p></td>
+<td><p>Calculates the total utility for the agent of a collection of contracts</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.unweighted_sum_of_estimated_demands" title="scml.scml2019.CheapBuyerFactoryManager.unweighted_sum_of_estimated_demands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unweighted_sum_of_estimated_demands</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.write_to_file" title="scml.scml2019.CheapBuyerFactoryManager.write_to_file"><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_to_file</span></code></a>(averaged_estimated_demands, …)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods Documentation</p>
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.accept_negotiation">
+<code class="sig-name descname">accept_negotiation</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.accept_negotiation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.accept_negotiation" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.accept_negotiation_old">
+<code class="sig-name descname">accept_negotiation_old</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.accept_negotiation_old"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.accept_negotiation_old" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.add_negotiation_step_data">
+<code class="sig-name descname">add_negotiation_step_data</code><span class="sig-paren">(</span><em class="sig-param">mechanism</em>, <em class="sig-param">partner_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.add_negotiation_step_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.add_negotiation_step_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.add_to_cumulative_estimated_demands">
+<code class="sig-name descname">add_to_cumulative_estimated_demands</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.add_to_cumulative_estimated_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.add_to_cumulative_estimated_demands" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.can_produce">
+<code class="sig-name descname">can_produce</code><span class="sig-paren">(</span><em class="sig-param">cfp</em>, <em class="sig-param">assume_no_further_negotiations=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.can_produce"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.can_produce" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether or not we can produce the required item in time</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.confirm_contract_execution">
+<code class="sig-name descname">confirm_contract_execution</code><span class="sig-paren">(</span><em class="sig-param">contract</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.confirm_contract_execution"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.confirm_contract_execution" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called before executing any agreement</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.estimate_unweighted_demand">
+<code class="sig-name descname">estimate_unweighted_demand</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.estimate_unweighted_demand"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.estimate_unweighted_demand" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.estimate_weighted_demand">
+<code class="sig-name descname">estimate_weighted_demand</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.estimate_weighted_demand"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.estimate_weighted_demand" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.generateDecoyCFPs">
+<code class="sig-name descname">generateDecoyCFPs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.generateDecoyCFPs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.generateDecoyCFPs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_alpha_and_beta">
+<code class="sig-name descname">get_alpha_and_beta</code><span class="sig-paren">(</span><em class="sig-param">number_of_negotiations</em>, <em class="sig-param">gamma</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_alpha_and_beta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_alpha_and_beta" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_amount_of_final_products">
+<code class="sig-name descname">get_amount_of_final_products</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_amount_of_final_products"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_amount_of_final_products" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_amount_of_raw_materials">
+<code class="sig-name descname">get_amount_of_raw_materials</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_amount_of_raw_materials"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_amount_of_raw_materials" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_average_buying_price">
+<code class="sig-name descname">get_average_buying_price</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_average_buying_price"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_average_buying_price" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_average_selling_price">
+<code class="sig-name descname">get_average_selling_price</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_average_selling_price"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_average_selling_price" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_balance">
+<code class="sig-name descname">get_balance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_balance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_balance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_process_cost">
+<code class="sig-name descname">get_process_cost</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_process_cost"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_process_cost" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_sum_of_unweighted_demands">
+<code class="sig-name descname">get_sum_of_unweighted_demands</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_sum_of_unweighted_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_sum_of_unweighted_demands" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_sum_of_weighted_demands">
+<code class="sig-name descname">get_sum_of_weighted_demands</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_sum_of_weighted_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_sum_of_weighted_demands" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_target_price">
+<code class="sig-name descname">get_target_price</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_target_price"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_target_price" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_total_profit">
+<code class="sig-name descname">get_total_profit</code><span class="sig-paren">(</span><em class="sig-param">contracts=()</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_total_profit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_total_profit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the total utility for the agent of a collection of contracts</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.get_unweighted_estimated_average_demands">
+<code class="sig-name descname">get_unweighted_estimated_average_demands</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.get_unweighted_estimated_average_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.get_unweighted_estimated_average_demands" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.init">
+<code class="sig-name descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.init" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called to initialize the agent <strong>after</strong> the world is initialized. the AWI is accessible at this point.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.initialize_unweighted_sum_of_estimated_demands">
+<code class="sig-name descname">initialize_unweighted_sum_of_estimated_demands</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.initialize_unweighted_sum_of_estimated_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.initialize_unweighted_sum_of_estimated_demands" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.initialize_weighted_sum_of_estimated_demands">
+<code class="sig-name descname">initialize_weighted_sum_of_estimated_demands</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.initialize_weighted_sum_of_estimated_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.initialize_weighted_sum_of_estimated_demands" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable">
+<code class="sig-name descname">is_cfp_acceptable</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.is_cfp_acceptable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable_2">
+<code class="sig-name descname">is_cfp_acceptable_2</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.is_cfp_acceptable_2"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.is_cfp_acceptable_2" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_agent_bankrupt">
+<code class="sig-name descname">on_agent_bankrupt</code><span class="sig-paren">(</span><em class="sig-param">agent_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_agent_bankrupt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_agent_bankrupt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will be called whenever any agent goes bankrupt</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>agent_id</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The ID of the agent that went bankrupt</p>
+</dd>
+</dl>
+<p>Remarks:</p>
+<blockquote>
+<div><ul>
+<li><p>Agents can go bankrupt in two cases:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Failing to pay one installments of a loan they bought and refusing (or being unable to) get another
+loan to pay it.</p></li>
+<li><p>Failing to pay a penalty on a sell contract they failed to honor (and refusing or being unable to get
+a loan to pay for it).</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>All built-in agents ignore this call and they use the bankruptcy list ONLY to decide whether or not to
+negotiate in their <a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.on_new_cfp" title="scml.scml2019.CheapBuyerFactoryManager.on_new_cfp"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">on_new_cfp</span></code></a> and <a class="reference internal" href="#scml.scml2019.CheapBuyerFactoryManager.respond_to_negotiation_request" title="scml.scml2019.CheapBuyerFactoryManager.respond_to_negotiation_request"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">respond_to_negotiation_request</span></code></a> callbacks by pulling the
+bulletin-board using the helper function <a class="reference internal" href="scml.scml2019.SCMLAWI.html#scml.scml2019.SCMLAWI.is_bankrupt" title="scml.scml2019.SCMLAWI.is_bankrupt"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">is_bankrupt</span></code></a> of their AWI.</p></li>
+</ul>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_contract_cancelled">
+<code class="sig-name descname">on_contract_cancelled</code><span class="sig-paren">(</span><em class="sig-param">contract</em>, <em class="sig-param">rejectors</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_contract_cancelled"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_contract_cancelled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called whenever at least a partner did not sign the contract</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_contract_signed">
+<code class="sig-name descname">on_contract_signed</code><span class="sig-paren">(</span><em class="sig-param">contract</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_contract_signed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_contract_signed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called whenever a contract is signed by all partners</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_neg_request_accepted">
+<code class="sig-name descname">on_neg_request_accepted</code><span class="sig-paren">(</span><em class="sig-param">req_id</em>, <em class="sig-param">mechanism</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_neg_request_accepted"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_neg_request_accepted" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called when a requested negotiation is accepted</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_neg_request_rejected">
+<code class="sig-name descname">on_neg_request_rejected</code><span class="sig-paren">(</span><em class="sig-param">req_id</em>, <em class="sig-param">by</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_neg_request_rejected"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_neg_request_rejected" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_negotiation_failure">
+<code class="sig-name descname">on_negotiation_failure</code><span class="sig-paren">(</span><em class="sig-param">partners</em>, <em class="sig-param">annotation</em>, <em class="sig-param">mechanism</em>, <em class="sig-param">state</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_negotiation_failure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_negotiation_failure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called whenever a negotiation ends without agreement</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_negotiation_success">
+<code class="sig-name descname">on_negotiation_success</code><span class="sig-paren">(</span><em class="sig-param">contract</em>, <em class="sig-param">mechanism</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_negotiation_success"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_negotiation_success" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called whenever a negotiation ends with agreement</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.on_new_cfp">
+<code class="sig-name descname">on_new_cfp</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.on_new_cfp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.on_new_cfp" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.post_cfps">
+<code class="sig-name descname">post_cfps</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.post_cfps"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.post_cfps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.post_cfps_2">
+<code class="sig-name descname">post_cfps_2</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.post_cfps_2"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.post_cfps_2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.process_raw_materials">
+<code class="sig-name descname">process_raw_materials</code><span class="sig-paren">(</span><em class="sig-param">quantity=10</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.process_raw_materials"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.process_raw_materials" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.register_all_products">
+<code class="sig-name descname">register_all_products</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.register_all_products"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.register_all_products" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.respond_to_cfp">
+<code class="sig-name descname">respond_to_cfp</code><span class="sig-paren">(</span><em class="sig-param">cfp</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.respond_to_cfp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.respond_to_cfp" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.respond_to_negotiation_request">
+<code class="sig-name descname">respond_to_negotiation_request</code><span class="sig-paren">(</span><em class="sig-param">cfp</em>, <em class="sig-param">partner</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.respond_to_negotiation_request"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.respond_to_negotiation_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called when a prospective partner requests a negotiation to start</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Negotiator</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.sign_contract">
+<code class="sig-name descname">sign_contract</code><span class="sig-paren">(</span><em class="sig-param">contract</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.sign_contract"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.sign_contract" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called after the signing delay from contract conclusion to sign the contract. Contracts become binding
+only after they are signed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.step"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called by the simulator at every simulation step</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.total_utility">
+<code class="sig-name descname">total_utility</code><span class="sig-paren">(</span><em class="sig-param">contracts=()</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.total_utility"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.total_utility" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the total utility for the agent of a collection of contracts</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.unweighted_sum_of_estimated_demands">
+<code class="sig-name descname">unweighted_sum_of_estimated_demands</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.unweighted_sum_of_estimated_demands"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.unweighted_sum_of_estimated_demands" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="scml.scml2019.CheapBuyerFactoryManager.write_to_file">
+<code class="sig-name descname">write_to_file</code><span class="sig-paren">(</span><em class="sig-param">averaged_estimated_demands</em>, <em class="sig-param">filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/scml/scml2019/factory_managers/cheap_buyer/cheapbuyer.html#CheapBuyerFactoryManager.write_to_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#scml.scml2019.CheapBuyerFactoryManager.write_to_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="scml.scml2019.NVMFactoryManager.html" class="btn btn-neutral float-right" title="NVMFactoryManager" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="scml.scml2019.SAHAFactoryManager.html" class="btn btn-neutral float-left" title="SAHAFactoryManager" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Yasser Mohammad
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
