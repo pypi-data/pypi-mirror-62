@@ -1,0 +1,7 @@
+README.md
+quickfiles.py
+setup.py
+quickfiles.egg-info/PKG-INFO
+quickfiles.egg-info/SOURCES.txt
+quickfiles.egg-info/dependency_links.txt
+quickfiles.egg-info/top_level.txt
