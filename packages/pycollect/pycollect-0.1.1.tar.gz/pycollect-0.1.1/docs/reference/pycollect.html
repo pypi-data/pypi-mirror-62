@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>pycollect &#8212; pycollect 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/pydoctheme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    
+    <script src="../_static/sidebar.js"></script>
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributing" href="../contributing.html" />
+    <link rel="prev" title="Reference" href="index.html" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="shortcut icon" type="image/png" href="../_static/favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=0.8">
+    
+    
+
+  </head><body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="responsive-menu"><a href="#sidebar-anchor" title="Navigation">&#9776;</a></li>
+        <li><a href="../index.html">pycollect-0.1.0</a> &#187;</li>
+          <li><a href="index.html" accesskey="U">Reference</a> &#187;</li> 
+      </ul>
+    </div>
+    
+        <div class="badge">
+            <a href="https://github.com/allrod5/pycollect/">Fork me on GitHub</a>
+            <img src="../_static/right-red@2x.png">
+        </div>
+    
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pycollect">
+<h1>pycollect<a class="headerlink" href="#pycollect" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-pycollect"></span><dl class="class">
+<dt id="pycollect.PythonFileCollector">
+<em class="property">class </em><code class="sig-prename descclassname">pycollect.</code><code class="sig-name descname">PythonFileCollector</code><span class="sig-paren">(</span><em class="sig-param">use_regex_patterns: bool = False</em>, <em class="sig-param">additional_file_exclusion_patterns: Iterable[str] = None</em>, <em class="sig-param">additional_dir_exclusion_patterns: Iterable[str] = None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/pycollect/pycollect.html#PythonFileCollector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pycollect.PythonFileCollector" title="Permalink to this definition">¶</a></dt>
+<dd><p>PythonFileCollector provides method “collect” to collect files
+while applying exclusion patterns to files and directories.</p>
+<p>Exclusion patterns are in respect to file and directory names only, NOT taking
+into account the absolute nor the relative file or directory path.</p>
+<p>When not using regex patterns, a single wildcard, “*”, can be used anywhere in
+a pattern to filter names “starting with” and/or “ending with”. Also, a single
+exclamation mark, “!”, can be used at the beginning of the pattern to negate it.
+These only applies when :param use_regex_patterns: is False.</p>
+<p>Notice that using regex patterns may be slower.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>use_regex_patterns</strong> – (default: False) flag to indicate whether or not to use regex to match
+patterns. When this flag it set to False the PythonFileCollector._WILDCARD
+(default: “*”) character is interpreted as wildcard and patterns starting
+with the PythonFileCollector._NEGATION (default: “!”) character are negated.</p></li>
+<li><p><strong>additional_file_exclusion_patterns</strong> – (default: None) additional patterns to filter out of collection files. In
+addition to the PythonFileCollector._DEFAULT_FILE_EXCLUSION_PATTERNS or
+PythonFileCollector._DEFAULT_FILE_EXCLUSION_REGEX_PATTERNS any file that
+matches these patterns will be excluded from collection.</p></li>
+<li><p><strong>additional_dir_exclusion_patterns</strong> – (default: None) additional patterns to filter out of collection directories.
+In addition to the PythonFileCollector._DEFAULT_DIR_EXCLUSION_PATTERNS or
+PythonFileCollector._DEFAULT_DIR_EXCLUSION_REGEX_PATTERNS any directory that
+matches these patterns will be excluded from collection.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="pycollect.PythonFileCollector.collect">
+<code class="sig-name descname">collect</code><span class="sig-paren">(</span><em class="sig-param">search_path: Optional[str] = None</em>, <em class="sig-param">recursion_limit: Optional[int] = None</em>, <em class="sig-param">follow_symlinks: bool = True</em><span class="sig-paren">)</span> &#x2192; Set[posix.DirEntry]<a class="reference internal" href="../_modules/pycollect/pycollect.html#PythonFileCollector.collect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#pycollect.PythonFileCollector.collect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method to perform Python files collection in the specified search path,
+respecting exclusion patterns set to the class object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>search_path</strong> – (default: uses the caller’s path) absolute or relative path from which to
+search for when collecting Python files. This is expected to be a directory.</p></li>
+<li><p><strong>recursion_limit</strong> – (default: None) directory recursion limit. The directory indicated by the
+:param search_path: is considered level 0 of recursion.</p></li>
+<li><p><strong>follow_symlinks</strong> – (default: True) boolean indicating whether or not to follow symbolic links
+when collecting Python files.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A set of DirEntry instances referring to each collected file is returned.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <a id="sidebar-anchor"></a>
+    
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script><h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">pycollect</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/pycollect.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../contributing.html" title="Contributing"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Reference"
+             accesskey="P">previous</a> |</li>
+      </ul>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, Rodrigo Martins de Oliveira.
+      Last updated on Feb 24, 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+  </body>
+</html>
