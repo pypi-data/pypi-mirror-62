@@ -1,0 +1,10 @@
+README.md
+setup.py
+pysmms/__init__.py
+pysmms/pysmms.py
+pysmms.egg-info/PKG-INFO
+pysmms.egg-info/SOURCES.txt
+pysmms.egg-info/dependency_links.txt
+pysmms.egg-info/entry_points.txt
+pysmms.egg-info/requires.txt
+pysmms.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pysmms
+Version: 0.0.1
+Summary: The CLI Tool for SM.MS, based on API v2.
+Home-page: https://github.com/alpha87/pysmms
+Author: Jianxun
+Author-email: i@lijianxun.top
+License: UNKNOWN
+Description: # PYSMMS
+        
+        基于 sm.ms 图床的命令行工具。
+        
+        借鉴 [n0vad3v/smv2](https://github.com/n0vad3v/smv2)，在其基础上添加了上传成功后自动拷贝图片链接到剪贴板，多账号随机上传等功能。
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
