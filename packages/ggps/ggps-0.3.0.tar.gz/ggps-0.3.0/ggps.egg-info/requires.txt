@@ -1,0 +1,10 @@
+m26
+
+[dev]
+check-manifest
+flake8
+
+[test]
+coverage
+pytest
+pytest-cov
