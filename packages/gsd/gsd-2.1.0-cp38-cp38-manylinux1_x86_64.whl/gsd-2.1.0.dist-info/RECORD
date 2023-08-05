@@ -1,0 +1,8 @@
+gsd/hoomd.py,sha256=DnoFVAoSaAvoNORAwve2rKavNV6YdEmemeKsOv0ljWM,42724
+gsd/fl.cpython-38-x86_64-linux-gnu.so,sha256=uYnU__T68j5D4qlRwU8uU-5rQgyd-9RXZxkXs7Z6YaU,1257633
+gsd/__init__.py,sha256=-NC5XxrkPkp5FzmdzPvcjXopRlkk8_iul52iQ6KEXEA,793
+gsd/pygsd.py,sha256=J3yrK6H3o7Y78OqkF4qtpfYxMo406CTrhFjAu1QG2ck,14024
+gsd-2.1.0.dist-info/METADATA,sha256=3G-0RnHgJDKRMDuElMiWSQNxwttNDpNtOZfrtNC1d7A,4093
+gsd-2.1.0.dist-info/WHEEL,sha256=VEyGcIFAmk_1KbI6gaZGw_mMiT-pdGweASQLX-DzYaY,108
+gsd-2.1.0.dist-info/RECORD,,
+gsd-2.1.0.dist-info/top_level.txt,sha256=g8OjMPQhTrUjuQyeawPdylxoBfs2Fmpz4qpBU_tW4Yc,4
