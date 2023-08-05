@@ -1,0 +1,10 @@
+README.md
+setup.py
+pycalci/__init__.py
+pycalci/calculator.py
+pycalci.egg-info/PKG-INFO
+pycalci.egg-info/SOURCES.txt
+pycalci.egg-info/dependency_links.txt
+pycalci.egg-info/entry_points.txt
+pycalci.egg-info/requires.txt
+pycalci.egg-info/top_level.txt
