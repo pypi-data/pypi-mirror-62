@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: lighten(rgba(green, 0.5), 10%);
+  color: white;
+}
+
+/*
+EmojiSymbols Font (c)blockworks - Kenichi Kaneko
+http://emojisymbols.com/
+*/
+
+/* Emoji fonts */
+@font-face {
+  font-family: NotoEmoji;
+  src: url("/fonts/NotoColorEmoji.ttf");
+}
+
+@font-face {
+  font-family: NotoEmojiRegular;
+  src: url("/fonts/NotoEmoji-Regular.ttf");
+}
+
+@font-face {
+  font-family: EmojiSymbolsRegular;
+  src: url("/fonts/EmojiSymbols-Regular.woff");
+}
+
+/* Bootstrap mods */
+[class*="col-"] {
+  padding-left: 0 important;
+  padding-right: 0 important;
+}
+
+.col-container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.list-group-item {
+  background: rgba(white, 0);
+  border: 1px solid black;
+}
+
+.form-container {
+  max-width: 200px;
+}
