@@ -1,0 +1,9 @@
+ernie/__init__.py,sha256=gFLehZTSuV4wUjAD6IfZcRYjoEjiaZ83yGhN76ARhac,887
+ernie/ernie.py,sha256=WEuP8vDZ5yWan4IupvBdSnE-xwzD8yVe8KHowxob1pE,11517
+test/__init__.py,sha256=Ft6qirr8uZuaXJPy3JwhU-wWt4ZhKR3VUzMvV74d_0Q,66
+test/main.py,sha256=-iWeWGFypvBE5eutp6nX0hoPbLtOl2rxDiKfjo1cb6Q,922
+ernie-0.0.10b0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ernie-0.0.10b0.dist-info/METADATA,sha256=Z5J98afRDQ1xol94QDnqVs_IJQ0Ad08A2mQNHoz2ouo,1013
+ernie-0.0.10b0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ernie-0.0.10b0.dist-info/top_level.txt,sha256=IHK6af4HA-M8LcMpdIUJTH0DG1QRIai_1zA3kGcbwqI,11
+ernie-0.0.10b0.dist-info/RECORD,,
