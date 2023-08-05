@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: knight-bus
+Version: 0.0.2
+Summary: Transport your python objects from one computer to another!
+Home-page: https://github.com/loopyme/knight-bus
+Author: loopyme
+Author-email: peter@mail.loopy.tech
+License: MIT License
+Description: Knight bus can **safely** and **losslessly** transport your python objects from one computer to another.
+Platform: UNKNOWN
