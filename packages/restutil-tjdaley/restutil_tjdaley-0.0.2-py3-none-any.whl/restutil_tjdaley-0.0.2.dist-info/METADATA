@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: restutil-tjdaley
+Version: 0.0.2
+Summary: API for accessing my restutil service
+Home-page: https://github.com/tjdaley/restutil_api
+Author: Thomas J. Daley
+Author-email: tdaley@daleyfound.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Legal Industry
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# restutil_api
+Higher-level API for accessing restul services.
+
+
