@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wpx
+Version: 0.0.1
+Summary: 💻 Wpx is a wallpaper downloader.
+Home-page: UNKNOWN
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+License: MIT
+Description: # wpx 💻
+        
+        Wpx is a wallpaper downloader. That's it.
+        
+        ##### Supported Wallpaper Providers
+        
+        * [Bing.com](https://www.bing.com/)
+        * [WallpapersHome](https://wallpapershome.com)
+        
+        ##### Usage
+        
+        Get Bing's image of the day:
+        
+            $ FILENAME=$(wpx bing -d ~/Pictures/wallpapers --daily)
+        
+        Get a random image from a WallpapersHome category:
+        
+            $ FILENAME=$(wpx wallpapershome '{category: art/anime}' --random)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

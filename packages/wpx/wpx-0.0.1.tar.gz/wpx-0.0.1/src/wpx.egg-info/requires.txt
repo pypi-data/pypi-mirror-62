@@ -1,0 +1,5 @@
+beautifulsoup4<5.0.0,>=4.8.2
+nr.interface<0.1.0,>=0.0.1
+nr.databind<0.1.0,>=0.0.1
+requests<3.0.0,>=2.22.0
+PyYAML<6.0.0,>=5.3

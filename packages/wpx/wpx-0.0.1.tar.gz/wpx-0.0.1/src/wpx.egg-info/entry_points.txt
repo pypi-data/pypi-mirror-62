@@ -1,0 +1,7 @@
+[console_scripts]
+wpx = wpx.__main__:_entry_main
+
+[wpx.providers]
+bing = wpx.providers.bing:BingImageProvider
+wallpapershome = wpx.providers.wallpapershome:WallpapersHomeProvider
+

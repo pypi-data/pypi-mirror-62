@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/wpx/__init__.py
+src/wpx/__main__.py
+src/wpx.egg-info/PKG-INFO
+src/wpx.egg-info/SOURCES.txt
+src/wpx.egg-info/dependency_links.txt
+src/wpx.egg-info/entry_points.txt
+src/wpx.egg-info/requires.txt
+src/wpx.egg-info/top_level.txt
+src/wpx/providers/__init__.py
+src/wpx/providers/bing.py
+src/wpx/providers/wallpapershome.py
+src/wpx/setwp/__init__.py
+src/wpx/setwp/linux.py
+src/wpx/setwp/win32.py
