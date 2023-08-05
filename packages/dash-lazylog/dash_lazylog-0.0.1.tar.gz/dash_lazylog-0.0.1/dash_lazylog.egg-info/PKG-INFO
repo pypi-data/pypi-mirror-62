@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash-lazylog
+Version: 0.0.1
+Summary: Dash wrapper for react-lazylog: https://www.npmjs.com/package/react-lazylog
+Home-page: UNKNOWN
+Author: Jacob Roberts <jacoberts@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash
