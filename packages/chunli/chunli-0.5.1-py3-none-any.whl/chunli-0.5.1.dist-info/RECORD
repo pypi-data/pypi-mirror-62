@@ -1,0 +1,7 @@
+chunli/__init__.py,sha256=_ZAfZjRrAJkKF6RON-QyueDCHPu2wUvGX1dmQ7BkcrY,330
+chunli/app.py,sha256=xi4aJUoxEzKKqD_TsGfUJoenm94IqEiqj3VswDisWsE,1969
+chunli/caller.py,sha256=OIsa7eMEpcOrI2c11UTQKLgiDvN8j77vBmosRewU0R4,12296
+chunli/exceptions.py,sha256=uXhC5z4MiPEUurJOHhOTRddbt9mtFruAAYOeMrKN1OE,46
+chunli-0.5.1.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+chunli-0.5.1.dist-info/METADATA,sha256=9X5Wnx6BarEZg6YtDCSF8HMJmytVS9jaustakbxr5fc,4675
+chunli-0.5.1.dist-info/RECORD,,
