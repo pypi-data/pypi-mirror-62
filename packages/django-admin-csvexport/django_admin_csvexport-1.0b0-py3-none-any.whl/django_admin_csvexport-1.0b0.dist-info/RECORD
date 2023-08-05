@@ -1,0 +1,13 @@
+csvexport/__init__.py,sha256=Xdh4-V7-8BHrA72A4VzTnzjMbc_Ui5SPvvuw9ub0ad0,66
+csvexport/actions.py,sha256=mGKDR0xcaqOKkG1PXnycgrGdpmh3T8BH2t1F1lqJ0UU,5792
+csvexport/apps.py,sha256=_B82PrBebJgdwh0SZOvcZK5yZKoYrstfRr5s0FaQyF0,93
+csvexport/forms.py,sha256=qSE84fn42Tb0i47bJwmF4bIFgr3Yd7AerqNrU90FXrU,2411
+csvexport/static/csvexport/checkbox_select_all.js,sha256=iPd3djSCQapIx1wvKxwvhq8OstEs3-aPyNX3mO2g0v0,397
+csvexport/templates/csvexport/checkbox_select_all.html,sha256=11dGAZuGVFKXbhSnWtAlST7JJ89ZQ4MRSloJGCph1I4,223
+csvexport/templates/csvexport/csvexport.html,sha256=uadOFZ-tcaYqjypM4qHpn-zYWxMurKvaE1NbAATQL30,919
+django_admin_csvexport-1.0b0.dist-info/LICENCE,sha256=tX6ebBwRR6gwYZUbX0cqvA6AUzglAZIDuwE3-tNRlIo,1521
+django_admin_csvexport-1.0b0.dist-info/METADATA,sha256=DG4xstjPJP9wP-fPn4BZ86-A1IvJyu1Ybuw8uw0lsvE,1814
+django_admin_csvexport-1.0b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_admin_csvexport-1.0b0.dist-info/top_level.txt,sha256=9N39e3Q6XuUn44bmiaj5mHNQHa4cBDLPwzEYcyp9RII,10
+django_admin_csvexport-1.0b0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_admin_csvexport-1.0b0.dist-info/RECORD,,
