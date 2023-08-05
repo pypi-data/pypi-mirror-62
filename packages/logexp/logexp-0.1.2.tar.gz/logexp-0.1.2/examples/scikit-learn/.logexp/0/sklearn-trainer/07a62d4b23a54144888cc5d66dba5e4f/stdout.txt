@@ -1,0 +1,2 @@
+{'@type': 'sklearn-model', '@model': 'svm.SVC', 'C': 1.0, 'kernel': 'rbf'}
+{'@model': 'svm.SVC', 'C': 1.0, 'kernel': 'rbf'}

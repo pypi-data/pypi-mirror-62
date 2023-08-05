@@ -1,0 +1,35 @@
+diff --git a/examples/scikit-learn/iris.py b/examples/scikit-learn/iris.py
+index 1aad17f..e8eb0cc 100644
+--- a/examples/scikit-learn/iris.py
++++ b/examples/scikit-learn/iris.py
+@@ -18,11 +18,10 @@ ex = logexp.Experiment("sklearn-iris")
+ class SklearnModelBuilder:
+     def __init__(self, **kwargs) -> None:
+         model_path = kwargs.pop("@model")
+-        self._model = self._get_model_from_sklearn(model_path)
+-        self._params = kwargs
++        self._model = self._get_model_from_sklearn(model_path)(**kwargs)
+ 
+-    def get_model(self):
+-        return self._model(**self._params)
++    def __getattr__(self, key: str) -> tp.Any:
++        return getattr(self._model, key)
+ 
+     @staticmethod
+     def _get_model_from_sklearn(model_path: str) -> tp.Any:
+@@ -51,6 +50,7 @@ class TrainSklearnModel(logexp.BaseWorker):
+ 
+     def run(self):
+         logger.info("load iris dataset")
++        print(self.model)
+ 
+         iris = load_iris()
+         X, y = iris.data, iris.target
+@@ -60,7 +60,7 @@ class TrainSklearnModel(logexp.BaseWorker):
+ 
+         logger.info(f"dataset size: train={len(X_train)}, valid={len(X_valid)}")
+ 
+-        model = colt.build(self.model).get_model()
++        model = colt.build(self.model)
+ 
+         logger.info("start training")
