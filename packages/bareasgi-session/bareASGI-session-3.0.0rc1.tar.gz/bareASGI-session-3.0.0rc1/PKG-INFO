@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bareasgi-session
+Version: 3.0.0rc1
+Summary: Session support for bareASGI
+Home-page: https://github.com/rob-blackbourn/bareASGI-session
+License: Apache-2.0
+Keywords: bareASGI,session
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bareasgi (>=3.5,<4.0)
+Requires-Dist: baretypes (>=3.1.1,<4.0.0)
+Requires-Dist: bareutils (>=3.4.0,<4.0.0)
+Project-URL: Repository, https://github.com/rob-blackbourn/bareASGI-session
+Description-Content-Type: text/markdown
+
+# bareASGI-session
+
+Session support for bareASGI
+
