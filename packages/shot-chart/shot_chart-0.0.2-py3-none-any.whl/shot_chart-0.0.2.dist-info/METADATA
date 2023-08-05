@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: shot-chart
+Version: 0.0.2
+Summary: plotting shot charts from basketball-reference.com
+Home-page: https://github.com/theccalderon/shot_chart
+Author: Cesar Calderon Muro
+Author-email: cesar.calderon.dev@gmail.com
+License: Apache Software License 2.0
+Keywords: nba shot chart
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: asn1crypto (==1.3.0)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: bleach (==3.1.0)
+Requires-Dist: boto3 (==1.11.14)
+Requires-Dist: botocore (==1.14.14)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: cffi (==1.13.2)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: cryptography (==2.8)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.4.1)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: fastprogress (==0.2.2)
+Requires-Dist: fastscript (==0.1.4)
+Requires-Dist: idna (==2.8)
+Requires-Dist: importlib-metadata (==1.5.0)
+Requires-Dist: ipykernel (==5.1.4)
+Requires-Dist: ipython (==7.11.1)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: jedi (==0.16.0)
+Requires-Dist: Jinja2 (==2.11.0)
+Requires-Dist: jmespath (==0.9.4)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: jupyter-client (==5.3.4)
+Requires-Dist: jupyter-core (==4.6.1)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: matplotlib (==3.1.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: mkl-fft (==1.0.15)
+Requires-Dist: mkl-random (==1.1.0)
+Requires-Dist: mkl-service (==2.3.0)
+Requires-Dist: nbconvert (==5.6.1)
+Requires-Dist: nbdev (==0.2.9)
+Requires-Dist: nbformat (==5.0.4)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: packaging (==20.1)
+Requires-Dist: pandas (==0.25.3)
+Requires-Dist: pandocfilters (==1.4.2)
+Requires-Dist: parso (==0.6.0)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: prompt-toolkit (==3.0.2)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: Pygments (==2.5.2)
+Requires-Dist: pyOpenSSL (==19.1.0)
+Requires-Dist: pyparsing (==2.4.6)
+Requires-Dist: pyrsistent (==0.15.7)
+Requires-Dist: PySocks (==1.7.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: PyYAML (==5.3)
+Requires-Dist: pyzmq (==18.1.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: s3transfer (==0.3.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: testpath (==0.4.4)
+Requires-Dist: tornado (==6.0.3)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==2.1.0)
+
+# nbdev template
+
+Use this template to more easily create your nbdev project.
+
+
+
