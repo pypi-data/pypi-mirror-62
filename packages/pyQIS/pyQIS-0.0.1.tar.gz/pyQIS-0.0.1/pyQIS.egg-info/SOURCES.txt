@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyQIS/__init__.py
+pyQIS/data.py
+pyQIS.egg-info/PKG-INFO
+pyQIS.egg-info/SOURCES.txt
+pyQIS.egg-info/dependency_links.txt
+pyQIS.egg-info/requires.txt
+pyQIS.egg-info/top_level.txt
