@@ -1,0 +1,5 @@
+[console_scripts]
+random_ci = ciuy.command_line:cmd_random_ci
+validate_ci = ciuy.command_line:cmd_validate_ci
+validation_digit = ciuy.command_line:cmd_validation_digit
+
