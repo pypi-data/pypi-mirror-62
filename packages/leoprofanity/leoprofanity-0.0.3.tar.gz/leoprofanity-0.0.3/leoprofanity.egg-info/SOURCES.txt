@@ -1,0 +1,12 @@
+README.md
+setup.py
+leoprofanity/LeoProfanity.py
+leoprofanity/__init__.py
+leoprofanity/__main__.py
+leoprofanity.egg-info/PKG-INFO
+leoprofanity.egg-info/SOURCES.txt
+leoprofanity.egg-info/dependency_links.txt
+leoprofanity.egg-info/entry_points.txt
+leoprofanity.egg-info/requires.txt
+leoprofanity.egg-info/top_level.txt
+leoprofanity/dictionary/default.json
