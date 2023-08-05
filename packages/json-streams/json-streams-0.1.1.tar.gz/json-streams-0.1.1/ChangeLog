@@ -1,0 +1,12 @@
+CHANGES
+=======
+
+v0.1.1
+------
+
+* enable publish
+* add test
+* rename test file
+* comment out publish job
+* fix tests
+* initial commit

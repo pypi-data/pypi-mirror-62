@@ -1,0 +1,10 @@
+ijson
+
+[dev]
+pytest
+pytest-cov
+flake8
+black
+isort
+reno
+pylint
