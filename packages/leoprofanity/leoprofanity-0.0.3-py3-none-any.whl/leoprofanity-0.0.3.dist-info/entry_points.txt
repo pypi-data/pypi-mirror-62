@@ -1,0 +1,3 @@
+[console_scripts]
+leoprofanity = leoprofanity.__main__:main
+
