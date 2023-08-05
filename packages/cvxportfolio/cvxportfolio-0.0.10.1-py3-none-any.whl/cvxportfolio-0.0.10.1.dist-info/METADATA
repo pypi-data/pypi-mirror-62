@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cvxportfolio
+Version: 0.0.10.1
+Summary: ConVeX Portfolio Optimization and Simulation toolset.
+Home-page: http://github.com/cvxgrp/cvxportfolio/
+Author: Enzo Busseti and Steven Diamond
+Author-email: enzo.busseti@gmail.com, stevend2@stanford.edu
+License: Apache
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: cvxpy (>=1.0.6)
+Requires-Dist: pandas-datareader
+
+UNKNOWN
+
+
