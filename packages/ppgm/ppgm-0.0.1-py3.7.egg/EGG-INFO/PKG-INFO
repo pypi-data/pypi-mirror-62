@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ppgm
+Version: 0.0.1
+Summary: Graphical model analysis toolbox.
+Home-page: https://github.com/koriavinash1/pgm
+Author: Avinash Kori
+Author-email: koriavinash1@gmail.com
+License: UNKNOWN
+Description: # pgm
+        Graph: Representation, Learning, and Inference Methods 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
