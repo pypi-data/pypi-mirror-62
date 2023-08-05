@@ -1,0 +1,11 @@
+temporalcache/__init__.py,sha256=n4vqNBRHLjUFWhsz50iExy5kzAAwUe14AOPCuY3JzCY,331
+temporalcache/_version.py,sha256=FCc9OWkJeSO2CuWvMFZ8K1q3MnDE-W2_Bv71o_5Etck,581
+temporalcache/expire.py,sha256=2Ywd84G1FnjEqFLXhI6RbSxgLp85rWp07HBA96kvETo,3352
+temporalcache/interval.py,sha256=yeDPgJ3Hqtbq1RK2SY27Uh456H75ZHDBb7c8feJ3uRg,2235
+temporalcache/persistent_lru_cache.py,sha256=XYjYJjAqwRk7B6JoTsaorbztOd3vYbJgrvKsSjYNYTI,10441
+temporalcache/utils.py,sha256=6o2Vk3GcdU2b5NfZj2Cr-CBH265zTmbkvRzLKbDYoU4,3345
+temporal_cache-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+temporal_cache-0.0.7.dist-info/METADATA,sha256=qfWmTz38eKKYAQXRpyB3mX5I4v6zf1OYnS51QX-_BJQ,2728
+temporal_cache-0.0.7.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+temporal_cache-0.0.7.dist-info/top_level.txt,sha256=JgtWZsQtwZSFLA2NR-ocNOfUzLdfixODX3ym5cVhCM8,14
+temporal_cache-0.0.7.dist-info/RECORD,,
