@@ -1,0 +1,7 @@
+bareasgi_session/__init__.py,sha256=ExW6nnkLNSeDdcJuZqU17Sn56YlxXu0PEvidY5S_cNM,339
+bareasgi_session/factory.py,sha256=X9i_N8n7jkZ-wt_wtpVzmdw_LrZXbMcBjxUoYtrpEzg,3829
+bareasgi_session/middleware.py,sha256=s0Rd7tSSNymEvVLXdgQo-N0fBLc1RZ89yWauSgIGOcA,2302
+bareasgi_session/storage.py,sha256=fecNUXaTHbS_a5nAzT4j1fSrDhynBShKhvL4mQSVcoc,977
+bareasgi_session-3.0.0rc1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+bareasgi_session-3.0.0rc1.dist-info/METADATA,sha256=vcuLq-tO5lfUodz2-Wx1BHmltwHiyV0hIo0F9prf18I,799
+bareasgi_session-3.0.0rc1.dist-info/RECORD,,
