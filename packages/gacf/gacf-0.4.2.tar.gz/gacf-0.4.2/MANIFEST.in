@@ -1,0 +1,6 @@
+recursive-include gacf/include *.h
+include gacf/CMakeLists.txt
+
+recursive-include gacf/include/pybind11/ 
+
+recursive-exclude gacf *.md
