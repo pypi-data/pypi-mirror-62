@@ -1,0 +1,11 @@
+name = "zsh"
+
+[config]
+comment = "$man zsh"
+
+habitual_path = "~/.zshrc"
+
+lookup_paths = [
+  "~/.zshrc",
+  "/etc/.zshrc",
+]

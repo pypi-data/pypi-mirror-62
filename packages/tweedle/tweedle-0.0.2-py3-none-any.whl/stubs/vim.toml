@@ -1,0 +1,13 @@
+name = "vim"
+
+[config]
+comment = "$man vim"
+
+habitual_path = "~/.vimrc"
+
+lookup_paths = [
+  "/etc/vimrc",
+  "~/.vimrc",
+  "/etc/gvimrc",
+  "~/.gvimrc",
+]

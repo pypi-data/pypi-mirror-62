@@ -1,0 +1,14 @@
+name = "compton"
+
+[config]
+comment = "https://github.com/chjj/compton/blob/316eac0613bf342ff91cc645a6c3c80e6b9083fb/man/compton.1.asciidoc#L377"
+
+habitual_path = "~/.config/compton.conf"
+
+lookup_paths = [
+  "$XDG_CONFIG_HOME/compton.conf",
+  "~/.config/compton.conf",
+  "~/.compton.conf",
+  "$XDG_CONFIG_DIRS/compton.conf",
+  "/etc/xdg/compton.conf",
+]

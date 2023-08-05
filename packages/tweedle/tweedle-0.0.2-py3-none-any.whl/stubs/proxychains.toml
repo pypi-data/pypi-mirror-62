@@ -1,0 +1,12 @@
+name = "proxychains"
+
+[config]
+comment = "https://github.com/rofl0r/proxychains-ng"
+
+habitual_path = "~/.proxychains/proxychains.conf"
+
+lookup_paths = [
+  "./proxychains.conf",
+  "~/.proxychains/proxychains.conf",
+  "/etc/proxychains.conf",
+]

@@ -1,0 +1,12 @@
+name = "ranger"
+
+[config]
+comment = "$man ranger"
+
+habitual_path = "~/.config/ranger/rc.conf"
+
+lookup_paths = [
+  "$XDG_CONFIG_HOME/ranger/rc.conf",
+  "~/.config/ranger/rc.conf",
+  "/etc/ranger/rc.conf",
+]

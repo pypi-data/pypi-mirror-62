@@ -1,0 +1,13 @@
+name = "neovim"
+
+[config]
+comment = "$man nvim"
+
+habitual_path = "~/.config/nvim/init.vim"
+
+lookup_paths = [
+  "~/.config/nvim/init.vim",
+  "~/.config/nvim",
+  "$VIM/sysinit.vim",
+  "/usr/local/share/nvim",
+]
