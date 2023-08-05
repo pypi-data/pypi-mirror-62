@@ -1,0 +1,9 @@
+cooler
+hic-straw
+numpy
+matplotlib
+requests
+scipy
+pandas
+statsmodels
+pathlib
