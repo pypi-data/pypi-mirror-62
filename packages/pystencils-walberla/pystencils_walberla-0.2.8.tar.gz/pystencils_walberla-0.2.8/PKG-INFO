@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pystencils_walberla
+Version: 0.2.8
+Summary: pystencils code generation for waLBerla apps
+Home-page: https://i10git.cs.fau.de/pycodegen/pystencils_walberla
+Author: Martin Bauer
+Author-email: martin.bauer@fau.de
+License: AGPLv3
+Project-URL: Bug Tracker, https://i10git.cs.fau.de/pycodegen/pystencils_walberla/issues
+Project-URL: Source Code, https://i10git.cs.fau.de/pycodegen/pystencils_walberla
+Description: pystencils-walberla
+        ===================
+        [![pipeline status](https://i10git.cs.fau.de/pycodegen/pystencils_walberla/badges/master/pipeline.svg)](https://i10git.cs.fau.de/pycodegen/pystencils_walberla/commits/master)
+        
+        Formulate stencil kernels in pystencils and generate optimized C++ Code for waLBerla from it.
+        Look at the waLBerla documentation on how to use it.
+        
+        Install with
+        ```bash
+        pip install pystencils-walberla
+        ```
+        and enable WALBERLA_BUILD_WITH_CODEGEN in waLBerla's CMake.
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
