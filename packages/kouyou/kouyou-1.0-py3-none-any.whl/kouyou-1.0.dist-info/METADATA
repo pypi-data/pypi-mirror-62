@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kouyou
+Version: 1.0
+Summary: My personal utils project (Kouyou - 効用 - Utility)
+License: MIT
+Author: Gustavo Reis
+Author-email: guto.reisdelima@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: google-api-python-client (>=1.7.11,<2.0.0)
+Requires-Dist: gspread (>=3.2.0,<4.0.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: oauth2client (>=4.1.3,<5.0.0)
+Requires-Dist: openpyxl (>=3.0.3,<4.0.0)
+Requires-Dist: pandas (>=1.0.1,<2.0.0)
+Requires-Dist: python-dotenv (>=0.11.0,<0.12.0)
+Requires-Dist: unidecode (>=1.1.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+![Test Kouyou Package](https://github.com/GutoReis/kouyou/workflows/Test%20Kouyou%20Package/badge.svg?branch=test) ![Auto Deploy Kouyou Package on PyPI](https://github.com/GutoReis/kouyou/workflows/Auto%20Deploy%20Kouyou%20Package%20on%20PyPI/badge.svg) [![codecov](https://codecov.io/gh/GutoReis/kouyou/branch/master/graph/badge.svg)](https://codecov.io/gh/GutoReis/kouyou) [![Documentation Status](https://readthedocs.org/projects/kouyou/badge/?version=latest)](https://kouyou.readthedocs.io/en/latest/?badge=latest) [![PyPI version](https://badge.fury.io/py/kouyou.svg)](https://badge.fury.io/py/kouyou) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+![kouyou logo](https://drive.google.com/uc?export=view&id=1R9cw03Z0zUezPbeBEvVSOoWKqQg58Mvm)
+
+# Kouyou
+**Kouyou** is a japanese word meaning ***utility***, as the word itself implies, is a python package with every ***util*** code made by me, used in personal projects. Feel free to fork, make PRs with sugestion.
+
+# TO-DO
+> * Google Drive utility to update existed google sheet from a pandas.DataFrame
+
+**Kouyou is part of the Zaidan project** (Link to Zaidan incoming)
