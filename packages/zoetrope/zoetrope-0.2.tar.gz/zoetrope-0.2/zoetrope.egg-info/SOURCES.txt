@@ -1,0 +1,13 @@
+README.md
+setup.py
+zoetrope/__init__.py
+zoetrope/zoetrope
+zoetrope/zoetrope.py
+zoetrope.egg-info/PKG-INFO
+zoetrope.egg-info/SOURCES.txt
+zoetrope.egg-info/dependency_links.txt
+zoetrope.egg-info/pbr.json
+zoetrope.egg-info/requires.txt
+zoetrope.egg-info/top_level.txt
+zoetrope/templates/__init__.py
+zoetrope/templates/unittest_template.py
