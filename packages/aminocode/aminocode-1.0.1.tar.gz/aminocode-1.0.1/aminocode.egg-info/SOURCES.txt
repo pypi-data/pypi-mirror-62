@@ -1,0 +1,11 @@
+README.rst
+setup.py
+aminocode/__init__.py
+aminocode/aminocode.py
+aminocode/encodefile.py
+aminocode.egg-info/PKG-INFO
+aminocode.egg-info/SOURCES.txt
+aminocode.egg-info/dependency_links.txt
+aminocode.egg-info/not-zip-safe
+aminocode.egg-info/requires.txt
+aminocode.egg-info/top_level.txt
