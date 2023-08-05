@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bpa
+Version: 0.2.0
+Summary: Building Project Assistant (BPA): An efficient & robust helper about building project, such as bill classification, bill similarity search, etc.
+Home-page: https://github.com/Genpeng/building-project-assistant
+Author: Genpeng Xu
+Author-email: xgp1227@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+# building-project-assistant
+Building Project Assistant (BPA): An efficient &amp; robust helper about building project, such as bill classification, bill similarity search, etc.
+
+
