@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ess_nexus
+Version: 0.4
+Summary: Utility class for saving nexus files on ESS data format
+Home-page: UNKNOWN
+Author: Natalia Milas
+Author-email: natalia.milas@ess.eu
+License: MIT
+Description: Simple class that creates an hdf5 file according to a predifined format to be used internally at ESS Accelerator division
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
