@@ -1,0 +1,61 @@
+# techcombine-framework
+
+## Installation for everyone
+```bash
+$pip install techcombine
+```
+
+## Installation for Developer
+```bash
+$pip install techcombine[dev]
+```
+Now you can test this package by using ```pytest``` or ```pytest direstory/```, For example
+```bash
+$pytest
+# or
+$pytest .\techcombine\tests\
+```
+
+## Installation from sources
+```bash
+(env)$python setup.py install
+```
+
+## manual
+### class LINENotify
+**notify_hook():<br>**
+    Make webhook to Line Notify from your server<br>
+    return: request
+```python
+from techcombine.utils import generate_notify_data
+LINENotify.notify_hook(subtitle, data=None: dict, **kwargs)
+
+# When you use this method you need to defind variable in django.conf settings
+LINE_NOTIFY_TOKEN = some sting + 'access_token'
+LINE_NOTIFY_API = 'https://notify-api.line.me/api/notify'
+
+# Data example
+data = {
+  "Order ID": order.slug,
+  "email": order.email,
+  "first_name": order.first_name,
+  "phone_number": order.phone_number,
+  "created_at": order.created_at,
+} # Or use generate_notify_data(ojb)
+```
+parameter:<br>
+- subtitle: (str) Is subtitle of data hook to line notify chat
+- data: (default=None/DictType only) Is dict of your all data to show in mail
+- Or using **dict
+
+**generate_notify_data():<br>**
+    Generate dict data from django models object.
+    return: dict data format for using in notify_hook()
+```python
+from techcombine.utils import generate_notify_data
+data = generate_notify_data(ojb, key_type="id", header=None)
+```
+parameter:<br>
+- obj: (Django models object) field['obj.id or obj.slug', 'name', 'email', 'created_at', 'url'] ```#if header=None: data will doesn't have url field```
+- key_type: (str) Type of object key from ID or Slug
+- header: (str) For fill link url of object
