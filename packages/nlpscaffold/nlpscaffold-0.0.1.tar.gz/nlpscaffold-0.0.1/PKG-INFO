@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nlpscaffold
+Version: 0.0.1
+Summary: Machine learning modules.
+Home-page: https://github.com/vzhong/nlpscaffold
+Author: Victor Zhong
+Author-email: victor@victorzhong.com
+License: MIT
+Description: # scaffold
+        Scaffolding for NLP experiments
+        
+Keywords: text nlp machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: dev
+Provides-Extra: test
