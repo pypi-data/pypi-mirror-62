@@ -1,0 +1,13 @@
+autopy/__init__.py,sha256=sJwurTjKAJWEvrOJaKm3CrK0q4hJFStq61_9Q0x5qus,277
+autopy/alert.pyd,sha256=2OBiAjJYOvp68LZyP48QwomhyQlhBDeKOL1jLby8Suo,1278976
+autopy/bitmap.pyd,sha256=2OBiAjJYOvp68LZyP48QwomhyQlhBDeKOL1jLby8Suo,1278976
+autopy/color.pyd,sha256=2OBiAjJYOvp68LZyP48QwomhyQlhBDeKOL1jLby8Suo,1278976
+autopy/key.pyd,sha256=2OBiAjJYOvp68LZyP48QwomhyQlhBDeKOL1jLby8Suo,1278976
+autopy/mouse.pyd,sha256=2OBiAjJYOvp68LZyP48QwomhyQlhBDeKOL1jLby8Suo,1278976
+autopy/screen.pyd,sha256=2OBiAjJYOvp68LZyP48QwomhyQlhBDeKOL1jLby8Suo,1278976
+autopy-4.0.0.dist-info/LICENSE-APACHE,sha256=llGXysgI-SHnTvaF0Z0ZC3tXwZeIOMR7CPcRp7bi1hE,11352
+autopy-4.0.0.dist-info/LICENSE-MIT,sha256=UPsVIJ4rcpIGNdLVgz79I0Yz3cucP1uHnA1frKiLHnM,1062
+autopy-4.0.0.dist-info/METADATA,sha256=sawViZhiVrEfiUnT_L3C05KmLb_w2_3HvPhXQOSQZjE,10163
+autopy-4.0.0.dist-info/WHEEL,sha256=fXPVprehJfa7RPT94NKSOhqRzuC9xTfkXpd7QSc0lvw,102
+autopy-4.0.0.dist-info/top_level.txt,sha256=XZwopO5i8LsCkf3cJbCQeQLMiBD7XwTozpS9kMDQ_N4,7
+autopy-4.0.0.dist-info/RECORD,,
