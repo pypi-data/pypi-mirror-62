@@ -1,0 +1,154 @@
+CHANGES
+=======
+
+v0.4
+----
+
+* Use pbr
+* Tweak pytest fixture
+* Improve error handling
+* Use Requests
+* Add \_\_main\_\_.py
+* Update Pipfile.lock
+* Add file encoding information
+* Update gitignore
+* Update pipfile
+* Bump urllib3 from 1.24.1 to 1.24.2
+* Poetry is broken AF
+* Add more tests
+
+v0.3.3
+------
+
+* Release version 0.3.3
+* Fixup
+
+v0.3.2
+------
+
+* Release version 0.3.2
+* Fix handling of examples in pol-eng translation
+* Formatting
+
+v0.3.1
+------
+
+* Fix pyproject.toml script entry point
+
+v0.3
+----
+
+* Release version 0.3
+* Add version cli option
+* Add pytest fixtures
+* Refactor logging a bit
+* Move logging configuration to cli.py
+* Add isort config
+* Sort imports
+* Add poetry support
+* Add \_\_init\_\_.py to tests
+* Separate text wrapping and printing
+* Update parse\_html
+* Refactor translate function
+* Improve internal translation representation
+* Fix docstring
+* Fixup
+* Fixup
+* Make translate return early if word is cached
+* Split write\_html\_file into smaller functions
+* Make get\_words take data\_dir instead of filename
+* write\_index\_file shouldn't return anything
+* Fix save\_file
+* Remove 'prefix' overengineering
+* create\_index\_html -> create\_index\_content
+* Split write\_index\_file into smaller functions
+* Make parse\_html take string as input
+* Rename parse to parse\_html
+* Fix logging import
+* Fixup
+* Don't limit vim to using only flake8
+* Create display\_index function
+* Make translation function take config
+* Remove unused imports
+* Move logic to core, fix ENV overengineering
+* Make docstrings numpy-style
+* Make get\_env\_var create directory tree when necessary
+* Format source with Black
+* Update gitignore
+
+v0.2
+----
+
+* Version 0.2
+* Fix parse\_cached
+* Fix parsing alternative wording
+* Change internal representation of translation
+* Add support for pytest-vcr
+* Fix regex
+* Decode HTML entities
+* Update gitignore
+* Fix typo
+* Update gitignore and license
+* Change error formatting
+* update TODO
+* Don't override type builtin
+
+v0.1
+----
+
+* update
+* Update setup.py and add Pipfile
+* Update readme
+* Use rotating logger
+* Fix some stupid conflict error
+* Refactor config
+* Refactor config
+* Create LICENSE
+* Update gitignore
+* Add setup.cfg
+* Refactor
+* Fix tests
+* Remove requirements.txt
+* Add local vimrc
+* code formatting
+* tweak parsing
+* Improve updating index
+* Cache pol-eng translations
+* Rework configuration
+* Move configuration to separate function
+* Tweak logging
+* Add config file tests
+* Remove stuff from \_\_init\_\_.py and fix logging
+* Add more tests
+* Rewrite get\_words
+* Add tests
+* Quote words in url
+* Add polish to english translation mode
+* Add simple readme
+* Add docstrings
+* Add simple config validation
+* Improve index and config file creation
+* Show index even when it's empty
+* Make sure env variables take precendence
+* Improve logging
+* Move constants and logging to \_\_init\_\_.py
+* Print message when index.html is not found
+* Store data in data\_dir
+* Create config file template
+* Use urllib instead of requests
+* Add proper cli args parsing
+* Use string template for html
+* get\_config cleanup
+* Don't use color codes when piping or redirecting
+* Improve HTML tags
+* Make print pretty
+* Implement cache lookup
+* Fix print function
+* Rewrite parser
+* Add support for configuration file
+* Add support for writing html files
+* Separate UI from core
+* Add initial history support
+* Spoof user agent
+* Ignore pol-ang translations
+* initial commit
