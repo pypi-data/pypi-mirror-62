@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: fractionlib
+Version: 0.1
+Summary: A library allowing you to manipulate fractions
+Home-page: https://github.com/EvilMuffinHa/fractionlib
+Author: EvilMuffinHa
+Author-email: hkailadka88@gmail.com
+License: MIT
+Download-URL: https://github.com/EvilMuffinHa/fractionlib/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: Scientific/Engineering,Mathematics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
