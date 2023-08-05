@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: as3nt
+Version: 1.0.0
+Summary: Another Subdomain ENumeration Tool
+Home-page: https://github.com/cinerieus/as3nt
+Author: cinereus
+Author-email: cinereus@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: shodan
+Requires-Dist: tqdm
+Requires-Dist: dnspython
+Requires-Dist: ipwhois
+Requires-Dist: termcolor
+
+[https://github.com/cinerieus/as3nt](https://github.com/cinerieus/as3nt)
+
+
