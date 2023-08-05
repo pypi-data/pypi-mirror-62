@@ -1,0 +1,6 @@
+js_script_py/__init__.py
+js_script_py/setup.py
+js_script_py.egg-info/PKG-INFO
+js_script_py.egg-info/SOURCES.txt
+js_script_py.egg-info/dependency_links.txt
+js_script_py.egg-info/top_level.txt
