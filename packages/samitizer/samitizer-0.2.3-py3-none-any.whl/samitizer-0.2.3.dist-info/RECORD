@@ -1,0 +1,11 @@
+samitizer/__init__.py,sha256=y_4OM3OsaZ36Hsh_A1J9lolwR-RQl5jcn-gv1IHiw9E,81
+samitizer/const.py,sha256=mNRWGjd79IjQlY-AMmWU4A_SEYx7PB5Vn9aDuly6T58,59
+samitizer/sami.py,sha256=EhSZgdTg4nu7r5INeZXE9e6DtgJSeBCuHpT-JAiQRVo,4101
+samitizer/subtitle.py,sha256=Ot1mMukQQyt6wOrgmppRHYSUptIumi3mLJqLgfcpffc,1464
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=iiExfvBb0fFdGQzq53InT9OIWLR6dHNaDJhX2xTkDBc,1644
+samitizer-0.2.3.dist-info/LICENSE,sha256=fB90FC52-4XpiwYSvA-o_gcaaYi-WUCfQdfIPUbsZE8,1099
+samitizer-0.2.3.dist-info/METADATA,sha256=SHKZuYQL4TcQVlLNeSzzgzhXbmUJfwl-gEYeRafqA40,272
+samitizer-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+samitizer-0.2.3.dist-info/top_level.txt,sha256=HZTSx8JAaYo5CcjxQ0nXqtqG6DN0dDdBu1MrJL3hcEQ,16
+samitizer-0.2.3.dist-info/RECORD,,
