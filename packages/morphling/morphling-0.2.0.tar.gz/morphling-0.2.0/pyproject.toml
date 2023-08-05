@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "morphling"
+author = "Sem"
+author-email = "cloudtimewater@gmail.com"
+home-page = "https://github.com/Semooze/morphling"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+requires = [
+    "aiofile==1.5.2",
+    "Click==7.0",
+    "pythainlp==2.1.4",
+    "pandas==1.0.1",
+    "attacut==1.0.6"
+]
+requires-python = "~=3.7"
+
+[tool.flit.metadata.requires-extra]
+dev = [
+    "flit==2.2.0",
+    "black==19.10b0"
+]
+
+[tool.flit.scripts]
+morphling = "morphling:script"
