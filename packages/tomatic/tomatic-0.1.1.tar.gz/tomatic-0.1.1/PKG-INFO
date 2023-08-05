@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: tomatic
+Version: 0.1.1
+Summary: Tomatic is a library that helps to enable automatic configuration for python programas.
+Home-page: https://github.com/plainspooky/tomatic
+Author: Giovanni Nunes
+Author-email: giovanni.nunes@gmail.com
+License: gpl-3.0
+Description: Tomatic
+        =======
+        
+        **Tomatic** is a library that helps add automatic setup capabilities on **Python** programs and avoids that configuration files became bloated with unnecessary lines of code. It has originally designed to be used in `Django <https://www.djangoproject.com/>`_ projects working directly in `settings.py` but can be used with any other Python program.
+        
+        
+        Requirements
+        ------------
+        Requires at least **Python 3.5** due the use of type hints (`PEP484 <https://www.python.org/dev/peps/pep-0484/>`_).
+        
+        Installing
+        ----------
+        Use `pip` to install **Tomatic**, running:
+        
+        `pip install tomatic`
+        
+        Or you can clone or download this repository for manual install.
+        
+        Documentation
+        -------------
+        Read the full `documentation <https://plainspooky.github.io/tomatic/index.html>`_ to get details of how to use it.
+        
+Keywords: configuration,django,settings,setup
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
