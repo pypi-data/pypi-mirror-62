@@ -1,0 +1,13 @@
+README.md
+setup.py
+VANTAGE6_pyClient.egg-info/PKG-INFO
+VANTAGE6_pyClient.egg-info/SOURCES.txt
+VANTAGE6_pyClient.egg-info/dependency_links.txt
+VANTAGE6_pyClient.egg-info/requires.txt
+VANTAGE6_pyClient.egg-info/top_level.txt
+vtg/__init__.py
+vtg/__main__.py
+vtg/client.py
+vtg/encryption.py
+vtg/test.py
+vtg/util.py
