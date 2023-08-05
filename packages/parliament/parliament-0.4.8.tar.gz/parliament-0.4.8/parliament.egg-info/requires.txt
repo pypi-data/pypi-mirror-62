@@ -1,0 +1,11 @@
+boto3
+jmespath
+pyyaml
+policy_sentry
+
+[dev]
+coverage
+nose
+autoflake
+autopep8
+pylint
