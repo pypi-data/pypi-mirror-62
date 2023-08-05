@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mean
+Version: 0.1.0
+Summary: This is the mean function I would like to create a package for.
+Home-page: https://denzelpfeifer.github.io
+License: UNKNOWN
+Author: Denzel Pfeifer
+Author-email: denzelpfeifer@gmail.com
+Classifier: License :: OSI Approved :: MIT License
