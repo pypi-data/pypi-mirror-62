@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: eldonationtracker
+Version: 3.3
+Summary: A Python-based donation tracker for Extra Life streams
+Home-page: http://djotaku.github.io/ELDonationTracker/
+Author: Eric Mesa
+Author-email: eric@ericmesa.com
+License: GPLv3
+Keywords: extra life,XSplit,obs,livestreaming,video games
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: PyQt5
+Requires-Dist: xdgenvpy
+
+http://djotaku.github.io/ELDonationTracker/
+
+
