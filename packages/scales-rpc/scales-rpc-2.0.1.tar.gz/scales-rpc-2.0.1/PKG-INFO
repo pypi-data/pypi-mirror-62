@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: scales-rpc
+Version: 2.0.1
+Summary: A python RPC client stack
+Home-page: https://www.github.com/steveniemitz/scales
+Author: Steve Niemitz
+Author-email: sniemitz@twitter.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
