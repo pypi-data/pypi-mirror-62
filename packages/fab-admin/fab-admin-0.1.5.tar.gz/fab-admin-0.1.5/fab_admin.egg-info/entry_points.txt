@@ -1,0 +1,3 @@
+[console_scripts]
+fabadmin = fab_admin.console:cli
+
