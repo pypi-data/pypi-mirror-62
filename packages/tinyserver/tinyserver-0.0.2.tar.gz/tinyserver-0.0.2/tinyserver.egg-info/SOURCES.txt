@@ -1,0 +1,7 @@
+README.md
+setup.py
+tinyserver/__init__.py
+tinyserver.egg-info/PKG-INFO
+tinyserver.egg-info/SOURCES.txt
+tinyserver.egg-info/dependency_links.txt
+tinyserver.egg-info/top_level.txt
