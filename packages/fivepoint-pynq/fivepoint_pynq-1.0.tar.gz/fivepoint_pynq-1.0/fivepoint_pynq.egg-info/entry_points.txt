@@ -1,0 +1,3 @@
+[pynq.notebooks]
+5point = fivepoint_pynq.notebooks
+

@@ -1,0 +1,8 @@
+pynq>=2.5.1
+pybind11>=2.4
+jupyter
+websockets
+nest_asyncio
+
+[:python_version<"3.6"]
+ipython==7.9
