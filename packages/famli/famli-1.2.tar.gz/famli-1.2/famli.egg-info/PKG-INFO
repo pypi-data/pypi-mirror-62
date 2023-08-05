@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: famli
+Version: 1.2
+Summary: Functional Analysis of Metagenomes by Likelihood Inferrence
+Home-page: https://github.com/FredHutch/FAMLI
+Author: Samuel Minot
+Author-email: sminot@fredhutch.org
+License: UNKNOWN
+Project-URL: Source, https://github.com/fredhutch/famli/
+Project-URL: Bug Reports, https://github.com/fredhutch/famli/issues
+Description: See https://github.com/FredHutch/FAMLI for details
+Keywords: metagenomics microbiome science
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
