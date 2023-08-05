@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: fscleaner
+Version: 2.0
+Summary: file system folder cleaner and file remover
+Home-page: https://github.com/isubham/fscleaner.git
+Author: Subham Kumar
+Author-email: subhamkumarchandrawansi@gmail.com
+License: MIT
+Download-URL: https://github.com/isubham/fscleaner/archive/v2.0.tar.gz
+Description: UNKNOWN
+Keywords: file rename,folder rename,delte file with types
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Desktop Environment :: File Managers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
