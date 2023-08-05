@@ -1,0 +1,9 @@
+README.rst
+setup.py
+qc/__init__.py
+qc/ether.py
+qtcd.egg-info/PKG-INFO
+qtcd.egg-info/SOURCES.txt
+qtcd.egg-info/dependency_links.txt
+qtcd.egg-info/entry_points.txt
+qtcd.egg-info/top_level.txt
