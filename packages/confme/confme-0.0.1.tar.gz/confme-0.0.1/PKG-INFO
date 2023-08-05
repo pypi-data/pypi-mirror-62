@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: confme
+Version: 0.0.1
+Summary: Easy configuration management in python
+Home-page: https://github.com/iwanbolzern/confme
+Author: Iwan Silvan Bolzern
+Author-email: iwan.bolzern@zuehlke.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

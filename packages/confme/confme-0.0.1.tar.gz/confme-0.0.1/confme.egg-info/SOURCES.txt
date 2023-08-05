@@ -1,0 +1,15 @@
+README.md
+setup.py
+confme/__init__.py
+confme/type_matching.py
+confme.egg-info/PKG-INFO
+confme.egg-info/SOURCES.txt
+confme.egg-info/dependency_links.txt
+confme.egg-info/top_level.txt
+confme/file_backend/__init__.py
+confme/file_backend/file_backend.py
+confme/parsing/__init__.py
+confme/parsing/parser_base.py
+confme/parsing/parser_primitive.py
+confme/parsing/parser_secret.py
+confme/parsing/root_parser.py
