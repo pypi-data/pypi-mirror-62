@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+shy_sentry/__init__.py
+shy_sentry/shy_sentry.py
+shy_sentry.egg-info/PKG-INFO
+shy_sentry.egg-info/SOURCES.txt
+shy_sentry.egg-info/dependency_links.txt
+shy_sentry.egg-info/requires.txt
+shy_sentry.egg-info/top_level.txt
