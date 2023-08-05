@@ -1,0 +1,39 @@
+[console_scripts]
+pybel = pybel.cli:main
+
+[pybel.file_exporter]
+bel = pybel.canonicalize:to_bel_script
+bel_gz = pybel.canonicalize:to_bel_script_gz
+bytes = pybel.io:to_pickle
+cx = pybel.io:to_cx_file
+cx_gz = pybel.io:to_cx_gz
+graphdati = pybel.io:to_graphdati_file
+graphdati_gz = pybel.io:to_graphdati_gz
+gsea = pybel.io:to_gsea
+jgif = pybel.io:to_jgif_file
+jgif_gz = pybel.io:to_jgif_gz
+nodelink = pybel.io:to_nodelink_file
+nodelink_gz = pybel.io:to_nodelink_gz
+tsv = pybel.io:to_tsv
+umbrella_nodelink = pybel.io:to_umbrella_nodelink_file
+umbrella_nodelink_gz = pybel.io:to_umbrella_nodelink_gz
+
+[pybel.file_importer]
+bel = pybel:from_lines
+bytes = pybel.io:from_pickle
+nodelink = pybel.io:from_nodelink_json_file
+
+[pybel.object_exporter]
+bel = pybel.canonicalize:to_bel_lines
+bytes = pybel.io:to_bytes
+cx = pybel.io:to_cx
+graphdati = pybel.io:to_graphdati
+jgif = pybel.io:to_jgif
+nodelink = pybel.io:to_nodelink
+umbrella_nodelink = pybel.io:to_umbrella_nodelink
+
+[pybel.object_importer]
+bel = pybel:from_bel_script
+bytes = pybel.io:from_bytes
+nodelink = pybel.io:from_nodelink_json
+
