@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: notty
+Version: 1.3.7
+Summary: 📝⚡ Fast terminal-based notes application
+Home-page: https://github.com/jarvis394/notty
+License: MIT
+Keywords: notes,quick,console,terminal,app,pip
+Author: jarvis394
+Author-email: tarnatovski@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: appdirs (>=1.4.3,<2.0.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: prompt_toolkit (>=3.0.3,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/jarvis394/notty/issues
+Project-URL: Repository, https://github.com/jarvis394/notty
+Description-Content-Type: text/markdown
+
+<p align="center"><img width=512 src="https://raw.githubusercontent.com/jarvis394/notty/master/notty.png" alt="terminal view" /></p>
+<h1 align="center">notty</h1>
+<h6 align="center">📝⚡ Fast terminal-based notes application</h6>
+
+## Setup
+
+Installation via `pip`:
+
+```bash
+$ pip install notty
+```
+
+Updating:
+
+```bash
+$ pip install notty --upgrade
+```
+
+Executing:
+```bash
+$ notty
+Usage: notty [OPTIONS] COMMAND [ARGS]...
+```
+
+**If you're using Anaconda:**
+1. Create new virtual environment
+    ```bash
+    (base) $ conda create -n YOURNAME python=3
+    Collecting package metadata (current_repodata.json): done
+    Solving environment: done
+    ... # hit [y] for the packages' installation
+    ```
+2. Activate newly created environment
+    ```bash
+    (base) $ conda activate YOURNAME
+    (YOURNAME) $
+    ```
+3. Install via `pip`:
+    ```bash
+    (YOURNAME) $ pip install notty --upgrade
+    ```
+4. To return to the `(base)` environment, run `conda deactivate`:
+    ```bash
+    (YOURNAME) $ conda deactivate
+    (base) $ 
+    ```
+
+*Currently built for **Python 3.x***
+
+## Usage
+
+For more information, run `notty --help`
+
+|Command|Aliases|Description|
+|-|-|-|
+|create|*c, create*|Creates a new note|
+|list|*l, list*|Lists all notes.<br />Actually, it can create, delete, rename the notes, so it might be the most important thing here|
+|edit `<id>`|*e, edit*|Edits the note with a given ID (opens up a default editor)|
+
+## Contribution
+
+...is welcomed. PR's are widely opened.
+
+## Contact
+
+Me: [VK](https://vk.com/tarnatovski)
+
