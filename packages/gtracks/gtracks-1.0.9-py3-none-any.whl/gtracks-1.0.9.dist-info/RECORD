@@ -1,0 +1,12 @@
+gtracks/__init__.py,sha256=oJy_AWZJDeo7jnmNpN0lAkbyuSnRtZwIrQp9LbxFb0k,122
+gtracks/download_example_bw.py,sha256=RH92sXieIbqrceGvJhgzP0z6R8hi-zzFyQVfBN0A_Yw,1489
+gtracks/genes.bed12.bed.gz,sha256=nAraoIHGDdYCugBkeDXizdnxx8x85ruo8Ih06YDPz00,2636512
+gtracks/gtracks.py,sha256=udniZvU7nbudoNaqm7enjwFsTRhO7xrJu_C3ZF0FX_w,6329
+gtracks/hg19.bed12.bed.gz,sha256=nAraoIHGDdYCugBkeDXizdnxx8x85ruo8Ih06YDPz00,2636512
+gtracks/hg38.bed12.bed.gz,sha256=Xp-iJ7qqnEW0HJEpOXeYfKHUPgALXhlITNvmoQJbgIE,5047093
+gtracks-1.0.9.dist-info/LICENSE,sha256=xEaaWsDj7uQwr4g9FEmmvn3Mlhbrs0f0IJlliw73D54,1059
+gtracks-1.0.9.dist-info/METADATA,sha256=VJ2OsHOZOLz3-FcnU7WbWmYlKUrs_X8qIbKbolfjAhA,2081
+gtracks-1.0.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+gtracks-1.0.9.dist-info/entry_points.txt,sha256=TJKv80Ziw-W1fTwFyzRxfmdZ-J6QrmSTzQ5ZFMykG18,113
+gtracks-1.0.9.dist-info/top_level.txt,sha256=yRYc7Ml6nLhMhJG_su5F-ZAY8Z45HdBLK2OnV2tfyGw,8
+gtracks-1.0.9.dist-info/RECORD,,
