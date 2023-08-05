@@ -1,0 +1,8 @@
+flask
+python-socketio
+eventlet
+termcolor
+sympy
+numpy
+scipy
+qutip
