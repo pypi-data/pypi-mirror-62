@@ -1,0 +1,11 @@
+tensorflow_chatbots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_chatbots/tsb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_chatbots/tsb/callback.py,sha256=Vw7gY7qHIAatMBcBM8WmCFQzxJyZAX3P1ezj-AtEn5M,9776
+tensorflow_chatbots/ttb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_chatbots/ttb/callback.py,sha256=BzjrfJ4YRBWDk_G2kNG0kxx0tuhdFPwhI7JoG38e0qE,1202
+tensorflow_chatbots/variableholder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_chatbots/variableholder/variableholder.py,sha256=dBdycnJ5TRVMfYkUWDgm7xiOF_wlDgs7Ydzgb9ry4Lc,588
+Tensorflow_ChatBots-0.0.1.dist-info/METADATA,sha256=fEpAm46lqzTlv4oOcUHrPTpuegoepvQyc5sTwSbrYpM,259
+Tensorflow_ChatBots-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+Tensorflow_ChatBots-0.0.1.dist-info/top_level.txt,sha256=UMfL5vuwhkjHWRhkFucZz7PAdYywlbZZen1iTxEeKXU,20
+Tensorflow_ChatBots-0.0.1.dist-info/RECORD,,
