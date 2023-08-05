@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cookiecutter-hypermodern-python-instance
+Version: 0.1.0
+Summary: Cookiecutter Hypermodern Python Instance
+Home-page: https://github.com/cjolowicz/cookiecutter-hypermodern-python-instance
+License: MIT
+Author: Claudio Jolowicz
+Author-email: mail@claudiojolowicz.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: importlib-metadata (>=1.5.0,<2.0.0); python_version < "3.8"
+Project-URL: Changelog, https://github.com/cjolowicz/cookiecutter-hypermodern-python-instance/releases
+Project-URL: Documentation, https://cookiecutter-hypermodern-python-instance.readthedocs.io
+Project-URL: Repository, https://github.com/cjolowicz/cookiecutter-hypermodern-python-instance
+Description-Content-Type: text/markdown
+
+[![Tests](https://github.com/cjolowicz/cookiecutter-hypermodern-python-instance/workflows/Tests/badge.svg)](https://github.com/cjolowicz/cookiecutter-hypermodern-python-instance/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance/branch/master/graph/badge.svg)](https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance)
+[![PyPI](https://img.shields.io/pypi/v/cookiecutter-hypermodern-python-instance.svg)](https://pypi.org/project/cookiecutter-hypermodern-python-instance/)
+[![Python Version](https://img.shields.io/pypi/pyversions/cookiecutter-hypermodern-python-instance)](https://pypi.org/project/cookiecutter-hypermodern-python-instance)
+[![Read the Docs](https://readthedocs.org/projects/cookiecutter-hypermodern-python-instance/badge/)](https://cookiecutter-hypermodern-python-instance.readthedocs.io/)
+[![License](https://img.shields.io/pypi/l/cookiecutter-hypermodern-python-instance)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# cookiecutter-hypermodern-python-instance
+
