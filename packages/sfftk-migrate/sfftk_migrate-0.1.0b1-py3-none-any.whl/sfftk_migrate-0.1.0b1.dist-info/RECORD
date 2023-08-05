@@ -1,0 +1,16 @@
+sfftk_migrate/__init__.py,sha256=UmX-vV7DczmQpIbtYKOOqljNzPD6SN93hM39APMx4jM,3198
+sfftk_migrate/core.py,sha256=Ko9goWFo8s3yB3fBI6k-85THrgw8DOBuHy9jMixYyzE,3715
+sfftk_migrate/main.py,sha256=fB-UU_JHFyhpip8Zz6DaeahMP3vZxtTfEDkuzTg8ztc,2797
+sfftk_migrate/migrate.py,sha256=KXfdVZ0L5pR1bV7DCj9iMR2tQhmM0taq40eGk_r6pRo,4709
+sfftk_migrate/tests.py,sha256=EEz9E4H6Nao23bUNH4sRsWOeank_3JLd-Boi-AqBeuY,24009
+sfftk_migrate/utils.py,sha256=E6ELniMRJhMLk_EqF_bPnKU0DwpPnFsBZ7Efar-XM54,1203
+sfftk_migrate/stylesheets/identity.xsl,sha256=PyLO8daeNCe8Tz-gf4N3DZ6PLe9l-FzDSwTPUB27Mcc,434
+sfftk_migrate/stylesheets/migrate_v0.7.0.dev0_to_v0.8.0.dev0.xsl,sha256=Lu4BABrstfO0rVO4kSuDKrWsTPFDk0kzcGETZFJUnmk,34185
+sfftk_migrate/stylesheets/migrate_v0.7.0.dev0_to_v0.8.0.dev1.xsl,sha256=P42PtEER--aZ16eu5f3EZNAf4hsUFaPvLURRZbJvmbo,34185
+sfftk_migrate/stylesheets/migrate_v1_to_v2.xsl,sha256=GG4sZFTcUqdKEr8pusy51hM8tuBd6yvMVnWQF18FGic,696
+sfftk_migrate-0.1.0b1.dist-info/LICENSE,sha256=kyx2-BQMUpo4djt7cZfs67YzNSRVvZGIUHKGsAUpP-w,11338
+sfftk_migrate-0.1.0b1.dist-info/METADATA,sha256=ZAdhnNHXKWQjNHoJSLUrBAkM0sQsW8YvmoITnTTkm9I,4193
+sfftk_migrate-0.1.0b1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sfftk_migrate-0.1.0b1.dist-info/entry_points.txt,sha256=g3BSH6Y4J-7PRmMZ5ddQqwmy6Vkf-Ns_EPzdI6_VTxE,57
+sfftk_migrate-0.1.0b1.dist-info/top_level.txt,sha256=9VWt4sOgU60Qya5uIsKSkcN580oXUnaPvfRxJK55qKI,14
+sfftk_migrate-0.1.0b1.dist-info/RECORD,,
