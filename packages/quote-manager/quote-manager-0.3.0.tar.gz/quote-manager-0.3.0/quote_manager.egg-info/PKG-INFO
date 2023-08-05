@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: quote-manager
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: https://github.com/Qordobacode/library.quote.manager
+Author: Qordoba
+Author-email: Sam Havens <sam.havens@qordoba.com>
+License: MIT
+Description: # library.quote.manager
+        
+        Helper nlp library for handling non ascii quotes.
+        
+        ## Usage
+        
+        ```python3
+        
+        from quote_manager import Quotes
+        
+        sentence = “That’s an ‘magic’ shoe.”
+        
+        quotes_sentence = Quotes(sentence)
+        
+        quotes_sentence.simplified
+        >> "That's an 'magic' shoe.'
+        
+        # do stuff here...
+        transformed_sentence = transform(quotes_sentence.simplified)
+        # ex. grammar correction: "That's a 'magic' shoe.'
+        
+        transformed_sentence = quotes_sentence.requote_modified_string(transformed_sentence)
+        # “That’s a ‘magic’ shoe.”
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6.4
+Description-Content-Type: text/markdown
