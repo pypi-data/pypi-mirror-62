@@ -1,0 +1,12 @@
+README.md
+setup.py
+gd_kafka/__init__.py
+gd_kafka.egg-info/PKG-INFO
+gd_kafka.egg-info/SOURCES.txt
+gd_kafka.egg-info/dependency_links.txt
+gd_kafka.egg-info/not-zip-safe
+gd_kafka.egg-info/requires.txt
+gd_kafka.egg-info/top_level.txt
+gd_kafka/src/kafka/GDKafka.py
+gd_kafka/src/kafka/__init__.py
+test/test.py
