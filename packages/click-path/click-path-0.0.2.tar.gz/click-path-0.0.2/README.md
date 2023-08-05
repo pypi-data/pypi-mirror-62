@@ -1,0 +1,98 @@
+# Advanced Path Types for Click
+
+A library of path-like types for the Click command-line library.
+
+I really like the [click](https://click.palletsprojects.com/) library for creating Python command-line interfaces, however, I've run into issues because it lacks the ability to do a couple of key things - namely the ability to produce a [`pathlib.Path`](https://docs.python.org/3/library/pathlib.html) argument and the ability to use glob-based arguments. I am hoping to fix both of these with, and eventually add more useful commandline parameter types to this library. This library primarily implemented custom types for click parameters similar to how they're [described here](https://click.palletsprojects.com/en/7.x/parameters/#implementing-custom-types).
+
+## Installation & Setup
+
+To install click-path with [`pip`](https://pip.pypa.io/en/stable/) execute the following:
+
+```bash
+pip install /path/to/repo/click-path
+```
+
+If you don't want to re-install every time there is an update, and prefer to just pull from the git repository, then use the `-e` flag.
+
+## Usage Examples
+
+### PathlibPath
+
+Allows the user of this library (and `click`) to create CLIs which output [`Path`](https://docs.python.org/3/library/pathlib.html#module-pathlib) parameter types with a lot of the same validation as what's available for the standard `click.Path` type. Here is an example:
+
+```python
+from pathlib import Path
+
+import click
+from click_path import PathlibPath
+
+EXISTING_READABLE_FILE = PathlibPath(exists=True,
+                                     file_okay=True,
+                                     dir_okay=False,
+                                     writable=False,
+                                     readable=True,
+                                     resolve_path=True)
+
+
+@click.command()
+@click.option('-t', '--test', type=EXISTING_READABLE_FILE)
+def cli_existing_readable_file(test: Path):
+    click.echo(str(test))
+```
+
+### GlobPaths
+
+`GlobPaths` allow you to take commandline arguments in the form of `/path/to/directory/*` which then produces an [iterable](https://docs.python.org/3/glossary.html#term-iterable) of [`pathlib.Path`](https://docs.python.org/3/library/pathlib.html#module-pathlib) objects for you to work with. It also allows filtering of said iterable of paths based on some specific parameters, like read/write permissions, and files vs. directories.
+
+```python
+import click
+from click_path import GlobPaths
+
+
+READABLE_FILES = GlobPaths(extant_only=False,
+                           files_okay=True,
+                           dirs_okay=False,
+                           writable_only=False,
+                           readable_only=True,
+                           resolve=False,
+                           at_least_one=True)
+
+
+@click.command()
+    @click.option('-t', '--tests', type=READABLE_FILES)
+    @typechecked
+    def cli(tests: Iterable[Path]):
+        click.echo(str(tests))
+```
+
+## Development
+
+For development, you're going to want to set up a virtual development environment with [pipenv](https://github.com/pypa/pipenv) by following the linked instructions. I also strongly recommend setting the `export PIPENV_VENV_IN_PROJECT=1` environment variable in your `~/.bashrc` or `~/.zshrc` file because that makes the venvs much easier to work with.
+
+Then execute the following in the repo directory:
+
+```bash
+pipenv --three
+```
+
+To install the package for development, please use the `dev` [extra](https://setuptools.readthedocs.io/en/latest/setuptools.html#declaring-extras-optional-features-with-their-own-dependencies) inside the virtualenv
+
+```bash
+pipenv install -e "/path/to/repo/click-path[dev]"
+```
+
+The `-e` installs the package in place for development, so that you don't have to reinstall when you make changes.
+
+## Running Tests
+
+You can run all the tests with pytest and coverage (or all the unit tests, by changing the path to `tests/unit`) like so inside the virtualenv (`pipenv shell`):
+
+```bash
+(click-path) pytest -s -vv --cov=click_path --cov-report=term-missing --cov-branch tests
+```
+
+Similarly, if you'd like to add HTML coverage reporting:
+
+```bash
+(click-path) pytest -s -vv --cov=click_path --cov-report=html:htmlcov --cov-report=term-missing --cov-branch tests
+```
