@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dummy/__init__.py
+dummy/dummy.py
+dummy/util.py
+dummy_test_derek.egg-info/PKG-INFO
+dummy_test_derek.egg-info/SOURCES.txt
+dummy_test_derek.egg-info/dependency_links.txt
+dummy_test_derek.egg-info/top_level.txt

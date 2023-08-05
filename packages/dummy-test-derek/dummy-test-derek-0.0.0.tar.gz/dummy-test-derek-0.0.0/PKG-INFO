@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: dummy-test-derek
+Version: 0.0.0
+Summary: A dummy module to test
+Home-page: https://github.com/derek-ye/pip3-class
+Author: derek-ye
+License: MIT
+Download-URL: https://github.com/derek-ye/pip3-class/tarball/0.0.0
+Description: UNKNOWN
+Keywords: dummy test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
