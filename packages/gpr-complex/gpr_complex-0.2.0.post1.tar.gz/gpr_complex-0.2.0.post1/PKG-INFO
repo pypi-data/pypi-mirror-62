@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gpr-complex
+Version: 0.2.0.post1
+Summary: A GPR library that can work with complex numbers
+Home-page: https://github.com/darcamo/gpr_complex
+License: MIT
+Keywords: GPR,complex
+Author: Darlan Cavalcante Moreira
+Author-email: darcamo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: bokeh (>=1.4.0,<2.0.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/darcamo/gpr_complex
+Description-Content-Type: text/markdown
+
+A Gaussian Process Regression (GPR) library that can work with complex numbers.
+
+
+# Development
+
+Run `poetry install` to create the virtual environment and `pre-commit install`
+to install the commit hooks.
+
