@@ -1,0 +1,12 @@
+wagtailorderable/__init__.py,sha256=qKK4BMzdt84HiCorJPWqgEfa_DbJeuGx_bIPrDui2vc,22
+wagtailorderable/models.py,sha256=SvnITkWdB7yE3wZngdQLpsAsTYCLGzUUaMQR0u0O0k0,945
+wagtailorderable/__pycache__/__init__.cpython-36.pyc,sha256=-gn-zJC-h676T20dIQn1DNZub5BLY-XS2I_PQOAgQFA,155
+wagtailorderable/modeladmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailorderable/modeladmin/mixins.py,sha256=aHPR2eYgd5d86TdBDWa2uspEzbtHNVMrvakuzBd9yEs,6794
+wagtailorderable/static/wagtailorderable/modeladmin/css/orderablemixin.css,sha256=UBBdN3Ote-Grc6QXx6Toq_SqpGjCnQ8Q9RyD2oFsL-k,312
+wagtailorderable/static/wagtailorderable/modeladmin/js/orderablemixin.js,sha256=u29TArAtQWSmQq91haxZKsPKVy2NKASM3gT6IPLy1QM,2933
+wagtail_orderable-1.0.3.dist-info/LICENSE.txt,sha256=87CWJGEsxMD3iDOIgafErYBKT9gSWW4V31NmlMpPNsQ,1071
+wagtail_orderable-1.0.3.dist-info/METADATA,sha256=DM02KdGOQ-VH2XR3WWeOZAyNY6L5IFecqAFhIAOcocY,928
+wagtail_orderable-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wagtail_orderable-1.0.3.dist-info/top_level.txt,sha256=llboDLXOifZg4Zk2S0t0nOt-SeUT-i9iM62yg9Vbwso,17
+wagtail_orderable-1.0.3.dist-info/RECORD,,
