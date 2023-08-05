@@ -1,0 +1,10 @@
+sphinx_data_fields/__init__.py,sha256=4lljR-_XBcIEbLGSjXMWMt0cHpfSCqBHE0nP2unpPjA,213
+sphinx_data_fields/_example_object.py,sha256=VwIzG7ILE6zfgOqp3pd4OFGWtSYDYLuosrvNZMhbL2w,748
+sphinx_data_fields/_process_docstring.py,sha256=alPndW9_d5bBDqd6osfbDtn0dT3sw1nQCicweTmd12I,1992
+sphinx_data_fields/_setup.py,sha256=moTzQefiGfHwqfw5yGTBIWa2duLH9otCJZoLEE2938c,291
+sphinx_data_fields/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+sphinx_data_fields-0.1.1.dist-info/LICENSE,sha256=ASmY5UYMO-xmc-Y7yfNCeafcVgDZg-IV-syrG9ZKfBo,1070
+sphinx_data_fields-0.1.1.dist-info/METADATA,sha256=7ajY2Cis7fPZRqImDranBwTH4-NswY0FIloUYPa8IlM,901
+sphinx_data_fields-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sphinx_data_fields-0.1.1.dist-info/top_level.txt,sha256=HBf9gq4xsPDzKIfVBinAZyoCv-uGaQIoaWbjDARiK7M,19
+sphinx_data_fields-0.1.1.dist-info/RECORD,,
