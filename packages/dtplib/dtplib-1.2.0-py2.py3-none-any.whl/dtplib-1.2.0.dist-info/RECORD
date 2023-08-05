@@ -1,0 +1,9 @@
+dtplib/__init__.py,sha256=sCzDsn9epSFjkTeSYw3RW58f4a1hW-w0X_u9tfHfupw,97
+dtplib/client.py,sha256=Hbv8lYrjk0l9Y4I02LwUcm8BHxECiLZnAnDUupVdnu4,7394
+dtplib/server.py,sha256=2Goa7BiPNZUP3XC3CdohygNQx0rfeymOT21KS1X4I8s,9922
+dtplib/util.py,sha256=-dOj1uMXJF84Ukg9cvkFdhe34F64LIz8iNQIJ8rxnBQ,2337
+dtplib-1.2.0.dist-info/LICENSE,sha256=v0eJ1c95clzk01MALuVwC3k-YLaSgg600gcrB05VMLQ,1059
+dtplib-1.2.0.dist-info/METADATA,sha256=DcTOuFLOv0Ld9irxweZbMEAjVTY-pR_Ls0wT7ZapKvU,5506
+dtplib-1.2.0.dist-info/WHEEL,sha256=aEiWNTQcG6AiGGAYQ9qHTifyKRnmFJvDeTI0hP5aohY,116
+dtplib-1.2.0.dist-info/top_level.txt,sha256=L94u3R9VJ_THQhvMneqcXTOaFZZNGR4CghKEWwMxSJY,7
+dtplib-1.2.0.dist-info/RECORD,,
