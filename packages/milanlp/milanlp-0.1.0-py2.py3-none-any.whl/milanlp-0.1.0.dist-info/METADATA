@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: milanlp
+Version: 0.1.0
+Summary: MilaNLP Library
+Home-page: https://github.com/vinid/milanlp
+Author: Federico Bianchi
+Author-email: f.bianchi@unibocconi.it
+License: MIT license
+Keywords: milanlp
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Sphinx (==1.8.5)
+Requires-Dist: bump2version (==0.5.11)
+Requires-Dist: coverage (==4.5.4)
+Requires-Dist: flake8 (==3.7.8)
+Requires-Dist: pip (==19.2.3)
+Requires-Dist: spacy
+Requires-Dist: tox (==3.14.0)
+Requires-Dist: tweepy
+Requires-Dist: twine (==1.14.0)
+Requires-Dist: watchdog (==0.9.0)
+Requires-Dist: wheel (==0.33.6)
+
+===============
+MilaNLP Library
+===============
+
+
+.. image:: https://img.shields.io/pypi/v/milanlp.svg
+        :target: https://pypi.python.org/pypi/milanlp
+
+.. image:: https://img.shields.io/travis/vinid/milanlp.svg
+        :target: https://travis-ci.com/vinid/milanlp
+
+.. image:: https://readthedocs.org/projects/milanlp/badge/?version=latest
+        :target: https://milanlp.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+MilaNLP Library
+
+
+* Free software: MIT license
+* Documentation: https://milanlp.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-02-21)
+------------------
+
+* First release on PyPI.
+
+
