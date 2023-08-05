@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sech3r
+Version: 4.1
+Summary: HTTP Security Header Checker
+Home-page: https://github.com/naryal2580/sech3r
+Author: Captain Nick Lucifer
+Author-email: naryal2580@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/naryal2580/sech3r/tarball/master
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# SéCh3r v4.1
+A Security HTTP-Header Checker.  # Make it Dry!
+
+
+</> with ❤️ & ✌️ --naryal2580
+
+
