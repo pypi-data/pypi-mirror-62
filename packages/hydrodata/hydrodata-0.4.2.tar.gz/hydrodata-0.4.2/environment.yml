@@ -1,0 +1,23 @@
+name: hydrodata
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - pip
+  - owslib
+  - scipy
+  - pandas
+  - matplotlib
+  - descartes
+  - xarray
+  - cartopy
+  - dask
+  - netCDF4
+  - bottleneck
+  - lxml
+  - geopandas
+  - geojson
+  - pip:
+    - rasterstats
+    - tables
+    - hydrodata
