@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Scatter, 0D{1,1} dataset &mdash; csdmpy 0.2 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.2',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.2 documentation" href="../../index.html" />
+    <link rel="up" title="Example Gallery" href="../index.html" />
+    <link rel="next" title="Meteorological, 2D{1,1,2,1,1} dataset" href="plot_1_meteorology.html" />
+    <link rel="prev" title="Image, 2D{3} datasets" href="../pixel/plot_0_image.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-inverse" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.2 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../pixel/plot_0_image.html" title="Image, 2D{3} datasets" accesskey="P">previous </a></li>
+              <li><a href="plot_1_meteorology.html" title="Meteorological, 2D{1,1,2,1,1} dataset" accesskey="N">next </a></li>
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../index.html" accesskey="U">Example Gallery</a></li>
+            
+            <li class="visible-xs"><a href="../../_sources/auto_examples/correlated_examples/plot_0_0D11_dataset.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../pixel/plot_0_image.html"
+                        title="previous chapter">Image, 2D{3} datasets</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="plot_1_meteorology.html"
+                        title="next chapter">Meteorological, 2D{1,1,2,1,1} dataset</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/auto_examples/correlated_examples/plot_0_0D11_dataset.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p>Click <a class="reference internal" href="#sphx-glr-download-auto-examples-correlated-examples-plot-0-0d11-dataset-py"><span class="std std-ref">here</span></a> to download the full example code</p>
+</div>
+<div class="sphx-glr-example-title section" id="scatter-0d-1-1-dataset">
+<span id="sphx-glr-auto-examples-correlated-examples-plot-0-0d11-dataset-py"></span><h1>Scatter, 0D{1,1} dataset<a class="headerlink" href="#scatter-0d-1-1-dataset" title="Permalink to this headline">¶</a></h1>
+<p>We start with a 0D{1,1} correlated dataset, that is, a dataset
+without a coordinate grid. A 0D{1,1} dataset has no dimensions, d = 0, and
+two single-component dependent variables.
+In the following example <a class="footnote-reference brackets" href="#f3" id="id1">1</a>, the two <cite>correlated</cite> dependent variables are
+the <span class="math notranslate nohighlight">\(^{29}\text{Si}\)</span> - <span class="math notranslate nohighlight">\(^{29}\text{Si}\)</span> nuclear spin couplings,
+<span class="math notranslate nohighlight">\(^2J\)</span>, across a Si-O-Si linkage, and the <cite>s</cite>-character product on the
+O and two Si along the Si-O bond across the Si-O-Si linkage.</p>
+<p>Let’s import the dataset.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">csdmpy</span> <span class="k">as</span> <span class="nn">cp</span>
+
+<span class="n">filename</span> <span class="o">=</span> <span class="s2">&quot;https://osu.box.com/shared/static/h1nxth6gs94fthfmvip5vchp3zh4zd6o.csdf&quot;</span>
+<a href="../../api/CSDM.html#csdmpy.CSDM" title="View documentation for csdmpy.CSDM"><span class="n">zero_d_dataset</span></a> <span class="o">=</span> <a href="../../api/csdmpy.html#csdmpy.load" title="View documentation for csdmpy.load"><span class="n">cp</span><span class="o">.</span><span class="n">load</span></a><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Since the dataset has no dimensions, the value of the
+<a class="reference internal" href="../../api/CSDM.html#csdmpy.CSDM.dimensions" title="csdmpy.CSDM.dimensions"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dimensions</span></code></a> attribute of the <a class="reference internal" href="../../api/CSDM.html#csdmpy.CSDM" title="csdmpy.CSDM"><code class="xref py py-attr docutils literal notranslate"><span class="pre">CSDM</span></code></a>
+class is an empty tuple,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><a href="../../api/CSDM.html#csdmpy.CSDM" title="View documentation for csdmpy.CSDM"><span class="n">zero_d_dataset</span></a><span class="o">.</span><span class="n">dimensions</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[]
+</pre></div>
+</div>
+<p>The <a class="reference internal" href="../../api/CSDM.html#csdmpy.CSDM.dependent_variables" title="csdmpy.CSDM.dependent_variables"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dependent_variables</span></code></a> attribute, however, holds
+two dependent-variable objects. The data structure from the two dependent
+variables is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><a href="../../api/CSDM.html#csdmpy.CSDM" title="View documentation for csdmpy.CSDM"><span class="n">zero_d_dataset</span></a><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>{
+  &quot;type&quot;: &quot;internal&quot;,
+  &quot;name&quot;: &quot;Gaussian computed J-couplings&quot;,
+  &quot;unit&quot;: &quot;Hz&quot;,
+  &quot;quantity_name&quot;: &quot;frequency&quot;,
+  &quot;numeric_type&quot;: &quot;float32&quot;,
+  &quot;quantity_type&quot;: &quot;scalar&quot;,
+  &quot;component_labels&quot;: [
+    &quot;J-coupling&quot;
+  ],
+  &quot;components&quot;: [
+    [
+      &quot;-1.87378, -1.42918, ..., 25.1742, 26.0608&quot;
+    ]
+  ]
+}
+</pre></div>
+</div>
+<p>and</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><a href="../../api/CSDM.html#csdmpy.CSDM" title="View documentation for csdmpy.CSDM"><span class="n">zero_d_dataset</span></a><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">data_structure</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>{
+  &quot;type&quot;: &quot;internal&quot;,
+  &quot;name&quot;: &quot;product of s-characters&quot;,
+  &quot;unit&quot;: &quot;%&quot;,
+  &quot;numeric_type&quot;: &quot;float32&quot;,
+  &quot;quantity_type&quot;: &quot;scalar&quot;,
+  &quot;component_labels&quot;: [
+    &quot;s-character product&quot;
+  ],
+  &quot;components&quot;: [
+    [
+      &quot;0.8457453, 0.8534185, ..., 1.5277092, 1.5289451&quot;
+    ]
+  ]
+}
+</pre></div>
+</div>
+<p>respectively.</p>
+<p><strong>Visualizing the dataset</strong></p>
+<p>The correlation plot of the dependent-variables from the dataset is
+shown below.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<a href="../../api/DependentVariable.html#csdmpy.DependentVariable" title="View documentation for csdmpy.DependentVariable"><span class="n">y0</span></a> <span class="o">=</span> <a href="../../api/CSDM.html#csdmpy.CSDM" title="View documentation for csdmpy.CSDM"><span class="n">zero_d_dataset</span></a><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<a href="../../api/DependentVariable.html#csdmpy.DependentVariable" title="View documentation for csdmpy.DependentVariable"><span class="n">y1</span></a> <span class="o">=</span> <a href="../../api/CSDM.html#csdmpy.CSDM" title="View documentation for csdmpy.CSDM"><span class="n">zero_d_dataset</span></a><span class="o">.</span><span class="n">dependent_variables</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter" title="View documentation for matplotlib.pyplot.scatter"><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span></a><span class="p">(</span><a href="../../api/DependentVariable.html#csdmpy.DependentVariable" title="View documentation for csdmpy.DependentVariable"><span class="n">y1</span></a><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <a href="../../api/DependentVariable.html#csdmpy.DependentVariable" title="View documentation for csdmpy.DependentVariable"><span class="n">y0</span></a><span class="o">.</span><span class="n">components</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">s</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s2">&quot;k&quot;</span><span class="p">)</span>
+<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.xlabel.html#matplotlib.pyplot.xlabel" title="View documentation for matplotlib.pyplot.xlabel"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span></a><span class="p">(</span><a href="../../api/DependentVariable.html#csdmpy.DependentVariable" title="View documentation for csdmpy.DependentVariable"><span class="n">y1</span></a><span class="o">.</span><span class="n">axis_label</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.ylabel.html#matplotlib.pyplot.ylabel" title="View documentation for matplotlib.pyplot.ylabel"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span></a><span class="p">(</span><a href="../../api/DependentVariable.html#csdmpy.DependentVariable" title="View documentation for csdmpy.DependentVariable"><span class="n">y0</span></a><span class="o">.</span><span class="n">axis_label</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.tight_layout.html#matplotlib.pyplot.tight_layout" title="View documentation for matplotlib.pyplot.tight_layout"><span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span></a><span class="p">()</span>
+<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="View documentation for matplotlib.pyplot.show"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
+</pre></div>
+</div>
+<img alt="../../_images/sphx_glr_plot_0_0D11_dataset_001.png" class="sphx-glr-single-img" src="../../_images/sphx_glr_plot_0_0D11_dataset_001.png" />
+<p class="rubric">Citation</p>
+<dl class="footnote brackets">
+<dt class="label" id="f3"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Srivastava DJ, Florian P, Baltisberger JH, Grandinetti PJ. Correlating geminal
+couplings to structure in framework silicates. Phys Chem Chem Phys. 2018;20:562–571.
+DOI:10.1039/C7CP06486A</p>
+</dd>
+</dl>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  0.120 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-correlated-examples-plot-0-0d11-dataset-py">
+<div class="sphx-glr-download docutils container">
+<p><a class="reference download internal" download="" href="../../_downloads/d93ff3a9238de114e22541310e27c64d/plot_0_0D11_dataset.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_0_0D11_dataset.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download docutils container">
+<p><a class="reference download internal" download="" href="../../_downloads/d5063d4ec8368fd1f966c55fca1b8c40/plot_0_0D11_dataset.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_0_0D11_dataset.ipynb</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-inverse" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.2 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../pixel/plot_0_image.html" title="Image, 2D{3} datasets" >previous</a></li>
+        <li><a href="plot_1_meteorology.html" title="Meteorological, 2D{1,1,2,1,1} dataset" >next</a></li>
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../index.html" >Example Gallery</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019-2020, The CSDMpy project..
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.1.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

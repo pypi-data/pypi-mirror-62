@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>LinearDimension &mdash; csdmpy 0.2 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.2',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.2 documentation" href="../../index.html" />
+    <link rel="up" title="Dimension" href="../Dimensions.html" />
+    <link rel="next" title="MonotonicDimension" href="monotonic.html" />
+    <link rel="prev" title="Dimension" href="../Dimensions.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-inverse" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.2 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="../Dimensions.html" title="Dimension" accesskey="P">previous </a></li>
+              <li><a href="monotonic.html" title="MonotonicDimension" accesskey="N">next </a></li>
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../../referenceAPI.html" >API-Reference</a></li>
+              <li><a href="../Dimensions.html" accesskey="U">Dimension</a></li>
+            
+            <li class="visible-xs"><a href="../../_sources/api/dimension/linear.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../Dimensions.html"
+                        title="previous chapter">Dimension</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="monotonic.html"
+                        title="next chapter">MonotonicDimension</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/api/dimension/linear.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="lineardimension">
+<h1>LinearDimension<a class="headerlink" href="#lineardimension" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="csdmpy.LinearDimension">
+<em class="property">class </em><code class="sig-prename descclassname">csdmpy.</code><code class="sig-name descname">LinearDimension</code><span class="sig-paren">(</span><em class="sig-param">count</em>, <em class="sig-param">increment</em>, <em class="sig-param">complex_fft=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/csdmpy/dimensions/linear.html#LinearDimension"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.LinearDimension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">csdmpy.dimensions.quantitative.BaseQuantitativeDimension</span></code></p>
+<p>LinearDimension class.</p>
+<p>Generates an object representing a physical dimension whose coordinates are
+uniformly sampled along a grid dimension. See <a class="reference internal" href="../../CSDmodel_uml/dimensions/linear.html#lineardimension-uml"><span class="std std-ref">LinearDimension</span></a> for
+details.</p>
+<dl class="method">
+<dt id="csdmpy.LinearDimension.absolute_coordinates">
+<em class="property">property </em><code class="sig-name descname">absolute_coordinates</code><a class="headerlink" href="#csdmpy.LinearDimension.absolute_coordinates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the absolute coordinates along the dimensions.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.axis_label">
+<em class="property">property </em><code class="sig-name descname">axis_label</code><a class="headerlink" href="#csdmpy.LinearDimension.axis_label" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a formatted string for displaying label along the dimension axis.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.complex_fft">
+<em class="property">property </em><code class="sig-name descname">complex_fft</code><a class="headerlink" href="#csdmpy.LinearDimension.complex_fft" title="Permalink to this definition">¶</a></dt>
+<dd><p>If True, orders the coordinates according to FFT output order.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.coordinates">
+<em class="property">property </em><code class="sig-name descname">coordinates</code><a class="headerlink" href="#csdmpy.LinearDimension.coordinates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the coordinates along the dimensions.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.copy">
+<code class="sig-name descname">copy</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/csdmpy/dimensions/linear.html#LinearDimension.copy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.LinearDimension.copy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a copy of the object.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.count">
+<em class="property">property </em><code class="sig-name descname">count</code><a class="headerlink" href="#csdmpy.LinearDimension.count" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total number of points along the linear dimension.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.data_structure">
+<em class="property">property </em><code class="sig-name descname">data_structure</code><a class="headerlink" href="#csdmpy.LinearDimension.data_structure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Json serialized string describing the LinearDimension class instance.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.increment">
+<em class="property">property </em><code class="sig-name descname">increment</code><a class="headerlink" href="#csdmpy.LinearDimension.increment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Increment along the linear dimension.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.to_dict">
+<code class="sig-name descname">to_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/csdmpy/dimensions/linear.html#LinearDimension.to_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#csdmpy.LinearDimension.to_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the LinearDimension as a python dictionary.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="csdmpy.LinearDimension.type">
+<em class="property">property </em><code class="sig-name descname">type</code><a class="headerlink" href="#csdmpy.LinearDimension.type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the type of the dimension.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-inverse" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.2 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="../Dimensions.html" title="Dimension" >previous</a></li>
+        <li><a href="monotonic.html" title="MonotonicDimension" >next</a></li>
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../../referenceAPI.html" >API-Reference</a></li>
+        <li><a href="../Dimensions.html" >Dimension</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019-2020, The CSDMpy project..
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.1.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>Dimension specific Apodization methods &mdash; csdmpy 0.2 documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../../_static/gallery.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../../',
+            VERSION:     '0.2',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="csdmpy 0.2 documentation" href="../../index.html" />
+    <link rel="up" title="Numpy methods" href="../numpy_wrappers.html" />
+    <link rel="prev" title="Supported NumPy functions" href="element_wise_operation.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-inverse" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../index.html">csdmpy 0.2 documentation</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+              <li><a href="element_wise_operation.html" title="Supported NumPy functions" accesskey="P">previous </a></li>
+              <li><a href="../../genindex.html" title="General Index" accesskey="I">index </a></li>
+              <li><a href="../../referenceAPI.html" >API-Reference</a></li>
+              <li><a href="../numpy_wrappers.html" accesskey="U">Numpy methods</a></li>
+            
+            <li class="visible-xs"><a href="../../_sources/api/wrappers/apodization.rst.txt" rel="nofollow">Show Source</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Go" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+    <p class="logo"><a href="../../index.html">
+      <img class="logo" src="../../_static/csdmpy.png" alt="Logo"/>
+    </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="element_wise_operation.html"
+                        title="previous chapter">Supported NumPy functions</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/api/wrappers/apodization.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Quick search</h3>
+  <form class="search form-inline" action="../../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Go" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="dimension-specific-apodization-methods">
+<h1>Dimension specific Apodization methods<a class="headerlink" href="#dimension-specific-apodization-methods" title="Permalink to this headline">¶</a></h1>
+<p>The following methods of form</p>
+<div class="math notranslate nohighlight">
+\[y = f(a x),\]</div>
+<p>where <span class="math notranslate nohighlight">\(a\)</span> is the function argument, and <span class="math notranslate nohighlight">\(x\)</span> are the coordinates
+along the dimension, apodize the components of the dependent variables along
+the respective dimensions. The dimensionality of <span class="math notranslate nohighlight">\(a\)</span> must be the
+reciprocal of that of <span class="math notranslate nohighlight">\(x\)</span>.
+The resulting CSDM object has the same number of dimensions as the original
+object.</p>
+<p class="rubric">Method Summary</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.apodize.sin" title="csdmpy.apodize.sin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sin</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\sin(a x)\)</span>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.apodize.cos" title="csdmpy.apodize.cos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cos</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\cos(a x)\)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.apodize.tan" title="csdmpy.apodize.tan"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tan</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\tan(a x)\)</span>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.apodize.arcsin" title="csdmpy.apodize.arcsin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">arcsin</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\arcsin(a x)\)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.apodize.arccos" title="csdmpy.apodize.arccos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">arccos</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\arccos(a x)\)</span>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#csdmpy.apodize.arctan" title="csdmpy.apodize.arctan"><code class="xref py py-obj docutils literal notranslate"><span class="pre">arctan</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\arctan(a x)\)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#csdmpy.apodize.exp" title="csdmpy.apodize.exp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">exp</span></code></a>(csdm, arg[, dimension])</p></td>
+<td><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\exp(a x)\)</span>.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Method Documentation</p>
+<dl class="function">
+<dt id="csdmpy.apodize.sin">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">sin</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.sin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\sin(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the sine of the
+dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="csdmpy.apodize.cos">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">cos</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.cos" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\cos(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the cosine of the
+dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="csdmpy.apodize.tan">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">tan</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.tan" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\tan(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the tangent of the
+dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="csdmpy.apodize.arcsin">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">arcsin</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.arcsin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\arcsin(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the inverse sine of the
+dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="csdmpy.apodize.arccos">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">arccos</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.arccos" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\arccos(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the inverse cosine of
+the dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="csdmpy.apodize.arctan">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">arctan</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.arctan" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\arctan(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the inverse tangent of
+the dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="csdmpy.apodize.exp">
+<code class="sig-prename descclassname">csdmpy.apodize.</code><code class="sig-name descname">exp</code><span class="sig-paren">(</span><em class="sig-param">csdm</em>, <em class="sig-param">arg</em>, <em class="sig-param">dimension=0</em><span class="sig-paren">)</span><a class="headerlink" href="#csdmpy.apodize.exp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apodize the components along the <cite>dimension</cite> with <span class="math notranslate nohighlight">\(\exp(a x)\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>csdm</strong> – A CSDM object.</p></li>
+<li><p><strong>arg</strong> – String or Quantity object. The function argument <span class="math notranslate nohighlight">\(a\)</span>.</p></li>
+<li><p><strong>dimension</strong> – An integer or tuple of <cite>m</cite> integers cooresponding to the
+index/indices of the dimensions along which the exp of the
+dependent variable components is performed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A CSDM object with <cite>d-m</cite> dimensions, where <cite>d</cite> is the total
+number of dimensions from the original <cite>csdm</cite> object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-inverse" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../../index.html">csdmpy 0.2 documentation</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="element_wise_operation.html" title="Supported NumPy functions" >previous</a></li>
+        <li><a href="../../genindex.html" title="General Index" >index</a></li>
+        <li><a href="../../referenceAPI.html" >API-Reference</a></li>
+        <li><a href="../numpy_wrappers.html" >Numpy methods</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2019-2020, The CSDMpy project..
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 2.2.1.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>
