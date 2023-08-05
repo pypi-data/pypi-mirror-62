@@ -1,0 +1,14 @@
+quantastica_qiskit_toaster-0.9.18-py3.7-nspkg.pth,sha256=p3lUkxQeaITkL9noRZHPwywH5LnTQq6Cn9tbiQK2jbM,564
+quantastica/qiskit_toaster/ToasterBackend.py,sha256=eRxDhNvzrwho15vgaFws4izdhq2fECPudReVLCeak8k,3125
+quantastica/qiskit_toaster/ToasterJob.py,sha256=KPQK6xMASD_v5MEzGoTloXdphA2-NRmctDRrNydukbI,7496
+quantastica/qiskit_toaster/__init__.py,sha256=Cx3lcLb4hWxYrN21cwyxsagY4U2uLxG4y_NFK8JwXsk,531
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_qaoa.py,sha256=QmDGYY5NH4lOnzQms4Z5wduPCXpV4x5JSdeiDdeGDG4,3970
+tests/test_speed.py,sha256=cX9PjV1_nc2lLhiEqUSCEBte2KNcXCk9pbQY5NwiYV4,15105
+tests/test_toasterbackend.py,sha256=oWDSqMY6C7wxFWySEA28nr005KEedpqXkh_9TzKL7JU,6721
+quantastica_qiskit_toaster-0.9.18.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+quantastica_qiskit_toaster-0.9.18.dist-info/METADATA,sha256=kt3y2-4uVRzxzPPRSU-oyDQDepJRAWYWVPsGAtMGods,2288
+quantastica_qiskit_toaster-0.9.18.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+quantastica_qiskit_toaster-0.9.18.dist-info/namespace_packages.txt,sha256=RVPTJvDEHMqmQsKjXPyvPZid65gHTI1ZpjdHtihbE2M,12
+quantastica_qiskit_toaster-0.9.18.dist-info/top_level.txt,sha256=-fejzdHp8JCo8TaNcKmEl2A4nP3ZvCKqbzYsm87qC5Q,18
+quantastica_qiskit_toaster-0.9.18.dist-info/RECORD,,
