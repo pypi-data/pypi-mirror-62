@@ -1,0 +1,10 @@
+setup.py
+jnowicki99_probability/Binomialdistribution.py
+jnowicki99_probability/Gaussiandistribution.py
+jnowicki99_probability/Generaldistribution.py
+jnowicki99_probability/__init__.py
+jnowicki99_probability.egg-info/PKG-INFO
+jnowicki99_probability.egg-info/SOURCES.txt
+jnowicki99_probability.egg-info/dependency_links.txt
+jnowicki99_probability.egg-info/not-zip-safe
+jnowicki99_probability.egg-info/top_level.txt
