@@ -1,0 +1,12 @@
+Django>=2.1
+djangorestframework>=3.10
+
+[docs]
+django-extensions
+pydot
+
+[release]
+twine
+
+[testing]
+tox
