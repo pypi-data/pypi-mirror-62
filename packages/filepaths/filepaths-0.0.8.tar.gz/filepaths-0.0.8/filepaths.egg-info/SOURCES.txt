@@ -1,0 +1,8 @@
+README.md
+setup.py
+filepaths/__init__.py
+filepaths.egg-info/PKG-INFO
+filepaths.egg-info/SOURCES.txt
+filepaths.egg-info/dependency_links.txt
+filepaths.egg-info/requires.txt
+filepaths.egg-info/top_level.txt
