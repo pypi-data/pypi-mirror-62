@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyterraform
+Version: 0.0.1
+Summary: A wrapper to terraform tool
+Home-page: https://github.com/terraform-great-modules/pyterraform
+Author: Riccardo Scartozzi <risca>
+Author-email: info@risca.eu
+License: UNKNOWN
+Description: 
+        Pyterraform is a pythonic wrapper of terraform, for easy provisioning of terraform projects.
+        
+Keywords: terraform
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
