@@ -1,0 +1,12 @@
+coreapi>=2.3.3
+coreschema>=0.0.4
+ruamel.yaml>=0.15.34
+inflection>=0.3.1
+uritemplate>=3.0.0
+packaging
+djangorestframework>=3.10
+Django>=2.2.0
+typing_extensions>=3.7.4
+
+[validation]
+swagger-spec-validator>=2.1.0
