@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: msgbuzz
+Version: 0.0.2
+Summary: Generic message bus abstraction. Supported implementation: RabbitMQ through Pika
+Home-page: https://github.com/sihendra/msgbuzz
+Author: Hendra Setiawan
+Author-email: sihendra@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pika (==1.1.0)
+
+# Msgbus
+
+Generic message bus abstraction. Supported implementations: RabbitMQ
+
+# Build Status
+TODO
+
+# Usage
+
+TODO
+
+## Publishing
+
+TODO
+
+## Subscribing
+
+TODO
+
