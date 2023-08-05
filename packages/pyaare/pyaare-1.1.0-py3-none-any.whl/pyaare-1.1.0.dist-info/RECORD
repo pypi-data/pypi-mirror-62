@@ -1,0 +1,9 @@
+pyaare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaare/pyaare.py,sha256=ueCpoqWfVK9SdOiGNcXi2PJWT6A5YOXiqmCP5recl7w,2728
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/aaretest.py,sha256=c-iDHbK5tVBCgpL-ahA5rf1wvyWZWWIpJ0iAi8yS0N8,871
+pyaare-1.1.0.dist-info/LICENSE,sha256=FZVSaAPYto-scSKPb9gyWXdzqPxnh89UPDHyiwnWCS0,1067
+pyaare-1.1.0.dist-info/METADATA,sha256=UdF3-EsjD84jsUwGI_an1jfpUEKWKXXTVZZDjGtr6zg,1236
+pyaare-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyaare-1.1.0.dist-info/top_level.txt,sha256=GcxjMhL90b0ow-cSCZ9NRKDVYX5xoF902p6A-adsy2A,12
+pyaare-1.1.0.dist-info/RECORD,,
