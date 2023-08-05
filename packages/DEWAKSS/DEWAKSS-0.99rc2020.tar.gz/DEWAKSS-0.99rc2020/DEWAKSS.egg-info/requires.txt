@@ -1,0 +1,6 @@
+sparse-dot-mkl
+scipy
+sklearn
+scanpy
+scvelo
+matplotlib
