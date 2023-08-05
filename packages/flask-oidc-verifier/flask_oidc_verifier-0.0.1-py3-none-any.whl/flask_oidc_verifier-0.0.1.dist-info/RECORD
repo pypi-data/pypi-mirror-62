@@ -1,0 +1,12 @@
+flask_oidc_verifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_oidc_verifier/decorators.py,sha256=9-itSWfbEsRwgLH4Y7d6L-cAV5R-iTvYEMVazVFuP_8,5076
+flask_oidc_verifier/jwt_parser.py,sha256=W1exm7IDsb-M0VqyhalQ7Ey_bO1zXVKznevBcJEdaxo,658
+flask_oidc_verifier/verification.py,sha256=K6QgcJi9PORoKOtqnsN9SYXyLAlnuVilQ4hZVf1asvc,316
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/mocks.py,sha256=beWdEPYoFeM3k2dc3a-4NTLz5pjvh1EWRSuX66oW5D0,218
+tests/test_decorators.py,sha256=Gy7-ZV6qAWFne10O0n7Mq2Pqy83Ap6t-Oq6f01JLFt8,3994
+flask_oidc_verifier-0.0.1.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+flask_oidc_verifier-0.0.1.dist-info/METADATA,sha256=0lfQZ57NL2-bedgc51KIDZ2U2sTwYqIeaD2wPAm5k-w,482
+flask_oidc_verifier-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flask_oidc_verifier-0.0.1.dist-info/top_level.txt,sha256=7usRTa-ng52A2sXYjGq8W3M98flIAjb73PuEAmqEM_s,26
+flask_oidc_verifier-0.0.1.dist-info/RECORD,,
