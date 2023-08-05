@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: filemap
+Version: 0.0.1
+Summary: Load folder contents into object or dict
+Home-page: https://github.com/alttch/filemap
+Author: Altertech
+Author-email: div@altertech.com
+License: MIT
+Description: # filemap
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

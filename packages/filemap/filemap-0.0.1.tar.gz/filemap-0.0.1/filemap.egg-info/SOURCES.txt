@@ -1,0 +1,7 @@
+README.md
+setup.py
+filemap/__init__.py
+filemap.egg-info/PKG-INFO
+filemap.egg-info/SOURCES.txt
+filemap.egg-info/dependency_links.txt
+filemap.egg-info/top_level.txt
