@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: xmlTodataframe
+Version: 0.3
+Summary: xmlTodataframe convert given xml file to csv file!
+Home-page: https://github.com/raghav582/xmlTodataframe
+Author: Raghav Sharma
+Author-email: raghavsharma582@gmail.com
+License: GPL-3.0-only
+Download-URL: https://github.com/raghav582/xmlTodataframe/archive/0.3.tar.gz
+Description: UNKNOWN
+Keywords: xml,xmltocsv,csv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
