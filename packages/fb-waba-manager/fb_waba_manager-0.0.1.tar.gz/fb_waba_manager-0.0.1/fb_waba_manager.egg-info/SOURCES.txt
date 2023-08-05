@@ -1,0 +1,9 @@
+README.md
+setup.py
+fb_waba_manager.egg-info/PKG-INFO
+fb_waba_manager.egg-info/SOURCES.txt
+fb_waba_manager.egg-info/dependency_links.txt
+fb_waba_manager.egg-info/requires.txt
+fb_waba_manager.egg-info/top_level.txt
+src/fb_waba_manager/__init__.py
+src/fb_waba_manager/fb_waba_manager.py
