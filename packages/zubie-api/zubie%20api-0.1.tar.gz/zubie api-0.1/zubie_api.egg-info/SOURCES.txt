@@ -1,0 +1,8 @@
+README.md
+setup.py
+zubie_api/__init__.py
+zubie_api/client.py
+zubie_api.egg-info/PKG-INFO
+zubie_api.egg-info/SOURCES.txt
+zubie_api.egg-info/dependency_links.txt
+zubie_api.egg-info/top_level.txt

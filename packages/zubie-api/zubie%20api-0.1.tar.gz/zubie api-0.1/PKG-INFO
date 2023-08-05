@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zubie api
+Version: 0.1
+Summary: Zubie API Client
+Home-page: https://github.com/schir2/zubie-api-client
+Author: Marek Schir
+Author-email: schir2@gmail.com
+License: MIT
+Description: # zubie-python-api
+        Zubie API for Python
+        
+Keywords: zubie api gps
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
