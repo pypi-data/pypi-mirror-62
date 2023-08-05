@@ -1,0 +1,11 @@
+airflow_ecr_plugin/__init__.py,sha256=eLmE8LT9h32jZuIcvu_wLL-dwhkp2GTen9XO-R1wXrY,253
+airflow_ecr_plugin/conftest.py,sha256=et0q-91tJ8og15kMhYkQ7lOhlM3Dc1-dJJ3ia-Pe9gg,294
+airflow_ecr_plugin/hooks.py,sha256=CnJqwMfqmpmyZu1hKhRgWd9Gq7wB7nMWxMPLApcLgNc,1596
+airflow_ecr_plugin/operators.py,sha256=ZiGxfgJlYqJfwjM2e2H-WAlBKQI-v3v3aA4yia_-E7U,2503
+airflow_ecr_plugin/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_ecr_plugin/tests/test_hooks.py,sha256=m0KLiLE-kfZrnN3hX18XzcxO0zOEocd8PXaZKdJdxAU,672
+airflow_ecr_plugin/tests/test_operators.py,sha256=IYyEJIvoaNMdHWHKIMaCCAlnEKj136wkJN4EkLKCWug,3174
+airflow_ecr_plugin-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_ecr_plugin-0.1.3.dist-info/WHEEL,sha256=Tf_JTHRUsYmRccQnQfn1tqmNatmXkNB0OFKM-B4YyuA,87
+airflow_ecr_plugin-0.1.3.dist-info/METADATA,sha256=XxUbOzTv5_TUYB19I6VRSBENh5BdeNhwsGJnsbeRnoU,6789
+airflow_ecr_plugin-0.1.3.dist-info/RECORD,,
