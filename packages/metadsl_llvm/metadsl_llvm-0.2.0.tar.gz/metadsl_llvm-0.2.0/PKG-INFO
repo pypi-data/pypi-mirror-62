@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: metadsl_llvm
+Version: 0.2.0
+Summary: LLVM support.
+Home-page: https://github.com/Quansight-Labs/metadsl
+Author: Saul Shanabrook
+Author-email: s.shanabrook@gmail.com
