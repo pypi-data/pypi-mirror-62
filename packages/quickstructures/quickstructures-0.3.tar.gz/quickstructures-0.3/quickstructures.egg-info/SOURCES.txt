@@ -1,0 +1,7 @@
+README.md
+quickstructures.py
+setup.py
+quickstructures.egg-info/PKG-INFO
+quickstructures.egg-info/SOURCES.txt
+quickstructures.egg-info/dependency_links.txt
+quickstructures.egg-info/top_level.txt
