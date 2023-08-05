@@ -1,0 +1,4 @@
+[console_scripts]
+pspy = purescripto.pspy:main
+pspy-blueprint = pspyblueprint.win64.blueprint:main
+
