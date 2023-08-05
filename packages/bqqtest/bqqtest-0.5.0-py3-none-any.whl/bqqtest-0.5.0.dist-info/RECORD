@@ -1,0 +1,12 @@
+bqqtest/__init__.py,sha256=2nDZKyNHdm87ez6FYgN00dFIATQwIR5hXfkGQz4SyZU,43
+bqqtest/table.py,sha256=NS0vbjNAxBte8biOcjNpmP3M0FjS1L90KhDvZLo6OPE,9135
+bqqtest/table_test.py,sha256=mlrVAcyrGoxOx0GCBoIiFTkBzH6k6n7Ojy7zJn6JD_g,17271
+bqqtest/testdata/test1.csv,sha256=k9eSVC9YBQDzXSl5JIivS0P8laWDah3h-oHDD3oTdN0,53
+bqqtest/testdata/test2.json,sha256=jTZVYb7vPeXEvWN-1lHdiSaYYXwgM1ZoXfw2kt6xTgY,119
+bqqtest/testdata/test3.json,sha256=bpIqPrkE-aqBGNiaAyeVXeFCQYfDuAEZUp5P2RZ9nGM,49
+bqqtest/testdata/test4.json,sha256=Rt4hdBLhQVdSz9pEXWTa313lTnLZhDrAAfDZ_FGsJ6w,26
+bqqtest/testdata/test5.json,sha256=z8TBB7r5k4ka6v2iqKkszIvDRLqjTKZ-C4n6_YfiFio,72
+bqqtest-0.5.0.dist-info/LICENSE,sha256=8f4RL9LJnNOSiqRTOkYLCcOAlCQviHmVTsmzCvEcvto,1071
+bqqtest-0.5.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bqqtest-0.5.0.dist-info/METADATA,sha256=zvq2UcISljpa634qnPaHuSFxZnI5K27h8aKq0VOW4ms,3908
+bqqtest-0.5.0.dist-info/RECORD,,
