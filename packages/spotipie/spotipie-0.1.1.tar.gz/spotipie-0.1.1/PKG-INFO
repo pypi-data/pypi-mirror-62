@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: spotipie
+Version: 0.1.1
+Summary: Another client for the Spotify Web API
+Home-page: https://github.com/janLuke/spotipie
+Author: Gianluca Gippetto
+Author-email: gianluca.gippetto@gmail.com
+License: MIT license
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Another wrapper for the Spotify Web API, built on top of ``requests`` and
+        ``requests_oauthlib``.
+        
+        I wrote this package as a kind of "code generation experiment": the code (and doc) of
+        ``Spotify`` class was almost entirely generated using a script that scrapes the
+        official Spotify Web API documentation.
+        
+        For scripts and desktop apps, this package (optionally) includes a flask server
+        (meant to be run locally) to handle user authorization without requiring the
+        user to manually copy and paste the OAuth2 callback URL (containing the token)
+        from the browser to your app.
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        If you don't need the authorization flask app::
+        
+            pip install spotipie
+        
+        otherwise::
+        
+            pip install spotipie[auth-app]
+        
+        
+        Usage
+        =====
+        You first need to create an OAuth2 session and obtain an authorization token for it.
+        There's a different OAuth2 session class for each of the three OAuth2 authorization flows
+        supported by the Spotify API (see `Authorization Flows <https://developer.spotify.com/documentation/general/guides/authorization-guide/>`_):
+        
+        - ``ClientCredentialsSession``
+        - ``AuthorizationCodeSession``
+        - ``ImplicitGrantSession``
+        
+        Then you can wrap the session with a ``Spotify`` object.
+        
+        Examples
+        --------
+        - `Client credentials flow <https://github.com/janLuke/spotipie/blob/master/docs/examples/client_credentials.py>`_
+        - `Authorization code flow for desktop apps <https://github.com/janLuke/spotipie/blob/master/docs/examples/desktop_app_authorization_code.py>`_
+        - `Implicit grant flow for desktop apps <https://github.com/janLuke/spotipie/blob/master/docs/examples/desktop_app_implicit_grant.py>`_
+        - `Flask web app (authorization code flow) <https://github.com/janLuke/spotipie/blob/master/docs/examples/flask_authorization_code.py>`_
+        
+        Documentation
+        =============
+        https://spotipie.readthedocs.io/
+        
+        
+        
+        
+        
+        Changelog
+        =========
+        
+        
+Keywords: spotify,api,client
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/x-rst
+Provides-Extra: auth-app
