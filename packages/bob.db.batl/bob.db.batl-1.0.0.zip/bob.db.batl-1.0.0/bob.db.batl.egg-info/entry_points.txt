@@ -1,0 +1,3 @@
+[bob.db]
+batl = bob.db.batl.driver:Interface
+
