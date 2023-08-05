@@ -1,0 +1,10 @@
+byter/__init__.py,sha256=juWJO914BjBsverST78VEQpKaGBgy220BjIeBIYNBG8,141
+byter/constants.py,sha256=8THyGBkpUmpeekK4Z4ZVakViPftVRQWpia0raRHyT5Y,482
+byter/reader.py,sha256=rOSQ45I49unw9iSTZbQLL7G5qDYY3gfOCJPG03jpXkA,6343
+byter/utils.py,sha256=S6vftjSCMzOdQefuZs5EBdFyVU97X9EVaaR8mTnB6hM,577
+byter/writer.py,sha256=Aw1t6iJZK2hzxbVAm-BsZR1lZHCqJoSMzNL7wRiajso,6404
+byter-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+byter-0.0.2.dist-info/METADATA,sha256=45z4CivH9HROLFnpyynQ46-B4OyZckeavtp_58y5yGg,2438
+byter-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+byter-0.0.2.dist-info/top_level.txt,sha256=6mM36_H27D87Jat7gzKYfOSQGnFJRCSfHLJVwaNYoFI,6
+byter-0.0.2.dist-info/RECORD,,
