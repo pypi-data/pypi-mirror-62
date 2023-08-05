@@ -1,0 +1,4 @@
+[console_scripts]
+dkv-cli = dkv.distkv_cli:main
+dkv-server = dkv.distkv_server:main
+
