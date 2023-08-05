@@ -1,0 +1,9 @@
+django_singleton_admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_singleton_admin/admin.py,sha256=fy0uCwrTykj69W8ds19o2-1tlT2k8Y38ZmQslZg_6og,1803
+django_singleton_admin/apps.py,sha256=4jWNEsN9nGPotgByiHxqjNkCVXrQBmReIwdf8gQzf-I,117
+django_singleton_admin/templates/django_singleton_admin/change_form.html,sha256=V3X0EVbBjIzU_DXmzt4A7zaJLOQIdicRxghgdz6XNsg,326
+django_singleton_admin_2-1.0.4.dist-info/LICENSE,sha256=S68TdoF4aneUofFx_60WWTdORUtN8trTgPPmOClI7Nc,1071
+django_singleton_admin_2-1.0.4.dist-info/METADATA,sha256=TiaaOJujdHbTNSoWqV_H12nDNJI0CB4qZ34YKijcUD0,2237
+django_singleton_admin_2-1.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+django_singleton_admin_2-1.0.4.dist-info/top_level.txt,sha256=-M1O1IJaG8LlI8KWPqhGlWVReXTvKLTtQNUcj8WBLio,23
+django_singleton_admin_2-1.0.4.dist-info/RECORD,,
