@@ -1,0 +1,1 @@
+versionFromGradle='3.28.0',projectVersion='3.28.0.4',branch='rel-yu',lastCommitHash='2b07f17cf0314ac28e53a6be094f01858e5ca986',gitDescribe='jenkins-3.28.0.3-78-g2b07f17',compiledOn='2020-02-23 22:38:46',compiledBy='jenkins'
