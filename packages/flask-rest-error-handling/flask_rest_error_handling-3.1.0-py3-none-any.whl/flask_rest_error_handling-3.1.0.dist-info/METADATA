@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flask-rest-error-handling
+Version: 3.1.0
+Summary: Provides users with JSON responses for errors.
+Home-page: https://github.com/RDIL/bluejay
+Author: Reece Dunham
+Author-email: me@rdil.rocks
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+
+See https://docs.rdil.rocks/libraries/bluejay/flask-rest-error-handling/ for documentation.
+
+
