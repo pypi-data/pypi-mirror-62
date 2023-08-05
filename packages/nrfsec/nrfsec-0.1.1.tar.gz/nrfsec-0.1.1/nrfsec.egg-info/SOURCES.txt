@@ -1,0 +1,13 @@
+README.md
+nrfsec
+setup.py
+nrfsec/__init__.py
+nrfsec/dbg.py
+nrfsec/gadget.py
+nrfsec/nordic.py
+nrfsec/utils.py
+nrfsec.egg-info/PKG-INFO
+nrfsec.egg-info/SOURCES.txt
+nrfsec.egg-info/dependency_links.txt
+nrfsec.egg-info/requires.txt
+nrfsec.egg-info/top_level.txt
