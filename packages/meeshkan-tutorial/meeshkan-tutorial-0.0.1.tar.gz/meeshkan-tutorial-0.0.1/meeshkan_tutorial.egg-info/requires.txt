@@ -1,0 +1,9 @@
+meeshkan>=0.2.11
+clint
+pyfiglet
+progress
+http-types>=0.0.10
+
+[dev]
+setuptools
+twine
