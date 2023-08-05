@@ -1,0 +1,14 @@
+google-cloud-bigquery
+pandas
+google-cloud-storage
+mock
+pyarrow
+pydata-google-auth
+
+[beam]
+apache-beam[gcp]==2.15.0
+avro-python3<=1.9.1,>=1.8.2
+nose
+
+[stackdriver]
+google-api-python-client==1.7.8
