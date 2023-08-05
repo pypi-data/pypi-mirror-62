@@ -1,0 +1,9 @@
+progressbar2
+scipy
+numpy
+
+[gpu]
+cupy
+
+[test]
+pytest
