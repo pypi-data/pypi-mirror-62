@@ -1,0 +1,6 @@
+[rotest.cli_client_actions]
+tk_list_action = rotest_tklist:tk_list_action
+
+[rotest.cli_client_parsers]
+tk_list_option = rotest_tklist:tk_list_option
+
