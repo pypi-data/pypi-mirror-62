@@ -1,0 +1,6 @@
+pytest_async/__init__.py,sha256=3tn1NE5wxIlDT0GkW4bmgka45B2jkXFhdpPv2zftubI,154
+pytest_async/plugin.py,sha256=a4wFf1BIrNIFUZCAO1g2NxEls6gHaxbJP5yNTobW0f4,485
+pytest_async-0.1.0.dist-info/LICENSE,sha256=JPjiRS1JAeVQGy3J9u0j2jZxeKADmM5_IPBd9s8IaWg,1067
+pytest_async-0.1.0.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+pytest_async-0.1.0.dist-info/METADATA,sha256=4HxrHhmcyXCzGyyIZ44_BhKOseGkoEphI4tLGhyR8pc,1045
+pytest_async-0.1.0.dist-info/RECORD,,
