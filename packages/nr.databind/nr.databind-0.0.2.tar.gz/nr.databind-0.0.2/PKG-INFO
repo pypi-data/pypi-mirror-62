@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nr.databind
+Version: 0.0.2
+Summary: Bind structured data directly to typed objects.
+Home-page: https://git.niklasrosenstein.com/NiklasRosenstein/nr-python-libs
+Author: Niklas Rosenstein
+Author-email: rosensteinniklas@gmail.com
+License: MIT
+Description: # nr.databind
+        
+        The `nr.databind` package allows you to bind structured data to types.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: test
