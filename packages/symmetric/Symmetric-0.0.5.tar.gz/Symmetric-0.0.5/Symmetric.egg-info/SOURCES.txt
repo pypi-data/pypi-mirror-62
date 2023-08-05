@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Symmetric.egg-info/PKG-INFO
+Symmetric.egg-info/SOURCES.txt
+Symmetric.egg-info/dependency_links.txt
+Symmetric.egg-info/requires.txt
+Symmetric.egg-info/top_level.txt
+program/__init__.py
+program/main.py
+symmetric/__init__.py
+symmetric/app.py
+symmetric/helpers.py
