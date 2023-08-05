@@ -1,0 +1,75 @@
+# JSON Tools
+
+Collection of JSON tools for Python 3 that help developers work with JSON (Javascript Object Notation) easier.
+
+[The source for this project is available here][src].
+
+## Overview
+
+**FrozenJSON**
+
+Allows a JSON to be loaded into a pseudo python object dynamically.  
+
+This idea and conception was from the book ["Fluent Python: Clear, Concise, and Effective Programming" by Luciano Ramalho][fluent python].
+
+
+## Basic Usage
+
+For example, say we have a JSON in a file that looks like the following:
+```json
+  {
+    "_id": "5e52d75618947399f093ac7d",
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "latitude": -49.694182,
+    "longitude": 126.901299,
+    "tags": [
+      "non",
+      "est",
+      "sint"
+    ]
+  }
+```
+If a developer wanted to treat this JSON as a python object, they could create a FrozenJSON
+using the following syntax:
+
+```python
+import FrozenJSON
+x = Frozen.of(<file_path>)
+
+print(x.isActive)
+...False
+print(x.tags)
+...["non","est","sint"]
+print(x.tags[0])
+..."non"
+```
+
+The `of` method is a dynamic constructor that is able to discern whether the data passed in a JSON string, the path to a file, a reference to a file itself, or a python dictionary.
+
+So something like below is perfectly legal:
+
+```python
+import FrozenJSON
+data = {
+    "name": "Ryan Long",
+    "class": "Geometry"
+}
+x = FrozenJSON.of(data)
+print(x.name)
+..."Ryan Long"
+print(x.class_)
+..."Geometry"
+```
+
+Notice that although `class` is a keyword, FrozenJSON is still able to assign it to a key by 
+appending "_" to the end.  This is true for all python keywords that are also used as keys
+and happens automatically.
+
+
+[packaging guide]: https://packaging.python.org
+[distribution tutorial]: https://packaging.python.org/tutorials/packaging-projects/
+[src]: https://github.com/ryanlongtech/rlt-json-tools
+[md]: https://tools.ietf.org/html/rfc7764#section-3.5 "CommonMark variant"
+[md use]: https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+[fluent python]: https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008

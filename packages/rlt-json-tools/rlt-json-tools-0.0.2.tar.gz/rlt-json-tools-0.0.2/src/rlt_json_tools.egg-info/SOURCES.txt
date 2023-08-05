@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/rlt_json_tools.egg-info/PKG-INFO
+src/rlt_json_tools.egg-info/SOURCES.txt
+src/rlt_json_tools.egg-info/dependency_links.txt
+src/rlt_json_tools.egg-info/requires.txt
+src/rlt_json_tools.egg-info/top_level.txt
