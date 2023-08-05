@@ -1,0 +1,12 @@
+ucmt/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ucmt/cmt.py,sha256=RX_hq-upPVZGfIQb78G-RKXd4pokY7MP8pV8DeRFqRs,1902
+ucmt/database.py,sha256=-W7d2UkjYVPI5l9PzKtIqTjrq6hEXX2L3VjhLcIsXFY,1935
+ucmt/init.py,sha256=AUET3ctv_240XcKEvpZ4LKjaIcZBtbPgw9wM5tziSPE,181
+ucmt/locate.py,sha256=g6vPJL_iAcCpQAtw_pxcLZj3fEXy9lj61NJHi2gJimM,2277
+ucmt/main.py,sha256=6bc_jx_Gp-1EJJLR8YTWtI2lfoj7h9fTN0d6sukewGQ,947
+ucmt/path_translator.py,sha256=Is0I4jkjMBu8M3uabpnkyc1vMl7mpX-zaI2ixv9bcpk,1996
+ucmt-0.1.4.dist-info/entry_points.txt,sha256=zI_Nj8Ee_NDHi0r7TqYyBu-w01KrTFK04UXS5c6Gr4U,39
+ucmt-0.1.4.dist-info/LICENSE,sha256=Z3c9PBkMunle5X7FJz2H_nB9W1CwcMYoVazeEMzxks8,1059
+ucmt-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ucmt-0.1.4.dist-info/METADATA,sha256=ScOReHGYEB003sDFxKdK2CHXySnl8K93uvPX5zFsu2o,1956
+ucmt-0.1.4.dist-info/RECORD,,
