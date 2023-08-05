@@ -1,0 +1,11 @@
+h5py
+tqdm
+numpy
+wget
+torch
+torchvision
+torchnet
+pyyaml
+onnx
+onnxruntime
+hyperopt
