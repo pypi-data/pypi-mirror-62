@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: xpublish
+Version: 0.0.1
+Summary: Xarray accessors for publishing datasets as web applications
+Home-page: https://github.com/jhamman/xpublish
+Maintainer: Joe Hamman
+Maintainer-email: jhamman@ucar.edu
+License: MIT
+Description: UNKNOWN
+Keywords: xarray,zarr
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
