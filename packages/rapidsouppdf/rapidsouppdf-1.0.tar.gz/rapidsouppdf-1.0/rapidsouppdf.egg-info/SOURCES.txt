@@ -1,0 +1,9 @@
+README.md
+setup.py
+rapidsouppdf.egg-info/PKG-INFO
+rapidsouppdf.egg-info/SOURCES.txt
+rapidsouppdf.egg-info/dependency_links.txt
+rapidsouppdf.egg-info/top_level.txt
+rspdf/__init__.py
+rspdf/pdf2image.py
+rspdf/pdf2text.py
