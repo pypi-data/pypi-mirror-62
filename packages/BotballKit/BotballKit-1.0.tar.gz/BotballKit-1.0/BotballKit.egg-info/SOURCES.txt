@@ -1,0 +1,9 @@
+README.md
+setup.py
+BotballKit/__init__.py
+BotballKit/bot.py
+BotballKit/parts.py
+BotballKit.egg-info/PKG-INFO
+BotballKit.egg-info/SOURCES.txt
+BotballKit.egg-info/dependency_links.txt
+BotballKit.egg-info/top_level.txt

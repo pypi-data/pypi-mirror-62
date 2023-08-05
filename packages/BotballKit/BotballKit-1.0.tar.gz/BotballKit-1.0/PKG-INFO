@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: BotballKit
+Version: 1.0
+Summary: An object-oriented wrapper for the KIPR library
+Home-page: https://gitlab.com/devluke/botballkit
+Author: Luke
+Author-email: lukepc@protonmail.com
+License: UNKNOWN
+Description: # BotballKit
+        
+        An object-oriented wrapper for the KIPR library
+        
+        ## Why
+        
+        The KIPR library is bad in many ways. First of all, it's not even a real Python library, it's just a rushed implementation of its C library.
+        
+        This is how you import it:
+        
+        ```python
+        kipr = ctypes.CDLL('/usr/lib/libkipr.so')
+        ```
+        
+        Okay, so it's technically not a pure Python library, but it still looks like one, right?
+        
+        ```python
+        kipr = ctypes.CDLL('/usr/lib/libkipr.so')
+        
+        status = kipr.digital(0)
+        print(status)
+        
+        kipr.motor(0, 100)
+        kipr.motor(1, 100)
+        kipr.msleep(2000)
+        ```
+        
+        No. This looks like a C library, because that's all it is. It's barely object-oriented and the names of the functions are inconsistent and not Pythonic.
+        
+        ### The Solution
+        
+        The solution to this is a nice, object-oriented wrapper for the official KIPR library. Here's an example that sees if a push sensor is being pressed.
+        
+        ```python
+        from BotballKit import Bot, Sensor, SensorType
+        
+        bot = Bot()
+        sensor = Sensor(bot, SensorType.DIGITAL, 0)
+        left_motor = Motor(bot, 0)
+        right_motor = Motor(bot, 1)
+        
+        status = sensor.status()
+        print(status)
+        
+        left_motor.move_async(100, 2)
+        right_motor.move(100, 2)
+        ```
+        
+        Much better, right? You create a bot object, a sensor object, two motor objects for each wheel, then you simply get the status of the sensor and print it and move the bot forward for two seconds.
+        
+        ### But It's Longer
+        
+        While in this example the code is longer than the same example with the official library, as you keep adding on to this program the code *will* be shorter.
+        
+        Also having an object-oriented library with much more consistent method names can make it easier to remember and harder to make mistakes.
+        
+        ## Documentation
+        
+        ### Creating a Bot
+        
+        The first step to using this library is to create a `Bot` object. Doing that is as simple as:
+        
+        ```python
+        from BotballKit import Bot
+        
+        bot = Bot()
+        ```
+        
+        Now we have a `Bot` object stored in the `bot` variable.
+        
+        The `Bot` constructor can optionally take these parameters:
+        
+        - `wait_for_port: Optional[int] = None`: Waits for a sensor on the specified port to be `True` before starting anything else. This will block the thread until the condition is met.
+        
+        - `time_limit: Optional[float] = None`: Stops the program after the specified number of seconds.
+        
+        `Bot` objects also have these methods:
+        
+        - `Bot.stop_all_motors()`: Stops all motors associated with the bot.
+        
+        - `Bot.enable_all_servos()`: Enables all servos associated with the bot.
+        
+        - `Bot.disable_all_servos()`: Disables all servos associated with the bot.
+        
+        ### Sensors
+        
+        Creating `Sensor` objects is also very simple:
+        
+        ```python
+        from BotballKit import Sensor, SensorType
+        
+        sensor = Sensor(bot, SensorType.DIGITAL, 0)
+        ```
+        
+        The `Sensor` constructor must have these parameters:
+        
+        - `bot: Bot`: Your bot object.
+        
+        - `type: SensorType`: The type of sensor you want to use. The two options are `SensorType.DIGITAL` and `SensorType.ANALOG`.
+        
+        - `port: int`: The port your sensor is physically connected to.
+        
+        It has this method available:
+        
+        - `Sensor.status() -> Union[bool, int]`: Gets the status of the sensor. If the sensor is digital, it will return a `bool`. If the sensor is analog, it will return an `int`.
+        
+        ### Motors
+        
+        To create a `Motor`, all you have to do is:
+        
+        ```python
+        from BotballKit import Motor
+        
+        motor = Motor(bot, 0)
+        ```
+        
+        The `Motor` constructor requires these parameters be passed:
+        
+        - `bot: Bot`: Your bot object.
+        
+        - `port: int`: The port your motor is physically connected to.
+        
+        They have these methods available:
+        
+        - `Motor.stop()`: Stops the motor.
+        
+        - `Motor.move(power: int, seconds: float)`: Moves the motor with the specified power between `-100` and `100` for the specified amount of seconds.
+        
+        - `Motor.move_async(power: int, seconds: float)`: Does the same thing as the `Motor.move` method except it runs asynchronously.
+        
+        ### Servos
+        
+        Creating servos is also easy:
+        
+        ```python
+        from BotballKit import Servo
+        
+        servo = Servo(bot, 0)
+        servo.enable()
+        ```
+        
+        All servos need to be enabled to work. This can be done with the `Servo.enable` method or the `Bot.enable_all_servos` method.
+        
+        Its constructor takes the following parameters:
+        
+        - `Servo.enable(default_position: Optional[int] = None)`: Enables the servo. If the `default_position` parameter is specified, the servo will be set to that position when enabled.
+        
+        - `Servo.disable(default_position: Optional[int] = None)`: Disables the servo. If the `default_position` parameter is specified, the servo will be set to that position when disabled.
+        
+        - `Servo.is_enabled() -> bool`: Returns whether the servo is enabled or not.
+        
+        - `Servo.toggle(default_position: Optional[int] = None)`: Toggles the servo. If the `default_position` parameter is specified, the servo will be set to that position when toggled.
+        
+        - `Servo.position(position: Optional[int] = None) -> Optional[int]`: Gets or sets the position of the servo. If no parameters are specified, it will return the current position as an `int`. If the `position` parameter is specified, it will set the servo position to that value and return `None`.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
