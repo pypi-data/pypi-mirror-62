@@ -1,0 +1,3 @@
+[console_scripts]
+dajare = dajare.dajare_search:main
+
