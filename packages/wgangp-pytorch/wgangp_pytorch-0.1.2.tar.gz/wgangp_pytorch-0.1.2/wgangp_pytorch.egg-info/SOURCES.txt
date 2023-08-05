@@ -1,0 +1,10 @@
+README.md
+setup.py
+wgangp_pytorch/__init__.py
+wgangp_pytorch/model.py
+wgangp_pytorch/utils.py
+wgangp_pytorch.egg-info/PKG-INFO
+wgangp_pytorch.egg-info/SOURCES.txt
+wgangp_pytorch.egg-info/dependency_links.txt
+wgangp_pytorch.egg-info/requires.txt
+wgangp_pytorch.egg-info/top_level.txt
