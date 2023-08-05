@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: js_script_py
+Version: 0.9
+Summary: Turn python code to javascript code
+Home-page: https://repl.it/@Downey/pythonjavascript
+Author: Stark.-12x_42
+Author-email: xsumagravity@gmail.com
+License: UNKNOWN
+Description: #translate package
+        This is a translating package. You can make your own package on [github](https://github.com)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
