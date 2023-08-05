@@ -1,0 +1,14 @@
+box/__init__.py,sha256=W6-Ar1qPkDQMAtZqQpgABKYOFJtxzE0-dT47VUOd8vs,318
+box/box.py,sha256=Rx7Isqryc1DiTJ4aJoJiJ_bCxc31FTG4bqQxdehixCE,28196
+box/box_list.py,sha256=85tnKFj53RzOSIGOq80jjZeDHtXL2vrMKvm9VPUoSdc,11072
+box/config_box.py,sha256=eEBjzTi5BDm5mvUt9A8HtaLo5ZIqxSIyxolgEf2WDUA,4177
+box/converters.py,sha256=Vtfvd3X-f6Ry1ZYWdY2l1h6Et7eqfqc0fzkTIJD_VxE,4697
+box/exceptions.py,sha256=63NJhdP2Ecar0fCqYTUTcUJdeh2RyrJvT9WyDXSa6oc,446
+box/from_file.py,sha256=Id01iziQBw61paf36ovNiSTARRbcOuG6FyFUseWqjeo,2280
+box/shorthand_box.py,sha256=h7MTsko5NZz_eKIk5y6CVZ6L-VF_F9NESU5dWmkPwJ0,858
+python_box-4.1.0.dist-info/AUTHORS.rst,sha256=LM8u8ggOEegdLpwiFR29pyclQBzI4Y38RoG9HYGwc_s,1447
+python_box-4.1.0.dist-info/LICENSE,sha256=sENRf3daqpDk2h4uUOO9Sca3NmOKbQi8ZzHoVQZrt-4,1076
+python_box-4.1.0.dist-info/METADATA,sha256=qrvRAy0rJ_p0Hi-tN8aro3LMvKqEq9fqQSz8iMoeKTQ,18179
+python_box-4.1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+python_box-4.1.0.dist-info/top_level.txt,sha256=nY9I27FQ8EA_6FDd6s4w4oRKMR0F6b0jLHoOmTiHc9E,4
+python_box-4.1.0.dist-info/RECORD,,
