@@ -1,0 +1,9 @@
+Click<8,>=7.0
+
+[docs]
+sphinx>=2.3
+Pallets-Sphinx-Themes
+m2r
+
+[tests]
+pytest
