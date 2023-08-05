@@ -1,0 +1,12 @@
+CHANGES.txt
+MANIFEST.in
+README.rst
+setup.py
+clubhouse_lib/__init__.py
+clubhouse_lib/client.py
+clubhouse_lib/type.py
+clubhouse_lib.egg-info/PKG-INFO
+clubhouse_lib.egg-info/SOURCES.txt
+clubhouse_lib.egg-info/dependency_links.txt
+clubhouse_lib.egg-info/requires.txt
+clubhouse_lib.egg-info/top_level.txt
