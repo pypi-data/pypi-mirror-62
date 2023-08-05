@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spanserver
+Version: 0.7.0
+Summary: a toolbox for REST apps
+Home-page: UNKNOWN
+Author: Billy Peake
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: lint
+Provides-Extra: doc
+Provides-Extra: build
+Provides-Extra: test
