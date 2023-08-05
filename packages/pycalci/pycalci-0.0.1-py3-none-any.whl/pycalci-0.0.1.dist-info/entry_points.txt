@@ -1,0 +1,3 @@
+[console_scripts]
+pycalci = pycalci:main
+
