@@ -1,0 +1,10 @@
+setup.py
+rvd_distributions/Binomialdistribution.py
+rvd_distributions/Gaussiandistribution.py
+rvd_distributions/Generaldistribution.py
+rvd_distributions/__init__.py
+rvd_distributions.egg-info/PKG-INFO
+rvd_distributions.egg-info/SOURCES.txt
+rvd_distributions.egg-info/dependency_links.txt
+rvd_distributions.egg-info/not-zip-safe
+rvd_distributions.egg-info/top_level.txt
