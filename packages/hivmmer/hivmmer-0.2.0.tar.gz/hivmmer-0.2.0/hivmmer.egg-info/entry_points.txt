@@ -1,0 +1,4 @@
+[console_scripts]
+hivmmer-filter = hivmmer.filter:_run
+hivmmer-translate = hivmmer.translate:_run
+
