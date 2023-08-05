@@ -1,0 +1,9 @@
+README.md
+setup.py
+maypdf/__init__.py
+maypdf/pdf2image.py
+maypdf/pdf2text.py
+maypdf.egg-info/PKG-INFO
+maypdf.egg-info/SOURCES.txt
+maypdf.egg-info/dependency_links.txt
+maypdf.egg-info/top_level.txt
