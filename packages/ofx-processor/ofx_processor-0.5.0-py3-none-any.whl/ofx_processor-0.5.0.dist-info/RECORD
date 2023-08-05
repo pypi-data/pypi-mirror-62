@@ -1,0 +1,16 @@
+ofx_processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ofx_processor/bpvf_processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ofx_processor/bpvf_processor/bpvf_processor.py,sha256=T0LUzXocKUWXSi3_09Wu3TnQBJuj0IGD-PeS0ylrjo4,1001
+ofx_processor/bpvf_processor/main.py,sha256=0yX_qlCr9Tq5WH3-VSIJyWsBj364oSHYXSusE7YoqMg,840
+ofx_processor/main.py,sha256=jE_IJJstZDGbl26rmai-KRNIyE7WzfgCNSNPuJ4X1uo,478
+ofx_processor/revolut_processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ofx_processor/revolut_processor/main.py,sha256=vhPseVytRJSqCUVRff0b64_zW5iqXEZF0AzXgptNijM,589
+ofx_processor/revolut_processor/revolut_processor.py,sha256=am0ljbpdf1yMdLe9KKaJgI4rqsvyMwUfnqwWfAYmJVU,1248
+ofx_processor/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ofx_processor/utils/processor.py,sha256=BBbKpcqrf_EzH9wL5rtQdCZL_tM4gABIYyODf0PKjls,1249
+ofx_processor/utils/ynab.py,sha256=NmUzg8GJ3nZ5bqIbE73xR-kupNz7EltsqSsMvz2QCEU,2447
+ofx_processor-0.5.0.dist-info/entry_points.txt,sha256=C3FMsaCS_ttB2O6jz5emGrRn24J9cFDBeb5HFLtu_i0,47
+ofx_processor-0.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ofx_processor-0.5.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ofx_processor-0.5.0.dist-info/METADATA,sha256=ndlUyDMtvYLjB3lTr9YM2vRUsJLELqNwsckLDZptAxU,959
+ofx_processor-0.5.0.dist-info/RECORD,,
