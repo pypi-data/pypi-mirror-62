@@ -1,0 +1,11 @@
+torchmore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmore/combos.py,sha256=WqAYEamiIOgTltlf7M4CAS3OnqYGu4vfmbyCij_7uew,3023
+torchmore/flex.py,sha256=r_rg9APW-yVWfo2Hh9P4uGO786eFiI6ab_KSc9nA1f8,4297
+torchmore/helpers.py,sha256=MirWcVE2Jl-gfb8L9TJpHTmwzg-AJK3TFeaB2OYwMIY,3677
+torchmore/layers.py,sha256=61VOK2sC_t3JGUKdQpfXe_WDBdAJCxpLsYkuvLE76ak,16712
+torchmore/localimport.py,sha256=flCoYWtdyUqWWRsf4PM5swatzmevggtD-hxYY4yuL2w,912
+torchmore-0.0.0.dist-info/LICENSE,sha256=YwGustjrILcD8h558cNKHH6P0FfUueRw3Iwgkb9BTvY,1485
+torchmore-0.0.0.dist-info/METADATA,sha256=UcfznxXDUCSSaC_-n-w35oNy_tLnWlLoi2ArLeEj5As,5056
+torchmore-0.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+torchmore-0.0.0.dist-info/top_level.txt,sha256=P46Ec9xTGh0z-GzIgNoyj9zvifCP1wi9zU5ZYiNYnjY,10
+torchmore-0.0.0.dist-info/RECORD,,
