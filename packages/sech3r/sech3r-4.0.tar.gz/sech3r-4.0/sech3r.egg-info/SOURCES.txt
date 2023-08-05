@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/sech3r
+sech3r/__init__.py
+sech3r/core.py
+sech3r/extra.py
+sech3r/style.py
+sech3r.egg-info/PKG-INFO
+sech3r.egg-info/SOURCES.txt
+sech3r.egg-info/dependency_links.txt
+sech3r.egg-info/top_level.txt
