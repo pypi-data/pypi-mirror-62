@@ -1,0 +1,10 @@
+axioms_drf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+axioms_drf/authentication.py,sha256=6Qw5aZNg1wdTnmxrYx5VooSInzWCZKR9TTDxLJWPSz4,1762
+axioms_drf/helper.py,sha256=sZeGa0ng3RD6B7QxFvZZbOJbVEmEHFdAK0m01jAOetY,2022
+axioms_drf/middleware.py,sha256=OCPG9YFDDva0Tv6OP0ehWIC3dbN5QZvR903fMw5gWxw,1313
+axioms_drf/permissions.py,sha256=Zywv0WVPtYzipRErwhv8hskevp9UAeLwsHePN6arPMU,4124
+axioms_drf_py-0.0.1.dist-info/LICENSE.txt,sha256=gU1tzi4FQyXksv6BgJ3hmu8Tz3ZvqcVQKHtpc3A9fSA,1062
+axioms_drf_py-0.0.1.dist-info/METADATA,sha256=eHCruzq5l5I9pMgykTbWKaPEvH7XK7u_bwSQE86MDt8,3676
+axioms_drf_py-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+axioms_drf_py-0.0.1.dist-info/top_level.txt,sha256=Fl0BTXbNXuD86Ix-oBIrJNz7pJ_WmDLqATa1jmDvKNU,11
+axioms_drf_py-0.0.1.dist-info/RECORD,,
