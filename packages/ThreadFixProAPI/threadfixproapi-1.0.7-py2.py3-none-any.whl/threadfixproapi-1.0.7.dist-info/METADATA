@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: threadfixproapi
+Version: 1.0.7
+Summary: Python library enumerating the ThreadFix Professional RESTFul API.
+Home-page: https://github.com/denimgroup/threadfix-python-api
+Author: Dan Cornell
+Author-email: dancornell@gmail.com
+License: MIT
+Download-URL: https://github.com/denimgroup/threadfix-python-api/tarball/1.0.7
+Keywords: threadfix,api,security,software,denim group,sast,dast
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests
+
+A python implementation of ThreadFix's API for easier use with python. Built off of original work by (c) 2018 Target Brands, Inc.
+
+
