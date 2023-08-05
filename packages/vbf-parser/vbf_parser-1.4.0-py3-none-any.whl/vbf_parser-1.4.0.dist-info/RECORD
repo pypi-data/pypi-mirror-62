@@ -1,0 +1,8 @@
+vbf_parser/__init__.py,sha256=Q4GeiovjQAByh1GLA8A6nmcv-iBpdjp4zWC8JK95DW0,202
+vbf_parser/header_extractor.py,sha256=uPxNNs4pY_s4-MoWd_EsisHs7rglx6PpeJ27TLkzm4E,2228
+vbf_parser/vbf_jsonifier.py,sha256=PQeRSh7Gf4ZwcMW4aVkyfb_ruTHjHSo1-_7QR_eAZVQ,3316
+vbf_parser/vbf_parser.py,sha256=Y4fz2MfZsTINZNXYIZqDRivulXj_RSr5gWl4NjYxSa4,4905
+vbf_parser-1.4.0.dist-info/LICENSE,sha256=JRLQDKKJnktFCXilXhfq7uLQPB6K0Nb0ai7gMkZxIw8,1100
+vbf_parser-1.4.0.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+vbf_parser-1.4.0.dist-info/METADATA,sha256=33d13UT6hIIe9rP3wUiSdEmOzkpH06vNnUt4F-i8T_Y,2172
+vbf_parser-1.4.0.dist-info/RECORD,,
