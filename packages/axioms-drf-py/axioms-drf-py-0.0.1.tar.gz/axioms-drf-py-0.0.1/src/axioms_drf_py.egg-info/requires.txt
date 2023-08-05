@@ -1,0 +1,7 @@
+pyjwt
+jwcrypto
+python-box
+django>=2.0djangorestframework
+djangorestframework-composed-permissions
+requests<3
+django-environ
