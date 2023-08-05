@@ -1,0 +1,13 @@
+fos/__init__.py,sha256=S8tcy2DJ3bbOf16JPwCBqzNwV3tsaTCq5NHjwnot7Nc,292
+fos/callbacks.py,sha256=kz3kPxAE6kh6orHmGs6ChQtQo4a8cCclYhGPBWqHSrQ,12666
+fos/core.py,sha256=9XAZMl_mR3CwekoNlloCJoTaPpHAVZdj2hTGN_1tYRc,16548
+fos/metrics.py,sha256=d_dq7T5lgwuNjil2h0BQ0Z8HL_vDSlMKgc2PGAKhcro,4675
+fos/utils.py,sha256=QRpTdpLlicg0ukkfIHfie9C_4h3JMXQACzqswwiho70,8732
+fos-0.7.0.dist-info/.ipynb_checkpoints/SOURCES-checkpoint.txt,sha256=4X1NLahGn66VCYLg5cjvyuyJC7R8cRgZa-CkU6b6Y9c,537
+fos-0.7.0.dist-info/.ipynb_checkpoints/dependency_links-checkpoint.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fos-0.7.0.dist-info/.ipynb_checkpoints/top_level-checkpoint.txt,sha256=gxa4um6AVl6_cqBBETNAeLsGYwkQvvOw0eprQE_w5lY,4
+fos-0.7.0.dist-info/LICENSE,sha256=jB7ah_EkZb9iijrJC-7yg8HK0XoWAl0yt_Xrf8fgsrM,11401
+fos-0.7.0.dist-info/METADATA,sha256=i_QHBIieUit0xkKmS1NFTP9_k3r2LjCkK0t2_ghjSQw,1929
+fos-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fos-0.7.0.dist-info/top_level.txt,sha256=gxa4um6AVl6_cqBBETNAeLsGYwkQvvOw0eprQE_w5lY,4
+fos-0.7.0.dist-info/RECORD,,
