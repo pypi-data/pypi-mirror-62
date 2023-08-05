@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: spanserver
+Version: 0.7.1
+Summary: a toolbox for REST apps
+Home-page: UNKNOWN
+Author: Billy Peake
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: responder (>=2.0.0)
+Requires-Dist: spantools (>=0.0.5)
+Requires-Dist: dataclasses
+Requires-Dist: marshmallow
+Requires-Dist: typing-extensions
+Requires-Dist: grahamcracker
+Requires-Dist: gemma
+Requires-Dist: pyyaml
+Requires-Dist: pymongo
+Requires-Dist: aiohttp
+Requires-Dist: inflect
+Provides-Extra: build
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: sphinx-data-fields ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Requires-Dist: pysqlite3 ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: asynctest ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: aiostream ; extra == 'test'
+Requires-Dist: pytest-sugar ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-html ; extra == 'test'
+
+UNKNOWN
+
+
