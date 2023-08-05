@@ -1,0 +1,26 @@
+<html>{% load staticfiles %}
+    <head>
+        <title>frontawesome demo</title>
+        <link rel="stylesheet" type="text/css" href="{% static "ionicons/css/ionicons.css" %}">
+        <style>
+            span{
+                display: inline-block;
+                min-width: 400px;
+                padding: 10px 0;
+            }
+            i{
+                margin-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Ionicons （{{ionicons|length}}）</h1>
+        <hr />
+        {% for icon in ionicons %}
+        <span><i class="ion {{icon}}"></i>ion {{icon}}</span>
+        {% endfor %}
+
+
+    </body>
+</html>

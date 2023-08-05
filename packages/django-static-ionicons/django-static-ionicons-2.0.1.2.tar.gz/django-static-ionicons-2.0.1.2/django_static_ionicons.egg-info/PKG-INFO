@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: django-static-ionicons
+Version: 2.0.1.2
+Summary: Django application contain ionicons static files.
+Home-page: https://github.com/appstore-zencore/django-static-ionicons
+Author: zencore
+Author-email: appstore@zencore.cn
+License: MIT
+Description: # django-static-ionicons
+        
+        
+        Django application contain ionicons static files
+        
+        
+        ## Install
+        
+        
+        ```shell
+            pip install django-static-ionicons
+        ```
+        
+        ## Settings
+        
+        ```python
+        INSTALLED_APPS = [
+            ...
+            "django_static_ionicons",
+            ...
+        ]
+        ```
+        
+        ## Usage
+        -------------------
+        
+        **app/templates/demo.html**
+        
+        ```python
+        {% load staticfiles %}
+        
+        {% block style %}
+            <link rel="stylesheet" type="text/css" href="{% static "ionicons/css/ionicons.css" %}">
+        {% endblock %}
+        ```
+        
+        ## Releases
+        
+        ### v2.0.1.2 2020/02/26
+        
+        - Add demo page.
+        
+        ### v2.0.1.1 2018/03/27
+        
+        - Repackage.
+        
+        ### v2.0.1 2017/12/21
+        
+        - First release.
+Keywords: django-static-ionicons
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires: django
+Description-Content-Type: text/markdown
