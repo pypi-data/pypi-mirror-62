@@ -1,0 +1,16 @@
+fscrawler/__init__.py,sha256=JOl41NviMN-qDV0Z8ZPmhNIxvgyauGGJHdB4A-8MhqM,93
+fscrawler/_version.py,sha256=Ci38SgxIJcwcOcKtIHPNBSw0q29JfI-Gpe-RTqxd0rM,498
+fscrawler/crawler.py,sha256=sNMJ-Re9ZxxnKR5xN3wpG426hEZBu48O1I_LUtVm7iY,4533
+fscrawler/controller/__init__.py,sha256=t3k_T9evayH1zVHjBFDd3qbwCXljsZ8uZc8z4Ze6kdE,34
+fscrawler/controller/fsapi.py,sha256=1NhIbtWhBcbjwBP7GNQi00WqyhtX62oIhq7bobEDetM,6503
+fscrawler/controller/session.py,sha256=ya4AKacwsGJZ8itR9Ow86fd52DnboJBCztDMNbHQ2fA,6070
+fscrawler/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fscrawler/model/graph.py,sha256=yZyW8mUgsg5mBrQbyrNrcTCow7iGh_RSWLlQpYOmmQo,1620
+fscrawler/model/individual.py,sha256=_-bRJn19dGszbliC0VCVnTg5kpmBgApFNNN2u1SEKGw,1750
+fscrawler/model/name.py,sha256=Bsjs74m0AYRGJxGtwfCmz16aJrj9CA7a1A9s63irSLg,797
+fs_crawler-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fs_crawler-0.1.1.dist-info/METADATA,sha256=uQvc6OD2m-q6KT0vC4RzcU2NGortHKeR9svrJdVYsJQ,1778
+fs_crawler-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fs_crawler-0.1.1.dist-info/entry_points.txt,sha256=jDCYBrFkLHKKkBeByPPx6lAIsVouuPHOQVeLp-kEzQs,53
+fs_crawler-0.1.1.dist-info/top_level.txt,sha256=GXgSIhHS9ChmYnRf-yXHgKwll17FL7zTp0_0ertV8y0,10
+fs_crawler-0.1.1.dist-info/RECORD,,
