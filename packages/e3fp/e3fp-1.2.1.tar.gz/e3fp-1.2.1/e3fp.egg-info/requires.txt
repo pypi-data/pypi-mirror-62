@@ -1,0 +1,5 @@
+scipy>=0.18.0
+numpy>=1.11.3
+mmh3>=2.3.1
+cython>=0.25.2
+sdaxen_python_utilities>=0.1.4
