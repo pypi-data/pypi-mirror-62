@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pyfolio_v0p5p3
+Version: 0.5.3
+Summary: Updates to conda v0.5.1 pyfolio package with fixes for how Pandas handles dates/time in v1.0
+Home-page: https://github.com/laberge1/pyfolio_v0p5p3
+Author: Layne Berge
+Author-email: layneberge@gmail.com
+License: Apache License, Version 2.0
+Download-URL: https://github.com/laberge1/pyfolio_v0p5p3/archive/v0.5.3.tar.gz
+Description: UNKNOWN
+Keywords: pyfolio,finance,stock analysis,stock,back testing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
