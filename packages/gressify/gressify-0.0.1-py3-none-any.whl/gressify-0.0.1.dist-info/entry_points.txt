@@ -1,0 +1,3 @@
+[console_scripts]
+gressify = gressify.__main__:main
+

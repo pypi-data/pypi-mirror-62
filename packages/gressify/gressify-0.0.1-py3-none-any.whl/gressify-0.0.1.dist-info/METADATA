@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gressify
+Version: 0.0.1
+Summary: Adds a rule on a vpc security group
+Home-page: UNKNOWN
+Author: dedoussis
+Author-email: ddedoussis@gmail.com
+License: UNKNOWN
+Keywords: aws vpc ec2 security group rule ip ingres egress
+Platform: UNKNOWN
+Requires-Dist: boto3 (==1.12.5)
+Requires-Dist: requests (==2.23.0)
+
+# gressify
+
+Adds a TCP IPv4 ingress/egress rule on a target vpc security group.
+
+## Install
+
+```bash
+pip install gressify 
+```
+
+## Usage
+```bash
+gressify -g $GROUP_ID -i $IP
+```
+If IP not specified, public IP of the agent is assumed.
+
+
+For more available arg options:
+```bash
+gressify --help
+```
+
