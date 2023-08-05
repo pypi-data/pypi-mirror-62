@@ -1,0 +1,18 @@
+openapi-spec-validator
+six
+lazy-object-proxy
+strict_rfc3339
+isodate
+attrs
+werkzeug
+
+[:python_version < "3.0"]
+backports.functools-lru-cache
+backports.functools-partialmethod
+
+[django]
+django>=2.2
+python_version>="3.0"
+
+[flask]
+flask
