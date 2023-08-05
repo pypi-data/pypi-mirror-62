@@ -1,0 +1,11 @@
+isleservice_objects/__init__.py,sha256=fytbx3LuCvfwPmI_aUUdD1fJwwSnwpwd7oXMD--UshY,172
+isleservice_objects/_version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+isleservice_objects/errors.py,sha256=Jz-nAdXxwOZumrVTC9mPH82TJ1p0DIPBfxL8eWQLUhc,192
+isleservice_objects/fields.py,sha256=BVn-6ngfP2Wt1o0zOuYY2OAX_zM2MEwm_mShuIMDk8Q,36
+isleservice_objects/models.py,sha256=31PmPGvIv85498pA8KjlzwlHeusbyu7yq3a0Wl3gpCU,604
+isleservice_objects/schemas.py,sha256=1lZAdxoaVpC47OqOqSj5n7eQZ4T0qKCgxJRNYbM0u1c,801
+isleservice_objects-0.2.0.dist-info/LICENSE,sha256=ASmY5UYMO-xmc-Y7yfNCeafcVgDZg-IV-syrG9ZKfBo,1070
+isleservice_objects-0.2.0.dist-info/METADATA,sha256=mgvmAcYvFre0GcSVs40SzkLcOQD0_6_qZzy2A3V61yM,977
+isleservice_objects-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+isleservice_objects-0.2.0.dist-info/top_level.txt,sha256=RNPjNQydYCMi0QQPR4S4zS9Y3VDUuCX8n32M0oHtjOw,20
+isleservice_objects-0.2.0.dist-info/RECORD,,
