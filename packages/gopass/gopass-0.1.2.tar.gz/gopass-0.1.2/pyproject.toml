@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "gopass"
+version = "0.1.2"
+description = ""
+authors = ["Nik Cubrilovic <nik@nikcub.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "19.10b0"
+flake8 = "^3.7.8"
+isort = "^4.3.21"
+pylint = "^2.2"
+rope = "^0.16.0"
+
+[tool.poetry.scripts]
+gopass = 'gopass:cli'
+
+[tool.black]
+line-length = 120
+target_version = ['py37', 'py38']
+include = '\.pyi?$'
+exclude = '''
+/(\.git/
+  |\.eggs
+  |\.hg
+  |__pycache__
+  |\.cache
+  |\.ipynb_checkpoints
+  |\.mypy_cache
+  |\.pytest_cache
+  |\.tox
+  |\.venv
+  |node_modules
+  |_build
+  |buck-out
+  |build
+  |dist
+  |media
+  |infrastructure
+  |templates
+  |locale
+)/
+'''
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 120
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
