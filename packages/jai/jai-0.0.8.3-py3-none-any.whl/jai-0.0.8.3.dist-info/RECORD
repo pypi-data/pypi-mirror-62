@@ -1,0 +1,16 @@
+jai/__init__.py,sha256=aR2FL7uxga4_2yov4KYBiyZX5RixnpfzsK4SSl4yuEs,168
+jai/arch.py,sha256=UaebDWrsizy8dCY_SUwoJMDgxdYXA8embj98YSnar-8,63
+jai/augments.py,sha256=3F6apBFzZcuW9Kq7254ZQTJoADXKYAXCbzUff_u2sZU,4559
+jai/dataset.py,sha256=9xvm1QNRmcvMqeUxuo7L6xNOAfJoowj31-vUuqJ__rM,6782
+jai/improc.py,sha256=AO2ITXDLqsmVUSxlMPoA9do-wYQ9qrnBg5QMlyl2PzE,5737
+jai/logger.py,sha256=6hAjyUseWT_aevvZQpsMb-skQX7z997oaq4tKX1kStw,13721
+jai/trainer.py,sha256=i1ps3hpEUdaVNRBQw58glmUwBej24GBOlu4-h5BgMXg,6469
+jai/kaggler/__init__.py,sha256=appT3HT7F8LkDCbw32IFpt-rEH0Zr1Gq5M7Z6Zp2SWA,26
+jai/kaggler/from_kagglers.py,sha256=q-Pu4Hk5lL_CC6yGzUH7lIJim5M7rnLqoIFg5v6MB4k,4726
+jai/kaggler/kaggle_data.py,sha256=xpiRLgtfG5GT2hEJ8OXGI9wN1hDFCME3iJOlqUlEgCo,7450
+jai/kaggler/submitter.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jai-0.0.8.3.dist-info/LICENSE,sha256=hrRhULQNf5nO9maMS4qtFk9jOfyyd8TBetgBrHlt2bg,1516
+jai-0.0.8.3.dist-info/METADATA,sha256=EiKkET0pIfW0JpcyHA0nDQls0fmzIHidiaJGNrn50oU,9504
+jai-0.0.8.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jai-0.0.8.3.dist-info/top_level.txt,sha256=QrdjwUeE2P4caxL9mkpdlyfQ5GbPX-xzfsb9KPLPPUo,4
+jai-0.0.8.3.dist-info/RECORD,,
