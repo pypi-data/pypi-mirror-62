@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sonoUno
+Version: 3.0.2
+Summary: Data sonorization tool
+Home-page: http://github.com/sonounoteam/sonouno
+Author: Johanna Casado
+Author-email: johi.ceh@gmail.com
+License: MIT
+Download-URL: https://github.com/sonoUnoTeam/sonoUno/archive/3.0.tar.gz
+Platform: UNKNOWN
+Requires-Python: >3.5.0
+Requires-Dist: cycler
+Requires-Dist: kiwisolver
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: pygame
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: six
+Requires-Dist: oct2py
+Requires-Dist: wxpython
+
+UNKNOWN
+
+
