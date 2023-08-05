@@ -1,0 +1,4 @@
+numpy
+pylint
+pylint
+jinja2
