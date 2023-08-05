@@ -1,0 +1,5 @@
+astropy
+synphot
+scipy
+numpy
+yaml
