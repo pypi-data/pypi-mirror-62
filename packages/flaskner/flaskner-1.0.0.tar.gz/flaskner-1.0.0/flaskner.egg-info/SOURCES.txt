@@ -1,0 +1,23 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flaskner.egg-info/PKG-INFO
+flaskner.egg-info/SOURCES.txt
+flaskner.egg-info/dependency_links.txt
+flaskner.egg-info/not-zip-safe
+flaskner.egg-info/requires.txt
+flaskner.egg-info/top_level.txt
+flaskr/__init__.py
+flaskr/app_ner.py
+flaskr/utils.py
+flaskr/static/Screenshot from 2020-02-16 14-25-50.png
+flaskr/static/image3.png
+flaskr/static/image4.png
+flaskr/static/image5.png
+flaskr/static/image6.png
+flaskr/static/image8.png
+flaskr/static/main.css
+flaskr/templates/about.html
+flaskr/templates/base.html
+flaskr/templates/index.html

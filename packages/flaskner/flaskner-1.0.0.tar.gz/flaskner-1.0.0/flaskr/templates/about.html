@@ -1,0 +1,49 @@
+
+{% extends 'base.html' %}
+
+<h2>{% block title %}N.E.E::Named Entity Extraction{% endblock  %}</h2>
+
+{% block active %}
+  <li class="nav-item">
+    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="/about">About</a>
+  </li>
+{% endblock %}
+  <br/>
+  <br/>
+  <br/>
+
+{% block  content %}
+
+    <div class="container">
+      <div class='row about'>
+        <div class='col-4'>
+          <h2>Named Entity Extraction</h2>
+          <p>
+            The main goal of this system is to extract the named entity in a document given in parameter.
+            <br/>
+            <br/>
+            A named entity extraction can be :
+            <ul>
+              <li>person names</li>
+              <li>organization</li>
+              <li>locations</li>
+              <li>times expressions</li>
+              <li>quantities</li>
+              <li>monetary values</li>
+              <li>percentages</li>
+              <li>products</li>
+              <li>date</li>
+              <li>language</li>
+            </ul>
+            
+          </p>
+        </div>
+        <div class='col-8'>
+          <img alt="N.E.E" width="100%" src="{{ url_for('static', filename='image4.png')}}" />
+        </div>
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: flaskner
+Version: 1.0.0
+Summary: Extract entities in given document(doc/pdf) or link with flask and spacy
+Home-page: https://github.com/stevencibambo/named-entity-recognition
+Author: Steven CIBAMBO
+Author-email: stevencibambo@gmail.com
+License: MIT
+Download-URL: https://github.com/stevencibambo/named-entity-recognition/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: NER,ENTITY,FLASK,API,SPACY,NLTK,TEXT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+<h2>{% block title %}N.E.E::Named Entity Extraction{% endblock  %}</h2>
+
+{% block active %}
+  <li class="nav-item active">
+    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about">About</a>
+  </li>
+  {% endblock %}
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <form method="POST" action="/fromdoc" class='col-6' enctype = "multipart/form-data">
+        <div class="form-group">
+          <label for="doctext">Choose document(pdf,doc) :</label>
+
+          <input type="file" name="doctext" class="form-control" required/>
+        </div>
+
+        <input type="submit" value="Process" class="btn btn-info"/>
+
+      </form>
+      <form method="POST" action="/fromlink" class='col-6'>
+        <div class="form-group">
+          <label for="linktext">Link :</label>
+
+          <input type="text" name="linktext" class="form-control" placeholder="http://www.example.com" required/>
+        </div>
+
+        <input type="submit" value="Process" class="btn btn-info"/>
+
+      </form>
+    </div>
+    <div>
+    </div>
+    <form method="POST" action="/process">
+      <div class="form-group">
+          <label>Your Text</label>
+          <textarea type="text" rows="10" cols="5" class="form-control"  name="rawtext" required="true">
+            {% if textfromlink %}
+              {{ textfromlink }}
+            {% endif %}
+            {% if textfromdoc %}
+              {{ textfromdoc }}
+            {% endif %}
+          </textarea>
+          <br/>
+          {% if result %}
+            {{ result|markdown }}
+          {% endif %}
+          <br/>
+          <select class="form-control" name="taskoption">
+			  <option selected value = "">Select Task</option>
+			  <option value="organization">Organization</option>
+			  <option value="person">Person</option>
+        <option value="date">Date</option>
+        <option value="norp">Norp</option>
+        <option value="cardinal">Cardinal Number</option>
+        <option value="loc">Location</option>
+        <option value="ordinal">Ordinal Number</option>
+			  <option value="geopolitical">Geopolitical</option>
+        <option value="money">Money</option>
+			</select>
+			<br/>
+            <button type="reset" class="btn btn-primary"><i class="fa fa-eraser"></i> Clear</button>
+            <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+         
+        </div>
+        </form>
+    </div>
+
+    <div class="container">
+    	<div class="alert alert-success" role="alert">
+        <p class="alert-heading">Result</p>
+        <p>Number of Records:{{num_of_results}}</p>
+        <ul>{% for i in results %}
+        	<li>{{i}}</li>
+        	{% endfor %}
+    	</ul>
+    	</div>
+    </div>
+
+{% endblock %}
