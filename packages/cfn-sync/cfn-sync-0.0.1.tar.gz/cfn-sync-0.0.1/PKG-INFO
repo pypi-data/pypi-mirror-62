@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cfn-sync
+Version: 0.0.1
+Summary: Deploy CloudFormation stacks synchronously and watch the events
+Home-page: https://github.com/samjarrett/cfn-sync
+Author: Sam Jarrett
+Author-email: sam@samjarrett.com.au
+License: UNKNOWN
+Description: # CFN-Sync
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
