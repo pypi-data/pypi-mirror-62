@@ -1,0 +1,16 @@
+xiaohei/__init__.py,sha256=m1Okx3RfFKEeSaLV7HUNS-E_mRz6_Pn-Rm0VhOJOGKg,38
+xiaohei/aws/__init__.py,sha256=lYx0qXN0JZguYjk5LfKLzr3IhOcbxeAakZZNd6pSIq8,17
+xiaohei/aws/artifactory.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaohei/aws/bamboo.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaohei/aws/cfstack.py,sha256=D87pcl6FmWBViKzkaJITHHHq_d9De0EJWA26HQ2GBeg,3262
+xiaohei/aws/jenkins.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaohei/aws/nexus.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaohei/aws/sonarqube.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaohei/aws/s3/__init__.py,sha256=bhu63Rl9SpLlehFOX8VANzcb65VhiqFa44TiMDfhkAM,21
+xiaohei/aws/s3/upload.py,sha256=JU4VzumjwCQ2MMLFYROGDJWAgWk-uHQ-AluxFDErbzQ,2882
+xiaohei/azure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaohei-0.0.1.dist-info/LICENSE,sha256=jZpPaptnYkEuLnYNgAsDh1Zp-rdJ4DRkAgApPAWWi1w,13
+xiaohei-0.0.1.dist-info/METADATA,sha256=KSO6SUZiLMWl7ZtWkIR2zN5X9h9uVaU5T8tZ7G_gKnw,1277
+xiaohei-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xiaohei-0.0.1.dist-info/top_level.txt,sha256=l2D6GJ4A0BEIRX2iN2C8xTN3_KDuiw8-4QO9ZC7TL2I,8
+xiaohei-0.0.1.dist-info/RECORD,,
