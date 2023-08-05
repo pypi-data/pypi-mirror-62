@@ -1,0 +1,16 @@
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+notes.md
+setup.py
+bin/sida
+src/sida/sida.egg-info/PKG-INFO
+src/sida/sida.egg-info/SOURCES.txt
+src/sida/sida.egg-info/dependency_links.txt
+src/sida/sida.egg-info/requires.txt
+src/sida/sida.egg-info/top_level.txt
+test/test_cs228_show.py
+test/test_cs228_standardize.py
+test/test_sida.py
+test/test_slackbot.py
