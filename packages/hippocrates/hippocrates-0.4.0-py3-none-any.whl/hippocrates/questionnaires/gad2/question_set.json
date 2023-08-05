@@ -1,0 +1,38 @@
+{
+    "question_set": {
+        "1000": {
+            "answers": {
+                "More than half the days": 2,
+                "Nearly every day": 3,
+                "Not at all": 0,
+                "Several days": 1
+            },
+            "question": "Feeling nervous, anxious, or on edge"
+        },
+        "2000": {
+            "answers": {
+                "More than half the days": 2,
+                "Nearly every day": 3,
+                "Not at all": 0,
+                "Several days": 1
+            },
+            "question": "Not being able to stop or control worrying"
+        }
+    },
+    "question_title": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+    "result_formula": "addition",
+    "results": [
+        {
+            "comment": "Normal",
+            "max": 2,
+            "min": 0,
+            "severity": "None"
+        },
+        {
+            "comment": "Further diagnostic evaluation for generalized anxiety disorder is warranted",
+            "max": 6,
+            "min": 3,
+            "severity": "Unknown"
+        }
+    ]
+}
