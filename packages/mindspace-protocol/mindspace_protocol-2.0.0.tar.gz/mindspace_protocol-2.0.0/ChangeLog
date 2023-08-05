@@ -1,0 +1,26 @@
+CHANGES
+=======
+
+2.0.0
+-----
+
+* Include the parser when raising CommandNotFound
+
+1.0.0
+-----
+
+* Removed dependancy on msgpack
+* Made stacked returns more pythonic
+
+0.2
+---
+
+* Fixed custom naming of commands
+
+0.1
+---
+
+* Separated handle\_command
+* Fixed name
+* Initial commit
+* Initial commit
