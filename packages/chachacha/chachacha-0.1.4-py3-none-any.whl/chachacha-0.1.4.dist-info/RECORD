@@ -1,0 +1,13 @@
+chachacha/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+chachacha/configuration.py,sha256=6WwCsg6Qxf6IpA_mLznwYKGXnqysiIUYkSl6TH6o13o,1441
+chachacha/main.py,sha256=wrgCSt3dxMqT-xM-wcsIMjSFHbgKD093cp-zEcLbtCA,4106
+chachacha/vendor_dataclasses.py,sha256=WwkMl6vUvIeyaicLU90FcakhRJK9SyQUYTYP1-wre7s,45208
+chachacha/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chachacha/drivers/kac.py,sha256=nIpRn2EaaUoraMZt3EtJJG62iTHjHO-LrsEDyFvJQog,4706
+chachacha/drivers/git_providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chachacha/drivers/git_providers/github.py,sha256=gatcbNYUyGZzMXhUMEUc-H9fd9RDRHfDYhjkG8p8GB0,1131
+chachacha-0.1.4.dist-info/METADATA,sha256=TMDPVZh6T9_a2UUbenD09q_2WuHtXFSSOz35VSoy3-o,5668
+chachacha-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chachacha-0.1.4.dist-info/entry_points.txt,sha256=f3D6QlLo-m8o14vV0G_KgGtPFeKNX2BbETxtvtrUK90,51
+chachacha-0.1.4.dist-info/top_level.txt,sha256=bsl1nEBOWHnPo06k02BPrbCxWeg0mqE89eUmLtDS7DA,60
+chachacha-0.1.4.dist-info/RECORD,,
