@@ -1,0 +1,4 @@
+[console_scripts]
+grayskull = grayskull.__main__:main
+gs = grayskull.__main__:main
+
