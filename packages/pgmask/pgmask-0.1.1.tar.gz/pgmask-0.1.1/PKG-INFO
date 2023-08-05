@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pgmask
+Version: 0.1.1
+Summary: A abstraction to handle of postgres database
+Home-page: https://gitlab.com/vintem/pgmask
+License: MIT
+Keywords: postgres,dataframe,sql
+Author: marcusmello
+Author-email: mandealista@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas (>=1.0.1,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.8.4,<3.0.0)
+Requires-Dist: sqlalchemy (>=1.3.13,<2.0.0)
+Project-URL: Repository, https://gitlab.com/vintem/pgmask
+Description-Content-Type: text/markdown
+
+# Pgmask
+
+A postgres python abstraction
+

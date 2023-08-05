@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pgmask"
+version = "0.1.1"
+description = "A abstraction to handle of postgres database"
+authors = ["marcusmello <mandealista@gmail.com>"]
+
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/vintem/pgmask"
+repository = "https://gitlab.com/vintem/pgmask"
+keywords = ["postgres", "dataframe", "sql"]
+
+include = [
+    "LICENSE",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.0.1"
+sqlalchemy = "^1.3.13"
+psycopg2-binary = "^2.8.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
