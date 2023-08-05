@@ -1,0 +1,17 @@
+{
+    "not_a_secret_due_to": "https://tools.ietf.org/html/draft-ietf-oauth-native-apps-12#section-8.5",
+    "web": {
+      "client_id": "100724365818-3gitvlq772uon78gid3q28m7k6ektu57.apps.googleusercontent.com",
+      "project_id": "lime-comb",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_secret": "NN6tnoanwAKdQbJsL6KTp6bZ",
+      "redirect_uris": [
+        "https://lime-comb.firebaseapp.com/__/auth/handler"
+      ],
+      "javascript_origins": [
+        "https://lime-comb.firebaseapp.com"
+      ]
+    }
+  }
