@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: django-pwdtk
+Version: 0.2.8
+Summary: package to tune django password authentification
+Home-page: https://www.teledomic.eu
+Author: MHComm
+Author-email: info@mhcomm.fr
+License: MIT
+Keywords: django authentification password
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+
+UNKNOWN
+
+
