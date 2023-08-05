@@ -1,0 +1,13 @@
+tensorcom/__init__.py,sha256=TZv9GKkNuBcB8XOGhGxuvvZ3bbP7PaMQxojIYO5VRh0,29
+tensorcom/tenbin.py,sha256=6VUyRUyWPA142Wce-xenKGM4NSCa6Zbm3F4XczYtlJM,7942
+tensorcom/zcom.py,sha256=wkjGodigOf1KMGD4Kth4aIWAuYs729EN3hBlTyE0XE0,12002
+tensorcom-0.1.0.data/scripts/serve-imagenet-dir,sha256=tcUglAL40rDzTMqp7U1FvsB3cEXUG8ynr15eek6I_kw,4273
+tensorcom-0.1.0.data/scripts/serve-imagenet-shards,sha256=jnJnZwgamUm4oAg5Pjul4bHVFR9aAKkVBg9vQp5Laeg,3590
+tensorcom-0.1.0.data/scripts/tensormon,sha256=Hgl8JbnTNW0GNvbc89J7xL-kDMAqe1hZi-bu5d6pHB4,1306
+tensorcom-0.1.0.data/scripts/tensorshow,sha256=-kf5BLn_PVozFYhsHODsX1vq_80vBbncI50RbFD2hk4,3432
+tensorcom-0.1.0.data/scripts/tensorstat,sha256=yXPgRem43vP4gYBVVo6hXl3HmKnHTlPPrV1ZcBwmqiM,2243
+tensorcom-0.1.0.dist-info/LICENSE,sha256=YwGustjrILcD8h558cNKHH6P0FfUueRw3Iwgkb9BTvY,1485
+tensorcom-0.1.0.dist-info/METADATA,sha256=MRQWBqDue_oCD61WWwH-OeND7q8zpBrNg5oFpXmIVK8,4134
+tensorcom-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tensorcom-0.1.0.dist-info/top_level.txt,sha256=KSIvZX5fpN9kmBR8JetyITd2dkN7fD-myZPMHnogjnk,10
+tensorcom-0.1.0.dist-info/RECORD,,
