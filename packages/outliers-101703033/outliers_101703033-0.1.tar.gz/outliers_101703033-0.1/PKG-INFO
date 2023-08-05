@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: outliers_101703033
+Version: 0.1
+Summary: Finding outliers in a dataset in python
+Home-page: https://github.com/aditi721999
+Author: Aditi Tiwari
+Author-email: atiwari_be17@thapar.edu
+License: MIT
+Download-URL: https://github.com/aditi721999/outliers_101703033.git
+Description: UNKNOWN
+Keywords: python,outliers,101703033
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
