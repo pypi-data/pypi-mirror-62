@@ -1,0 +1,9 @@
+README.md
+setup.py
+functionalMethods/__init__.py
+functionalMethods/functional.py
+functionalMethods/main.py
+pygraham.egg-info/PKG-INFO
+pygraham.egg-info/SOURCES.txt
+pygraham.egg-info/dependency_links.txt
+pygraham.egg-info/top_level.txt
