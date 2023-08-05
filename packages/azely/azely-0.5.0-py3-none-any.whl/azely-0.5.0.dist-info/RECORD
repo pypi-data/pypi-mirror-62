@@ -1,0 +1,10 @@
+azely/__init__.py,sha256=GfHz8AyN3EWqHAita0d-S10Jr75ZOIO9PEM-Wyd7uCQ,336
+azely/azel.py,sha256=Q5_kxI_bFpoQXXg9EO8ynPENhj2SOaOURIfgSPI42kg,7780
+azely/consts.py,sha256=4oeYWR2bAUomfrgPfHhPu58qOdJHSAPNHSm457w7Lmo,1102
+azely/location.py,sha256=gkUhUelS3lJUiJlu7HbcNA471WSqwzmRzQ1jkjaHLvQ,6997
+azely/object.py,sha256=550fhUMfb3kaiIzUelNQC1eMibMCioIUIgIIyC0A6NA,6597
+azely/time.py,sha256=qB0ftjoYrx59zhTkLi8nHisUDxCyJMVTuyrFHe7DNwE,7089
+azely/utils.py,sha256=86rW9jS6z5z3VBRzABKgCLBnS5iieH8ae6ruV3I5WNQ,7185
+azely-0.5.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+azely-0.5.0.dist-info/METADATA,sha256=enW330kTp0-ieedf8GqBlJNdnKF8oJbyAsvbsZ40e6Q,1028
+azely-0.5.0.dist-info/RECORD,,
