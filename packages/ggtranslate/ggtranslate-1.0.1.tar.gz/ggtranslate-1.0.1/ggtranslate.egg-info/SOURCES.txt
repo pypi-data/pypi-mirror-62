@@ -1,0 +1,8 @@
+setup.py
+ggtranslate/__init__.py
+ggtranslate/ggtranslate.py
+ggtranslate.egg-info/PKG-INFO
+ggtranslate.egg-info/SOURCES.txt
+ggtranslate.egg-info/dependency_links.txt
+ggtranslate.egg-info/requires.txt
+ggtranslate.egg-info/top_level.txt
