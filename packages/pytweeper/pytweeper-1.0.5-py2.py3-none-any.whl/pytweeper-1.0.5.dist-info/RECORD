@@ -1,0 +1,10 @@
+pytweeper/__init__.py,sha256=ELBenTBEMOHrkd9z7Z14EsYgoqd5K0Xf7X2shndteuY,24
+pytweeper/__version__.py,sha256=DML3-lMBfDAAeHTs183kcnY1BYsOPCTZsWaQJCrI4ro,63
+pytweeper/operation.py,sha256=StotkWHGsvwmkqf-ePgqTkcQ7MYX2p5zm1914Frq5es,1304
+pytweeper/pytweeper.py,sha256=h9rgfmUhkx7wuqgkP7yFLmhq5waRpul7L35Cgkn1ceU,3956
+pytweeper/twitter.py,sha256=1nez1SMRBUb3kDSJpctAOp05G4hCbqqjVtAKj2pHfGA,2887
+pytweeper-1.0.5.dist-info/METADATA,sha256=Vnupo_rlfBrJ4Ap3g7zPM7-hm8_1jbbHzBJVlZkAAuU,1105
+pytweeper-1.0.5.dist-info/RECORD,,
+pytweeper-1.0.5.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+pytweeper-1.0.5.dist-info/entry_points.txt,sha256=67G7-2bJJA9mwOsO_t3q81h9QQTY-JJSTiTyOMllTes,46
+pytweeper-1.0.5.dist-info/top_level.txt,sha256=yrFzYkzpur6KPLV1oYfyDUrFD-XaqUP1uGBbKNJzn6s,10
