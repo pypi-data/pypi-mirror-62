@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: auth-swust
+Version: 1.2.6
+Summary: auth_swust
+Home-page: https://github.com/BuddingLab/auth_swust
+Author: BuddingLab
+Author-email: admin@maxlv.org,
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: scikit-image
+Requires-Dist: pytest
+
+UNKNOWN
+
+
