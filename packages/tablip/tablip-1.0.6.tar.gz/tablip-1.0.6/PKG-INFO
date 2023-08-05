@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: tablip
+Version: 1.0.6
+Summary: export data to file such as excel etc..
+Home-page: https://github.com/bn0901/tablip
+Author: bn.zheng
+Author-email: zhengbingxian666@163.com
+License: MIT Licence
+Description: # tablip
+        generate file such as json, excel ..  especially excel can auto fix column width.
+        生成json，excel等文件。尤其是excel可以自动修复列宽。
+        
+        
+Keywords: pip,tablip,featureextraction
+Platform: any
