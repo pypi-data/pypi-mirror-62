@@ -1,0 +1,6 @@
+# requirements for CI system (tests)
+jsonpickle
+numpy
+matplotlib
+pytest
+jinja2
