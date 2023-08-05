@@ -1,0 +1,3 @@
+[console_scripts]
+pyconsoler=pyconsoler.cli:main
+
