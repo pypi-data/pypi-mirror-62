@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ngm
+Version: 3.5.1
+Summary: A simple localhost web page creator ngm-sms-spm spam
+Home-page: UNKNOWN
+Author: Elermond
+Author-email: neogenius14@gmail.com
+License: Mozilla Public License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: phonenumbers
+Requires-Dist: click
+
+A simple localhost web page creator ngm-sms-spm spam
+
+
