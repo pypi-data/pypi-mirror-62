@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyhost
+Version: 0.1.0
+Summary: DNS Lookup
+Home-page: https://gitlab.com/drewito/pyhost
+Author: Javier Poremski
+Author-email: javier@poremski.se
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pyhost
+
+DNS Lookup
+
+## Versioning
+
+pyhost follows [SemVer](https://semver.org/) (MAJOR.MINOR.PATCH) to track what is in each release.
+
+* Major version number will be bumped when there is an incompatible API change
+* Minor version number will be bumped when there is functionality added in a backwards-compatible manner.
+* Patch version number will be bumped when there is backwards-compatible bug fixes.
+
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+## Installation
+
+Installation the package from pypi with your tool of choice `pip`, `poetry` or `pipenv`.
+
+```bash
+pip install pyhost
+```
+
+
