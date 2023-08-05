@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: m3-dl
+Version: 0.0.3
+Summary: this is a description
+Home-page: https://github.com/abhinavsingh/proxy.py
+Author: zk
+Author-email: mailsforabhinav@gmail.com
+License: BSD
+Download-URL: https://github.com/abhinavsingh/proxy.py/archive/master.zip
+Keywords: best practice for python project
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Requires-Python: >3.0.0
+Description-Content-Type: text/markdown
+Requires-Dist: coloredlogs (==10.0)
+Requires-Dist: setuptools (==40.6.3)
+Requires-Dist: PyYAML (==5.3)
+
+# Install
+since the name m3u8_dl is taken by other developer...
+
+short it to m3_dl
+```
+pip install m3_dl
+```
+
+# Usage 
+```
+m3u8_dl <m3u8_url> <dest>
+
+```
+
+ex:
+```
+m3u8_dl http://aaa.com/a.m3u8  ./a.mp4
+```
+
+# Full Usage 
+```
+m3u8_dl --help
+
+usage: m3u8_dl [-h] [-p PROXY] url out_path
+
+positional arguments:
+  url                   url
+  out_path              out path
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PROXY, --proxy PROXY
+                        proxy (default: socks5h://127.0.0.1:5992)
+```
+
+
+# TODO
+1. add temp name in case clash when multipal download happens
+2. put cache in memory to reduce disk RW
+3. enable redownlowd
+4. smart schedule
+
