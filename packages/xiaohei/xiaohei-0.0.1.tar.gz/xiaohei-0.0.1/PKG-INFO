@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: xiaohei
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/APAC-DevOps/xiaohei
+Author: Jianhua Wu
+Author-email: devops.apac@gmail.com
+License: UNKNOWN
+Description: =======
+        XIAOHEI
+        =======
+        
+        A Jianhua WU's project
+        
+        This package provides an easy way for setting up CI/CD tools on AWS and Azure.
+        
+        The XIAOHEI package works on Python versions:
+        
+        * 3.6.x and greater
+        * 3.7.x and greater
+        * 3.8.x and greater
+        
+        -------------
+        Pre-requisite
+        -------------
+        
+        * boto3
+        * access key & secret key of an AWS IAM user with Admin permission
+        * general AWS knowledge
+        * Azure Creds
+        * general Azure knowledge
+        
+        ----------------------
+        Set up AWS Environment
+        ----------------------
+        
+        The quickest way to get started is to run the ``aws configure`` command::
+        
+            $ aws configure
+            AWS Access Key ID: YourAwsAccessKey
+            AWS Secret Access Key: YourAwsSecretKey
+            Default region name [ap-southeast-2]: ap-southeast-2
+            Default output format [None]: json
+        
+        For more detail, follow the link at https://github.com/aws/aws-cli/blob/develop/README.rst
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

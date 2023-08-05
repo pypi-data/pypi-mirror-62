@@ -1,0 +1,17 @@
+README.rst
+setup.py
+xiaohei/__init__.py
+xiaohei.egg-info/PKG-INFO
+xiaohei.egg-info/SOURCES.txt
+xiaohei.egg-info/dependency_links.txt
+xiaohei.egg-info/top_level.txt
+xiaohei/aws/__init__.py
+xiaohei/aws/artifactory.py
+xiaohei/aws/bamboo.py
+xiaohei/aws/cfstack.py
+xiaohei/aws/jenkins.py
+xiaohei/aws/nexus.py
+xiaohei/aws/sonarqube.py
+xiaohei/aws/s3/__init__.py
+xiaohei/aws/s3/upload.py
+xiaohei/azure/__init__.py
