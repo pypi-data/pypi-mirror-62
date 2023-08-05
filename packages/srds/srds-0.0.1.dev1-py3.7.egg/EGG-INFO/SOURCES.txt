@@ -1,0 +1,9 @@
+README.md
+setup.py
+srds/__init__.py
+srds/srds.py
+srds.egg-info/PKG-INFO
+srds.egg-info/SOURCES.txt
+srds.egg-info/dependency_links.txt
+srds.egg-info/requires.txt
+srds.egg-info/top_level.txt
