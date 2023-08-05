@@ -1,0 +1,14 @@
+README.md
+gitk-cl
+setup.py
+classdiff/config.py
+classdiff/diff_range.py
+classdiff/graphviz.py
+classdiff/main.py
+classdiff/tag_language.py
+classdiff/tag_model.py
+gitk_class_diagram.egg-info/PKG-INFO
+gitk_class_diagram.egg-info/SOURCES.txt
+gitk_class_diagram.egg-info/dependency_links.txt
+gitk_class_diagram.egg-info/entry_points.txt
+gitk_class_diagram.egg-info/top_level.txt
