@@ -1,0 +1,10 @@
+zoetrope/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoetrope/zoetrope.py,sha256=uI5b_HTegdqfW5-BEG8jjJUVHimuDxjmpGp9d_-1Kqg,5327
+zoetrope/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zoetrope/templates/unittest_template.py,sha256=Aje6wsCZhJc1QNN6gzdxDzXyr7JBvd5YvxpwiKCN8Gg,517
+zoetrope-0.2.data/scripts/zoetrope,sha256=bI3eg0Kmbs956fdy3DX2ykbloUln2rRqK3iVFXP27mQ,5314
+zoetrope-0.2.dist-info/METADATA,sha256=u_WMEHy9Yeh_fYumclHabaWawFXXgB6GTVHTDPFxFvs,233
+zoetrope-0.2.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+zoetrope-0.2.dist-info/pbr.json,sha256=tv_AvRNqz2VQNf9Koh802XcyfKFo22LbWyUpKDjDzmo,47
+zoetrope-0.2.dist-info/top_level.txt,sha256=lorR1H05Il24AVeGEV7AjTbaIrRUFzqI82gUY_wllWA,9
+zoetrope-0.2.dist-info/RECORD,,
