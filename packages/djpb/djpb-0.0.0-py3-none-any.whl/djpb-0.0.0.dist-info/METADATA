@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: djpb
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.0
+Requires-Dist: django
+Requires-Dist: protobuf
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
+
