@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aiobestproxiesapi
+Version: 0.0.1
+Summary: Asynchronous API wrapper for best-proxies.ru.
+Home-page: https://github.com/Abstract-X/aiobestproxiesapi
+Author: Abstract-X
+Author-email: turinwhites@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: aiohttp (<4.0.0,>=3.6.2)
+
+UNKNOWN
+
+
