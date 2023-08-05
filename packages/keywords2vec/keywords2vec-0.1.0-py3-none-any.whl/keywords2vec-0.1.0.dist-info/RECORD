@@ -1,0 +1,13 @@
+keywords2vec/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+keywords2vec/_nbdev.py,sha256=zi98G7bHzZtF447AhhvKUPWpki07rjrgVtDnRjflY9c,1070
+keywords2vec/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+keywords2vec/imports.py,sha256=bXwO2X1zxkHX0j6Op2Xo_bweYdfE5MdqKQKlbpowZss,135
+keywords2vec/main.py,sha256=i62SkI7CI3hSLxc3IGCYZNOY100BmETxWwfuyx_xZq0,2674
+keywords2vec/tokenizer.py,sha256=y1AOBiwTzE7SZizeN9U4oaQg9siOR8ljvpDShrhPHdM,6262
+keywords2vec/utils.py,sha256=OIcSlPYuZd5KlxQUCkwqmmxooKf9CvcDCPr9EqaV5Wc,2019
+keywords2vec-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+keywords2vec-0.1.0.dist-info/METADATA,sha256=qPt0Of3BJFgkSSeTEs6kbx1maNeJ-ZEQFU9uSZPK-F8,7678
+keywords2vec-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+keywords2vec-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+keywords2vec-0.1.0.dist-info/top_level.txt,sha256=oyP5CP_I7Gz-tzKj6niVIUpqE2yBgVWUoqrhp2_4nk0,13
+keywords2vec-0.1.0.dist-info/RECORD,,
