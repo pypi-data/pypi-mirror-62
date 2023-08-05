@@ -1,0 +1,11 @@
+setup.py
+pykov/__init__.py
+pykov/auth.py
+pykov/constants.py
+pykov/example.py
+pykov/hwid.py
+pykov/tarkov.py
+pykov_eft.egg-info/PKG-INFO
+pykov_eft.egg-info/SOURCES.txt
+pykov_eft.egg-info/dependency_links.txt
+pykov_eft.egg-info/top_level.txt
