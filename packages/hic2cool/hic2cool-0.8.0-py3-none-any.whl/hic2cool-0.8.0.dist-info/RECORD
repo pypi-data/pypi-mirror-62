@@ -1,0 +1,11 @@
+hic2cool/__init__.py,sha256=qKErZbyZ8zsWC6owfJJiHT9LwkrvHz_kiqbi4swPIjI,256
+hic2cool/__main__.py,sha256=xQF0AOmDDG6GF3OPJiI-vGOAySdEst6VYWRBRQYOgCk,4190
+hic2cool/_version.py,sha256=iPlYCcIzuzW7T2HKDkmYlMkRI51dBLfNRxPPiWrfw9U,22
+hic2cool/hic2cool_config.py,sha256=9O72exTbc27kCCoIet1E_hjFj9IrwNwn3GbQTaPOZew,846
+hic2cool/hic2cool_updates.py,sha256=jVKrNtsjL7baNjcHSqvUk5cP0Uo0OBSh-Jlf0KJvGbE,5213
+hic2cool/hic2cool_utils.py,sha256=ArXWFd5KMfpdkMjnNEuiiPOYm1XZjDaeKp-5x2SLSUA,46088
+hic2cool-0.8.0.dist-info/METADATA,sha256=4d6l2YvJkoU3gXKiH9k9X0qSWeFVUvoczorpv-i9hA8,12403
+hic2cool-0.8.0.dist-info/RECORD,,
+hic2cool-0.8.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+hic2cool-0.8.0.dist-info/entry_points.txt,sha256=BLT5SMjagXmvqLf_-LfsaAzxe0jQJXSnlkxWsWtQQm0,53
+hic2cool-0.8.0.dist-info/top_level.txt,sha256=T-oGBxsHupGVLTW2c592tVOhGzNqGia4UXs0IuXaQ1A,9
