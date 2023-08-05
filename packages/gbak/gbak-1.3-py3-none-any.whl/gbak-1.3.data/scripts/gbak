@@ -1,0 +1,37 @@
+#!python
+from __future__ import absolute_import
+import click
+import pkg_resources
+
+import gbackup_helper as gbakh
+
+VERSION = pkg_resources.require("gbak")[0].version
+
+@click.group()
+@click.version_option(version=VERSION, prog_name='gbak')
+def gbak():  # pragma: no cover
+    pass
+
+@click.command()
+@click.option('--config', help='config file')
+@click.option('--input', help=' input')
+@click.option('--output', help=' output')
+def download(config,input,output):
+    if config != None :
+        gbakh.download(config,input,output)
+    else:
+        print("error")
+
+@click.command()
+@click.option('--config', help='config file')
+@click.option('--input', help=' input')
+def upload(config, input):
+    if config != None :
+        gbakh.upload(config,input)
+    else:
+        print("error")
+
+gbak.add_command(download)
+gbak.add_command(upload)
+if __name__ == '__main__':  # pragma: no cover
+    gbak()
