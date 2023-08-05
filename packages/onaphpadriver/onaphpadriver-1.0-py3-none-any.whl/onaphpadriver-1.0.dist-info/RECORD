@@ -1,0 +1,12 @@
+hpa/__init__.py,sha256=4mLlAfBP56ULSKKJFdIqqhOd6aI7nAZkJuq9GBMtCTE,590
+hpa/base.py,sha256=mgfiCa7jqtdBekCQX-UvYZeozNxDDGkvnfg6b6EribM,543
+hpa/hpa_discovery.py,sha256=38mz8ibjoX3-53dq_CGMWafejVK34tHLE4O9X4Ag4DE,19815
+tests/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+tests/test.py,sha256=cwfGL_jiBTKDy3_CRsccU_XSDscndGf0FGsx3nUBmFM,4664
+tests/test_hpa_discovery.py,sha256=MhFhCk4b_A2kgxO99ifFI31vZEKwu1OS-yUk2l9SQxk,3674
+onaphpadriver-1.0.dist-info/LICENSE,sha256=tARp4Yf-BxvzTPp3RukSW3-RzcyDXUqoMpV6af3ElxY,1099
+onaphpadriver-1.0.dist-info/METADATA,sha256=4kxl0jtnNdVL1AWG6PHtJEveYPNX3g4heUwgPmGpBeg,1036
+onaphpadriver-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+onaphpadriver-1.0.dist-info/entry_points.txt,sha256=mCFaGX9xEqTqTXsjmKg-L7HCUwqqfUriJEviVvKI0rg,61
+onaphpadriver-1.0.dist-info/top_level.txt,sha256=XjOyMd2OZVnGndL8TWzHA7GiShIWwYiHKIF5y8SnvNM,10
+onaphpadriver-1.0.dist-info/RECORD,,
