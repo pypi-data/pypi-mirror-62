@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jetblack-lvm2
+Version: 0.1.0
+Summary: Python 3 bindings for lvm2
+Home-page: https://github.com/rob-blackbourn/jetblack-lvm2
+License: Apache-2.0
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/rob-blackbourn/jetblack-lvm2
+Description-Content-Type: text/markdown
+
+# jetblack-lvm2
+
+Python3 bindings for lvm2
+
