@@ -1,0 +1,12 @@
+pycreate/__init__.py,sha256=iqMqi8XAC7lUkHqvG_l5uOzrl0G940TX3UbWumsCYJU,52
+pycreate/_version.py,sha256=0ewK2ReGBMN8XoQyJsEVFdqrGXWjref4f_UJmo0s2j8,66
+pycreate/pip.sh,sha256=hEI5m4r5H2WkkU9mjiYHlEJzIFKdhHFeiaVfilHFcUc,141
+pycreate/pycreate.py,sha256=czWq1p9Gfi3cXRWI6gHa1lwFiwkBenaa7op18SaZZXE,8930
+pycreate/setup.txt,sha256=QX-GfwRAwnIhaUWys0CWuCK7dbwqIVVetwB0AOVTUus,3358
+pycreate/setup_conf.txt,sha256=FIblxELeW5UxAAcLfzQsNVhuwI62twOIcI8K5blEs7g,1347
+fzpycreate-0.0.12.dist-info/LICENSE.md,sha256=UkX-VUOCFiVhAH4nVLUh0RblvzceXfhCzbwgXSu4k4A,54
+fzpycreate-0.0.12.dist-info/METADATA,sha256=-_MIGdAYqeroiTz3MtBynMvHsqQCzHOkDrSL_Yum190,1843
+fzpycreate-0.0.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fzpycreate-0.0.12.dist-info/entry_points.txt,sha256=5HYWejR82F8ntQ-ov9sgmmo0bprRDnvOFzVFQ9OLV5U,53
+fzpycreate-0.0.12.dist-info/top_level.txt,sha256=o0r6zQ9DnswCv8L8O_YMxtTat2yTz7c3EHzBJOHd_wA,9
+fzpycreate-0.0.12.dist-info/RECORD,,
