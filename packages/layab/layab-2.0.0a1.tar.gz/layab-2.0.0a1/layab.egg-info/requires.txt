@@ -1,0 +1,7 @@
+starlette==0.13.*
+PyYAML==5.*
+
+[testing]
+requests==2.*
+pytest-cov==2.*
+uvicorn==0.11.*
