@@ -1,0 +1,7 @@
+pytest>=3.3.2
+pytest-cov
+codecov
+pyOpenSSL
+pyDes
+ntlm-auth
+namedlist
