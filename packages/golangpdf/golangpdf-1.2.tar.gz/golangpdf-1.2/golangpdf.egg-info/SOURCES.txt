@@ -1,0 +1,9 @@
+README.md
+setup.py
+golangpdf/__init__.py
+golangpdf/pdf2image.py
+golangpdf/pdf2text.py
+golangpdf.egg-info/PKG-INFO
+golangpdf.egg-info/SOURCES.txt
+golangpdf.egg-info/dependency_links.txt
+golangpdf.egg-info/top_level.txt
