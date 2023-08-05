@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: reaver
+Version: 2.1.9
+Summary: Reaver: Modular Deep Reinforcement Learning Framework. Focused on StarCraft II. Supports Gym, Atari, and MuJoCo. Matches reference results.
+Home-page: https://github.com/inoryy/reaver
+Author: Roman Ring
+Author-email: inoryy@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: reaver starcraft2 gym atari mujoco tensorflow reinforcement learning neural network
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Provides-Extra: gym
+Provides-Extra: atari
+Provides-Extra: mujoco
