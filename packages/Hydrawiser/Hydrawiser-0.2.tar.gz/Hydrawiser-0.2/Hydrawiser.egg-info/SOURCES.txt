@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Hydrawiser.egg-info/PKG-INFO
+Hydrawiser.egg-info/SOURCES.txt
+Hydrawiser.egg-info/dependency_links.txt
+Hydrawiser.egg-info/requires.txt
+Hydrawiser.egg-info/top_level.txt
+hydrawiser/__init__.py
+hydrawiser/core.py
+hydrawiser/helpers.py
