@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: toggl-to-redmine
+Version: 1.0.0
+Summary: Easily import time entries from Toggl to Redmine
+Home-page: https://github.com/eduardocanellas/toggl-to-redmine
+Author: Eduardo Canellas
+Author-email: eduardocanellas@id.uff.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Toggl to Redmine
+
+Essa aplicaÃ§Ã£o Ã© um _fork_ do projeto "Automatic Toggl Import" feito pelo Rodrigo Marques. Seu intuito Ã© oferecer uma versÃ£o em linha de comando para o lanÃ§amento automatizado de horas do Toggl para o Redmine.
+
+## Arquitetura
+
+Todo o cÃ³digo fonte relacionado ao _import_ de horas foi desacoplado da plataforma na qual o usuÃ¡rio estÃ¡ interagindo.
+
+Exemplificando: o _core_ da aplicaÃ§Ã£o Ã© o `toggl_to_redmine(config)`. PorÃ©m, o _entry point_ da aplicaÃ§Ã£o Ã© feito atravÃ©s de uma subclasse de `Platform`.
+
+Dessa forma, Ã© possÃ­vel reutilizar todo o cÃ³digo com a lÃ³gica de negÃ³cios atravÃ©s de interfaces de interaÃ§Ã£o distintas facilmente. O `Platform` utilizado pode ser visto no `main.py`.
+
+## TODO
+
+* Fazer uma wiki explicando como instalar e usar
+
+
