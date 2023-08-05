@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: open-firefox-urls-chrome
+Version: 0.1.2
+Summary: Utility to get URLs currently open in Firefox and open them in Chrome
+Home-page: https://github.com/robmcelhinney/open-firefox-urls-chrome
+Author: Robert McElhinney
+Author-email: robmcelhinney@hotmail.com
+License: MIT
+Download-URL: https://github.com/robmcelhinney/open-firefox-urls-chrome/archive/0.1.2.tar.gz
+Description: # open-firefox-urls-chrome
+        
+        Utility to get URLs currently open in Firefox and open them in Chrome
+        
+        
+        ## Install
+            pip3 install open-firefox-urls-chrome
+            
+            
+        ## Using from command line
+            open-firefox-urls-chrome
+        
+        ## Credit
+        Python for getting firefox urls taken from https://github.com/luismsgomes/get-firefox-urls
+        
+        
+        ## License
+        This software is licensed under the MIT license.
+        https://opensource.org/licenses/MIT
+        
+Keywords: firefox chrome util commandline
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

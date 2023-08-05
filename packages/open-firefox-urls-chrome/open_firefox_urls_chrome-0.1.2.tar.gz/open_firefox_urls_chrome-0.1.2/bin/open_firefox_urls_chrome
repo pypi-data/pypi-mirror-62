@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import open_firefox_urls_chrome
+open_firefox_urls_chrome.main()
