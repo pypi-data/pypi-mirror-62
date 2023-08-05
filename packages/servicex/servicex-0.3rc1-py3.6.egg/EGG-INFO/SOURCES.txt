@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/servicex/__init__.py
+src/servicex/servicex.py
+src/servicex.egg-info/PKG-INFO
+src/servicex.egg-info/SOURCES.txt
+src/servicex.egg-info/dependency_links.txt
+src/servicex.egg-info/entry_points.txt
+src/servicex.egg-info/requires.txt
+src/servicex.egg-info/top_level.txt
