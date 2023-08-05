@@ -1,0 +1,9 @@
+README.md
+setup.py
+trials/__init__.py
+trials/buildspec.py
+trials/createdefine.py
+trials.egg-info/PKG-INFO
+trials.egg-info/SOURCES.txt
+trials.egg-info/dependency_links.txt
+trials.egg-info/top_level.txt

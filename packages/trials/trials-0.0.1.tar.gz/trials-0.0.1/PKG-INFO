@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: trials
+Version: 0.0.1
+Summary: A Package designed to create a regulatory compliant define.XML document
+Home-page: https://github.com/kevinjacksonm/trials
+Author: Kevin Miller & Larry Sleeper
+Author-email: kevinjacksonmiller@gmail.com
+License: UNKNOWN
+Description: # Trials Define XML Package
+        
+        Package to utilize a meta-data driven spec to create regulatory compliant
+        define.XML. Can be used as function or as command line tool. Visit 
+        https://github.com/kevinjacksonm/trials for full readme and examples. 
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
