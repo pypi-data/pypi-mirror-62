@@ -1,0 +1,17 @@
+multidet/__init__.py,sha256=OoyXxonq5tWYyfhPOYE66kEC_w3rPzTfQGMBB-nR9B0,58
+multidet/data/__init__.py,sha256=rKuo1q7uHoTu8c4ABi3SgR_4VA2-x2PgVQIKgDP7htg,98
+multidet/data/genRecordIO.py,sha256=xNxkxsY5TCBgmSIlgKl0eog49E8dyWK41j-ugx4IOYc,6831
+multidet/data/loadimg.py,sha256=HDI_QkYwuOVGSXle0mX3DmTky9GfY8jT2il2c-t8fHo,7011
+multidet/model/__init__.py,sha256=uCj7VFpbwcTI59czwHru-R0OZQt-HlZp4A5SItozSFQ,130
+multidet/model/box.py,sha256=UD7-k26KAp7IDzY-ZZD7875eAj2JBnuE2dBidqW8vxc,19959
+multidet/model/box_np.py,sha256=6Ght56tDyHvpfgCdnZHC19wwScm1zS1aj3Pakyo0wXg,17618
+multidet/model/ssd_net.py,sha256=0tP01ezWlWLztPM_I8RmEVVw9AoRhgdoB32YpGCGzko,4850
+multidet/model/vgg_base.py,sha256=GB1RRYZPzVT2QvWeVvGNMVcXKVVy3K2NQBYn1pRsL9A,5152
+multidet/utils/__init__.py,sha256=wBviYTh1mQ-rBPgxxHd5atvuLisb1WsgxgXrtTxJOSA,40
+multidet/utils/train.py,sha256=upK-m24IBMkuDFy6-qnHhi0wdaivO5Pt2x2kuEUKtAY,9525
+multidet/utils/utils.py,sha256=mcqaqQQECV6dExKq-qELZdDhgXzkErhdskUGeQMb5q4,306
+multidet-0.0.84.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+multidet-0.0.84.dist-info/METADATA,sha256=oPcFWZQUGEduBDJb7sKWuj7Hsqvv8SyfGBA6RVBQFao,466
+multidet-0.0.84.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+multidet-0.0.84.dist-info/top_level.txt,sha256=jDc7yZeFeqCLKHjq4YtE5kHGeqRwDhJCoOrb4um-_ds,9
+multidet-0.0.84.dist-info/RECORD,,
