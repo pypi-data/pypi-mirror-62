@@ -1,0 +1,10 @@
+flashgeotext/__init__.py,sha256=5V8UYuXsFwDcAPXlropfCAVamgixzy8_5jE1OOXO2fA,96
+flashgeotext/geotext.py,sha256=K-G5-QrAom5DwL4Z2dZMgZmD6Plo89XcdsGuuEZWCXk,4420
+flashgeotext/lookup.py,sha256=E0naHqcCDfPHX1y3FtcktWrtrGfWcrf0cj4G_ZFbKUE,6292
+flashgeotext/settings.py,sha256=2jTzypC6g09pfvB2Ivjs1l33hFkIKoHIZS-qGcaVtYU,234
+flashgeotext/resources/cities.json,sha256=LUGHpVizuCKVTc4X24atCsybFSklZMwtpVqj_rLv7Rg,1503911
+flashgeotext/resources/countries.json,sha256=VYtArpT3rad3vspjpCRsxY-7M6NRZyqvFe0IHiDr4Uk,17030
+flashgeotext-0.1.0.dist-info/LICENSE,sha256=-Z5ZBuMQC2cA404GFcsET3UlaU_z87YrVRH4kJRGbLI,1060
+flashgeotext-0.1.0.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+flashgeotext-0.1.0.dist-info/METADATA,sha256=yWu9MetZTvY_ExlxMoP_T0QAuPaZOlHuQsWVLkZJFVU,4236
+flashgeotext-0.1.0.dist-info/RECORD,,
