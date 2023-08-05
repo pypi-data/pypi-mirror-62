@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: sequoia-client-sdk-async
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/pikselpalette/sequoia-python-client-sdk-async
+License: GPL-3.0+
+Keywords: piksel,sequoia,client,sdk,asyncio
+Author: José Antonio Perdiguero López
+Author-email: perdy@perdy.io
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: httpx (>=0.11.1,<0.12.0)
+Requires-Dist: isodate (>=0.6.0,<0.7.0)
+Project-URL: Repository, https://github.com/pikselpalette/sequoia-python-client-sdk-async
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://piksel.com/product/piksel-palette/"><img src="https://pikselgroup.com/broadcast/wp-content/uploads/sites/3/2017/09/P-P.png" alt='Piksel Palette'></a>
+</p>
+
+
+# Sequoia Client SDK Async
+
+Python asyncio based SDK for interacting with Piksel Palette services, providing a high level interface to ease the 
+development of different pieces on top of this ecosystem.
+
+Among other characteristics it provides the following:
+
+* **Authentication** flow integrated and transparent.
+* **Async** requests based on `asyncio` engine providing a high throughput.
+* **Discovery** for Sequoia services, API resources and methods.
+* **Lazy loading** to avoid use and discover not needed elements.
+* **Pagination** automatically handled using continue-based pagination. It's completely transparent to client users.
+
+## Requirements
+
+* [Python] 3.6+
+
+## Installation
+
+```console
+$ pip install sequoia-client-sdk-async
+```
+
+## Example
+
+```python
+```
+
+[Python]: https://www.python.org
+
