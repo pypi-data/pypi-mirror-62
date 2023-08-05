@@ -1,0 +1,13 @@
+setup.py
+commands/__init__.py
+commands/network.py
+commands/server.py
+commands/translate.py
+commands/weather.py
+sxysp.egg-info/PKG-INFO
+sxysp.egg-info/SOURCES.txt
+sxysp.egg-info/dependency_links.txt
+sxysp.egg-info/entry_points.txt
+sxysp.egg-info/requires.txt
+sxysp.egg-info/top_level.txt
+sxysp.egg-info/zip-safe
