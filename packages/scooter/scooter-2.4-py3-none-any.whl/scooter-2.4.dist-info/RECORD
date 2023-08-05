@@ -1,0 +1,10 @@
+scooter/__init__.py,sha256=cHy7PBKF8iLTVMXeXFy13N0F6Ts2ZRXlI7cBEyxSNVI,60
+scooter/build_script.py,sha256=k3d6JDO2P_d6M9nxgBE0p--ASycyNGIZKRI_EJlXYJs,2061
+scooter/gcc.py,sha256=yNGBbFT3jI_jftbOlAi2n_aM27vXTo-pb744CEhZ_ro,1452
+scooter/llvm.py,sha256=g-9TRwD3gD1uxm8iWZDBNRTvDm0Y6C_leZElxgE0YR4,1419
+scooter/remote_vs.py,sha256=GYrRAwynUEBo1jsOawt_SaSk4acWhbNoA6UVXwdCpms,890
+scooter/scooter.py,sha256=knJ3UV18a3MtKaiBVnLJzsP15yBKaoSWcBuOaL3PT90,11798
+scooter-2.4.dist-info/METADATA,sha256=IkwmJfEfWG1LWLCybEn_P3ME-5xXGnpQvnhUWvk9ccA,256
+scooter-2.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+scooter-2.4.dist-info/top_level.txt,sha256=QS0Cuy9ip26-HReYGp3LJSgn_65evjAc7nQKlM_nsgU,8
+scooter-2.4.dist-info/RECORD,,
