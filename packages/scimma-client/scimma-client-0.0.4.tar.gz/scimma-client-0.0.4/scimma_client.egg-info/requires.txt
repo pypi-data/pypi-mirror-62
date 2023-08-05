@@ -1,0 +1,13 @@
+adc>=0.0.2
+
+[dev]
+pytest
+pytest-console-scripts
+pytest-cov
+flake8
+flake8-black
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-programoutput
