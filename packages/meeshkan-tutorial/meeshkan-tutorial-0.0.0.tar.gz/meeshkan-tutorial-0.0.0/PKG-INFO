@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: meeshkan-tutorial
+Version: 0.0.0
+Summary: A tutorial for Meeshkan
+Home-page: http://github.com/meeshkan-tutorial
+Author: Mike Solomon
+Author-email: mike@meeshkan.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: meeshkan testing
+Platform: UNKNOWN
+Provides-Extra: dev
