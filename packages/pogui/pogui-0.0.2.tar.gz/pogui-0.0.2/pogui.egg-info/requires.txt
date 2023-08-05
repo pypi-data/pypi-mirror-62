@@ -1,0 +1,9 @@
+b2
+boto3
+pogcli==0.1.3
+pywebview
+pyyaml
+
+[qt]
+PyQt5
+PyQtWebEngine
