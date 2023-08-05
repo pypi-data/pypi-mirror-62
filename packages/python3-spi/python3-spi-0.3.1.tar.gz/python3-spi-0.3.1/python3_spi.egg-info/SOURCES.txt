@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+spi.py
+python3_spi.egg-info/PKG-INFO
+python3_spi.egg-info/SOURCES.txt
+python3_spi.egg-info/dependency_links.txt
+python3_spi.egg-info/top_level.txt
