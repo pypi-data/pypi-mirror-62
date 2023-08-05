@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: sphinx-typo3-theme
+Version: 4.1.0
+Summary: Sphinx TYPO3 theme for docs.typo3.org, restarting 2020.
+Home-page: https://github.com/TYPO3-Documentation/sphinx_typo3_theme
+Author: Martin Bless
+Author-email: martin.bless@mbless.de
+License: MIT license
+Platform: UNKNOWN
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Description-Content-Type: text/x-rst
+
+
+========
+Overview
+========
+
+Sphinx TYPO3 theme for docs.typo3.org
+=====================================
+
+
+Sphinx TYPO3 theme contains all files required to build a Sphinx extension that
+provides the theme.
+
+* Maintainer: Martin Bless <martin.bless@mbless.de>
+* Provided by the TYPO3 documentation team.
+* Free software: MIT license
+* Documentation: See docs/ folder
+* Authors: See AUTHORS.rst
+
+Credits
+-------
+
+`Benjamin Kott`_ has created this theme from scratch without dependencies
+to Sphinx themes or the `ReadTheDocs theme`_. Thanks a lot, great work!
+
+The ancestor of this package is `t3SphinxThemeRtd`_ which had been developed
+by `Martin Bless`_ as a derivative of the ReadTheDocs theme.
+
+.. _Benjamin Kott: benjamin.kott@outlook.com
+.. _Martin Bless: martin.bless@mbless.de
+.. _ReadTheDocs theme: https://github.com/readthedocs/sphinx_rtd_theme
+.. _t3SphinxThemeRtd: https://github.com/typo3-documentation/t3SphinxThemeRtd
+
+Releasing
+---------
+Make sure to specify all three numbers as in 'v99.88.77'.
+
+
+=======
+History
+=======
+
+4.1.0 (2020-02-24)
+==================
+
+"Let's start" release
+
+* Elaborate workflow
+* Add Makefile
+* Add Python unit test
+* Add docs
+* Deploy docs to Github pages
+* Tune setup.py and 'version from repo' procedure
+
+
+
+0.1.0 (2020-01-01)
+==================
+
+*  Starting development.
+
+
