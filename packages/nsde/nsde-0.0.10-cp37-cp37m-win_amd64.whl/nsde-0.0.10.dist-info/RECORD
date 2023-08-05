@@ -1,0 +1,11 @@
+nsde/__init__.py,sha256=PLzuLaQpjfwJF2GtZQVNcpBmSGct19t_pfOLcCcupAM,234
+nsde/evolution_strategy.py,sha256=ZDclFIxwtvUSNd9TmRqM7Rg9OWUEN1Y7RYVcOKFGP-s,9914
+nsde/hv.cp37-win_amd64.pyd,sha256=weO3M6KkFB8n9K92uv9KsnORPk3iL7aBc8VLxjnOmGY,100352
+nsde/nsde.py,sha256=ztePXNH-ia0uvma-xr39wzhnXWKozm0QnzU9QA72BDA,21104
+nsde/openmdao.py,sha256=JfJBV5iIaE7Z_htc-JvTdfsUDtigJXXHwCu7fZvzdUE,16871
+nsde/sorting.cp37-win_amd64.pyd,sha256=Ifh51MO0gU0xC4PHVhZ-pihbcEr5SLIPLlfhCHMGYKc,116736
+nsde-0.0.10.dist-info/LICENSE.txt,sha256=IEvr1Oo81XoGwKTI52SsP3aMuKXw2mL62oWDDCXAJpA,1071
+nsde-0.0.10.dist-info/METADATA,sha256=c3rTmvhM_8QPONt5BjEnB_SCIGcitAUetbu7AFCpChM,5496
+nsde-0.0.10.dist-info/WHEEL,sha256=uaZe_9gV-4T_d4AskuIQkCgcY8wMc0UXsVFnf0_mBGs,106
+nsde-0.0.10.dist-info/top_level.txt,sha256=0A-uymQhpZC804KrILoRtXsZ3vbR7TWSgcW2AR-1jHk,5
+nsde-0.0.10.dist-info/RECORD,,
