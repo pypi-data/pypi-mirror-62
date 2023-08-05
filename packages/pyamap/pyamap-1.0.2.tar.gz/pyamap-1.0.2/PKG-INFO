@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyamap
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: http://xlvecle.github.io/pyamap
+Author: xlvecle
+Author-email: xlvecle@xlvecle.com
+License: UNKNOWN
+Description: ## pyamap
+        ---
+        
+        pyamap旨在提供一个可以在notebook中方便绘制简单地理信息的python库，功能简单，易于使用
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
