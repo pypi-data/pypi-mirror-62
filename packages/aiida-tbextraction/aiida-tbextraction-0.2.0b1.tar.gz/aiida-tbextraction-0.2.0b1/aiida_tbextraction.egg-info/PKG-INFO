@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aiida-tbextraction
+Version: 0.2.0b1
+Summary: AiiDA Plugin for extracting tight-binding models
+Home-page: https://aiida-tbextraction.readthedocs.io
+Author: Dominik Gresch
+Author-email: greschd@gmx.ch
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: tight-binding extraction aiida workflows
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Framework :: AiiDA
+Requires-Python: >=3.6
+Provides-Extra: testing
+Provides-Extra: docs
+Provides-Extra: dev_precommit
+Provides-Extra: strain
+Provides-Extra: qe
+Provides-Extra: dev
