@@ -1,0 +1,15 @@
+mirai/__init__.py,sha256=BmqzNK9fWg7_afCcnZMKy6QuYgM33eHBBPalNyegm7I,416
+mirai/exceptions.py,sha256=-mUlDXNV7rSUSfFEENI_fQ_Adw1XWUXlX-QPHrQy2_8,40
+mirai/face.py,sha256=YPhSkyDnWb1xgg1JXxgwFBtTapOxEdWtezOzUzmCaQs,2756
+mirai/friend.py,sha256=GHlK9tqAU_3BvGfiWxD9-UgjGS8oLJAEY0lFAOpByyw,299
+mirai/group.py,sha256=GYNj693OOm_nhqK3yQzd_i5xm7eSrfNhai38ORYR31A,1390
+mirai/logger.py,sha256=CLKNq06ZnUyj9z6CXev7PNCGjDPJ-rgNAHQybiwPhAQ,335
+mirai/misc.py,sha256=YOJy1RXnJKcqFuSIweHSk1qtCurc0d0CDWmh9dFtWXo,1918
+mirai/network.py,sha256=wJYKWSMkq78RDnLRxjw0plzs--QmYQTsVwykr9FaAmM,2718
+mirai/protocol.py,sha256=0igEFwvFPAogv6lKOQeBIO2ezCj6uV5GaxY2lRXel48,13164
+mirai/session.py,sha256=UTtFxNBc6MujWrTpGGzf9fsuEWOk75JSOmus4iRJXE4,12937
+kuriyama-0.1.0.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+kuriyama-0.1.0.dist-info/METADATA,sha256=jN0zH3Yi1eSBM2Fo9K9bcK0LzNI0dj8xlfl2dRAaCiM,2338
+kuriyama-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+kuriyama-0.1.0.dist-info/top_level.txt,sha256=VCtkw23aBGQojW2q16YXyjJjpJKEI-szR_4Dw0OelWM,6
+kuriyama-0.1.0.dist-info/RECORD,,
