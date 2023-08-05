@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: endpoint-api-client
+Version: 0.0.2
+Summary: This module implements API-client to storage-endpoint
+Home-page: https://github.com/galavasteg/api_client
+Author: Artem Shakurov
+Author-email: galavasteg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.23.0)
+
+# endpoint-api-client
+
+All commands have to be run in project root directory:
+
+cd banks_storage/
+
+## Installation
+
+pip install endpoint-api-client
+
+
+## Usage
+from client import StorageAPI
+
+your_api_url_endpoint = 'http://something.com/collection/'
+
+headers = {\*\*StorageAPI.DEFAULT_HEADERS, 'foo': 'bar',}  \# optional
+
+storage_client = StorageAPI(your_api_url_endpoint, headers)
+
+#### GET
+\# Methods returns "requests.Response" instances
+
+get_response = storage_client.get_documents()
+
+
+#### POST
+your_document = {'field': 1, 'another_field': \['baz', 'bar',\]}
+
+post_response = storage_client.post_document(some_doc)
+
+
+
