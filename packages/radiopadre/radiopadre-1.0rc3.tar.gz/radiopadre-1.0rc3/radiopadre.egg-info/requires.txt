@@ -1,0 +1,11 @@
+APLpy
+astropy
+ipython
+jupyter
+notebook
+matplotlib
+pillow
+python-casacore
+
+[casacore]
+python-casacore
