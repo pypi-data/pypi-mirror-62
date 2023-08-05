@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: zen-quotes
+Version: 1.1.2
+Summary: A sample lib Zen of Python
+Home-page: https://github.com/ymussi/zen_quotes
+Author: Yuri Mussi
+Author-email: ymussi@gmail.com
+License: BSD
+Keywords: Mussi
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# zen_quotes
+
+A simple library that returns the Zen of Python quotes.
+
+- Installation
+
+    pip install zen_quotes
+
+- Usage
+```
+# import lib 
+from zen_quotes.quote import Quotes
+```
+
+```
+# That will return you all quotes in English.
+Quotes().get_quotes()
+```
+
+```
+# Altogether there are 19 quotations, but if you need only one quotation, 
+# then pass the quotation position number on the list.
+
+Quotes().get_quotes(quote=2) # this will return you the second quote on the list in English.
+
+Quotes().get_quotes(lang='pt', quote=2) # this will return you the second quote on the list in Portuguese.
+
+```
+
+- This lib searches the project data: https://github.com/ymussi/zen_of_python
+
+# TODO
+
+- [] add other languages
+
