@@ -1,0 +1,11 @@
+parameters:
+  loggerbundle:
+    messageFormat': '%(asctime)s %(levelname)s - %(message)s'
+    dateFormat': '%H:%M:%S'
+    defaultLogLevel: 20 # INFO
+
+services:
+  loggerbundle.LoggerFactory:
+    arguments:
+      - '%loggerbundle.defaultLogLevel%'
+      - !tagged loghandler.factory
