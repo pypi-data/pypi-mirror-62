@@ -1,0 +1,7 @@
+README.md
+setup.py
+wto.egg-info/PKG-INFO
+wto.egg-info/SOURCES.txt
+wto.egg-info/dependency_links.txt
+wto.egg-info/requires.txt
+wto.egg-info/top_level.txt
