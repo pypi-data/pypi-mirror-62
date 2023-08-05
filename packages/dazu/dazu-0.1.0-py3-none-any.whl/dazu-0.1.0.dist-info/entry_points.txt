@@ -1,0 +1,3 @@
+[console_scripts]
+dazu = dazu.__main__:main
+
