@@ -1,0 +1,8 @@
+README.md
+deliverymethod.py
+setup.cfg
+setup.py
+deliverymethod.egg-info/PKG-INFO
+deliverymethod.egg-info/SOURCES.txt
+deliverymethod.egg-info/dependency_links.txt
+deliverymethod.egg-info/top_level.txt
