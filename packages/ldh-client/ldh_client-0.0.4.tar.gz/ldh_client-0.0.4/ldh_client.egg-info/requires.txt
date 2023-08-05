@@ -1,0 +1,4 @@
+click<=7.0
+PyGObject<=3.32.0
+requests<=2.21.0
+sh<=1.12.14
