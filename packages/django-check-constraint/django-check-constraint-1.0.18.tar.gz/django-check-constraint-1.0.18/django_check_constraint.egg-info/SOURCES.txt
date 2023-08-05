@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+manage.py
+requirements.txt
+setup.cfg
+setup.py
+check_constraint/__init__.py
+check_constraint/apps.py
+check_constraint/models.py
+django_check_constraint.egg-info/PKG-INFO
+django_check_constraint.egg-info/SOURCES.txt
+django_check_constraint.egg-info/dependency_links.txt
+django_check_constraint.egg-info/requires.txt
+django_check_constraint.egg-info/top_level.txt
