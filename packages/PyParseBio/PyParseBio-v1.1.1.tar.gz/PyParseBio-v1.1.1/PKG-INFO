@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: PyParseBio
+Version: v1.1.1
+Summary: Pure-python parralelizable parsing of biological multipoint images
+Home-page: https://github.com/WMAPernice/PyParseBio
+Author: Wolfgang Pernice
+Author-email: wolfgang.pernice@gmail.com
+License: apache-2.0
+Download-URL: https://github.com/WMAPernice/PyParseBio/archive/v1.1.1.tar.gz
+Description: UNKNOWN
+Keywords: Biology,Microscopy,Images,Python,Parallel
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
