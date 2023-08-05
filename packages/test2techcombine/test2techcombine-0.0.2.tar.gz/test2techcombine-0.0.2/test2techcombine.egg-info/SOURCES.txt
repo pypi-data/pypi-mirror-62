@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+techcombine/__init__.py
+techcombine/utils/__init__.py
+techcombine/utils/slug.py
+test2techcombine.egg-info/PKG-INFO
+test2techcombine.egg-info/SOURCES.txt
+test2techcombine.egg-info/dependency_links.txt
+test2techcombine.egg-info/requires.txt
+test2techcombine.egg-info/top_level.txt
