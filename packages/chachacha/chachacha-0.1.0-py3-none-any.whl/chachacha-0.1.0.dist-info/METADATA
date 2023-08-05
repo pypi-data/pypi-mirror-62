@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: chachacha
+Version: 0.1.0
+Summary: Chachacha changes changelogs.
+Home-page: https://github.com/aogier/chachacha
+Author: Alessandro Ogier
+Author-email: alessandro.ogier@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (==7.0)
+Requires-Dist: jinja2 (==2.11.1)
+Requires-Dist: keepachangelog (==0.2.0)
+Requires-Dist: markupsafe (==1.1.1)
+Requires-Dist: semver (==2.9.1)
+
+# CHACHACHA
+
+Chachacha changes changelogs.
+

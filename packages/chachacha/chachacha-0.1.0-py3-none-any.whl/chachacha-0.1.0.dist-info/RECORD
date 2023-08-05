@@ -1,0 +1,9 @@
+chachacha/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+chachacha/main.py,sha256=PdB5LoX9DRi0DbCOYVMe72Q9xlUzUqbp2zzgjTSIczM,2580
+chachacha/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chachacha/drivers/kac.py,sha256=elNWs75qCgS_TPaOdR_Xjh-ynE6gVKQHuUD7akREcjI,3306
+chachacha-0.1.0.dist-info/METADATA,sha256=zIUjYg9gRV39zm7b08qvG9KaMaeMXg1lOiSlRleXNG4,933
+chachacha-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chachacha-0.1.0.dist-info/entry_points.txt,sha256=f3D6QlLo-m8o14vV0G_KgGtPFeKNX2BbETxtvtrUK90,51
+chachacha-0.1.0.dist-info/top_level.txt,sha256=TCDxEC1fwaKRviMb8DQ74XepUHyI3PtDNc1Sc_XSZ4Y,28
+chachacha-0.1.0.dist-info/RECORD,,
