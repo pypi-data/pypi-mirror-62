@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dicom_parser
+Version: 0.1.0
+Summary: DICOM files parser meant to facilitate data access.
+Home-page: https://github.com/ZviBaratz/dicom_parser
+Author: Zvi Baratz
+Author-email: baratzz@pm.me
+License: AGPLv3
+Description: [![PyPI version](https://img.shields.io/pypi/v/dicom_parser.svg)](https://pypi.python.org/pypi/pylabber/)
+        [![PyPI status](https://img.shields.io/pypi/status/dicom_parser.svg)](https://pypi.python.org/pypi/pylabber/)
+        ![Coverage](coverage.svg)
+        
+        # dicom_parser
+        
+        *dicom_parser* is a utility python package meant to facilitate access to
+        [DICOM](https://www.dicomstandard.org/) header information by extending the functionality of
+        [pydicom](https://github.com/pydicom/pydicom).
+        
+        Essentially, *dicom_parser* uses [DICOM](https://www.dicomstandard.org/)'s
+        [data-element](https://northstar-www.dartmouth.edu/doc/idl/html_6.2/DICOM_Attributes.html)
+        [value-representation (VR)](http://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_6.2.html),
+        as well as prior knowledge on vendor-specific private tags or encoding schemes,
+        in order to transform them to more "pythonic" data structures when possible.
+        
+Keywords: dicom dcm mri neuroimaging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
