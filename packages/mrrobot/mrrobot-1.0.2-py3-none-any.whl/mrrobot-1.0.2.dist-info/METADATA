@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mrrobot
+Version: 1.0.2
+Summary: Just another robot to automate the hacking process
+Home-page: https://fsundays.tech/
+Author: Kike Fontan (@CosasDePuma)
+Author-email: kikefontanlorenzo@gmail.com
+License: GPL-3.0
+Project-URL: Bug Tracker, https://www.github.com/cosasdepuma/mrrobot/issues
+Project-URL: Documentation, https://www.github.com/cosasdepuma/mrrobot
+Project-URL: Source Code, https://www.github.com/cosasdepuma/mrrobot
+Requires-Dist: Pillow (==7.0.0)
+
+<h1 align="center">
+
+
