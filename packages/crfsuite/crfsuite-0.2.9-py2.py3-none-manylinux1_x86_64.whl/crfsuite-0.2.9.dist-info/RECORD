@@ -1,0 +1,11 @@
+crfsuite/_native__ffi.py,sha256=GBe0mVkrTNDDZKIq9QJAqtlFTPHfWG_6diONhvriJ34,3990
+crfsuite/_compat.py,sha256=vf9V7ytWKUB3HTkKaoREj2ZfpOzWuwByuX3Wom1p8VU,565
+crfsuite/utils.py,sha256=oN7ugb9mRTKWEufPiZlXlfx-lO7JjN3zKEPiVjIVZ8c,1233
+crfsuite/_native.py,sha256=qkn4nWY0LdYJzOb745ozUTe7EqxnUGoPbY3uP1kb11c,187
+crfsuite/_native__lib.so,sha256=UqXTQexij3I2hUahFEYB8TcHpAIBwx4metXyGwdWfJU,2938217
+crfsuite/exceptions.py,sha256=K_npDc7OxD9No2KBD4x-2VKya1H5jl1bxrSMesKIc34,885
+crfsuite/__init__.py,sha256=Od8RS_fjZ1rVYlWRlhwWfU4O-Qq_8EAGHu3kSvNbcZI,7275
+crfsuite-0.2.9.dist-info/METADATA,sha256=ipx1llpqcxw4n7iU7tGNwkSG_x1aT7vcMUOv4xqy4hc,1636
+crfsuite-0.2.9.dist-info/RECORD,,
+crfsuite-0.2.9.dist-info/WHEEL,sha256=4Z4P3jvvB_GsW6prrjvbCLYq3w4iJlh-7c58kmot9Eo,139
+crfsuite-0.2.9.dist-info/top_level.txt,sha256=uNo8OXm0pS3xkxthgEi0Ys_rQU6bubU5ddvcJgc2N50,9
