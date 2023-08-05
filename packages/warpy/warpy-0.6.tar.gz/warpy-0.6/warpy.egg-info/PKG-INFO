@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: warpy
+Version: 0.6
+Summary: A simple cli to get WARP+ as WireGuard configuration
+Home-page: https://github.com/warp-plus/warpy-python
+Author: Arian Amiramjadi
+Author-email: me@arian.lol
+License: gpl
+Download-URL: https://github.com/warp-plus/warpy-python/archive/v_05.tar.gz
+Description: UNKNOWN
+Keywords: warpy,warp+,warp-plus,warp wireguard
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
