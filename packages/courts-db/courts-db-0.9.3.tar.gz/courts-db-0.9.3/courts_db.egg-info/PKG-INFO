@@ -1,0 +1,55 @@
+Metadata-Version: 1.2
+Name: courts-db
+Version: 0.9.3
+Summary: Database of Courts
+Home-page: https://github.com/freelawproject/courts-db
+Author: Free Law Project
+Author-email: info@free.law
+Maintainer: Free Law Project
+Maintainer-email: info@free.law
+License: BSD
+Description: Usage
+        ==========
+        
+        
+        Deployment
+        ==========
+        
+        If you wish to create a new version manually, the process is:
+        
+        1. Update version info in ``setup.py``
+        
+        2. Install the requirements in requirements_dev.txt
+        
+        3. Set up a config file at ~/.pypirc
+        
+        4. Generate a universal distribution that worksin py2 and py3 (see setup.cfg)
+        
+            ::
+        
+                python setup.py sdist bdist_wheel
+        
+        5. Upload the distributions
+        
+            ::
+        
+                twine upload dist/* -r pypi (or pypitest)
+        
+        
+        
+Keywords: legal,courts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
