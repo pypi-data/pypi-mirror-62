@@ -1,0 +1,4 @@
+blessings==1.7
+intercessions==1.1.6
+PyYAML==3.13
+psutil==5.7.0
