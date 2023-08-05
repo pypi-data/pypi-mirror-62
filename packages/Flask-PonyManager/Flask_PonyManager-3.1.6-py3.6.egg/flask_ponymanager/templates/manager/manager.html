@@ -1,0 +1,21 @@
+{% extends 'manager/base.html' %}
+
+{% block content %}
+<article>
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <ul class="list-group">
+                {% for name, view in manager.views.items() %}
+                {% if view.is_visible %}
+                <li class="list-group-item{% if view.is_manager %} active{% endif %}">
+                    <a class="{% if view.is_manager %}text-light{% endif %}" href="{{ url_for(view.endpoint) }}">
+                        {{ name }}
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</article>
+{% endblock %}
