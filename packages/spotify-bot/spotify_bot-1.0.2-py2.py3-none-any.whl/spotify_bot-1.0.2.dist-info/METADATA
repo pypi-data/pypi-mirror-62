@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: spotify-bot
+Version: 1.0.2
+Summary: A twitch bot which can control your spotify account
+Home-page: https://github.com/Nzxtime/spotify-bot
+Author: Nzxtime
+Author-email: marcel.streicher58@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: spotipy
+Requires-Dist: twitchio
+
+A twitch bot which can control your spotify account. It can queue songs to a specific playlist, skip songs on request, return your current song and many more.
+
+
