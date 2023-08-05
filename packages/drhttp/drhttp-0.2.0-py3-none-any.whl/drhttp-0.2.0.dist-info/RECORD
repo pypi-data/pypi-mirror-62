@@ -1,0 +1,12 @@
+drhttp/__init__.py,sha256=wGrOQp4ElUo5ZmIjRwUCGOQU4_BJJIk7G_nWPOpQNyw,403
+drhttp/client.py,sha256=glKxkXTtoEdSgb4ZQWwHc7Eln0ExW1V0jr-et59Ez9M,2144
+drhttp/defines.py,sha256=Y2rjHzsno838Ph8saOi_1QCbx9v4UGoJ7MX8dYJ3Aqs,78
+drhttp/middleware.py,sha256=q4LyY-XEqgQ6AhEtKUWoo3Zw2ryHD0sErfr0UMPN8Ko,484
+drhttp/proxies.py,sha256=-d-2_RzYGLhTmwAUu6TeRbsU6l3247QP6SGe9lREafY,2017
+drhttp/utils.py,sha256=SwesfpGYqtFVA2fqy1QacKiW0r8Wv1No51fK2ZbYt3w,1253
+drhttp/wsgi.py,sha256=gIy6u5jRZC5dMZED67nZw4AFDO1tZAiHrAios-q9aPM,3484
+drhttp-0.2.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+drhttp-0.2.0.dist-info/METADATA,sha256=PW1-JkJUCqJGHgD2slWBtMlpKliTZydzIM8f2_JC39c,4390
+drhttp-0.2.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+drhttp-0.2.0.dist-info/top_level.txt,sha256=kSxquZpBXIdcx8nLLeB8Im1DPe2ywdp6VQKW1c2OTWU,7
+drhttp-0.2.0.dist-info/RECORD,,
