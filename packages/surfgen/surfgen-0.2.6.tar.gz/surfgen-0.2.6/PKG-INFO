@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: surfgen
+Version: 0.2.6
+Summary: Tools for creating slab models
+Home-page: UNKNOWN
+Author: Zheng-Da He
+Author-email: z.he@fz-juelich.de, jameshzd@mail.ustc.edu.cn, zhengdahe.electrocatalysis@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: ase
+Requires: pymatgen
