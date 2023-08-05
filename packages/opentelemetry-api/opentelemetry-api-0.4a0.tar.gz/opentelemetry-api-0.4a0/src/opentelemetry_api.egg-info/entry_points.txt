@@ -1,0 +1,4 @@
+[opentelemetry_context]
+contextvars_context = opentelemetry.context.contextvars_context:ContextVarsRuntimeContext
+threadlocal_context = opentelemetry.context.threadlocal_context:ThreadLocalRuntimeContext
+
