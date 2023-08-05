@@ -1,0 +1,7 @@
+include dash_lazylog/dash_lazylog.min.js
+include dash_lazylog/dash_lazylog.min.js.map
+include dash_lazylog/metadata.json
+include dash_lazylog/package-info.json
+include README.md
+include LICENSE
+include package.json

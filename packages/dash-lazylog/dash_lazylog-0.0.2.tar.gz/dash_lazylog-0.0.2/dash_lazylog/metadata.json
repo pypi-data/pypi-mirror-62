@@ -1,0 +1,23 @@
+{
+  "src/lib/components/DashLazylog.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashLazylog",
+    "methods": [],
+    "props": {
+      "props": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Properties to pass onto react-lazylog. See:\nhttps://mozilla-frontend-infra.github.io/react-lazylog/"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
