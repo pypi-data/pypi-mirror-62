@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: EzOpcuaServer
+Version: 0.1
+Summary: ...
+Home-page: UNKNOWN
+Author: Craig Hickman
+Author-email: craig.hickman@ukaea.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+EzOpcuaServer/__init__.py
+EzOpcuaServer.egg-info/PKG-INFO
+EzOpcuaServer.egg-info/SOURCES.txt
+EzOpcuaServer.egg-info/dependency_links.txt
+EzOpcuaServer.egg-info/requires.txt
+EzOpcuaServer.egg-info/top_level.txt
