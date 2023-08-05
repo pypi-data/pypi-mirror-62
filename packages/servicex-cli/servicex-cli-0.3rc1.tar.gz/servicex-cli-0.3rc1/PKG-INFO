@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: servicex-cli
+Version: 0.3rc1
+Summary: CLI for the ServiceX Data Server
+Home-page: https://github.com/iris-hep/func_adl_xAOD
+Author: Ben Galewsky (IRIS-HEP/NCSA/University of Illinois)
+Author-email: bengal1@illinois.edu
+Maintainer: Ben Galewsky (IRIS-HEP/NCSA/University of Illinois)
+Maintainer-email: bengal1@illinois.edu
+License: bsd 3 clause
+Description: # ServiceX Command Line Tool
+        This is a tool for setting up the serviceX cluster. 
+        
+        Its only function for now is to install your grid certs and passphrase
+        securely as kubernetes secrets.
+        
+        ## Installation
+        The tool is available on pypi so...
+        ```bash
+        pip install servicex-cli
+        ```
+        
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
