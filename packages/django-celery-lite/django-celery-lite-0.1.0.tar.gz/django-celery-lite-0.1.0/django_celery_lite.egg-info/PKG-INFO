@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: django-celery-lite
+Version: 0.1.0
+Summary: A Django celery lite integration for the Django framework.
+Home-page: https://github.com/shinznatkid/django-celery-lite
+Author: Shinz Natkid
+Author-email: shinznatkid@gmail.com
+License: UNKNOWN
+Description: # Django Celery Lite - Lite version for Django Celery
+        
+        [![Downloads](https://img.shields.io/travis/shinznatkid/django-celery-lite.svg)](https://travis-ci.org/shinznatkid/django-celery-lite/)
+        [![Downloads](https://img.shields.io/pypi/dm/django-celery-lite.svg)](https://pypi.python.org/pypi/django-celery-lite/)
+        [![Downloads](https://img.shields.io/pypi/v/django-celery-lite.svg)](https://pypi.python.org/pypi/django-celery-lite/)
+        [![Downloads](https://img.shields.io/badge/license-MIT-blue.svg)](https://pypi.python.org/pypi/django-celery-lite/)
+        
+        Django Celery Lite is celery ingration Django just only command
+        
+        Test Support Django >= 2.2.x
+        
+        ## Installation
+        
+        1. Python package
+        
+                pip install django-celery-lite
+        
+        2. Add 'djcelerylite' to INSTALLED_APPS:
+        
+                'djcelerylite',
+        
+        
+        ## Usage
+        
+        | Program       | Replace with                   |
+        |---------------|--------------------------------|
+        | `celery`        | `python manage.py celery`        |
+        | `celery worker` | `python manage.py celery worker` |
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
