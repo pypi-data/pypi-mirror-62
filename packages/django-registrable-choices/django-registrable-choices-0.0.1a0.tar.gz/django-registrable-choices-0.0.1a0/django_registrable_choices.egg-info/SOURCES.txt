@@ -1,0 +1,14 @@
+README.md
+setup.py
+django_registrable_choices.egg-info/PKG-INFO
+django_registrable_choices.egg-info/SOURCES.txt
+django_registrable_choices.egg-info/dependency_links.txt
+django_registrable_choices.egg-info/top_level.txt
+registrable/__init__.py
+registrable/choices.py
+sample/__init__.py
+sample/asgi.py
+sample/manage.py
+sample/settings.py
+sample/urls.py
+sample/wsgi.py
