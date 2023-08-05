@@ -1,0 +1,3 @@
+[console_scripts]
+makepip = makepip.makepip:main
+
