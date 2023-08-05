@@ -1,0 +1,13 @@
+bcp47/__init__.py,sha256=6b0JAK4Zmryu71b1hNxyzQcpHvCjhNkI8HAPFsnT1l0,1176
+bcp47/code.py,sha256=7MmCcO5dXwJVOIA0adGL1SoPn2R0EKFzMX3sPm4vvHE,4652
+bcp47/exceptions.py,sha256=M2-h5Vhm-uyKZH1e0w6XV7mcGy4oSfWRgQxdjcwsmCM,44
+bcp47/iana-bcp47.txt,sha256=JycxhdFBRGZ-uFraPjXtKSeoU78w1SmWEhFi_zBBGVA,706182
+bcp47/parser.py,sha256=AaMOdHBl46K2e5kddhAkPZYQtao3WbrBHcAJgP0DUMo,1641
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bcp47.py,sha256=QKh0riPAdPyq5rStz9leIU_bAl5FeimVokH4-fNbhzc,4840
+tests/code.py,sha256=XqkdfYgIEdHAXGcZEV1a0bbErTRvCdZicB_V89NBjro,13665
+tests/parser.py,sha256=V8CUgvulpeYj51IXTnELReB6Zb4qof8GyF3S3pCF2vg,1436
+python_bcp47-0.0.4.dist-info/METADATA,sha256=6ghkH5UlQDf23UtirpwCLNfLkhZP9Aspau087ypnuVw,3064
+python_bcp47-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_bcp47-0.0.4.dist-info/top_level.txt,sha256=9UPlLkzkrFGO6hol89LC1dw0EyzE7DVYR7itMID9Qls,12
+python_bcp47-0.0.4.dist-info/RECORD,,
