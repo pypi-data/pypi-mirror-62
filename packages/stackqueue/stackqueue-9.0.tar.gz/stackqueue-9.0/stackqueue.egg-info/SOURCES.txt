@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+stackqueue/__init__.py
+stackqueue/q.py
+stackqueue/s.py
+stackqueue.egg-info/PKG-INFO
+stackqueue.egg-info/SOURCES.txt
+stackqueue.egg-info/dependency_links.txt
+stackqueue.egg-info/not-zip-safe
+stackqueue.egg-info/top_level.txt
