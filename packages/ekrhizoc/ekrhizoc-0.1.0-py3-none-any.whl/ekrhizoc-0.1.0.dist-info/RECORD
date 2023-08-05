@@ -1,0 +1,16 @@
+CHANGELOG.md,sha256=uPaCMz8fYAZf-lXTJsu535QJtYtFalFSxiqVthmceJQ,268
+ekrhizoc/bot/base_crawler.py,sha256=44I6zGOw8lfZ2_TGa-Ino8z-nvdiT57w8hdiYDK3wAg,5545
+ekrhizoc/bot/crawlers/__init__.py,sha256=1tBOVhmef5KwgY1jbOj6UMyxU3dkXyWUxkqbCzQVLPQ,109
+ekrhizoc/bot/crawlers/universal_bfs.py,sha256=RcwagdTv4hKnm3L8Q3RMFkKruvCyM98kzLEEjMVd0D4,6901
+ekrhizoc/bot/helpers/url_utils.py,sha256=PZty3oH4jMKUF7pBqLpmq17k79MTWOYJN92Q-3chHZc,5805
+ekrhizoc/cli/__main__.py,sha256=Qlm_GAb1oQndUA3JHTpgQF6cTwk1AeTYPUOJUc2D1HU,2882
+ekrhizoc/cli/base_command.py,sha256=tuiC2ts5tKDBW4yuQeSIpHiay3SP1LovQTZUmBliV1Y,2773
+ekrhizoc/cli/commands/__init__.py,sha256=5RG6Q1SdykL54mi-9iQ6CJDGSiMT25aX9Ef2Tp2grnM,87
+ekrhizoc/cli/commands/crawl.py,sha256=W_8NcyFCkUhbP7N0DZXGR7bPTxDqLZ5smvEPG3NdLRM,2255
+ekrhizoc/logging.py,sha256=sMXJJyF7bp6gPs_rqz6RSALdKf_YiCr6Xdmrwrs2sdI,2169
+ekrhizoc/settings.py,sha256=wuU7kHNWc49cndLJiblnX4Y83lLO5NTVKogUvh0c0XY,3025
+ekrhizoc-0.1.0.dist-info/entry_points.txt,sha256=F1n_DFa37Oe9mqDCAHxtZRYDfEkm8RZY4oEiUEigTaQ,55
+ekrhizoc-0.1.0.dist-info/LICENSE,sha256=MI3R_dFxAWEh5CiencTE6dGqLDkB4FHgoun0Tubl7aI,1070
+ekrhizoc-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ekrhizoc-0.1.0.dist-info/METADATA,sha256=GYV5qyLOoKcMD7cKqrroibOM1DakBGd1drrLTNSKWIs,6361
+ekrhizoc-0.1.0.dist-info/RECORD,,
