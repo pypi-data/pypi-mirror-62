@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: chainer-pytorch-migration
+Version: 0.0.2
+Summary: Chainer/PyTorch Migration Library
+Home-page: UNKNOWN
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test

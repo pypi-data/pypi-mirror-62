@@ -1,0 +1,6 @@
+chainer
+numpy
+torch
+
+[test]
+pytest
