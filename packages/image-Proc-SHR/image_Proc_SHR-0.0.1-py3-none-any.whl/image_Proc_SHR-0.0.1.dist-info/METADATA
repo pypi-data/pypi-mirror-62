@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: image-Proc-SHR
+Version: 0.0.1
+Summary: convolution package
+Home-page: UNKNOWN
+Author: Syed Hamza Rafique
+Author-email: hamzah_shah@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Package: image_Proc
+# Dependencies: NumPy
+# Modules: convolution 
+# convolution.convolve_new function works with n-dimentional inputs
+
