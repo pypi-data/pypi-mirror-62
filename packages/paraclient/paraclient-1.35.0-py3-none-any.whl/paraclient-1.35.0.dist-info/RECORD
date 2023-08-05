@@ -1,0 +1,12 @@
+paraclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paraclient/auth.py,sha256=gzPRB9Y_dvh0c5RIIEv5mCZfypGPIVik_RiIRnlFt1E,2045
+paraclient/constraint.py,sha256=_sLqjUKEeP2ol-rw3jFWVPdAUy6pSBdlsmVRJpkecDg,2814
+paraclient/pager.py,sha256=Dn4iZ06pejaXbONt6j6wNny8WIuQfVcf482UqYS9qOs,1302
+paraclient/paraclient.py,sha256=uMUbGoJUYp7f19b2UjtP3qxJ8kSJANDsTHBvX-toTd0,46984
+paraclient/paraobject.py,sha256=sBcvK5-p9v015K2hK006_NAbshw9y9q26NJ3evbywvY,1991
+paraclient/version.py,sha256=o_A6BCLQfjSDzTiXKFSYKYmT8IFRfcePR3hrRGruwS0,101
+paraclient-1.35.0.dist-info/LICENSE,sha256=W-UQPNrIwkldR-7aCeZnwWc8FRbmRnTf6jE0CdrcW_I,11375
+paraclient-1.35.0.dist-info/METADATA,sha256=HwvQ5QU8n71fYDJzV3w3be3krdFQrr-gKtQWzsnyp4c,962
+paraclient-1.35.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+paraclient-1.35.0.dist-info/top_level.txt,sha256=oONIeXKlA3rrrszn49yNL8TGE-3gtKjp4qn5Ys_DAqQ,11
+paraclient-1.35.0.dist-info/RECORD,,
