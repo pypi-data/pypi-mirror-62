@@ -1,0 +1,6 @@
+motion_master_proto/__init__.py,sha256=tUJXMuCc5OMArBnOm9s-jGEeafOFrkol-A9RpPTtDWI,30
+motion_master_proto/motion_master_pb2.py,sha256=gseOtqKZoDXThCwKLcVDzMz8q11KjG6ibZ8oM8ZANWM,504143
+motion_master_proto-3.1.1.dist-info/METADATA,sha256=GBC1cr1jg3GBj0rxoLOWMnWChMrY3LCm-o3I2qxMcyo,1514
+motion_master_proto-3.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+motion_master_proto-3.1.1.dist-info/top_level.txt,sha256=JZI7cPPbDjhgIM4ehL62qKBsShANFyYOyQfIQc7Czbw,20
+motion_master_proto-3.1.1.dist-info/RECORD,,
