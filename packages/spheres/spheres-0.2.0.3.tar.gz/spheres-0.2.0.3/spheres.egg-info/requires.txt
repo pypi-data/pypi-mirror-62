@@ -1,0 +1,10 @@
+flask
+python-socketio
+eventlet
+termcolor
+sympy
+numpy
+scipy
+cython
+qutip
+forbiddenfruit
