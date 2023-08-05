@@ -1,0 +1,10 @@
+{
+  "nbd_colab": {
+    "Overview": "/",
+    "Core": "/core",
+    "Notebooks": "/tutorial",
+    "Troubleshooting": "/troubleshooting",
+    "Notebook template": "/nbtemplate",
+    "Command line template": "/cltemplate"
+  }
+}
