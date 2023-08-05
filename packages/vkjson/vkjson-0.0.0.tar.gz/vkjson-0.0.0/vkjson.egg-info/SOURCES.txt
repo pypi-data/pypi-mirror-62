@@ -1,0 +1,5 @@
+setup.py
+vkjson.egg-info/PKG-INFO
+vkjson.egg-info/SOURCES.txt
+vkjson.egg-info/dependency_links.txt
+vkjson.egg-info/top_level.txt
