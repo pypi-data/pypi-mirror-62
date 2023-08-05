@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyfds
+Version: 0.1.3
+Summary: Modular field simulation tool using finite differences.
+Home-page: http://emt.uni-paderborn.de
+Author: Leander Claes
+Author-email: claes@emt.uni-paderborn.de
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+=====
+pyFDs
+=====
+.. image:: https://zenodo.org/badge/92026828.svg
+   :target: https://zenodo.org/badge/latestdoi/92026828
+
+Modular field simulation tool using finite differences.
+
+Features
+--------
+
+* One-dimensional, linear acoustic field simulation.
+* Two-dimensional, linear acoustic field simulation.
+* Axial-symmetric, three-dimensional, linear acoustic field simulation.
+* Nonlinear acoustic field simulation in ideal gases.
+* Nonlinear acoustic field simulation for arbitrary fluids using second order approximation.
+
+
