@@ -1,0 +1,7 @@
+README.md
+setup.py
+WMSB/__init__.py
+WMSB.egg-info/PKG-INFO
+WMSB.egg-info/SOURCES.txt
+WMSB.egg-info/dependency_links.txt
+WMSB.egg-info/top_level.txt
