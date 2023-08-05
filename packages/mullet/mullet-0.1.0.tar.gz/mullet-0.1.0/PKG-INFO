@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mullet
+Version: 0.1.0
+Summary: Model for the evalUation of sea-LeveL risE and Temperature (MULLET), currently a playground for exploring simple climate model setups.
+Home-page: https://github.com/znicholls/mullet
+Author: Zebedee Nicholls
+Author-email: zebedee.nicholls@climate-energy-college.org
+License: 3-Clause BSD License
+Description: Model for the evalUation of sea-LeveL risE and Temperature (Mullet)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Work in progress.
+        
+        Brief summary
+        +++++++++++++
+        
+        In its current form, this repository is meant to be a playground.
+        It provides a place to explore how a simple climate model could be written if it were to be written from scratch, combining the strengths of numerical computing languages (e.g. Fortran) and higher-level languages (e.g. Python).
+        Please feel free to make PRs or fork the repository for whatever purpose you like (it's under a BSD license to facilitate this).
+        The only request we currently make is that you don't use the model name (Mullet) in case we do one day turn this repository into a fully fledged model.
+        
+Keywords: mullet,python,fortran,simple,climate,model
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: deploy
+Provides-Extra: notebooks
