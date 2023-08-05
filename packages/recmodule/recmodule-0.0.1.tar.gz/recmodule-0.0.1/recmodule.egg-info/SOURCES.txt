@@ -1,0 +1,8 @@
+README.md
+setup.py
+recmodule/__init__.py
+recmodule/recmodule.py
+recmodule.egg-info/PKG-INFO
+recmodule.egg-info/SOURCES.txt
+recmodule.egg-info/dependency_links.txt
+recmodule.egg-info/top_level.txt
