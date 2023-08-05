@@ -1,0 +1,9 @@
+easyvec/__init__.py,sha256=-4KIyJ9cT-E_DSRkWDXdEI5CYFzOw2Es5R2nrxL7ggQ,98
+easyvec/geometry.cp37-win_amd64.pyd,sha256=sIepEjDu4RN0MVz_zHQ4fyWIxHF8HMHcVAKhPECFAc8,320512
+easyvec/matrixes.cp37-win_amd64.pyd,sha256=vhrSBDbfsasOgqFEnQp4cl6K9uw-qdEBzugjozDdw-w,245760
+easyvec/vectors.cp37-win_amd64.pyd,sha256=b24PQhO6p1ZQEDyZwfIGaCkiy-C97yRWV8oH1CGlS7Y,679936
+easyvec-0.0.10.dist-info/LICENSE.txt,sha256=IxHzWIFBwUmDT5PrONIOYJ8GK5-0d51uVFt0sKFTPPo,1073
+easyvec-0.0.10.dist-info/METADATA,sha256=ioxut0oq3zPem16uEGL50KBsThJ24-A-1ivzVJDaFi4,1668
+easyvec-0.0.10.dist-info/WHEEL,sha256=uaZe_9gV-4T_d4AskuIQkCgcY8wMc0UXsVFnf0_mBGs,106
+easyvec-0.0.10.dist-info/top_level.txt,sha256=PJbyuRdEZDUJiq6FTTXkalAHCVnLEpBD5UaYX_N0Vfc,8
+easyvec-0.0.10.dist-info/RECORD,,
