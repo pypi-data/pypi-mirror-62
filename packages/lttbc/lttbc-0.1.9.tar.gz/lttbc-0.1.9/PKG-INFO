@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: lttbc
+Version: 0.1.9
+Summary: Largest triangle three buckets module for Python written in C
+Home-page: https://github.com/dgoeries/lttbc/
+Author: European XFEL GmbH
+Author-email: dennis.goeries@xfel.eu
+Maintainer: Dennis Goeries
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
