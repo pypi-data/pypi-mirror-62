@@ -1,0 +1,10 @@
+setup.py
+distributions_udacity_course_ML_Engineer/Binomialdistribution.py
+distributions_udacity_course_ML_Engineer/Gaussiandistribution.py
+distributions_udacity_course_ML_Engineer/Generaldistribution.py
+distributions_udacity_course_ML_Engineer/__init__.py
+distributions_udacity_course_ML_Engineer.egg-info/PKG-INFO
+distributions_udacity_course_ML_Engineer.egg-info/SOURCES.txt
+distributions_udacity_course_ML_Engineer.egg-info/dependency_links.txt
+distributions_udacity_course_ML_Engineer.egg-info/not-zip-safe
+distributions_udacity_course_ML_Engineer.egg-info/top_level.txt
