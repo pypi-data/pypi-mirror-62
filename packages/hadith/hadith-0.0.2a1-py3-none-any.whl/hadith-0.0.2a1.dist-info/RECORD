@@ -1,0 +1,15 @@
+hadith/__init__.py,sha256=Uph45XCzpLnZZeQg6Vg-ShM-oU8novrLjUkhOjZyS4I,436
+hadith/base.py,sha256=CvTTAIWJziyjMMZws7JVgectBiOP1wXzuwsxA7763E0,4098
+hadith/data/Maliks_Muwatta.csv.gz,sha256=jDu1AnwiOD6sR_6cX-CMQcMt0sciHvcv1m12N2wF0Ek,199122
+hadith/data/Musnad_Ahmad_ibn_Hanbal.csv.gz,sha256=-Z6N7BhKVH2Wv07_mi6KzqtGPfPL5whIxei0nMMx8O0,3880850
+hadith/data/Sahih_Bukhari.csv.gz,sha256=1mdRFdXGvvDqllvcS8BMi4OKQ16m-jUmcUuAjNv_gyM,1359505
+hadith/data/Sahih_Muslim.csv.gz,sha256=j6LmcqzY3AjgL9uky9vq1ULK88sKkm44KQQ1CfKuJZI,1105068
+hadith/data/Sunan_Abu_Dawud.csv.gz,sha256=uKxKXLMcMyl7BnA0ZFIA3h6ZdVLkqKR6DUDH3H_mMdE,854847
+hadith/data/Sunan_Ibn_Maja.csv.gz,sha256=wLGQDKEv79bU-nFBdp0YTRGeJ4j3g1fjArJPLCarQ68,591494
+hadith/data/Sunan_al-Nasai.csv.gz,sha256=GyqjlzzF2B07u7n0hPSNnr1dN5KgH8S6pKSlBFtZC_0,740424
+hadith/data/Sunan_al_Darami.csv.gz,sha256=yV6nN-DW55AjSjbrq-XncyaSLreo9ogDvsd4D7EpULM,420901
+hadith/data/Sunan_al_Tirmidhi.csv.gz,sha256=LZw2HfW3KxdYhk0KGD_8SfdJsOqdmiAblshhAYu1TII,855909
+hadith-0.0.2a1.dist-info/METADATA,sha256=rYhN-n1FNlGvrEAvoGrhVEW2LyhUXN42GQgcpH0CLcI,522
+hadith-0.0.2a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hadith-0.0.2a1.dist-info/top_level.txt,sha256=RnBADfHGF9bUYTjfcxiiiB_JxBtIZzKHX5ZFq7WAkS0,7
+hadith-0.0.2a1.dist-info/RECORD,,
