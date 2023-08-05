@@ -1,0 +1,6 @@
+pint
+torch==1.3.0
+plotly
+pyyaml
+numpy
+scipy
