@@ -1,0 +1,3 @@
+[console_scripts]
+eduroam-config = eduroam_config.entry_point:main
+
