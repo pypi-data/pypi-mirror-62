@@ -1,0 +1,8 @@
+dummy/__init__.py,sha256=Vs9IWm-4no8EY7EgVMpsH4nOirjKig1JOc5tJuKn1SE,66
+dummy/dummy.py,sha256=kWrGxHqrhbQybDTxYPQTXoTBpFdJG6jLJaCqOksVMg0,202
+dummy/util.py,sha256=6QMcHDAJVDax53y7PvSO2Isy-vEInFuOgXi8niyusAQ,117
+dummy_test_derek-0.0.0.dist-info/LICENSE,sha256=4Y1XV1zNgas0QqK9de2Kx4nWnv3RIbZeCML3tqMmUfU,1090
+dummy_test_derek-0.0.0.dist-info/METADATA,sha256=tBuOA6NLfG8_nAMf6NCyCZ20IdbU6_beuEBXRQ1_Bac,407
+dummy_test_derek-0.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dummy_test_derek-0.0.0.dist-info/top_level.txt,sha256=0-tTmlVjUvP0eIHXH7Dld3svPppCUdKDwYxnzplndLc,6
+dummy_test_derek-0.0.0.dist-info/RECORD,,
