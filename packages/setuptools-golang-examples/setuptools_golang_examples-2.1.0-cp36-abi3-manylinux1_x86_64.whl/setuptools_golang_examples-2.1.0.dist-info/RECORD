@@ -1,0 +1,14 @@
+hello_lib.abi3.so,sha256=8C52MdgPL1SOwq0tXvNOhXKSRg9GL0xu_lC4kBHGGH8,2330384
+red.abi3.h,sha256=SgpNX2XO0oyI199baepdrV4mRCyQSXl2mAX8HAiTSHU,1785
+hello_lib.abi3.h,sha256=Pkk8juan9Gui2OWO6_okxRxVJjwouKBa1WOTBAPJqAI,1798
+sum_pure_go.abi3.so,sha256=CN8XriQQv3YyxpbsXOImL0lKumaUmrlbrKtWtIBILf4,2320983
+sum_go.abi3.so,sha256=Zdr0FuULyRDEvU7NXC8QT1c7FcqmqG9s3NrtR7_A0FY,2320907
+c_module.abi3.so,sha256=mQCUprI3ZRB7ZBUvkcPQwb53zdrLFVwQjJQszqrZc0c,11369
+red.abi3.so,sha256=PJrGxydhVKR-xtJXALmaljOz_o9nsGNVCyiccKRjMfE,4106144
+sum_pure_go.abi3.h,sha256=dY5c8cVjG5Vzurhe-UrrMlc3jy2NSOTqTBX-dNfPDTo,1783
+sum_go.abi3.h,sha256=RcGWLMbfg6rNX1xEUVSATQKXcakEh_2ZW1JJFZpEMZs,1773
+setuptools_golang_examples-2.1.0.dist-info/RECORD,,
+setuptools_golang_examples-2.1.0.dist-info/METADATA,sha256=FYeBZAFy5OMXQGpjDUiYgleA72BFVmJ-JkDRw7qFQIA,2273
+setuptools_golang_examples-2.1.0.dist-info/LICENSE.txt,sha256=E_fEyBBI1K9TdyFPp6P7Av6PH-WqOkje0ldG9KtMjro,1059
+setuptools_golang_examples-2.1.0.dist-info/WHEEL,sha256=Ss-dLITiyz_EWlKfPh4naJgYB3Kskb0mNt2ULbP_UAM,108
+setuptools_golang_examples-2.1.0.dist-info/top_level.txt,sha256=pPwA5T5xYXofNNAJbvE9novVsCMJduzrLTMiUBk2mWM,36
