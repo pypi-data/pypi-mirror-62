@@ -1,0 +1,7 @@
+README.md
+setup.py
+zsp/__init__.py
+zsp.egg-info/PKG-INFO
+zsp.egg-info/SOURCES.txt
+zsp.egg-info/dependency_links.txt
+zsp.egg-info/top_level.txt
