@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: testgithook
+Version: 0.21
+Summary: only testing python automatic versioning and deployment
+Home-page: https://www.entroserv.de/
+Author: Stefan Helmert
+Author-email: info@entroserv.de
+License: https://www.fsf.org/licensing/licenses/agpl-3.0.html
+Description: # Test Git Hook
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
