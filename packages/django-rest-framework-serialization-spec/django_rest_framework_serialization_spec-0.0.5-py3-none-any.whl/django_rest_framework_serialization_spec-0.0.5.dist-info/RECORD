@@ -1,0 +1,16 @@
+serialization_spec/__init__.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+serialization_spec/plugins.py,sha256=uUrsXkGY6Gy4PzQ-NPk0pGSBlpREY5QR2oGXjZ7UxS4,2129
+serialization_spec/serialization.py,sha256=VmXnbkawy2FGN8CAtNXQirQhujEG21_OoOgWtih0_XU,10984
+serialization_spec/utils.py,sha256=-QXuKHgF-tco6R5K4ViVggdkzK68ytln5o5qv-8vCgA,296
+serialization_spec/__pycache__/__init__.cpython-35.pyc,sha256=i8Q_BtQPxr9U-Sb5flYDOT7UwuIV181JGFycgDQiBsI,216
+serialization_spec/__pycache__/__init__.cpython-36.pyc,sha256=wFu4Xoa1UR4STiimr1K4B-30rwxNYg0y0imCNQcKs3A,183
+serialization_spec/__pycache__/plugins.cpython-35.pyc,sha256=uO7ZUSU2Kcm_-cdPRkJW6QoYP9xiipSRYNlH7kluYRY,3898
+serialization_spec/__pycache__/serialization.cpython-35.pyc,sha256=ZC_84N_FntXMH-oSvQxGVEzvmZEibMzu7hQWjYhabiw,10359
+serialization_spec/__pycache__/serialization.cpython-36.pyc,sha256=O_p2yWwd-HaL5tQNgWtg3SOEQZRycjLAT_evkT4SgJk,6250
+serialization_spec/__pycache__/serializer.cpython-35.pyc,sha256=egCUAXZrLyt64oI_H4uC6B6noy5bn5yQ5EO3uXqrjws,9384
+serialization_spec/__pycache__/utils.cpython-35.pyc,sha256=myR5J5oh2SlB2G1ot6wV_1mi81NPCpkYcErZTeF--Q8,518
+django_rest_framework_serialization_spec-0.0.5.dist-info/LICENSE.txt,sha256=y7uhUMyW0WN0VdHvVsfNhgNOxY5G9Pt_ciit1fXy0cA,1050
+django_rest_framework_serialization_spec-0.0.5.dist-info/METADATA,sha256=XmV_LYxRjBXiVaSe4O6q_Xu6xzECMvDmUseKzsUIt0Y,563
+django_rest_framework_serialization_spec-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_rest_framework_serialization_spec-0.0.5.dist-info/top_level.txt,sha256=ru4gJWXF_Gw5dXxskDHWStIS0tR2QNV_Us7sVCXXUug,19
+django_rest_framework_serialization_spec-0.0.5.dist-info/RECORD,,
