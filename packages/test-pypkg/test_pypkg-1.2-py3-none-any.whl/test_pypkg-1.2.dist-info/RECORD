@@ -1,0 +1,7 @@
+test_pypkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pypkg/__main__.py,sha256=l_wWA683xqul66BFlLSLyMSEiDFtxVe2B8Rc7qT5mrk,31
+test_pypkg/hello.py,sha256=l_wWA683xqul66BFlLSLyMSEiDFtxVe2B8Rc7qT5mrk,31
+test_pypkg-1.2.dist-info/METADATA,sha256=DIOqizG00mq-08VmeISRQgujnbB0-rRMd2j8-Cilqv0,280
+test_pypkg-1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+test_pypkg-1.2.dist-info/top_level.txt,sha256=t1n_2skOJsgwTeEOvyLC-yCuftuDrwqaOo8Veb1F3K0,11
+test_pypkg-1.2.dist-info/RECORD,,
