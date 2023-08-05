@@ -1,0 +1,7 @@
+emin
+setup.py
+emin.egg-info/PKG-INFO
+emin.egg-info/SOURCES.txt
+emin.egg-info/dependency_links.txt
+emin.egg-info/requires.txt
+emin.egg-info/top_level.txt
