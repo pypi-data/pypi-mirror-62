@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    jpl=jpl.cli.main_cli:lint
+        
