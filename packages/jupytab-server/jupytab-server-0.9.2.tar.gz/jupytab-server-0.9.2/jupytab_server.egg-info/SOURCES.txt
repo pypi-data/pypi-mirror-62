@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.cfg
+setup.py
+jupytab_server/__init__.py
+jupytab_server/jupytab.py
+jupytab_server/jupytab_api.py
+jupytab_server/kernel_executor.py
+jupytab_server/log_pipe.py
+jupytab_server.egg-info/PKG-INFO
+jupytab_server.egg-info/SOURCES.txt
+jupytab_server.egg-info/dependency_links.txt
+jupytab_server.egg-info/entry_points.txt
+jupytab_server.egg-info/requires.txt
+jupytab_server.egg-info/top_level.txt
+tests/__init__.py
+tests/test_nb_run.py
