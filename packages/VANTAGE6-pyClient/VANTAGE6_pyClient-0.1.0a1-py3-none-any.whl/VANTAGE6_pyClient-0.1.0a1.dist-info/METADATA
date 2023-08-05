@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: VANTAGE6-pyClient
+Version: 0.1.0a1
+Summary: Utilities for federated learning
+Home-page: https://github.com/iknl/VANTAGE6-pyClient
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: cryptography
+Requires-Dist: requests
+Requires-Dist: pyjwt
+
+<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/vantage6.png?raw=true" width=200 align="right">
+
+# VANTAGE6 Python client
+Todo
+
+

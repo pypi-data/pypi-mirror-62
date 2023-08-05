@@ -1,0 +1,10 @@
+vtg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtg/__main__.py,sha256=aRZPrYOc348YYfa4yvO6AOACziYgZBYZ752TmvRArSI,1879
+vtg/client.py,sha256=03CpWQ3V-3mRruEoM0WkVs3eib1llSJ7NT1rYLfprmo,18390
+vtg/encryption.py,sha256=iY5zFOd_B1WRDruw64Xxd8nTMN_Whk98W27T4V9x8i4,8992
+vtg/test.py,sha256=aafyaDAW4bihvuNKPKTuwhi_VFciOQwbjV0COPNdWl8,467
+vtg/util.py,sha256=qnKBRnurvnPTSB2tdQhFJj5nEx3HVP2D41XoNzXaJII,552
+VANTAGE6_pyClient-0.1.0a1.dist-info/METADATA,sha256=Z4tKEqELV_0zFsGGUjkYuT7Vsvcqtao_2nztSoaEXYY,442
+VANTAGE6_pyClient-0.1.0a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+VANTAGE6_pyClient-0.1.0a1.dist-info/top_level.txt,sha256=f0cdmEIYWCC9Ev5tQkCP962e1X6_2QIV8pVLURuOhJs,4
+VANTAGE6_pyClient-0.1.0a1.dist-info/RECORD,,
