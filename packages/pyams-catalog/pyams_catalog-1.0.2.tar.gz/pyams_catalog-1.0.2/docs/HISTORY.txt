@@ -1,0 +1,15 @@
+Changelog
+=========
+
+1.0.2
+-----
+ - added "autocommit" argument to "index_site" function, used for testing purposes
+ - updated doctests
+
+1.0.1
+-----
+ - updated Gitlab-CI tests and integration
+
+1.0.0
+-----
+ - initial release
