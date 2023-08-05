@@ -1,0 +1,12 @@
+curitiba_dados_abertos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+curitiba_dados_abertos/core/datasource.py,sha256=Zqhu6o--DF_jtD7FBRVyGJ1j878ZQbs2PedttxsAh9g,2865
+curitiba_dados_abertos/core/utils.py,sha256=hdleDdFkpzaOeODbIiu3mwtYtaMgIF4lTeFDuonqKdI,1151
+curitiba_dados_abertos/datasources/__init__.py,sha256=aT3pKzyoVFRVaWk78uJKLI2KS259xf8-7DD6g3ZOBeI,26
+curitiba_dados_abertos/datasources/ds_156.py,sha256=Bfu4fRie-EYxOdjYRKUO7G_t_kqvPV-FINOv3L4r5iA,1338
+curitiba_dados_abertos/tests/test_DS156.py,sha256=XBd_ByAbYlIYIEPA1GKuw6HDsO14PKqYVkpCL6wXNXk,2019
+curitiba_dados_abertos/tests/test_download_file.py,sha256=iaNH4cLGRyQow30EywTNsNKWSSfTgr1wRRDqnld40Zg,2118
+curitiba_dados_abertos-1.1.0.dist-info/LICENSE,sha256=J87gV-ODgx248vPqlTGRTDvegukne2yuwW-CzpWRj4s,1074
+curitiba_dados_abertos-1.1.0.dist-info/METADATA,sha256=ODeCijoIigOWY4gGDJWvWpZXgdCHdDjUtudI6eEyUvI,715
+curitiba_dados_abertos-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+curitiba_dados_abertos-1.1.0.dist-info/top_level.txt,sha256=bW_3dxR8gwtkAHqN8Hk0fRudGqw16yF6csofgGhspEM,23
+curitiba_dados_abertos-1.1.0.dist-info/RECORD,,
