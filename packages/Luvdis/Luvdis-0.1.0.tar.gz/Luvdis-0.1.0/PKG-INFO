@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Luvdis
+Version: 0.1.0
+Summary: Pure-Python Game Boy Advance Disassembler
+Home-page: https://github.com/arantonitis/luvdis
+Author: Ariel Antonitis
+Author-email: arant@mit.edu
+License: MIT
+Description: # Luvdis
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Disassemblers
+Classifier: Topic :: System :: Hardware
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
