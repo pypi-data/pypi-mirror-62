@@ -1,0 +1,3 @@
+learn2learn/data/meta_dataset.cpython-37m-x86_64-linux-gnu.so
+learn2learn/data/task_dataset.cpython-37m-x86_64-linux-gnu.so
+learn2learn/data/transforms.cpython-37m-x86_64-linux-gnu.so
