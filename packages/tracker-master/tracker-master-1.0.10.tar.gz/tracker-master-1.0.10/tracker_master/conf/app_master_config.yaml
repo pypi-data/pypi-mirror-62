@@ -1,0 +1,36 @@
+development:
+  log_file: '../../log/app_master.log'
+
+  master:
+    state_file: '../conf/master.cfg'
+
+  zabbix:
+    user: 'Admin'
+    password: 'zabbix'
+    api_url: 'http://192.168.56.101/zabbix/'
+    sender_url: 'http://192.168.56.101/zabbix/'
+    client_cfg: '../conf/zabbix_agentd.conf'
+
+  slave:
+    state_file: '../conf/slaves.cfg'
+    com_port:
+      port: '/dev/ttyS2'
+      baudrate: 9600
+
+testing:
+  log_file: '/var/opt/tracker_master/log/app_master.log'
+  master:
+    state_file: '/var/opt/tracker_master/master.cfg'
+
+  zabbix:
+    user: 'Admin'
+    password: 'zabbix'
+    api_url: 'http://192.168.56.101/zabbix/'
+    sender_url: 'http://192.168.56.101/zabbix/'
+    client_cfg: '../conf/zabbix_agentd.conf'
+
+  slave:
+    state_file: '/var/opt/tracker_master/slaves.cfg'
+    com_port:
+      port: '/dev/ttyS2'
+      baudrate: 9600
