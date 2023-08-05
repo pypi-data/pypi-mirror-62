@@ -1,0 +1,8 @@
+aws_cdk/aws_s3_notifications/__init__.py,sha256=wOTq00t7W86cvfc3H3WeVXBaL2zyOz6cOwVpjRaU3zs,4068
+aws_cdk/aws_s3_notifications/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_s3_notifications/_jsii/__init__.py,sha256=TQvnCzZk5nfNsOhGg9Ha2TJZSKFXEA8pd7uYEtHOfcY,294
+aws_cdk/aws_s3_notifications/_jsii/aws-s3-notifications@1.26.0.jsii.tgz,sha256=ByJL84r1TzSEIxqJLQEaCUnkJ8KGoJXHfNIjb8F0eCY,36972
+aws_cdk.aws_s3_notifications-1.26.0.dist-info/METADATA,sha256=ytkRVObN4k6OfzEzkvzVOo5RFO_xMcab2KC5JOu8DnY,1896
+aws_cdk.aws_s3_notifications-1.26.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_s3_notifications-1.26.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_s3_notifications-1.26.0.dist-info/RECORD,,
