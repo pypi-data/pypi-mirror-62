@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: fastiqa
+Version: 0.6.1
+Summary: fastiqa makes deep learning for image quality assessment faster and easier
+Home-page: https://github.com/fastiqa/fastiqa
+Author: Zhenqiang Ying
+Author-email: yingzhenqiang@gmail.com
+License: CC BY-NC-ND 4.0
+Description: <p align="center">
+        <b><a href="https://arxiv.org/abs/1912.10088">ArXiv</a></b>
+        |
+        <b><a href="https://baidut.github.io/PaQ-2-PiQ/">Website</a></b>
+        |
+        <b><a href="#Setup">Setup</a></b>
+        |
+        <b><a href="https://github.com/baidut/PaQ-2-PiQ/wiki">Document</a></b>
+        </p>
+        
+        # PaQ-2-PiQ
+        
+        ![](https://img.shields.io/badge/python-3.6-blue.svg) ![](https://img.shields.io/badge/pytorch-1.0-red.svg) ![](https://img.shields.io/badge/fastai-1.0.60-green.svg) 
+        
+        [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+        
+        Code for our paper ["*From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality*"](https://arxiv.org/abs/1912.10088)
+        
+        ```
+        @article{ying2019patches,
+          title={From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality},
+          author={Ying, Zhenqi
+          ang and Niu, Haoran and Gupta, Praful and Mahajan, Dhruv and Ghadiyaram, Deepti and Bovik, Alan},
+          journal={arXiv preprint arXiv:1912.10088},
+          year={2019}
+        }
+        ```
+        
+        ### Features
+        
+        * support cpu-only, just install pytorch-cpu and followed by fastai
+        
+        ## Setup
+        
+        * python 3.6/3.7 `python --version`
+        * install prerequisites by `pip install -r requirements.txt`
+        * Download the pretrained models and put them under a folder named `models`
+          
+          * [RoIPoolModel-fit.10.bs.120.pth](https://github.com/baidut/PaQ-2-PiQ/releases/download/v1.0/RoIPoolModel-fit.10.bs.120.pth)
+        * Open a Jupyter notebook and run `demo.ipynb` 
+        
+        <p align="right"><a href="#top">:arrow_up: back to top</a></p>
+        
+Keywords: fastiqa,deep learning,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
