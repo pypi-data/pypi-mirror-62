@@ -1,0 +1,8 @@
+README.md
+setup.py
+testgithook/__init__.py
+testgithook/__main__.py
+testgithook.egg-info/PKG-INFO
+testgithook.egg-info/SOURCES.txt
+testgithook.egg-info/dependency_links.txt
+testgithook.egg-info/top_level.txt
