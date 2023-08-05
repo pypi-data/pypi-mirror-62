@@ -1,0 +1,14 @@
+Source/PySense.py,sha256=RBYyjcNbAfR1gg2cvHzafBwfbsBPFdEPsWKKxx2D5ME,14002
+Source/PySenseAlert.py,sha256=t-qOWqcL3aNhQmH99PcqW4DICqyvd96Yok9Ib1uB5yE,201
+Source/PySenseDashboard.py,sha256=d9Z7vtwuoUAyPJ4Xv6fVyZ3WxVt7jPQpEMxHJuQ8E_Y,8577
+Source/PySenseFolder.py,sha256=1iHp7SEiixUUeSVZ5L0GgwLbXwDZyDRDQzoR-TfHagg,369
+Source/PySenseS3.py,sha256=Qg9MTenmpYir8flFxDxXBbliiQK31uySqBGylrF30Jg,1801
+Source/PySenseUser.py,sha256=xc_4zwXW3gEp9Et8Dr4KiG6FBQoC1koKvT6SdfvAzAc,1992
+Source/PySenseUtils.py,sha256=YEXOzR0KsWyZJczD-8pckb4EAUbTpNZ6aqkbm71breE,2189
+Source/PySenseWidget.py,sha256=1zjnyKo9HbynutsCwBHa3P0eTHfFWI2dvDTwM6Y2Hrc,393
+Source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PySenseSDK-0.0.4.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+PySenseSDK-0.0.4.dist-info/METADATA,sha256=lpt3g_qcuzt6K8IeAyAoKW_lOQRE2RRkZlDOyDv98os,1022
+PySenseSDK-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+PySenseSDK-0.0.4.dist-info/top_level.txt,sha256=d_GLf16TqGXe2Ir7Ik0T32QaFEWUJNAst0P15Au9aqE,7
+PySenseSDK-0.0.4.dist-info/RECORD,,
