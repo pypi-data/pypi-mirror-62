@@ -1,0 +1,6 @@
+README.md
+setup.py
+jig_py.egg-info/PKG-INFO
+jig_py.egg-info/SOURCES.txt
+jig_py.egg-info/dependency_links.txt
+jig_py.egg-info/top_level.txt
