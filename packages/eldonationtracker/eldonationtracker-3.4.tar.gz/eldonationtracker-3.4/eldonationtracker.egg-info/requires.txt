@@ -1,0 +1,3 @@
+PyQt5
+xdgenvpy
+PyQt5-sip
