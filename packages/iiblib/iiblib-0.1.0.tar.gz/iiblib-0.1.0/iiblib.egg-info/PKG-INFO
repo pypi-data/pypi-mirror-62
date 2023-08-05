@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: iiblib
+Version: 0.1.0
+Summary: IIB client library
+Home-page: https://github.com/release-engineering/iiblib/archive/v0.1.0.tar.gz
+Author: Jindrich Luza
+Author-email: jluza@redhat.com
+License: UNKNOWN
+Description: iiblib
+        ======
+        
+        IIB lib is python IIB client library that allows user to operate with IIB service
+        
+        
+        
+        Requirements
+        ------------
+        
+        * Python 3.7 over
+        * Python 2.7 over
+        
+        Setup
+        -----
+        
+        ::
+        
+          # pip install -r requirements.txt
+          $ python -m pip install --user iiblib
+          or
+          (venv)$ python -m pip install iiblib
+        
+        Usage
+        -----
+        
+        Basic usage of IIBClient from iiblib is following
+        
+        ::
+        
+          $ python
+          >>> from iiblib.iibclient import IIBClient, IIBKrbAuth
+          >>> krbauth = IIBKrbAuth()
+          >>> iibc = IIBClient('iib-host', krbauth)
+          >>> build iibc.add_bundles('index_image', 'binary_image', ['bundle1','bundle2'], ['x86_64'])
+          >>> iibc.wait_for_build(build)
+          >>>
+          >>> iibc.remove_operators('index_image', 'binary_image', ['operator1'], ['x86_64'])
+        
+        ChangeLog
+        =========
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Provides-Extra: reST
