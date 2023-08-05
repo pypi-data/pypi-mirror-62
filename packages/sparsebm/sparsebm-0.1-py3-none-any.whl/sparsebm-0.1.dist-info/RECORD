@@ -1,0 +1,12 @@
+sparsebm/__init__.py,sha256=NgEfioIrSRmP0omTs5XZ131ALiYlHXu1NVvE-W6LtEA,286
+sparsebm/graph_generator.py,sha256=HRG_8oKD4JvePyuLGG1y8MJdLYZIWm6YHtK2giSqUhA,3088
+sparsebm/lbm.py,sha256=XwqXhDAYpxATgidLdNcdeDfAsP545AFRqGkgf9bssGQ,18057
+sparsebm/sbm.py,sha256=MeOTTIwWN9D49BSFSQ-Z0XheF5X4T9VcwgxC79YEBvM,14620
+sparsebm/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparsebm/tests/test_lbm.py,sha256=N5ykNwTHn04thLYnDpi2gjWomSEFx5nK6t2afUURH3s,1217
+sparsebm/tests/test_sbm.py,sha256=Ee3wjRKHqJLFmWAb2cA-v1bJm-KJyN7IeyoX0URZujc,1152
+sparsebm-0.1.dist-info/LICENSE,sha256=AjK-3r48_uCX1fLsqi_XV8oYRVYqyMLKAAm8j04S9U0,1133
+sparsebm-0.1.dist-info/METADATA,sha256=xMEXfACZ2j5PxvvVo-8pLQzfBS5OdRIq1W5-hAzReFQ,4270
+sparsebm-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sparsebm-0.1.dist-info/top_level.txt,sha256=qXby-xqzisYEAyXbUbwmGUMnsLmPnvzkc9Lha4yN0Jo,9
+sparsebm-0.1.dist-info/RECORD,,
