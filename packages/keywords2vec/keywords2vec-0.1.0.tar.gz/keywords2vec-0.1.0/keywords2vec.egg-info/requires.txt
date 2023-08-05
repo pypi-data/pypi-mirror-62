@@ -1,0 +1,12 @@
+nltk
+Unidecode
+stop-words
+fastprogress
+fasttext
+annoy
+
+[dev]
+nbdev
+jupyter
+ipywidgets
+matplotlib
