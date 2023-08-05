@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: configue
+Version: 3.0.0
+Summary: Helpers to load config files, based on logging.config
+Home-page: https://github.com/illuin-tech/configue/
+Author: Illuin Technology
+Author-email: contact@illuin.tech
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6,<4.0
+Requires-Dist: pyyaml (<6.0.0,>=5.1.0)
+
+UNKNOWN
+
+
