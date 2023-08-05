@@ -1,0 +1,6 @@
+nose
+pytest
+requests>=2.11.1
+jsonpath-rw
+lxml
+unicodecsv
