@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nrfsec
+Version: 0.1
+Summary: A security research tool for working with Nordic nRF51 chips
+Home-page: https://github.com/buildxyz-git/nrfsec
+Author: BuildXYZ
+Author-email: buildxyz@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown

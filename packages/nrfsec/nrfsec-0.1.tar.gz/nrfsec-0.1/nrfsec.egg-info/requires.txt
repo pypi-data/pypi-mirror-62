@@ -1,0 +1,8 @@
+tabulate
+binascii
+tqdm
+time
+coloredlogs
+logging
+argparse
+os
