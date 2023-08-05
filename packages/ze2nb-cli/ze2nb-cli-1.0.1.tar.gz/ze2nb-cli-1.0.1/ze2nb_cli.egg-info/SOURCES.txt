@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+ze2nb_cli/__init__.py
+ze2nb_cli/cli.py
+ze2nb_cli.egg-info/PKG-INFO
+ze2nb_cli.egg-info/SOURCES.txt
+ze2nb_cli.egg-info/dependency_links.txt
+ze2nb_cli.egg-info/entry_points.txt
+ze2nb_cli.egg-info/requires.txt
+ze2nb_cli.egg-info/top_level.txt
