@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+voiceClassifier/__init__.py
+voiceClassifier/config.py
+voiceClassifier/evaluate.py
+voiceClassifier/utils.py
+voiceClassifier/voiceClassify.py
+voiceClassifier.egg-info/PKG-INFO
+voiceClassifier.egg-info/SOURCES.txt
+voiceClassifier.egg-info/dependency_links.txt
+voiceClassifier.egg-info/requires.txt
+voiceClassifier.egg-info/top_level.txt
