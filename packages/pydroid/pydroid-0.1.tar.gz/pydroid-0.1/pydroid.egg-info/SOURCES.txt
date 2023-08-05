@@ -1,0 +1,11 @@
+README.md
+sample_test_script.py
+setup.py
+pydroid/__init__.py
+pydroid/ocroid.py
+pydroid/pydroid.py
+pydroid.egg-info/PKG-INFO
+pydroid.egg-info/SOURCES.txt
+pydroid.egg-info/dependency_links.txt
+pydroid.egg-info/requires.txt
+pydroid.egg-info/top_level.txt
