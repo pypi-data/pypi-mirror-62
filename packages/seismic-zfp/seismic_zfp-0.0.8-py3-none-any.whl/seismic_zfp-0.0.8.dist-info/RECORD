@@ -1,0 +1,17 @@
+seismic_zfp/__init__.py,sha256=715y4bLV27jwPpm3L9cSJeDnxkTIbW9gtb-BwzZ8JKM,23
+seismic_zfp/accessors.py,sha256=BC4h6Ybigxt40-w4nsiBE2UMaUpGxsHNZ9x21x2dS-w,1890
+seismic_zfp/caching.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seismic_zfp/conversion.py,sha256=Yiatmxii7eHWPLbtwKShCg56iC0P7MNJ_hwBM73goIU,11946
+seismic_zfp/conversion_utils.py,sha256=XByu-QvJPCuoAJUYXaVCLcYTRyHqeQF0SYz9a6DNuOk,8708
+seismic_zfp/headers.py,sha256=dxv9l0iNwhDTy53b_qentBFgqxgFBx4KcOrsBC_WbIA,3533
+seismic_zfp/open.py,sha256=iO5GTOEWtQup5dI8UCoZv1eN3mdGOU1Qk_V-suk8bIo,137
+seismic_zfp/read.py,sha256=wpnqUVdompJmrkH8KDpg2pFDd5W_eJYW3GJz6p255jQ,21235
+seismic_zfp/segyio_emulator.py,sha256=iwsCV288o1A69Mdo8-a1N60lRMwObfR_BFXAzMSslBk,603
+seismic_zfp/szconstants.py,sha256=uaCK3ngQsMT-HbZ8RAiut1SyIl7p7rRTTfnafys_-0Q,84
+seismic_zfp/utils.py,sha256=LjDz2nzNydvHsEXE7xHxPclGXeoyNz0LSzLE6Y54_SY,2293
+seismic_zfp/version.py,sha256=fcEMeb3WMM3D2PZUkCelx7-do6aWsAlMwq3RWvleK7M,1664
+seismic_zfp-0.0.8.dist-info/LICENSE.md,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+seismic_zfp-0.0.8.dist-info/METADATA,sha256=8tth7ssAmVhZnzZijPoKwfP9AKGPz9ynuJ6RnNVrbb0,4739
+seismic_zfp-0.0.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+seismic_zfp-0.0.8.dist-info/top_level.txt,sha256=Id2mZhb9tCj6rJ1CIWU8j86m23ISf_-077WdwYwKtq0,12
+seismic_zfp-0.0.8.dist-info/RECORD,,
