@@ -1,0 +1,11 @@
+requests
+selenium
+xlrd
+xlwt
+pyparsing
+pyhocon
+lxml
+pytest
+pytest-dependency
+PyYAML
+mimesis
