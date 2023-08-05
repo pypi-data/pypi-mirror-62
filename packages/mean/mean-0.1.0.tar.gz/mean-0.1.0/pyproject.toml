@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "mean"
+author = "Denzel Pfeifer"
+author-email = "denzelpfeifer@gmail.com"
+home-page = "https://denzelpfeifer.github.io"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
