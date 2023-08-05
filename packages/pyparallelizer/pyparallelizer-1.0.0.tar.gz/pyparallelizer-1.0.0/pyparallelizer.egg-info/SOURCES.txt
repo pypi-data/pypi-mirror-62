@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyparallelizer/__init__.py
+pyparallelizer/__main__.py
+pyparallelizer/pyparallelizer.py
+pyparallelizer.egg-info/PKG-INFO
+pyparallelizer.egg-info/SOURCES.txt
+pyparallelizer.egg-info/dependency_links.txt
+pyparallelizer.egg-info/top_level.txt
