@@ -1,0 +1,12 @@
+configset/__init__.py,sha256=ybaTQzcvNcUxjfi8696H22afe3a0TGP3u9L7A8R1s64,170
+configset/__version__.py,sha256=lDAzkDCxtnxSUuvcVpbAuy8KXyBF4mOSYQjXChYIE4w,14
+configset/configset.py,sha256=YtNpoc8jnQQUV9TI_mSQN3KmQwpXvWVdOdfZfCYB5J4,21360
+configset/test.py,sha256=k9g6kzLZctIYmTWruOiOrPw0F1SWHJoHdp9pEGN5HZk,359
+configset-0.19.data/data/LICENSE.rst,sha256=CVoHse2-rbRjMQnKLuD9d72ONyBP1mYYv8khAPlwFmw,1852
+configset-0.19.data/data/README.rst,sha256=vp8ghc4k4QZh3-F5h82cRJRJWFEfdZ8cg_Srps1n7wA,1174
+configset-0.19.data/data/__version__.py,sha256=lDAzkDCxtnxSUuvcVpbAuy8KXyBF4mOSYQjXChYIE4w,14
+configset-0.19.dist-info/LICENSE.rst,sha256=CVoHse2-rbRjMQnKLuD9d72ONyBP1mYYv8khAPlwFmw,1852
+configset-0.19.dist-info/METADATA,sha256=nD61nxdOYMWc9VuAg4RlzTGYfl-P-uaoDYpXnVREjQ8,2438
+configset-0.19.dist-info/WHEEL,sha256=05Ahrak1u2K61DpLp9CDNSbUImLTITCMom_cqTFk6pE,116
+configset-0.19.dist-info/top_level.txt,sha256=WshknC4Q22_KDnnbUZOCJGekDEkrdvLur6G_1m82YIY,10
+configset-0.19.dist-info/RECORD,,
