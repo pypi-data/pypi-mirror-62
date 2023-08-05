@@ -1,0 +1,9 @@
+README.md
+setup.py
+test_pypkg/__init__.py
+test_pypkg/hello.py
+test_pypkg.egg-info/PKG-INFO
+test_pypkg.egg-info/SOURCES.txt
+test_pypkg.egg-info/dependency_links.txt
+test_pypkg.egg-info/requires.txt
+test_pypkg.egg-info/top_level.txt

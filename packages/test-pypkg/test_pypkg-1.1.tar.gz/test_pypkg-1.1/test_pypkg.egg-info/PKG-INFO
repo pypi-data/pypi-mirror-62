@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: test-pypkg
+Version: 1.1
+Summary: A test python packaging
+Home-page: UNKNOWN
+Author: Sangram Keshari Sahu
+Author-email: sangram@bionivid.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
