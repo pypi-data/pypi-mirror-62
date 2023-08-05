@@ -1,0 +1,15 @@
+https_everywhere/__init__.py,sha256=vfLaGm-Omx74HwkM6RrcgPo-Z4m-i6P_LsjVQug0Dno,24
+https_everywhere/_chrome_preload_hsts.py,sha256=TgTHdZ0IfNMNbJS1tcl8XmIuH_dYP1l3Ae0vfBNnGJs,1883
+https_everywhere/_fetch.py,sha256=gtEMz4dxKP-lJgJbFkqLYfuYY90bTeDhIDMxiGz7gnk,1766
+https_everywhere/_fixme.py,sha256=rK_M30yJVO7XswJlLp9FL39-L2bw-yH-IrgGPPmuKQs,8435
+https_everywhere/_rules.py,sha256=szvBawhGVbynf4V2RWNZ9Q8q7IV6-UkEOK2-M99nXoI,29500
+https_everywhere/_unregex.py,sha256=-MRS6B9KamG1AgTUyGHNGlRmDp2EtYWwJFDzHM64xRo,4809
+https_everywhere/_util.py,sha256=8zgsRnXmgEunQlr15DQlHMxyEkH7dbmNvq9lUGsnYlo,623
+https_everywhere/adapter.py,sha256=IvYfHdKb-mU1deXv3pW5u5p4__W3P5a8_iZ8JlvOw6g,12222
+https_everywhere/session.py,sha256=lZV4nj8Ee3kn4tp2RjSw3V3Sw_j3dHa0kPk2ZWt3JnE,341
+https_everywhere-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+https_everywhere-0.2.0.dist-info/METADATA,sha256=bzxfxAt5hFIHxRunyMuvfjxeFYDr6cG9MAIuxgnhI3Y,1192
+https_everywhere-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+https_everywhere-0.2.0.dist-info/top_level.txt,sha256=R3cD0fDq-U544kB5yPndYi51GfO7kxMSC4nlDl7CXI0,17
+https_everywhere-0.2.0.dist-info/version.txt,sha256=kR_AxIywxwYB21d1qb7xt0DcTMn5tGOJufBWP-frlNc,5
+https_everywhere-0.2.0.dist-info/RECORD,,
