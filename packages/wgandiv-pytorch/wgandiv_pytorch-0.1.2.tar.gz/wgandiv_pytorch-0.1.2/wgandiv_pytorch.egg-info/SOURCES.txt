@@ -1,0 +1,10 @@
+README.md
+setup.py
+wgandiv_pytorch/__init__.py
+wgandiv_pytorch/model.py
+wgandiv_pytorch/utils.py
+wgandiv_pytorch.egg-info/PKG-INFO
+wgandiv_pytorch.egg-info/SOURCES.txt
+wgandiv_pytorch.egg-info/dependency_links.txt
+wgandiv_pytorch.egg-info/requires.txt
+wgandiv_pytorch.egg-info/top_level.txt
