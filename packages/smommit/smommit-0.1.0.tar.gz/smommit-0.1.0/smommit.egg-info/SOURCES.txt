@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+smommit/__init__.py
+smommit/__main__.py
+smommit/cli_utils.py
+smommit/command_handler.py
+smommit/file_compare.py
+smommit/small_commit.py
+smommit/smommit.py
+smommit.egg-info/PKG-INFO
+smommit.egg-info/SOURCES.txt
+smommit.egg-info/dependency_links.txt
+smommit.egg-info/entry_points.txt
+smommit.egg-info/requires.txt
+smommit.egg-info/top_level.txt
