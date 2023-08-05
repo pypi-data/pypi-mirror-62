@@ -1,0 +1,8 @@
+README.md
+setup.py
+workerqueue/__init__.py
+workerqueue/_workerqueue.py
+workerqueue.egg-info/PKG-INFO
+workerqueue.egg-info/SOURCES.txt
+workerqueue.egg-info/dependency_links.txt
+workerqueue.egg-info/top_level.txt
