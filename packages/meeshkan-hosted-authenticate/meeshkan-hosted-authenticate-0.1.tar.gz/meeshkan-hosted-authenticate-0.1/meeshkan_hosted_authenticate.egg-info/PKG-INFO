@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: meeshkan-hosted-authenticate
+Version: 0.1
+Summary: Utility package to to verify firebase access tokens on meeshkan.io
+Home-page: https://github.com/meeshkan/meeshkan-hosted-authenticate
+Author: Meeshkan Dev Team
+Author-email: dev@meeshkan.com
+License: MIT
+Description: 
+        # meeshkan-hosted-authenticate
+        Utility python package to verify firebase access tokens on meeshkan.io
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
