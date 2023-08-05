@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: clockify
+Version: 1.0.17
+Summary: A lib to access the Clockify API
+Home-page: https://gitlab.com/integration_seon/libs/application/clockify
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Goal
+It is reponsible for sending command to [Clockify API](https://clockify.me/).
+
+This lib was build based on [API documentation](https://clockify.me/developers-api) da ferramenta.
+
+## Installation
+To install clockify, run this command in your terminal:
+```
+pip install clockify
+```
+
+## Usage
+To use clockify in a Python project:
+
+```python
+from clockify.clockify import Clockify
+from pprint import pprint 
+clockify_server = Clockify("secretkey")
+workspaces = clockify_server.get_all_workspaces()
+
+for workspace in workspaces:
+    pprint (workspace)
+```
+
