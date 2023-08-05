@@ -1,0 +1,9 @@
+Pillow
+braceexpand
+msgpack
+numpy
+pyyaml
+scipy
+simplejson
+torch
+torchvision
