@@ -1,0 +1,10 @@
+lis/__init__.py,sha256=kbWgSU69rPk4tjLc_Ztt-DaMhBf_kLcHD2wlc3Z_j80,98
+lis/settings.py,sha256=iSiOAg8_LaI62zWW_WBBlREEOl7IUro48nV5LFIpf5k,800
+lis/streaming.py,sha256=hMYwsADm2KyFMoNosM0krLn34vcwHS-aWh-iDaUz2hg,775
+lis/collections/__init__.py,sha256=EnHovCoGu7N1kHV3EidgUnsl3zlTjysI2fB8oSEqgL4,324
+lis/decorators/__init__.py,sha256=1nPclUC2cTEH3FeDg-jX3CeCtP4t9FBBX8Zaf9rL0AA,1001
+lis-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lis-0.0.5.dist-info/METADATA,sha256=lUYzzgmJ5XMglQkni1b7jeqOlENraksdZHRQONBfqR4,1229
+lis-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+lis-0.0.5.dist-info/top_level.txt,sha256=Aakrgxp6Spk9LRU2QpH-1B4yWIsMKzSJC2NcmNzo63Y,4
+lis-0.0.5.dist-info/RECORD,,
