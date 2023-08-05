@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pynspawn
+Version: 1.2.1.post1
+Summary: Python wrapper for systemd-nspawn
+Home-page: UNKNOWN
+Author: Drew Foulks
+Author-email: dfoulks@gmail.com
+License: Apache v2 License
+Platform: UNKNOWN
+
+UNKNOWN
+
+
