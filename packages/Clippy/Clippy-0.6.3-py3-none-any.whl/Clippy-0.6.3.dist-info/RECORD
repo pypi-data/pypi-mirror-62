@@ -1,0 +1,14 @@
+clippy/__init__.py,sha256=QZSkzty7Nbiw-XZk_3Pk-ipXhShRSI9XTWU8Sw4agOo,482
+clippy/clip.py,sha256=F1G_SiEmxtA_YhrE5Q384SAyPuzc_zh2xLuITFlrnbk,2878
+clippy/command_method.py,sha256=INv4eebxXXS9s_uBP1b1hb3tml7Jbw8g9T12qfs1zY4,8697
+clippy/command_module.py,sha256=hVSSYqN7lwl9Jew-m3etqWWukcIPcoEn7-3WueHa6Gc,6436
+clippy/command_param.py,sha256=5w0iplYzJLse-wbXP6FF9OP67IU_YaHotGjaUBxfF3Q,2686
+clippy/command_protocols.py,sha256=w-JSIo2wHW3R5kdyYzuif2-gxhGVbTp322nu8ZKdPRA,1437
+clippy/command_return.py,sha256=lBjERULsvu0ALCIyVdkf9SR9-8ImB_byo5_6hsPv4iw,1167
+clippy/common.py,sha256=9_DWRaxbHaP_WhmKcdtXeLzS7MgIKP9AwiyAP2WiKd8,8938
+Clippy-0.6.3.dist-info/METADATA,sha256=_SRbFpehkUGq66kwZYXgMULbnxSfNVrzEE4cZE0sJtY,5045
+Clippy-0.6.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Clippy-0.6.3.dist-info/entry_points.txt,sha256=uJW6vlMaa9-9d6xNM_Y_93BSumkOv1QVo2hqnHtBEsE,31
+Clippy-0.6.3.dist-info/license.md,sha256=FIKsKOJDuXvGq-qHgPuBsxFDaI7AgdeLuU5ENiqWAMM,1079
+Clippy-0.6.3.dist-info/top_level.txt,sha256=Z-2TiR2BCmNeERKalQoelAjRVLR_hRya36b27Xa-nyI,7
+Clippy-0.6.3.dist-info/RECORD,,
