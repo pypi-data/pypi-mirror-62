@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: pithy
+Version: 0.0.10
+Summary: Pithy is a collection of utilities for scripting in Python 3.
+Home-page: https://github.com/gwk/pithy
+Author: George King
+Author-email: george.w.king@gmail.com
+License: CC0
+Description: UNKNOWN
+Keywords: ansi,apfs,buffer,chart,clone,console,crawl,csv,diff,format,graph,graphviz,html,iterable,json,lex,lexer,lexing,msgpack,parse,parser,parsing,scrape,sqlite,svg,syntax,test,testing,term,terminal,token,tokenization,tokenizer,types,typing,unicode,unit,utilities,xml,zst,zstandard
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Education
+Classifier: Topic :: Internet
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: System
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
