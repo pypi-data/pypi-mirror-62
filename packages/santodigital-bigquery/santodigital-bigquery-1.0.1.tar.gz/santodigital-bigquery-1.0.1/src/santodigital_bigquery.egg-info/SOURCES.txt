@@ -1,0 +1,10 @@
+setup.py
+src/santodigital_bigquery/__init__.py
+src/santodigital_bigquery.egg-info/PKG-INFO
+src/santodigital_bigquery.egg-info/SOURCES.txt
+src/santodigital_bigquery.egg-info/dependency_links.txt
+src/santodigital_bigquery.egg-info/not-zip-safe
+src/santodigital_bigquery.egg-info/requires.txt
+src/santodigital_bigquery.egg-info/top_level.txt
+src/santodigital_bigquery/io/__init__.py
+src/santodigital_bigquery/io/bigquery.py
