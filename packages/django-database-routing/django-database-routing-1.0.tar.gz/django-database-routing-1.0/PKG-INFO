@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: django-database-routing
+Version: 1.0
+Summary: Provides master-slave routing
+        and force master context manager for Django
+Home-page: https://github.com/just-work/django-database-routing
+Author: tumbler
+Author-email: zimbler@gmail.com
+License: Apache License v2.0
+Description: UNKNOWN
+Platform: UNKNOWN
