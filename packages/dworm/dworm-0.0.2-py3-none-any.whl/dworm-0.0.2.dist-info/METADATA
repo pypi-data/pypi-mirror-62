@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dworm
+Version: 0.0.2
+Summary: data warehouse orms.
+Home-page: http://example.com
+Author: singein
+Author-email: singein@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pycman
+Requires-Dist: django
+Requires-Dist: psycopg2
+
+dworm
+
+
+
