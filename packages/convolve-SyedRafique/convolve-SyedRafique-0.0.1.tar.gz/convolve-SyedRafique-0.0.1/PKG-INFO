@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: convolve-SyedRafique
+Version: 0.0.1
+Summary: image processsing package
+Home-page: UNKNOWN
+Author: syed hamza rafique
+Author-email: syedrafique2016@gmail.com
+License: UNKNOWN
+Description: # Package: convolve 
+        # Dependencies: NumPy
+        # Modules: convolution 
+        # convolution.convolve_new function works with n-dimentional inputs
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
