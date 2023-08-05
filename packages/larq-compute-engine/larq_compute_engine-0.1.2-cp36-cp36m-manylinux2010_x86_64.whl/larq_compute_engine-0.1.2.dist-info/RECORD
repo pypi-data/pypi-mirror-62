@@ -1,0 +1,10 @@
+_foo.cpython-36m-x86_64-linux-gnu.so,sha256=kZlJ7OKgz8qTeKLQD2f1kG5aiA92u1yGQZNuhN0bPs0,7728
+larq_compute_engine/__init__.py,sha256=AKk5cp0Dtiegu8NNHI23VRvOJK7crsYUZMvIN6rVK9k,109
+larq_compute_engine/mlir/_graphdef_tfl_flatbuffer.so,sha256=eHKymmVFVuQ66B1Oepc1-cv7wrRT8nuHxj8R0EPMDt0,14081040
+larq_compute_engine/mlir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+larq_compute_engine/mlir/python/converter.py,sha256=ttFlzEtcr-Kjcd0CR_htIdMrGwbA0WDa55459Qz9UmI,3989
+larq_compute_engine/mlir/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+larq_compute_engine-0.1.2.dist-info/METADATA,sha256=_2U66Es39estvqJWl7yBiyAqZIrEejlunaFQt_p_xf4,9195
+larq_compute_engine-0.1.2.dist-info/RECORD,,
+larq_compute_engine-0.1.2.dist-info/WHEEL,sha256=6qsdB1jNczZt0uWpsegNTq1KITMHdnt6wZgsGus-kwY,112
+larq_compute_engine-0.1.2.dist-info/top_level.txt,sha256=B_JedD3QVbyWZRG85QAySN8_vw7OLN0ijupvsZU3qGo,25
