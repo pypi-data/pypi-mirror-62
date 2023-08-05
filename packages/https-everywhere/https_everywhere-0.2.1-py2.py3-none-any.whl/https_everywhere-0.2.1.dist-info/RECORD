@@ -1,0 +1,15 @@
+https_everywhere/__init__.py,sha256=Ude9EFpbbqu3tCX9i0okHjaJl8nvczS9iW7lasyFf0A,611
+https_everywhere/_chrome_preload_hsts.py,sha256=TgTHdZ0IfNMNbJS1tcl8XmIuH_dYP1l3Ae0vfBNnGJs,1883
+https_everywhere/_fetch.py,sha256=m28NA0I7ViIFPkmqtxAuKV1EfkJdOFf_WtSdUd3Zj8g,2168
+https_everywhere/_fixme.py,sha256=rK_M30yJVO7XswJlLp9FL39-L2bw-yH-IrgGPPmuKQs,8435
+https_everywhere/_rules.py,sha256=sfnZRCUrTSgKcP0g9VvBUeOZDDDbHIr-JADqkCJknM4,29918
+https_everywhere/_unregex.py,sha256=g0psQ1vgrBWxJfe4b9yORA1bifavisQS1nZ17760uUo,4800
+https_everywhere/_util.py,sha256=8zgsRnXmgEunQlr15DQlHMxyEkH7dbmNvq9lUGsnYlo,623
+https_everywhere/adapter.py,sha256=OmnrItYGCZeSxfVjPzqcfwjEZ0uGY_UDs0HXY3tN5D0,12287
+https_everywhere/session.py,sha256=lZV4nj8Ee3kn4tp2RjSw3V3Sw_j3dHa0kPk2ZWt3JnE,341
+https_everywhere-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+https_everywhere-0.2.1.dist-info/METADATA,sha256=kuE62CPouh2hoorDXwO93l1H7sNIhftLU0wcWV2KBW4,1399
+https_everywhere-0.2.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+https_everywhere-0.2.1.dist-info/top_level.txt,sha256=R3cD0fDq-U544kB5yPndYi51GfO7kxMSC4nlDl7CXI0,17
+https_everywhere-0.2.1.dist-info/version.txt,sha256=GWZm1qfrRYP7nLHhWZcQELLim1t1Kqc_RW4OIGG2Ql8,5
+https_everywhere-0.2.1.dist-info/RECORD,,
