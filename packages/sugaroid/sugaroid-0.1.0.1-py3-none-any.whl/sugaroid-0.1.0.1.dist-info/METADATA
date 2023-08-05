@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sugaroid
+Version: 0.1.0.1
+Summary: sugaroid
+Home-page: https://srevinsaju.github.io/guiscrcpy
+Author: srevinsaju
+Author-email: srevin03@gmail.com
+License: GPL v3
+Download-URL: https://github.com/srevinsaju/guiscrcpy/archive/master.zip
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Dist: chatterbot
+Requires-Dist: googletrans
+Requires-Dist: google
+Requires-Dist: Django (==3.0.3)
+
+UNKNOWN
+
+
