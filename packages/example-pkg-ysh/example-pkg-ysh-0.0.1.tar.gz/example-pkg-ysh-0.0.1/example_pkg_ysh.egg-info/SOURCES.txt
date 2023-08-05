@@ -1,0 +1,9 @@
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/dummy_model.py
+example_pkg_ysh.egg-info/PKG-INFO
+example_pkg_ysh.egg-info/SOURCES.txt
+example_pkg_ysh.egg-info/dependency_links.txt
+example_pkg_ysh.egg-info/top_level.txt
+tests/__init__.py
