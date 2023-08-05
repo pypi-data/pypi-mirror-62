@@ -1,0 +1,19 @@
+attrs
+aiohttp
+appdirs
+click
+keyring
+logbook
+peewee
+janus
+cachetools>=3.0.0prompt_toolkit>2<4
+matrix-nio[e2e]>=0.8.0
+
+[:python_version < "3.5"]
+typing
+
+[ui]
+dbus-python
+PyGObject
+pydbus
+notify2
