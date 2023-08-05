@@ -1,0 +1,9 @@
+README.md
+setup.py
+prdc/__init__.py
+prdc/prdc.py
+prdc.egg-info/PKG-INFO
+prdc.egg-info/SOURCES.txt
+prdc.egg-info/dependency_links.txt
+prdc.egg-info/requires.txt
+prdc.egg-info/top_level.txt
