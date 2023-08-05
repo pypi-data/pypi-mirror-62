@@ -1,0 +1,3 @@
+[console_scripts]
+getube = src:__main__.main
+

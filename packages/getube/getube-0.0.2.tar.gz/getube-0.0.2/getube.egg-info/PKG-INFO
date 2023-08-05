@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: getube
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/zwolf21/getube
+Author: HS Moon
+Author-email: mhs9089@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: getube
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
+Provides-Extra: dev
