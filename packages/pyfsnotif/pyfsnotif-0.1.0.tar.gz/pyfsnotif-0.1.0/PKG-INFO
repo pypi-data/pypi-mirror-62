@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pyfsnotif
+Version: 0.1.0
+Summary: inotifier
+Home-page: https://gitlab.com/dugres/pyfsnotif/tree/stable
+Author: Louis RIVIERE
+Author-email: louis@riviere.xyz
+License: MIT
+Description: #########
+        pyfsnotif
+        #########
+        
+        **inotifier**
+        
+Keywords: utility
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
