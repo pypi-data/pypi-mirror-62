@@ -1,0 +1,4 @@
+[console_scripts]
+hippocrates = hippocrates.command_line:main
+hippocrates-results = hippocrates.results:main
+

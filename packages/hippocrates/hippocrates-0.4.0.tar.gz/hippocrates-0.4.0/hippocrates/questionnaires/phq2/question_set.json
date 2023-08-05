@@ -1,0 +1,38 @@
+{
+    "question_set": {
+        "1000": {
+            "answers": {
+                "More than half the days": 2,
+                "Nearly every day": 3,
+                "Not at all ": 0,
+                "Several days ": 1
+            },
+            "question": "Little interest or pleasure in doing things"
+        },
+        "2000": {
+            "answers": {
+                "More than half the days": 2,
+                "Nearly every day": 3,
+                "Not at all ": 0,
+                "Several days ": 1
+            },
+            "question": "Feeling down, depressed, or hopeless"
+        }
+    },
+    "question_title": "Over the last 2 weeks, how often have you been bothered by any of the following problems?",
+    "result_formula": "addition",
+    "results": [
+        {
+            "comment": "Monitor; may not require treatment",
+            "max": 2,
+            "min": 0,
+            "severity": "Minimal or none"
+        },
+        {
+            "comment": "Further diagnostic evaluation for Panic Disorder, Social Anxiety Disorder, and/or Posttraumatic Stress Disorder is warranted.",
+            "max": 6,
+            "min": 3,
+            "severity": "Mild"
+        }
+    ]
+}
