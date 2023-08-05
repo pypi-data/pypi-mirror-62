@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PyBoa
+Version: 0.1
+Summary: change python dict and list to act more as javascript objects
+Home-page: https://github.com/Pythux/PyBoa
+Author: Pythux
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyBoa
+
+change python dict and list recursively, making Data Structures where keys can be accessed by attribut
+
+
