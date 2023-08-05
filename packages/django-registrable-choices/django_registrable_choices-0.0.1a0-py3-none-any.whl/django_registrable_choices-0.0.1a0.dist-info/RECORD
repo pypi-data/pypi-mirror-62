@@ -1,0 +1,13 @@
+registrable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+registrable/choices.py,sha256=_nTEQ3XzcYerOkwa0W6sYMtLst6c0_P-jg_VugSjTao,5438
+sample/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sample/asgi.py,sha256=-eUt0BuOmD41ZgbjUWw2m_4g5dkd7BfonsVQpqPMzV8,389
+sample/manage.py,sha256=xMurdVqnugfKdBtbwId_407U7QTj7pyb-pTKcgfYrqY,626
+sample/settings.py,sha256=K9iPGHRI3RBT4b8F-H_cCmT3iuLTReMKN2kOIgXxmS4,3088
+sample/urls.py,sha256=aRuQfemEBdgBjpD1n7qBiieRNyeAPgd-KKWqEqhjrV4,748
+sample/wsgi.py,sha256=6p3RUkt6CT8ZrqPR3t_qiDzKoT3edrbdQKVB-NtNHwo,389
+django_registrable_choices-0.0.1a0.dist-info/LICENSE,sha256=BhLbIPttycmyaS6YFwgoCRU_860ynoz58-zQNl0NIJw,1455
+django_registrable_choices-0.0.1a0.dist-info/METADATA,sha256=J1kOF-bJUzPnbHPJBKWJ45uMNhg9wBnH2jEhJEhwo_s,531
+django_registrable_choices-0.0.1a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_registrable_choices-0.0.1a0.dist-info/top_level.txt,sha256=zL6UuAaTzx1wAjA6ZlF0-m-83F4FRJpM5bUGW_XezZY,19
+django_registrable_choices-0.0.1a0.dist-info/RECORD,,
