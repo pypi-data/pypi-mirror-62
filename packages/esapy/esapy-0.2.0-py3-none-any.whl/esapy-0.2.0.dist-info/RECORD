@@ -1,0 +1,10 @@
+esapy/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+esapy/clipboard.py,sha256=IZfcMILBnRxiays1hJmGUPZUdnYhBjkiUrIUhWb_NMc,301
+esapy/entrypoint.py,sha256=sz1M1s9nuYx8_RhCqx6hD45fzWLae3fXIZamGF0OjXE,296
+esapy/loadrc.py,sha256=31bTfo8jiZTTn0xZMxSA-CXm6-YSTdqtGJgOpcjsAOk,1209
+esapy/upload.py,sha256=gio5iQmwmxbojjn6S4HiqlFfWso1GxiZQo5GuS0WxKs,6636
+esapy-0.2.0.dist-info/entry_points.txt,sha256=7Cs9yg6GrwLtWJTlBm8VmBUN51pjRjUr-G5mOKq24Ao,127
+esapy-0.2.0.dist-info/LICENSE,sha256=OueyWf1aNCeePQiSbr2vn0PuIpFgXr2kbUkbFO2IHY0,1087
+esapy-0.2.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+esapy-0.2.0.dist-info/METADATA,sha256=FjOYQIY0aQq49PN38i5M-bWIZN1xyYajEGvlg7X7Q1I,2486
+esapy-0.2.0.dist-info/RECORD,,
