@@ -1,0 +1,13 @@
+{% extends 'manager/base.html' %}
+
+{% block content %}
+<article>
+    <h1>{{ view.entity.__name__ }}</h1>
+    <center>
+        <form class="form-container" action="{{ url_for(request.endpoint, **request.args) }}" method="post">
+            {{ form.csrf_token }}
+            {{ render_form(form) }}
+        </form>
+    </center>
+</article>
+{% endblock %}

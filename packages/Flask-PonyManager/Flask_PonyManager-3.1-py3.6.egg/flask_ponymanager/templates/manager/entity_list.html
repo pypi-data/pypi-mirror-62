@@ -1,0 +1,47 @@
+{% extends 'manager/base.html' %}
+
+{% block content %}
+<article class="mw-100 overflow-auto">
+    <h1>{{ view.entity.__name__ }}</h1>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            {% for key in columns.keys() %}
+            <th>{{ key }}</th>
+            {% endfor %}
+            <th><!-- edit button --></th>
+            <th><!-- delete button --></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+        <tr>
+            {% for name, column in columns.items() %}
+            <td>
+                {% if column.is_collection %}
+                <span>{{ entity.__getattribute__(name) | list | join(', ') }}</span>
+                {% else %}
+                <span>{{ entity.__getattribute__(name) }}</span>
+                {% endif %}
+            </td>
+            {% endfor %}
+            <td>
+                <a href="{{ url_for(edit_endpoint, key=key, value=entity.__getattribute__(key)) }}"
+                   class="btn btn-primary">Edit</a>
+            </td>
+            <td>
+                <a href="{{ url_for(delete_endpoint, key=key, value=entity.__getattribute__(key)) }}"
+                   class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {{ render_pagination(page, max_page) }}
+</article>
+<article>
+    <center>
+        <a href="{{ url_for(add_endpoint) }}" class="btn btn-success">Add</a>
+    </center>
+</article>
+{% endblock %}
