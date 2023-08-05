@@ -1,0 +1,8 @@
+dwave_qbsolv/__init__.py,sha256=hp4AQm3xQ5XS-D-doQUU3XCu-DFP11MbLefa9lNTa30,81
+dwave_qbsolv/dimod_wrapper.py,sha256=7jLBsyLvutcfXVyQm603g-kGIIlk9yF5EXT7qC1Q664,4724
+dwave_qbsolv/qbsolv_binding.cp35-win32.pyd,sha256=GMmuQA61aGqEJQixv6vHVzmup3BP_-ftNK1yQFnF9fQ,81408
+dwave_qbsolv-0.3.0.dist-info/LICENSE,sha256=qxKq_LVCWfVuBF69vQaAM7eOBMTU3LEntJzpfnVY3qY,10142
+dwave_qbsolv-0.3.0.dist-info/METADATA,sha256=vdK2SVQvcLY11ByPH9P3sV6GfXjYbQtHtebE_AYO20k,9366
+dwave_qbsolv-0.3.0.dist-info/WHEEL,sha256=ug3CNU21t25kd6eK7_prdrXpHurlLn3cp2VIDi7kDAQ,102
+dwave_qbsolv-0.3.0.dist-info/top_level.txt,sha256=JvOMc-WO2inLdkPmRyS4MzNDNssdymOuYMWxIEf6wD0,13
+dwave_qbsolv-0.3.0.dist-info/RECORD,,
