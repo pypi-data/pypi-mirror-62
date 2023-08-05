@@ -1,0 +1,6 @@
+oslo.log>=1.8.0
+oslo.serialization>=1.4.0
+requests>=2.5.2
+setuptools>=17.1
+six==1.13.0
+urllib3>=1.13
