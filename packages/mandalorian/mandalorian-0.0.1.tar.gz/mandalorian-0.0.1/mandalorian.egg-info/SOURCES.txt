@@ -1,0 +1,7 @@
+README.md
+setup.py
+mandalorian/__init__.py
+mandalorian.egg-info/PKG-INFO
+mandalorian.egg-info/SOURCES.txt
+mandalorian.egg-info/dependency_links.txt
+mandalorian.egg-info/top_level.txt
