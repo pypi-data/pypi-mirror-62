@@ -1,0 +1,15 @@
+pymiscell/__init__.py,sha256=2l6sJhMUHLtlt4wxgvr4KFbTjKKboa0Z5FZ_HPnShMc,191
+pymiscell/databases_tools.py,sha256=G2_ldlftyYoK4AEtfR-yr4Yzz_jzUoejSm8jk3PHzLw,9778
+pymiscell/filesystem_tools.py,sha256=lA4PEKo8Y8Oc093LxR5Im0aMSt8laM-5SGlr7mvSV6A,11225
+pymiscell/internet_tools.py,sha256=L4BAkr9e5p0H4LEk6OUH4TpMQQQBi3hvjnKxL3o7UlA,823
+pymiscell/math_tools.py,sha256=MsR-x-61-90J7KMyJdVKDvM58pId2nZUghNtB4kOv1U,11585
+pymiscell/plot_tools.py,sha256=KAA5QRxIWIkXZ6HBo46dQDcYZP_Ckib_xGK6GIHBNdA,2144
+pymiscell/statistics_tools.py,sha256=FfNTVkWXWUn_2ha-_8BE1H4tCDfEG6h34f7KmcHQyTc,3858
+pymiscell/strings_tools.py,sha256=vbEoj1oQCdEup5u4rk92YdPKIbkOod5OHeByRd1opGs,3660
+pymiscell/to_do.py,sha256=qXGmDwAGBYtX0n9wEPYm07Kl2oitY5rSiXB4xAEEKF0,1843
+pymiscell/try_r_python.py,sha256=k2c8nUV6qzPqKb4wpm2jMGreK1fJdfRSjat5n6cPojA,283
+pymiscell-0.0.1.dist-info/LICENSE,sha256=Zzz8_S14nIw6xxeiVekoT7e9buLx9g5T5MVfdyeuju4,1092
+pymiscell-0.0.1.dist-info/METADATA,sha256=F7LGk4tV5n3vGiQcmOLVKW5wJRHtx_fQqoRXxvBc1S4,1371
+pymiscell-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pymiscell-0.0.1.dist-info/top_level.txt,sha256=04epzVCD6e2npgy1SfTu_Jsg0uOeZbN0akSaKzk4k3I,10
+pymiscell-0.0.1.dist-info/RECORD,,
