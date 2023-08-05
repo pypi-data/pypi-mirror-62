@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tinyserver
+Version: 0.0.1
+Summary: A tiny http server
+Home-page: https://github.com/l0rb/miniserver
+Author: lorb
+Author-email: lorbritzer@yahoo.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# tinyserver
+
+it is a tiny http server
+
+
