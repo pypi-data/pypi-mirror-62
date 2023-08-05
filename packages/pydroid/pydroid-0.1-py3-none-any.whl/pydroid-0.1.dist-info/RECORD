@@ -1,0 +1,9 @@
+pydroid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydroid/ocroid.py,sha256=ecbQk7Uf7WjUbPviDwHSBmJZYU3hGwF2MIFb5siP-Zk,20719
+pydroid/pydroid.py,sha256=vuGez20wvIIKzEPjijAm8E-CRTSztEu-XLzJtxiTK-M,30613
+pydroid-0.1.data/scripts/sample_test_script.py,sha256=SNPK50oGXZfUde5l_4XhbRS2o_shc7xCrxvYkqYtN9I,1174
+pydroid-0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pydroid-0.1.dist-info/METADATA,sha256=btgrx-_m8oVwHeHUX1zEDWb-AHmy7usEC-YsMj0U22g,1281
+pydroid-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydroid-0.1.dist-info/top_level.txt,sha256=YFz6ChgTZundGAEZGa_YkugXxlWWlbZzVjClQw2P9Fk,8
+pydroid-0.1.dist-info/RECORD,,
