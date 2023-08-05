@@ -1,0 +1,6 @@
+google-cloud-bigquery
+pandas
+google-cloud-storage
+mock
+pyarrow
+pydata-google-auth

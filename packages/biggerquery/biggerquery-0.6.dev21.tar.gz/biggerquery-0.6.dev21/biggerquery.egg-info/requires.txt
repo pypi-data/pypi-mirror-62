@@ -1,0 +1,14 @@
+google-cloud-bigquery
+pandas
+google-cloud-storage
+mock
+pyarrow
+pydata-google-auth
+
+[beam]
+apache-beam[gcp]
+avro-python3
+nose
+
+[stackdriver]
+google-api-python-client
