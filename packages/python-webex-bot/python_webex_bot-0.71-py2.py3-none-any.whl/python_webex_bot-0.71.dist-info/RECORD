@@ -1,0 +1,15 @@
+python_webex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_webex/v1/Bot.py,sha256=wrzvNo6Npobx81SyGrvOGLuAKsYb5jNir-wgqMJYC3Q,1555
+python_webex/v1/Card.py,sha256=JszRK_2u8zA2L1WSQaz1mTyT1ysji6zloJUYpzNebaw,4246
+python_webex/v1/Message.py,sha256=SyHMjKuTzQoUNLcDzF388l1a1bT1e78aKaLNunRutx8,4060
+python_webex/v1/People.py,sha256=RpFRwEzc3sOhCX4gQPIzqQ9PvPJzoR0JSqpa-T4AWao,1435
+python_webex/v1/Room.py,sha256=J9sh-k_IRS9XPRRvw4to6xzt2NEx6uz7yy0UeEIXtD0,3047
+python_webex/v1/Webhook.py,sha256=du2cfJtW8cVRtvrBdhp_T8QFGyRPvpxWxYkEVfRZvOQ,3924
+python_webex/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_webex/webhook/__init__.py,sha256=OBKKYVMPlnpN-447HMTQ0pwWefoFoOBX6tTmAdJ9bSg,1269
+python_webex_bot-0.71.data/scripts/python_webex_bot,sha256=os-S34yu1W-L6lZPJQm-yk3L_nZyrmr7SKbuBBl8SZ4,55
+python_webex_bot-0.71.dist-info/LICENSE,sha256=WI5JtXXhjcqnIcPllDA1ZtuxNnZ515xjElcILo7z28o,1073
+python_webex_bot-0.71.dist-info/METADATA,sha256=2U3mWnASrqpmo1WhN31L4axQMCMS9etG7VZn5XiTvzo,6282
+python_webex_bot-0.71.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_webex_bot-0.71.dist-info/top_level.txt,sha256=mTllRCfxhaugpWF8UN7F84BG1ClBJ4vFN50qSWF2ap4,13
+python_webex_bot-0.71.dist-info/RECORD,,
