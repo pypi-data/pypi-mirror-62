@@ -1,0 +1,8 @@
+README.md
+setup.py
+py_gql_next.egg-info/PKG-INFO
+py_gql_next.egg-info/SOURCES.txt
+py_gql_next.egg-info/dependency_links.txt
+py_gql_next.egg-info/top_level.txt
+pygql/__init__.py
+pygql/client.py
