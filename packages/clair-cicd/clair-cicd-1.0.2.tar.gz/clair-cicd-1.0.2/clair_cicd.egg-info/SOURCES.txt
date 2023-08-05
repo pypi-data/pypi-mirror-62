@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bin/assess-vulnerabilities-risk.py
+clair_cicd/__init__.py
+clair_cicd/assessor.py
+clair_cicd/io.py
+clair_cicd/jsonschemas.py
+clair_cicd/models.py
+clair_cicd.egg-info/PKG-INFO
+clair_cicd.egg-info/SOURCES.txt
+clair_cicd.egg-info/dependency_links.txt
+clair_cicd.egg-info/requires.txt
+clair_cicd.egg-info/top_level.txt
+clair_cicd/jsonschemas/vulnerability.json
+clair_cicd/jsonschemas/whitelist.json
