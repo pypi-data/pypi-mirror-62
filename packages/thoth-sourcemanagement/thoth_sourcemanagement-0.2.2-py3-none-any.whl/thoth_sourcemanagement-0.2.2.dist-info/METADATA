@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: thoth-sourcemanagement
+Version: 0.2.2
+Summary: This package helps thoth app's interact with git forges like Github, Gitlab.
+Home-page: https://github.com/thoth-station/sourcemanagement
+Author: Sai Sankar Gochhayat
+Author-email: saisankargochhayat@gmail.com
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ogr
+Requires-Dist: requests
+
+# Thoth's Source Management
+This library provides abstraction that allow's thoth to interact with various source management systems.
+
+
