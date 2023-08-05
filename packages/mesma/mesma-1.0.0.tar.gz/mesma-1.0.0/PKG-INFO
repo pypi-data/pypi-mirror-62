@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mesma
+Version: 1.0.0
+Summary: Multiple Endmember Spectral Mixture Analysis (unmixing algorithm) and post-processing
+Home-page: https://bitbucket.org/kul-reseco/mesma
+Author: Ann Crabbé
+Author-email: ann.crabbe@kuleuven.be
+License: This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or any later version.
+Description: UNKNOWN
+Platform: UNKNOWN
