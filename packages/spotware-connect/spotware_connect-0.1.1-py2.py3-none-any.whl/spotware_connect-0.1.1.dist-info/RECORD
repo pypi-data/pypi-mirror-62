@@ -1,0 +1,11 @@
+spotware_connect/__init__.py,sha256=uOSAz0cP_h5d6puCx9bF6-NTtjAGk2rOWu94KS4Vyj4,241
+spotware_connect/client.py,sha256=Hyy0zFWEMiD2GiVyXF6deSR57wqt8DOyRhSoIqAPTyo,4156
+spotware_connect/protobuf.py,sha256=D2hlQT_qG4NLzHxDPQfOZsoa-ACw9NsaJiJJFtkvE5A,1547
+spotware_connect/protocol.py,sha256=iHyfMEIjAWsXTFWmBSOhbUCiOC8wtWqLDKszlZ6HYOs,2005
+spotware_connect-0.1.1.dist-info/AUTHORS.rst,sha256=W4EFYFw1v63sKJMZmIQtmfGfU4KKqppHdnWsgP32ohs,163
+spotware_connect-0.1.1.dist-info/LICENSE,sha256=m2gONNO5cj9dBkzfdVfR9xY8Aq1Zx0Mw44lsegSSk5s,1606
+spotware_connect-0.1.1.dist-info/METADATA,sha256=AVcEyDKMWd_2obiHvQJ9AO9_8-O5sf01nXZ22unOZCI,2331
+spotware_connect-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+spotware_connect-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+spotware_connect-0.1.1.dist-info/top_level.txt,sha256=nsjQH3gmMvtPp0-N2OOD6W-z2gCE7f8S4Dp2wChKWSE,17
+spotware_connect-0.1.1.dist-info/RECORD,,
