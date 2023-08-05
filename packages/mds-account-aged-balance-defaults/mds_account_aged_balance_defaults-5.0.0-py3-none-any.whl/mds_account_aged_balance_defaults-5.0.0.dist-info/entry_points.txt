@@ -1,0 +1,4 @@
+ 
+    [trytond.modules]
+    account_aged_balance_defaults = trytond.modules.account_aged_balance_defaults
+    

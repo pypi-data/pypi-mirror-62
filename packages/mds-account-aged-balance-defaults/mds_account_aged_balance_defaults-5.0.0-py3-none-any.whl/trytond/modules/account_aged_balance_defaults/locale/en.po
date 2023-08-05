@@ -1,0 +1,57 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+# account configuration
+msgctxt "view:account.configuration:"
+msgid "Aged Balance"
+msgstr "Aged Balance"
+
+msgctxt "field:account.configuration,agedbal_term1:"
+msgid "First Term"
+msgstr "First Term"
+
+msgctxt "help:account.configuration,agedbal_term1:"
+msgid "Number of days above the due date for term 1."
+msgstr "Number of days above the due date for term 1."
+
+msgctxt "field:account.configuration,agedbal_term2:"
+msgid "Second Term"
+msgstr "Second Term"
+
+msgctxt "help:account.configuration,agedbal_term2:"
+msgid "Number of days above the due date for term 2."
+msgstr "Number of days above the due date for term 2."
+
+msgctxt "field:account.configuration,agedbal_term3:"
+msgid "Third Term"
+msgstr "Third Term"
+
+msgctxt "help:account.configuration,agedbal_term3:"
+msgid "Number of days above the due date for term 3."
+msgstr "Number of days above the due date for term 3."
+
+# account.configuration.default_account
+msgctxt "field:account.configuration.default_account,agedbal_term1:"
+msgid "First Term"
+msgstr "First Term"
+
+msgctxt "help:account.configuration.default_account,agedbal_term1:"
+msgid "Number of days above the due date for term 1."
+msgstr "Number of days above the due date for term 1."
+
+msgctxt "field:account.configuration.default_account,agedbal_term2:"
+msgid "Second Term"
+msgstr "Second Term"
+
+msgctxt "help:account.configuration.default_account,agedbal_term2:"
+msgid "Number of days above the due date for term 2."
+msgstr "Number of days above the due date for term 2."
+
+msgctxt "field:account.configuration.default_account,agedbal_term3:"
+msgid "Third Term"
+msgstr "Third Term"
+
+msgctxt "help:account.configuration.default_account,agedbal_term3:"
+msgid "Number of days above the due date for term 3."
+msgstr "Number of days above the due date for term 3."

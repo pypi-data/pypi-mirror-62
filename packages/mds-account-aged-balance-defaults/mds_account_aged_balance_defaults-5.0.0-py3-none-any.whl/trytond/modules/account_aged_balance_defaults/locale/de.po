@@ -1,0 +1,33 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+# account
+msgctxt "view:account.configuration:"
+msgid "Aged Balance"
+msgstr "Fälligkeitsliste"
+
+msgctxt "field:account.configuration,agedbal_term1:"
+msgid "First Term"
+msgstr "1. Zeitraum"
+
+msgctxt "help:account.configuration,agedbal_term1:"
+msgid "Number of days above the due date for term 1."
+msgstr "Anzahl Tage über dem Fälligkeitsdatum für Zeitraum 1."
+
+msgctxt "field:account.configuration,agedbal_term2:"
+msgid "Second Term"
+msgstr "2. Zeitraum"
+
+msgctxt "help:account.configuration,agedbal_term2:"
+msgid "Number of days above the due date for term 2."
+msgstr "Anzahl Tage über dem Fälligkeitsdatum für Zeitraum 2."
+
+msgctxt "field:account.configuration,agedbal_term3:"
+msgid "Third Term"
+msgstr "3. Zeitraum"
+
+msgctxt "help:account.configuration,agedbal_term3:"
+msgid "Number of days above the due date for term 3."
+msgstr "Anzahl Tage über dem Fälligkeitsdatum für Zeitraum 2."
