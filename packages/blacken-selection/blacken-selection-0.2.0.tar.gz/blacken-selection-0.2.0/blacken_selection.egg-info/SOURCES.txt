@@ -1,0 +1,11 @@
+README.md
+setup.py
+blacken_selection/__init__.py
+blacken_selection/test_blacken_selection.py
+blacken_selection.egg-info/PKG-INFO
+blacken_selection.egg-info/SOURCES.txt
+blacken_selection.egg-info/dependency_links.txt
+blacken_selection.egg-info/entry_points.txt
+blacken_selection.egg-info/not-zip-safe
+blacken_selection.egg-info/requires.txt
+blacken_selection.egg-info/top_level.txt
