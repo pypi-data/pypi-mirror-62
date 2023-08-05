@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aktools
+Version: 0.0.2
+Summary: A tool for process financial data!
+Home-page: https://github.com/jindaxiang/aktools
+Author: Albert King
+Author-email: jindaxiang@163.com
+License: MIT
+Description: # Do Github editor here
+        
+        ## FastAPI
+        
+        ## AkShare
+        
+Keywords: stock,option,futures,bond,index,air,others,finance,spider,quant,quantitative,investment,trading,algotrading
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
