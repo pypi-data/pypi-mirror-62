@@ -1,0 +1,7 @@
+README.md
+setup.py
+bruter/__init__.py
+bruter.egg-info/PKG-INFO
+bruter.egg-info/SOURCES.txt
+bruter.egg-info/dependency_links.txt
+bruter.egg-info/top_level.txt
