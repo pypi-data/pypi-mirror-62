@@ -1,0 +1,12 @@
+pytest_instrument/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_instrument/backport_configurable_stacklevel.py,sha256=b5-_BEgxnQ-ou6DkyHme51FatL7zNCd1-weXdqKnNws,5691
+pytest_instrument/hooks.py,sha256=MXntKmVU-Fccfkrv8yT905b37B0JfjgLryfXb2J9Qng,419
+pytest_instrument/logging_helpers.py,sha256=ftH786__QUBd2Q7PYQxpwN7igwuaC_aOm6vwfAfZCCI,3296
+pytest_instrument/plugin.py,sha256=Zaf0THXRCCpCD4CoMQFGVFZ0PdhgnVeX-X-BBfhcz-M,5329
+pytest_instrument-0.3.0.dist-info/DESCRIPTION.rst,sha256=h2jhbXuXTBT0nqBkyQI0jJLexgid-zGOBRrOqAFvhdc,5949
+pytest_instrument-0.3.0.dist-info/METADATA,sha256=tzKndyVLFsLP6v3h8X0UvvUPzVP96x50IwZ6D1wy6YU,6904
+pytest_instrument-0.3.0.dist-info/RECORD,,
+pytest_instrument-0.3.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pytest_instrument-0.3.0.dist-info/entry_points.txt,sha256=P8PzUK6YhhIpJ77ZiFYbrAD8vv3NC7t9D9qLbxD3CzE,47
+pytest_instrument-0.3.0.dist-info/metadata.json,sha256=3WcvuGD5kuA40ImaEikpt92GOEwOoYSBAUO0GfSCy-4,1237
+pytest_instrument-0.3.0.dist-info/top_level.txt,sha256=0ubEZlvWnbTfrzw5F8vXGxUZsqvZcb9flnOytDGDHzM,18
