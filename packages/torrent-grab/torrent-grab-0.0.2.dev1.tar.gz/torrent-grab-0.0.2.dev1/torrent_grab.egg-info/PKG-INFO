@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: torrent-grab
+Version: 0.0.2.dev1
+Summary: command line torrent scraper
+Home-page: https://github.com/aksl337/torrent_scraper
+Author: Akshay Jadhav
+Author-email: akshay111jadhav@gmail.com
+License: MIT
+Download-URL: https://github.com/aksl337/torrent_scraper/archive/0.1.tar.gz
+Description: # Browse torrent from good-old shell(bye-bye crappy ads:grin:)
+        [![Build Status](https://travis-ci.org/aksl337/torrent_scraper.svg?branch=master)](ttps://travis-ci.org/aksl337/torrent_scraper)
+        
+        
+        
+        ## Installation by [Pip](http://pip.readthedocs.org/en/stable/installing/)
+        For Python 3
+        
+        ```bash
+        $  pip install torrent-grab
+        ```
+        
+        or just run script with python
+        but make sure you have module requirements satisfied.
+        
+        ```bash
+        $  pip -r requirements.txt
+        ```
+        
+        ## Usage
+        
+        ```bash
+        $ torrent-grab
+        ```
+        
+Keywords: torrent browse,scraper,torrent
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

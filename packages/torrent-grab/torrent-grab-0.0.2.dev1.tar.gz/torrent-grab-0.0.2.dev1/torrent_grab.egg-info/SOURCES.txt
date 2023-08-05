@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+torrent-grab/__init__.py
+torrent-grab/torrent-grab
+torrent_grab.egg-info/PKG-INFO
+torrent_grab.egg-info/SOURCES.txt
+torrent_grab.egg-info/dependency_links.txt
+torrent_grab.egg-info/requires.txt
+torrent_grab.egg-info/top_level.txt
