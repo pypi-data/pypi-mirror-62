@@ -1,0 +1,8 @@
+README.md
+setup.py
+ScriptorQL/__init__.py
+ScriptorQL/script.py
+ScriptorQL.egg-info/PKG-INFO
+ScriptorQL.egg-info/SOURCES.txt
+ScriptorQL.egg-info/dependency_links.txt
+ScriptorQL.egg-info/top_level.txt
