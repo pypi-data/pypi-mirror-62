@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: najva_api_client
+Version: 1.0.3
+Summary: Simpe code to call najva APIs
+Home-page: https://github.com/najva-com/python-api-client
+Author: najva
+Author-email: shayan4shayan@gmail.com
+License: MIT
+Download-URL: https://github.com/najva-com/python-api-client/archive/v1.0.3.tar.gz
+Description: UNKNOWN
+Keywords: najva,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
