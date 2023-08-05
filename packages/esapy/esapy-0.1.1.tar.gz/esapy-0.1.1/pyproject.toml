@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "esapy"
+version = "0.1.1"
+authors = ["Kosuke Mizuno <dotmapu@gmail.com>"]
+description = "A python implementation of esa.io API"
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/KosukeMizuno/esapy"
+
+exclude = ["trial/*"]
+
+
+[tool.poetry.scripts]
+esa-up = "esapy.entrypoint:main"
+jupyter-esa-up = "esapy.entrypoint:main"
+esa-token = "esapy.loadrc:get_token_and_team"
+
+
+[tool.poetry.dependencies]
+python = "^3.4"
+pyyaml = "^5.1"
+requests = "*"
+nbconvert = "*"
+
+
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
