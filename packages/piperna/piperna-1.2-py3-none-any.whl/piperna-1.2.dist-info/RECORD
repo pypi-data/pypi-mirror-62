@@ -1,0 +1,11 @@
+piperna/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+piperna/__main__.py,sha256=msA2BR637SJSmwoZ2Lj0PSrK44ZK19uPR00oc16GaP4,9009
+piperna/piperna.py,sha256=YigsLHaxgoNL6n9Q19HXjmEGxWP2Y7Ex_JXwpTifojk,21598
+piperna/data/environs.json,sha256=BHQK_A__bPkSYzfaSBBqDuyyGhTwjyZUu0piu-m8uZM,2355
+piperna/data/genomes.json,sha256=0pXiSf3mGFUv1T4uvSCYY-MO_0IPkJrduDMkosqNawY,1536
+piperna/scripts/summarize.R,sha256=WPUg4CqnxG22TjgoXY5ck6Z9dpn_8blmDK4XDbBEOYY,2665
+piperna-1.2.dist-info/METADATA,sha256=eqGGQ1VRmotkrvaeV-tymKan79M58NqM5Qrv7QRTQTA,10459
+piperna-1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+piperna-1.2.dist-info/entry_points.txt,sha256=F_2HdBuM9DgKQ4Ql3UmNEXrdU31UoGhV5kgMU4t4R-c,58
+piperna-1.2.dist-info/top_level.txt,sha256=H6mDD6tNLxliA6UlL2JAwXwCydDJY7MwG6riF60FFaw,8
+piperna-1.2.dist-info/RECORD,,
