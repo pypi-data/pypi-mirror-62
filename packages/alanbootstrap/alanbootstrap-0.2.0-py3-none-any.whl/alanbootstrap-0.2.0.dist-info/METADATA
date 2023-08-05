@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: alanbootstrap
+Version: 0.2.0
+Summary: Boostrap Module for Alan
+Home-page: https://bitbucket.org/rbcmllab/data_bootstrap/alanbootstrap/master
+Author: Keyi Tang
+Author-email: keyi.tang@rbc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Alan Bootstrap
+
+## Active Learning 
+
+#### Setup Environment
+1. Create a Conda Environment for Python 3.7.3:
+```bash
+conda create --name <EVN_NAME> python=3.7.3
+```
+2. Git Clone:
+```bash
+git clone https://<USR_NAME>@bitbucket.org/rbcmllab/data_bootstrap.git
+```
+3. Install Python Dependencies
+```bash
+cd data_bootstrap/alanbootstrap
+pip install -r requirements.txt
+pip install alanbootstrap
+```
+
+#### Run
+```bash
+> python bin/ast_al_bin.py -h
+
+usage: ast_al_bin.py [-h] -i INIT -p POOL -o OUTPUT [-d DEVSET]
+
+Parameters for AST classification active learner. The model will be persisted
+into the output folder at every iteration. If a dev dataset was provided, the
+classification accuracy score would be calculated on this dataset at each
+iteration and a performance plot would be saved into the output folder.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INIT, --init INIT  Shared-AST json file path; ASTs in this file will be
+                        used to initialize the active learner. Every AST in
+                        this file must contain a target value and a list of
+                        complexity_features.
+  -p POOL, --pool POOL  Shared-AST json file path; Active learner will sample
+                        ASTs from this file Every AST in this file must
+                        contain a list of complexity_features.
+  -o OUTPUT, --output OUTPUT
+                        Absolute path of the model persisting folder.
+  -d DEVSET, --devset DEVSET
+                        Shared-AST json file path; ASTs in this file will be
+                        used to evaluate the active learner. Every AST in this
+                        file must contain a target value and a list of
+                        complexity_features.
+```
+Example:
+```bash
+> python bin/ast_al_bin.py \
+-i $DATA_DIR/ast_train.json \
+-p $DATA_DIR/ast_pool.json \
+-o $DATA_DIR \
+-d $DATA_DIR/ast_dev.json
+```
+
+
+
+
+
+
