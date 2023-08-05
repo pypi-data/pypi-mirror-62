@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: grahamcracker
+Version: 1.0.0
+Summary: generate marshmallow schemas from dataclasses
+Home-page: UNKNOWN
+Author: Billy Peake
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: lint
+Provides-Extra: doc
+Provides-Extra: build
+Provides-Extra: test
