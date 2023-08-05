@@ -1,0 +1,5 @@
+jsii~=1.0.0
+publication>=0.0.3
+aws-cdk.aws-lambda<2.0.0,>=1.25.0
+aws-cdk.aws-lambda-nodejs<2.0.0,>=1.25.0
+aws-cdk.core<2.0.0,>=1.25.0

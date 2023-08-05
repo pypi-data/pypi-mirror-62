@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mbonig.aws_lambda_nodejs.NodejsFunctionPlus.egg-info/PKG-INFO
+src/mbonig.aws_lambda_nodejs.NodejsFunctionPlus.egg-info/SOURCES.txt
+src/mbonig.aws_lambda_nodejs.NodejsFunctionPlus.egg-info/dependency_links.txt
+src/mbonig.aws_lambda_nodejs.NodejsFunctionPlus.egg-info/requires.txt
+src/mbonig.aws_lambda_nodejs.NodejsFunctionPlus.egg-info/top_level.txt
+src/mbonig/aws_lambda_nodejs/__init__.py
+src/mbonig/aws_lambda_nodejs/py.typed
+src/mbonig/aws_lambda_nodejs/_jsii/__init__.py
+src/mbonig/aws_lambda_nodejs/_jsii/nodejsfunction-plus@0.0.1.jsii.tgz
