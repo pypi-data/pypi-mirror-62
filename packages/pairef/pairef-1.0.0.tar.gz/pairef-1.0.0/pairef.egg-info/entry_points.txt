@@ -1,0 +1,3 @@
+[console_scripts]
+pairef = pairef.launcher:run_pairef
+
