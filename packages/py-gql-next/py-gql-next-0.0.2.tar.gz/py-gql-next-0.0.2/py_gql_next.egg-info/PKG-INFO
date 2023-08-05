@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: py-gql-next
+Version: 0.0.2
+Summary: A simple python GraphQL client
+Home-page: https://github.com/wilkice/python-graphql
+Author: yan darcy
+Author-email: wojiabin@live.cn
+License: UNKNOWN
+Description: # python-graphql
+        Python client of GraphGL.This package mainly uses `requests` to build the http/https requests.
+        
+        ### Install
+        ```bash
+        pip install py-gql-next
+        ```
+        ### Usage: 
+        (example of gitlab graphql api)
+        ```python
+        from pygql import Client
+        
+        gitlab = Client(url="https://www.gitlab.com/api/graphql")
+        
+        query = {
+            "query": """
+            {
+                currentUser {
+                    name
+                }
+            }"""
+        }
+        
+        print(gitlab.execute(query))
+        ```
+        Result
+        ```json
+        {
+            "data": {
+                "currentUser": None
+            }
+        }
+        ```
+        TODO:
+        - [ ] async support
+        - [x] add tests
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
