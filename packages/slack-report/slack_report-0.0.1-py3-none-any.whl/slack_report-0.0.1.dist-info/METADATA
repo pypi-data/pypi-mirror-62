@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: slack-report
+Version: 0.0.1
+Summary: report output of subcommand to slack channel
+Home-page: https://github.com/dssg/slack-report
+Author: Jesse London
+Author-email: jesselondon@gmail.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Requires-Dist: argcmdr (==0.6.0)
+Requires-Dist: requests (==2.22.0)
+
+UNKNOWN
+
+
