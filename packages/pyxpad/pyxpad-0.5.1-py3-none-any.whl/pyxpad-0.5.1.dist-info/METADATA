@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyxpad
+Version: 0.5.1
+Summary: Data visualisation and analysis tool for IDAM
+Home-page: https://github.com/ZedThree/pyxpad/
+Author: Ben Dudson
+Author-email: benjamin.dudson@york.ac.uk
+Maintainer: Peter Hill
+Maintainer-email: peter.hill@york.ac.uk
+License: GPL
+Download-URL: https://github.com/ZedThree/pyxpad/archive/0.5.1.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: matplotlib (>=3.1)
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: scipy (>=1.4)
+Requires-Dist: Qt.py (>=1.2)
+Requires-Dist: xdg (>=4.0.1)
+
+UNKNOWN
+
+
