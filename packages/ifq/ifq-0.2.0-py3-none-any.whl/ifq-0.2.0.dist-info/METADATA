@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ifq
+Version: 0.2.0
+Summary: library to download www.ilfattoquotidiano.it issues in PDF
+Home-page: https://github.com/zmoog/ifq
+Author-email: maurizio.branca@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: lxml (>=4.5.0)
+Requires-Dist: requests (>=2.23.0)
+
+# ifq
+
+
