@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: interpret-recommenders
+Version: 0.1.0.0
+Summary: Microsoft Interpret Recommenders SDK for Python
+Home-page: https://docs.microsoft.com/en-us/azure/machine-learning/service/
+Author: Microsoft Corp
+Author-email: ilmat@microsoft.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: interpret
+Requires-Dist: interpret-community
+Requires-Dist: shap (<=0.29.3,>=0.20.0)
+Provides-Extra: deep
+Requires-Dist: tensorflow ; extra == 'deep'
+Provides-Extra: mimic
+Requires-Dist: lightgbm ; extra == 'mimic'
+Provides-Extra: sample
+Requires-Dist: hdbscan ; extra == 'sample'
+
+UNKNOWN
+
+
