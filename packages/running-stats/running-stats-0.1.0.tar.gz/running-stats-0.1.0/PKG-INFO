@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: running-stats
+Version: 0.1.0
+Summary: Library for computing linear statistics.
+Home-page: https://github.com/kod-kristoff/running-stats-py
+Author: Kristoffer Andersson
+Author-email: kod.kristoff@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/kod-kristoff/running-stats-py/issues
+Project-URL: Source Code, https://github.com/kod-kristoff/running-stats-py
+Description: # running-stats
+        
+        
+        ## master
+        [![Build Status](https://travis-ci.org/kod-kristoff/running-stats-py/g.svg?branch=master)](https://travis-ci.org/kod-kristoff/running-stats-py)
+        [![codecov](https://codecov.io/gh/kod-kristoff/running-stats-py/g/branch/master/graph/badge.svg)](https://codecov.io/gh/kod-kristoff/running-stats-py)
+        [![Build](https://github.com/kod-kristoff/running-stats-py/g/workflows/Build/badge.svg)](https://github.com/kod-kristoff/running-stats-py/actions)
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test

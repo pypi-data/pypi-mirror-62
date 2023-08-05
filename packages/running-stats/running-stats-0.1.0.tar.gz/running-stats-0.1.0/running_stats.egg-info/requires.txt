@@ -1,0 +1,11 @@
+
+[dev]
+black
+
+[test]
+pytest
+pytest-cov
+codecov
+pylint
+hypothesis
+attrs>=19.2
