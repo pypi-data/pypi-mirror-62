@@ -1,0 +1,17 @@
+nautik_als/__init__.py,sha256=Ce4B5soXhhD1jGTSJdXznq2gCMrOrs98zXcQsPrvbwA,257
+nautik_als/_als.cpython-36m-x86_64-linux-gnu.so,sha256=H9048a1epgCFaLUkznuNrNrE_6mUDjPkEZMu6A6fJyo,2906408
+nautik_als/_nearest_neighbours.cpython-36m-x86_64-linux-gnu.so,sha256=rybcOZoiE4jXKO5w1Pp2VwLXp_ldT1n1hsnASUsWzI4,1359216
+nautik_als/als.py,sha256=b83alhBPOiuWEN4Id0EASQ4r9dnOqg6AL5VfWeRZXwo,15389
+nautik_als/approximate_als.py,sha256=LGIMOEWPraQEk8TyExSC5eUAln689gdnvVuq6ioTk4w,17480
+nautik_als/bpr.cpython-36m-x86_64-linux-gnu.so,sha256=YhCVIhQKu5kGVMw5nz9R9FgJN14nXjKtJvzzHtzEcMg,1726560
+nautik_als/evaluation.cpython-36m-x86_64-linux-gnu.so,sha256=XoSEMOLE1nRwHnsMjHcbRtwQfQEFH0Ep3ckjVw22zy4,1212808
+nautik_als/lmf.cpython-36m-x86_64-linux-gnu.so,sha256=cGK2hRPGNbs3WjtW-hissHxZLYTWss8BhxNejKb9OJw,1708488
+nautik_als/nearest_neighbours.py,sha256=AnvCDxumZw_wT_gdYZohMTUyjR2N_g0wJnLPmXjc4OQ,6802
+nautik_als/prepare_data.py,sha256=I5LEQF5xag7X3H0JmRzIqKkJfV6qUc2I_WW00cBJ6Ec,2124
+nautik_als/recommender_base.cpython-36m-x86_64-linux-gnu.so,sha256=H_ZIrxw7NHjU_2RTBVubGWuPZW5L7D387MpDj4cNhLQ,1588744
+nautik_als/utils.py,sha256=DlktaVbSstFTPM-5cE7kOJmjfElg6PWkB8Mijf9idk8,1410
+nautik_als/cuda/__init__.py,sha256=mm4Wv-fqcOYACIpgYu1PxQVWRPNUVDCTYQwSXBCyhy0,139
+nautik_als-0.0.3.dist-info/METADATA,sha256=W42QXXu5MRut878FtCm2ZK6f-DbssXTf-BckVF0VOns,5983
+nautik_als-0.0.3.dist-info/WHEEL,sha256=OtOo_3rwwCWAklSC2BhCqBMJ_R3ddO6iBBnDrB96wZw,104
+nautik_als-0.0.3.dist-info/top_level.txt,sha256=TIWz0zi6TEW3jv5bPILAEX1NLSW9dLijCEot5U2HQKI,11
+nautik_als-0.0.3.dist-info/RECORD,,
