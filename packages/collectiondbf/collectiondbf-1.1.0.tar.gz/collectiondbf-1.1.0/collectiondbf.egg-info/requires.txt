@@ -1,0 +1,4 @@
+blackfynn
+requests
+progressbar2
+appdirs
