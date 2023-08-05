@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CAMD
+Version: 2020.2.24
+Summary: camd is software designed to support autonomous materials research and sequential learning
+Home-page: https://github.com/ToyotaResearchInstitute/beep
+Author: AMDD - Toyota Research Institute
+Author-email: murat.aykol@tri.global
+Maintainer: Murat Aykol, Joseph Montoya
+Maintainer-email: murat.aykol@tri.global
+License: Apache
+Description: camd is 
+Keywords: materials,battery,chemistry,science,density functional theory,energy,AI,artificial intelligence,sequential learning,active learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Provides-Extra: proto_dft
+Provides-Extra: tests
