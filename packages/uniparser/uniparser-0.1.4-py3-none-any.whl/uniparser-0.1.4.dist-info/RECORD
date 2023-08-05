@@ -1,0 +1,11 @@
+uniparser/__init__.py,sha256=d1EpO7F7lu9gDL2wbjrGNxLNzqiNundIoqONGCb2PL4,475
+uniparser/__main__.py,sha256=gm3Ii-uCxcFT5d34qVMVZf-LwyNtOm9P1DGKpCPOrNc,227
+uniparser/crawler.py,sha256=MlNW8Wkf1AhYJ_1c54k64GiAKxW9GDhZ44gtGOin01I,7109
+uniparser/parsers.py,sha256=hOkfhmA24TzrMGTZgi-w2Fp1ZLw6COyQdboSmDYKlHs,36192
+uniparser/utils.py,sha256=Y7MsQnEJg8MoTRgnGvS4iNVxwglkD-PDuIDffTVMLGE,13347
+uniparser/webui.py,sha256=qGpW_xQB7u9885p1GRuuEDpCuWrGuXmq4MRH_yH-PKQ,2663
+uniparser/templates/index.html,sha256=oD7yu_aU-EvD05eDrLx8RiYzp7vtCIsGPcW20lJvjpQ,18906
+uniparser-0.1.4.dist-info/METADATA,sha256=WqttBYotfJYeZGN819bscnET-FHsYAN3xWSJmAA-5b4,8544
+uniparser-0.1.4.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+uniparser-0.1.4.dist-info/top_level.txt,sha256=-gGz96QFSsidz9n7XvgtPpEwWR3SnPdsxm9SZS10Np4,10
+uniparser-0.1.4.dist-info/RECORD,,
