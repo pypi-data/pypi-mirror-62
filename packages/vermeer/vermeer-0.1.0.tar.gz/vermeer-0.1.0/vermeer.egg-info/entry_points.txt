@@ -1,0 +1,3 @@
+[console_scripts]
+vermeer = vermeer.api:main
+

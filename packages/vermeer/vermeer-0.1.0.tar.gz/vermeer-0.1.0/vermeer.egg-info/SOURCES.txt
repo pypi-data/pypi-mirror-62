@@ -1,0 +1,12 @@
+README.md
+setup.py
+vermeer/__init__.py
+vermeer/__pkginfo__.py
+vermeer/api.py
+vermeer/library.py
+vermeer.egg-info/PKG-INFO
+vermeer.egg-info/SOURCES.txt
+vermeer.egg-info/dependency_links.txt
+vermeer.egg-info/entry_points.txt
+vermeer.egg-info/requires.txt
+vermeer.egg-info/top_level.txt
