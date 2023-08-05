@@ -1,0 +1,16 @@
+spotware_connect/__init__.py,sha256=6f4bIPAGDzEUD4TQnHMzpXH3k8kxHtxoEeSRZmUPMuo,241
+spotware_connect/client.py,sha256=Hyy0zFWEMiD2GiVyXF6deSR57wqt8DOyRhSoIqAPTyo,4156
+spotware_connect/protobuf.py,sha256=D2hlQT_qG4NLzHxDPQfOZsoa-ACw9NsaJiJJFtkvE5A,1547
+spotware_connect/protocol.py,sha256=iHyfMEIjAWsXTFWmBSOhbUCiOC8wtWqLDKszlZ6HYOs,2005
+spotware_connect/messages/OpenApiCommonMessages_pb2.py,sha256=cYed2pjN0zuES_Tvj1W0o3cOwtrIChOyn5ISz1KPH78,7099
+spotware_connect/messages/OpenApiCommonModelMessages_pb2.py,sha256=elQr7DkWw6vBFm_vMulKlYOT_sLlbCBkWICxqtWVpS0,4544
+spotware_connect/messages/OpenApiMessages_pb2.py,sha256=rSTkE3Cp4AjY0bouMnRfa2GAB17N2zecEBE51O_VJoM,202792
+spotware_connect/messages/OpenApiModelMessages_pb2.py,sha256=mo1pbOejipR0Kz1I__2-iAKIF0HiLoT4vRMKQCjt-FI,157351
+spotware_connect/messages/__init__.py,sha256=VdgExY4MxHwJn5CfGXrhMNu84xncGYBZZF1-IdOzLZw,201
+spotware_connect-0.1.2.dist-info/AUTHORS.rst,sha256=W4EFYFw1v63sKJMZmIQtmfGfU4KKqppHdnWsgP32ohs,163
+spotware_connect-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spotware_connect-0.1.2.dist-info/METADATA,sha256=EVUrLZUn52nNz3jJdHpd3J8wTGsyIBiKmNoXNk8rj4w,3348
+spotware_connect-0.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+spotware_connect-0.1.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+spotware_connect-0.1.2.dist-info/top_level.txt,sha256=nsjQH3gmMvtPp0-N2OOD6W-z2gCE7f8S4Dp2wChKWSE,17
+spotware_connect-0.1.2.dist-info/RECORD,,
