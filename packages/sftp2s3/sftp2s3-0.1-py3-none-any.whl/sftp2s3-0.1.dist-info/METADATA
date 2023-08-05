@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sftp2s3
+Version: 0.1
+Summary: Objective of the library is to provide easy to use programmable interface for migrating data from sftp to s3
+Home-page: https://github.com/singh-devendra58/sftp2s3
+Author: Devendra singh
+Author-email: singh.devendra58@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# sftp2s3
+Objective of the library is to provide easy to use programmable interface for migrating data from sftp to s3
+
+
