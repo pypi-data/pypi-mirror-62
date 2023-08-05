@@ -1,0 +1,10 @@
+log_labeler/__init__.py,sha256=h7cjmoXTYmOnWk-wqzj6Sj5kifanDpYGcFtVitvaNng,235
+log_labeler/decorators.py,sha256=AC8tfiWzUbLCBiBk2Ys5mYke21HRhITs_7xuhc38sgw,1609
+log_labeler/filters.py,sha256=U0udoZl_HOlHfV3cdK1Wce-4Xxtz88CFgY9iLi7mLFk,789
+log_labeler/handlers.py,sha256=T8f7NOboiDG231UGt57NNcwr3vbqoLhhTthzeIzOJxQ,1975
+log_labeler/middleware.py,sha256=ZtH2AhCswCtfBbPMLDvRnGL2CAsQ5ZChvJ3S07v76ng,4057
+log_labeler/utils.py,sha256=CVhvxaoTXfG-j_gaK-IWdAU7Qf2CwVSA8vilnYCUR0Q,1058
+django_log_labeler-0.0.10.dist-info/METADATA,sha256=2S1DeecNpj8bjbswGs78v4M98pwzLwzga3shlMKvkNQ,3824
+django_log_labeler-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_log_labeler-0.0.10.dist-info/top_level.txt,sha256=gYw416_Ipkz23DVNDj48DtIRDldDB2_1aLe0tv1jyIc,12
+django_log_labeler-0.0.10.dist-info/RECORD,,
