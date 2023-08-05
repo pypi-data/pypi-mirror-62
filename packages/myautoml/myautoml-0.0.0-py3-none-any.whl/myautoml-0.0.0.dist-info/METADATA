@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: myautoml
+Version: 0.0.0
+Summary: My Auto ML - tools for running Data Science projects
+Home-page: https://github.com/erikjandevries/myautoml
+Author: Erik Jan de Vries
+Author-email: erikjandevries@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: scikit-learn
+Provides-Extra: all
+Requires-Dist: shap ; extra == 'all'
+Requires-Dist: hyperopt ; extra == 'all'
+Requires-Dist: mlflow ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: seaborn ; extra == 'all'
+Provides-Extra: evaluation
+Requires-Dist: shap ; extra == 'evaluation'
+Provides-Extra: optimisation
+Requires-Dist: hyperopt ; extra == 'optimisation'
+Provides-Extra: tracking
+Requires-Dist: mlflow ; extra == 'tracking'
+Provides-Extra: visualisation
+Requires-Dist: matplotlib ; extra == 'visualisation'
+Requires-Dist: seaborn ; extra == 'visualisation'
+
+# myautoml
+My Auto ML
+
+## Getting started
+```python
+import myautoml as maml
+print(maml.__version__)
+```
+
+
