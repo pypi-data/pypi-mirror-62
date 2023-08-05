@@ -1,0 +1,13 @@
+NOTICE,sha256=gIqbg7IbqPmj5hu3fUyxCF9EbIMVtmMeB9mNIfsleTw,885
+passpy/__init__.py,sha256=nsvqXEJqVW2rN6JnFSLuyI-OC9QHydFaB2RkdoMZxvQ,964
+passpy/__main__.py,sha256=F274U6_GZG9YOxr666ayNbhBf5riSxNqzezi_651b4M,21250
+passpy/exceptions.py,sha256=0xPe_jWmhH0ydxN7a8773rFbbd7T9boCiH9b8NKJk0s,1165
+passpy/git.py,sha256=T5_bytdbsGW3xFQMTaOGbKLxsk8qaZhPx_d46LTzGKk,3940
+passpy/gpg.py,sha256=wWYFFv5Mxm2Ohdfs212jbDNP9SefG1vKz-JiZTXFCLE,4361
+passpy/store.py,sha256=RpMipHSGoYv1z--Z_K09nDicQe7fwnCn-l5cHa3KbQE,21376
+passpy/util.py,sha256=JXnyBFHrxRTCQHlN7_g0tAwli09SqBGiT26yCFzeDbo,7193
+passpy-1.0.2.dist-info/entry_points.txt,sha256=qXb_muw-WxO9ly6oZCHCRjy83o1xcM2CZEwDN2zXE0E,46
+passpy-1.0.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+passpy-1.0.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+passpy-1.0.2.dist-info/METADATA,sha256=EI-NWfXQxXX9cj5bEWDSF6R73QRERi5ygXoDlrRpz4g,3760
+passpy-1.0.2.dist-info/RECORD,,

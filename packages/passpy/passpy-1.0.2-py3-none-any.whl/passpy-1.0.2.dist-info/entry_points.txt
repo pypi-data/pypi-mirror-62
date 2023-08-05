@@ -1,0 +1,3 @@
+[console_scripts]
+passpy=passpy.__main__:cli
+
