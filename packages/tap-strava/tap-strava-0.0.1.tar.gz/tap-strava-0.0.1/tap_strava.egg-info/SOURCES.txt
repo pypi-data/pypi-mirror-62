@@ -1,0 +1,12 @@
+README.md
+setup.py
+tap_strava/__init__.py
+tap_strava/discover.py
+tap_strava/streams.py
+tap_strava/sync.py
+tap_strava.egg-info/PKG-INFO
+tap_strava.egg-info/SOURCES.txt
+tap_strava.egg-info/dependency_links.txt
+tap_strava.egg-info/entry_points.txt
+tap_strava.egg-info/requires.txt
+tap_strava.egg-info/top_level.txt
