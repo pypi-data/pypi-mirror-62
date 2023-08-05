@@ -1,0 +1,14 @@
+{% extends 'manager/base.html' %}
+
+{% block content %}
+<article>
+    <h1>Views:</h1>
+    <ul>
+        {% for name, view in manager.views.items() %}
+        {% if 'awesome_style' not in name %}
+        <li><a href="{{ url_for(view.endpoint) }}">{{ name }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</article>
+{% endblock %}
