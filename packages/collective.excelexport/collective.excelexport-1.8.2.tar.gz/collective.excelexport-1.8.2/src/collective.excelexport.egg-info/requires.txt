@@ -1,0 +1,12 @@
+Plone
+plone.api
+setuptools
+xlwt
+
+[test]
+collective.z3cform.datagridfield
+ecreall.helpers.testing
+plone.app.dexterity
+plone.app.relationfield
+plone.app.testing
+xlrd
