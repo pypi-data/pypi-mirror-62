@@ -1,0 +1,10 @@
+queryset_serializer/__init__.py,sha256=WRWO0ZVOMAHCFMwrP98wcYf0vChbVRpav4UFFCHk8nE,297
+queryset_serializer/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+queryset_serializer/db/models/__init__.py,sha256=yVzPTh57c1h-BHQlD8Et0WrV8df0199ZUGIiPrstx4Y,1915
+queryset_serializer/serializers/__init__.py,sha256=JXz5i2AX72MeyAdrMET7pLCfrO7Z2ZQc7wJd64iP4WY,10239
+queryset_serializer/serializers/model/__init__.py,sha256=WRgQjMakJN2VCLxdkAi5-m2RdHPpC0CCsF_qR2Hw4cA,6924
+queryset_serializer-0.0.1.dist-info/LICENSE,sha256=BBfdCYe2uAaMySSq6Ra0MOIKZbWB8ZY6XmmZNE5Ar6I,1550
+queryset_serializer-0.0.1.dist-info/METADATA,sha256=GDeeRVsESr4AmgDdSEbC9n56n5BMe0Z48aN8LCgkKRc,2425
+queryset_serializer-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+queryset_serializer-0.0.1.dist-info/top_level.txt,sha256=y6VhRvV7iD37NrHVuy7Z1S2lXz9xao3OS9-G4mRsZb4,20
+queryset_serializer-0.0.1.dist-info/RECORD,,
