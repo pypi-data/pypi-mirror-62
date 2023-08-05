@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rf-httplibrary
+Version: 2.0.0b3
+Summary: HTTP Request Test Library.
+Home-page: https://github.com/MainSystemDev/rf-httplibrary
+Author: Shiela Buitizon
+Author-email: shiela.buitizon@mnltechnology.com
+License: Type license() to see the full license text
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Description-Content-Type: text/markdown
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: requests (==2.22.0)
+
+HttpLibrary
+
+Version = 0.1
+
+Library Scope: TEST SUITE
+
+Created: 11/06/2019
+
+Author: Shiela Buitizon | email:shiela.buitizon@mnltechnology.com
+
+Company: Spiralworks Technologies Inc.
+
+Description: A test library for web services and rest ful api.
+
+
+
+To run unit test
+
+    python -m unittest
+
+To generate library documentation
+
+    cd ../rf-httplibrary
+    python -m robot.libdoc HttpLibrary HttpLibrary.html 
+
