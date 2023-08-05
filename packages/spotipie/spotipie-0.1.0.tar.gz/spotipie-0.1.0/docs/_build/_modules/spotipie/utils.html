@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.utils &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/spotipie.html">spotipie API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../../index.html">Docs</a></li>
+              
+                <li><a href="../index.html">Module code</a></li>
+              
+              <li>spotipie.utils</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <h1>Source code for spotipie.utils</h1><div class="highlight"><pre>
+<span></span><span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;pretty&#39;</span><span class="p">,</span> <span class="s1">&#39;get_default_http_adapter&#39;</span><span class="p">,</span> <span class="s1">&#39;ResourceInfo&#39;</span><span class="p">,</span> <span class="s1">&#39;normalize_scope&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;format_uri&#39;</span><span class="p">,</span> <span class="s1">&#39;format_url&#39;</span><span class="p">,</span> <span class="s1">&#39;RESOURCE_TYPES&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">pprint</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Iterable</span><span class="p">,</span> <span class="n">Tuple</span>
+
+<span class="kn">import</span> <span class="nn">urllib3</span>
+<span class="kn">from</span> <span class="nn">attr</span> <span class="kn">import</span> <span class="n">attrib</span><span class="p">,</span> <span class="n">attrs</span>
+<span class="kn">from</span> <span class="nn">cachecontrol</span> <span class="kn">import</span> <span class="n">CacheControlAdapter</span>
+
+<span class="kn">from</span> <span class="nn">spotipie.exceptions</span> <span class="kn">import</span> <span class="n">ResourceTypeMismatch</span>
+
+<span class="n">OPEN_SPOTIFY_URL</span> <span class="o">=</span> <span class="s1">&#39;https://open.spotify.com&#39;</span>
+<span class="n">RESOURCE_TYPES</span> <span class="o">=</span> <span class="nb">frozenset</span><span class="p">([</span><span class="s1">&#39;track&#39;</span><span class="p">,</span> <span class="s1">&#39;album&#39;</span><span class="p">,</span> <span class="s1">&#39;artist&#39;</span><span class="p">,</span> <span class="s1">&#39;playlist&#39;</span><span class="p">,</span> <span class="s1">&#39;user&#39;</span><span class="p">])</span>
+
+
+<div class="viewcode-block" id="format_uri"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.format_uri">[docs]</a><span class="k">def</span> <span class="nf">format_uri</span><span class="p">(</span><span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">,</span> <span class="n">owner_id</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">owner_id</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">&#39;spotify:user:</span><span class="si">{}</span><span class="s1">:</span><span class="si">{}</span><span class="s1">:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">owner_id</span><span class="p">,</span> <span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s1">&#39;spotify:</span><span class="si">{}</span><span class="s1">:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="format_url"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.format_url">[docs]</a><span class="k">def</span> <span class="nf">format_url</span><span class="p">(</span><span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">,</span> <span class="n">owner_id</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">owner_id</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">&#39;/&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">OPEN_SPOTIFY_URL</span><span class="p">,</span> <span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="n">owner_id</span><span class="p">,</span> <span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">])</span>
+    <span class="k">return</span> <span class="s1">&#39;/&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">OPEN_SPOTIFY_URL</span><span class="p">,</span> <span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">])</span></div>
+
+
+<div class="viewcode-block" id="ResourceInfo"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.ResourceInfo">[docs]</a><span class="nd">@attrs</span><span class="p">(</span><span class="n">frozen</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">ResourceInfo</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Pseudo-immutable object storing type and ID of a Spotify Resource. The ``owner_id`` is an</span>
+<span class="sd">    optional field and can be provided only for playlists: the old URIs and URLs for playlists</span>
+<span class="sd">    required this field in the past. In any case,</span>
+
+<span class="sd">    It can be constructed from spotify URIs (strings) and URLs.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">type</span> <span class="o">=</span> <span class="n">attrib</span><span class="p">()</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">attrib</span><span class="p">()</span>
+    <span class="n">owner_id</span> <span class="o">=</span> <span class="n">attrib</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__attrs_post_init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">RESOURCE_TYPES</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;invalid resource type: </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="o">.</span><span class="n">isalnum</span><span class="p">():</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;invalid resource id: </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="o">!=</span> <span class="s1">&#39;playlist&#39;</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;you provided owner_id but the object is not a playlist, it is: </span><span class="si">%r</span><span class="s1">&#39;</span>
+                                 <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="o">.</span><span class="n">isalnum</span><span class="p">():</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;invalid owner obj_id (not alphanumeric): </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="p">)</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_from_tokens</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">uri_or_url</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">:]</span>
+            <span class="k">return</span> <span class="n">ResourceInfo</span><span class="p">(</span><span class="n">obj_type</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">)</span>
+
+        <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="c1"># Handles legacy playlist URI/URL: spotify:user:{id}:playlist:{id} and analogous URL</span>
+            <span class="n">user</span><span class="p">,</span> <span class="n">owner_id</span><span class="p">,</span> <span class="n">playlist</span><span class="p">,</span> <span class="n">obj_id</span> <span class="o">=</span> <span class="n">tokens</span>
+            <span class="k">if</span> <span class="n">user</span> <span class="o">!=</span> <span class="s1">&#39;user&#39;</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;invalid Spotify URI/URL: &#39;</span> <span class="o">+</span> <span class="n">uri_or_url</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">ResourceInfo</span><span class="p">(</span><span class="n">playlist</span><span class="p">,</span> <span class="n">obj_id</span><span class="p">,</span> <span class="n">owner_id</span><span class="p">)</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;invalid Spotify URI/URL: &#39;</span> <span class="o">+</span> <span class="n">uri_or_url</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ResourceInfo.from_uri"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.ResourceInfo.from_uri">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">from_uri</span><span class="p">(</span><span class="n">uri</span><span class="p">):</span>
+        <span class="n">tokens</span> <span class="o">=</span> <span class="n">uri</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;spotify&#39;</span><span class="p">:</span>   <span class="c1"># &quot;spotify:&quot; part is optional</span>
+            <span class="n">tokens</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">ResourceInfo</span><span class="o">.</span><span class="n">_from_tokens</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">uri</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ResourceInfo.from_url"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.ResourceInfo.from_url">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">from_url</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">url</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">OPEN_SPOTIFY_URL</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;invalid URL: &#39;</span> <span class="o">+</span> <span class="n">url</span><span class="p">)</span>
+        <span class="n">tokens</span> <span class="o">=</span> <span class="n">url</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="mi">3</span><span class="p">:]</span>
+        <span class="k">return</span> <span class="n">ResourceInfo</span><span class="o">.</span><span class="n">_from_tokens</span><span class="p">(</span><span class="n">tokens</span><span class="p">,</span> <span class="n">url</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ResourceInfo.parse"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.ResourceInfo.parse">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">parse</span><span class="p">(</span><span class="n">uri_or_url</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">uri_or_url</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;https&#39;</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">ResourceInfo</span><span class="o">.</span><span class="n">from_url</span><span class="p">(</span><span class="n">uri_or_url</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">ResourceInfo</span><span class="o">.</span><span class="n">from_uri</span><span class="p">(</span><span class="n">uri_or_url</span><span class="p">)</span></div>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">url</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">format_url</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">uri</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">format_uri</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">(type=</span><span class="si">%r</span><span class="s1">, id=</span><span class="si">%r</span><span class="s1">, owner_id=</span><span class="si">%r</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span>
+                                                        <span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">owner_id</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1">(type=</span><span class="si">%r</span><span class="s1">, id=</span><span class="si">%r</span><span class="s1">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,)</span>
+
+    <span class="k">def</span> <span class="fm">__eq__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Note: owner_id is not used &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">ResourceInfo</span><span class="p">)</span> <span class="ow">and</span> <span class="n">other</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">type</span> <span class="ow">and</span> <span class="n">other</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span>
+
+    <span class="k">def</span> <span class="fm">__hash__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Note: owner_id is not used &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">hash</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">type</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">)</span></div>
+
+
+<span class="k">def</span> <span class="nf">get_id</span><span class="p">(</span><span class="n">identifier</span><span class="p">,</span> <span class="n">expected_type</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Returns the base-62 ID number of a Spotify resource given a Spotify URI, a Spotify URL or</span>
+<span class="sd">    the ID itself.</span>
+
+<span class="sd">    May raise:</span>
+<span class="sd">        * :exc:`ValueError` - if either ``identifier`` or ``expected_type`` are not valid;</span>
+<span class="sd">        * :exc:`~spotipie.TypeMismatchError` - if the caller expect the first argument is the</span>
+<span class="sd">          identifier of an object of type ``expected_type`` but it is not.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">identifier</span><span class="o">.</span><span class="n">isalnum</span><span class="p">():</span>
+        <span class="k">return</span> <span class="n">identifier</span>
+
+    <span class="n">resource</span> <span class="o">=</span> <span class="n">ResourceInfo</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">identifier</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">expected_type</span> <span class="ow">and</span> <span class="n">resource</span><span class="o">.</span><span class="n">type</span> <span class="o">!=</span> <span class="n">expected_type</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">expected_type</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">RESOURCE_TYPES</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Invalid expected_type argument: &#39;</span> <span class="o">+</span> <span class="n">expected_type</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ResourceTypeMismatch</span><span class="p">(</span><span class="n">expected_type</span><span class="p">,</span> <span class="n">actual_type</span><span class="o">=</span><span class="n">resource</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">resource</span><span class="o">.</span><span class="n">id</span>
+
+
+<div class="viewcode-block" id="pretty"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.pretty">[docs]</a><span class="k">def</span> <span class="nf">pretty</span><span class="p">(</span><span class="n">d</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot; Prettify a dictionary &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">pprint</span><span class="o">.</span><span class="n">pformat</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">compact</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="normalize_scope"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.normalize_scope">[docs]</a><span class="k">def</span> <span class="nf">normalize_scope</span><span class="p">(</span><span class="n">scope</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="o">...</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">scope</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">tuple</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">tuple</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">scope</span><span class="o">.</span><span class="n">split</span><span class="p">()))</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="n">Iterable</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">tuple</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">scope</span><span class="p">)))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;scope must be str or Iterable[str]&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="get_default_http_adapter"><a class="viewcode-back" href="../../api/spotipie.utils.html#spotipie.utils.get_default_http_adapter">[docs]</a><span class="k">def</span> <span class="nf">get_default_http_adapter</span><span class="p">(</span><span class="n">adapter_class</span><span class="o">=</span><span class="n">CacheControlAdapter</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Returns an HTTPAdapter that can be mounted to a session in order to add automatically</span>
+<span class="sd">    resend a request if it failed. By default, a CacheControlAdapter is added. This</span>
+<span class="sd">    adds caching to the session. Pass :class:`~requests.adapters.HttpAdapter` if you</span>
+<span class="sd">    don&#39;t want caching.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">adapter_class</span><span class="p">(</span>
+        <span class="n">max_retries</span><span class="o">=</span><span class="n">urllib3</span><span class="o">.</span><span class="n">Retry</span><span class="p">(</span>
+            <span class="n">total</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+            <span class="n">backoff_factor</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span>
+            <span class="n">status_forcelist</span><span class="o">=</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">502</span><span class="p">,</span> <span class="mi">504</span><span class="p">)</span>
+        <span class="p">))</span></div>
+</pre></div>
+
+          </div>
+            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

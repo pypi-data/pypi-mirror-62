@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.auth.utils &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="spotipie.client" href="spotipie.client.html" />
+    <link rel="prev" title="spotipie.auth.sessions" href="spotipie.auth.sessions.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spotipie.client.html" title="spotipie.client"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="spotipie.auth.sessions.html" title="spotipie.auth.sessions"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="spotipie.html" >spotipie API</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="spotipie.auth.html" accesskey="U">spotipie.auth</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="spotipie.html">spotipie API</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="spotipie.auth.html">spotipie.auth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.client.html">spotipie.client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.exceptions.html">spotipie.exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.utils.html">spotipie.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../index.html">Docs</a></li>
+              
+                <li><a href="spotipie.html">spotipie API</a></li>
+              
+                <li><a href="spotipie.auth.html">spotipie.auth</a></li>
+              
+              <li>spotipie.auth.utils</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <div class="section" id="module-spotipie.auth.utils">
+<span id="spotipie-auth-utils"></span><h1>spotipie.auth.utils<a class="headerlink" href="#module-spotipie.auth.utils" title="Permalink to this headline">¶</a></h1>
+<p class="rubric"><span class="h2-no-toc">Functions</span></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.auth.utils.get_user_authorization" title="spotipie.auth.utils.get_user_authorization"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_user_authorization</span></code></a>(session[, app_name, …])</p></td>
+<td><p>Asks the user to authorize the authorize your app.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.auth.utils.prompt_for_user_authorization" title="spotipie.auth.utils.prompt_for_user_authorization"><code class="xref py py-obj docutils literal notranslate"><span class="pre">prompt_for_user_authorization</span></code></a>(session)</p></td>
+<td><p>Useful for command-line apps, when you don’t want to use <a class="reference internal" href="#spotipie.auth.utils.get_user_authorization" title="spotipie.auth.utils.get_user_authorization"><code class="xref py py-func docutils literal notranslate"><span class="pre">get_user_authorization()</span></code></a>.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric"><span class="h2-no-toc">Reference</span></p>
+<dl class="function">
+<dt id="spotipie.auth.utils.get_user_authorization">
+<code class="sig-prename descclassname">spotipie.auth.utils.</code><code class="sig-name descname">get_user_authorization</code><span class="sig-paren">(</span><em class="sig-param">session</em>, <em class="sig-param">app_name=None</em>, <em class="sig-param">port=1234</em>, <em class="sig-param">timeout=120</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/utils.html#get_user_authorization"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.auth.utils.get_user_authorization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Asks the user to authorize the authorize your app. The authorization flow depends
+on the type of session to pass. As a side effect, the obtained token is stored
+in the session.</p>
+<p>This function launches a flask app listening to <code class="docutils literal notranslate"><span class="pre">http://localhost:{port}/callback</span></code>
+in a new thread, which once the authorization is completed, sends the received token
+to the main thread through a messaging queue; in this way, this function does not require
+the user to manually copy and paste the callback URL into your app.</p>
+<p><strong>IMPORTANT:</strong> to use this function</p>
+<ul class="simple">
+<li><p>you need to install optional dependencies through: <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">spotipie[auth-app]</span></code></p></li>
+<li><p>you need to whitelist <code class="docutils literal notranslate"><span class="pre">http://localhost:{port}/callback</span></code> in your app callback URLs.</p></li>
+</ul>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>session</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference internal" href="spotipie.auth.sessions.html#spotipie.auth.sessions.AuthorizationCodeSession" title="spotipie.auth.sessions.AuthorizationCodeSession"><code class="xref py py-class docutils literal notranslate"><span class="pre">AuthorizationCodeSession</span></code></a>, <a class="reference internal" href="spotipie.auth.sessions.html#spotipie.auth.sessions.ImplicitGrantSession" title="spotipie.auth.sessions.ImplicitGrantSession"><code class="xref py py-class docutils literal notranslate"><span class="pre">ImplicitGrantSession</span></code></a>]) – OAuth2 session to authorize</p></li>
+<li><p><strong>app_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Optional" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]) – name of your application (used in the “success.html” page)</p></li>
+<li><p><strong>port</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – TCP port the server listen to</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – shutdown the server app after this time (in seconds)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>OAuth2Token</p>
+</dd>
+</dl>
+<p>See Also:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="spotipie.auth.utils.prompt_for_user_authorization">
+<code class="sig-prename descclassname">spotipie.auth.utils.</code><code class="sig-name descname">prompt_for_user_authorization</code><span class="sig-paren">(</span><em class="sig-param">session</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/utils.html#prompt_for_user_authorization"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.auth.utils.prompt_for_user_authorization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Useful for command-line apps, when you don’t want to use <a class="reference internal" href="#spotipie.auth.utils.get_user_authorization" title="spotipie.auth.utils.get_user_authorization"><code class="xref py py-func docutils literal notranslate"><span class="pre">get_user_authorization()</span></code></a>.
+Asks the user to authorize your app through the terminal. It requires the user to
+manually copy and paste the callback URL into the terminal.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="spotipie.auth.sessions.html" title="previous chapter (use the left arrow)">spotipie.auth.sessions</a>
+      </div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="spotipie.client.html" title="next chapter (use the right arrow)">spotipie.client</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spotipie.client.html" title="spotipie.client"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="spotipie.auth.sessions.html" title="spotipie.auth.sessions"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="spotipie.html" >spotipie API</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="spotipie.auth.html" >spotipie.auth</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

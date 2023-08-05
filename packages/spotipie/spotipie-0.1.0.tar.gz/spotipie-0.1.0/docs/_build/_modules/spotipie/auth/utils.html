@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../../../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../../../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.auth.utils &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../../../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../../../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/spotipie.html">spotipie API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../../../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../../../index.html">Docs</a></li>
+              
+                <li><a href="../../index.html">Module code</a></li>
+              
+              <li>spotipie.auth.utils</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <h1>Source code for spotipie.auth.utils</h1><div class="highlight"><pre>
+<span></span><span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;get_user_authorization&#39;</span><span class="p">,</span> <span class="s1">&#39;prompt_for_user_authorization&#39;</span><span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">webbrowser</span>
+<span class="kn">from</span> <span class="nn">queue</span> <span class="kn">import</span> <span class="n">Empty</span><span class="p">,</span> <span class="n">Queue</span>
+<span class="kn">from</span> <span class="nn">threading</span> <span class="kn">import</span> <span class="n">Thread</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Union</span>
+
+<span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="kn">from</span> <span class="nn">spotipie.auth</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">AuthorizationCodeSession</span><span class="p">,</span>
+    <span class="n">Flow</span><span class="p">,</span>
+    <span class="n">ImplicitGrantSession</span><span class="p">,</span>
+    <span class="n">OAuth2Token</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">spotipie.exceptions</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">AccessDenied</span><span class="p">,</span>
+    <span class="n">AuthorizationException</span><span class="p">,</span>
+    <span class="n">AuthorizationTimeout</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">spotipie.utils</span> <span class="kn">import</span> <span class="n">pretty</span>
+
+<span class="n">UserOAuth2Session</span> <span class="o">=</span> <span class="n">Union</span><span class="p">[</span><span class="n">AuthorizationCodeSession</span><span class="p">,</span> <span class="n">ImplicitGrantSession</span><span class="p">]</span>
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_open_in_browser</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">webbrowser</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Successfully opened the browser!&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Couldn&#39;t open the web browser automatically: </span><span class="si">%s</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">exc</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Please, open the following link in your browser: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">url</span><span class="p">)</span>
+
+
+<div class="viewcode-block" id="get_user_authorization"><a class="viewcode-back" href="../../../api/spotipie.auth.utils.html#spotipie.auth.utils.get_user_authorization">[docs]</a><span class="k">def</span> <span class="nf">get_user_authorization</span><span class="p">(</span><span class="n">session</span><span class="p">:</span> <span class="n">UserOAuth2Session</span><span class="p">,</span>
+                           <span class="n">app_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+                           <span class="n">port</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1234</span><span class="p">,</span> <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">120</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;OAuth2Token&#39;</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Asks the user to authorize the authorize your app. The authorization flow depends</span>
+<span class="sd">    on the type of session to pass. As a side effect, the obtained token is stored</span>
+<span class="sd">    in the session.</span>
+
+<span class="sd">    This function launches a flask app listening to ``http://localhost:{port}/callback``</span>
+<span class="sd">    in a new thread, which once the authorization is completed, sends the received token</span>
+<span class="sd">    to the main thread through a messaging queue; in this way, this function does not require</span>
+<span class="sd">    the user to manually copy and paste the callback URL into your app.</span>
+
+<span class="sd">    **IMPORTANT:** to use this function</span>
+
+<span class="sd">    - you need to install optional dependencies through: ``pip install spotipie[auth-app]``</span>
+<span class="sd">    - you need to whitelist ``http://localhost:{port}/callback`` in your app callback URLs.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        session:</span>
+<span class="sd">            OAuth2 session to authorize</span>
+<span class="sd">        app_name:</span>
+<span class="sd">            name of your application (used in the &quot;success.html&quot; page)</span>
+<span class="sd">        port:</span>
+<span class="sd">            TCP port the server listen to</span>
+<span class="sd">        timeout:</span>
+<span class="sd">            shutdown the server app after this time (in seconds)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        OAuth2Token</span>
+
+<span class="sd">    See Also:</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="kn">from</span> <span class="nn">spotipie.auth._app</span> <span class="kn">import</span> <span class="n">start_authorization_app</span>
+
+    <span class="n">messaging_queue</span><span class="p">:</span> <span class="n">Queue</span> <span class="o">=</span> <span class="n">Queue</span><span class="p">()</span>
+    <span class="n">app_url</span> <span class="o">=</span> <span class="s1">&#39;http://localhost:</span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">port</span>
+    <span class="n">server_thread</span> <span class="o">=</span> <span class="n">Thread</span><span class="p">(</span>
+        <span class="n">target</span><span class="o">=</span><span class="n">start_authorization_app</span><span class="p">,</span>
+        <span class="n">daemon</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">kwargs</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+            <span class="n">port</span><span class="o">=</span><span class="n">port</span><span class="p">,</span> <span class="n">message_queue</span><span class="o">=</span><span class="n">messaging_queue</span><span class="p">,</span>
+            <span class="n">scope</span><span class="o">=</span><span class="n">session</span><span class="o">.</span><span class="n">scope</span><span class="p">,</span>
+            <span class="n">client_id</span><span class="o">=</span><span class="n">session</span><span class="o">.</span><span class="n">client_id</span><span class="p">,</span>
+            <span class="n">client_secret</span><span class="o">=</span><span class="nb">getattr</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="s1">&#39;client_secret&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+            <span class="n">client_app_name</span><span class="o">=</span><span class="n">app_name</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="p">)</span>
+    <span class="n">server_thread</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+
+    <span class="n">_open_in_browser</span><span class="p">(</span><span class="n">app_url</span> <span class="o">+</span> <span class="s1">&#39;/authorize&#39;</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">token</span> <span class="o">=</span> <span class="n">messaging_queue</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">block</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">Empty</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="n">AuthorizationTimeout</span><span class="p">(</span><span class="n">timeout</span><span class="p">)</span>
+    <span class="k">finally</span><span class="p">:</span>
+        <span class="c1"># delay the app shutdown a little bit so that it can reply to all the requests needed</span>
+        <span class="c1"># to display a web page (html + css)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">app_url</span> <span class="o">+</span> <span class="s1">&#39;/shutdown&#39;</span><span class="p">)</span>
+        <span class="n">server_thread</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Token: &#39;</span> <span class="o">+</span> <span class="n">pretty</span><span class="p">(</span><span class="n">token</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="s1">&#39;error&#39;</span> <span class="ow">in</span> <span class="n">token</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">token</span><span class="p">[</span><span class="s1">&#39;error&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;access_denied&#39;</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">AccessDenied</span>
+        <span class="k">raise</span> <span class="n">AuthorizationException</span><span class="p">(</span><span class="s1">&#39;Error during app authorization: &#39;</span> <span class="o">+</span> <span class="n">token</span><span class="p">[</span><span class="s1">&#39;error&#39;</span><span class="p">])</span>
+
+    <span class="n">session</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="n">token</span>
+    <span class="k">return</span> <span class="n">session</span><span class="o">.</span><span class="n">token</span></div>
+
+
+<div class="viewcode-block" id="prompt_for_user_authorization"><a class="viewcode-back" href="../../../api/spotipie.auth.utils.html#spotipie.auth.utils.prompt_for_user_authorization">[docs]</a><span class="k">def</span> <span class="nf">prompt_for_user_authorization</span><span class="p">(</span><span class="n">session</span><span class="p">:</span> <span class="n">UserOAuth2Session</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;OAuth2Token&#39;</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Useful for command-line apps, when you don&#39;t want to use :func:`get_user_authorization`.</span>
+<span class="sd">    Asks the user to authorize your app through the terminal. It requires the user to</span>
+<span class="sd">    manually copy and paste the callback URL into the terminal.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">auth_url</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    We need your authorization to continue. The authorization uses the OAuth2</span>
+<span class="s2">    protocol. We are going to open the Spotify authorization page in your browser:</span>
+
+<span class="s2">    </span><span class="si">{auth_url}</span><span class="s2"></span>
+
+<span class="s2">    Once you authorize your app, Spotify will redirect you to localhost and</span>
+<span class="s2">    the redirection URL will contain the authorization token. You need to copy</span>
+<span class="s2">    that URL and paste it here.</span>
+<span class="s2">    &quot;&quot;&quot;</span><span class="p">)</span>
+    <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Press Enter to continue...&#39;</span><span class="p">)</span>
+    <span class="n">_open_in_browser</span><span class="p">(</span><span class="n">auth_url</span><span class="p">)</span>
+    <span class="n">callback_url</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Copy the callback URL here: &#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">callback_url</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;http:&#39;</span><span class="p">):</span>
+        <span class="n">callback_url</span> <span class="o">=</span> <span class="s1">&#39;https&#39;</span> <span class="o">+</span> <span class="n">callback_url</span><span class="p">[</span><span class="mi">4</span><span class="p">:]</span>
+    <span class="k">if</span> <span class="n">session</span><span class="o">.</span><span class="n">FLOW</span> <span class="o">==</span> <span class="n">Flow</span><span class="o">.</span><span class="n">AUTHORIZATION_CODE</span><span class="p">:</span>
+        <span class="n">token</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">callback_url</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">token</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">read_token_from_callback_url</span><span class="p">(</span><span class="n">callback_url</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Token: &#39;</span> <span class="o">+</span> <span class="n">pretty</span><span class="p">(</span><span class="n">token</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">token</span></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">spotipie.auth</span> <span class="kn">import</span> <span class="n">AuthorizationCodeSession</span><span class="p">,</span> <span class="n">Credentials</span>
+
+    <span class="n">credentials</span> <span class="o">=</span> <span class="n">Credentials</span><span class="o">.</span><span class="n">from_environment</span><span class="p">()</span>
+    <span class="n">session</span> <span class="o">=</span> <span class="n">AuthorizationCodeSession</span><span class="p">(</span><span class="o">*</span><span class="n">credentials</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="s1">&#39;user-library-read&#39;</span><span class="p">)</span>
+    <span class="c1"># token = prompt_for_user_authorization(session)</span>
+    <span class="n">token</span> <span class="o">=</span> <span class="n">get_user_authorization</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="s1">&#39;PippoApp&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Token:&#39;</span><span class="p">,</span> <span class="n">token</span><span class="p">)</span>
+</pre></div>
+
+          </div>
+            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../../../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

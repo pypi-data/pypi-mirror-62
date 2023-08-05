@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../../../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../../../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.auth.sessions &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../../../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../../../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/spotipie.html">spotipie API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../../../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../../../index.html">Docs</a></li>
+              
+                <li><a href="../../index.html">Module code</a></li>
+              
+              <li>spotipie.auth.sessions</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <h1>Source code for spotipie.auth.sessions</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This module contains a ``Session`` class for each OAuth2 flow.</span>
+<span class="sd">These classes are wrappers for a :class:`requests_oauthlib.OAuth2Session`.</span>
+
+<span class="sd">The hierarchy of the session classes is the following:</span>
+
+<span class="sd">- :class:`BaseOAuth2Session`</span>
+<span class="sd">    - :class:`ImplicitGrantSession`</span>
+<span class="sd">    - :class:`RefreshableOAuth2Session`</span>
+<span class="sd">        - :class:`ClientCredentialsSession`</span>
+<span class="sd">        - :class:`AuthorizationCodeSession`</span>
+
+<span class="sd">``ClientCredentialsSession`` and ``AuthorizationCodeSession`` are refreshable sessions, meaning that</span>
+<span class="sd">once the access token expires, a new one can be obtained automatically.</span>
+<span class="sd">So, if you make a request and your token is expired, a new token is automatically obtained</span>
+<span class="sd">and the request is carried out without problems.</span>
+
+<span class="sd">On the other hand, an ``ImplicitGrantSession`` is not &quot;refreshable&quot;, at least not in the same sense.</span>
+<span class="sd">When the token expires, the authorization URL must be opened in the browser. Despite that, the user</span>
+<span class="sd">should not need to type anything since the app was already authorized.</span>
+<span class="sd">Still, an interaction with the browser is needed: the new token cannot be obtained totally &quot;behind</span>
+<span class="sd">the scene&quot; (in Python) as in the case of the other two flows. That&#39;s why ``ImplicitGrantSession``</span>
+<span class="sd">has not the auto-refresh feature. Nonetheless, you can still register a listener to the</span>
+<span class="sd">&quot;token_expired&quot; event to handle that.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;BaseOAuth2Session&#39;</span><span class="p">,</span> <span class="s1">&#39;RefreshableOAuth2Session&#39;</span><span class="p">,</span> <span class="s1">&#39;AuthorizationCodeSession&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ImplicitGrantSession&#39;</span><span class="p">,</span> <span class="s1">&#39;ClientCredentialsSession&#39;</span>
+<span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">abc</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">enum</span> <span class="kn">import</span> <span class="n">Enum</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Tuple</span>
+<span class="kn">from</span> <span class="nn">urllib.parse</span> <span class="kn">import</span> <span class="n">parse_qsl</span><span class="p">,</span> <span class="n">urlparse</span>
+
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">attr</span> <span class="kn">import</span> <span class="n">attrs</span>
+<span class="kn">from</span> <span class="nn">oauthlib.oauth2</span> <span class="kn">import</span> <span class="n">BackendApplicationClient</span><span class="p">,</span> <span class="n">MobileApplicationClient</span>
+<span class="kn">from</span> <span class="nn">requests_oauthlib</span> <span class="kn">import</span> <span class="n">OAuth2Session</span>
+
+<span class="kn">from</span> <span class="nn">spotipie.auth._token</span> <span class="kn">import</span> <span class="n">OAuth2Token</span><span class="p">,</span> <span class="n">TokenType</span>
+<span class="kn">from</span> <span class="nn">spotipie.auth.events</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">SessionEvent</span><span class="p">,</span>
+    <span class="n">TokenExpiredEvent</span><span class="p">,</span>
+    <span class="n">TokenUpdatedEvent</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">spotipie.exceptions</span> <span class="kn">import</span> <span class="n">AccessDenied</span><span class="p">,</span> <span class="n">AuthorizationException</span>
+<span class="kn">from</span> <span class="nn">spotipie.utils</span> <span class="kn">import</span> <span class="n">normalize_scope</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="n">AUTH_URL</span> <span class="o">=</span> <span class="s1">&#39;https://accounts.spotify.com/authorize&#39;</span>
+<span class="n">TOKEN_URL</span> <span class="o">=</span> <span class="s1">&#39;https://accounts.spotify.com/api/token&#39;</span>
+<span class="n">REFRESH_URL</span> <span class="o">=</span> <span class="n">TOKEN_URL</span>
+
+<span class="n">Callback</span> <span class="o">=</span> <span class="n">Callable</span><span class="p">[[</span><span class="n">SessionEvent</span><span class="p">],</span> <span class="n">Any</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="Credentials"><a class="viewcode-back" href="../../../api/spotipie.auth.html#spotipie.Credentials">[docs]</a><span class="nd">@attrs</span><span class="p">(</span><span class="n">frozen</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">auto_attribs</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Credentials</span><span class="p">:</span>
+    <span class="n">client_id</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">client_secret</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">redirect_uri</span><span class="p">:</span> <span class="nb">str</span>
+
+<div class="viewcode-block" id="Credentials.from_environment"><a class="viewcode-back" href="../../../api/spotipie.auth.html#spotipie.Credentials.from_environment">[docs]</a>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">from_environment</span><span class="p">(</span><span class="n">prefix</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s1">&#39;SPOTIPIE&#39;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;Credentials&#39;</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Reads Spotify OAuth2 credentials from the following environment variables:</span>
+<span class="sd">        ``{prefix}_CLIENT_ID, {prefix}_CLIENT_SECRET, {prefix}_REDIRECT_URI``.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            ``KeyError``: if no variable is defined for ``client_id`` and ``redirect_uri``.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">Credentials</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_CLIENT_ID&#39;</span><span class="p">],</span>
+                           <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_CLIENT_SECRET&#39;</span><span class="p">),</span>
+                           <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="n">prefix</span> <span class="o">+</span> <span class="s1">&#39;_REDIRECT_URI&#39;</span><span class="p">])</span></div>
+
+    <span class="k">def</span> <span class="fm">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">client_id</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">client_secret</span><span class="p">:</span>
+            <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">client_secret</span>
+        <span class="k">yield</span> <span class="bp">self</span><span class="o">.</span><span class="n">redirect_uri</span></div>
+
+
+<div class="viewcode-block" id="Flow"><a class="viewcode-back" href="../../../api/spotipie.auth.html#spotipie.Flow">[docs]</a><span class="k">class</span> <span class="nc">Flow</span><span class="p">(</span><span class="n">Enum</span><span class="p">):</span>
+    <span class="n">CLIENT_CREDENTIALS</span> <span class="o">=</span> <span class="s1">&#39;client_credentials&#39;</span>
+    <span class="n">IMPLICIT_GRANT</span> <span class="o">=</span> <span class="s1">&#39;implicit_grant&#39;</span>
+    <span class="n">AUTHORIZATION_CODE</span> <span class="o">=</span> <span class="s1">&#39;authorization_code&#39;</span></div>
+
+
+<div class="viewcode-block" id="BaseOAuth2Session"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.BaseOAuth2Session">[docs]</a><span class="k">class</span> <span class="nc">BaseOAuth2Session</span><span class="p">(</span><span class="n">abc</span><span class="o">.</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Base class for all session classes. Please, note that this class is not a subclass of</span>
+<span class="sd">    :class:`requests.Session`. In fact, it is a wrapper of :class:`requests_oauthlib.OAuth2Session`</span>
+<span class="sd">    which is a subclass of :class:`requests.Session`. You can access the actual session object</span>
+<span class="sd">    using the property `session`.</span>
+
+<span class="sd">    Properties:</span>
+<span class="sd">        session (:class:`requests_oauthlib.OAuth2Session`): (get-only) session object</span>
+<span class="sd">        token (OAuth2Token): (get/set) token object</span>
+<span class="sd">        client_id (str): (get-only)</span>
+<span class="sd">        scope (FrozenSet[str]): (get-only)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">FLOW</span><span class="p">:</span> <span class="n">Flow</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">session</span><span class="p">:</span> <span class="n">OAuth2Session</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span> <span class="o">=</span> <span class="n">session</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_token</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_listeners</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="n">Callback</span><span class="p">]]</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">token_updated</span><span class="o">=</span><span class="p">[],</span> <span class="n">token_expired</span><span class="o">=</span><span class="p">[])</span>
+
+<div class="viewcode-block" id="BaseOAuth2Session.add_listener"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.BaseOAuth2Session.add_listener">[docs]</a>    <span class="k">def</span> <span class="nf">add_listener</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">listener</span><span class="p">:</span> <span class="n">Callback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Adds a listener for one of the available events (see :mod:`~spotipie.auth.events`).</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            event_name (str): either &quot;token_updated&quot; or &quot;token_expired&quot;</span>
+<span class="sd">            listener: a callable taking an event object in input</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_listeners</span><span class="p">[</span><span class="n">event_name</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">listener</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="BaseOAuth2Session.remove_listener"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.BaseOAuth2Session.remove_listener">[docs]</a>    <span class="k">def</span> <span class="nf">remove_listener</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">listener</span><span class="p">:</span> <span class="n">Callback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_listeners</span><span class="p">[</span><span class="n">event_name</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">listener</span><span class="p">)</span></div>
+
+    <span class="k">def</span> <span class="nf">_notify_listeners</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">:</span> <span class="n">SessionEvent</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">listener</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_listeners</span><span class="p">[</span><span class="n">event</span><span class="o">.</span><span class="n">name</span><span class="p">]:</span>
+            <span class="n">listener</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">session</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">requests</span><span class="o">.</span><span class="n">Session</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Returns the :class:`requests_oauthlib.OAuth2Session` instance wrapped by this object.</span>
+<span class="sd">        You should not need to use this. If you do, makes sure your use doesn&#39;t interfere with</span>
+<span class="sd">        the behavior of the wrapper.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">client_id</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">client_id</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">is_authorized</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">authorized</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">token</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">OAuth2Token</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_token</span>
+
+    <span class="nd">@token</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+
+<div class="viewcode-block" id="BaseOAuth2Session.set_token"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.BaseOAuth2Session.set_token">[docs]</a>    <span class="k">def</span> <span class="nf">set_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="n">TokenType</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Args:</span>
+<span class="sd">            token: a OAuth2Token or an equivalent dictionary</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">old_token</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span>
+
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+            <span class="k">if</span> <span class="s1">&#39;scope&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">token</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="n">token</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_token</span> <span class="o">=</span> <span class="n">OAuth2Token</span><span class="p">(</span><span class="n">scope</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">scope</span><span class="p">,</span> <span class="o">**</span><span class="n">token</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_token</span> <span class="o">=</span> <span class="n">OAuth2Token</span><span class="p">(</span><span class="o">**</span><span class="n">token</span><span class="p">)</span>
+                <span class="k">del</span> <span class="n">token</span><span class="p">[</span><span class="s1">&#39;scope&#39;</span><span class="p">]</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="n">token</span>
+
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">OAuth2Token</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_token</span> <span class="o">=</span> <span class="n">token</span>
+            <span class="n">token_dict</span> <span class="o">=</span> <span class="n">token</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
+            <span class="k">del</span> <span class="n">token_dict</span><span class="p">[</span><span class="s1">&#39;scope&#39;</span><span class="p">]</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">token</span> <span class="o">=</span> <span class="n">token_dict</span>
+
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;token must either be a dict or an OAuth2Token&#39;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_notify_listeners</span><span class="p">(</span><span class="n">TokenUpdatedEvent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">old_token</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="p">))</span></div>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">scope</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="o">.</span><span class="n">scope</span>
+        <span class="k">return</span> <span class="n">normalize_scope</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">scope</span><span class="p">)</span>
+
+<div class="viewcode-block" id="BaseOAuth2Session.request"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.BaseOAuth2Session.request">[docs]</a>    <span class="k">def</span> <span class="nf">request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">withhold_token</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Make a request. See :class:`requests.Session` documentation for the full argument list.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            TokenExpired: if the token is expired and not refreshed/updated automatically or by a</span>
+<span class="sd">                          listener on the &quot;token_expired&quot; event.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="o">.</span><span class="n">is_expired</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_notify_listeners</span><span class="p">(</span><span class="n">TokenExpiredEvent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="p">,</span> <span class="n">withhold_token</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span>
+                                     <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="n">withhold_token</span><span class="o">=</span><span class="n">withhold_token</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="BaseOAuth2Session.mount"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.BaseOAuth2Session.mount">[docs]</a>    <span class="k">def</span> <span class="nf">mount</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="n">adapter</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">adapter</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="RefreshableOAuth2Session"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.RefreshableOAuth2Session">[docs]</a><span class="k">class</span> <span class="nc">RefreshableOAuth2Session</span><span class="p">(</span><span class="n">BaseOAuth2Session</span><span class="p">,</span> <span class="n">abc</span><span class="o">.</span><span class="n">ABC</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Base abstract class for sessions whose token can be refreshed automatically either</span>
+<span class="sd">    using a refresh-token (authorization code flow) or not (client credentials flow).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">,</span> <span class="n">auto_refresh</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_client_secret</span> <span class="o">=</span> <span class="n">client_secret</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_auto_refresh</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">auto_refresh</span> <span class="o">=</span> <span class="n">auto_refresh</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">client_secret</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_client_secret</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">auto_refresh</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_auto_refresh</span>
+
+    <span class="nd">@auto_refresh</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">auto_refresh</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">value</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; Enable/disable token auto-refresh &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">enable_auto_refresh</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="n">value</span> <span class="ow">is</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">disable_auto_refresh</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;auto_refresh must be a boolean&#39;</span><span class="p">)</span>
+
+<div class="viewcode-block" id="RefreshableOAuth2Session.enable_auto_refresh"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.RefreshableOAuth2Session.enable_auto_refresh">[docs]</a>    <span class="k">def</span> <span class="nf">enable_auto_refresh</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; Enable token auto-refresh. Equivalent to ``session.auto_refresh = True``. &quot;&quot;&quot;</span>
+        <span class="c1"># Oauth2Session uses auto_refresh_url as a &quot;flag&quot; for enabling auto-refresh</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">auto_refresh_url</span> <span class="o">=</span> <span class="n">REFRESH_URL</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">auto_refresh_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;client_id&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">client_id</span><span class="p">,</span>
+                                             <span class="s1">&#39;client_secret&#39;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">client_secret</span><span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_auto_refresh</span> <span class="o">=</span> <span class="kc">True</span></div>
+
+<div class="viewcode-block" id="RefreshableOAuth2Session.disable_auto_refresh"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.RefreshableOAuth2Session.disable_auto_refresh">[docs]</a>    <span class="k">def</span> <span class="nf">disable_auto_refresh</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; Disable token auto-refresh. Equivalent to ``session.auto_refresh = False``. &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">auto_refresh_url</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_auto_refresh</span> <span class="o">=</span> <span class="kc">False</span></div>
+
+    <span class="nd">@abc</span><span class="o">.</span><span class="n">abstractmethod</span>
+    <span class="k">def</span> <span class="nf">_refresh_token</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+<div class="viewcode-block" id="RefreshableOAuth2Session.refresh_token"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.RefreshableOAuth2Session.refresh_token">[docs]</a>    <span class="k">def</span> <span class="nf">refresh_token</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">OAuth2Token</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot; Obtains a new token, stores it in the session and returns it. &quot;&quot;&quot;</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;Obtaining a new token&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_token</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_refresh_token</span><span class="p">())</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s1">&#39;New token: </span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="RefreshableOAuth2Session.request"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.RefreshableOAuth2Session.request">[docs]</a>    <span class="k">def</span> <span class="nf">request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">withhold_token</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="o">.</span><span class="n">is_expired</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_notify_listeners</span><span class="p">(</span><span class="n">TokenExpiredEvent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span><span class="p">,</span> <span class="n">withhold_token</span><span class="p">))</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">auto_refresh</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">withhold_token</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">refresh_token</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span>
+                                     <span class="n">withhold_token</span><span class="o">=</span><span class="n">withhold_token</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div></div>
+
+
+<div class="viewcode-block" id="ClientCredentialsSession"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.ClientCredentialsSession">[docs]</a><span class="k">class</span> <span class="nc">ClientCredentialsSession</span><span class="p">(</span><span class="n">RefreshableOAuth2Session</span><span class="p">):</span>
+    <span class="n">FLOW</span> <span class="o">=</span> <span class="n">Flow</span><span class="o">.</span><span class="n">CLIENT_CREDENTIALS</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client_id</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">,</span> <span class="n">auto_refresh</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">session</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span><span class="n">client</span><span class="o">=</span><span class="n">BackendApplicationClient</span><span class="p">(</span><span class="n">client_id</span><span class="o">=</span><span class="n">client_id</span><span class="p">),</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">,</span> <span class="n">auto_refresh</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ClientCredentialsSession.fetch_token"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.ClientCredentialsSession.fetch_token">[docs]</a>    <span class="k">def</span> <span class="nf">fetch_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="n">token</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">TOKEN_URL</span><span class="p">,</span> <span class="n">client_secret</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_client_secret</span><span class="p">,</span>
+                                          <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span></div>
+
+    <span class="k">def</span> <span class="nf">_refresh_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="AuthorizationCodeSession"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.AuthorizationCodeSession">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationCodeSession</span><span class="p">(</span><span class="n">RefreshableOAuth2Session</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Session for authorization code flow &quot;&quot;&quot;</span>
+    <span class="n">FLOW</span> <span class="o">=</span> <span class="n">Flow</span><span class="o">.</span><span class="n">AUTHORIZATION_CODE</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client_id</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                 <span class="n">auto_refresh</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">session</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span>
+            <span class="n">client_id</span><span class="o">=</span><span class="n">client_id</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="o">=</span><span class="n">redirect_uri</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="n">scope</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span>
+        <span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">client_secret</span><span class="p">,</span> <span class="n">auto_refresh</span><span class="p">)</span>
+
+<div class="viewcode-block" id="AuthorizationCodeSession.authorization_url"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.AuthorizationCodeSession.authorization_url">[docs]</a>    <span class="k">def</span> <span class="nf">authorization_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">force_dialog</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Generates the URL the user has to visit in order to authorize (the application using) this</span>
+<span class="sd">        session. The &quot;state&quot; parameter (useful for security reasons) is automatically generated and</span>
+<span class="sd">        included in the URL. This function returns the authorization url and the generated state.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            force_dialog (bool):</span>
+<span class="sd">                Whether or not to force the user to approve the app again if they&#39;ve already done</span>
+<span class="sd">                so. If false (default), a user who has already approved the application may be</span>
+<span class="sd">                automatically redirected to the URI specified by redirect_uri. If True, the user</span>
+<span class="sd">                will not be automatically redirected and will have to approve the app again.</span>
+
+<span class="sd">            **kwargs:</span>
+<span class="sd">                other query arguments to include in the authorization URLs; at the moment of</span>
+<span class="sd">                writing this functions, no other parameter exists.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            tuple(authorization_url, state)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">AUTH_URL</span><span class="p">,</span> <span class="n">show_dialog</span><span class="o">=</span><span class="n">force_dialog</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="AuthorizationCodeSession.fetch_token"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.AuthorizationCodeSession.fetch_token">[docs]</a>    <span class="k">def</span> <span class="nf">fetch_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">callback_url</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Extracts the ``code`` and the ``state`` parameters from the callback URL and, after having</span>
+<span class="sd">        checked the correctness of the ``state``, it makes a request to Spotify in order to exchange</span>
+<span class="sd">        the authorization code for an access token.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            callback_url:</span>
+<span class="sd">                the URL Spotify redirects to after the user grants his authorization to your app,</span>
+<span class="sd">                i.e. the redirect URI with query arguments &quot;code&quot; and &quot;state&quot; (at least).</span>
+<span class="sd">                The function raises an exception if the callback URL contains an &quot;error&quot; argument</span>
+
+<span class="sd">            timeout:</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            ``AccessDenied``: if the user decides to not grant access</span>
+<span class="sd">            ``AuthorizationException``: the callback_url has an ``error`` argument different from</span>
+<span class="sd">                                        &quot;access_denied&quot;</span>
+<span class="sd">            :exc:`requests.Timeout`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">urlparse</span><span class="p">(</span><span class="n">callback_url</span><span class="p">)</span>
+        <span class="n">params</span> <span class="o">=</span> <span class="n">parse_qsl</span><span class="p">(</span><span class="n">url</span><span class="o">.</span><span class="n">query</span><span class="p">)</span>
+        <span class="k">if</span> <span class="s1">&#39;error&#39;</span> <span class="ow">in</span> <span class="n">params</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">params</span><span class="p">[</span><span class="s1">&#39;error&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;access_denied&#39;</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">AccessDenied</span>
+            <span class="k">raise</span> <span class="n">AuthorizationException</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="s1">&#39;error&#39;</span><span class="p">])</span>
+
+        <span class="n">token</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">TOKEN_URL</span><span class="p">,</span> <span class="n">authorization_response</span><span class="o">=</span><span class="n">callback_url</span><span class="p">,</span>
+                                          <span class="n">client_secret</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">client_secret</span><span class="p">,</span>
+                                          <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span></div>
+
+<div class="viewcode-block" id="AuthorizationCodeSession.fetch_token_given_code"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.AuthorizationCodeSession.fetch_token_given_code">[docs]</a>    <span class="k">def</span> <span class="nf">fetch_token_given_code</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">state</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Variant of :meth:`fetch_token` where you pass the code and state parameters directly</span>
+<span class="sd">        rather than a callback URL.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">token</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">fetch_token</span><span class="p">(</span><span class="n">TOKEN_URL</span><span class="p">,</span> <span class="n">code</span><span class="o">=</span><span class="n">code</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="n">state</span><span class="p">,</span>
+                                          <span class="n">client_secret</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">client_secret</span><span class="p">,</span>
+                                          <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span></div>
+
+    <span class="k">def</span> <span class="nf">_refresh_token</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">refresh_token</span><span class="p">(</span><span class="n">TOKEN_URL</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="ImplicitGrantSession"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.ImplicitGrantSession">[docs]</a><span class="k">class</span> <span class="nc">ImplicitGrantSession</span><span class="p">(</span><span class="n">BaseOAuth2Session</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Session following the &quot;implicit grant flow&quot; for authorization &quot;&quot;&quot;</span>
+    <span class="n">FLOW</span> <span class="o">=</span> <span class="n">Flow</span><span class="o">.</span><span class="n">IMPLICIT_GRANT</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">client_id</span><span class="p">,</span> <span class="n">redirect_uri</span><span class="p">,</span> <span class="n">scope</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">session</span> <span class="o">=</span> <span class="n">OAuth2Session</span><span class="p">(</span>
+            <span class="n">client</span><span class="o">=</span><span class="n">MobileApplicationClient</span><span class="p">(</span><span class="n">client_id</span><span class="o">=</span><span class="n">client_id</span><span class="p">),</span>
+            <span class="n">redirect_uri</span><span class="o">=</span><span class="n">redirect_uri</span><span class="p">,</span>
+            <span class="n">scope</span><span class="o">=</span><span class="n">scope</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span>
+        <span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+
+<div class="viewcode-block" id="ImplicitGrantSession.authorization_url"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.ImplicitGrantSession.authorization_url">[docs]</a>    <span class="k">def</span> <span class="nf">authorization_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">force_dialog</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Generates the URL the user has to visit in order to authorize (the application using) this</span>
+<span class="sd">        session. The &quot;state&quot; parameter (useful for security reasons) is automatically generated and</span>
+<span class="sd">        included in the URL. This function returns the authorization url and the generated state.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            force_dialog (bool):</span>
+<span class="sd">                Whether or not to force the user to approve the app again if they&#39;ve already done</span>
+<span class="sd">                so. If false (default), a user who has already approved the application may be</span>
+<span class="sd">                automatically redirected to the URI specified by redirect_uri. If True, the user</span>
+<span class="sd">                will not be automatically redirected and will have to approve the app again.</span>
+
+<span class="sd">            **kwargs:</span>
+<span class="sd">                other query arguments to include in the authorization URLs; at the moment of</span>
+<span class="sd">                writing this functions, no other parameter exists.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            tuple(authorization_url, state)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">authorization_url</span><span class="p">(</span><span class="n">AUTH_URL</span><span class="p">,</span> <span class="n">show_dialog</span><span class="o">=</span><span class="n">force_dialog</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ImplicitGrantSession.read_token_from_callback_url"><a class="viewcode-back" href="../../../api/spotipie.auth.sessions.html#spotipie.ImplicitGrantSession.read_token_from_callback_url">[docs]</a>    <span class="k">def</span> <span class="nf">read_token_from_callback_url</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">callback_url</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">OAuth2Token</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Parses the callback URL and grab the token information contained in the fragment of the URL.</span>
+<span class="sd">        Sets the ``token`` property and returns the token.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">token</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_session</span><span class="o">.</span><span class="n">token_from_fragment</span><span class="p">(</span><span class="n">authorization_response</span><span class="o">=</span><span class="n">callback_url</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_token</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">token</span></div></div>
+</pre></div>
+
+          </div>
+            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../../../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

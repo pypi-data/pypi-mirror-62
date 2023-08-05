@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.utils &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributing" href="../contributing.html" />
+    <link rel="prev" title="spotipie.exceptions" href="spotipie.exceptions.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../contributing.html" title="Contributing"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="spotipie.exceptions.html" title="spotipie.exceptions"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="spotipie.html" accesskey="U">spotipie API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="spotipie.html">spotipie API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="spotipie.auth.html">spotipie.auth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.client.html">spotipie.client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.exceptions.html">spotipie.exceptions</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">spotipie.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../index.html">Docs</a></li>
+              
+                <li><a href="spotipie.html">spotipie API</a></li>
+              
+              <li>spotipie.utils</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <div class="section" id="module-spotipie.utils">
+<span id="spotipie-utils"></span><h1>spotipie.utils<a class="headerlink" href="#module-spotipie.utils" title="Permalink to this headline">¶</a></h1>
+<p class="rubric"><span class="h2-no-toc">Classes</span></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.utils.ResourceInfo" title="spotipie.utils.ResourceInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ResourceInfo</span></code></a>(type, id[, owner_id])</p></td>
+<td><p>Pseudo-immutable object storing type and ID of a Spotify Resource.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric"><span class="h2-no-toc">Functions</span></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.utils.format_uri" title="spotipie.utils.format_uri"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_uri</span></code></a>(obj_type, obj_id[, owner_id])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.utils.format_url" title="spotipie.utils.format_url"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_url</span></code></a>(obj_type, obj_id[, owner_id])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.utils.get_default_http_adapter" title="spotipie.utils.get_default_http_adapter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_default_http_adapter</span></code></a>([adapter_class])</p></td>
+<td><p>Returns an HTTPAdapter that can be mounted to a session in order to add automatically resend a request if it failed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.utils.normalize_scope" title="spotipie.utils.normalize_scope"><code class="xref py py-obj docutils literal notranslate"><span class="pre">normalize_scope</span></code></a>(scope)</p></td>
+<td><p><dl class="field-list simple">
+<dt class="field-odd">rtype</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, …]</p>
+</dd>
+</dl>
+</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.utils.pretty" title="spotipie.utils.pretty"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pretty</span></code></a>(d)</p></td>
+<td><p>Prettify a dictionary</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric"><span class="h2-no-toc">Data</span></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">RESOURCE_TYPES</span></code></p></td>
+<td><p>frozenset() -&gt; empty frozenset object frozenset(iterable) -&gt; frozenset object</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric"><span class="h2-no-toc">Reference</span></p>
+<dl class="function">
+<dt id="spotipie.utils.format_uri">
+<code class="sig-prename descclassname">spotipie.utils.</code><code class="sig-name descname">format_uri</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">obj_id</em>, <em class="sig-param">owner_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#format_uri"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.format_uri" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="spotipie.utils.format_url">
+<code class="sig-prename descclassname">spotipie.utils.</code><code class="sig-name descname">format_url</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">obj_id</em>, <em class="sig-param">owner_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#format_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.format_url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="spotipie.utils.ResourceInfo">
+<em class="property">class </em><code class="sig-prename descclassname">spotipie.utils.</code><code class="sig-name descname">ResourceInfo</code><span class="sig-paren">(</span><em class="sig-param">type</em>, <em class="sig-param">id</em>, <em class="sig-param">owner_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#ResourceInfo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.ResourceInfo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Pseudo-immutable object storing type and ID of a Spotify Resource. The <code class="docutils literal notranslate"><span class="pre">owner_id</span></code> is an
+optional field and can be provided only for playlists: the old URIs and URLs for playlists
+required this field in the past. In any case,</p>
+<p>It can be constructed from spotify URIs (strings) and URLs.</p>
+<dl class="method">
+<dt id="spotipie.utils.ResourceInfo.from_uri">
+<em class="property">staticmethod </em><code class="sig-name descname">from_uri</code><span class="sig-paren">(</span><em class="sig-param">uri</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#ResourceInfo.from_uri"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.ResourceInfo.from_uri" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.utils.ResourceInfo.from_url">
+<em class="property">staticmethod </em><code class="sig-name descname">from_url</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#ResourceInfo.from_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.ResourceInfo.from_url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.utils.ResourceInfo.parse">
+<em class="property">staticmethod </em><code class="sig-name descname">parse</code><span class="sig-paren">(</span><em class="sig-param">uri_or_url</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#ResourceInfo.parse"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.ResourceInfo.parse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.utils.ResourceInfo.url">
+<code class="sig-name descname">url</code><a class="headerlink" href="#spotipie.utils.ResourceInfo.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.utils.ResourceInfo.uri">
+<code class="sig-name descname">uri</code><a class="headerlink" href="#spotipie.utils.ResourceInfo.uri" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="spotipie.utils.pretty">
+<code class="sig-prename descclassname">spotipie.utils.</code><code class="sig-name descname">pretty</code><span class="sig-paren">(</span><em class="sig-param">d</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#pretty"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.pretty" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prettify a dictionary</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spotipie.utils.normalize_scope">
+<code class="sig-prename descclassname">spotipie.utils.</code><code class="sig-name descname">normalize_scope</code><span class="sig-paren">(</span><em class="sig-param">scope</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#normalize_scope"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.normalize_scope" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, …]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spotipie.utils.get_default_http_adapter">
+<code class="sig-prename descclassname">spotipie.utils.</code><code class="sig-name descname">get_default_http_adapter</code><span class="sig-paren">(</span><em class="sig-param">adapter_class=&lt;class 'cachecontrol.adapter.CacheControlAdapter'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/utils.html#get_default_http_adapter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.utils.get_default_http_adapter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns an HTTPAdapter that can be mounted to a session in order to add automatically
+resend a request if it failed. By default, a CacheControlAdapter is added. This
+adds caching to the session. Pass <code class="xref py py-class docutils literal notranslate"><span class="pre">HttpAdapter</span></code> if you
+don’t want caching.</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="spotipie.exceptions.html" title="previous chapter (use the left arrow)">spotipie.exceptions</a>
+      </div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="../contributing.html" title="next chapter (use the right arrow)">Contributing</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../contributing.html" title="Contributing"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="spotipie.exceptions.html" title="spotipie.exceptions"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="spotipie.html" >spotipie API</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

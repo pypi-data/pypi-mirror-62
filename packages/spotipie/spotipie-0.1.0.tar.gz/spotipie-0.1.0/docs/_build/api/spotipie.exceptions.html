@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.exceptions &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="spotipie.utils" href="spotipie.utils.html" />
+    <link rel="prev" title="spotipie.client" href="spotipie.client.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spotipie.utils.html" title="spotipie.utils"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="spotipie.client.html" title="spotipie.client"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="spotipie.html" accesskey="U">spotipie API</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="spotipie.html">spotipie API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="spotipie.auth.html">spotipie.auth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.client.html">spotipie.client</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">spotipie.exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.utils.html">spotipie.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../index.html">Docs</a></li>
+              
+                <li><a href="spotipie.html">spotipie API</a></li>
+              
+              <li>spotipie.exceptions</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <div class="section" id="module-spotipie.exceptions">
+<span id="spotipie-exceptions"></span><h1>spotipie.exceptions<a class="headerlink" href="#module-spotipie.exceptions" title="Permalink to this headline">¶</a></h1>
+<p class="rubric"><span class="h2-no-toc">Exceptions</span></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.exceptions.AccessDenied" title="spotipie.exceptions.AccessDenied"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AccessDenied</span></code></a>([message])</p></td>
+<td><p>Raised when the user decides to not grant access to the app</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.exceptions.AuthorizationException" title="spotipie.exceptions.AuthorizationException"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AuthorizationException</span></code></a></p></td>
+<td><p>Exceptional event happened during user authorization (including access denied by the user)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.exceptions.AuthorizationTimeout" title="spotipie.exceptions.AuthorizationTimeout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AuthorizationTimeout</span></code></a>(timeout)</p></td>
+<td><p>Raised when the authorization procedure started but the function waiting for a response from the user (or the Spotify server) doesn’t get any response in <code class="docutils literal notranslate"><span class="pre">timeout</span></code> seconds.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.exceptions.HttpError" title="spotipie.exceptions.HttpError"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HttpError</span></code></a>(response)</p></td>
+<td><p>Error during HTTP request.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.exceptions.InsufficientScope" title="spotipie.exceptions.InsufficientScope"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InsufficientScope</span></code></a>(needed_scope, current_scope)</p></td>
+<td><p>Raised when Spotipie catches that the scope of the session is not sufficient to carry out an API request <strong>before</strong> the actual request is made.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.exceptions.ResourceTypeMismatch" title="spotipie.exceptions.ResourceTypeMismatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ResourceTypeMismatch</span></code></a>(expected_type, actual_type)</p></td>
+<td><p>Raised when the raiser expect a Spotify resource of some kind but gets another.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.exceptions.SpotipieException" title="spotipie.exceptions.SpotipieException"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SpotipieException</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric"><span class="h2-no-toc">Reference</span></p>
+<dl class="exception">
+<dt id="spotipie.exceptions.SpotipieException">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">SpotipieException</code><a class="reference internal" href="../_modules/spotipie/exceptions.html#SpotipieException"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.SpotipieException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></a></p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.SpotipieException.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.SpotipieException.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.SpotipieException.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.SpotipieException.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="spotipie.exceptions.AuthorizationException">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">AuthorizationException</code><a class="reference internal" href="../_modules/spotipie/exceptions.html#AuthorizationException"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.AuthorizationException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spotipie.exceptions.SpotipieException" title="spotipie.exceptions.SpotipieException"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.exceptions.SpotipieException</span></code></a></p>
+<p>Exceptional event happened during user authorization (including access denied by the user)</p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.AuthorizationException.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.AuthorizationException.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.AuthorizationException.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.AuthorizationException.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="spotipie.exceptions.AuthorizationTimeout">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">AuthorizationTimeout</code><span class="sig-paren">(</span><em class="sig-param">timeout</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/exceptions.html#AuthorizationTimeout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.AuthorizationTimeout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spotipie.exceptions.AuthorizationException" title="spotipie.exceptions.AuthorizationException"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.exceptions.AuthorizationException</span></code></a></p>
+<p>Raised when the authorization procedure started but the function waiting for a response from
+the user (or the Spotify server) doesn’t get any response in <code class="docutils literal notranslate"><span class="pre">timeout</span></code> seconds.</p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.AuthorizationTimeout.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.AuthorizationTimeout.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.AuthorizationTimeout.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.AuthorizationTimeout.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="spotipie.exceptions.AccessDenied">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">AccessDenied</code><span class="sig-paren">(</span><em class="sig-param">message='the user did not grant his/her authorization'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/exceptions.html#AccessDenied"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.AccessDenied" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spotipie.exceptions.AuthorizationException" title="spotipie.exceptions.AuthorizationException"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.exceptions.AuthorizationException</span></code></a></p>
+<p>Raised when the user decides to not grant access to the app</p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.AccessDenied.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.AccessDenied.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.AccessDenied.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.AccessDenied.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="spotipie.exceptions.HttpError">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">HttpError</code><span class="sig-paren">(</span><em class="sig-param">response</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/exceptions.html#HttpError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.HttpError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spotipie.exceptions.SpotipieException" title="spotipie.exceptions.SpotipieException"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.exceptions.SpotipieException</span></code></a></p>
+<p>Error during HTTP request. It has a <code class="docutils literal notranslate"><span class="pre">response</span></code> attribute.</p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.HttpError.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.HttpError.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.HttpError.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.HttpError.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="spotipie.exceptions.InsufficientScope">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">InsufficientScope</code><span class="sig-paren">(</span><em class="sig-param">needed_scope</em>, <em class="sig-param">current_scope</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/exceptions.html#InsufficientScope"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.InsufficientScope" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spotipie.exceptions.SpotipieException" title="spotipie.exceptions.SpotipieException"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.exceptions.SpotipieException</span></code></a></p>
+<p>Raised when Spotipie catches that the scope of the session is not sufficient to carry out an
+API request <strong>before</strong> the actual request is made.</p>
+<p>Please, note that not all the errors caused by insufficient scope can be caught before a
+request is made: when this check is not possible and the scope is insufficient, an
+:class:~spotipie.errors.HttpError` is raised instead. So, make sure you include <code class="docutils literal notranslate"><span class="pre">HttpError</span></code>
+in your <code class="docutils literal notranslate"><span class="pre">try-except</span></code> block whenever you want to catch insufficient scope errors.</p>
+<p>This class is here to provide you a better feedback than <code class="docutils literal notranslate"><span class="pre">HttpError</span></code> when this is possible.</p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.InsufficientScope.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.InsufficientScope.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.InsufficientScope.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.InsufficientScope.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="exception">
+<dt id="spotipie.exceptions.ResourceTypeMismatch">
+<em class="property">exception </em><code class="sig-prename descclassname">spotipie.exceptions.</code><code class="sig-name descname">ResourceTypeMismatch</code><span class="sig-paren">(</span><em class="sig-param">expected_type</em>, <em class="sig-param">actual_type</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/exceptions.html#ResourceTypeMismatch"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.exceptions.ResourceTypeMismatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#spotipie.exceptions.SpotipieException" title="spotipie.exceptions.SpotipieException"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.exceptions.SpotipieException</span></code></a></p>
+<p>Raised when the raiser expect a Spotify resource of some kind but gets another.</p>
+<p>Note: “type” here doesn’t refer to a Python type but to the type of a Python resource returned
+by Spotify API as a dictionary (contained in the “type” attribute of the dict).</p>
+<dl class="attribute">
+<dt id="spotipie.exceptions.ResourceTypeMismatch.args">
+<code class="sig-name descname">args</code><a class="headerlink" href="#spotipie.exceptions.ResourceTypeMismatch.args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.exceptions.ResourceTypeMismatch.with_traceback">
+<code class="sig-name descname">with_traceback</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.exceptions.ResourceTypeMismatch.with_traceback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exception.with_traceback(tb) –
+set self.__traceback__ to tb and return self.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="spotipie.client.html" title="previous chapter (use the left arrow)">spotipie.client</a>
+      </div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="spotipie.utils.html" title="next chapter (use the right arrow)">spotipie.utils</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spotipie.utils.html" title="spotipie.utils"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="spotipie.client.html" title="spotipie.client"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="spotipie.html" >spotipie API</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

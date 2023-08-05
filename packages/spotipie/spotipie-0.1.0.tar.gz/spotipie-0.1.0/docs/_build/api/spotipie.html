@@ -1,0 +1,2129 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie API &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="spotipie.auth" href="spotipie.auth.html" />
+    <link rel="prev" title="Overview" href="../readme.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spotipie.auth.html" title="spotipie.auth"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../readme.html" title="Overview"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">spotipie API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.auth.html">spotipie.auth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.client.html">spotipie.client</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.exceptions.html">spotipie.exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.utils.html">spotipie.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../index.html">Docs</a></li>
+              
+              <li>spotipie API</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <div class="section" id="module-spotipie">
+<span id="spotipie-api"></span><h1>spotipie API<a class="headerlink" href="#module-spotipie" title="Permalink to this headline">¶</a></h1>
+<p class="rubric"><span class="h2-no-toc">Substructure</span></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="spotipie.auth.html">spotipie.auth</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.auth.events.html">spotipie.auth.events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.auth.sessions.html">spotipie.auth.sessions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spotipie.auth.utils.html">spotipie.auth.utils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="spotipie.client.html">spotipie.client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spotipie.exceptions.html">spotipie.exceptions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spotipie.utils.html">spotipie.utils</a></li>
+</ul>
+</div>
+<p class="rubric"><span class="h2-no-toc">Classes</span></p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.AuthorizationCodeSession" title="spotipie.AuthorizationCodeSession"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AuthorizationCodeSession</span></code></a>(client_id, …[, …])</p></td>
+<td><p>Session for authorization code flow</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.ClientCredentialsSession" title="spotipie.ClientCredentialsSession"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ClientCredentialsSession</span></code></a>(client_id, …[, …])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.Credentials" title="spotipie.Credentials"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Credentials</span></code></a>(client_id, client_secret, …)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#spotipie.ImplicitGrantSession" title="spotipie.ImplicitGrantSession"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ImplicitGrantSession</span></code></a>(client_id, redirect_uri)</p></td>
+<td><p>Session following the “implicit grant flow” for authorization</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#spotipie.Spotify" title="spotipie.Spotify"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Spotify</span></code></a>(session)</p></td>
+<td><p>Simple spotify web API client.</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="class">
+<dt id="spotipie.AuthorizationCodeSession">
+<em class="property">class </em><code class="sig-prename descclassname">spotipie.</code><code class="sig-name descname">AuthorizationCodeSession</code><span class="sig-paren">(</span><em class="sig-param">client_id</em>, <em class="sig-param">client_secret</em>, <em class="sig-param">redirect_uri</em>, <em class="sig-param">scope=None</em>, <em class="sig-param">auto_refresh=True</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#AuthorizationCodeSession"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.AuthorizationCodeSession" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="spotipie.auth.sessions.html#spotipie.auth.sessions.RefreshableOAuth2Session" title="spotipie.auth.sessions.RefreshableOAuth2Session"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.auth.sessions.RefreshableOAuth2Session</span></code></a></p>
+<p>Session for authorization code flow</p>
+<dl class="attribute">
+<dt id="spotipie.AuthorizationCodeSession.FLOW">
+<code class="sig-name descname">FLOW</code><em class="property">: spotipie.auth.sessions.Flow</em><em class="property"> = 'authorization_code'</em><a class="headerlink" href="#spotipie.AuthorizationCodeSession.FLOW" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.authorization_url">
+<code class="sig-name descname">authorization_url</code><span class="sig-paren">(</span><em class="sig-param">force_dialog=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#AuthorizationCodeSession.authorization_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.AuthorizationCodeSession.authorization_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates the URL the user has to visit in order to authorize (the application using) this
+session. The “state” parameter (useful for security reasons) is automatically generated and
+included in the URL. This function returns the authorization url and the generated state.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>force_dialog</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Whether or not to force the user to approve the app again if they’ve already done
+so. If false (default), a user who has already approved the application may be
+automatically redirected to the URI specified by redirect_uri. If True, the user
+will not be automatically redirected and will have to approve the app again.</p></li>
+<li><p><strong>**kwargs</strong> – other query arguments to include in the authorization URLs; at the moment of
+writing this functions, no other parameter exists.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>tuple(authorization_url, state)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.fetch_token">
+<code class="sig-name descname">fetch_token</code><span class="sig-paren">(</span><em class="sig-param">callback_url</em>, <em class="sig-param">timeout=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#AuthorizationCodeSession.fetch_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.AuthorizationCodeSession.fetch_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extracts the <code class="docutils literal notranslate"><span class="pre">code</span></code> and the <code class="docutils literal notranslate"><span class="pre">state</span></code> parameters from the callback URL and, after having
+checked the correctness of the <code class="docutils literal notranslate"><span class="pre">state</span></code>, it makes a request to Spotify in order to exchange
+the authorization code for an access token.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>callback_url</strong> – the URL Spotify redirects to after the user grants his authorization to your app,
+i.e. the redirect URI with query arguments “code” and “state” (at least).
+The function raises an exception if the callback URL contains an “error” argument</p></li>
+<li><p><strong>timeout</strong> – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><a class="reference internal" href="spotipie.exceptions.html#spotipie.exceptions.AccessDenied" title="spotipie.exceptions.AccessDenied"><strong>AccessDenied</strong></a> – if the user decides to not grant access</p></li>
+<li><p><a class="reference internal" href="spotipie.exceptions.html#spotipie.exceptions.AuthorizationException" title="spotipie.exceptions.AuthorizationException"><strong>AuthorizationException</strong></a> – the callback_url has an <code class="docutils literal notranslate"><span class="pre">error</span></code> argument different from
+    “access_denied”</p></li>
+<li><p><strong>requests.Timeout</strong> – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.fetch_token_given_code">
+<code class="sig-name descname">fetch_token_given_code</code><span class="sig-paren">(</span><em class="sig-param">code</em>, <em class="sig-param">state</em>, <em class="sig-param">timeout=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#AuthorizationCodeSession.fetch_token_given_code"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.AuthorizationCodeSession.fetch_token_given_code" title="Permalink to this definition">¶</a></dt>
+<dd><p>Variant of <a class="reference internal" href="#spotipie.AuthorizationCodeSession.fetch_token" title="spotipie.AuthorizationCodeSession.fetch_token"><code class="xref py py-meth docutils literal notranslate"><span class="pre">fetch_token()</span></code></a> where you pass the code and state parameters directly
+rather than a callback URL.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.add_listener">
+<code class="sig-name descname">add_listener</code><span class="sig-paren">(</span><em class="sig-param">event_name</em>, <em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.add_listener" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a listener for one of the available events (see <a class="reference internal" href="spotipie.auth.events.html#module-spotipie.auth.events" title="spotipie.auth.events"><code class="xref py py-mod docutils literal notranslate"><span class="pre">events</span></code></a>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>event_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – either “token_updated” or “token_expired”</p></li>
+<li><p><strong>listener</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Callable" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code></a>[[<a class="reference internal" href="spotipie.auth.events.html#spotipie.auth.events.SessionEvent" title="spotipie.auth.events.SessionEvent"><code class="xref py py-class docutils literal notranslate"><span class="pre">SessionEvent</span></code></a>], <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]) – a callable taking an event object in input</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.auto_refresh">
+<code class="sig-name descname">auto_refresh</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.auto_refresh" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.client_id">
+<code class="sig-name descname">client_id</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.client_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.client_secret">
+<code class="sig-name descname">client_secret</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.client_secret" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.disable_auto_refresh">
+<code class="sig-name descname">disable_auto_refresh</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.disable_auto_refresh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disable token auto-refresh. Equivalent to <code class="docutils literal notranslate"><span class="pre">session.auto_refresh</span> <span class="pre">=</span> <span class="pre">False</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.enable_auto_refresh">
+<code class="sig-name descname">enable_auto_refresh</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.enable_auto_refresh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable token auto-refresh. Equivalent to <code class="docutils literal notranslate"><span class="pre">session.auto_refresh</span> <span class="pre">=</span> <span class="pre">True</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.is_authorized">
+<code class="sig-name descname">is_authorized</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.is_authorized" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.mount">
+<code class="sig-name descname">mount</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">adapter</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.mount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.refresh_token">
+<code class="sig-name descname">refresh_token</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.refresh_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Obtains a new token, stores it in the session and returns it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.remove_listener">
+<code class="sig-name descname">remove_listener</code><span class="sig-paren">(</span><em class="sig-param">event_name</em>, <em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.remove_listener" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.request">
+<code class="sig-name descname">request</code><span class="sig-paren">(</span><em class="sig-param">method</em>, <em class="sig-param">url</em>, <em class="sig-param">params=None</em>, <em class="sig-param">data=None</em>, <em class="sig-param">headers=None</em>, <em class="sig-param">withhold_token=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a request. See <code class="xref py py-class docutils literal notranslate"><span class="pre">requests.Session</span></code> documentation for the full argument list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>TokenExpired</strong> – if the token is expired and not refreshed/updated automatically or by a
+    listener on the “token_expired” event.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.scope">
+<code class="sig-name descname">scope</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.scope" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.session">
+<code class="sig-name descname">session</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the <code class="xref py py-class docutils literal notranslate"><span class="pre">requests_oauthlib.OAuth2Session</span></code> instance wrapped by this object.
+You should not need to use this. If you do, makes sure your use doesn’t interfere with
+the behavior of the wrapper.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.set_token">
+<code class="sig-name descname">set_token</code><span class="sig-paren">(</span><em class="sig-param">token</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.AuthorizationCodeSession.set_token" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>token</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code>]) – a OAuth2Token or an equivalent dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.AuthorizationCodeSession.token">
+<code class="sig-name descname">token</code><a class="headerlink" href="#spotipie.AuthorizationCodeSession.token" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="spotipie.ClientCredentialsSession">
+<em class="property">class </em><code class="sig-prename descclassname">spotipie.</code><code class="sig-name descname">ClientCredentialsSession</code><span class="sig-paren">(</span><em class="sig-param">client_id</em>, <em class="sig-param">client_secret</em>, <em class="sig-param">auto_refresh=True</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#ClientCredentialsSession"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.ClientCredentialsSession" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="spotipie.auth.sessions.html#spotipie.auth.sessions.RefreshableOAuth2Session" title="spotipie.auth.sessions.RefreshableOAuth2Session"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.auth.sessions.RefreshableOAuth2Session</span></code></a></p>
+<dl class="attribute">
+<dt id="spotipie.ClientCredentialsSession.FLOW">
+<code class="sig-name descname">FLOW</code><em class="property">: spotipie.auth.sessions.Flow</em><em class="property"> = 'client_credentials'</em><a class="headerlink" href="#spotipie.ClientCredentialsSession.FLOW" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.fetch_token">
+<code class="sig-name descname">fetch_token</code><span class="sig-paren">(</span><em class="sig-param">timeout=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#ClientCredentialsSession.fetch_token"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.ClientCredentialsSession.fetch_token" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.add_listener">
+<code class="sig-name descname">add_listener</code><span class="sig-paren">(</span><em class="sig-param">event_name</em>, <em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.add_listener" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a listener for one of the available events (see <a class="reference internal" href="spotipie.auth.events.html#module-spotipie.auth.events" title="spotipie.auth.events"><code class="xref py py-mod docutils literal notranslate"><span class="pre">events</span></code></a>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>event_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – either “token_updated” or “token_expired”</p></li>
+<li><p><strong>listener</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Callable" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code></a>[[<a class="reference internal" href="spotipie.auth.events.html#spotipie.auth.events.SessionEvent" title="spotipie.auth.events.SessionEvent"><code class="xref py py-class docutils literal notranslate"><span class="pre">SessionEvent</span></code></a>], <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]) – a callable taking an event object in input</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.auto_refresh">
+<code class="sig-name descname">auto_refresh</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.auto_refresh" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.client_id">
+<code class="sig-name descname">client_id</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.client_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.client_secret">
+<code class="sig-name descname">client_secret</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.client_secret" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.disable_auto_refresh">
+<code class="sig-name descname">disable_auto_refresh</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.disable_auto_refresh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disable token auto-refresh. Equivalent to <code class="docutils literal notranslate"><span class="pre">session.auto_refresh</span> <span class="pre">=</span> <span class="pre">False</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.enable_auto_refresh">
+<code class="sig-name descname">enable_auto_refresh</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.enable_auto_refresh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable token auto-refresh. Equivalent to <code class="docutils literal notranslate"><span class="pre">session.auto_refresh</span> <span class="pre">=</span> <span class="pre">True</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.is_authorized">
+<code class="sig-name descname">is_authorized</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.is_authorized" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.mount">
+<code class="sig-name descname">mount</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">adapter</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.mount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.refresh_token">
+<code class="sig-name descname">refresh_token</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.refresh_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Obtains a new token, stores it in the session and returns it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.remove_listener">
+<code class="sig-name descname">remove_listener</code><span class="sig-paren">(</span><em class="sig-param">event_name</em>, <em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.remove_listener" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.request">
+<code class="sig-name descname">request</code><span class="sig-paren">(</span><em class="sig-param">method</em>, <em class="sig-param">url</em>, <em class="sig-param">params=None</em>, <em class="sig-param">data=None</em>, <em class="sig-param">headers=None</em>, <em class="sig-param">withhold_token=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a request. See <code class="xref py py-class docutils literal notranslate"><span class="pre">requests.Session</span></code> documentation for the full argument list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>TokenExpired</strong> – if the token is expired and not refreshed/updated automatically or by a
+    listener on the “token_expired” event.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.scope">
+<code class="sig-name descname">scope</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.scope" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.session">
+<code class="sig-name descname">session</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the <code class="xref py py-class docutils literal notranslate"><span class="pre">requests_oauthlib.OAuth2Session</span></code> instance wrapped by this object.
+You should not need to use this. If you do, makes sure your use doesn’t interfere with
+the behavior of the wrapper.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.set_token">
+<code class="sig-name descname">set_token</code><span class="sig-paren">(</span><em class="sig-param">token</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ClientCredentialsSession.set_token" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>token</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code>]) – a OAuth2Token or an equivalent dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ClientCredentialsSession.token">
+<code class="sig-name descname">token</code><a class="headerlink" href="#spotipie.ClientCredentialsSession.token" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="spotipie.Credentials">
+<em class="property">class </em><code class="sig-prename descclassname">spotipie.</code><code class="sig-name descname">Credentials</code><span class="sig-paren">(</span><em class="sig-param">client_id</em>, <em class="sig-param">client_secret</em>, <em class="sig-param">redirect_uri</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#Credentials"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Credentials" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="attribute">
+<dt id="spotipie.Credentials.client_id">
+<code class="sig-name descname">client_id</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#spotipie.Credentials.client_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="spotipie.Credentials.client_secret">
+<code class="sig-name descname">client_secret</code><em class="property">: Optional[str]</em><em class="property"> = None</em><a class="headerlink" href="#spotipie.Credentials.client_secret" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="spotipie.Credentials.redirect_uri">
+<code class="sig-name descname">redirect_uri</code><em class="property">: str</em><em class="property"> = None</em><a class="headerlink" href="#spotipie.Credentials.redirect_uri" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Credentials.from_environment">
+<em class="property">staticmethod </em><code class="sig-name descname">from_environment</code><span class="sig-paren">(</span><em class="sig-param">prefix='SPOTIPIE'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#Credentials.from_environment"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Credentials.from_environment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads Spotify OAuth2 credentials from the following environment variables:
+<code class="docutils literal notranslate"><span class="pre">{prefix}_CLIENT_ID,</span> <span class="pre">{prefix}_CLIENT_SECRET,</span> <span class="pre">{prefix}_REDIRECT_URI</span></code>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#KeyError" title="(in Python v3.8)"><strong>KeyError</strong></a> – if no variable is defined for <code class="docutils literal notranslate"><span class="pre">client_id</span></code> and <code class="docutils literal notranslate"><span class="pre">redirect_uri</span></code>.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Credentials</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="spotipie.ImplicitGrantSession">
+<em class="property">class </em><code class="sig-prename descclassname">spotipie.</code><code class="sig-name descname">ImplicitGrantSession</code><span class="sig-paren">(</span><em class="sig-param">client_id</em>, <em class="sig-param">redirect_uri</em>, <em class="sig-param">scope=None</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#ImplicitGrantSession"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.ImplicitGrantSession" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="spotipie.auth.sessions.html#spotipie.auth.sessions.BaseOAuth2Session" title="spotipie.auth.sessions.BaseOAuth2Session"><code class="xref py py-class docutils literal notranslate"><span class="pre">spotipie.auth.sessions.BaseOAuth2Session</span></code></a></p>
+<p>Session following the “implicit grant flow” for authorization</p>
+<dl class="attribute">
+<dt id="spotipie.ImplicitGrantSession.FLOW">
+<code class="sig-name descname">FLOW</code><em class="property">: spotipie.auth.sessions.Flow</em><em class="property"> = 'implicit_grant'</em><a class="headerlink" href="#spotipie.ImplicitGrantSession.FLOW" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.add_listener">
+<code class="sig-name descname">add_listener</code><span class="sig-paren">(</span><em class="sig-param">event_name</em>, <em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ImplicitGrantSession.add_listener" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a listener for one of the available events (see <a class="reference internal" href="spotipie.auth.events.html#module-spotipie.auth.events" title="spotipie.auth.events"><code class="xref py py-mod docutils literal notranslate"><span class="pre">events</span></code></a>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>event_name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – either “token_updated” or “token_expired”</p></li>
+<li><p><strong>listener</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Callable" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Callable</span></code></a>[[<a class="reference internal" href="spotipie.auth.events.html#spotipie.auth.events.SessionEvent" title="spotipie.auth.events.SessionEvent"><code class="xref py py-class docutils literal notranslate"><span class="pre">SessionEvent</span></code></a>], <a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Any" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code></a>]) – a callable taking an event object in input</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.client_id">
+<code class="sig-name descname">client_id</code><a class="headerlink" href="#spotipie.ImplicitGrantSession.client_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.is_authorized">
+<code class="sig-name descname">is_authorized</code><a class="headerlink" href="#spotipie.ImplicitGrantSession.is_authorized" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.mount">
+<code class="sig-name descname">mount</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">adapter</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ImplicitGrantSession.mount" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.remove_listener">
+<code class="sig-name descname">remove_listener</code><span class="sig-paren">(</span><em class="sig-param">event_name</em>, <em class="sig-param">listener</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ImplicitGrantSession.remove_listener" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.request">
+<code class="sig-name descname">request</code><span class="sig-paren">(</span><em class="sig-param">method</em>, <em class="sig-param">url</em>, <em class="sig-param">params=None</em>, <em class="sig-param">data=None</em>, <em class="sig-param">headers=None</em>, <em class="sig-param">withhold_token=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ImplicitGrantSession.request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a request. See <code class="xref py py-class docutils literal notranslate"><span class="pre">requests.Session</span></code> documentation for the full argument list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>TokenExpired</strong> – if the token is expired and not refreshed/updated automatically or by a
+    listener on the “token_expired” event.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.scope">
+<code class="sig-name descname">scope</code><a class="headerlink" href="#spotipie.ImplicitGrantSession.scope" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.session">
+<code class="sig-name descname">session</code><a class="headerlink" href="#spotipie.ImplicitGrantSession.session" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the <code class="xref py py-class docutils literal notranslate"><span class="pre">requests_oauthlib.OAuth2Session</span></code> instance wrapped by this object.
+You should not need to use this. If you do, makes sure your use doesn’t interfere with
+the behavior of the wrapper.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.set_token">
+<code class="sig-name descname">set_token</code><span class="sig-paren">(</span><em class="sig-param">token</em><span class="sig-paren">)</span><a class="headerlink" href="#spotipie.ImplicitGrantSession.set_token" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>token</strong> (<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Union" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Dict" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code>]) – a OAuth2Token or an equivalent dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.token">
+<code class="sig-name descname">token</code><a class="headerlink" href="#spotipie.ImplicitGrantSession.token" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.authorization_url">
+<code class="sig-name descname">authorization_url</code><span class="sig-paren">(</span><em class="sig-param">force_dialog=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#ImplicitGrantSession.authorization_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.ImplicitGrantSession.authorization_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates the URL the user has to visit in order to authorize (the application using) this
+session. The “state” parameter (useful for security reasons) is automatically generated and
+included in the URL. This function returns the authorization url and the generated state.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>force_dialog</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Whether or not to force the user to approve the app again if they’ve already done
+so. If false (default), a user who has already approved the application may be
+automatically redirected to the URI specified by redirect_uri. If True, the user
+will not be automatically redirected and will have to approve the app again.</p></li>
+<li><p><strong>**kwargs</strong> – other query arguments to include in the authorization URLs; at the moment of
+writing this functions, no other parameter exists.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference external" href="https://docs.python.org/3/library/typing.html#typing.Tuple" title="(in Python v3.8)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Tuple</span></code></a>[<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>]</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>tuple(authorization_url, state)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.ImplicitGrantSession.read_token_from_callback_url">
+<code class="sig-name descname">read_token_from_callback_url</code><span class="sig-paren">(</span><em class="sig-param">callback_url</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/auth/sessions.html#ImplicitGrantSession.read_token_from_callback_url"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.ImplicitGrantSession.read_token_from_callback_url" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parses the callback URL and grab the token information contained in the fragment of the URL.
+Sets the <code class="docutils literal notranslate"><span class="pre">token</span></code> property and returns the token.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">OAuth2Token</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="spotipie.Spotify">
+<em class="property">class </em><code class="sig-prename descclassname">spotipie.</code><code class="sig-name descname">Spotify</code><span class="sig-paren">(</span><em class="sig-param">session</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Simple spotify web API client. It returns dictionaries matching exactly what is returned
+by the API as JSON. It implements all endpoints, including the beta endpoints.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>session</strong> (<a class="reference internal" href="spotipie.auth.html#spotipie.auth.BaseOAuth2Session" title="spotipie.auth.BaseOAuth2Session"><em>BaseOAuth2Session</em></a>) – </p>
+</dd>
+</dl>
+<dl class="attribute">
+<dt id="spotipie.Spotify.API_BASE_URL">
+<code class="sig-name descname">API_BASE_URL</code><em class="property"> = 'https://api.spotify.com/v1'</em><a class="headerlink" href="#spotipie.Spotify.API_BASE_URL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="spotipie.Spotify.TYPE_TO_METHOD_NAME">
+<code class="sig-name descname">TYPE_TO_METHOD_NAME</code><em class="property"> = {'album': 'album', 'artist': 'artist', 'playlist': 'playlist', 'track': 'track', 'user': 'user_public_profile'}</em><a class="headerlink" href="#spotipie.Spotify.TYPE_TO_METHOD_NAME" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.get">
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">uri_or_url</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.get"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns an object (track, album, artist, playlist or user) given its spotify URI or URL.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.iter">
+<em class="property">for ... in </em><code class="sig-name descname">iter</code><span class="sig-paren">(</span><em class="sig-param">start_page</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.iter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.iter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns an iterator of all the items in a sequence of pages (dictionary with ‘items’
+and ‘next’ keys). For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">all_playlist_tracks</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">client</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="n">playlist</span><span class="p">[</span><span class="s1">&#39;tracks&#39;</span><span class="p">]))</span>
+<span class="n">all_album_tracks</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">client</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="n">album</span><span class="p">[</span><span class="s1">&#39;tracks&#39;</span><span class="p">]))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.next_page">
+<code class="sig-name descname">next_page</code><span class="sig-paren">(</span><em class="sig-param">page</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.next_page"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.next_page" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the next result given a paged result</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>page</strong> – a previously returned paged result</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.previous_page">
+<code class="sig-name descname">previous_page</code><span class="sig-paren">(</span><em class="sig-param">result</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.previous_page"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.previous_page" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the previous result given a paged result</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>result</strong> – a previously returned paged result</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.album">
+<code class="sig-name descname">album</code><span class="sig-paren">(</span><em class="sig-param">album_id</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.album"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.album" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information for a single album.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/albums/get-album/">https://developer.spotify.com/documentation/web-api/reference/albums/get-album/</a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.album_tracks">
+<code class="sig-name descname">album_tracks</code><span class="sig-paren">(</span><em class="sig-param">album_id</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.album_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.album_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information about an album’s tracks.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/albums/get-albums-tracks/">https://developer.spotify.com/documentation/web-api/reference/albums/get-albums-tracks/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>album_id</strong> – </p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of tracks to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first track to return. Default: 0 (the first object).
+Use with limit to get the next set of tracks.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a href="#id1"><span class="problematic" id="id2">`</span></a>ISO 3166-1 alpha-2 country code</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.albums">
+<code class="sig-name descname">albums</code><span class="sig-paren">(</span><em class="sig-param">ids</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.albums"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.albums" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information for multiple albums identified by their Spotify IDs.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/albums/get-several-albums/">https://developer.spotify.com/documentation/web-api/reference/albums/get-several-albums/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ids</strong> – <em>Required</em>. A list of the Spotify IDs. Maximum: 20 IDs.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a href="#id3"><span class="problematic" id="id4">`</span></a>ISO 3166-1 alpha-2 country code</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.artist">
+<code class="sig-name descname">artist</code><span class="sig-paren">(</span><em class="sig-param">artist_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.artist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.artist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information for a single artist identified by their unique Spotify ID.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/artists/get-artist/">https://developer.spotify.com/documentation/web-api/reference/artists/get-artist/</a></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.artist_albums">
+<code class="sig-name descname">artist_albums</code><span class="sig-paren">(</span><em class="sig-param">artist_id</em>, <em class="sig-param">include_groups=None</em>, <em class="sig-param">market=None</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.artist_albums"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.artist_albums" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information about an artist’s albums. Optional parameters can be
+specified in the query string to filter and sort the response_args.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/artists/get-artists-albums/">https://developer.spotify.com/documentation/web-api/reference/artists/get-artists-albums/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>artist_id</strong> – </p></li>
+<li><p><strong>include_groups</strong> – <em>Optional</em>. A comma-separated list of keywords that will be used to filter the
+response_args. If not supplied, all album types will be returned. Valid values are:
+- <code class="docutils literal notranslate"><span class="pre">album</span></code> - <code class="docutils literal notranslate"><span class="pre">single</span></code> - <code class="docutils literal notranslate"><span class="pre">appears_on</span></code> - <code class="docutils literal notranslate"><span class="pre">compilation</span></code>
+For example:
+<code class="docutils literal notranslate"><span class="pre">include_groups=album,single</span></code>.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Supply this parameter to limit the response_args to one particular geographical
+market.
+For example, for albums available in Sweden: <code class="docutils literal notranslate"><span class="pre">market=SE</span></code>. <em>If not given, results
+will be returned for all markets and you are likely to get duplicate results per
+album, one for each market in which the album is available!</em></p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The number of album objects to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first album to return. Default: 0 (i.e., the first
+album). Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of albums.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.artist_top_tracks">
+<code class="sig-name descname">artist_top_tracks</code><span class="sig-paren">(</span><em class="sig-param">artist_id</em>, <em class="sig-param">market</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.artist_top_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.artist_top_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information about an artist’s top tracks by country.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/artists/get-artists-top-tracks/">https://developer.spotify.com/documentation/web-api/reference/artists/get-artists-top-tracks/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>artist_id</strong> – </p></li>
+<li><p><strong>market</strong> – <em>Required</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.artist_related_artists">
+<code class="sig-name descname">artist_related_artists</code><span class="sig-paren">(</span><em class="sig-param">artist_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.artist_related_artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.artist_related_artists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information about artists similar to a given artist. Similarity is
+based on analysis of the Spotify community’s listening history.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/artists/get-related-artists/">https://developer.spotify.com/documentation/web-api/reference/artists/get-related-artists/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>artist_id</strong> – The Spotify ID for the artist.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.artists">
+<code class="sig-name descname">artists</code><span class="sig-paren">(</span><em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.artists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information for several artists based on their Spotify IDs.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/artists/get-several-artists/">https://developer.spotify.com/documentation/web-api/reference/artists/get-several-artists/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> – A list of the Spotify IDs. Maximum: 50 IDs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.category">
+<code class="sig-name descname">category</code><span class="sig-paren">(</span><em class="sig-param">category_id</em>, <em class="sig-param">country=None</em>, <em class="sig-param">locale=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.category"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.category" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a single category used to tag items in Spotify (on, for example, the Spotify player’s
+“Browse” tab).
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/browse/get-category/">https://developer.spotify.com/documentation/web-api/reference/browse/get-category/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>category_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify category ID</a>
+for the category.</p></li>
+<li><p><strong>country</strong> – <em>Optional</em>. A country: an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a>. Provide this parameter to
+ensure that the category exists for a particular country.</p></li>
+<li><p><strong>locale</strong> – <em>Optional</em>. The desired language, consisting of an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> language code and an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1
+alpha-2 country code</a>, joined
+by an underscore. For example: <code class="docutils literal notranslate"><span class="pre">es_MX</span></code>, meaning “Spanish (Mexico)”. Provide this
+parameter if you want the category strings returned in a particular language. Note
+that, if <code class="docutils literal notranslate"><span class="pre">locale</span></code> is not supplied, or if the specified language is not available,
+the category strings returned will be in the Spotify default language (American
+English).</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.category_playlists">
+<code class="sig-name descname">category_playlists</code><span class="sig-paren">(</span><em class="sig-param">category_id</em>, <em class="sig-param">country=None</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.category_playlists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.category_playlists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of Spotify playlists tagged with a particular category.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/browse/get-categorys-playlists/">https://developer.spotify.com/documentation/web-api/reference/browse/get-categorys-playlists/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>category_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify category ID</a>
+for the category.</p></li>
+<li><p><strong>country</strong> – <em>Optional</em>. A country: an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a>.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of items to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first item to return. Default: 0 (the first object).
+Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of items.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.categories">
+<code class="sig-name descname">categories</code><span class="sig-paren">(</span><em class="sig-param">country=None</em>, <em class="sig-param">locale=None</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.categories"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.categories" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of categories used to tag items in Spotify (on, for example, the Spotify
+player’s “Browse” tab).
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/browse/get-list-categories/">https://developer.spotify.com/documentation/web-api/reference/browse/get-list-categories/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>country</strong> – <em>Optional</em>. A country: an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a>. Provide this parameter if you
+want to narrow the list of returned categories to those relevant to a particular
+country. If omitted, the returned items will be globally relevant.</p></li>
+<li><p><strong>locale</strong> – <em>Optional</em>. The desired language, consisting of an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1</a> language code and an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1
+alpha-2 country code</a>, joined
+by an underscore. For example: <code class="docutils literal notranslate"><span class="pre">es_MX</span></code>, meaning “Spanish (Mexico)”. Provide this
+parameter if you want the category metadata returned in a particular language. Note
+that, if <code class="docutils literal notranslate"><span class="pre">locale</span></code> is not supplied, or if the specified language is not available,
+all strings will be returned in the Spotify default language (American English).
+The <code class="docutils literal notranslate"><span class="pre">locale</span></code> parameter, combined with the <code class="docutils literal notranslate"><span class="pre">country</span></code> parameter, may give odd
+results if not carefully matched. For example <code class="docutils literal notranslate"><span class="pre">country=SE&amp;locale=de_DE</span></code> will
+return a list of categories relevant to Sweden but as German language strings.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of categories to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first item to return. Default: 0 (the first object).
+Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of categories.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.featured_playlists">
+<code class="sig-name descname">featured_playlists</code><span class="sig-paren">(</span><em class="sig-param">locale=None</em>, <em class="sig-param">country=None</em>, <em class="sig-param">timestamp=None</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.featured_playlists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.featured_playlists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of Spotify featured playlists (shown, for example, on a Spotify player’s
+‘Browse’ tab).
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/browse/get-list-featured-playlists/">https://developer.spotify.com/documentation/web-api/reference/browse/get-list-featured-playlists/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>locale</strong> – <em>Optional</em>. The desired language, consisting of a lowercase <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_639-1">ISO 639-1 language
+code</a> and an uppercase <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1
+alpha-2 country code</a>, joined
+by an underscore. For example: <code class="docutils literal notranslate"><span class="pre">es_MX</span></code>, meaning “Spanish (Mexico)”. Provide this
+parameter if you want the results returned in a particular language (where
+available). Note that, if <code class="docutils literal notranslate"><span class="pre">locale</span></code> is not supplied, or if the specified language
+is not available, all strings will be returned in the Spotify default language
+(American English). The <code class="docutils literal notranslate"><span class="pre">locale</span></code> parameter, combined with the <code class="docutils literal notranslate"><span class="pre">country</span></code>
+parameter, may give odd results if not carefully matched. For example
+<code class="docutils literal notranslate"><span class="pre">country=SE&amp;locale=de_DE</span></code> will return a list of categories relevant to Sweden but
+as German language strings.</p></li>
+<li><p><strong>country</strong> – <em>Optional</em>. A country: an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a>. Provide this parameter if you
+want the list of returned items to be relevant to a particular country. If omitted,
+the returned items will be relevant to all countries.</p></li>
+<li><p><strong>timestamp</strong> – <em>Optional</em>. A timestamp in <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601 format</a>: <code class="docutils literal notranslate"><span class="pre">yyyy-MM-ddTHH:mm:ss</span></code>. Use this
+parameter to specify the user’s local time to get results tailored for that
+specific date and time in the day. If not provided, the response_args defaults to
+the current UTC time. Example: “2014-10-23T09:00:00” for a user whose local time is
+9AM. If there were no featured playlists (or there is no data) at the specified
+time, the response_args will revert to the current UTC time.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of items to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first item to return. Default: 0 (the first object).
+Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of items.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.new_releases">
+<code class="sig-name descname">new_releases</code><span class="sig-paren">(</span><em class="sig-param">country=None</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.new_releases"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.new_releases" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of new album releases featured in Spotify (shown, for example, on a Spotify
+player’s “Browse” tab).
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/browse/get-list-new-releases/">https://developer.spotify.com/documentation/web-api/reference/browse/get-list-new-releases/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>country</strong> – <em>Optional</em>. A country: an <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a>. Provide this parameter if you
+want the list of returned items to be relevant to a particular country. If omitted,
+the returned items will be relevant to all countries.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of items to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first item to return. Default: 0 (the first object).
+Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of items.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.recommendations">
+<code class="sig-name descname">recommendations</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">market=None</em>, <em class="sig-param">seed_artists=None</em>, <em class="sig-param">seed_genres=None</em>, <em class="sig-param">seed_tracks=None</em>, <em class="sig-param">**filters</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.recommendations"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.recommendations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a playlist-style listening experience based on seed artists, tracks and genres.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/browse/get-recommendations/">https://developer.spotify.com/documentation/web-api/reference/browse/get-recommendations/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The target size of the list of recommended tracks. For seeds with
+unusually small pools or when highly restrictive filtering is applied, it may be
+impossible to generate the requested number of recommended tracks. Debugging
+information for such cases is available in the response_args.
+Default: 20. Minimum: 1. Maximum: 100.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide">Track Relinking</a>.
+Because <code class="docutils literal notranslate"><span class="pre">min_*</span></code>, <code class="docutils literal notranslate"><span class="pre">max_*</span></code> and <code class="docutils literal notranslate"><span class="pre">target_*</span></code> are applied to pools before
+relinking, the generated results may not precisely match the filters applied.
+Original, non-relinked tracks are available via the <code class="docutils literal notranslate"><span class="pre">linked_from</span></code> attribute of
+the <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide">relinked track response_args</a>.</p></li>
+<li><p><strong>seed_artists</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><em>list</em></a><em> or </em><em>string of comma-separated values</em>) – List of the Spotify IDs of the seed artists.
+Up to 5 seed values may be provided in any combination of
+<code class="docutils literal notranslate"><span class="pre">seed_artists</span></code>, <code class="docutils literal notranslate"><span class="pre">seed_tracks</span></code> and <code class="docutils literal notranslate"><span class="pre">seed_genres</span></code>.</p></li>
+<li><p><strong>seed_genres</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><em>list</em></a><em> or </em><em>string of comma-separated values</em>) – A list of any genres in the set of <a class="reference external" href="https://developer.spotify.com/#available-genre-seeds">available genre seeds</a>.
+Up to 5 seed values may be provided in any combination of <code class="docutils literal notranslate"><span class="pre">seed_artists</span></code>,
+<code class="docutils literal notranslate"><span class="pre">seed_tracks</span></code> and <code class="docutils literal notranslate"><span class="pre">seed_genres</span></code>.</p></li>
+<li><p><strong>seed_tracks</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><em>list</em></a><em> or </em><em>string of comma-separated values</em>) – A list of <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify IDs</a>
+for a seed track. Up to 5 seed values may be provided in any combination of
+<code class="docutils literal notranslate"><span class="pre">seed_artists</span></code>, <code class="docutils literal notranslate"><span class="pre">seed_tracks</span></code> and <code class="docutils literal notranslate"><span class="pre">seed_genres</span></code>.</p></li>
+<li><p><strong>**filters</strong> – <p>Open the endpoint URL above for the complete list of tunable attributes
+(at the bottom of the page). Filters are of three types:</p>
+<ul>
+<li><p>max_{attribute}:  a hard ceiling on the selected track attribute’s value, e.g.
+<code class="docutils literal notranslate"><span class="pre">max_instrumentalness=0.35</span></code> would filter out most tracks that are likely to be
+instrumental.</p></li>
+<li><dl class="simple">
+<dt>min_{attribute}:</dt><dd><p>e.g. <code class="docutils literal notranslate"><span class="pre">min_tempo=140</span></code> would restrict results to only those tracks with a tempo
+of greater than 140 beats per minute.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>target_{attribute}:</dt><dd><p>tracks with the attribute values nearest to the target values will be preferred,
+e.g. you might request <code class="docutils literal notranslate"><span class="pre">target_energy=0.6</span></code> and <code class="docutils literal notranslate"><span class="pre">target_danceability=0.8</span></code>;
+all target values will be weighed equally in ranking results.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_is_following">
+<code class="sig-name descname">user_is_following</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_is_following"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_is_following" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check to see if the current user is following one or more artists or Spotify users.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/check-current-user-follows/">https://developer.spotify.com/documentation/web-api/reference/follow/check-current-user-follows/</a></p>
+<p>Relevant authorization scopes: user-follow-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>obj_type</strong> – either ‘artist’ or ‘user’</p></li>
+<li><p><strong>ids</strong> (<em>list of IDs</em><em> or </em><em>string of comma-separated artist IDs</em>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_is_following_users">
+<code class="sig-name descname">user_is_following_users</code><span class="sig-paren">(</span><em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_is_following_users"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_is_following_users" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check to see if the current user is following one or more Spotify users.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/check-current-user-follows/">https://developer.spotify.com/documentation/web-api/reference/follow/check-current-user-follows/</a></p>
+<p>Relevant authorization scopes: user-follow-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> (<em>list of IDs</em><em> or </em><em>string of comma-separated users IDs</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_is_following_artists">
+<code class="sig-name descname">user_is_following_artists</code><span class="sig-paren">(</span><em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_is_following_artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_is_following_artists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check to see if the current user is following one or more Spotify artists.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/check-current-user-follows/">https://developer.spotify.com/documentation/web-api/reference/follow/check-current-user-follows/</a></p>
+<p>Relevant authorization scopes: user-follow-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> (<em>list of IDs</em><em> or </em><em>string of comma-separated users IDs</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.playlist_is_followed_by">
+<code class="sig-name descname">playlist_is_followed_by</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">user_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.playlist_is_followed_by"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.playlist_is_followed_by" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check to see if one or more Spotify users are following a specified playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/check-user-following-playlist/">https://developer.spotify.com/documentation/web-api/reference/follow/check-user-following-playlist/</a></p>
+<p>Relevant authorization scopes: playlist-read-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a> of
+the playlist.</p></li>
+<li><p><strong>user_ids</strong> – <em>Required</em>. A list of <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify User IDs</a> ;
+the ids of the users that you want to check to see if they follow the playlist.
+Maximum: 5 ids.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dictionary id -&gt; True/False</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.follow">
+<code class="sig-name descname">follow</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.follow"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.follow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add the current user as a follower of one or more artists or other Spotify users.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/follow-artists-users/">https://developer.spotify.com/documentation/web-api/reference/follow/follow-artists-users/</a></p>
+<p>Relevant authorization scopes: user-follow-modify</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>obj_type</strong> – <em>Required</em>. The ID type: either <code class="docutils literal notranslate"><span class="pre">artist</span></code> or <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p></li>
+<li><p><strong>ids</strong> (<em>list of Spotify ID strings</em>) – <em>Optional</em>. A list of the artist or user <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify IDs</a>. A
+maximum of 50 IDs can be sent in one request</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.follow_artists">
+<code class="sig-name descname">follow_artists</code><span class="sig-paren">(</span><em class="sig-param">artist_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.follow_artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.follow_artists" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.follow_users">
+<code class="sig-name descname">follow_users</code><span class="sig-paren">(</span><em class="sig-param">user_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.follow_users"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.follow_users" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.follow_playlist">
+<code class="sig-name descname">follow_playlist</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">public=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.follow_playlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.follow_playlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add the current user as a follower of a playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/follow-playlist/">https://developer.spotify.com/documentation/web-api/reference/follow/follow-playlist/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a> of
+the playlist. Any playlist can be followed, regardless of its <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/working-with-playlists/#public-private-and-collaborative-status">public/private
+status</a>,
+as long as you know its playlist ID.</p></li>
+<li><p><strong>public</strong> (<em>Boolean</em>) – <em>Optional</em>. Defaults to <code class="docutils literal notranslate"><span class="pre">true</span></code>. If <code class="docutils literal notranslate"><span class="pre">true</span></code> the playlist will be included in
+user’s public playlists, if <code class="docutils literal notranslate"><span class="pre">false</span></code> it will remain private. To be able to follow
+playlists privately, the user must have granted the <code class="docutils literal notranslate"><span class="pre">playlist-modify-private</span></code>
+<a class="reference external" href="https://developer.spotify.com/documentation/general/guides/authorization-guide/#list-of-scopes">scope</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_followed_artists">
+<code class="sig-name descname">user_followed_artists</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">after=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_followed_artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_followed_artists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the current user’s followed artists.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/get-followed/">https://developer.spotify.com/documentation/web-api/reference/follow/get-followed/</a></p>
+<p>Relevant authorization scopes: user-follow-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>obj_type</strong> – <em>Required</em>. The ID type: currently only <code class="docutils literal notranslate"><span class="pre">artist</span></code> is supported.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of items to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>after</strong> – <em>Optional</em>. The last artist ID retrieved from the previous request.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.unfollow">
+<code class="sig-name descname">unfollow</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.unfollow"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.unfollow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove the current user as a follower of one or more artists or other Spotify users.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/unfollow-artists-users/">https://developer.spotify.com/documentation/web-api/reference/follow/unfollow-artists-users/</a></p>
+<p>Relevant authorization scopes: user-follow-modify</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>obj_type</strong> – <em>Required</em>. The ID type: either <code class="docutils literal notranslate"><span class="pre">artist</span></code> or <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p></li>
+<li><p><strong>ids</strong> (<em>list of Spotify ID strings</em>) – A list of the artist or user <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify IDs</a>. A
+maximum of 50 IDs can be sent in one request</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.unfollow_artists">
+<code class="sig-name descname">unfollow_artists</code><span class="sig-paren">(</span><em class="sig-param">artist_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.unfollow_artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.unfollow_artists" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.unfollow_users">
+<code class="sig-name descname">unfollow_users</code><span class="sig-paren">(</span><em class="sig-param">user_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.unfollow_users"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.unfollow_users" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.unfollow_playlist">
+<code class="sig-name descname">unfollow_playlist</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.unfollow_playlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.unfollow_playlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove the current user as a follower of a playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/follow/unfollow-playlist/">https://developer.spotify.com/documentation/web-api/reference/follow/unfollow-playlist/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>playlist_id</strong> – The Spotify ID of the playlist that is to be no longer followed.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_saved_albums_contains">
+<code class="sig-name descname">user_saved_albums_contains</code><span class="sig-paren">(</span><em class="sig-param">album_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_saved_albums_contains"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_saved_albums_contains" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if one or more albums is already saved in the current Spotify user’s ‘Your Music’
+library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/check-users-saved-albums/">https://developer.spotify.com/documentation/web-api/reference/library/check-users-saved-albums/</a></p>
+<p>Relevant authorization scopes: user-library-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>album_ids</strong> – Maximum: 50 IDs.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dictionary album_id -&gt; bool(the album is between the user saved albums)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_saved_tracks_contains">
+<code class="sig-name descname">user_saved_tracks_contains</code><span class="sig-paren">(</span><em class="sig-param">track_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_saved_tracks_contains"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_saved_tracks_contains" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if one or more tracks is already saved in the current Spotify user’s ‘Your Music’
+library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/check-users-saved-tracks/">https://developer.spotify.com/documentation/web-api/reference/library/check-users-saved-tracks/</a></p>
+<p>Relevant authorization scopes: user-library-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>track_ids</strong> – Maximum: 50 IDs.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>dictionary track_id -&gt; bool(the track is between the user saved tracks)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_saved_albums">
+<code class="sig-name descname">user_saved_albums</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_saved_albums"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_saved_albums" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of the albums saved in the current Spotify user’s ‘Your Music’ library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/get-users-saved-albums/">https://developer.spotify.com/documentation/web-api/reference/library/get-users-saved-albums/</a></p>
+<p>Relevant authorization scopes: user-library-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of objects to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first object to return. Default: 0 (i.e., the first
+object). Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of objects.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_saved_tracks">
+<code class="sig-name descname">user_saved_tracks</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_saved_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_saved_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of the songs saved in the current Spotify user’s ‘Your Music’ library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/get-users-saved-tracks/">https://developer.spotify.com/documentation/web-api/reference/library/get-users-saved-tracks/</a></p>
+<p>Relevant authorization scopes: user-library-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of objects to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first object to return. Default: 0 (i.e., the first
+object). Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of objects.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.remove_albums_from_library">
+<code class="sig-name descname">remove_albums_from_library</code><span class="sig-paren">(</span><em class="sig-param">ids=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.remove_albums_from_library"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.remove_albums_from_library" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove one or more albums from the current user’s ‘Your Music’ library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/remove-albums-user/">https://developer.spotify.com/documentation/web-api/reference/library/remove-albums-user/</a></p>
+<p>Relevant authorization scopes: user-library-modify</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> – Maximum: 50 IDs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.remove_tracks_from_library">
+<code class="sig-name descname">remove_tracks_from_library</code><span class="sig-paren">(</span><em class="sig-param">ids=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.remove_tracks_from_library"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.remove_tracks_from_library" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove one or more tracks from the current user’s ‘Your Music’ library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/remove-tracks-user/">https://developer.spotify.com/documentation/web-api/reference/library/remove-tracks-user/</a></p>
+<p>Relevant authorization scopes: user-library-modify</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> – Maximum: 50 IDs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.save_albums_to_library">
+<code class="sig-name descname">save_albums_to_library</code><span class="sig-paren">(</span><em class="sig-param">ids=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.save_albums_to_library"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.save_albums_to_library" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save one or more albums to the current user’s ‘Your Music’ library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/save-albums-user/">https://developer.spotify.com/documentation/web-api/reference/library/save-albums-user/</a></p>
+<p>Relevant authorization scopes: user-library-modify</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> – Maximum: 50 IDs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.save_tracks_to_library">
+<code class="sig-name descname">save_tracks_to_library</code><span class="sig-paren">(</span><em class="sig-param">ids=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.save_tracks_to_library"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.save_tracks_to_library" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save one or more tracks to the current user’s ‘Your Music’ library.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/library/save-tracks-user/">https://developer.spotify.com/documentation/web-api/reference/library/save-tracks-user/</a></p>
+<p>Relevant authorization scopes: user-library-modify</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ids</strong> – Maximum: 50 IDs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_top">
+<code class="sig-name descname">user_top</code><span class="sig-paren">(</span><em class="sig-param">obj_type</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">time_range='medium_term'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_top"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_top" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the current user’s top artists or tracks based on calculated affinity.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/">https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/</a></p>
+<p>Relevant authorization scopes: user-top-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>obj_type</strong> – The type of entity to return. Valid values: <code class="docutils literal notranslate"><span class="pre">artists</span></code> or <code class="docutils literal notranslate"><span class="pre">tracks</span></code>.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The number of entities to return. Default: 20. Minimum: 1. Maximum: 50.
+For example: <code class="docutils literal notranslate"><span class="pre">limit=2</span></code></p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first entity to return. Default: 0 (i.e., the first
+track). Use with limit to get the next set of entities.</p></li>
+<li><p><strong>time_range</strong> – <em>Optional</em>. Over what time frame the affinities are computed. Valid values:
+<code class="docutils literal notranslate"><span class="pre">long_term</span></code> (calculated from several years of data and including all new data as
+it becomes available), <code class="docutils literal notranslate"><span class="pre">medium_term</span></code> (approximately last 6 months),
+<code class="docutils literal notranslate"><span class="pre">short_term</span></code> (approximately last 4 weeks). Default: <code class="docutils literal notranslate"><span class="pre">medium_term</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_top_artists">
+<code class="sig-name descname">user_top_artists</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">time_range='medium_term'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_top_artists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_top_artists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the current user’s top artists based on calculated affinity.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/">https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/</a></p>
+<p>Relevant authorization scopes: user-top-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The number of entities to return. Default: 20. Minimum: 1. Maximum: 50.
+For example: <code class="docutils literal notranslate"><span class="pre">limit=2</span></code></p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first entity to return. Default: 0 (i.e., the first
+track). Use with limit to get the next set of entities.</p></li>
+<li><p><strong>time_range</strong> – <em>Optional</em>. Over what time frame the affinities are computed. Valid values:
+<code class="docutils literal notranslate"><span class="pre">long_term</span></code> (calculated from several years of data and including all new data as
+it becomes available), <code class="docutils literal notranslate"><span class="pre">medium_term</span></code> (approximately last 6 months),
+<code class="docutils literal notranslate"><span class="pre">short_term</span></code> (approximately last 4 weeks). Default: <code class="docutils literal notranslate"><span class="pre">medium_term</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_top_tracks">
+<code class="sig-name descname">user_top_tracks</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">time_range='medium_term'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_top_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_top_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the current user’s top tracks based on calculated affinity.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/">https://developer.spotify.com/documentation/web-api/reference/personalization/get-users-top-artists-and-tracks/</a></p>
+<p>Relevant authorization scopes: user-top-read</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The number of entities to return. Default: 20. Minimum: 1. Maximum: 50.
+For example: <code class="docutils literal notranslate"><span class="pre">limit=2</span></code></p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first entity to return. Default: 0 (i.e., the first
+track). Use with limit to get the next set of entities.</p></li>
+<li><p><strong>time_range</strong> – <em>Optional</em>. Over what time frame the affinities are computed. Valid values:
+<code class="docutils literal notranslate"><span class="pre">long_term</span></code> (calculated from several years of data and including all new data as
+it becomes available), <code class="docutils literal notranslate"><span class="pre">medium_term</span></code> (approximately last 6 months),
+<code class="docutils literal notranslate"><span class="pre">short_term</span></code> (approximately last 4 weeks). Default: <code class="docutils literal notranslate"><span class="pre">medium_term</span></code>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.available_devices">
+<code class="sig-name descname">available_devices</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.available_devices"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.available_devices" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get information about a user’s available devices.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/">https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/</a></p>
+<p>Relevant authorization scopes: user-read-playback-state</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.playback_state">
+<code class="sig-name descname">playback_state</code><span class="sig-paren">(</span><em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.playback_state"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.playback_state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get information about the user’s current playback state, including track, track progress,
+and active device.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/get-information-about-the-users-current-playback/">https://developer.spotify.com/documentation/web-api/reference/player/get-information-about-the-users-current-playback/</a></p>
+<p>Relevant authorization scopes: user-read-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_recently_played_tracks">
+<code class="sig-name descname">user_recently_played_tracks</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">after=None</em>, <em class="sig-param">before=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_recently_played_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_recently_played_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get tracks from the current user’s recently played tracks.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/get-recently-played/">https://developer.spotify.com/documentation/web-api/reference/player/get-recently-played/</a></p>
+<p>Relevant authorization scopes: user-read-recently-played</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of items to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>after</strong> – <em>Optional</em>. A Unix timestamp in milliseconds. Returns all items after (but not
+including) this cursor position. If <code class="docutils literal notranslate"><span class="pre">after</span></code> is specified, <code class="docutils literal notranslate"><span class="pre">before</span></code> must not be
+specified.</p></li>
+<li><p><strong>before</strong> – <em>Optional</em>. A Unix timestamp in milliseconds. Returns all items before (but not
+including) this cursor position. If <code class="docutils literal notranslate"><span class="pre">before</span></code> is specified, <code class="docutils literal notranslate"><span class="pre">after</span></code> must not be
+specified.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.currently_playing_track">
+<code class="sig-name descname">currently_playing_track</code><span class="sig-paren">(</span><em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.currently_playing_track"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.currently_playing_track" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the object currently being played on the user’s Spotify account.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/get-the-users-currently-playing-track/">https://developer.spotify.com/documentation/web-api/reference/player/get-the-users-currently-playing-track/</a></p>
+<p>Relevant authorization scopes: user-read-currently-playing, user-read-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.pause">
+<code class="sig-name descname">pause</code><span class="sig-paren">(</span><em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.pause"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.pause" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pause playback on the user’s account.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/pause-a-users-playback/">https://developer.spotify.com/documentation/web-api/reference/player/pause-a-users-playback/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.seek">
+<code class="sig-name descname">seek</code><span class="sig-paren">(</span><em class="sig-param">position_ms</em>, <em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.seek"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.seek" title="Permalink to this definition">¶</a></dt>
+<dd><p>Seeks to the given position in the user’s currently playing track.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/seek-to-position-in-currently-playing-track/">https://developer.spotify.com/documentation/web-api/reference/player/seek-to-position-in-currently-playing-track/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>position_ms</strong> – <em>Required</em>. The position in milliseconds to seek to. Must be a positive number.
+Passing in a position that is greater than the length of the track will cause the
+player to start playing the next song.</p></li>
+<li><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.set_repeat_mode">
+<code class="sig-name descname">set_repeat_mode</code><span class="sig-paren">(</span><em class="sig-param">state</em>, <em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.set_repeat_mode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.set_repeat_mode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the repeat mode for the user’s playback. Options are repeat-track, repeat-context, and
+off.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/set-repeat-mode-on-users-playback/">https://developer.spotify.com/documentation/web-api/reference/player/set-repeat-mode-on-users-playback/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>state</strong> – <code class="docutils literal notranslate"><span class="pre">&quot;track&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;context&quot;</span></code> or <code class="docutils literal notranslate"><span class="pre">&quot;off&quot;</span></code>. <code class="docutils literal notranslate"><span class="pre">&quot;track&quot;</span></code> will repeat the current
+track. <code class="docutils literal notranslate"><span class="pre">&quot;context&quot;</span></code> will repeat the current context. <code class="docutils literal notranslate"><span class="pre">&quot;off&quot;</span></code> will turn repeat off</p></li>
+<li><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.set_volume">
+<code class="sig-name descname">set_volume</code><span class="sig-paren">(</span><em class="sig-param">volume_percent</em>, <em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.set_volume"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.set_volume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the volume for the user’s current playback device.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/set-volume-for-users-playback/">https://developer.spotify.com/documentation/web-api/reference/player/set-volume-for-users-playback/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>volume_percent</strong> – <em>Required</em>. Integer. The volume to set. Must be a value from 0 to 100 inclusive.</p></li>
+<li><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.skip_to_next_track">
+<code class="sig-name descname">skip_to_next_track</code><span class="sig-paren">(</span><em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.skip_to_next_track"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.skip_to_next_track" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skips to next track in the user’s queue.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/skip-users-playback-to-next-track/">https://developer.spotify.com/documentation/web-api/reference/player/skip-users-playback-to-next-track/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.skip_to_previous_track">
+<code class="sig-name descname">skip_to_previous_track</code><span class="sig-paren">(</span><em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.skip_to_previous_track"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.skip_to_previous_track" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skips to previous track in the user’s queue.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/skip-users-playback-to-previous-track/">https://developer.spotify.com/documentation/web-api/reference/player/skip-users-playback-to-previous-track/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.play">
+<code class="sig-name descname">play</code><span class="sig-paren">(</span><em class="sig-param">device_id=None</em>, <em class="sig-param">context_uri=None</em>, <em class="sig-param">uris=None</em>, <em class="sig-param">start_from=0</em>, <em class="sig-param">position_ms=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.play"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.play" title="Permalink to this definition">¶</a></dt>
+<dd><p>Start a new context or resume current playback on the user’s active device.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/start-a-users-playback/">https://developer.spotify.com/documentation/web-api/reference/player/start-a-users-playback/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p></li>
+<li><p><strong>context_uri</strong> (<em>string</em>) – <em>Optional</em>. Spotify URI of the context to play. Valid contexts are albums, artists,
+playlists.</p></li>
+<li><p><strong>uris</strong> (<em>list of URIs</em>) – <em>Optional</em>. A list of the Spotify track URIs to play</p></li>
+<li><p><strong>start_from</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – <p><em>Optional</em>. Indicates from where in the context playback should start. Only
+available when <code class="docutils literal notranslate"><span class="pre">context_uri</span></code> corresponds to an album or playlist object, or when
+the <code class="docutils literal notranslate"><span class="pre">uris</span></code> parameter is used. It can be provided</p>
+<ul>
+<li><p>as an integer - the position of the track from which to start</p></li>
+<li><p>or as a string - the Spotify URI of the track from which to start.</p></li>
+</ul>
+</p></li>
+<li><p><strong>position_ms</strong> (<em>integer</em>) – <em>Optional</em>. Indicates from what position to start playback. Must be a positive
+number. Passing in a position that is greater than the length of the track will
+cause the player to start playing the next song.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.toggle_shuffle">
+<code class="sig-name descname">toggle_shuffle</code><span class="sig-paren">(</span><em class="sig-param">state</em>, <em class="sig-param">device_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.toggle_shuffle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.toggle_shuffle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Toggle shuffle on or off for user’s playback.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/toggle-shuffle-for-users-playback/">https://developer.spotify.com/documentation/web-api/reference/player/toggle-shuffle-for-users-playback/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>state</strong> – <em>Required</em> <strong>true</strong> : Shuffle user’s playback <strong>false</strong> : Do not shuffle user’s
+playback.</p></li>
+<li><p><strong>device_id</strong> – <em>Optional</em>. The id of the device this command is targeting. If not supplied, the
+user’s currently active device is the target.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.transfer_user_playback">
+<code class="sig-name descname">transfer_user_playback</code><span class="sig-paren">(</span><em class="sig-param">device_ids</em>, <em class="sig-param">play=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.transfer_user_playback"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.transfer_user_playback" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transfer playback to a new device and determine if it should start playing.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/player/transfer-a-users-playback/">https://developer.spotify.com/documentation/web-api/reference/player/transfer-a-users-playback/</a></p>
+<p>Relevant authorization scopes: user-modify-playback-state</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>device_ids</strong> (<em>list of Spotify Device IDs</em>) – <em>Required</em>. A list containing the ID of the device on which playback should be
+started/transferred. For example: <code class="docutils literal notranslate"><span class="pre">{device_ids:[&quot;74ASZWbe4lXaubB36ztrGX&quot;]}</span></code>
+Note: Although an list is accepted, only a single device_id is currently supported.
+Supplying more than one will return <code class="docutils literal notranslate"><span class="pre">400</span> <span class="pre">Bad</span> <span class="pre">Request</span></code></p></li>
+<li><p><strong>play</strong> (<em>boolean</em>) – <code class="docutils literal notranslate"><span class="pre">True</span></code>: ensure playback happens on new device.
+<code class="docutils literal notranslate"><span class="pre">False</span></code> or <code class="docutils literal notranslate"><span class="pre">None</span></code>: keep the current playback state.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.add_tracks_to_playlist">
+<code class="sig-name descname">add_tracks_to_playlist</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">uris=None</em>, <em class="sig-param">position=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.add_tracks_to_playlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.add_tracks_to_playlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add one or more tracks to a user’s playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/add-tracks-to-playlist/">https://developer.spotify.com/documentation/web-api/reference/playlists/add-tracks-to-playlist/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p></li>
+<li><p><strong>uris</strong> (<em>list of Spotify URI strings</em>) – <em>Optional</em>. A list of the <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify track URIs</a> to
+add</p></li>
+<li><p><strong>position</strong> (<em>integer</em>) – Optional. The position to insert the tracks, a zero-based index. If omitted,
+the tracks will be appended to the playlist.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.change_playlist_details">
+<code class="sig-name descname">change_playlist_details</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">name=None</em>, <em class="sig-param">public=None</em>, <em class="sig-param">collaborative=None</em>, <em class="sig-param">description=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.change_playlist_details"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.change_playlist_details" title="Permalink to this definition">¶</a></dt>
+<dd><p>Change a playlist’s name and public/private state. (The user must, of course, own the
+playlist.)
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/change-playlist-details/">https://developer.spotify.com/documentation/web-api/reference/playlists/change-playlist-details/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – <em>Optional</em>. The new name for the playlist, for example <code class="docutils literal notranslate"><span class="pre">&quot;My</span> <span class="pre">New</span> <span class="pre">Playlist</span> <span class="pre">Title&quot;</span></code>.</p></li>
+<li><p><strong>public</strong> (<em>Boolean</em>) – <em>Optional</em>. If <code class="docutils literal notranslate"><span class="pre">true</span></code> the playlist will be public, if <code class="docutils literal notranslate"><span class="pre">false</span></code> it will be
+private.</p></li>
+<li><p><strong>collaborative</strong> (<em>Boolean</em>) – <em>Optional</em>. If <code class="docutils literal notranslate"><span class="pre">true</span></code> , the playlist will become collaborative and other users
+will be able to modify the playlist in their Spotify client. <em>Note: You can only
+set ``collaborative`` to ``true`` on non-public playlists.</em></p></li>
+<li><p><strong>description</strong> (<em>string</em>) – <em>Optional</em>. Value for playlist description as displayed in Spotify Clients and in
+the Web API.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.create_playlist">
+<code class="sig-name descname">create_playlist</code><span class="sig-paren">(</span><em class="sig-param">user_id</em>, <em class="sig-param">name</em>, <em class="sig-param">public=True</em>, <em class="sig-param">collaborative=False</em>, <em class="sig-param">description=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.create_playlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.create_playlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a playlist for a Spotify user. (The playlist will be empty until you add tracks.)
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/create-playlist/">https://developer.spotify.com/documentation/web-api/reference/playlists/create-playlist/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user_id</strong> – The user’s <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify user ID</a>.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – <em>Required</em>. The name for the new playlist, for example <code class="docutils literal notranslate"><span class="pre">&quot;Your</span> <span class="pre">Coolest</span> <span class="pre">Playlist&quot;</span></code>
+. This name does not need to be unique; a user may have several playlists with the
+same name.</p></li>
+<li><p><strong>public</strong> (<em>Boolean</em>) – <em>Optional</em>. Defaults to <code class="docutils literal notranslate"><span class="pre">True</span></code> . If <code class="docutils literal notranslate"><span class="pre">true</span></code> the playlist will be public, if
+<code class="docutils literal notranslate"><span class="pre">False</span></code> it will be private. To be able to create private playlists, the user must
+have granted the <code class="docutils literal notranslate"><span class="pre">playlist-modify-private</span></code> <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/authorization-guide/#list-of-scopes">scope</a>
+.</p></li>
+<li><p><strong>collaborative</strong> (<em>Boolean</em>) – <em>Optional</em>. Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code> . If <code class="docutils literal notranslate"><span class="pre">true</span></code> the playlist will be collaborative.
+Note that to create a collaborative playlist you must also set <code class="docutils literal notranslate"><span class="pre">public</span></code> to
+<code class="docutils literal notranslate"><span class="pre">False</span></code> . To create collaborative playlists you must have granted
+<code class="docutils literal notranslate"><span class="pre">playlist-modify-private</span></code> and <code class="docutils literal notranslate"><span class="pre">playlist-modify-public</span></code> <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/authorization-guide/#list-of-scopes">scopes</a>
+.</p></li>
+<li><p><strong>description</strong> (<em>string</em>) – <em>Optional</em>. value for playlist description as displayed in Spotify Clients and in
+the Web API.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.current_user_playlists">
+<code class="sig-name descname">current_user_playlists</code><span class="sig-paren">(</span><em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.current_user_playlists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.current_user_playlists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of the playlists owned or followed by the current Spotify user.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/get-a-list-of-current-users-playlists/">https://developer.spotify.com/documentation/web-api/reference/playlists/get-a-list-of-current-users-playlists/</a></p>
+<p>Relevant authorization scopes: playlist-read-private, playlist-read-collaborative</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of playlists to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first playlist to return. Default: 0 (the first
+object). Maximum offset: 100.000. Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of
+playlists.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_playlists">
+<code class="sig-name descname">user_playlists</code><span class="sig-paren">(</span><em class="sig-param">user_id</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_playlists"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_playlists" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of the playlists owned or followed by a Spotify user.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/get-list-users-playlists/">https://developer.spotify.com/documentation/web-api/reference/playlists/get-list-users-playlists/</a></p>
+<p>Relevant authorization scopes: playlist-read-private, playlist-read-collaborative</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user_id</strong> – The user’s <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify user ID</a>.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of playlists to return. Default: 20. Minimum: 1.
+Maximum: 50.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first playlist to return. Default: 0 (the first
+object). Maximum offset: 100.000. Use with <code class="docutils literal notranslate"><span class="pre">limit</span></code> to get the next set of
+playlists.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.playlist_cover_image">
+<code class="sig-name descname">playlist_cover_image</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.playlist_cover_image"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.playlist_cover_image" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the current image associated with a specific playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist-cover/">https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist-cover/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.playlist">
+<code class="sig-name descname">playlist</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">fields=None</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.playlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.playlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a playlist owned by a Spotify user.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist/">https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p></li>
+<li><p><strong>fields</strong> – <p><em>Optional</em>. Filters for the query: a comma-separated list of the fields to return.
+If omitted, all fields are returned. For example, to get just the playlist’s
+description and URI: <code class="docutils literal notranslate"><span class="pre">fields=description,uri</span></code>. A dot separator can be used to
+specify non-reoccurring fields, while parentheses can be used to specify
+reoccurring fields within objects. For example, to get just the added date and user
+ID of the adder: <code class="docutils literal notranslate"><span class="pre">fields=&quot;tracks.items(added_at,added_by.id)&quot;</span></code>. Use multiple
+parentheses to drill down into nested objects, for example:
+<code class="docutils literal notranslate"><span class="pre">fields=&quot;tracks.items(track(name,href,album(name,href)))&quot;</span></code>. Fields can be excluded
+by enclosing them inside parenthesis starting with an exclamation mark, e.g.</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">(!field1,field2)</span></code></p>
+</div></blockquote>
+</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.playlist_tracks">
+<code class="sig-name descname">playlist_tracks</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">fields=None</em>, <em class="sig-param">limit=100</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.playlist_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.playlist_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get full details of the tracks of a playlist owned by a Spotify user.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlists-tracks/">https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlists-tracks/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p></li>
+<li><p><strong>fields</strong> – <em>Optional</em>. Filters for the query: a comma-separated list of the fields to return.
+If omitted, all fields are returned. For example, to get just the total number of
+tracks and the request limit: <code class="docutils literal notranslate"><span class="pre">fields=total,limit</span></code> A dot separator can be used to
+specify non-reoccurring fields, while parentheses can be used to specify
+reoccurring fields within objects. For example, to get just the added date and user
+ID of the adder: <code class="docutils literal notranslate"><span class="pre">fields=items(added_at,added_by.id)</span></code> Use multiple parentheses to
+drill down into nested objects, for example:
+<code class="docutils literal notranslate"><span class="pre">fields=items(track(name,href,album(name,href)))</span></code> Fields can be excluded by
+prefixing them with an exclamation mark, for example:
+<code class="docutils literal notranslate"><span class="pre">fields=items.track.album(!external_urls,images)</span></code></p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. The maximum number of tracks to return. Default: 100. Minimum: 1.
+Maximum: 100.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first track to return. Default: 0 (the first object).</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.remove_tracks_from_playlist">
+<code class="sig-name descname">remove_tracks_from_playlist</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.remove_tracks_from_playlist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.remove_tracks_from_playlist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove one or more tracks from a user’s playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/remove-tracks-playlist/">https://developer.spotify.com/documentation/web-api/reference/playlists/remove-tracks-playlist/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.reorder_playlist_tracks">
+<code class="sig-name descname">reorder_playlist_tracks</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">range_start</em>, <em class="sig-param">insert_before</em>, <em class="sig-param">range_length=1</em>, <em class="sig-param">snapshot_id=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.reorder_playlist_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.reorder_playlist_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reorder a track or a group of tracks in a playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/reorder-playlists-tracks/">https://developer.spotify.com/documentation/web-api/reference/playlists/reorder-playlists-tracks/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p></li>
+<li><p><strong>range_start</strong> (<em>integer</em>) – <em>Required</em>. The position of the first track to be reordered.</p></li>
+<li><p><strong>insert_before</strong> (<em>integer</em>) – <em>Required</em>. The position where the tracks should be inserted. To reorder the tracks
+to the end of the playlist, simply set <em>insert_before</em> to the position after the
+last track. Examples: To reorder the first track to the last position in a playlist
+with 10 tracks, set <em>range_start</em> to 0, and <em>insert_before</em> to 10. To reorder the
+last track in a playlist with 10 tracks to the start of the playlist, set
+<em>range_start</em> to 9, and <em>insert_before</em> to 0.</p></li>
+<li><p><strong>range_length</strong> (<em>integer</em>) – <em>Optional</em>. The amount of tracks to be reordered. Defaults to 1 if not set. The
+range of tracks to be reordered begins from the <em>range_start</em> position, and
+includes the <em>range_length</em> subsequent tracks. Example: To move the tracks at index
+9-10 to the start of the playlist, <em>range_start</em> is set to 9, and <em>range_length</em> is
+set to 2.</p></li>
+<li><p><strong>snapshot_id</strong> (<em>string</em>) – <em>Optional</em>. The playlist’s snapshot ID against which you want to make the changes.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.replace_playlist_tracks">
+<code class="sig-name descname">replace_playlist_tracks</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em>, <em class="sig-param">uris=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.replace_playlist_tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.replace_playlist_tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Replace all the tracks in a playlist, overwriting its existing tracks. This powerful
+request can be useful for replacing tracks, re-ordering existing tracks, or clearing the
+playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/replace-playlists-tracks/">https://developer.spotify.com/documentation/web-api/reference/playlists/replace-playlists-tracks/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p></li>
+<li><p><strong>uris</strong> (<em>list of Spotify URI strings</em>) – <em>Optional</em>. A list of the <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify track URIs</a> to
+set</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.upload_playlist_cover_image">
+<code class="sig-name descname">upload_playlist_cover_image</code><span class="sig-paren">(</span><em class="sig-param">playlist_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.upload_playlist_cover_image"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.upload_playlist_cover_image" title="Permalink to this definition">¶</a></dt>
+<dd><p>Replace the image used to represent a specific playlist.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/playlists/upload-custom-playlist-cover/">https://developer.spotify.com/documentation/web-api/reference/playlists/upload-custom-playlist-cover/</a></p>
+<p>Relevant authorization scopes: playlist-modify-public, playlist-modify-private</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>playlist_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the playlist.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.search">
+<code class="sig-name descname">search</code><span class="sig-paren">(</span><em class="sig-param">query</em>, <em class="sig-param">obj_type</em>, <em class="sig-param">market=None</em>, <em class="sig-param">limit=20</em>, <em class="sig-param">offset=0</em>, <em class="sig-param">include_external=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.search"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify Catalog information about artists, albums, tracks or playlists that match a
+keyword string.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/search/search/">https://developer.spotify.com/documentation/web-api/reference/search/search/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>query</strong> – <em>Required</em>. Search <a class="reference external" href="https://developer.spotify.com/#writing-a-query---guidelines">query</a> keywords and
+optional field filters and operators. For example: <code class="docutils literal notranslate"><span class="pre">query=roadhouse%20blues</span></code>.</p></li>
+<li><p><strong>obj_type</strong> – <em>Required</em>. A comma-separated list of item types to search across. Valid types are:
+<code class="docutils literal notranslate"><span class="pre">album</span></code> , <code class="docutils literal notranslate"><span class="pre">artist</span></code>, <code class="docutils literal notranslate"><span class="pre">playlist</span></code>, and <code class="docutils literal notranslate"><span class="pre">track</span></code>. Search results include hits
+from all the specified item types. For example:
+<code class="docutils literal notranslate"><span class="pre">query=name:abacab&amp;type=album,track</span></code>
+returns both albums <strong>and</strong> tracks with “abacab” included in their name.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+If a country code is specified, only artists, albums, and tracks with content that
+is playable in that market is returned. <strong>Note</strong>: - Playlist results are not
+affected by the market parameter. - If market is set to <code class="docutils literal notranslate"><span class="pre">from_token</span></code>, and a valid
+access token is specified in the request header, only content playable in the
+country associated with the user account, is returned. - Users can view the country
+that is associated with their account in the <a class="reference external" href="https://www.spotify.com/se/account/overview/">account settings</a>. A user must grant access to the
+<code class="docutils literal notranslate"><span class="pre">user-read-private</span></code> scope prior to when the access token is issued.</p></li>
+<li><p><strong>limit</strong> – <em>Optional</em>. Maximum number of results to return. Default: 20 Minimum: 1 Maximum: 50
+<strong>Note</strong>: The limit is applied within each type, not on the total response_args. For
+example, if the limit value is 3 and the type is <code class="docutils literal notranslate"><span class="pre">artist,album</span></code>, the response_args
+contains 3 artists and 3 albums.</p></li>
+<li><p><strong>offset</strong> – <em>Optional</em>. The index of the first result to return. Default: 0 (the first result).
+Maximum offset (including limit): 10,000. Use with limit to get the next page of
+search results.</p></li>
+<li><p><strong>include_external</strong> – <em>Optional</em>. Possible values: <em>audio</em> If <em>include_external=audio</em> is specified the
+response_args will include any relevant audio content that is hosted externally. By
+default external content is filtered out from responses.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.track_audio_analysis">
+<code class="sig-name descname">track_audio_analysis</code><span class="sig-paren">(</span><em class="sig-param">track_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.track_audio_analysis"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.track_audio_analysis" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a detailed audio analysis for a single track identified by its unique Spotify ID.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-analysis/">https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-analysis/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>track_id</strong> – <em>Required</em>. The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the track.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.track_audio_features">
+<code class="sig-name descname">track_audio_features</code><span class="sig-paren">(</span><em class="sig-param">track_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.track_audio_features"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.track_audio_features" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get audio feature information for a single track identified by its unique Spotify ID.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/</a>
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/</a>
+:param track_id: <em>Required</em>. The <a href="#id5"><span class="problematic" id="id6">`</span></a>Spotify ID</p>
+<blockquote>
+<div><p>&lt;<a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids</a>&gt;`__
+for the track.</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.tracks_audio_features">
+<code class="sig-name descname">tracks_audio_features</code><span class="sig-paren">(</span><em class="sig-param">track_ids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.tracks_audio_features"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.tracks_audio_features" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get audio features for multiple tracks based on their Spotify IDs.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/">https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>track_ids</strong> – <em>Required</em>. A list of the <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify IDs</a>
+for the tracks. Maximum: 100 IDs.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.tracks">
+<code class="sig-name descname">tracks</code><span class="sig-paren">(</span><em class="sig-param">ids</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.tracks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.tracks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information for multiple tracks based on their Spotify IDs.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-tracks/">https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-tracks/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ids</strong> – <em>Required</em>. A list of the <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify IDs</a>
+for the tracks. Maximum: 50 IDs.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.track">
+<code class="sig-name descname">track</code><span class="sig-paren">(</span><em class="sig-param">track_id</em>, <em class="sig-param">market=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.track"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.track" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get Spotify catalog information for a single track identified by its unique Spotify ID.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/">https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>track_id</strong> – The <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify ID</a>
+for the track.</p></li>
+<li><p><strong>market</strong> – <em>Optional</em>. An <a class="reference external" href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 country code</a> or the string <code class="docutils literal notranslate"><span class="pre">from_token</span></code>.
+Provide this parameter if you want to apply <a class="reference external" href="https://developer.spotify.com/documentation/general/guides/track-relinking-guide/">Track Relinking</a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.current_user">
+<code class="sig-name descname">current_user</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.current_user"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.current_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get detailed profile information about the current user (including the current user’s
+username).
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/users-profile/get-current-users-profile/">https://developer.spotify.com/documentation/web-api/reference/users-profile/get-current-users-profile/</a></p>
+<p>Relevant authorization scopes: user-read-email, user-read-private, user-read-birthdate</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.me">
+<code class="sig-name descname">me</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.me"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.me" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get detailed profile information about the current user (including the current user’s
+username).
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/users-profile/get-current-users-profile/">https://developer.spotify.com/documentation/web-api/reference/users-profile/get-current-users-profile/</a></p>
+<p>Relevant authorization scopes: user-read-email, user-read-private, user-read-birthdate</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="spotipie.Spotify.user_public_profile">
+<code class="sig-name descname">user_public_profile</code><span class="sig-paren">(</span><em class="sig-param">user_id</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spotipie/client.html#Spotify.user_public_profile"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spotipie.Spotify.user_public_profile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get public profile information about a Spotify user.
+<a class="reference external" href="https://developer.spotify.com/documentation/web-api/reference/users-profile/get-users-profile/">https://developer.spotify.com/documentation/web-api/reference/users-profile/get-users-profile/</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>user_id</strong> – The user’s <a class="reference external" href="https://developer.spotify.com/documentation/web-api/#spotify-uris-and-ids">Spotify user ID</a>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="../readme.html" title="previous chapter (use the left arrow)">Overview</a>
+      </div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="spotipie.auth.html" title="next chapter (use the right arrow)">spotipie.auth</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spotipie.auth.html" title="spotipie.auth"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../readme.html" title="Overview"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">spotipie 0.1.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>

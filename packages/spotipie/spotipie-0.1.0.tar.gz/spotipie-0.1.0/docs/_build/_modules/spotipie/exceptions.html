@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>spotipie.exceptions &#8212; spotipie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../../_static/css/custom_guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="
+    ../../index.html" class="text-logo">spotipie</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>Table Of Contents</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../readme.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/spotipie.html">spotipie API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">Changelog</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../../index.html">Docs</a></li>
+              
+                <li><a href="../index.html">Module code</a></li>
+              
+              <li>spotipie.exceptions</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <h1>Source code for spotipie.exceptions</h1><div class="highlight"><pre>
+<span></span><span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;SpotipieException&#39;</span><span class="p">,</span> <span class="s1">&#39;HttpError&#39;</span><span class="p">,</span> <span class="s1">&#39;InsufficientScope&#39;</span><span class="p">,</span> <span class="s1">&#39;ResourceTypeMismatch&#39;</span><span class="p">,</span>
+           <span class="s1">&#39;AccessDenied&#39;</span><span class="p">,</span> <span class="s1">&#39;AuthorizationException&#39;</span><span class="p">,</span> <span class="s1">&#39;AuthorizationTimeout&#39;</span><span class="p">]</span>
+
+
+<div class="viewcode-block" id="SpotipieException"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.SpotipieException">[docs]</a><span class="k">class</span> <span class="nc">SpotipieException</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="AuthorizationException"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.AuthorizationException">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationException</span><span class="p">(</span><span class="n">SpotipieException</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Exceptional event happened during user authorization (including access denied by the user)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="AuthorizationTimeout"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.AuthorizationTimeout">[docs]</a><span class="k">class</span> <span class="nc">AuthorizationTimeout</span><span class="p">(</span><span class="n">AuthorizationException</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Raised when the authorization procedure started but the function waiting for a response from</span>
+<span class="sd">    the user (or the Spotify server) doesn&#39;t get any response in ``timeout`` seconds.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">timeout</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="s1">&#39;Timeout! No authorization response after </span><span class="si">%d</span><span class="s1"> seconds.&#39;</span> <span class="o">%</span> <span class="n">timeout</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="AccessDenied"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.AccessDenied">[docs]</a><span class="k">class</span> <span class="nc">AccessDenied</span><span class="p">(</span><span class="n">AuthorizationException</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Raised when the user decides to not grant access to the app &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">message</span><span class="o">=</span><span class="s2">&quot;the user did not grant his/her authorization&quot;</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">message</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="HttpError"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.HttpError">[docs]</a><span class="k">class</span> <span class="nc">HttpError</span><span class="p">(</span><span class="n">SpotipieException</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Error during HTTP request. It has a ``response`` attribute. &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="p">):</span>
+        <span class="n">details</span> <span class="o">=</span> <span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s1">&#39;error&#39;</span><span class="p">][</span><span class="s1">&#39;message&#39;</span><span class="p">]</span>
+                   <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span> <span class="ow">and</span> <span class="n">response</span><span class="o">.</span><span class="n">text</span> <span class="o">!=</span> <span class="s1">&#39;null&#39;</span>
+                   <span class="k">else</span> <span class="s1">&#39;error&#39;</span><span class="p">)</span>
+
+        <span class="n">message</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{status}</span><span class="s1"> error: </span><span class="si">{details}</span><span class="se">\n</span><span class="s1">&#39;</span> \
+                  <span class="s1">&#39;URL: </span><span class="si">{url}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="n">response</span><span class="o">.</span><span class="n">status_code</span><span class="p">,</span> <span class="n">details</span><span class="o">=</span><span class="n">details</span><span class="p">,</span>
+                                      <span class="n">url</span><span class="o">=</span><span class="n">response</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">response</span> <span class="o">=</span> <span class="n">response</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">message</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="InsufficientScope"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.InsufficientScope">[docs]</a><span class="k">class</span> <span class="nc">InsufficientScope</span><span class="p">(</span><span class="n">SpotipieException</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Raised when Spotipie catches that the scope of the session is not sufficient to carry out an</span>
+<span class="sd">    API request **before** the actual request is made.</span>
+
+<span class="sd">    Important notice</span>
+<span class="sd">    ----------------</span>
+<span class="sd">    Please, note that not all the errors caused by insufficient scope can be caught before a</span>
+<span class="sd">    request is made: when this check is not possible and the scope is insufficient, an</span>
+<span class="sd">    :class:~spotipie.errors.HttpError` is raised instead. So, make sure you include ``HttpError``</span>
+<span class="sd">    in your ``try-except`` block whenever you want to catch insufficient scope errors.</span>
+
+<span class="sd">    This class is here to provide you a better feedback than ``HttpError`` when this is possible.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">needed_scope</span><span class="p">,</span> <span class="n">current_scope</span><span class="p">):</span>
+        <span class="n">missing_scope</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">needed_scope</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">(</span><span class="n">current_scope</span><span class="p">)))</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Insufficient client scope for the request.</span><span class="se">\n</span><span class="s1">&#39;</span>
+               <span class="s1">&#39;The current scope is: </span><span class="si">{}</span><span class="s1">.</span><span class="se">\n</span><span class="s1">&#39;</span>
+               <span class="s1">&#39;But the API call requires: </span><span class="si">{}</span><span class="s1">.</span><span class="se">\n</span><span class="s1">&#39;</span>
+               <span class="s1">&#39;Missing scopes: </span><span class="si">{}</span><span class="se">\n</span><span class="s1">&#39;</span>
+               <span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">current_scope</span><span class="p">,</span> <span class="n">needed_scope</span><span class="p">,</span> <span class="n">missing_scope</span><span class="p">))</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">current_scope</span> <span class="o">=</span> <span class="n">current_scope</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">needed_scope</span> <span class="o">=</span> <span class="n">needed_scope</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">missing_scope</span> <span class="o">=</span> <span class="n">missing_scope</span></div>
+
+
+<div class="viewcode-block" id="ResourceTypeMismatch"><a class="viewcode-back" href="../../api/spotipie.exceptions.html#spotipie.exceptions.ResourceTypeMismatch">[docs]</a><span class="k">class</span> <span class="nc">ResourceTypeMismatch</span><span class="p">(</span><span class="n">SpotipieException</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Raised when the raiser expect a Spotify resource of some kind but gets another.</span>
+
+<span class="sd">    Note: &quot;type&quot; here doesn&#39;t refer to a Python type but to the type of a Python resource returned</span>
+<span class="sd">    by Spotify API as a dictionary (contained in the &quot;type&quot; attribute of the dict).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">expected_type</span><span class="p">,</span> <span class="n">actual_type</span><span class="p">):</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s1">&#39;expected type </span><span class="si">%r</span><span class="s1"> but got type </span><span class="si">%r</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">expected_type</span><span class="p">,</span> <span class="n">actual_type</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">expected_type</span> <span class="o">=</span> <span class="n">expected_type</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">actual_type</span> <span class="o">=</span> <span class="n">actual_type</span></div>
+</pre></div>
+
+          </div>
+            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">spotipie 0.1.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2019, Gianluca Gippetto. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>
