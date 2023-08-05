@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: bcoscli
+Version: 0.0.1
+Summary: A userful package to use 'FISCO-BCOS', the FISCO-BCOS sdk
+Home-page: https://github.com/Yyonging/bcoscli
+Author: duanyongqiang
+Author-email: sysuduanyongqiang@163.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cod (>=0.0.3)
+
+bcoscli
+-----
+*** more convenient then the official sdk ***
+
+easy to use the FISCO-BCOS blockchain for a interactive terminal!  
+
+easy to use the FISCO-BCOS blockchain as sdk!  
+
+1. config so easy
+2. support autocompetation
+3. support arrow up or down for history command
+4. colorful
+
+Installing
+-----
+
+Install and update using `pip`:
+
+
+
+    pip install -U bcoscli
+
+
+A Simple Example
+-----
+
+as terminal just:
+
+
+
+    # default rpc port is 8545
+
+    bcoscli 127.0.0.1:8545
+
+as sdk:
+
+
+
+
+    class MyConfig:
+
+        HOST_RPC = 'http://192.168.0.107:9545' # your fisco-bcos node's rpc address
+        ECHO = 0 # close the terminal output 
+
+    if __name__ == "__main__":
+        import bcoscli
+        # define your config
+        bcoscli.set_config(MyConfig)
+        print(bcoscli.getClientVersion())
+        print(bcoscli.getBlockNumber(11))
+
+![image](bcoscli.gif)
+
+
