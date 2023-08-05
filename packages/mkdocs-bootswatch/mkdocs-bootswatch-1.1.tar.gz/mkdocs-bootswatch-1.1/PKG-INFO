@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mkdocs-bootswatch
+Version: 1.1
+Summary: Bootswatch themes for MkDocs
+Home-page: http://www.mkdocs.org
+Author: Dougal Matthews
+Author-email: dougal@dougalmatthews.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
