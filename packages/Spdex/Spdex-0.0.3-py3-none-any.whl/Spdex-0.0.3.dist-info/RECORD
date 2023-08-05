@@ -1,0 +1,10 @@
+Spdex-0.0.3.dist-info/METADATA,sha256=bJGQr4qeAR_damFPLzMmBjLVne4yHjbtisjLIfLx0KY,23581
+Spdex-0.0.3.dist-info/RECORD,,
+Spdex-0.0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+Spdex-0.0.3.dist-info/top_level.txt,sha256=WArr4l7VYieQNz9M6IBRPPl9aXzCiVJeBEvr13mD-M4,6
+spdex/VERSION.txt,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+spdex/__init__.py,sha256=hsaXNJBnpxDuThlShZEAppCVGjZeGxbDVuKNtuSQuVY,289
+spdex/crawl.py,sha256=_8_g4DmtuZ3QzP0G1hIKWG_sZmJb5fYQKJhZ5w2poVU,7372
+spdex/info.py,sha256=RUHxYgxztQnebtmzXe_gQGFo6UyWIOBYYaVSLGzLJx4,1839
+spdex/m_test.py,sha256=qXG3hni-BlkL9oheb1ipw--sKKSaRKmX04_nLcWQ0jI,1137
+spdex/spider.py,sha256=SjHojoQkQ-Jdl0QuqBpboKi_HMIOJ75sBd2oBpR0oEs,5228
