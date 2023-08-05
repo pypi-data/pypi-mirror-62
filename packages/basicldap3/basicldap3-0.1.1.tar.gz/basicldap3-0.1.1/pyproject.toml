@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "basicldap3"
+version = "0.1.1"
+description = "Provides basic authentication using the ldap3 library"
+authors = ["Ramon Brandt <devramon22@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+ldap3 = "^2.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.4.4"
+mypy = "^0.761"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
