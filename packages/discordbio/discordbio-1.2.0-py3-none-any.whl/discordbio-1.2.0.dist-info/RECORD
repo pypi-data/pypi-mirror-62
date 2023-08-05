@@ -1,0 +1,12 @@
+discordbio/__init__.py,sha256=LbIrsRoIq4GbWAmmoNaE23KWP6IaCJQG_dkAMGD2v7s,1277
+discordbio/client.py,sha256=T2Hu7m8_zPZpYPPV4fZuJ8Q0NQ12umBLKSZ121KaDmU,3110
+discordbio/errors.py,sha256=5CI60bwcKQJyswOTBF0w2uSsckzPRq6v1-GqCj3yiRE,1903
+discordbio/models/__init__.py,sha256=y2MPOOpjoW8ELCGX2NlU2EQsitebK64vAz8TAReuRXE,1218
+discordbio/models/connections.py,sha256=ZRklZ-t2PhVV2kwlMyt9exA9McrnttS5jYILykwa-18,2185
+discordbio/models/user_details.py,sha256=gcTqzk2THShuPPyj90uAaI-ttoOIStIfIkiyNwMcIKc,4911
+discordbio-1.2.0.data/data/ReleaseNotes.md,sha256=15uolnbitRbTNCfETQ02_1B7O8s0uvnz904kF_2MBDY,358
+discordbio-1.2.0.dist-info/LICENSE,sha256=gGuH80uS6oAKXZAQkACcN0MszvaN6JxrGVBeqrzEVB0,1100
+discordbio-1.2.0.dist-info/METADATA,sha256=DXcbRAamG_f7K1yXQ9a7dxPmMBwajqX_-nWE-aO0tto,3126
+discordbio-1.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+discordbio-1.2.0.dist-info/top_level.txt,sha256=keVRcVD5VKO8OzItkZdwfDUlH_3O6CqK1lFsWkkSI3g,11
+discordbio-1.2.0.dist-info/RECORD,,
