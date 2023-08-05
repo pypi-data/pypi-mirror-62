@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: openue
+Version: 0.0.2
+Summary: Universal extractor for text.
+Home-page: https://github.com/zxlzr/openue
+Author: zxlzr
+Author-email: jack16900@gmail.com
+License: UNKNOWN
+Description: # OpenUE
+        OpenUE is an open-source and extensible toolkit that provides a off-the-shelf framework to implement a  plethora of extraction tasks.
+        
+        You can refer to our [document](https://openue-docs.readthedocs.io/en/latest/) for more details about this project.
+        
+        # Getting Started
+        
+        Requirement
+        
+        conda -r openue 
+        
+        python -r requirement.txt 
+        
+        sh preprocess
+        
+        sh train_
+        
+        sh predict.sh 
+        
+        python gen_triple.py
+        
+        #Serving 
+        
+        
+        ## Joint Entity and  Relation Extraction
+        
+        
+        table
+        
+        
+        ## Joint Slot Filing  and  Intent Classification
+        
+        table
+        
+        ## Joint Opinion  and  Sentiment Classification
+        
+        table 
+        
+        ## Install 
+        
+        ### Install as A Python Package
+        
+        We are now working on deploy OpenUE as a Python package. Coming soon!
+        
+        ### Using Git Repository
+        
+        Clone the repository from our github page (don't forget to star us!)
+        
+        ```bash
+        git clone https://github.com/zxlzr/OpenUE.git
+        ```
+        
+        If it is too slow, you can try
+        ```
+        git clone https://github.com/zxlzr/OpenUE.git --depth 1
+        ```
+        
+        Then install all the requirements:
+        
+        ```
+        pip install -r requirements.txt
+        ```
+        
+        Then install the package with 
+        ```
+        python setup.py install 
+        ```
+        
+        ## Tools
+        
+        ```python
+        >>> import openuee
+        >>> model = openue.get_model('ske_bert_entity_relation')
+        ```
+        Note that it may take a few minutes to download checkpoint and data for the first time. Then use `infer` to do sentence-level entity and relation extraction
+        
+        ```python
+        
+        
+        
+        
+        ## How to Cite
+        
+        If you use or extend our work, please cite the following paper:
+        
+        ```
+        @inproceedings{zhang-2020-opennue,
+            title = "{O}pe{UE}: An Open and Extensible Toolkit for Universal  Extraction in Text",
+            author = "Ningyu Zhang, Shumin Deng, Huajun Chen",
+            year = "2020",
+        }
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
