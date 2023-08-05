@@ -1,0 +1,12 @@
+avishan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avishan/installation.txt,sha256=mnP-5APo8E6x0UHCQf6fe7BOCNZ4YaabZlmSDYM_11g,58
+avishan/middlewares.py,sha256=fFpvY74CgqBclwEUwYEz_IjqbnB74BQD74t6QtEbIQE,1168
+avishan/requirements.txt,sha256=r27DNI0izgabZ_F8mjjdc7PqMqEW1T6XNIS69m0r2gQ,29
+avishan/stage.py,sha256=za2OnMVRcaeTtV5xBtxk88KGZuze2N_HzDhH2DYQRBw,614
+avishan/utils.py,sha256=kfiNP209sSNb8eYbNOJGVREWnNxb0irJW0upORGleCw,967
+avishan/views.py,sha256=AnOn5AJFNJEWGAaY7IxIapie3SqgWa_NqJxt1HshAEw,782
+falcon_avishan-0.0.1.dist-info/LICENSE,sha256=anFLI1ECMbCGMx2t9JNsdX5z0XNds-bY5Y9tqq2ADIs,1072
+falcon_avishan-0.0.1.dist-info/METADATA,sha256=Ml0VYbVWcrJbvtPpqZKXcHjYkj8DnLwrEnwXpffw5dM,1795
+falcon_avishan-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+falcon_avishan-0.0.1.dist-info/top_level.txt,sha256=FtzDdcrCcvc-uYpDa2SDRjo6MaBWAj-EJaEROqHO6K4,8
+falcon_avishan-0.0.1.dist-info/RECORD,,
