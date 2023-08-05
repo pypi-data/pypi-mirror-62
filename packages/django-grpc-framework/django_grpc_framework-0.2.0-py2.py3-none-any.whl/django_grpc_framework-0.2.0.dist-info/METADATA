@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: django-grpc-framework
+Version: 0.2.0
+Summary: gRPC for Django
+Home-page: https://github.com/itswcg/django-grpc-framework
+Author: itswcg
+Author-email: itswcg@gmail.com
+License: Apache Software License 2.0
+Keywords: django-grpc-framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: django (>=2.1)
+Requires-Dist: grpcio (==1.27.1)
+Requires-Dist: grpcio-tools (==1.27.1)
+
+=============================
+django-grpc-framework
+=============================
+
+.. image:: https://badge.fury.io/py/django-grpc-framework.svg
+    :target: https://badge.fury.io/py/django-grpc-framework
+
+.. image:: https://travis-ci.org/itswcg/django-grpc-framework.svg?branch=master
+    :target: https://travis-ci.org/itswcg/django-grpc-framework
+
+.. image:: https://codecov.io/gh/itswcg/django-grpc-framework/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/itswcg/django-grpc-framework
+
+**gRPC for Django inspired by djangorestframework.**
+
+Documentation
+-------------
+
+The full documentation is at https://django-grpc-framework.readthedocs.io.
+
+Quickstart
+----------
+
+Install django-grpc-framework::
+
+    pip install django-grpc-framework
+
+Add it to your `INSTALLED_APPS`:
+
+::
+
+    INSTALLED_APPS = [
+        ...
+        'grpc_framework',
+    ]
+
+Create your grpc app::
+
+    python manage.py grpcstartapp <app_name>
+
+Define your proto in <app_name>/<app_name>.proto.
+
+Add your app to GRPC_APPS:
+::
+
+    GRPC_APPS = [
+        '<app_name>',
+    ]
+
+Generate protocol buffer compiler::
+
+    python manage.py grpcgenerate
+
+Create your service in <app_name>/service.py.
+
+Start a grpc server with your apps::
+
+    python manage.py grpcrunserver
+
+Todo
+----------
+* support async
+* more interceptors
+
+Running Tests
+-------------
+
+Does the code actually work?
+
+::
+
+    source <YOURVIRTUALENV>/bin/activate
+    (myenv) $ pip install tox
+    (myenv) $ tox
+
+
+
+
+
+History
+-------
+
+0.1.0 (2020-02-11)
+++++++++++++++++++
+
+* First release on PyPI.
+
+0.2.0 (2020-02-23)
+++++++++++++++++++++
+
+* Add tests and docs.
+
