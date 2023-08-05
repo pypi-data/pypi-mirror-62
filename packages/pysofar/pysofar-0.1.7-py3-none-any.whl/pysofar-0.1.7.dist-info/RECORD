@@ -1,0 +1,10 @@
+pysofar/__init__.py,sha256=G7Pij0-95wnJ3sYIeJ9r517rwNbEzYOoFcyFlC7Q2Cs,1809
+pysofar/sofar.py,sha256=LnMIrdJe-lYBs8a3jxlvgqkJFknNaE1U7inGtJDDKEI,19619
+pysofar/spotter.py,sha256=pneXvOv8m6HCl1pVCACdRm-A96x7PnwSF3F9ncHv1VY,9234
+pysofar/tools.py,sha256=RK7vFPsgA_9EYnaSbKGPPQ1WQE7kTVLUbKXx0fAS_24,1515
+pysofar/wavefleet_exceptions.py,sha256=CFGs_2nMN3Q4X7sIFLLzOpENQ9c_oHCNFtfjbqZexmY,437
+pysofar-0.1.7.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pysofar-0.1.7.dist-info/METADATA,sha256=n7IiCsmxkh1o12luYRCPStVmjVP-TZB0QlXPmKANSPo,5630
+pysofar-0.1.7.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pysofar-0.1.7.dist-info/top_level.txt,sha256=-c4JIzoyNeZ2zjdYFeLqiDcU-N_HF0Z_Dw2Lf8F43Zg,8
+pysofar-0.1.7.dist-info/RECORD,,
