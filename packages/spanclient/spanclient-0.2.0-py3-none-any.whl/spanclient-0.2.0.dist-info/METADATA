@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: spanclient
+Version: 0.2.0
+Summary: a declarative API client framework.
+Home-page: UNKNOWN
+Author: Billy Peake
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: spantools
+Requires-Dist: aiohttp
+Requires-Dist: dataclasses
+Requires-Dist: gemma
+Requires-Dist: asynctest
+Provides-Extra: build
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: sphinx-data-fields ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: mypy (==0.730) ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest-sugar ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-html ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: aiostream ; extra == 'test'
+Requires-Dist: grahamcracker ; extra == 'test'
+
+UNKNOWN
+
+
