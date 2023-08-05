@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+avishan_wrapper_old/__init__.py
+avishan_wrapper_old/middlewares.py
+avishan_wrapper_old.egg-info/PKG-INFO
+avishan_wrapper_old.egg-info/SOURCES.txt
+avishan_wrapper_old.egg-info/dependency_links.txt
+avishan_wrapper_old.egg-info/requires.txt
+avishan_wrapper_old.egg-info/top_level.txt
