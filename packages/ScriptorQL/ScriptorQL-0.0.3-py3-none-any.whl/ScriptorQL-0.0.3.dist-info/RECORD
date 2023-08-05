@@ -1,0 +1,10 @@
+ScriptorQL/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ScriptorQL/script.py,sha256=Ly_sgkVD5L8AxtmPfgR0RxBPnWrhK8DT2b29cXO8rlE,1040
+data_to_sql_insert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_to_sql_insert/core.py,sha256=Ly_sgkVD5L8AxtmPfgR0RxBPnWrhK8DT2b29cXO8rlE,1040
+data_to_sql_insert/script.py,sha256=Ly_sgkVD5L8AxtmPfgR0RxBPnWrhK8DT2b29cXO8rlE,1040
+ScriptorQL-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ScriptorQL-0.0.3.dist-info/METADATA,sha256=X9ROtUzYK_-QIa0IADawZc7zv8UyrY5aap3uM5BbL9Y,1379
+ScriptorQL-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ScriptorQL-0.0.3.dist-info/top_level.txt,sha256=1rPOwtKy0oOBVXRn_ATnHCSnoMMJ5HU2d7pyIGfh6-M,11
+ScriptorQL-0.0.3.dist-info/RECORD,,
