@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: RPi.infobot
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/jdcasey/rpi.infobot
+Author: John Casey
+Author-email: jdcasey@commonjava.org
+License: GPLv3+
+Description: Application for reporting basic diagnostic information about a Raspberry Pi
+Keywords: telegram rpi raspberry-pi
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
