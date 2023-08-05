@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gpr-complex
+Version: 0.1.0
+Summary: A GPR library that can work with complex numbers
+License: MIT
+Author: Darlan Cavalcante Moreira
+Author-email: darcamo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bokeh (>=1.4.0,<2.0.0)
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
