@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+jadlog/__init__.py
+jadlog/calcula.py
+jadlog/pedido.py
+jadlog.egg-info/PKG-INFO
+jadlog.egg-info/SOURCES.txt
+jadlog.egg-info/dependency_links.txt
+jadlog.egg-info/not-zip-safe
+jadlog.egg-info/requires.txt
+jadlog.egg-info/top_level.txt
