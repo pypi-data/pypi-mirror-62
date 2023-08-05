@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: octocruncher
+Version: 0.0.2
+Summary: A simple package to implement the Octopart API
+Home-page: https://github.com/tgross35/octocruncher
+Author: Trevor Gross
+Author-email: tgross@intrepidcs.com
+License: UNKNOWN
+Description: # Octocruncher
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
