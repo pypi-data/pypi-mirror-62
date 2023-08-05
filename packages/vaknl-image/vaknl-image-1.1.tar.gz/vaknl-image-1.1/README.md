@@ -1,0 +1,31 @@
+# Vaknl
+Package for working with Images. Contains the default Image dataclass and methods to get and upload images to gcp.
+
+## Prerequisites
+These modules dependant on two things. Firstly the vaknl-gcp package for working with GCP. 
+Secondly the environment variable GCP_PROJECT a.k.a. gcp project id. 
+
+## Images
+
+#### class Image:
+```python
+@dataclass
+class Image:
+    url: str  
+    bucket_url: str  
+    width: int  
+    height: int  
+    bytes_size: int  
+```
+
+#### get_image(image_url, auth=None):
+Gets an images from the internet with a retry fall back of 3 times. 
+```
+returns width, heigth, size, data
+```
+
+#### upload_image_to_storage(id, bucket_name, image_url):
+Gets images from the internet and uploads it to storage.
+```
+returns width, heigth, byte_size, blob_url
+```
