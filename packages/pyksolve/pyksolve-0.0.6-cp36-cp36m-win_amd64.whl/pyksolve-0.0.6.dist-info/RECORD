@@ -1,0 +1,8 @@
+pyksolve/__init__.py,sha256=Ia5rqLADe_giKlMDaavd302blL6RqIRNe8c-pxHt90g,1225
+pyksolve/deferred.py,sha256=_ps-Ja_XHyFR3qEU6ONV7SeGvdsfjhmGpM9EE6pdB9g,8228
+pyksolve/solver.cp36-win_amd64.pyd,sha256=tK4fLpj-BVxTpCEzJ5mcA1lqAtZM-g5vz6jfXlyKQpA,121856
+pyksolve-0.0.6.dist-info/LICENSE,sha256=P5ME6lSI0BF-G_3-c-PKMPNhWrbCq-S3M5A323TzgZY,1090
+pyksolve-0.0.6.dist-info/METADATA,sha256=yhN2fNl95CnDzG2oms5CCfnt8K5BW8OaQdiG4Zs18-0,1046
+pyksolve-0.0.6.dist-info/WHEEL,sha256=Mp7cNSJkwOccBZaxEtyYhlze1HXRCLLX3tIlVLTix2E,106
+pyksolve-0.0.6.dist-info/top_level.txt,sha256=5A7TwEXx-8hVb7fDG8yW_iqY5dBjRG-N12Ikuh8vMJY,9
+pyksolve-0.0.6.dist-info/RECORD,,
