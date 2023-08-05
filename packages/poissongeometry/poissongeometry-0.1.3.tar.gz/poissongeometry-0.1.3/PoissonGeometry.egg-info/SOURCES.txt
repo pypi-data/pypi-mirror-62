@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+PoissonGeometry.egg-info/PKG-INFO
+PoissonGeometry.egg-info/SOURCES.txt
+PoissonGeometry.egg-info/dependency_links.txt
+PoissonGeometry.egg-info/requires.txt
+PoissonGeometry.egg-info/top_level.txt
+poisson/__init__.py
+poisson/poisson.py
+poisson/utils.py
+poissongeometry.egg-info/PKG-INFO
+poissongeometry.egg-info/SOURCES.txt
+poissongeometry.egg-info/dependency_links.txt
+poissongeometry.egg-info/requires.txt
+poissongeometry.egg-info/top_level.txt
