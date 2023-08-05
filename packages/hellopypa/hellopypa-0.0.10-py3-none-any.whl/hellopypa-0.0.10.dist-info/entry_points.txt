@@ -1,0 +1,3 @@
+[console_scripts]
+hellopypa = hellopypa.__main__:main
+
