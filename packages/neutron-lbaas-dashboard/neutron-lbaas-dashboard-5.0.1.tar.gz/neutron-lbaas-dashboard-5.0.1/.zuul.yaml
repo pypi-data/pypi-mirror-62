@@ -1,0 +1,36 @@
+- project:
+    templates:
+      - check-requirements
+      - openstack-python-jobs-horizon
+      - publish-openstack-sphinx-docs
+    check:
+      jobs:
+        - openstack-tox-lower-constraints
+        - nodejs-npm-run-lint:
+            nodeset: ubuntu-xenial
+            vars:
+              node_version: 4
+            required-projects:
+              - openstack/horizon
+        - nodejs-npm-run-test:
+            nodeset: ubuntu-xenial
+            vars:
+              node_version: 4
+            required-projects:
+              - openstack/horizon
+    gate:
+      jobs:
+        - openstack-tox-lower-constraints
+        - nodejs-npm-run-lint:
+            nodeset: ubuntu-xenial
+            vars:
+              node_version: 4
+            required-projects:
+              - openstack/horizon
+        - nodejs-npm-run-test:
+            nodeset: ubuntu-xenial
+            vars:
+              node_version: 4
+            required-projects:
+              - openstack/horizon
+
