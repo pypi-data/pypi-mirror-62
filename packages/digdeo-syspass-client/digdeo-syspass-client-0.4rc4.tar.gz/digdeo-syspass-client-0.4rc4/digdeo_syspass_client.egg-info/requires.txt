@@ -1,0 +1,4 @@
+PyYAML
+requests
+six
+urllib3
