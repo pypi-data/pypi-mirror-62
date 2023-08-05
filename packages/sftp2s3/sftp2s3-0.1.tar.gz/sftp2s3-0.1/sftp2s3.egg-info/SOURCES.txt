@@ -1,0 +1,6 @@
+README.md
+setup.py
+sftp2s3.egg-info/PKG-INFO
+sftp2s3.egg-info/SOURCES.txt
+sftp2s3.egg-info/dependency_links.txt
+sftp2s3.egg-info/top_level.txt
