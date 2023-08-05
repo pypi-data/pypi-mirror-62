@@ -1,0 +1,16 @@
+koala_crawler/__init__.py,sha256=LpTEaEb0HZoC6GHxxNuodDqJ7-Q85IN8jfLD8w84zn0,97
+koala_crawler/crawlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koala_crawler/crawlers/crawler_base.py,sha256=JE0EnuJgfNsto8QiwRfNwykzkpgviK93fPKFgJLo3aU,3600
+koala_crawler/crawlers/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koala_crawler/crawlers/db/db_metadata.py,sha256=5T85FbmJgY8QkVqWJlEjRqDxItPGyb9FDmWnyD0rOqk,1813
+koala_crawler/crawlers/db/orcale_crawler.py,sha256=Z3w5B0gvM2YHnTHDyYrA1G75tlTG75p6Fh0ylVHYVdk,2130
+koala_crawler/crawlers/graph_objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koala_crawler/crawlers/graph_objects/graph_edge.py,sha256=KvnT5ivCAk08F1wP0QKPebODAO_mupmYiCp_PU0YFzI,549
+koala_crawler/crawlers/graph_objects/graph_node.py,sha256=AfbqF90qwsGpxrGyALHwz_jX4TB0ilwMcdg6zkJBTt8,1020
+koala_crawler/crawlers/graph_objects/graph_object_base.py,sha256=eOQgtN5MDcr1YEypJj5Fji-mDISCzblPEovaE7il0tI,654
+koala_crawler/exceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koala_crawler/exceptions/exceptions.py,sha256=5Bui_K7iHAss0Tx_Jz9Jc25aDCaIfHqbXwK-C7-TH1Y,978
+koala_crawler-0.0.1.dist-info/METADATA,sha256=JHMEH9NrFaIQKeOLYVF6uyhTKiYDXmMarhFEwVAY0HA,590
+koala_crawler-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+koala_crawler-0.0.1.dist-info/top_level.txt,sha256=3dLMQHuJFWV7BMYXiId7CQ3lTTSiTYoNeO0Fsw5LEM8,14
+koala_crawler-0.0.1.dist-info/RECORD,,
