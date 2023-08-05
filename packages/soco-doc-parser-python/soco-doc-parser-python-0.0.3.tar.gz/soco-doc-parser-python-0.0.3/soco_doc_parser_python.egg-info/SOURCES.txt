@@ -1,0 +1,12 @@
+README.md
+setup.py
+soco_doc_parser_python.egg-info/PKG-INFO
+soco_doc_parser_python.egg-info/SOURCES.txt
+soco_doc_parser_python.egg-info/dependency_links.txt
+soco_doc_parser_python.egg-info/requires.txt
+soco_doc_parser_python.egg-info/top_level.txt
+soco_parser/__init__.py
+soco_parser/cloud.py
+soco_parser/config.py
+soco_parser/doc_api.py
+soco_parser/utils.py
