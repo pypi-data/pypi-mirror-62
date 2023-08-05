@@ -1,0 +1,10 @@
+rpi_infobot/__init__.py,sha256=ZZZpqN7Iet5LYdjshDfCYWjFme0jb57tLBtr5-9hryY,79
+rpi_infobot/command.py,sha256=9P-Tb0YlC7H9dISIMqGCd_ERopL6WGZPkhPwaNUvbTM,253
+rpi_infobot/config.py,sha256=BrgpMp0ifDU01vdqalJruJoC5axqXGRjvAM-Yy9kUMk,775
+rpi_infobot/convo.py,sha256=8XngP3YBkg3UqwVXh4ZdZJRJVqkWM2qIhuOkjrKqHyI,1925
+RPi.infobot-1.0.0.dist-info/METADATA,sha256=APQ4pcvKmkBq9vWnxMqwf_wgTZaDdt6kTiPzWwsDsNM,691
+RPi.infobot-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+RPi.infobot-1.0.0.dist-info/entry_points.txt,sha256=DRYB0RRRct_HDonxmpiQcEmGFEXO1qhWhp8S6Ba47SM,49
+RPi.infobot-1.0.0.dist-info/top_level.txt,sha256=UPb5ch7sCgPmBK5oH68EznHEP1Fc6brvoQFcfmTmte0,12
+RPi.infobot-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+RPi.infobot-1.0.0.dist-info/RECORD,,
