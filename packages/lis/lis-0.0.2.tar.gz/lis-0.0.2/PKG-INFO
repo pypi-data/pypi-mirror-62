@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: lis
+Version: 0.0.2
+Summary: Life is short, use `lis`
+Home-page: https://github.com/Marcnuth/lis
+Author: Marcnuth
+Author-email: hxianxian@gmail.com
+License: Apache License 2.0
+Description: # lis
+        
+        > life's short, avoid stupid duplicate coding.
+        
+        `lis` a python library including vairous state-of-art tools, enjoy!
+        
+        ## How to Use
+        
+        
+        ## Modules
+        
+        
+        ## Contribution
+        
+        
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
