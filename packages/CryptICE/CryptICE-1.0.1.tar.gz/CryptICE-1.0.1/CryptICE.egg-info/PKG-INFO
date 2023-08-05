@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: CryptICE
+Version: 1.0.1
+Summary: ICE encryption algorithm for Python
+Home-page: https://github.com/Sam839/CryptICE
+Author: Ren
+Author-email: zeze839@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
