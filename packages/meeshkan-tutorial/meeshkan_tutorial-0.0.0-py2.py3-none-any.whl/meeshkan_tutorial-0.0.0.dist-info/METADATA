@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: meeshkan-tutorial
+Version: 0.0.0
+Summary: A tutorial for Meeshkan
+Home-page: http://github.com/meeshkan-tutorial
+Author: Mike Solomon
+Author-email: mike@meeshkan.com
+License: UNKNOWN
+Keywords: meeshkan testing
+Platform: UNKNOWN
+Requires-Dist: meeshkan (>=0.2.11)
+Requires-Dist: clint
+Requires-Dist: pyfiglet
+Requires-Dist: progress
+Requires-Dist: http-types (>=0.0.10)
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
+
