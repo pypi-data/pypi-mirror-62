@@ -1,0 +1,6 @@
+awscli_plugin_yubikeytotp/__init__.py,sha256=Bnz3E6CS3-PAMU4EbMBJ4ysgtiIniiOL4dfmmfvefyQ,224
+awscli_plugin_yubikeytotp/boto_plugin.py,sha256=xp-9SpuyNCbcgG-6d28UQxGhOXdfI85JF1I2Fy1O2HA,298
+awscli_plugin_yubikeytotp/prompter.py,sha256=iAyc8TDbDPazwRD5SisWEZjLgRI4MMkkJKzil27YLJU,2001
+awscli_plugin_yubikeytotp-0.1.0.dev1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+awscli_plugin_yubikeytotp-0.1.0.dev1.dist-info/METADATA,sha256=VLyzSMrSxRjRpV2WgNpFdHmWnWR8smXRofcSrnEKXbE,477
+awscli_plugin_yubikeytotp-0.1.0.dev1.dist-info/RECORD,,
