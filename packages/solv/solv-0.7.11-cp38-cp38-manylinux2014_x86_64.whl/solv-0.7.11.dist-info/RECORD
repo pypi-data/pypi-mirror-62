@@ -1,0 +1,9 @@
+solv-0.7.11.dist-info/top_level.txt,sha256=lckKMhfZa6lUADuv_C32wb8YmxwNGcmITpjfMT317Fk,5
+solv-0.7.11.dist-info/METADATA,sha256=Zdet6eCwzmPcmI5NhnkdHC56SwmP3cAjunfE77HYkSE,567
+solv-0.7.11.dist-info/RECORD,,
+solv-0.7.11.dist-info/WHEEL,sha256=6jV-kfGfUDH7Nw2khaMwp0AVMa4F5rCpyx9zbSSn5wo,105
+solv-0.7.11.dist-info/LICENSE.BSD,sha256=V_Faz7Kfvvd0l3nglqWIXGC3FmM-NEhKIbtxdVTAGY8,1381
+solv/_solv.so,sha256=YnsXXoGDYFXx5vurtj2f3CIkMkI6yannjcRhNBVG3p4,1168840
+solv/solv.py,sha256=76eiyu42mXUh3ZZzcQEETZcjEfF4k3TPhLIKW2ad6mk,71731
+solv/__init__.py,sha256=PIQy8wVliT_UsAXI4JEspWi-_3sAInhbzQEjaoa96fY,20
+solv/.libs/libz-d8a329de.so.1.2.7,sha256=3UKbcYlgGJ4uwAkIdNw8fL3nrEKkaa5JOjm9hEzNdvw,96272
