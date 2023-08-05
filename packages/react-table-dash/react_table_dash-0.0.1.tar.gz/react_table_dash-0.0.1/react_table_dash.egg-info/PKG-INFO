@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: react-table-dash
+Version: 0.0.1
+Summary: Dash component based on React Table v6
+Home-page: UNKNOWN
+Author: Mauri Larikka <mauri.larikka@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash
