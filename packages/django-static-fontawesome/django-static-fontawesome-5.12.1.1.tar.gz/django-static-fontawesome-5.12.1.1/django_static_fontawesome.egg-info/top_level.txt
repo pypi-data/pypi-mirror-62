@@ -1,0 +1,2 @@
+django_static_fontawesome
+django_static_fontawesome_demo
