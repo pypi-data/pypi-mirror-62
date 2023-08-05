@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/__init__.py
+src/cli.py
+src/logger.py
+xkcd_cli.egg-info/PKG-INFO
+xkcd_cli.egg-info/SOURCES.txt
+xkcd_cli.egg-info/dependency_links.txt
+xkcd_cli.egg-info/entry_points.txt
+xkcd_cli.egg-info/requires.txt
+xkcd_cli.egg-info/top_level.txt
