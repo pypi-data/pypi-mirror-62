@@ -1,0 +1,8 @@
+README.md
+setup.py
+pacotepypi/modulo.py
+pacotepypi.egg-info/PKG-INFO
+pacotepypi.egg-info/SOURCES.txt
+pacotepypi.egg-info/dependency_links.txt
+pacotepypi.egg-info/requires.txt
+pacotepypi.egg-info/top_level.txt
