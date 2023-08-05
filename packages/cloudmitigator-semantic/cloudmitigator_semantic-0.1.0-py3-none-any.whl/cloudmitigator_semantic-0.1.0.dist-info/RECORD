@@ -1,0 +1,11 @@
+cloudmitigator_semantic/__init__.py,sha256=n44r_2rwfBNlaZr_jTG4mIf1tzwbo7iCwsK0Orwuzf4,56
+cloudmitigator_semantic/cli.py,sha256=4JMQVQfnaXU9w2lOjJABn9L2K4MJMMVIYMWSAa_HH4k,825
+cloudmitigator_semantic/git.py,sha256=G07EO-0grw4Uc7BnI2wkhR8rSU1rBWp7PDHOS4w0Dgc,3149
+cloudmitigator_semantic/utilities.py,sha256=pD_bG5tmHy1gZK_1sKxI9q95yYIOpxUQxCFPOic7_ks,500
+cloudmitigator_semantic/version.py,sha256=Sl_VD3mNpDgibeEi8jEbasDfqcomSrmR8_bHwHL4DhM,3282
+cloudmitigator_semantic-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+cloudmitigator_semantic-0.1.0.dist-info/METADATA,sha256=6dDkLX067yplPfadNbuCBt-GRDqiePiWcB-puVKgikY,2229
+cloudmitigator_semantic-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloudmitigator_semantic-0.1.0.dist-info/entry_points.txt,sha256=FDIrarvnDgjfrdrO-GKp8VWsF49f_DqvMOip8R49E30,122
+cloudmitigator_semantic-0.1.0.dist-info/top_level.txt,sha256=3VdRzinUKs0lK-YrIyvLISaRyDJW8S8L1rYPfVLS_aM,24
+cloudmitigator_semantic-0.1.0.dist-info/RECORD,,
