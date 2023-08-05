@@ -1,0 +1,3 @@
+[console_scripts]
+open-firefox-urls-chrome = open_firefox_urls_chrome:main
+
