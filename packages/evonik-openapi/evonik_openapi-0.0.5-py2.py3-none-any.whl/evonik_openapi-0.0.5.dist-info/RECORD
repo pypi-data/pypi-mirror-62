@@ -1,0 +1,9 @@
+evonik/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evonik/openapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evonik/openapi/openapi.py,sha256=0m9pDrWIYdGsphkDiACY_hykkFTeHdagm2k2NSgsZ7g,5168
+evonik_openapi-0.0.5.data/scripts/evonik-openapi,sha256=N92ChgL1luXBlxnIYnOFd_qf1Qz0ufnStt7-5qbNgsY,410
+evonik_openapi-0.0.5.dist-info/LICENSE,sha256=9cDa3icKhNHiECCxUgvuJYmw7e4mhm4oBqVRJDSp5z4,1082
+evonik_openapi-0.0.5.dist-info/METADATA,sha256=1PDL_iKoMNeAUyEnqwlJGst2k8rqfoAiulmhEOQml8E,7153
+evonik_openapi-0.0.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+evonik_openapi-0.0.5.dist-info/top_level.txt,sha256=fJis3spPIMESfEKhD48hcj5omxdyGTwoaFxf8QyV35M,7
+evonik_openapi-0.0.5.dist-info/RECORD,,
