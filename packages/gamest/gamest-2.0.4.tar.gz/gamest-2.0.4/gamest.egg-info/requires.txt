@@ -1,0 +1,4 @@
+sqlalchemy
+psutil>=5.7.0
+requests
+appdirs
