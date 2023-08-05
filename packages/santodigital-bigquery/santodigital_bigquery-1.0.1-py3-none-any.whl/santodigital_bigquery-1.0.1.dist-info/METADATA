@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: santodigital-bigquery
+Version: 1.0.1
+Summary: Santo Digital Custom packages to work with BigQuery Python SDK
+Home-page: UNKNOWN
+Author: Lucas Magalhães
+Author-email: lucas.magalhaes@santodigital.com.br
+License: Apache-2.0
+Keywords: bigquery
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Requires-Dist: google-cloud-bigquery (>=1.23.1)
+
+## Wrapper para trabalhar com a API do BigQuery
+
+### Procedimento para upload no Pypi
+
+#### Pré requisitos
+Instalar pacotes python
+
+`python3 -m pip install --user --upgrade setuptools wheel`
+
+`python3 -m pip install --user --upgrade twine`
+
+#### Upload no Pypi
+
+Na pasta onde tem o setup.py
+
+`python3 setup.py sdist bdist_wheel`
+
+`python3 -m twine upload dist/*`
+
+Changelog
+=========
+
+
+1.0.1 (2020-02-27)
+------------------
+
+* Mudança de ownership.
+
+
+1.0.0 (2020-02-26)
+------------------
+
+* First release on PyPI.
+
+

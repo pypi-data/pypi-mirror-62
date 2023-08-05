@@ -1,0 +1,8 @@
+santodigital_bigquery/__init__.py,sha256=q6WFmNx0Bf-dp2No6Wd8j0Dm8TgJCS_WkJ7_bNtC524,264
+santodigital_bigquery/io/__init__.py,sha256=BIwfU3CgH4H0k_OOZbKE8oU0OG5ZjSXy-a2fmqubx64,79
+santodigital_bigquery/io/bigquery.py,sha256=z_Og7OA4xGxNUrCIyxXK2qhSVUgxaQU0oQoDA3L-t2E,2595
+santodigital_bigquery-1.0.1.dist-info/LICENSE,sha256=N4vXVykw0iRbDOEA4wPmYo-tpsh_akDdzn6zOWGvVF0,585
+santodigital_bigquery-1.0.1.dist-info/METADATA,sha256=9rBKXbxgWad21gumvguFweI7sW8d5cYp_R1JeWc71Io,1671
+santodigital_bigquery-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+santodigital_bigquery-1.0.1.dist-info/top_level.txt,sha256=CRZ4-8TT1MXOweIcclOVLKzodbhsrz-6DVIkTcyWu40,22
+santodigital_bigquery-1.0.1.dist-info/RECORD,,
