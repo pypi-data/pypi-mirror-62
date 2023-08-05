@@ -1,0 +1,11 @@
+bcp47/__init__.py,sha256=jJCiRQHeI0oPzvaZzwWrozceQC29AYxxs8HtQbYU0xQ,1055
+bcp47/code.py,sha256=K-Tk4HCFJYUJSRzGwkgVp-wfNqT3o36lUxmj1MEQ2ug,4518
+bcp47/parser.py,sha256=AaMOdHBl46K2e5kddhAkPZYQtao3WbrBHcAJgP0DUMo,1641
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bcp47.py,sha256=IMJBItMnnaX1-NhfZcQzvUkWyn_K72pZ_YQelllVg70,5272
+tests/code.py,sha256=gSIOw_b5vNqRZ9VA9vbuwD4jFq9Y9JKWgPkspgsz5B8,4966
+tests/parser.py,sha256=_BLs9XhSYiK9EseJPZJ0VqcAmzKlamUFidJtCvN06IM,1791
+python_bcp47-0.0.1.dist-info/METADATA,sha256=ZJBxOc_4VvLQsTmWF2kSlFsaSER_yieR6ycwFZNZPLc,928
+python_bcp47-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_bcp47-0.0.1.dist-info/top_level.txt,sha256=9UPlLkzkrFGO6hol89LC1dw0EyzE7DVYR7itMID9Qls,12
+python_bcp47-0.0.1.dist-info/RECORD,,
