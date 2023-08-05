@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: morphling
+Version: 0.1.0
+Summary: morpling is a library for transforming text in different format
+Home-page: https://github.com/Semooze/morphling
+License: UNKNOWN
+Author: Sem
+Author-email: cloudtimewater@gmail.com
+Requires-Python: ~=3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: aiofile==1.5.2
+Requires-Dist: Click==7.0
+Requires-Dist: flit==2.2.0
