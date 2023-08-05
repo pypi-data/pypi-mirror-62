@@ -1,0 +1,52 @@
+{
+  "checkIntervalSeconds": 10,
+  "devices": [
+    {
+      "MACAddress": "4c:65:a8:df:85:c0",
+      "attributeUpdates": [
+        {
+          "attributeOnThingsBoard": "sharedName",
+          "characteristicUUID": "00002A00-0000-1000-8000-00805F9B34FB"
+        }
+      ],
+      "attributes": [
+        {
+          "byteFrom": 0,
+          "byteTo": -1,
+          "characteristicUUID": "00002A00-0000-1000-8000-00805F9B34FB",
+          "key": "name",
+          "method": "read"
+        }
+      ],
+      "name": "Temperature and humidity sensor",
+      "serverSideRpc": [
+        {
+          "characteristicUUID": "00002A00-0000-1000-8000-00805F9B34FB",
+          "methodProcessing": "read",
+          "methodRPC": "rpcMethod1",
+          "withResponse": true
+        }
+      ],
+      "telemetry": [
+        {
+          "byteFrom": 2,
+          "byteTo": 6,
+          "characteristicUUID": "226CAA55-6476-4566-7562-66734470666D",
+          "key": "temperature",
+          "method": "notify"
+        },
+        {
+          "byteFrom": 9,
+          "byteTo": 13,
+          "characteristicUUID": "226CAA55-6476-4566-7562-66734470666D",
+          "key": "humidity",
+          "method": "notify"
+        }
+      ]
+    }
+  ],
+  "name": "BLE Connector",
+  "passiveScanMode": true,
+  "rescanIntervalSeconds": 10,
+  "scanTimeSeconds": 5
+}

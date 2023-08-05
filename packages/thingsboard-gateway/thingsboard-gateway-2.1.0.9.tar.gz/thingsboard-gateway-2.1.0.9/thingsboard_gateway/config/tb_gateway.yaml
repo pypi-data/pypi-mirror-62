@@ -1,0 +1,14 @@
+connectors:
+- configuration: opcua.json
+  name: OPCUA
+  type: opcua
+storage:
+  max_records_count: 10000
+  read_records_count: 100
+  type: memory
+thingsboard:
+  host: 127.0.0.1
+  port: 1883
+  remoteConfiguration: false
+  security:
+    accessToken: pyaRNhaGSeZ0msTQ8Guo
