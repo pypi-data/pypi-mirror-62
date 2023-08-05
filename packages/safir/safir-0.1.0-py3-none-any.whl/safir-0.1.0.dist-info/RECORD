@@ -1,0 +1,10 @@
+safir/__init__.py,sha256=aKaHGOjh077LoDdxdX0xRThaFlf3vaWeNrc0W8yK3Ok,652
+safir/http.py,sha256=OHiRTXcvdQEFry1rhun0fiskJMnZ1u9gbNuaSziOe1w,1387
+safir/logging.py,sha256=EE8C7WpyB9bdDNCPiyiwwkcZzlVoAwEkoLA4Xlt-HKU,4715
+safir/metadata.py,sha256=umhpL7NT9wJcLuLDOu6uAovn-JY4iIULjjT5B_2B4XM,4371
+safir/middleware.py,sha256=Ptxddzrkox2qd0yrEhhtzCz1hU0jGlLE1EDjQj9NH6g,4175
+safir-0.1.0.dist-info/LICENSE,sha256=wAf1w8A5pNsiLR_twtBCM9MfBJmPwRrW5_-UvRNclhs,1123
+safir-0.1.0.dist-info/METADATA,sha256=PNMNOm5ugq7BjeonUNZm2dPTWzZIH3WXK25-Vw5-n_A,4914
+safir-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+safir-0.1.0.dist-info/top_level.txt,sha256=lHdGSQXhWE7XvxLJiAquZeJePeRHD-PnjwJ8Nsr3CJE,6
+safir-0.1.0.dist-info/RECORD,,
