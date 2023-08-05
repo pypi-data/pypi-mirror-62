@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/mynews_bot.py
+src/data/__init__.py
+src/data/main.py
+src/mynews_bot/__init__.py
+src/mynews_bot.egg-info/PKG-INFO
+src/mynews_bot.egg-info/SOURCES.txt
+src/mynews_bot.egg-info/dependency_links.txt
+src/mynews_bot.egg-info/entry_points.txt
+src/mynews_bot.egg-info/requires.txt
+src/mynews_bot.egg-info/top_level.txt
+src/rss_feed/__init__.py
+src/rss_feed/main.py
+src/rss_feed/utils.py
