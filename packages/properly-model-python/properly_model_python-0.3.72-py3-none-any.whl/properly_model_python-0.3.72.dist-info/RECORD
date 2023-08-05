@@ -1,0 +1,13 @@
+properly_model_python/__init__.py,sha256=TPre5U97TrSWMM3ByMMeq0yz1XIioZB7WSy9Ho-aI3M,52
+properly_model_python/util.py,sha256=9sBC3DzxKD4WgIcbCbXAXpdXoGsRviLlFjQ6-ku5LIQ,3384
+properly_model_python/models/__init__.py,sha256=PiKmi75kJZKf7HL76MQCTHRkyujs1SpNt9mzCQBJ4NY,424
+properly_model_python/models/base_model_.py,sha256=RVk64ScLVGIr79XSPaHv2bfJlY55qvEV3tRE4ZuFwVY,3313
+properly_model_python/models/custom_annotation.py,sha256=QEHz_UXCrA_zeU9p3cIPdA2QpMgTEME9gJK6576_DMY,3408
+properly_model_python/models/image.py,sha256=N1Ll9M6257K-P39PzexLOFFaoliMa_Sa5oRgurYjoF8,3441
+properly_model_python/models/model_property.py,sha256=wRwN1WpIVWUSkuz726XIUWgRRQslaoQ2w7m30Wf2wiQ,56809
+properly_model_python/models/room.py,sha256=NnAlCGG_WFFJ8QvCtMSEERcJVGzeBTsU8gjXt_o2KuM,2794
+properly_model_python/models/sold_property.py,sha256=nshIXIPDbQyOvYBeGNUEpc-IBzc7l07TgmKeWkQHQMo,61065
+properly_model_python-0.3.72.dist-info/METADATA,sha256=X8krr9dn5_atKqlIkgIrPK10vasbN5dVA0Z3k4tWMLk,373
+properly_model_python-0.3.72.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+properly_model_python-0.3.72.dist-info/top_level.txt,sha256=GejufKSZ6n2cng2efxF9B1jqc4xIcQ5zQLXIQEDWYIc,22
+properly_model_python-0.3.72.dist-info/RECORD,,
