@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: test2techcombine
+Version: 0.0.1
+Summary: Techcombine frameworl for ecommerce
+Home-page: https://github.com/chinnawatp/techcombine-framework
+Maintainer: Techcombine developer team
+Maintainer-email: kittipat.phongsak@gmail.com
+License: MIT
+Description: # techcombine-framework
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
