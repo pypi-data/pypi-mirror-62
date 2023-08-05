@@ -1,0 +1,11 @@
+barbara/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+barbara/cli.py,sha256=ffbzZ5oB9S-XoCrYDOi97lUUC-wGXLctZ3TJ8bR13iw,2445
+barbara/readers.py,sha256=fU51vTRVHJTbQQZT-zso6WC30FufxZxHHLnCMrYMZ_w,2299
+barbara/utils.py,sha256=EudH9Owb5et9agipC4aeDaa9F8CLmjahLOcegAx-o_A,3678
+barbara/variables.py,sha256=ewupj6p2zfaVwXCR986C96eKDPiIhW1Nb_jvjlVLDTc,342
+barbara/writers.py,sha256=esmLtv1cJsAXJuJDYE778GmtgNmaOgcXMU80fRJOoVE,684
+barbara-2.0.1.dist-info/entry_points.txt,sha256=lHZ9fPoSBeSyhZntFkzNPa4Ag9CxChZU6Wf_-OgGLJk,52
+barbara-2.0.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+barbara-2.0.1.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+barbara-2.0.1.dist-info/METADATA,sha256=vQwkOtMGQzYcck-c5uJwoNAoaYM__2F6arlH8yf3w2c,3442
+barbara-2.0.1.dist-info/RECORD,,
