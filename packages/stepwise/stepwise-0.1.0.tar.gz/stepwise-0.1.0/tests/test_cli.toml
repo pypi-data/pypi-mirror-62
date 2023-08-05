@@ -1,0 +1,203 @@
+###############################################################################
+### Builtins
+###############################################################################
+
+[[test_main]]
+id = 'builtin-echo'
+cmd = "stepwise echo -e '- A\\n- B'"
+env = {}
+stdout = '''
+^{DATE}
+
+\$ stepwise echo -e '- A\\n- B'
+
+1\. A
+
+2\. B
+'''
+stderr = '^$'
+return_code = 0
+
+[[test_main]]
+id = 'builtin-split'
+cmd = "stepwise split 'A;B'"
+env = {}
+stdout = '''
+^{DATE}
+
+\$ stepwise split 'A;B'
+
+1\. A
+
+2\. B
+'''
+stderr = '^$'
+return_code = 0
+
+
+###############################################################################
+### Pipes
+###############################################################################
+
+[[test_main]]
+id = 'pipeline-2'
+cmd = "stepwise split A | stepwise split B"
+env = {}
+stdout = '''
+^{DATE}
+
+\$ stepwise split A
+\$ stepwise split B
+
+1\. A
+
+2\. B
+'''
+stderr = '^$'
+return_code = 0
+
+[[test_main]]
+id = 'pipeline-3'
+cmd = "stepwise split A | stepwise split B | stepwise split C"
+env = {}
+stdout = '''
+^{DATE}
+
+\$ stepwise split A
+\$ stepwise split B
+\$ stepwise split C
+
+1\. A
+
+2\. B
+
+3\. C
+'''
+stderr = '^$'
+return_code = 0
+
+
+###############################################################################
+### Errors
+###############################################################################
+
+[[test_main]]
+id = 'err-empty-protocol'
+cmd = "stepwise echo ''"
+env = {}
+# The expected output is "... echo ''" (two quotes, not one), but there's a bug 
+# in the `toml` regarding how '' is parsed in ''' strings.  See #284.
+stdout = '''
+^{DATE}
+
+\$ stepwise echo '
+'''
+stderr = '''
+.*stepwise warning.*echo.* protocol is empty.
+'''
+return_code = 0
+
+[[test_main]]
+id = 'err-unknown-protocol'
+cmd = "stepwise unknown-protocol"
+env = {}
+stdout = '^$'
+stderr = '''
+.*stepwise error.*
+    no protocols matching 'unknown-protocol' in:
+'''
+return_code = 1
+
+[[test_main]]
+id = 'err-formatting'
+cmd = "stepwise echo 'Formatting error'"
+env = {}
+stdout = '''
+^Formatting error$
+'''
+stderr = '''
+.*stepwise warning.*the protocol could not be properly rendered due to error\(s\):
+.*stepwise warning.*`.*echo 'Formatting error'`, 1.*
+    expected a step \(e.g. '- ...' or '1. ...'\), not 'Formatting error'
+'''
+return_code = 1
+
+[[test_main]]
+id = 'err-bad-stdin'
+cmd = "echo foo | stepwise split A"
+env = {}
+stdout = '''
+^{DATE}
+
+\$ stepwise split A
+
+1\. A
+'''
+stderr = '''
+.*stepwise error.*error parsing stdin: invalid load key, 'f'.
+    This error commonly occurs when the output from a non-stepwise command
+    is piped into a stepwise command.  When usings pipes to combine
+    protocols, make sure that every command is a stepwise command.
+'''
+return_code = 1
+
+###############################################################################
+### Subcommands
+###############################################################################
+
+[[test_main]]
+id = 'ls'
+cmd = "stepwise ls"
+env = {}
+stdout = '''
+.*\
+stepwise\.builtins
+  echo
+  split
+.*\
+'''
+stderr = '^$'
+return_code = 0
+
+[[test_main]]
+id = 'ls-d'
+cmd = "stepwise ls -d"
+env = {}
+stdout = '''
+.*\
+stepwise\.builtins
+.*\
+'''
+stderr = '^$'
+return_code = 0
+
+[[test_main]]
+id = 'ls-p'
+cmd = "stepwise ls -p"
+env = {}
+stdout = '''
+.*\
+echo
+split
+.*\
+'''
+stderr = '^$'
+return_code = 0
+
+[[test_main]]
+id = 'edit'
+cmd = "stepwise edit echo"
+env = {EDITOR = 'echo'}
+stdout = '.*/builtins/echo$'
+stderr = '^$'
+return_code = 0
+
+[[test_main]]
+id = 'which'
+cmd = "stepwise which echo"
+env = {}
+stdout = '.*/builtins/echo$'
+stderr = '^$'
+return_code = 0
+
+
