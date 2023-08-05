@@ -1,0 +1,11 @@
+hydrodata/__init__.py,sha256=qTeUEbwoArmQqAFhtBLTSXD0NiedNKchBe_2xJ9swW4,161
+hydrodata/datasets.py,sha256=7gh3k0gjzUJyZoH4PaOfqRbJDxeJJjQ07jZUccUlldY,37424
+hydrodata/hydrodata.py,sha256=C1f7p-YQqWFh-3fBigPOyIGA6hzcr9J5OIbq30jh65U,7149
+hydrodata/plot.py,sha256=RXeWlb8fypFyOybGpGqp4iBqNOPOESkU-xkoOqn3sGA,8231
+hydrodata/utils.py,sha256=hBmVp9uD1OqyqS-NVYvLTyZlc5pKuXwejT7jl2a4qlQ,13758
+hydrodata-0.4.1.dist-info/AUTHORS.rst,sha256=FAneYiHTTZuEAtX7AvBFFp5_QesoMSH0cUAt3tirVYQ,157
+hydrodata-0.4.1.dist-info/LICENSE,sha256=wQ4ChQJ-2XSAEYHKD_SoLkWjm8IS6eLgUE6lQJuyszM,1072
+hydrodata-0.4.1.dist-info/METADATA,sha256=joKtfDgcqF4a8zg6jfa39NIUjYJ5-qazTQIiT5Eq2M0,1901
+hydrodata-0.4.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+hydrodata-0.4.1.dist-info/top_level.txt,sha256=_Islw3wrum1zGmH2bVW13Zt8lO2pGxeYK6naDBEK5gE,10
+hydrodata-0.4.1.dist-info/RECORD,,
