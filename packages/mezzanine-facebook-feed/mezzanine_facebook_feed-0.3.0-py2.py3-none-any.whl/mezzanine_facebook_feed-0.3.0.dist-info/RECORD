@@ -1,0 +1,15 @@
+fbfeed/__init__.py,sha256=YcMAoNGD8Q9JaPXO2qeOfCZzKJVQgno8Ly0H2MgVvjw,64
+fbfeed/admin.py,sha256=42VNu6DkAuHUFfQRo3Z2Xe3WaGM_9RPwMCmu3D3QMcg,1875
+fbfeed/apps.py,sha256=DV2nNk7AJwdkcxKH_nYyYK2JV2cyr1W8rfsZKe1dy-E,181
+fbfeed/defaults.py,sha256=DpZY6ZS_ZJSmtP645w_cXs3nmZ3AYOrqGihbhhTlBEs,305
+fbfeed/models.py,sha256=EmEY-0wcvzzppmin5nvzw8fnBNc4peLhOANAnwg3EKg,5072
+fbfeed/migrations/0001_initial.py,sha256=uDg1-4J8T7u6xjRwJbXcyobnRf-s3yEG-LK-YtvWGKs,1351
+fbfeed/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fbfeed/templates/admin/fbfeed/access/change_form.html,sha256=Wym0upIsy-FJK8J7tseh0eRdcVh1viMLIiMA0dALMEQ,210
+fbfeed/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fbfeed/templatetags/fbfeed_tags.py,sha256=KYR_HGdk92XPpvLRL7ciTICwAJ1G9xX88W6skB2PNew,728
+mezzanine_facebook_feed-0.3.0.dist-info/LICENSE,sha256=BREIG78g7BxoW6IyoWnLN3jteTr45tCmiytlkPjRsps,1074
+mezzanine_facebook_feed-0.3.0.dist-info/METADATA,sha256=6zSt8VO9rpoWjMSxqbmfYH8f4iKOwgjiUfd3SLpwHnM,2423
+mezzanine_facebook_feed-0.3.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+mezzanine_facebook_feed-0.3.0.dist-info/top_level.txt,sha256=8TCnV0GUgClrsxOpuQiIhnlEf36nZnkL7LEEqGYDLMU,7
+mezzanine_facebook_feed-0.3.0.dist-info/RECORD,,
