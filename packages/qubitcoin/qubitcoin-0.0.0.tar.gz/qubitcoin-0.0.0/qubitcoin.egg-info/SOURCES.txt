@@ -1,0 +1,9 @@
+README.rst
+setup.py
+qc/__init__.py
+qc/ether.py
+qubitcoin.egg-info/PKG-INFO
+qubitcoin.egg-info/SOURCES.txt
+qubitcoin.egg-info/dependency_links.txt
+qubitcoin.egg-info/entry_points.txt
+qubitcoin.egg-info/top_level.txt
