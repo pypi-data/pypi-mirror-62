@@ -1,0 +1,5 @@
+pillow
+pyyaml
+bitstring
+pyserial
+tqdm
