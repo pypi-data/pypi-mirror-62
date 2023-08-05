@@ -1,0 +1,6 @@
+setup.py
+core/rainmakers_core.egg-info/PKG-INFO
+core/rainmakers_core.egg-info/SOURCES.txt
+core/rainmakers_core.egg-info/dependency_links.txt
+core/rainmakers_core.egg-info/top_level.txt
+test/test.py
