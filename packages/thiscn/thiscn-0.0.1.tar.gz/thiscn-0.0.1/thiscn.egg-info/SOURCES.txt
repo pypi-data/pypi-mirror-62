@@ -1,0 +1,7 @@
+README.md
+setup.py
+thiscn/__init__.py
+thiscn.egg-info/PKG-INFO
+thiscn.egg-info/SOURCES.txt
+thiscn.egg-info/dependency_links.txt
+thiscn.egg-info/top_level.txt
