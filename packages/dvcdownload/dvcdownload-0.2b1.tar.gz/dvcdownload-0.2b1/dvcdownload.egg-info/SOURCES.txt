@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+download.py
+setup.cfg
+setup.py
+dvcdownload.egg-info/PKG-INFO
+dvcdownload.egg-info/SOURCES.txt
+dvcdownload.egg-info/dependency_links.txt
+dvcdownload.egg-info/entry_points.txt
+dvcdownload.egg-info/requires.txt
+dvcdownload.egg-info/top_level.txt
