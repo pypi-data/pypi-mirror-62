@@ -1,0 +1,12 @@
+pythonanywhereapiclient/__init__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+pythonanywhereapiclient/client.py,sha256=QJcfED4_8CnOIvVkkBMlPIYqQI5wp5PsHj7L-OgWba8,1274
+pythonanywhereapiclient/config.py,sha256=yboqGqkERQYYQmhsSvymGeZwgKecyR8wQDE1NNqAZtE,238
+pythonanywhereapiclient/error.py,sha256=PB1B-arn9N1zkiduMl3RfZ9thLnpCGCpCvoaNpujnLU,108
+pythonanywhereapiclient/file.py,sha256=x2_nsSNl6Cmu0pS_l7gbLDPCy80Xj20kM1i1scznuSk,899
+pythonanywhereapiclient/utils.py,sha256=vD7p3p3eLAYQJMKouYoOsuNoyW1_gdTeXmu7nmM3jMM,86
+pythonanywhereapiclient/webapp.py,sha256=Q6a2z9TAGk8FV0z9j97fPE3HsNUfEWQC8ORZjcL5BqQ,2325
+pythonanywhereapiclient-1.0.1.dist-info/LICENSE,sha256=MKW4xEK6GCmwM7IfMv79j5WQY5qFhLRYIlPw7YjCRDU,1051
+pythonanywhereapiclient-1.0.1.dist-info/METADATA,sha256=cKbi7wjeHamONnS9tqeGBmZk0iGDLF8yDcTEQdZebqE,4978
+pythonanywhereapiclient-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pythonanywhereapiclient-1.0.1.dist-info/top_level.txt,sha256=GJo4fCPxNoHP-Zpm3um_09XZ-TWp3dtHHic7_CIgYKY,24
+pythonanywhereapiclient-1.0.1.dist-info/RECORD,,
