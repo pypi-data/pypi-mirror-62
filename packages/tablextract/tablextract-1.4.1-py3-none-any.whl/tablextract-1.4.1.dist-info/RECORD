@@ -1,0 +1,10 @@
+tablextract/__init__.py,sha256=VWnVPFlLQiP79Vdes7F9upw_EgA-CQiL6j2OtMm1Bhc,990
+tablextract/evaluation.py,sha256=QTfKwlIc29ddNMuq8pzAyCzmn1m4AuS0yDwAS0yFius,2280
+tablextract/table_processing.py,sha256=W7OTcJTIIbmzZo5COzKPhfwV4LLtf4BUKB7DiPAYURo,35017
+tablextract/utils.py,sha256=kNy6ptYeXROwRXhnfWw_Sd5YdFO6XZOIrsqfQrkjFd8,13719
+tablextract/resources/add_render.js,sha256=E-hWO2vP6JUexJ7G7OD1jmdap9lHMg2qle78elxyFJw,1792
+tablextract-1.4.1.dist-info/LICENSE,sha256=_MioeSAhQGe0-fgazux51Fk-cBhMJf6B8OiAqzA0eFY,20558
+tablextract-1.4.1.dist-info/METADATA,sha256=GK2nralP9AX3mLUH3bd55plLbLpV7VvJJXJuxGNof-4,8325
+tablextract-1.4.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+tablextract-1.4.1.dist-info/top_level.txt,sha256=5qT_uqlaiNhLe1SJSvDkCago1KUHdZQp4kgEZMxueoQ,12
+tablextract-1.4.1.dist-info/RECORD,,
