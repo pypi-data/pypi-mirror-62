@@ -1,0 +1,2 @@
+firebase-admin
+meeshkan-hosted-secrets==0.4
