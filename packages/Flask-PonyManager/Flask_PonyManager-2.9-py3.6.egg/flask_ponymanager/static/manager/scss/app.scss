@@ -1,0 +1,68 @@
+@import "base";
+
+header {
+  background-color: lighten(black, 20%);
+  color: white;
+  padding: 0.25em 0.5em;
+
+  .header-title {
+    font-size: 2em;
+    font-weight: bold;
+    display: inline;
+
+    a,
+    a:hover,
+    a:active,
+    a:visited {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .header-nav {
+    padding: 0 2em;
+    display: inline;
+
+    ul {
+      display: inline-block;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        padding: 0 0.5em;
+
+        a,
+        a:active,
+        a:visited {
+          color: white;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: darken(white, 10%);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* Base */
+main {
+  padding: 1em;
+
+  article {
+    padding: 1em;
+  }
+}
+
+/* Profile */
+main {
+  .profile-header {
+    padding: 0.25em 0.5em;
+  }
+
+  .profile-body {
+    padding: 0.25em 0.5em;
+  }
+}
