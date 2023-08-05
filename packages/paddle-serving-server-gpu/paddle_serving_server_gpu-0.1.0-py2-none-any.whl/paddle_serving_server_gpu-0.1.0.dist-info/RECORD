@@ -1,0 +1,9 @@
+paddle_serving_server_gpu/__init__.py,sha256=lHrKiUa2t4OErG3igeKGMS5mUUHtIn_86rAVmjqUMSc,10604
+paddle_serving_server_gpu/version.py,sha256=1hjw6-K6RpJ6q7ybc-P4JhESyPFM_Cuj43ZCEzux2DA,751
+paddle_serving_server_gpu/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paddle_serving_server_gpu/proto/general_model_config_pb2.py,sha256=rW_TqU8XIWAbb4nMSVygMXRQaua-N40V63mso3JcR8U,7909
+paddle_serving_server_gpu/proto/server_configure_pb2.py,sha256=wS1RfcdLQl1gTRd69mrNFmP_7VcRgscDRrNjTnILSf8,27681
+paddle_serving_server_gpu-0.1.0.dist-info/METADATA,sha256=-9MfkDLSMpVnDdyUvJSiA6TjnQb3iFaqN0dQOnwqxy0,1302
+paddle_serving_server_gpu-0.1.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+paddle_serving_server_gpu-0.1.0.dist-info/top_level.txt,sha256=YNO5IHY7e1XfW8vPPGfyXRXth2vN8Emym36yvHmW2Ks,26
+paddle_serving_server_gpu-0.1.0.dist-info/RECORD,,
