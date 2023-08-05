@@ -1,0 +1,14 @@
+boto3
+colorlog
+paho-mqtt
+psutilpyOpenSSL
+requests
+
+[:platform_system == "Darwin"]
+pync
+
+[:platform_system == "Windows"]
+pywin32
+
+[ring]
+ring-doorbell>=0.6.0
