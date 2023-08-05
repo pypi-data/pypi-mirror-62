@@ -1,0 +1,14 @@
+django_test_migrations/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_test_migrations/autonames.py,sha256=bv6h1HW2fXETYwszZcfT0jIkyf9ACgS6asq93TSHYF4,1777
+django_test_migrations/contrib/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_test_migrations/contrib/django_checks.py,sha256=wCn7UTEAkDZfozcKBDQyYXWIj_Pl3_y7S4PwsjxGE-U,1214
+django_test_migrations/contrib/pytest_plugin.py,sha256=7aOnxGjAV7y2Ld2QQx1PfrUB4xgWSi1xPEExhigdVC0,2124
+django_test_migrations/contrib/unittest_case.py,sha256=FMlXNcvE_FXBUP2AWyPmz_z1DOcfMAF7wfyPR1TPapQ,1694
+django_test_migrations/migrator.py,sha256=InOh_XavY2Vziqar_qNS4SUU0TQs6chKpMmFv0Gga7c,2399
+django_test_migrations/plan.py,sha256=GfswGi9rm6GjhF6gaytzOCUaIkp_N9tsGHH3AWhx9Wg,2387
+django_test_migrations/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_test_migrations-0.2.0.dist-info/entry_points.txt,sha256=KrnlfDeLt3LxvT8h2V264mtz4ifafsx4xcxsF3KzuMc,80
+django_test_migrations-0.2.0.dist-info/LICENSE,sha256=9VlZSbrT53SchTqz8SgGEU24WjRaqolA6WDUbAIUa6E,1072
+django_test_migrations-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+django_test_migrations-0.2.0.dist-info/METADATA,sha256=Pq8Nay2tLmJcwnJEnJPp1r2LLXd-pQA7Ax86XOlED4Y,10375
+django_test_migrations-0.2.0.dist-info/RECORD,,
