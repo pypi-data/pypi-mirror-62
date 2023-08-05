@@ -1,0 +1,5 @@
+dbnd==0.24.36
+dbnd-airflow==0.24.36
+dbnd-spark==0.24.36
+
+[tests]
