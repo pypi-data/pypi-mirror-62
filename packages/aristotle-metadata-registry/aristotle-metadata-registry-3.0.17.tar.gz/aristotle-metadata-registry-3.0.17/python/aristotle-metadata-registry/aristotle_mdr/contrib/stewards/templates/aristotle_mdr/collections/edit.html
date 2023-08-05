@@ -1,0 +1,24 @@
+{% extends "aristotle_mdr/stewards/base.html" %}
+{% load i18n bootstrap3 %}
+
+
+{% block title %}
+    {% if moving %}Move{% else %}Edit{% endif %} Collection {{ object.name }} | {{ stewardship_organisation }}
+{% endblock %}
+{% block page_title %}{{ stewardship_organisation }} | Edit Collection {{object.name}}{% endblock %}
+
+{% block steward_content %}
+    <h2>
+      {% if moving %}Moving{% else %}Editing{% endif %} Metadata Collection '{{object.name}}'
+    </h2>
+    <form action="" method="POST">
+        {% csrf_token %}
+        
+        {% include 'aristotle_mdr/helpers/fancy_table_form.html' with form=form only %}
+
+        <a class="btn btn-default" href="{{object.get_absolute_url}}">Back</a>
+        <button type="Submit" class="btn btn-primary">
+          {% if moving %}Move{% else %}Save{% endif %} Collection
+        </button>
+    </form>
+{% endblock %}
