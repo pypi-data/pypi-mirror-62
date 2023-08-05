@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+matplotlibaux/__init__.py
+matplotlibaux/matplotlibaux.py
+matplotlibaux.egg-info/PKG-INFO
+matplotlibaux.egg-info/SOURCES.txt
+matplotlibaux.egg-info/dependency_links.txt
+matplotlibaux.egg-info/top_level.txt

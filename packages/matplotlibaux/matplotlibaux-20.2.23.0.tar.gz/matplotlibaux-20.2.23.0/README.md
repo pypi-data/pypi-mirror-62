@@ -1,0 +1,2 @@
+# matplotlibaux
+Matplotlib auxiliary functions
