@@ -1,0 +1,10 @@
+README.md
+setup.py
+paga_connect_client/__init__.py
+paga_connect_client/apibase.py
+paga_connect_client/paga_connect_client_core.py
+paga_connect_client/version.py
+pagaconnect.egg-info/PKG-INFO
+pagaconnect.egg-info/SOURCES.txt
+pagaconnect.egg-info/dependency_links.txt
+pagaconnect.egg-info/top_level.txt
