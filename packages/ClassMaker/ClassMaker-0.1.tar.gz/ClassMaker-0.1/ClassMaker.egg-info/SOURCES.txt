@@ -1,0 +1,7 @@
+README.md
+setup.py
+ClassMaker/__init__.py
+ClassMaker.egg-info/PKG-INFO
+ClassMaker.egg-info/SOURCES.txt
+ClassMaker.egg-info/dependency_links.txt
+ClassMaker.egg-info/top_level.txt
