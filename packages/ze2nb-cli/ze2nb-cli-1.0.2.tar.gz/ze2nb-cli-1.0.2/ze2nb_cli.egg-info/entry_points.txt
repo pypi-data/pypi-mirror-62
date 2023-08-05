@@ -1,0 +1,3 @@
+[console_scripts]
+ze2nb = ze2nb_cli.cli:main
+
