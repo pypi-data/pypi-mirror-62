@@ -1,0 +1,10 @@
+README.md
+setup.py
+deepwto/__init__.py
+deepwto/constants.py
+deepwto/graphql.py
+deepwto.egg-info/PKG-INFO
+deepwto.egg-info/SOURCES.txt
+deepwto.egg-info/dependency_links.txt
+deepwto.egg-info/requires.txt
+deepwto.egg-info/top_level.txt
