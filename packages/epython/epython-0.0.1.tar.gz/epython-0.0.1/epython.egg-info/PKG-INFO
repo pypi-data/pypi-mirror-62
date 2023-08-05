@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: epython
+Version: 0.0.1
+Summary: A typed subset of Python to be used as an extension language
+Home-page: https://github.com/epython-dev/epython
+Author: Quansight Labs
+Author-email: labs@quansight.com
+License: BSD-3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
