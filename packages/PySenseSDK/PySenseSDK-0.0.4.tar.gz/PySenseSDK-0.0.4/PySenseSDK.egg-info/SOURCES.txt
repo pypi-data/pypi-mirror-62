@@ -1,0 +1,17 @@
+LICENSE
+readme.md
+setup.py
+PySenseSDK.egg-info/PKG-INFO
+PySenseSDK.egg-info/SOURCES.txt
+PySenseSDK.egg-info/dependency_links.txt
+PySenseSDK.egg-info/top_level.txt
+Source/PySense.py
+Source/PySenseAlert.py
+Source/PySenseDashboard.py
+Source/PySenseFolder.py
+Source/PySenseS3.py
+Source/PySenseUser.py
+Source/PySenseUtils.py
+Source/PySenseWidget.py
+Source/__init__.py
+test/TestMain.py
