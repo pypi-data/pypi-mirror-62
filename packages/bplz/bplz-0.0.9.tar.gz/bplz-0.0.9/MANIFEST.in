@@ -1,0 +1,2 @@
+include upload.sh
+include geckodriver.exe
