@@ -1,0 +1,16 @@
+flowws_analysis/Colormap.py,sha256=VlzpQFGBGEH2-WosOYtzrjMRFfqTSIQlK6wM_1zCaFk,1996
+flowws_analysis/GTAR.py,sha256=FM-uHOlOCyeIKzEDDNOti0QiBlBksBqsIR9qtqXhhnU,4371
+flowws_analysis/Garnett.py,sha256=jYXZSAK5OVjgW9LuIeOqjLllLNn5u1BkAfdZacFisMc,3088
+flowws_analysis/Plato.py,sha256=22s8KfJF7lUGE52BgQ0Q3LFw8aWIqJoKLqoJrA1nWTo,6327
+flowws_analysis/Pyriodic.py,sha256=WeggZ0bmJGC8YZHCWHprliTfl27p7tq9jAIT64XRK6Q,1633
+flowws_analysis/Save.py,sha256=RHCT_oZwuxRyejFhJFRj641im2YBzYlpJHAG9ZVt_G8,2924
+flowws_analysis/ViewNotebook.py,sha256=mF7E8W7wsbOADwbvkMJNFvz2UIoYPNtZG5febwLZFz0,8920
+flowws_analysis/ViewQt.py,sha256=1pVa17UytBtY8j_-i4F1TfIreEPT23kpC-zOc3C5jI4,16324
+flowws_analysis/__init__.py,sha256=jefj8JCdx1lSxEG9JFOPp1iQ9E9gY-3Rem8qaMO12Kc,518
+flowws_analysis/version.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+flowws_analysis-0.3.0.dist-info/LICENSE,sha256=s7_LdnzWCkeKLtpg3Awp8tHcOwGofNwjbsDR3ebH898,1060
+flowws_analysis-0.3.0.dist-info/METADATA,sha256=cahlzysX8IafaoHK7q47NMrxmAGBAvtdxJQlPfZZIaw,1833
+flowws_analysis-0.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+flowws_analysis-0.3.0.dist-info/entry_points.txt,sha256=OhV4U9Mpf2_iLjUoAV_J3s_SIKb4-KUyuXzc69Z2H_I,806
+flowws_analysis-0.3.0.dist-info/top_level.txt,sha256=n5p_i9Xn6HSoWvBVegf7urELc2BJjdydD5Y3Ry18ImE,16
+flowws_analysis-0.3.0.dist-info/RECORD,,
