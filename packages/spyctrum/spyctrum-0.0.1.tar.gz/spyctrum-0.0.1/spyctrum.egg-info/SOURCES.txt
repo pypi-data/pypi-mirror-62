@@ -1,0 +1,10 @@
+README.md
+setup.py
+./__init__.py
+spyctrum.egg-info/PKG-INFO
+spyctrum.egg-info/SOURCES.txt
+spyctrum.egg-info/dependency_links.txt
+spyctrum.egg-info/requires.txt
+spyctrum.egg-info/top_level.txt
+test/test_ffmpeg.py
+test/test_read.py

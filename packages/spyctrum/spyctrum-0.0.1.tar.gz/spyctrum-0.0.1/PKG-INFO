@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: spyctrum
+Version: 0.0.1
+Summary: Music spectrum analyser written in python
+Home-page: https://github.com/joshbarrass/spyctrum
+Author: WORD559
+Author-email: josh.barrass.work@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: spectrum analyser music
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
