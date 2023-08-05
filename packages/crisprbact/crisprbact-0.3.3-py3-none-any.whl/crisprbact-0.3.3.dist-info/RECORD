@@ -1,0 +1,11 @@
+crisprbact/__init__.py,sha256=zfHyKB7xCYVK0NSlET5YVqSkqy_Hmmw7RE0dRZDxovE,273
+crisprbact/cli.py,sha256=AEv38wFBCv3jLF32xc4q766XFmlriSNS0VQMqtxq9jQ,5421
+crisprbact/off_target.py,sha256=Nc0ULanJd2_DNf628uHP67atRghrh8frHpG0A_WQnnw,2216
+crisprbact/predict.py,sha256=o-B0gvpEQ0whHWWyLu4A9Y8-czyx3vrDTbeobSrOdDM,6268
+crisprbact/reg_coef.pkl,sha256=3KbhSgOx26Vp8N9PoB7F882M5PXCtW_a2LGt8dZNFsI,1254
+crisprbact/utils.py,sha256=jrvS8NDQw-6x4MXblSoeCv3As5O_Zy8XFkeN5jg2cV4,97
+crisprbact-0.3.3.dist-info/entry_points.txt,sha256=FNGzE_6vVRqd_6F5N7Pftnv9CmSMdTjUMO4pb-5yCFw,50
+crisprbact-0.3.3.dist-info/LICENSE,sha256=yAP1ym7-P_pczOlkqAGIw1mJraYiLrhhlGjx14Ds3xA,35077
+crisprbact-0.3.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+crisprbact-0.3.3.dist-info/METADATA,sha256=pnbxTh_mPErLhFoogbKn-3BANT0NEh8xlholZvEzCc4,8520
+crisprbact-0.3.3.dist-info/RECORD,,
