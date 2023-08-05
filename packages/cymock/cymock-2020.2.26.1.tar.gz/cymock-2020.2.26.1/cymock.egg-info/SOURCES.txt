@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+dev-requirements.txt
+mock.c
+setup.py
+cymock.egg-info/PKG-INFO
+cymock.egg-info/SOURCES.txt
+cymock.egg-info/dependency_links.txt
+cymock.egg-info/not-zip-safe
+cymock.egg-info/top_level.txt
