@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pybfms-generic-sram
+Version: 0.0.1.20200226.3
+Summary: pybfms_generic_sram provides bus functional models for the SRAM protocols
+Home-page: https://github.com/pybfms/generic_sram_bfms
+Author: Matthew Ballance
+Author-email: matt.ballance@gmail.com
+License: Apache 2.0
+Keywords: SystemVerilog,Verilog,RTL,CocoTB
+Platform: UNKNOWN
+
+UNKNOWN
+
+
