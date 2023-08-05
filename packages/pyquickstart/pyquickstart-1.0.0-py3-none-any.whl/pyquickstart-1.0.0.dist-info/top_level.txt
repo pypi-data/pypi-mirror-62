@@ -1,0 +1,2 @@
+pyquickstart
+template_standard
