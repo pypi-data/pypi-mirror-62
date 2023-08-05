@@ -1,0 +1,6 @@
+README.md
+setup.py
+imgvid_utils/imgvid_utils.egg-info/PKG-INFO
+imgvid_utils/imgvid_utils.egg-info/SOURCES.txt
+imgvid_utils/imgvid_utils.egg-info/dependency_links.txt
+imgvid_utils/imgvid_utils.egg-info/top_level.txt
