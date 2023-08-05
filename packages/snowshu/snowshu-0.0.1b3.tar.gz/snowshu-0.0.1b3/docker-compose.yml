@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  snowshu:
+    image: snowshu
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: tail -f /dev/null
+    networks:
+      - snowshu
+networks:
+  snowshu:
+    name: snowshu
+    driver: bridge
