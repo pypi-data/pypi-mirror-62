@@ -1,0 +1,4 @@
+appthreat-vulndb
+defusedxml
+tabulate
+PyYAML
