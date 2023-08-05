@@ -1,0 +1,9 @@
+odoo_backup/config.py,sha256=8zqHTdn7-V0-FfycumFFYHYnkHn9Bo7Xf-ED36ibmPY,266
+odoo_backup/main.py,sha256=LLqlWaupvU0Ms4ZnyFqOFukU901kC2UOOlKoOV-18WM,2164
+odoo_backup/models.py,sha256=N3-_4WIo6nxcKRIprFJhLgtfbJXvk_uEsxQ32-PRHXI,5211
+odoo_backup/server.py,sha256=YGAMomm26r4INeGI2C-x-I9rW1rvL7ix46PHIkWbXXE,673
+odoo_backup/utils.py,sha256=IYjijJR30Vr9CsJABfMajf-lj-1R6c91Uk9YyNeOFhE,219
+odoo_backup-0.2.2.dist-info/entry_points.txt,sha256=RH-U3p9CAHYjLwlLBM8V5Ily4Z40zpI2zNckWy0yQe4,52
+odoo_backup-0.2.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+odoo_backup-0.2.2.dist-info/METADATA,sha256=tViTIxPkJTbonywNa_ehdqehtzsnyOtPRx4UIsYJ4eQ,550
+odoo_backup-0.2.2.dist-info/RECORD,,
