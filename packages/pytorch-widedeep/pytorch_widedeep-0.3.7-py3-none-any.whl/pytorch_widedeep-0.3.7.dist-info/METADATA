@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pytorch-widedeep
+Version: 0.3.7
+Summary: Combine tabular data with text and images using Wide and Deep models in Pytorch
+Home-page: https://github.com/jrzaurin/pytorch-widedeep
+Author: Javier Rodriguez Zaurin
+Author-email: jrzaurin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Other Environment
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: pytest
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: gensim
+Requires-Dist: spacy
+Requires-Dist: opencv-contrib-python
+Requires-Dist: imutils
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: torchvision
+
+
+pytorch-widedeep: Modular and flexible package to combine tabular data with text and
+images using Wide and Deep models in Pytorch
+
+For an introduction to the package and a quick start, go to:
+
+    https://github.com/jrzaurin/pytorch-widedeep
+
+For a temporal documentation, go to:
+
+    https://github.com/jrzaurin/pytorch-widedeep/tree/master/docs
+
+You can find the source code at:
+
+    https://github.com/jrzaurin/pytorch-widedeep/tree/master/pytorch_widedeep
+
+
+
