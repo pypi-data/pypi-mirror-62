@@ -1,0 +1,6 @@
+pyyaml
+soxspipe
+fundamentals
+astropy
+pathlib
+ccdproc
