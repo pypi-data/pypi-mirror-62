@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simobility
+Version: 0.2.3
+Summary: Lightweight mobility simulation for quick algorithm prototyping
+Home-page: https://github.com/sash-ko/simobility
+Author: Oleksandr Lysenko
+Author-email: sashkolysenko@gmail.com
+License: MIT
+Download-URL: https://github.com/sash-ko/simobility/archive/v0.2.3.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.*
+Provides-Extra: dev
