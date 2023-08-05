@@ -1,0 +1,9 @@
+azureml-core
+python-dotenv
+nbformat
+papermill
+nbconvert
+junit_xml
+PyYAML
+pytest
+lightgbm==2.1.2
