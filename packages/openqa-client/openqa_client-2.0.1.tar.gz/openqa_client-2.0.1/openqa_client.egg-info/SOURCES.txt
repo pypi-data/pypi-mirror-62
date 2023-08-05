@@ -1,0 +1,15 @@
+.gitignore
+CHANGELOG.md
+COPYING
+README.md
+release.sh
+setup.py
+openqa_client/__init__.py
+openqa_client/client.py
+openqa_client/const.py
+openqa_client/exceptions.py
+openqa_client.egg-info/PKG-INFO
+openqa_client.egg-info/SOURCES.txt
+openqa_client.egg-info/dependency_links.txt
+openqa_client.egg-info/requires.txt
+openqa_client.egg-info/top_level.txt
