@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: esapy
+Version: 0.1.2
+Summary: A python implementation of esa.io API
+Home-page: https://github.com/KosukeMizuno/esapy
+License: MIT
+Author: Kosuke Mizuno
+Author-email: dotmapu@gmail.com
+Requires-Python: >=3.4,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: nbconvert
+Requires-Dist: pyyaml (>=5.1,<6.0)
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# esapy
+
+A python implementation of esa.io API
+
+The main purpose of this package is implementation of easy uploading and sharing jupyter notebook to esa.io service.
+
+
+
+## INSTALATION
+
+1. Install pandoc
+
+    ```shell
+    sudo apt install pandoc
+    ```
+    
+    This package call nbconvert internally.
+
+1. Install package
+
+    ```shell
+    pip install esapy
+    ```
+
+1. generate esa.io token with read/write permission.
+
+1. make configuration file in your home directory (~/.esapyrc).
+
+    ```YAML: ~/.esapyrc
+    token: your_token
+    team: your_team
+    ```
+
+    - You can set them as environment variables: ESA_PYTHON_TOKEN, ESA_PYTHON_TEAM.
+    - Environment variables are prior to .esapyrc file.
+    - You can check your token using `esa-token`. 
+
+
+
+## HOW TO USE
+
+1. Prepare .ipynb file
+
+1. Convert to markdown and upload images.
+
+    ```shell
+    esa-up target.ipynb
+    ```
+
+    This package (for now) will call nbconvert and upload images, and will not upload markdown file as new post.
+
+1. Post a new article by copy-and-paste the generated markdown file.
+
+
+
+
+
+
+
+## License
+Copyright (c) 2020 Kosuke Mizuno  
+This package is released under the MIT license (see LICENSE file).
+
