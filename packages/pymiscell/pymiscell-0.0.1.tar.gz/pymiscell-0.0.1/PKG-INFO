@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pymiscell
+Version: 0.0.1
+Summary: A package with miscellaneous, common use tools
+Home-page: https://github.com/rodrigo1392/pymiscell
+Author: Rodrigo Rivero
+Author-email: rodrigo.m.rivero13@gmail.com
+License: UNKNOWN
+Description: # Miscellaneous tools
+        
+        This package contains miscellaneous Python functions, intented to be included across more complex projects.
+        
+        # Installation
+        
+        Easisest way to install the package is calling:
+        
+        ```pip install pymiscell```
+        
+        Nevertheles, if you use a conda manager based environment, such as [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) distributions, then you should first install required dependencies, using conda installer:
+        
+        ```conda install --yes h5py IPython matplotlib numpy pandas pytest rpy2 scipy sympy tqdm```
+        
+        And then call pip to install the package. Doing so you don't risk mixing non-compatible dependencies.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

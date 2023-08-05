@@ -1,0 +1,17 @@
+README.md
+setup.py
+pymiscell/__init__.py
+pymiscell/databases_tools.py
+pymiscell/filesystem_tools.py
+pymiscell/internet_tools.py
+pymiscell/math_tools.py
+pymiscell/plot_tools.py
+pymiscell/statistics_tools.py
+pymiscell/strings_tools.py
+pymiscell/to_do.py
+pymiscell/try_r_python.py
+pymiscell.egg-info/PKG-INFO
+pymiscell.egg-info/SOURCES.txt
+pymiscell.egg-info/dependency_links.txt
+pymiscell.egg-info/requires.txt
+pymiscell.egg-info/top_level.txt
