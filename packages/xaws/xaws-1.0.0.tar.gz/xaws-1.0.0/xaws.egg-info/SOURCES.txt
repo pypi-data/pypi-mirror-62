@@ -1,0 +1,12 @@
+MANIFEST.in
+VERSION
+setup.py
+xaws/__init__.py
+xaws/command.py
+xaws/kms.py
+xaws.egg-info/PKG-INFO
+xaws.egg-info/SOURCES.txt
+xaws.egg-info/dependency_links.txt
+xaws.egg-info/entry_points.txt
+xaws.egg-info/requires.txt
+xaws.egg-info/top_level.txt
