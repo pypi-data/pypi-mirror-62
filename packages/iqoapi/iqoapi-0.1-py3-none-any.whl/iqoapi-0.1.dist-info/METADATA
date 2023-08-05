@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: iqoapi
+Version: 0.1
+Summary: Connect with Iqoption and trade automatically.
+Home-page: UNKNOWN
+Author: jaffer wilson
+Author-email: jafferwilson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.4
+Requires-Dist: pylint
+Requires-Dist: requests
+Requires-Dist: websocket-client (==0.56)
+
+Thanks to Lu and Alex, I present to you the Iqoption Api.
+
+
