@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/readings.py
+src/FitHome_readings.egg-info/PKG-INFO
+src/FitHome_readings.egg-info/SOURCES.txt
+src/FitHome_readings.egg-info/dependency_links.txt
+src/FitHome_readings.egg-info/requires.txt
+src/FitHome_readings.egg-info/top_level.txt

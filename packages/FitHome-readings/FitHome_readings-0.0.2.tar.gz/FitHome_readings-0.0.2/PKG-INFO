@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: FitHome_readings
+Version: 0.0.2
+Summary: Get active power readings from the mongo db and put into a pandas DataFrame.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Readings
+        This package is part of the FitHome system.  It is described in more detail [on its FitHome wiki page](https://github.com/BitKnitting/FitHome/wiki/reading).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
