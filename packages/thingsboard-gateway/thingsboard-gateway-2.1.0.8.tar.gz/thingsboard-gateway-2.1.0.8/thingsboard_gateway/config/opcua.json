@@ -1,0 +1,47 @@
+{
+  "name": "OPCUA",
+  "server": {
+    "identity": {
+      "type": "anonymous"
+    },
+    "mapping": [
+      {
+        "attributes": [
+          {
+            "key": "HeaterStatus",
+            "path": "${HeaterStatus}"
+          }
+        ],
+        "attributes_updates": [
+          {
+            "attributeOnDevice": "HeaterStatus",
+            "attributeOnThingsBoard": "HeaterStatus1"
+          }
+        ],
+        "deviceNamePattern": "Device ${Root\\.Objects\\.Demo\\.BoilerDemo\\.Boiler\\d+\\.HeaterStatus}",
+        "deviceNodePattern": "Root\\.Objects\\.Demo\\.BoilerDemo\\.Boiler\\d+",
+        "rpc_methods": [
+          {
+            "arguments": [
+              2,
+              4
+            ],
+            "method": "multiply"
+          }
+        ],
+        "timeseries": [
+          {
+            "key": "Temperature",
+            "path": "${TemperatureSensor\\.Temperature}"
+          }
+        ]
+      }
+    ],
+    "name": "OPC-UA Default Server",
+    "scanPeriodInMillis": 10000,
+    "security": "Basic128Rsa15",
+    "showMap": false,
+    "timeoutInMillis": 5000,
+    "url": "opc.tcp://127.0.0.1:4840"
+  }
+}
