@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: PttSpider
+Version: 0.1.8
+Summary: fetch ptt data
+Home-page: https://github.com/goodboyjj/PttSpider
+Author: W
+Author-email: wang655370@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: ptt
+Platform: UNKNOWN
+Requires-Python: >=3.6

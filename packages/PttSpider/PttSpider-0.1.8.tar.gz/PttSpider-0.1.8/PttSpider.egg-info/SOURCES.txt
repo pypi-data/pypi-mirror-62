@@ -1,0 +1,10 @@
+README.md
+setup.py
+PttSpider/PttSpider.py
+PttSpider/__init__.py
+PttSpider/main.py
+PttSpider.egg-info/PKG-INFO
+PttSpider.egg-info/SOURCES.txt
+PttSpider.egg-info/dependency_links.txt
+PttSpider.egg-info/requires.txt
+PttSpider.egg-info/top_level.txt
