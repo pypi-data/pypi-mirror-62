@@ -1,0 +1,8 @@
+typed-ast
+sh
+parso
+click
+loguru
+
+[dev]
+pytest>=3
