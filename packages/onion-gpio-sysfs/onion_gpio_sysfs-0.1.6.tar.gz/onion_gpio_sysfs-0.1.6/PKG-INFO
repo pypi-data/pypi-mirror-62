@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: onion_gpio_sysfs
+Version: 0.1.6
+Summary: Libraries to control GPIOs using the sysfs interface
+Home-page: https://github.com/grizmin/onion-gpio-sysfs
+Author: Grizmin
+Author-email: grizmin@gmail.com
+License: UNKNOWN
+Description: # gpio-sysfs
+        Libraries to control GPIOs using the sysfs interface
+        
+        ## Compatibility
+        
+        Now comptatible with all versions of Python !
+        
+        ## Install
+        
+        pip install onion-gpio-sysfs
+        
+        ## Usage
+        
+                import onionGpio
+        
+                # instantiate a GPIO object
+                gpio0 = onionGpio.OnionGpio(0)
+                # set to output direction with zero (LOW) being the default value
+                gpio0.setOutputDirection(0)
+                # get the vaule
+                gpio0.getValue()
+        
+        For further examples look at python/examples/ folder.
+        
+        ## Author
+        Written by https://github.com/greenbreakfast
+        
+        Python3 code adaptation by https://github.com/jdupl
+        
+        PyPi package by https://github.com/grizmin
+        
+Keywords: onion omega IoT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
