@@ -1,0 +1,7 @@
+README.md
+setup.py
+aconsole_pkg_minad.egg-info/PKG-INFO
+aconsole_pkg_minad.egg-info/SOURCES.txt
+aconsole_pkg_minad.egg-info/dependency_links.txt
+aconsole_pkg_minad.egg-info/top_level.txt
+anconsole-pkg/__init__.py
