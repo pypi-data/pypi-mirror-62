@@ -1,0 +1,4 @@
+PyYAML
+ansible
+digdeo-syspass-client
+six
