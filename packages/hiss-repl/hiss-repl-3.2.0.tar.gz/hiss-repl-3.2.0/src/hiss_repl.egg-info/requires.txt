@@ -1,0 +1,14 @@
+click!=7.0,>=6.7
+cached_property
+configparser
+ipdb
+pygments
+traitlets
+
+[:python_version<'3']
+IPython<6
+pathlib2
+typing
+
+[:python_version>='3']
+IPython>=6.5.0
