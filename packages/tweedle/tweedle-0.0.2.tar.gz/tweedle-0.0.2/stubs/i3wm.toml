@@ -1,0 +1,13 @@
+name = "i3wm"
+
+[config]
+comment = "$man i3"
+
+habitual_path = "~/.config/i3/config"
+
+lookup_paths = [
+  "~/.config/i3/config",
+  "~/.i3/config",
+  "/etc/xdg/i3/config",
+  "/etc/i3/config",
+]

@@ -1,0 +1,10 @@
+name = "git"
+
+[config]
+comment = "$git config --global -e"
+
+habitual_path = "~/.gitconfig"
+
+lookup_paths = [
+  "~/.gitconfig",
+]

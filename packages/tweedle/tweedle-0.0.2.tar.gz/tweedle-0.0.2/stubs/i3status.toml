@@ -1,0 +1,15 @@
+name = "i3status"
+
+[config]
+comment = "$man i3status"
+
+habitual_path = "~/.config/i3status/config"
+
+lookup_paths = [
+  "$XDG_CONFIG_HOME/i3status/config",
+  "~/.config/i3status/config",
+  "$XDG_CONFIG_DIRS/i3status/config",
+  "/etc/xdg/i3status/config",
+  "~/.i3status.conf",
+  "/etc/i3status.conf",
+]
