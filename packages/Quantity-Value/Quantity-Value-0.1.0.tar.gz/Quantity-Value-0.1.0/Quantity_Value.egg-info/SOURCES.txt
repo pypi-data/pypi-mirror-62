@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+QV/__init__.py
+QV/context.py
+QV/dimension.py
+QV/kind_of_quantity.py
+QV/prefix.py
+QV/quantity_value.py
+QV/scale.py
+QV/unit_register.py
+QV/units_dict.py
+Quantity_Value.egg-info/PKG-INFO
+Quantity_Value.egg-info/SOURCES.txt
+Quantity_Value.egg-info/dependency_links.txt
+Quantity_Value.egg-info/requires.txt
+Quantity_Value.egg-info/top_level.txt
