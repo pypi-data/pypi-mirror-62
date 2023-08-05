@@ -1,0 +1,27 @@
+Changelog
+=========
+
+1.0.5
+-----
+ - simple version switch to avoid mismatch in Buildout configuration file...  :(
+
+1.0.4
+-----
+ - code cleanup
+
+1.0.3
+-----
+ - handle ConnectionStateError in JWT authentication plug-in
+ - updated doctests
+
+1.0.2
+-----
+ - added support for HS512 and RS512 JWT encryption protocols
+
+1.0.1
+-----
+ - updated imports in include file for tests integration
+
+1.0.0
+-----
+ - initial release
