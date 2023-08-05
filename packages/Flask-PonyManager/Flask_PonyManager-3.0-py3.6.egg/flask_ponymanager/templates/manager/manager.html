@@ -1,0 +1,17 @@
+{% extends 'manager/base.html' %}
+
+{% block content %}
+<article>
+    <ul class="list-group w-25">
+        {% for name, view in manager.views.items() %}
+        {% if 'awesome_style' not in name.lower() %}
+        <li class="list-group-item{% if 'manager' in name.lower() %} active{% endif %}">
+            <a class="{% if 'manager' in name.lower() %}text-light{% endif %}" href="{{ url_for(view.endpoint) }}">
+                {{ name }}
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</article>
+{% endblock %}
