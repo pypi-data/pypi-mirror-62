@@ -1,0 +1,5 @@
+#!python
+import nmslib_viz
+
+
+print(nmslib_viz.view())
