@@ -1,0 +1,17 @@
+main.py,sha256=Xtnw7sf7PzlPX3FqeUVmzWRur4LHrHZ4Z2MyZeWOEsg,10121
+pyterrier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyterrier/batchretrieve.py,sha256=cTXB1cEa71XARazFhsAld6dvXsdvMOYxemT-e2zb3_g,4727
+pyterrier/coursework.py,sha256=hX26lP9PBfzBWfVb3fykbnA0eHRj3PRDE2F1MCY-FSs,2817
+pyterrier/coursework2.py,sha256=V0Ul5qRszoHWDNeeuqLS4bGK-2Cl3vEy6GgRh2Vhon0,678
+pyterrier/coursework3.py,sha256=Y6XAU1gPuiFfZwi6mTuA9YwHV9fnDx506le0yxXAtrA,3723
+pyterrier/coursework4.py,sha256=lP_74x4_MNyG-CL_hsL84s4r-pK_yqe5hbCZUvnUOSg,1496
+pyterrier/featuresBatchRetrieve.py,sha256=V2CrpSCMflbMPa9Ua0chHInKFygmmsHAajp9ZSeow0I,360
+pyterrier/index.py,sha256=wJ0IjWWt8pcZymlhHcXieV9LmxgXs1gh2MZexj18TvM,4591
+pyterrier/old pyterrier.py,sha256=8Ve7YPW0nUsJeTA9T_fK3NIHnzkdw2LdL-jja8Sla_k,3113
+pyterrier/pyterrier.py,sha256=Jji6nvbt3pUdOGjdwibvHzmC_W8oOPmazbUjgB6GkQY,3854
+pyterrier/setup.py,sha256=cEfLaR2OtYd84j8DxGwlLFOWqW-CahKDFLX9lBM9wro,907
+pyterrier/utils.py,sha256=cSgSl11gDcY3U9HOm5MHbcMcR-O11swLnzlYOGt2aGs,3941
+python_terrier-0.1.0.dist-info/METADATA,sha256=wN0gcz0HfFHsqHd2D7MAzM_OSr3GYOw96AbHCa14OPw,1678
+python_terrier-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+python_terrier-0.1.0.dist-info/top_level.txt,sha256=QvmevuUbQ1rkWOkxUPXZqB_md6_Dy8sY-bjZ8YpKgIs,10
+python_terrier-0.1.0.dist-info/RECORD,,
