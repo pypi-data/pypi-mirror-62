@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+program/__init__.py
+program/main.py
+symmetric/__init__.py
+symmetric/app.py
+symmetric/helpers.py
+symmetric.egg-info/PKG-INFO
+symmetric.egg-info/SOURCES.txt
+symmetric.egg-info/dependency_links.txt
+symmetric.egg-info/requires.txt
+symmetric.egg-info/top_level.txt
