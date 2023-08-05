@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rsfsup
+Version: 0.1.1
+Summary: Communication with Rohde&Schwarz FSUP Signal Source Analyzer
+Home-page: https://github.com/l-johnston/rsfsup
+Author: Lee Johnston
+Author-email: lee.johnston.100@gmail.com
+License: MIT
+Description: # `rsfsup`
+        Python interface to the Rohde & Schwarz FSUP Signal Source Analyzer
+        
+        ## Installation
+        ```linux
+        $ pip install rsfsup
+        ```  
+        
+        ## Usage
+        
+        ```python
+        >>> from rsfsup import CommChannel
+        >>> with CommChannel("<ip address>") as fsup:
+        ...     spectrum = fsup.read()
+        >>> import matplotlib.pyplot as plt
+        >>> plt.plot(*spectrum)
+        [<matplotlib.lines.Line2D at ...>]
+        >>> plt.show()
+        ```  
+        
+        ## Documentation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
