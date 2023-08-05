@@ -1,0 +1,9 @@
+README.md
+setup.py
+dandanlemuria/__init__.py
+dandanlemuria/abbrev.py
+dandanlemuria/trans.py
+dandanlemuria.egg-info/PKG-INFO
+dandanlemuria.egg-info/SOURCES.txt
+dandanlemuria.egg-info/dependency_links.txt
+dandanlemuria.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: dandanlemuria
+Version: 0.0.1
+Summary: A toolkit for natural language processing
+Home-page: https://github.com/LemuriaChen/dandanlemuria
+Author: dandanlemuria
+Author-email: 18110980003@fudan.edu.cn
+License: MIT
+Description: 
+        自然语言处理小工具
+        
+Keywords: NLP,toolkit
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
