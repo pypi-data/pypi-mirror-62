@@ -1,0 +1,16 @@
+nbd_colab/__init__.py,sha256=vGb5bWRnqikdeGjmhzb9R8htmRhc2CloD1a9bB7Ttvo,43
+nbd_colab/_nbdev.py,sha256=vAINKvLrwM92B6C-Pk5Y7gots9-j8zPaLkdoqjNukCw,649
+nbd_colab/cltemplate.py,sha256=qi_AHbO4-3BN1Fc-DVtJlvAx_94GNPNL7tsuRs-TOZ4,107
+nbd_colab/core.py,sha256=BBtzcp0zav8MoW6oJBNcOPQ_x9gQ8x8Y8RQcN0X5P8M,4953
+nbd_colab/dstemplate.py,sha256=2FxrlfkqJqIWeaCVhnNM1oPjyIIcLFsQ985YfctksYo,107
+nbd_colab/gpu.py,sha256=wnDY20eEyeJ835We7HWgeKMNgnMJbBMMicHQSLZcy1Y,2743
+nbd_colab/nbtemplate.py,sha256=widBORJdRRWjz6z5eAOOxvvAJ3F-qXnJzXXIOkjVtVs,107
+nbd_colab/troubleshooting.py,sha256=uXyhV_hOkUbYJa_cal1PlHxAEGo3TJ2zUjSvDG-3NjY,112
+nbd_colab/tutorial.py,sha256=biRI7Zom65D6ECrfLNAA31Q8iXxRzmKFzmYRMUIC0nA,105
+nbd_colab/utils.py,sha256=IPAkb4PD2IaicV-CUM_QRxrcj0d1RJ9rMeT_qp-2ECU,408
+nbd_colab-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbd_colab-0.0.10.dist-info/METADATA,sha256=P91rBYndGDU600ycSApnB7IDI3gGKsIERJ5UTssWXps,13217
+nbd_colab-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nbd_colab-0.0.10.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+nbd_colab-0.0.10.dist-info/top_level.txt,sha256=GKXfhEjh7aKSRFwAWxxMFU8RANbJ4jL9RTepyz3oCf4,10
+nbd_colab-0.0.10.dist-info/RECORD,,
