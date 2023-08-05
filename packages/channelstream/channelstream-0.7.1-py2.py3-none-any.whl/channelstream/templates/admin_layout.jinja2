@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Channelstream Admin</title>
+    <base href="{{ request.route_url('index')[:-1] }}"/>
+
+    <script>
+        var AppConf = {
+            urls: {
+                baseUrl: '{{ request.route_url('index')[:-1] }}',
+                jsonUrl: '{{ request.route_url('admin_json') }}'
+            }
+        }
+
+        window.process = {
+            env: {
+                NODE_ENV: 'production'
+            }
+        };
+
+    </script>
+    <script type="module">
+        import '{{ request.static_url('channelstream:static/channelstream-admin.js') }}';
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+</head>
+<body>
+
+{% block body %}
+{% endblock %}
+
+</body>
+</html>
