@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aogl
+Version: 0.1
+Summary: A python package to retrieve the latest 10 blog posts from https://ao.gl
+Home-page: https://github.com/ao/aogl_pip
+Author: Andrew Odendaal
+Author-email: andrew@ao.gl
+License: UNKNOWN
+Description: A python package to retrieve the latest 10 blog posts from https://ao.gl
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

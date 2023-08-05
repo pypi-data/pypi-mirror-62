@@ -1,0 +1,10 @@
+README.md
+setup.py
+aogl/__init__.py
+aogl/__main__.py
+aogl/aogl.py
+aogl.egg-info/PKG-INFO
+aogl.egg-info/SOURCES.txt
+aogl.egg-info/dependency_links.txt
+aogl.egg-info/entry_points.txt
+aogl.egg-info/top_level.txt
