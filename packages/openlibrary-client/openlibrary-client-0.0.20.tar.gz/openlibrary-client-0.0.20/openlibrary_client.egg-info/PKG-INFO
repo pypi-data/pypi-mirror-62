@@ -1,0 +1,138 @@
+Metadata-Version: 1.1
+Name: openlibrary-client
+Version: 0.0.20
+Summary: A python client for Open Library
+Home-page: https://github.com/internetarchive/openlibrary-client
+Author: Internet Archive
+Author-email: mek@archive.org
+License: LICENSE
+Description: openlibrary-client
+        ==================
+        
+        A reference client library for the Open Library API. Tested with Python
+        2.7, 3.5, 3.6.
+        
+        -  `Installation`_
+        -  `Configuration`_
+        -  `Usage`_
+        -  `Testing`_
+        -  `Other Client Libraries`_
+        
+        Installation
+        ------------
+        
+        If you plan on doing MARC parsing, you’ll need ``yaz`` (see:
+        https://github.com/indexdata/yaz). Assuming Ubuntu/debian, you can
+        install ``yaz`` via apt:
+        
+        ::
+        
+           $ sudo apt install yaz
+        
+        For Fedora/RHEL, use the following command to install ``yaz``
+        
+        ::
+        
+           $ sudo dnf install yaz
+        
+        You’ll also need python dev tools:
+        
+        ::
+        
+           $ sudo apt install python-dev   # for python 2
+           $ sudo apt install python3-dev  # for python 3
+        
+        For Fedora/RHEL, use:
+        
+        ::
+        
+           $ sudo dnf install python2-devel  # for python2.x installs
+           $ sudo dnf install python3-devel  # for python3.x installs
+        
+        To install the openlibrary-client package:
+        
+        ::
+        
+           $ git clone https://github.com/internetarchive/openlibrary-client.git
+           $ cd openlibrary-client
+           $ pip install .
+        
+        Configuration
+        -------------
+        
+        Many Open Library actions (like creating Works and Editions) require
+        authentication, i.e. certain requests must be provided a valid cookie of
+        a user which has been logged in with their openlibrary account
+        credentials. The openlibrary-client can be configured to “remember you”
+        so you don’t have to provide credentials with each request.
+        
+        First time users may run the following command to enable the “remember
+        me” feature. This process will ask for an **Archive.org email and
+        password**, will authenticate the credentials, and then store the
+        account’s corresponding s3 keys in ``~/.config/ol.ini`` (or whichever
+        config location the user has specified):
+        
+        ::
+        
+           $ ol --configure --email mek@archive.org
+           password: ***********
+           Successfully configured
+        
+        Usage
+        -----
+        
+        Python Library
+        ~~~~~~~~~~~~~~
+        
+        For more examples, you can take a look at our `examples directory`_ on
+        Python Scripts for specific use cases that are needed.
+        
+        Adding a new Book
+        ^^^^^^^^^^^^^^^^^
+        
+        Fun things you can do to add a new book to Open Library
+        
+        .. code:: python
+        
+           >>> from olclient.openlibrary import OpenLibrary
+           >>> import olclient.common as common
+           >>> ol = OpenLibrary()
+           >>> book = common.Book(title=u"Warlight: A novel", authors=[common.Author(name=u"Michael Ondaatje")], publisher=u"Deckle Edge", publish_date=u"2018")
+           >>> book.add_id(u'isbn_10', u'0525521194')
+           >>> book.add_id(u'isbn_13', u'978-0525521198')
+           >>> new_book = ol.create_book(book)
+           >>> new_book.add_bookcover('https://images-na.ssl-images-amazon.com/images/I/51kmM%2BvVRJL._SX337_BO1,204,203,200_.jpg')
+        
+        Works
+        ^^^^^
+        
+        Fun things you can do with an Work:
+        
+        .. code:: python
+        
+           >>> from olclient.openlibrary import OpenLibrary
+           >>> ol = OpenLibrary()
+           >>> work = ol.Work.get(u'OL12938932W')
+           >>> editions = work.editions
+        
+        One thing to consider in the snippet above is that work.editions is a
+        @property which makes several http requests to OpenLibr
+        
+        .. _Installation: #installation
+        .. _Configuration: #configuration
+        .. _Usage: #usage
+        .. _Testing: #testing
+        .. _Other Client Libraries: #other-client-libraries
+        .. _examples directory: examples/scripts
+        
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
