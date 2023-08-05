@@ -1,0 +1,7 @@
+[console_scripts]
+combine.py = handbook.combine:main
+comm.py = handbook.comm:main
+genotype.py = handbook.genotype:main
+reformat.py = handbook.reformat:main
+search_taxa.py = handbook.search_taxa:main
+
