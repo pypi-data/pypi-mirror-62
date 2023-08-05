@@ -1,0 +1,11 @@
+README.md
+pymyransom.py
+ransomware_test.py
+setup.cfg
+setup.py
+pymyransom.egg-info/PKG-INFO
+pymyransom.egg-info/SOURCES.txt
+pymyransom.egg-info/dependency_links.txt
+pymyransom.egg-info/not-zip-safe
+pymyransom.egg-info/requires.txt
+pymyransom.egg-info/top_level.txt
