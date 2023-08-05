@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: serverless-event-mocks
+Version: 0.0.4
+Summary: A small Python library that includes details mocks of AWS Lambda event sources.
+Home-page: https://github.com/abirhoss/serverless-event-mocks
+Author: Abir Hossain
+Author-email: abirz.pro@gmail.com
+License: MIT
+Download-URL: https://github.com/abirhoss/serverless-event-mocks/archive/v0.0.4.tar.gz
+Description: # Event Mocks Python
+        A small Python library that includes detail mocks of Serverless function events. Useful when unit testing your Serverless functions.
+        
+        Supported Providers and Event Types:
+        - [x] AWS: `aws`
+            - [x] API Gateway: `api-gateway`
+        
+        This library simply uses default event source mock templates and merges them with any overwrite you provide. [Check out the JSON template files](serverless_event_mocks/event_templates/aws) to learn more about the data structure of each event source.
+        
+        ---
+        
+        ## Quick Start
+        
+        Install Event Mocks Python using:
+        
+        ```bash
+        pip install git+ssh://git@github.com:Abir-H/serverless-event-mocks.git
+        ```
+        
+        Import and use the `create_event` function into any Python code using
+        
+        ```python
+        from serverless_event_mocks.event import create_event
+        
+        provider = 'aws'
+        event_type = 'api_gateway'
+        event_payload = {
+            "body" : {
+                "first_name": "Sam",
+                "last_name": "Smith"
+            }
+        }
+        
+        event = create_event(provider, event_type, event_payload)
+        ```
+        
+        ---
+        
+        ## Run Tests and Linter
+        
+        ```bash
+        # Run unit tests
+        make test
+        
+        # Run Flake8 linter
+        make lint
+        ```
+Keywords: serverless,serverless-framework,unittest,mock,events,aws-lambda
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
