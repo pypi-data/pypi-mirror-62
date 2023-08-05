@@ -1,0 +1,22 @@
+0.0.4
+-----
+
+* Default images to packed (packed arg now takes a bool)
+* Fix bug in sprite payload size (thanks @Daft-Freak)
+
+0.0.3
+-----
+
+* Fix packaging mishap so tool actually works
+
+0.0.2
+-----
+
+* Real initial release
+* Pack, cmake and asset commands working
+* Very beta!
+
+0.0.1
+-----
+
+* Initial Release
