@@ -1,0 +1,10 @@
+cscribe/README.md,sha256=eSxYlZt07cR40E_sJW9VXVB7EMSCSD8KpmncLJpyNXs,867
+cscribe/__init__.py,sha256=yzfIgCUcI6-73TLojK7_G43n5BNLNODPeqKhHYjoQ8k,140
+cscribe/conversion.py,sha256=kAnLsVllBgTkt9ydGlVaMr8SvEx51obT2YGZ5ZhVH7Q,2594
+cscribe/mbtr.py,sha256=F4Apa7Fbn5H9j8qzZjPfQviztIDtOfqPXIdhqcGJYeY,7515
+cscribe/sf.py,sha256=RrwmIbhWr4ZShL41Lz56xk8X8pT-YwDAiVWQymz3_is,4597
+cscribe/soap.py,sha256=dovmYIzssTrQ8BOr6R2t3FAKfKQ5bZKo2EphnaJGYek,2288
+cscribe-0.3.1.dist-info/LICENSE,sha256=Al2rTKXiDryzHEgsr1cmm2HEw3OWcQNwJEVFfzvTgUc,1070
+cscribe-0.3.1.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+cscribe-0.3.1.dist-info/METADATA,sha256=qghvO3I4IDhyRZk5whoK3OTf3OhDxE-WfsPxRfxJ8Ls,2060
+cscribe-0.3.1.dist-info/RECORD,,
