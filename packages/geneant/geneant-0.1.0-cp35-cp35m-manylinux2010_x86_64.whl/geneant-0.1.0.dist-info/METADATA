@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: geneant
+Version: 0.1.0
+Summary: align dna.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache License, Version 2.0
+Keywords: align dna
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+
+
+geneant is a library for align dna sequences.
+
+
