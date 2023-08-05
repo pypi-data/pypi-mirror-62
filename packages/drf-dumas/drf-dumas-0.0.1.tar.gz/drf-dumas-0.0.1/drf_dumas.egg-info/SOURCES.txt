@@ -1,0 +1,8 @@
+README.md
+setup.py
+drf_dumas.egg-info/PKG-INFO
+drf_dumas.egg-info/SOURCES.txt
+drf_dumas.egg-info/dependency_links.txt
+drf_dumas.egg-info/top_level.txt
+dumas/__init__.py
+dumas/serializers.py
