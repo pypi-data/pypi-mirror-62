@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if ! type "openapi-generator" > /dev/null; then
+    echo "Plase install 'openapi-generator' as specified here:"
+    echo "    https://github.com/OpenAPITools/openapi-generator"
+    echo "Using homebrew, you can install it as follows:"
+    echo "    brew cask install openapi-generator"
+    exit 1
+fi
+
+python ../openapi/openapi.py $@
