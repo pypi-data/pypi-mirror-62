@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: proust
+Version: 0.0.1
+Summary: A package for time series analysis
+Home-page: https://github.com/danielsuo/proust
+Author: Daniel Suo
+Author-email: danielsuo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: cython
+
+UNKNOWN
+
+
