@@ -1,0 +1,8 @@
+gan_pytorch/__init__.py,sha256=f3Kwcu6ME_rWdcMFw4u8AvoL0tX4ii08ID1UukzAGJs,769
+gan_pytorch/model.py,sha256=5Jeh2mXDl8gskTvQW4Iwg4F5IcoJs_sFrW4gGxtQ1Y4,5535
+gan_pytorch/utils.py,sha256=Ur-T7eu4FLfF2wtOX-A7wditp_Xt3YJwE3uWt1xM-is,3746
+gan_pytorch-0.2.1.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+gan_pytorch-0.2.1.dist-info/METADATA,sha256=SP9ULD_umL9Ge-LDX7BgwUApLY-MWNqtUfP96gVC3Ig,5286
+gan_pytorch-0.2.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+gan_pytorch-0.2.1.dist-info/top_level.txt,sha256=ClrXrs8xTWejFak5mvfkqssuw1WerCm1sCW41FMAFzM,12
+gan_pytorch-0.2.1.dist-info/RECORD,,
