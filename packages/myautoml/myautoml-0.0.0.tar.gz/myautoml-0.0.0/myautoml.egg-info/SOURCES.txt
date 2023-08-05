@@ -1,0 +1,9 @@
+README.md
+setup.py
+myautoml/__init__.py
+myautoml/version.py
+myautoml.egg-info/PKG-INFO
+myautoml.egg-info/SOURCES.txt
+myautoml.egg-info/dependency_links.txt
+myautoml.egg-info/requires.txt
+myautoml.egg-info/top_level.txt

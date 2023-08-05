@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: myautoml
+Version: 0.0.0
+Summary: My Auto ML - tools for running Data Science projects
+Home-page: https://github.com/erikjandevries/myautoml
+Author: Erik Jan de Vries
+Author-email: erikjandevries@users.noreply.github.com
+License: UNKNOWN
+Description: # myautoml
+        My Auto ML
+        
+        ## Getting started
+        ```python
+        import myautoml as maml
+        print(maml.__version__)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: evaluation
+Provides-Extra: optimisation
+Provides-Extra: tracking
+Provides-Extra: visualisation
+Provides-Extra: all
