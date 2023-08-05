@@ -1,0 +1,3 @@
+[console_scripts]
+color_matcher = color_matcher.bin.cli:main
+
