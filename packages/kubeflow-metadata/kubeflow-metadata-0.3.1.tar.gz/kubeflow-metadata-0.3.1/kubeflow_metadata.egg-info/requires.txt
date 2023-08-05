@@ -1,0 +1,2 @@
+ml-metadata==0.21.1
+retrying

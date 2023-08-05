@@ -1,0 +1,13 @@
+README.md
+setup.py
+kubeflow/__init__.py
+kubeflow/metadata/__init__.py
+kubeflow/metadata/metadata.py
+kubeflow_metadata.egg-info/PKG-INFO
+kubeflow_metadata.egg-info/SOURCES.txt
+kubeflow_metadata.egg-info/dependency_links.txt
+kubeflow_metadata.egg-info/requires.txt
+kubeflow_metadata.egg-info/top_level.txt
+tests/__init__.py
+tests/test_metadata.py
+tests/test_notebook.py
