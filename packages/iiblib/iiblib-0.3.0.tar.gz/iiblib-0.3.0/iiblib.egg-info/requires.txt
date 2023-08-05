@@ -1,0 +1,7 @@
+requests
+requests-gssapi
+gssapi
+six
+
+[reST]
+Sphinx
