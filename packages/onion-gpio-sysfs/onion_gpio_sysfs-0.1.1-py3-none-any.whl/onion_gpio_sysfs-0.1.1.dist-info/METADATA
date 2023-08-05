@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: onion-gpio-sysfs
+Version: 0.1.1
+Summary: Libraries to control GPIOs using the sysfs interface
+Home-page: https://github.com/grizmin/onion-gpio-sysfs
+Author: OnionIoT
+Author-email: grizmin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# gpio-sysfs
+Libraries to control GPIOs using the sysfs interface
+
+## Compatibility
+
+Now comptatible with all versions of Python !
+
+## Install
+
+<<<<<<< HEAD
+pip install onion_gpio_sysfs
+=======
+`sudo cp python/onionGpio.py /usr/lib/<PYTHON_VERSION>/onionGpio.py`
+>>>>>>> 8fb95f6... Update readme with instructions
+
+
