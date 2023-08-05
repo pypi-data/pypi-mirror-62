@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyi3
+Version: 0.1.0
+Summary: A type-hinted python module to communicate with i3.
+License: MIT
+Author: Tarcísio Eduardo Moreira Crocomo
+Author-email: tarcisioe@pm.me
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
