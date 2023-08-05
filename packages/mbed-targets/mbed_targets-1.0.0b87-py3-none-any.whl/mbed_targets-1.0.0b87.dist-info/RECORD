@@ -1,0 +1,11 @@
+mbed_targets/__init__.py,sha256=0MqsSg5JUpHRA3N0nMTp5hShvkdVHSW49_0Rp87ZEMk,1263
+mbed_targets/_version.py,sha256=_-6eX8EClDmMnesfsaVYuwE5fIgqRFkTVZDUUNKs09Q,301
+mbed_targets/mbed_targets.py,sha256=CX_wpPPb8bVBnB0qwxoPgFgGGEmhttGRu_TTT7tTrmk,6935
+mbed_targets/_internal/__init__.py,sha256=SPS81YT-KxXCJayD3TdOGO74inogWYE3IHkOrWMNWO8,56
+mbed_targets/_internal/target_database.py,sha256=WD6tV2K2TZ9w44PexdsqxCFNNEbgIVOcSF_E78Gn65A,3387
+mbed_targets/_internal/data/targets.json,sha256=PzlQE0LJAtvlyeDFX954RaDFUNE3-tm3NQANilsq0Dg,316419
+mbed_targets-1.0.0b87.dist-info/LICENSE,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+mbed_targets-1.0.0b87.dist-info/METADATA,sha256=HjDxzspKlAxN8MYUZjqw3TyyG9UEY3wBEOdm_C2yGz4,5501
+mbed_targets-1.0.0b87.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mbed_targets-1.0.0b87.dist-info/top_level.txt,sha256=yldPfHWdF49DlSh_fupKg8L0buUbMqDJiy3A0wQTeGI,13
+mbed_targets-1.0.0b87.dist-info/RECORD,,
