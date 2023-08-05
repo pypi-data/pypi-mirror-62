@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: meeshkan-hosted-db
+Version: 0.1
+Summary: Utility package to access a Cloud SQL database on meeshkan.io
+Home-page: https://github.com/meeshkan/meeshkan-hosted-db
+Author: Meeshkan Dev Team
+Author-email: dev@meeshkan.com
+License: MIT
+Description: 
+        # meeshkan-hosted-db
+        Utility python package to access a Cloud SQL database on meeshkan.io
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
