@@ -1,0 +1,8 @@
+README.md
+setup.py
+vinorm/__init__.py
+vinorm/vinorm.py
+vinorm.egg-info/PKG-INFO
+vinorm.egg-info/SOURCES.txt
+vinorm.egg-info/dependency_links.txt
+vinorm.egg-info/top_level.txt
