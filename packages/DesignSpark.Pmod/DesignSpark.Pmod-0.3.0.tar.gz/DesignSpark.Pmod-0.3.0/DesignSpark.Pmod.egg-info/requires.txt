@@ -1,0 +1,6 @@
+RPI.GPIO
+future
+luma.core
+luma.oled
+pyserial
+spidev
