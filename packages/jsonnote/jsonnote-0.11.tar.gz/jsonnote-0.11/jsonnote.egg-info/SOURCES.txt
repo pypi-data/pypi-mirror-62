@@ -1,0 +1,9 @@
+README.md
+setup.py
+jsonnote/__init__.py
+jsonnote.egg-info/PKG-INFO
+jsonnote.egg-info/SOURCES.txt
+jsonnote.egg-info/dependency_links.txt
+jsonnote.egg-info/top_level.txt
+jsonnote/src/__init__.py
+jsonnote/src/jsonnote.py
