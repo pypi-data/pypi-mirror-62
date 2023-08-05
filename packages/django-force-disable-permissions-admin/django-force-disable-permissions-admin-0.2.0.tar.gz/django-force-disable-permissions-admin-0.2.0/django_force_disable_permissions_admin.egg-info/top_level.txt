@@ -1,0 +1,4 @@
+django_force_disable_permissions_admin
+django_force_disable_permissions_admin_demo
+django_force_disable_permissions_admin_example
+force_disable_permissions
