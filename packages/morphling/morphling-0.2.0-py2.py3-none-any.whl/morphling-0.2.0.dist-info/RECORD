@@ -1,0 +1,10 @@
+morphling/__init__.py,sha256=Dr6Jb5KErmkO0smW5hkYd1XDqoyM99htSZAbWUgxKbE,1580
+morphling/copy.py,sha256=4dasM7OXrAQH_kUamucgEXcOVthMmCoqr0eMgK-1HOQ,6819
+morphling/input.py,sha256=fTu_08Ud1lT5MOmVoU8cjPt-8LNEtc_re2t4GQEX27U,468
+morphling/output.py,sha256=oLFec_OCs4uOobhz08grN6qSuRwzIiLohYNg2UZV5zc,557
+morphling/word.py,sha256=-30zvK_O9TxQ2Z5IoMqdYnmyBFYQA8GPuhkyOpiisSE,982
+morphling-0.2.0.dist-info/entry_points.txt,sha256=6Zop1xOCp7x8rvUkvEa_uKjII4-T47T_Ovfmt5eauko,46
+morphling-0.2.0.dist-info/LICENSE,sha256=IbMs7qbgcLb7310muXLA0tu6TM5a1huTW-OlNT6g0dk,1070
+morphling-0.2.0.dist-info/WHEEL,sha256=VCdoNBk3hWpF-6e5lKoFTDe2J_z3c2Yvza9_dZz7drc,99
+morphling-0.2.0.dist-info/METADATA,sha256=fpmVKHHDkZ_moKRYPqZObZH0Y_SHAWlWCqdmQCA92cY,574
+morphling-0.2.0.dist-info/RECORD,,
