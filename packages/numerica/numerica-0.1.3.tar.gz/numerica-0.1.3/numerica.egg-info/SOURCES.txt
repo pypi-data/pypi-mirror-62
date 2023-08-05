@@ -1,0 +1,15 @@
+README.md
+setup.py
+numerica/__init__.py
+numerica/__main__.py
+numerica.egg-info/PKG-INFO
+numerica.egg-info/SOURCES.txt
+numerica.egg-info/dependency_links.txt
+numerica.egg-info/not-zip-safe
+numerica.egg-info/top_level.txt
+numerica/nonlinear/__init__.py
+numerica/nonlinear/bisection.py
+numerica/nonlinear/graph.py
+numerica/nonlinear/regulafalsi.py
+numerica/utils/__init__.py
+numerica/utils/function.py
