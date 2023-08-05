@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: django-query-profiler
+Version: 0.2
+Summary: Django query profiler
+Home-page: https://github.com/django-query-profiler/django-query-profiler
+Author: Yash Maheshwari, Glynn Morrison
+Author-email: yash.maheshwari@gmail.com, glynn@zenefits.com, django.query.profiler@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Requires-Dist: setuptools
+Requires-Dist: django
+Requires-Dist: moz-sql-parser
+Requires-Dist: redis
+Requires-Dist: mmh3
+Requires-Dist: isort
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+======================
+Django Query Profiler
+======================
+
+.. image:: https://img.shields.io/pypi/l/django.svg
+   :target: https://raw.githubusercontent.com/django-query-profiler/django-query-profiler/master/LICENSE
+
+.. image:: https://travis-ci.com/django-query-profiler/django-query-profiler.svg?branch=master
+    :target: https://travis-ci.com/django-query-profiler/django-query-profiler
+
+.. image:: https://codecov.io/gh/django-query-profiler/django-query-profiler/branch/master/graph/badge.svg?token=1Cv7WsOi2W
+  :target: https://codecov.io/gh/django-query-profiler/django-query-profiler
+
+.. image:: https://readthedocs.org/projects/django-query-profiler/badge/?version=latest
+  :target: https://django-query-profiler.readthedocs.io/en/latest/index.html
+
+
+This project implements a query profiler for django projects. It tries to answer the question
+"My Django page or API is slow, How do I find out why?".  It highlights all code paths that make N+1 calls to the
+database, and also provide recommendation to developers on how N+1 can be fixed
+
+This image shows the profiler in action:
+
+.. image:: https://raw.githubusercontent.com/django-query-profiler/django-query-profiler/master/docs/_static/django_query_profiler_in_action.gif
+
+
+Getting Started
+===============
+
+The simplest way to getting started is to install the django query profiler from pip, and get the chrome plugin from
+chrome web store.
+The next step is to configure in your application by making changes to settings.py and urls.py file.
+
+Requirements
+============
+
+This works with any version of django >= 2.0, and running on python >= 3.6
+
+Documentation
+=============
+
+Full documentation is available at `readthedocs <https://django-query-profiler.readthedocs.io/en/latest/index.html>`_
+
+For contributors
+================
+
+The django query profiler is released under the BSD license, like Django itself.
+
+If you like it, please consider contributing!  How the code is organized, and how the profiler works is documented `here in readthedocs <https://django-query-profiler.readthedocs.io/en/latest/how_it_works.html>`_
+
+
