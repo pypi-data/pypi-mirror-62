@@ -1,0 +1,8 @@
+README.md
+setup.py
+VariableHolder/__init__.py
+VariableHolder/variableholder.py
+VariableHolder.egg-info/PKG-INFO
+VariableHolder.egg-info/SOURCES.txt
+VariableHolder.egg-info/dependency_links.txt
+VariableHolder.egg-info/top_level.txt
