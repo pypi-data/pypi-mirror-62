@@ -1,0 +1,17 @@
+aiobotocore/__init__.py,sha256=9wbQmzn8XaS40nSLbet-ZoPsFWUy-lk3yhLB11ZV8qs,109
+aiobotocore/_endpoint_helpers.py,sha256=WXrYJpj_Ce0kF2SK7FzZmeywbPC1zr4RM7BZvcBsdP4,3127
+aiobotocore/args.py,sha256=yKCzzwnCydN7Y55O5kS6zBinggEMjoljUlyl2U4P1M8,3157
+aiobotocore/client.py,sha256=PK_rM7zClulsJe-ITqsVDDWSxHVmY9S3F5MjI3hQUuE,8512
+aiobotocore/config.py,sha256=JoO9EJtBDV7PokmoJ-bKJFG2RWeJXFCK_kTZpcQFsyQ,2308
+aiobotocore/endpoint.py,sha256=7ICkct7teW27euCQdcQAnhCc8Zq6toA17UGZtO3feks,12804
+aiobotocore/eventstream.py,sha256=n1KLCpTdlcJtWtYRoy2UKL6zBh0MTxkQu9Emqx68YTw,724
+aiobotocore/paginate.py,sha256=ZLbgXej1hvDE1OV94Kqh8POVateq1ayP9J7SQbRLlp4,7354
+aiobotocore/parsers.py,sha256=Qv9zl73diArQkbaeGAiU6XQ0_rUV4Q6Z7MpoIYMjkRU,1857
+aiobotocore/response.py,sha256=80T4v-0DV5ba_pehd09-o1oJkJgAa7Lu8_aZljH9Wgs,3825
+aiobotocore/session.py,sha256=g3p8p1uGZ6zuLHxywvD4G-52RZLdrOgdU71PSxWTUtk,3787
+aiobotocore/waiter.py,sha256=TwOGMWwVlVKzyMo6g09WVh6qLT1_W1-kqtQPs1CLqqc,4372
+aiobotocore-0.12.0.dist-info/LICENSE,sha256=bk3419QmXyqqjDTbXPf_BIuqkgoWW6w8rCPxBFPR5j4,11516
+aiobotocore-0.12.0.dist-info/METADATA,sha256=X5LPBow6Ozni5Ll8WmLFgrzaLDvUDlEZoxbnUx7dhQo,11316
+aiobotocore-0.12.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiobotocore-0.12.0.dist-info/top_level.txt,sha256=T3M9xMgiH7ds2FkMWbkut4LzgZx48MrZw8xmntgzGu0,12
+aiobotocore-0.12.0.dist-info/RECORD,,
