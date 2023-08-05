@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: isdc-client
+Version: 1.3.0
+Summary: UNKNOWN
+Home-page: http://odahub.io
+Author: V.S.
+Author-email: contact@volodymyrsavchenko.com
+License: GPL-2+
+Description: # isdc-client
+        [![Build Status](https://travis-ci.org/volodymyrss/isdc-client.svg?branch=master)](https://travis-ci.org/volodymyrss/isdc-client)
+        [![codebeat badge](https://codebeat.co/badges/be1fafc7-ebdc-4fdd-8f60-18b1630c85bc)](https://codebeat.co/projects/github-com-volodymyrss-isdc-client-master)
+        [![Codacy Badge](https://api.codacy.com/project/badge/Grade/940dc23fa91942e8b2ed32f4d5d3287d)](https://www.codacy.com/app/vladimir.savchenko/isdc-client?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=volodymyrss/isdc-client&amp;utm_campaign=Badge_Grade)
+        [![DOI](https://zenodo.org/badge/72007541.svg)](https://zenodo.org/badge/latestdoi/72007541)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Astronomy
