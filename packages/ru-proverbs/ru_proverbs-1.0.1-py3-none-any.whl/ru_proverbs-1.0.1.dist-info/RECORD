@@ -1,0 +1,13 @@
+ru_proverbs/__init__.py,sha256=8Wv5xVSe1ZBCAqA_6tUxNjAZSNcJFYNl94t2KJuRzWE,23
+ru_proverbs/__main__.py,sha256=fhuBnHpPSg35VG_0IH8A0Lt18XAnvx92Yzt7HJ94cm8,81
+ru_proverbs/generator.py,sha256=n2t9DfsfSWuLL1h95DcEkVQoPluG8m2lSFRVUnEnzpU,999
+ru_proverbs/ru_proverbs.txt,sha256=rK-OukXnqKAysNGaLRhcmo16bOvv8idM6IMIK6zpwTI,405218
+ru_proverbs/ru_proverbs_chars_config.json,sha256=IEcV5J3qHxx76--D9Mi0h8sE62w2IFjLQDDp2LRtok0,195
+ru_proverbs/ru_proverbs_chars_vocab.json,sha256=qqlwkUurjnCHSROu3Ks79407c93G21HTocvM2o4vv64,775
+ru_proverbs/ru_proverbs_chars_weights.hdf5,sha256=sJdCVMm11wSB5otP8j5JBbGojNna4drnmeG_mdybGmA,1743176
+ru_proverbs-1.0.1.data/scripts/ru-proverbs,sha256=LyPp-pMKnTphmilmWlzRQMlwZor_d9Pv3U298PY5JiI,104
+ru_proverbs-1.0.1.dist-info/LICENSE,sha256=Qmb0dAhDippLS1pZNvZTAzlB8pTWyZRCsQ3esUpFMdw,1094
+ru_proverbs-1.0.1.dist-info/METADATA,sha256=orW3OZjoCBVabY7cg37Gz6ZiDx1r5ytvODyCPP5onYA,2536
+ru_proverbs-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ru_proverbs-1.0.1.dist-info/top_level.txt,sha256=IWO6LNK9QWeeF537CR1RKzPcP6HX1SZlREDQ2L5LsYU,12
+ru_proverbs-1.0.1.dist-info/RECORD,,
