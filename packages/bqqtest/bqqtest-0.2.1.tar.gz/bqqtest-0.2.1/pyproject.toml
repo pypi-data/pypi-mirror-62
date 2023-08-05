@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "bqqtest"
+version = "0.2.1"
+description = "Test BigQuery query using BigQuery"
+readme = "README.md"
+authors = ["tamanobi <tamanobi@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/tamanobi"
+repository = "https://github.com/tamanobi/bq-query-unittest"
+documentation = "https://github.com/tamanobi/bq-query-unittest"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    'Programming Language :: Python :: 3',
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.1"
+google-cloud-bigquery = "^1.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.3.5"
+black = "^19.10b0"
+rope = "^0.16.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
