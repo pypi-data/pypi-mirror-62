@@ -1,0 +1,8 @@
+setup.py
+src/pynwjs/__init__.py
+src/pynwjs/nwjs.py
+src/pynwjs.egg-info/PKG-INFO
+src/pynwjs.egg-info/SOURCES.txt
+src/pynwjs.egg-info/dependency_links.txt
+src/pynwjs.egg-info/top_level.txt
+test/test_pynwjs.py
