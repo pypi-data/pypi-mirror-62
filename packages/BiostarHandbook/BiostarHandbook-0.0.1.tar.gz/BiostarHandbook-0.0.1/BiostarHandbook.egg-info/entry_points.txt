@@ -1,0 +1,3 @@
+[console_scripts]
+comm.py = handbook.comm:main
+

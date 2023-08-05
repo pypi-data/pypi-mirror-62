@@ -1,0 +1,12 @@
+README.md
+setup.py
+BiostarHandbook.egg-info/PKG-INFO
+BiostarHandbook.egg-info/SOURCES.txt
+BiostarHandbook.egg-info/dependency_links.txt
+BiostarHandbook.egg-info/entry_points.txt
+BiostarHandbook.egg-info/top_level.txt
+handbook/__init__.py
+handbook/combine.py
+handbook/comm.py
+scripts/foo.sh
+scripts/r/foo.r
