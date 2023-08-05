@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+pytonik_curl/Version.py
+pytonik_curl/__init__.py
+pytonik_curl/curl.py
+pytonik_curl.egg-info/PKG-INFO
+pytonik_curl.egg-info/SOURCES.txt
+pytonik_curl.egg-info/dependency_links.txt
+pytonik_curl.egg-info/top_level.txt
