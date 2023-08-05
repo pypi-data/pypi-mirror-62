@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: raptorq
+Version: 0.1.0
+Summary: RaptorQ (RFC6330)
+Author: Felix Schorer <felixschorer@users.noreply.github.com>
+Author-Email: Felix Schorer <felixschorer@users.noreply.github.com>
+License: Apache-2.0
