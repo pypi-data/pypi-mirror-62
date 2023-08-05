@@ -1,0 +1,10 @@
+hisak/idtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hisak/idtools/base32.py,sha256=iYMVIbT7wwPuLTNT0MSqDgWqB56ntbQzPADYFht6aVg,4220
+hisak/idtools/base58.py,sha256=gPgc__2X6iVt8WLjfO_5Un54CtKmWkq6h11NBhNoXPA,2498
+hisak/idtools/uuid58.py,sha256=myg9WiCsSUySJHDIdmOiaeFO_USh3d2Y5c0Now9pELA,1077
+hisak/idtools/xid.py,sha256=VL25QpsD6ZatnQGzqWQwdl58RbbqDbHfci3c5ZAb4U0,3957
+hisak_idtools-0.1.dist-info/LICENSE,sha256=JwhvkDIcIFahvHZRyHxKF573-zMAvLnXBj_hXCfzTaw,1065
+hisak_idtools-0.1.dist-info/METADATA,sha256=3c_HzA2ECE4fXjIFhh2SqZ-YKfnTJK1PQLzc5ccd_co,1718
+hisak_idtools-0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+hisak_idtools-0.1.dist-info/top_level.txt,sha256=J7CGP_MPuGhzcwUVELEBvTqPo7LR7UXGHtvH1qr16oo,6
+hisak_idtools-0.1.dist-info/RECORD,,
