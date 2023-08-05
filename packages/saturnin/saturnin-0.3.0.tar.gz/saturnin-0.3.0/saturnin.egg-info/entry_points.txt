@@ -1,0 +1,20 @@
+[console_scripts]
+nodeconsole = saturnin.service.node.console:main
+saturnin-node = saturnin.service.node.runner:main
+
+[firebird.butler.protobuf]
+saturnin.protobuf.common = saturnin.protobuf.common_pb2:DESCRIPTOR
+saturnin.protobuf.fblog = saturnin.protobuf.fblog_pb2:DESCRIPTOR
+saturnin.protobuf.node = saturnin.protobuf.node_pb2:DESCRIPTOR
+
+[saturnin.service]
+firebird.saturnin.micro.data.aggregator = saturnin.micro.data.aggregator.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.data.filter = saturnin.micro.data.filter.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.data.printer = saturnin.micro.data.printer.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.firebird.log.fromsrv = saturnin.micro.firebird.log.fromsrv.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.firebird.log.parse = saturnin.micro.firebird.log.parse.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.text.linefilter = saturnin.micro.text.linefilter.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.text.reader = saturnin.micro.text.reader.api:SERVICE_DESCRIPTOR
+firebird.saturnin.micro.text.writer = saturnin.micro.text.writer.api:SERVICE_DESCRIPTOR
+saturnin-node = saturnin.service.node.api:SERVICE_DESCRIPTOR
+
