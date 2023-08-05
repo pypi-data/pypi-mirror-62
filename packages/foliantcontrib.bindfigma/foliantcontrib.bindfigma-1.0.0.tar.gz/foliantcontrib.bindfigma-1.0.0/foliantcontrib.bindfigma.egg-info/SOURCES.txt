@@ -1,0 +1,8 @@
+README.md
+setup.py
+foliant/preprocessors/bindfigma.py
+foliantcontrib.bindfigma.egg-info/PKG-INFO
+foliantcontrib.bindfigma.egg-info/SOURCES.txt
+foliantcontrib.bindfigma.egg-info/dependency_links.txt
+foliantcontrib.bindfigma.egg-info/requires.txt
+foliantcontrib.bindfigma.egg-info/top_level.txt
