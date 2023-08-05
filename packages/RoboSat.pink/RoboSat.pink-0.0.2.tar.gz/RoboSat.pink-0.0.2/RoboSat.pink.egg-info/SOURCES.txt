@@ -1,0 +1,5 @@
+setup.py
+RoboSat.pink.egg-info/PKG-INFO
+RoboSat.pink.egg-info/SOURCES.txt
+RoboSat.pink.egg-info/dependency_links.txt
+RoboSat.pink.egg-info/top_level.txt

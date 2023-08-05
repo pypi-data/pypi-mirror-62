@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: RoboSat.pink
+Version: 0.0.2
+Summary: Computer Vision framework for GeoSpatial Imagery
+Home-page: https://neat-EO.pink
+Maintainer: DataPink
+Maintainer-email: hello@datapink.com
+License: MIT
+Download-URL: https://datapink.io/datapink/neat-EO/releases
+Description: 
+        
+        Project moved to <a href="https://neat-EO.pink">https://neat-EO.pink</a>
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
