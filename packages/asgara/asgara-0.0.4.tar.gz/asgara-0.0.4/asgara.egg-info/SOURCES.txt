@@ -1,0 +1,9 @@
+README.md
+setup.py
+asgara.egg-info/PKG-INFO
+asgara.egg-info/SOURCES.txt
+asgara.egg-info/dependency_links.txt
+asgara.egg-info/top_level.txt
+example_pkg/__init__.py
+example_pkg/asgara.py
+example_pkg/pincopallo.py
