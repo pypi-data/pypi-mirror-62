@@ -1,0 +1,8 @@
+setup.py
+name_prettier/__init__.py
+name_prettier/main.py
+name_prettier/names.json
+name_prettier.egg-info/PKG-INFO
+name_prettier.egg-info/SOURCES.txt
+name_prettier.egg-info/dependency_links.txt
+name_prettier.egg-info/top_level.txt
