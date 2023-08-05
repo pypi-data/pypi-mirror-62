@@ -1,0 +1,17 @@
+numerica/__init__.py,sha256=tdshA6M8I-aCQPseD9N3YE5dZFn_1h7VS1o9LMgomDo,263
+numerica/__main__.py,sha256=2trUBY5Czmhd9kSU9BNeMwU_UiZdHE4FxkJBb6OTg6A,103
+numerica/nonlinear/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/nonlinear/bracketing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/nonlinear/bracketing/bisection.py,sha256=ArmDnrMl26FwdJ0LecSqJZQbntZJ2cOG0-2s2G4mrKI,360
+numerica/nonlinear/bracketing/graph.py,sha256=4G6ABbNHTfiH8VLe4Qqkl8mx4vWkrTZIka_k0D49188,364
+numerica/nonlinear/bracketing/regulafalsi.py,sha256=GRpwx1jJ6oj_YyezKraQ2SfQUcR5f-uoL7ZY8WrF3Ik,404
+numerica/nonlinear/iterative/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/nonlinear/iterative/basic.py,sha256=lrONYyhhKMuGLbcm03cyRsBXpDzvNCAAwqDu82loBZE,250
+numerica/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/utils/function.py,sha256=_BhNLW6GYCDd1DwaHod6cHbAnhc6g3NeKmiy1utFGH8,307
+numerica/utils/math.py,sha256=zOFsDlcyLTX2WKDA-8geshK6Mo5KlqpbhA2rZsjK_GQ,53
+numerica-0.2.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica-0.2.0.dist-info/METADATA,sha256=e_xnVyLh8oPLJIHsuzGJ9WS_r9cHvS79SiEkofkoqvA,2665
+numerica-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+numerica-0.2.0.dist-info/top_level.txt,sha256=K2Bw-MY4OM_Nx1kINw0mEpGh3AhGf3VobtEXb53-XNs,9
+numerica-0.2.0.dist-info/RECORD,,
