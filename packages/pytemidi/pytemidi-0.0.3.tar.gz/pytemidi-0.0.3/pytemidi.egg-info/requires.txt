@@ -1,0 +1,7 @@
+comtypes
+
+[dev]
+check-manifest
+
+[test]
+coverage
