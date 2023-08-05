@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pmn
+Version: 0.1
+Summary: terminal process manager for Linux
+Home-page: https://github.com/ivanjermakov/pmn
+Author: Ivan Ermakov
+Author-email: ivanjermakov1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: anytree
+Requires-Dist: psutil
+Requires-Dist: click
+
+![image](https://sun9-69.userapi.com/c857128/v857128819/ef31c/ftfazcQBun0.jpg)
+
+# pmn
+Terminal **p**rocess **m**a**n**ager for Linux.
+
+## Features
+ - List and tree process view
+ - Customizable process info output
+ - Customizable color scheme
+ - Customizable keyboard shortcuts
+
+## Installation
+```
+pip install pmn
+```
+
+
