@@ -1,0 +1,39 @@
+Metadata-Version: 1.2
+Name: fattura24
+Version: 0.0.1
+Summary: Fatture In Cloud API SDK
+Home-page: https://github.com/fedetorre/python-fattura24
+Author: Federico Torresan
+Author-email: federico.torresan@quentral.com
+License: LGPLv3
+Description: # Python SDK for fattura24 api
+        
+        ### API Reference
+        
+        https://www.fattura24.com/api-documentazione/
+        
+        ### Installation
+        
+        `pip install fattura24`
+        
+        ### Usage
+        
+            import fattura24
+            
+            fe = fattura24.FEDocument(api_key=settings.FATTURA24_API_KEY)
+            
+            res = fe.send()
+            
+            if res.findtext('returnCode') == '0':
+                doc_number = res.findtext('docNumber')
+                doc_id = res.findtext('docId')
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0

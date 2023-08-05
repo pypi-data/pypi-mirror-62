@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+fattura24/__init__.py
+fattura24/utils.py
+fattura24.egg-info/PKG-INFO
+fattura24.egg-info/SOURCES.txt
+fattura24.egg-info/dependency_links.txt
+fattura24.egg-info/requires.txt
+fattura24.egg-info/top_level.txt
