@@ -1,0 +1,5 @@
+requests>=2.13.0
+pyformance>=0.4
+
+[:python_version < "3"]
+backports.functools_lru_cache>=1.5
