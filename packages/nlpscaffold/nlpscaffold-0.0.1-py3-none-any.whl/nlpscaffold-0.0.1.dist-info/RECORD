@@ -1,0 +1,13 @@
+nlpscaffold/__init__.py,sha256=GciucRPZ8ePAQMaejSGTnLZQdSPLZ-KHz9JvWmktX1s,85
+nlpscaffold/dataset.py,sha256=wNxGNIoB_s3N1GYjTkq-C_qTTQ6UJ3FHW7EUPVAkURo,1054
+nlpscaffold/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlpscaffold/model/base.py,sha256=pYon3G-BjQd-mhC5UdRadpKV-wipyX_OaOCzb5fUTDM,8205
+nlpscaffold/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nlpscaffold/utils/prep.py,sha256=rjl_i6FI5sbS8-3Ug6cyvTxNCOu5hhSFUmbJxn44xcg,908
+nlpscaffold/utils/tracker.py,sha256=enqSOHW3x2YJubbRhn7AUkUskjemctLrl-QgsnHf2v8,693
+nlpscaffold/utils/writer.py,sha256=R0u4bsGDhIbavv6jnJFGBpXLpRVqVCXQtqP_eUsSA3E,907
+nlpscaffold-0.0.1.dist-info/LICENSE,sha256=CtiqLxYnq6qRjWMlOR78VJoXqsKWyJfgEHPIyH-dvKw,1069
+nlpscaffold-0.0.1.dist-info/METADATA,sha256=STIAteS9ufeVOk-V83jNDrI_9-f8tPOffx_n2CcsvJE,818
+nlpscaffold-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+nlpscaffold-0.0.1.dist-info/top_level.txt,sha256=lPjpCy1ID98JYQoi4PV7y8BdSJJjdHv4CQmLke-hc-0,12
+nlpscaffold-0.0.1.dist-info/RECORD,,
