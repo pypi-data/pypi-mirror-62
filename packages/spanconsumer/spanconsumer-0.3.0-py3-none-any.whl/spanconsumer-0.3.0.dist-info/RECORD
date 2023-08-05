@@ -1,0 +1,14 @@
+spanconsumer/__init__.py,sha256=EJqbyvQ7prO86kW3qQbIODxMDP0UGsppJSE9_5IATAY,992
+spanconsumer/_configuration.py,sha256=rsBrjpDGD0bzLn1P_b_l0OAtKizzFyq8g3NLRv0TJjI,3655
+spanconsumer/_consumer.py,sha256=YIPEHVq5flO39eRTJ129sJMa3Zra6lU_p56pqbl_0po,22535
+spanconsumer/_errors.py,sha256=y-poQ6AOCRBLzjGz6KI__XlUk7PV4jIrowKt3F9O9Xo,1030
+spanconsumer/_incoming_outgoing.py,sha256=IbFdxXIKTv4eicUisLMV0la6RZlo9_covQ4J1reSyD4,5265
+spanconsumer/_scribe.py,sha256=2VKdaDwQKQ4mGGWOCxmsckH-yt3AyfvNZlQS5PXHC8w,8458
+spanconsumer/_test_client.py,sha256=zY_VbOa-lJP56mbHyU_czmDOIRaoUuWz-GVovxKypKQ,6125
+spanconsumer/_types.py,sha256=M8cIg_GqCxprxt1UgDx00Wf-fyGz9JMkwkYfGQjmWs8,689
+spanconsumer/_version.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+spanconsumer-0.3.0.dist-info/LICENSE,sha256=ASmY5UYMO-xmc-Y7yfNCeafcVgDZg-IV-syrG9ZKfBo,1070
+spanconsumer-0.3.0.dist-info/METADATA,sha256=4YSUJifcGvTPf0nAW99uQi8YHCfFg5LTCfSCXjdSoY0,1181
+spanconsumer-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spanconsumer-0.3.0.dist-info/top_level.txt,sha256=dpASXh8js-VBIxYH1cR4mEdpVu5J1KvyRKx7VuSCKHU,13
+spanconsumer-0.3.0.dist-info/RECORD,,
