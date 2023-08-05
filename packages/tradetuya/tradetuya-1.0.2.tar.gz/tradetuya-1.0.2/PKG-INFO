@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tradetuya
+Version: 1.0.2
+Summary: Python interface to Tuya WiFi smart devices.
+Home-page: https://github.com/TradeFace/tuya/
+Author: tradeface
+Author-email: 
+License: MIT
+Description: Tuya
+        ===================
+        
+        Rewritten tuya client based on pytuya. Used by https://github.com/TradeFace/tuyamqtt
+        
+        
+        Todo
+        ==================
+        - add support for older devices back in 
+        - we'll see
+        
+        Changelog
+        ==================
+        - solved recursion problem in send_request
+        - moved functions back to init
+        - removed TuyaConnection class, use send_request in try/except
+        - declassified aescipher
+        - moved to a more functional programming style
+        - yield and list comprehensions
+        - setup.py
+        - removed code for older devices < 3.3 
+        
+        Acknowledgements
+        =================
+        - This module is a rewrite of https://github.com/clach04/python-tuya
+        - https://github.com/codetheweb/tuyapi as reference on commands 
+Keywords: home automation,tuya
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Home Automation
+Description-Content-Type: text/markdown
