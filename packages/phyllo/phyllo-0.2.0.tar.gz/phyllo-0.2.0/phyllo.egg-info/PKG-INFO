@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: phyllo
+Version: 0.2.0
+Summary: Phyllo protocol stack implementation for communication with embedded systems.
+Home-page: https://github.com/ethanjli/phyllo-python
+Author: Ethan Li
+Author-email: lietk12@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: serial
+Provides-Extra: uiconsole

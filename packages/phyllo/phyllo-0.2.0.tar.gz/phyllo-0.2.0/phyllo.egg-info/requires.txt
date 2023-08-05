@@ -1,0 +1,10 @@
+phylline
+bidict
+cobs
+msgpack
+
+[serial]
+pyserial
+
+[uiconsole]
+blessed
