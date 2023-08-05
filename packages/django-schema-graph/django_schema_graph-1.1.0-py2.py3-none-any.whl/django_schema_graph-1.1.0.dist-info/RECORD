@@ -1,0 +1,10 @@
+schema_graph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema_graph/schema.py,sha256=yhCBV5YpVOejgc3kNQNI3AbzlUY1fXwr4KbopZmT5og,3599
+schema_graph/views.py,sha256=N-7VpANyO92trfxJssqub7AV4Tmv0Gz3Xp3Czjkvo0Q,1314
+schema_graph/static/schema_graph/main.js,sha256=6m8I2t23n1UFDm19P5bQcyaGGuoEeG47gWB2RJcekBA,1053355
+schema_graph/templates/schema_graph/schema.html,sha256=o3EWDd_wnB76VWB_YkcOOXPltGkEAT7cflu72DxnTCI,972
+django_schema_graph-1.1.0.dist-info/LICENSE,sha256=kxvXLdZJpFeKHYSkQmkxbjD5myVmZo-sSEsJBBPd09Y,1071
+django_schema_graph-1.1.0.dist-info/METADATA,sha256=q4wR1g81GM6C_LY92W6E-BRALqxS5VWq4BSG69n309M,2670
+django_schema_graph-1.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_schema_graph-1.1.0.dist-info/top_level.txt,sha256=1AR9DuZkJVeH9Rs_ywm6tvAq7uA22-c5E6uXoYAdIpQ,13
+django_schema_graph-1.1.0.dist-info/RECORD,,
