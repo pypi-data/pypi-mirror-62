@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+typing_inspect_isle/__init__.py
+typing_inspect_isle/_typing_inspect.py
+typing_inspect_isle/_version.py
+typing_inspect_isle.egg-info/PKG-INFO
+typing_inspect_isle.egg-info/SOURCES.txt
+typing_inspect_isle.egg-info/dependency_links.txt
+typing_inspect_isle.egg-info/requires.txt
+typing_inspect_isle.egg-info/top_level.txt
