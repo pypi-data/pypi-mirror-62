@@ -1,0 +1,8 @@
+msgbuzz/__init__.py,sha256=uP113qvUQx8_8WIWC6dhJeMdLv_IpJWkbJxDuTgL7fg,98
+msgbuzz/generic.py,sha256=UMy-W46hGJNnluIRqu10iJsjStR-lqmhJ_eX42tLw0k,776
+msgbuzz/rabbitmq.py,sha256=ukhLTJLY9lXbpNnfmS1pGUFqXPp-hzYKQUR2Yvoz6Do,7335
+msgbuzz-0.0.4.dist-info/LICENSE,sha256=DCZDYMTm4nhWndwpLnBZ3_UF3hf006OLoo9laLqvUBI,1551
+msgbuzz-0.0.4.dist-info/METADATA,sha256=LB3TU7xz_NQkIKAEZfeFpJk3e5CdPByR-4dPwhR_tlU,1939
+msgbuzz-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+msgbuzz-0.0.4.dist-info/top_level.txt,sha256=HX3Q8nrFuGgRTM3zHpNH7ItN1xSjAJWIV-vUc7ezekE,8
+msgbuzz-0.0.4.dist-info/RECORD,,
