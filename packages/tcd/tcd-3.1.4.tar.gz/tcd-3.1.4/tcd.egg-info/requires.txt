@@ -1,0 +1,5 @@
+requests
+rx>=3.0.0
+twitch-python
+pytz
+python-dateutil
