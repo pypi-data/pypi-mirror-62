@@ -1,0 +1,11 @@
+pytorch_lr_finder/__init__.py,sha256=o7dmJOJIXJt2HUO8rclkbjGfdICkJ0_dkJBK1UkHysk,68
+pytorch_lr_finder/learning_rate_finder.py,sha256=DbZwEDN-07o6PJ6eLKWPg7QkBFFsOGN5Q2CutWOlHno,4286
+tanjid-lr-finder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tanjid-lr-finder/learning_rate_finder.py,sha256=J5B6hNtnwIjKX2jWaolXzVW4DjH1zeKJDwVM8WqVRtQ,3477
+tanjid_lr_finder/__init__.py,sha256=o7dmJOJIXJt2HUO8rclkbjGfdICkJ0_dkJBK1UkHysk,68
+tanjid_lr_finder/learning_rate_finder.py,sha256=DbZwEDN-07o6PJ6eLKWPg7QkBFFsOGN5Q2CutWOlHno,4286
+pytorch_lr_finder-0.0.1.dist-info/LICENSE,sha256=xCs5ywcMLkMC-TvTeDkUMLmDVEBNtjCVCqz5NAo3SJY,1073
+pytorch_lr_finder-0.0.1.dist-info/METADATA,sha256=FuSlUxIo2fjH7K-KNt8aFO4cJarTFf8SRfesXutenvE,1643
+pytorch_lr_finder-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytorch_lr_finder-0.0.1.dist-info/top_level.txt,sha256=ex19Dzp15zyhT38X0pqLiizFte7lvkkzDamT1_DpY3E,18
+pytorch_lr_finder-0.0.1.dist-info/RECORD,,
