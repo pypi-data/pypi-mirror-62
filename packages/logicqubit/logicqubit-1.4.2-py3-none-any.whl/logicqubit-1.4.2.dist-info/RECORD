@@ -1,0 +1,13 @@
+logicqubit/__init__.py,sha256=BH45qnWUnQRZD6M9y7VP-zjXpCQYd8wHfYAMpVWJnS0,214
+logicqubit/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logicqubit/circuit.py,sha256=AeJ0dOruRnxtYVuHpi00kPD6KouDbKxKvLhHCbsMh2I,524
+logicqubit/gates.py,sha256=4YCOMlVw63ZFp2JpV7Z75SVSvmx2uI5B4fsFl5j4gfo,7215
+logicqubit/hilbert.py,sha256=OrgORdaKnkqGfR3koLABoHXF2VvCd5LQNUFhQnLFnAk,1425
+logicqubit/logic.py,sha256=KAq9GfebaTxytTGbcKBUgdElTuydWImTlhBrJ2mLiqE,6361
+logicqubit/qubits.py,sha256=i4d0sskT__K1Ss9_4LfXFT5xihS688hJFWRzYq-Nlmg,9579
+logicqubit/utils.py,sha256=12LTzzd-sWic1adBkO4xgF1Sq68HXalwTq4Aaf6AQj8,585
+logicqubit-1.4.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+logicqubit-1.4.2.dist-info/METADATA,sha256=N7QpQf12YjDg8cnXvu5JvAO5wi8irzDutUMe0YkVmC0,767
+logicqubit-1.4.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+logicqubit-1.4.2.dist-info/top_level.txt,sha256=ZE2bl6TtgUvxkAQe5l4CdHbuOsKFWu-jKhLo98VrqZM,11
+logicqubit-1.4.2.dist-info/RECORD,,
