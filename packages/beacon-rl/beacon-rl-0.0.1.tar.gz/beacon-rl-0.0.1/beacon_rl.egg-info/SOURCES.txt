@@ -1,0 +1,5 @@
+setup.py
+beacon_rl.egg-info/PKG-INFO
+beacon_rl.egg-info/SOURCES.txt
+beacon_rl.egg-info/dependency_links.txt
+beacon_rl.egg-info/top_level.txt
