@@ -1,0 +1,8 @@
+README.md
+setup.py
+empty_trashcan/__init__.py
+empty_trashcan/trashcan.py
+emptytrashcan.egg-info/PKG-INFO
+emptytrashcan.egg-info/SOURCES.txt
+emptytrashcan.egg-info/dependency_links.txt
+emptytrashcan.egg-info/top_level.txt
