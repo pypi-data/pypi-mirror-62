@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='tax_rounding']" position="after">
+        <separator id="defs_agedbal" string="Aged Balance" colspan="4"/>
+        <label name="agedbal_term1"/>
+        <field name="agedbal_term1"/>
+        <label name="agedbal_term2"/>
+        <field name="agedbal_term2"/>
+        <label name="agedbal_term3"/>
+        <field name="agedbal_term3"/>
+        <newline/>
+    </xpath>
+</data>
