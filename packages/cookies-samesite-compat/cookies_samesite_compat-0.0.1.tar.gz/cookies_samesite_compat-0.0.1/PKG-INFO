@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cookies_samesite_compat
+Version: 0.0.1
+Summary: WSGI Middleware to duplicate the configured cookies and remove the SameSite attribute
+Home-page: https://github.com/c00kiemon5ter/cookies_samesite_compat
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

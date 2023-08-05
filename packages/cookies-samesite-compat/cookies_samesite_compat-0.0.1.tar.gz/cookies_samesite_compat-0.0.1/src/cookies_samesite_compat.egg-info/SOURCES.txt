@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/cookies_samesite_compat/__init__.py
+src/cookies_samesite_compat/cookies.py
+src/cookies_samesite_compat/middleware.py
+src/cookies_samesite_compat.egg-info/PKG-INFO
+src/cookies_samesite_compat.egg-info/SOURCES.txt
+src/cookies_samesite_compat.egg-info/dependency_links.txt
+src/cookies_samesite_compat.egg-info/top_level.txt
