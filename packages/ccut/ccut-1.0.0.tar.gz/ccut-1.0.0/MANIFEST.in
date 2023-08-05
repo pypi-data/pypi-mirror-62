@@ -1,0 +1,2 @@
+include ccut/data/*
+recursive-exclude ccut/tests/ *
