@@ -1,0 +1,13 @@
+numerica/__init__.py,sha256=Tv3ovrIyVHcT13ONJcg8UAO0pZJFCfKH-zrxdLTCRWw,94
+numerica/__main__.py,sha256=xMHT83A2KUWl0kHftI6ecXNEJXlHsxXHoxNHmDc0LoE,107
+numerica/nonlinear/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/nonlinear/bisection.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/nonlinear/graph.py,sha256=SKzhKQAcrD7QmxXDLe4-7S7BQ1i7FRkjXue2tsBAcTA,379
+numerica/nonlinear/regulafalsi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica/utils/function.py,sha256=YASfvjcyrr2Z_8SFep5OxXRNEBI_x9VjUnKNjXQFC7k,291
+numerica-0.1.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numerica-0.1.4.dist-info/METADATA,sha256=LOZp-nBWrbx1RScl6lZ7cQn_oeK-SRGkYXQYxJbjcso,1093
+numerica-0.1.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+numerica-0.1.4.dist-info/top_level.txt,sha256=K2Bw-MY4OM_Nx1kINw0mEpGh3AhGf3VobtEXb53-XNs,9
+numerica-0.1.4.dist-info/RECORD,,
