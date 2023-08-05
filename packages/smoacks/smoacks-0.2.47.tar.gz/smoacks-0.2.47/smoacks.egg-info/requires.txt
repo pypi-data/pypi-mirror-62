@@ -1,0 +1,9 @@
+connexion
+coverage
+flask_jwt_extended
+jinja2
+nose
+openapi-spec-validator
+python-dateutil
+PyYAML
+SQLAlchemy
