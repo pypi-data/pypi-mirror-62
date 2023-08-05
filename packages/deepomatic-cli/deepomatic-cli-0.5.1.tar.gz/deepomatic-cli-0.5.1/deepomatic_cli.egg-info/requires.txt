@@ -1,0 +1,10 @@
+opencv-python==3.4.3.18
+tqdm==4.31.1
+requests<3,>=2.19.0
+text-unidecode==1.2
+gevent==1.4.0
+jsonschema==3.0.1
+deepomatic-api==0.9.1
+
+[rpc]
+deepomatic-rpc>=0.8.0
