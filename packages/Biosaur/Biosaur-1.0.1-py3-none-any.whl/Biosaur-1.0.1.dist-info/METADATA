@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: Biosaur
+Version: 1.0.1
+Summary: Proteomics post-search algorithm
+Home-page: https://github.com/abdrakhimov1/Biosaur
+Author: Abdrakhimov Daniil & Mark Ivanov
+Author-email: pyteomics@googlegroups.com
+License: License :: OSI Approved :: GNU General Public License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+Requires-Dist: coloredlogs (==10.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: flake8 (==3.7.9)
+Requires-Dist: humanfriendly (==4.18)
+Requires-Dist: json-logging (==1.0.5)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: lxml (==4.4.2)
+Requires-Dist: matplotlib (==3.1.2)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: numpy (==1.17.4)
+Requires-Dist: pandas (==0.25.3)
+Requires-Dist: pycodestyle (==2.5.0)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: pyflakes (==2.1.1)
+Requires-Dist: pyparsing (==2.4.5)
+Requires-Dist: pyteomics (==4.1.2)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: scipy (==1.3.3)
+Requires-Dist: six (==1.13.0)
+Requires-Dist: termcolor (==1.1.0)
+
+# bio
+Mass spectrometry, proteomics
+
+pip3 install .
+
+
