@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: saturnin-sdk
+Version: 0.5.0
+Summary: Firebird Butler Development Platform for Python
+Home-page: https://github.com/FirebirdSQL/saturnin-sdk
+Author: Pavel Císař
+Author-email: pcisar@users.sourceforge.net
+License: MIT
+Project-URL: Documentation, https://saturnin-sdk.rtfd.io
+Project-URL: Bug Reports, https://github.com/FirebirdSQL/saturnin-sdk/issues
+Project-URL: Funding, https://www.firebirdsql.org/en/donate/
+Project-URL: Source, https://github.com/FirebirdSQL/saturnin-sdk
+Description: ============
+        saturnin-sdk
+        ============
+        
+        SDK for Saturnin - A Firebird Butler Development Platform for Python
+        
+Keywords: Firebird Butler Services ZeroMQ Saturnin SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Object Brokering
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/x-rst; charset=UTF-8
