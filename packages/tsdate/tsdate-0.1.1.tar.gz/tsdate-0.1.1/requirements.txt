@@ -1,0 +1,10 @@
+flake8
+nose
+numpy
+tqdm
+daiquiri
+msprime
+tskit
+scipy
+codecov
+numba
