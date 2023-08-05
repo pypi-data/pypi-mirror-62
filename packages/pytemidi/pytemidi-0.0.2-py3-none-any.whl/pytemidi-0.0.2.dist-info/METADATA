@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pytemidi
+Version: 0.0.2
+Summary: A binding for tobias-erichsen.de/software/virtualmidi.html
+Home-page: https://github.com/complynx/pytemidi
+Author: complynx
+Author-email: complynx@yandex.ru
+License: UNKNOWN
+Keywords: midi virtual device
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows CE
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: comtypes
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+PyTeMidi -- python bindings to Tobias Erichsen Virtual MIDI
+===========================================================
+
+To create virtual MIDI devices from Python on windows
+
+See http://www.tobias-erichsen.de/software/virtualmidi.html
+for more information.
+
+
