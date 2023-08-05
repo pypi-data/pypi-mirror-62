@@ -1,0 +1,10 @@
+cookie_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookie_manager/cookie_manager.py,sha256=4UCGjyzhiRsC9nu_lIL8AFjExAucNN7MiTXg60A3dxk,6201
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cookie_manager.py,sha256=07fIO1K18oipLjlQl4MqEsqnJen1IOk3prOLz5yULls,5330
+cookie_manager-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cookie_manager-0.0.1.dist-info/METADATA,sha256=M399yZBYuzCAmqfPNPJb7J2t9a-vDPkB5PV-mD5i9MQ,1051
+cookie_manager-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cookie_manager-0.0.1.dist-info/top_level.txt,sha256=RObJZE0JljI2KxDpCmYP30H2YiHQwecQKLETAOA5hsE,21
+cookie_manager-0.0.1.dist-info/RECORD,,
