@@ -1,0 +1,8 @@
+golangpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+golangpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+golangpdf/pdf2text.py,sha256=2xs1fnbqFlOR50tUNjnK_BMVPaDhfUJrQLFjU2-OjDM,38
+golangpdf-1.2.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+golangpdf-1.2.dist-info/METADATA,sha256=vuBRJbFJ8Gyiu1qhHR7h42wAVFnTQuzjL1FD4tDzI5U,197
+golangpdf-1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+golangpdf-1.2.dist-info/top_level.txt,sha256=FKP1_R4srHLDQIwzveflIaUWBNSfMTs0aOFpqg0CWQU,10
+golangpdf-1.2.dist-info/RECORD,,
