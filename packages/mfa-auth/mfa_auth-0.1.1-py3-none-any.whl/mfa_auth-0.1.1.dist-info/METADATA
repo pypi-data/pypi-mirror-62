@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mfa-auth
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: boto3 (==1.12.1)
+Requires-Dist: botocore (==1.15.1)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: jmespath (==0.9.4)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: s3transfer (==0.3.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: urllib3 (==1.25.8)
+
+UNKNOWN
+
+
