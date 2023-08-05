@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ProtobufMessageFactory
+Version: 0.1.2
+Summary: This package tries to ease up the work with protobuf messages in python.
+Home-page: https://github.com/cimera255/ProtobufMessageFactory
+Author: cimera255
+Author-email: author@example.com
+License: UNKNOWN
+Description: # ProtobufMessageFactory
+        This module tries to ease up the work with protobuf messages 
+        in python by allowing to automatically import and compile 
+        .proto files and access the messages by their name.
+        ## Requirements
+        Protoc needs to be available on your system.
+        You can check this by executing:
+        ```
+        protoc --version
+        ```
+        If it is not installed download it here:
+        ```
+        https://github.com/protocolbuffers/protobuf/releases
+        ```
+        After the download you have to put the executable into your PATH.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
