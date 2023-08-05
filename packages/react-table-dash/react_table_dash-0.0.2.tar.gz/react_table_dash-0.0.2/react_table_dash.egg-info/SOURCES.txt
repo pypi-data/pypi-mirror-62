@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+react_table_dash/ReactTableDash.py
+react_table_dash/__init__.py
+react_table_dash/_imports_.py
+react_table_dash/metadata.json
+react_table_dash/package-info.json
+react_table_dash/react_table_dash.min.js
+react_table_dash/react_table_dash.min.js.map
+react_table_dash.egg-info/PKG-INFO
+react_table_dash.egg-info/SOURCES.txt
+react_table_dash.egg-info/dependency_links.txt
+react_table_dash.egg-info/top_level.txt
