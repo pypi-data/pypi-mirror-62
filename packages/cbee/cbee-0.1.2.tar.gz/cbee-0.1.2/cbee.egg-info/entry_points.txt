@@ -1,0 +1,3 @@
+[console_scripts]
+cbee = cbee.cli:main
+

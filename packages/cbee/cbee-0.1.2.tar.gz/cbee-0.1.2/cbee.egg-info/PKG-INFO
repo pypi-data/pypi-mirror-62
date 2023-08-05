@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: cbee
+Version: 0.1.2
+Summary: C/C++ build tools and package manager.
+Home-page: https://github.com/bee-field/cbee
+Author: David Cavazos
+Author-email: dcavazosw@gmail.com
+License: UNKNOWN
+Description: # 🌻 🐝 C/C++ build tools and package manager
+        
+        `cbee` is a toolchain to build and package C/C++ applications and libraries.
+        
+        ## Installing cbee
+        
+        > NOTE: this project requires Python 3.6+
+        
+        ```sh
+        python3 -m venv env
+        source env/bin/activate
+        ```
+        
+        ```sh
+        pip install -U cbee
+        ```
+        
+        ## Using cbee
+        
+        ### Running a basic C/C++ application
+        
+        First, create a C or C++ file with a main function.
+        
+        ```c
+        // say-hello.c
+        #include <stdio.h>
+        
+        int main() {
+          printf("Hello!\n");
+          return 0;
+        }
+        ```
+        
+        To run it, simply use the `cbee run` command.
+        
+        ```sh
+        cbee run say-hello.c
+        ```
+        
+        ## Contributing
+        
+        Contributions are welcome! For instructions on how to contribute,
+        please check the [Contribution](CONTRIBUTING.md) guide.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Description-Content-Type: text/markdown
