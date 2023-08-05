@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: zabbix-sys
+Version: 2020.2.26.1582680242
+Summary: Zabbix agent commands for lld / metrics
+Home-page: https://git.sys.im/oss/zabbix
+Author: Rakhinskiy Vyacheslav
+Author-email: adm@sys.im
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: wheel (==0.34.2)
+Requires-Dist: Click (==7.0)
+Requires-Dist: mysql-connector-python (==8.0.19)
+Requires-Dist: psutil (==5.7.0)
+Requires-Dist: PyYAML (==5.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: pyrabbit2 (==1.0.7)
+Requires-Dist: requests (==2.23.0)
+
+UNKNOWN
+
+
