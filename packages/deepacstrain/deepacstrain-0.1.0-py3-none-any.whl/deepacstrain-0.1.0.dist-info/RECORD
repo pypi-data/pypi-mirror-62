@@ -1,0 +1,11 @@
+deepacstrain/__init__.py,sha256=2aHQNOJ3_QACiM1gGDeCtMmVAJZHJT7Dc7x5-LX1Rvw,75
+deepacstrain/command_line.py,sha256=DOnYqgltX4KRk8rK1uMkFsQoXaZ49dXDTKvxvrsJc2E,1569
+deepacstrain/builtin/config/nn-patric-strain-rapid-sensitive-cnn.ini,sha256=u8A58j8QWpJIjCSgEyWelA6c-esWoyykWU9TX_RDpcs,3469
+deepacstrain/builtin/weights/nn-patric-strain-rapid-sensitive-cnn.h5,sha256=XxiqhhJ8IVtkMAWTyAzpNOt3wapTLIOeRSB_HbKHdKE,32465680
+deepacstrain/builtin/weights/nn-patric-strain-rapid-sensitive.h5,sha256=ulWhZtIaieNfrkucyNDd6PI-IV_sUnNnPU_3i9t-cZ0,57660
+deepacstrain-0.1.0.dist-info/LICENSE,sha256=l3zjVrh95ij12XWUCRPR1hIO6pNKK3wb3wolKJWHSoc,1078
+deepacstrain-0.1.0.dist-info/METADATA,sha256=dT29u3s5pNWhGVs5x8fSHQbXh9j81IT-VOOKrxjko-E,5156
+deepacstrain-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+deepacstrain-0.1.0.dist-info/entry_points.txt,sha256=ixRBGPkE5z_omZHY0UPN3fUeEEdD_y3sTlc1_FdG0u4,66
+deepacstrain-0.1.0.dist-info/top_level.txt,sha256=FrlKv_7AR_GXoz2pqMExP3M7u6Ixy2ut44rfUi48Ss0,13
+deepacstrain-0.1.0.dist-info/RECORD,,
