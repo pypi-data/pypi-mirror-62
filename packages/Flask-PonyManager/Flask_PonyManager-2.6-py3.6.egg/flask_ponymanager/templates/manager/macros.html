@@ -1,0 +1,68 @@
+{% macro render_field_errors(field) %}
+{% if field.errors %}
+<div class="form-field-errors">
+    <ul class=errors>
+        {% for error in field.errors %}
+        <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% endmacro %}
+
+{% macro render_field(field, label=True, errors=True) %}
+{% set field_class = field.__class__.__name__ %}
+{% if label and not field_class in ['SubmitField', 'BooleanField', 'HiddenField'] %}
+<div><strong>{{ field.label }}</strong></div>
+{% endif %}
+{% if not field_class in ['SubmitField'] %}
+<span>{{ field(class__='form-control')|safe }}</span>
+{% else %}
+<span><button class="form-control btn btn-primary" type="submit">{{ field.label }}</button></span>
+{% endif %}
+{% if label and field_class in ['BooleanField'] %}
+<span><strong>{{ field.label }}</strong></span>
+{% endif %}
+{% if errors %}
+{{ render_field_errors(field) }}
+{% endif %}
+{% endmacro %}
+
+{% macro render_form(form) %}
+{% for field in form._fields.values() %}
+<div class="form-group">
+    {{ render_field(field) }}
+</div>
+{% endfor %}
+{% endmacro %}
+
+{% macro render_flashes() %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+<div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+    {{ message }}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+{% endmacro %}
+
+{% macro render_pagination(page, max_page) %}
+{% if max_page > 1 %}
+{% set kwargs = request.args.copy() %}
+{% set current_page = kwargs.get('page', default=1) | int %}
+{% if page - 1 >= 1 %}
+{% set _ = kwargs.update(dict(page=current_page - 1)) %}
+<a href="{{ url_for(request.endpoint, **kwargs) }}">< Back</a>
+{% endif %}
+{{ page }}/{{ max_page }}
+{% if page + 1 <= max_page %}
+{% set _ = kwargs.update(dict(page=current_page + 1)) %}
+<a href="{{ url_for(request.endpoint, **kwargs) }}">Forward ></a>
+{% endif %}
+{% endif %}
+{% endmacro %}
