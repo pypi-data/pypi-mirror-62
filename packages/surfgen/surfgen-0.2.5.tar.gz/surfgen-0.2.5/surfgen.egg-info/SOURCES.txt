@@ -1,0 +1,11 @@
+README.md
+setup.py
+surfgen/__init__.py
+surfgen/core.py
+surfgen/math.py
+surfgen/util.py
+surfgen.egg-info/PKG-INFO
+surfgen.egg-info/SOURCES.txt
+surfgen.egg-info/dependency_links.txt
+surfgen.egg-info/not-zip-safe
+surfgen.egg-info/top_level.txt
