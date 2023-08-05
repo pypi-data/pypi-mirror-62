@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: L8-reflectance
+Version: 0.0.5
+Summary: Convert Landsat 8 from DN to reflectance TOA
+Home-page: https://github.com/ESRIN-RSS/L8_reflectance
+Author: Roberto Cuccu
+Author-email: roberto.cuccu@esa.int
+License: GPL
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: gdal
+
+UNKNOWN
+
+
