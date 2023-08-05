@@ -1,0 +1,106 @@
+{
+  "timemory": {
+    "ranks": [
+      {
+        "rank": 0,
+        "concurrency": 1,
+        "type": "wall",
+        "description": "wall time",
+        "unit_value": 1,
+        "unit_repr": "sec",
+        "graph": [
+          {
+            "hash": 9631199822919835226,
+            "prefix": ">>> foo",
+            "depth": 0,
+            "entry": {
+              "cereal_class_version": 0,
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 3.143554,
+              "value": 1582667094940652000,
+              "accum": 3143554000,
+              "units": 1,
+              "display_units": "sec"
+            },
+            "rolling_hash": 9631199822919835226,
+            "stats": {
+              "cereal_class_version": 0,
+              "sum": 3.143554,
+              "sqr": 9.881931750916,
+              "min": 3.143554,
+              "max": 3.143554,
+              "count": 1
+            }
+          },
+          {
+            "hash": 713707590686624636,
+            "prefix": ">>> |_[fibonacci]",
+            "depth": 1,
+            "entry": {
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 1.140802,
+              "value": 1582667094939167000,
+              "accum": 1140802000,
+              "units": 1,
+              "display_units": "sec"
+            },
+            "rolling_hash": 10344907413606459862,
+            "stats": {
+              "sum": 1.140802,
+              "sqr": 1.3014292032040003,
+              "min": 1.140802,
+              "max": 1.140802,
+              "count": 1
+            }
+          },
+          {
+            "hash": 11474628671133349555,
+            "prefix": ">>> bar",
+            "depth": 0,
+            "entry": {
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 3.169456,
+              "value": 1582667098111545000,
+              "accum": 3169456000,
+              "units": 1,
+              "display_units": "sec"
+            },
+            "rolling_hash": 11474628671133349555,
+            "stats": {
+              "sum": 3.169456,
+              "sqr": 10.045451335935999,
+              "min": 3.169456,
+              "max": 3.169456,
+              "count": 1
+            }
+          },
+          {
+            "hash": 11906488728889656036,
+            "prefix": ">>> |_[sleep]",
+            "depth": 1,
+            "entry": {
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 2.003963,
+              "value": 1582667098110492000,
+              "accum": 2003963000,
+              "units": 1,
+              "display_units": "sec"
+            },
+            "rolling_hash": 4934373326313453975,
+            "stats": {
+              "sum": 2.003963,
+              "sqr": 4.015867705369001,
+              "min": 2.003963,
+              "max": 2.003963,
+              "count": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

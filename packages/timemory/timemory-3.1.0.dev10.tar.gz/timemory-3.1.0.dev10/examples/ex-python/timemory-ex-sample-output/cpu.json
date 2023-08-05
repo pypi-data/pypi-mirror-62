@@ -1,0 +1,62 @@
+{
+  "timemory": {
+    "ranks": [
+      {
+        "rank": 0,
+        "concurrency": 1,
+        "type": "cpu",
+        "description": "cpu time",
+        "unit_value": 1,
+        "unit_repr": "sec",
+        "graph": [
+          {
+            "hash": 11474628671133349555,
+            "prefix": ">>> bar",
+            "depth": 0,
+            "entry": {
+              "cereal_class_version": 0,
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 1.16,
+              "value": 3520000000,
+              "accum": 1160000000,
+              "units": 1,
+              "display_units": "sec"
+            },
+            "rolling_hash": 11474628671133349555,
+            "stats": {
+              "cereal_class_version": 0,
+              "sum": 1.16,
+              "sqr": 1.3456,
+              "min": 1.16,
+              "max": 1.16,
+              "count": 1
+            }
+          },
+          {
+            "hash": 11906488728889656036,
+            "prefix": ">>> |_[sleep]",
+            "depth": 1,
+            "entry": {
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 0.0,
+              "value": 3520000000,
+              "accum": 0,
+              "units": 1,
+              "display_units": "sec"
+            },
+            "rolling_hash": 4934373326313453975,
+            "stats": {
+              "sum": 0.0,
+              "sqr": 0.0,
+              "min": 0.0,
+              "max": 0.0,
+              "count": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

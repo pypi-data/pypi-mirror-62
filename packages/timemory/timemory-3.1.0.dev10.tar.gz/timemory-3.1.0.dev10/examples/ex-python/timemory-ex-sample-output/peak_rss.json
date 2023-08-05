@@ -1,0 +1,62 @@
+{
+  "timemory": {
+    "ranks": [
+      {
+        "rank": 0,
+        "concurrency": 1,
+        "type": "peak_rss",
+        "description": "max resident set size",
+        "unit_value": 1000000,
+        "unit_repr": "MB",
+        "graph": [
+          {
+            "hash": 9631199822919835226,
+            "prefix": ">>> foo",
+            "depth": 0,
+            "entry": {
+              "cereal_class_version": 0,
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 0.08192,
+              "value": 61833216,
+              "accum": 81920,
+              "units": 1000000,
+              "display_units": "MB"
+            },
+            "rolling_hash": 9631199822919835226,
+            "stats": {
+              "cereal_class_version": 0,
+              "sum": 0.08192,
+              "sqr": 0.0067108864,
+              "min": 0.08192,
+              "max": 0.08192,
+              "count": 1
+            }
+          },
+          {
+            "hash": 713707590686624636,
+            "prefix": ">>> |_[fibonacci]",
+            "depth": 1,
+            "entry": {
+              "is_transient": true,
+              "laps": 1,
+              "repr_data": 0.024576,
+              "value": 61779968,
+              "accum": 24576,
+              "units": 1000000,
+              "display_units": "MB"
+            },
+            "rolling_hash": 10344907413606459862,
+            "stats": {
+              "sum": 0.024576,
+              "sqr": 0.000603979776,
+              "min": 0.024576,
+              "max": 0.024576,
+              "count": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
