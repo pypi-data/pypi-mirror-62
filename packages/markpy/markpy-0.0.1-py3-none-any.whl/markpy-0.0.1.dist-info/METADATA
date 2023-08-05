@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: markpy
+Version: 0.0.1
+Summary: A static type compiler for python
+Home-page: https://github.com/zeaphoo/markpy/
+Author: Wei Zhuo
+Author-email: zeaphoo@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: typed-ast
+Requires-Dist: sh
+Requires-Dist: parso
+Requires-Dist: click
+Requires-Dist: loguru
+Provides-Extra: dev
+Requires-Dist: pytest (>=3) ; extra == 'dev'
+
+A program style using python write static program and a compiler
+
+
