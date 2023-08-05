@@ -1,0 +1,9 @@
+aogl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aogl/__main__.py,sha256=1bo-gp0tVZOv9GGGtlrTBZ5Igfg1bBTlgHaavkubUpw,30
+aogl/aogl.py,sha256=eLGWm7OMtQQ-jydcpsx9qAt0HPmGar39p-dyyciMzrw,288
+aogl-0.1.dist-info/LICENCE,sha256=hT9twkccDzb_WaF1IAU2rAb8pVUZO1TyFHom1DveXWI,1073
+aogl-0.1.dist-info/METADATA,sha256=vL0JK2pXbua17BPdXsoHL84OZeR8otB4fxKn_8JAFic,518
+aogl-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aogl-0.1.dist-info/entry_points.txt,sha256=kSdqdnQPsxctjo2Yqlu3gGv1-LJkLm1S_mo8LN4mjko,41
+aogl-0.1.dist-info/top_level.txt,sha256=C2TlTFRD-OlPX0-ZIemZTuQ7z5q8wTBFjcKypDPNq2o,5
+aogl-0.1.dist-info/RECORD,,
