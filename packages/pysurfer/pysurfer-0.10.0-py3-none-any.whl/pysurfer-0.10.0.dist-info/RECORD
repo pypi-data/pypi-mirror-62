@@ -1,0 +1,15 @@
+pysurfer-0.10.0.data/scripts/pysurfer,sha256=dwMbBMwHt8t03jPVM7Wvg1niy5AtbuoYRVY86t8P7ZU,3890
+surfer/__init__.py,sha256=XNTtCopwkol2Qm_HINAfligBUN8D7fzls6GIuFrRulM,267
+surfer/_commandline.py,sha256=MGlSiefq8Re1J9fGfz_Vfo54sY7stKQbwJfdWd6vhXA,3630
+surfer/cm.py,sha256=F6bvhizY7aC-OsdZKNw3Uxc9Ynlh3sPySnMvyG1Na8s,44458
+surfer/io.py,sha256=me64fXQRHydlKYFyuJ_VYOQZz2b57r4XVXHqB1EmW7Q,8337
+surfer/utils.py,sha256=OIQujhx9oDWFi11o-3DqFLjZlkqMIozVY2o4WXG4sM0,26532
+surfer/viz.py,sha256=2pVibbG6QTxGRG_3d0H8pgU7GuI7rhXkFzJIeq4H14g,148243
+surfer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surfer/tests/test_utils.py,sha256=gs2tP-j_C_z_axVhfsF8aE51hSeRRarn5NknUoBefdk,4146
+surfer/tests/test_viz.py,sha256=WKTAx2ZOk5QBDof1SfXzGY0F_TOHydXvDeoo2gIMMkI,17410
+pysurfer-0.10.0.dist-info/LICENSE,sha256=spIburuUnhCXRnODAQE4nRGYdypt6VEIj2usl-uj4_0,1514
+pysurfer-0.10.0.dist-info/METADATA,sha256=lBAIkKZO-WxZv1KVxUs1PM98oCn3P70FUZpYaB1F2So,1142
+pysurfer-0.10.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pysurfer-0.10.0.dist-info/top_level.txt,sha256=3ct9nT0Ir4lZdHFnWK-08kiaeKjjbz9LsObhb6Xh0Sc,7
+pysurfer-0.10.0.dist-info/RECORD,,
