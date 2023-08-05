@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: basiclog
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Ramon Brandt
+Author-email: devramon22@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: slackclient (>=2.5.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Basic Log (basiclog)
+## Example code:
+```python
+import traceback
+import basiclog
+
+logger = basiclog.log("debug", __file__)
+
+# for slack error messages
+logger.add_slack_handler(slack_api_toke, slack_channel)
+
+logger.info("Script has been started")
+try:
+    main()
+except KeyboardInterrupt:
+    logger.info("Script has been stopped manually")
+except:
+    e = traceback.format_exc()
+    logger.error(e)
+```
