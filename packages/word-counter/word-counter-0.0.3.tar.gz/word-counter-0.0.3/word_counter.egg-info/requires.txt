@@ -1,0 +1,9 @@
+bs4
+click
+morfessor
+numpy
+polyglot
+pycld2
+pyicu
+requests
+six
