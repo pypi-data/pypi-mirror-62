@@ -1,0 +1,7 @@
+README.md
+setup.py
+spotixplore.egg-info/PKG-INFO
+spotixplore.egg-info/SOURCES.txt
+spotixplore.egg-info/dependency_links.txt
+spotixplore.egg-info/requires.txt
+spotixplore.egg-info/top_level.txt
