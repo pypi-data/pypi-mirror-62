@@ -1,0 +1,1 @@
+Modified version of [pyShelly](https://github.com/StyraHem/pyShelly) to suppor offset cover feature.

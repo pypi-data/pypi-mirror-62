@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyShellyEx
+Version: 0.1.2
+Summary: Library for Shelly smart home devices (Modified version)
+Home-page: https://github.com/GoNzCiD/pyShelly
+Author: StyraHem / Tarra AB
+Author-email: info@styrahem.se
+License: UNKNOWN
+Description: Modified version of [pyShelly](https://github.com/StyraHem/pyShelly) to suppor offset cover feature.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
