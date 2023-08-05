@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+git-remote-rclone
+pyproject.toml
+setup.cfg
+setup.py
+git_remote_rclone.egg-info/PKG-INFO
+git_remote_rclone.egg-info/SOURCES.txt
+git_remote_rclone.egg-info/dependency_links.txt
+git_remote_rclone.egg-info/top_level.txt
