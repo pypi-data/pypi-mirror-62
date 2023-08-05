@@ -1,0 +1,11 @@
+intergrid/__init__.py,sha256=PwPEWOvGqU_8rSHLrU3RfR_1PlD9J_ELSf1T0-ITnAM,27
+intergrid/intergrid.py,sha256=Lcs1zu7r7ho4_F8EC7GjhNDEiTcnRIMGw9c1CC-UoOQ,8528
+intergrid/test/19feb-test-intergrid.log,sha256=wDZuJjBNLbZEcepJbmG7LpAf5tgnaTLJjzW7hXXfOdQ,1016
+intergrid/test/test-intergrid.py,sha256=0GigQVU6efRuO4ptaWHyeqMdEwsTzg2unv5t6Xx4IiM,2618
+intergrid/test/testfuncs.py,sha256=kRuJ9bmnVJuoaq3H-QPyY88UiifTZlIbacYG_cfKmc4,2306
+intergrid/test/util.py,sha256=5UgDlqlssPcMj5DLEN2mDnYINpBbBXZlXukyEmTY_L8,437
+intergrid-2020.2.20.dist-info/LICENSE.BSD,sha256=kznNOE5e6SNdUXTUhUdlzEp9nlgEY_S4GlhBnZOwdSA,104
+intergrid-2020.2.20.dist-info/METADATA,sha256=zpbKP0Cqssu4stsuC4zgLXJTYldNUvM1exI7XjEBPxY,12634
+intergrid-2020.2.20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+intergrid-2020.2.20.dist-info/top_level.txt,sha256=bUThSSsumG8M2OkWBlFesmEt1FT1PhosveGzewAkKsQ,10
+intergrid-2020.2.20.dist-info/RECORD,,
