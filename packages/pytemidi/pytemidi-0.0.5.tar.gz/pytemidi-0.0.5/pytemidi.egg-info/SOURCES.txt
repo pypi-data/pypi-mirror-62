@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+pytemidi/__init__.py
+pytemidi/pytemidi.py
+pytemidi.egg-info/PKG-INFO
+pytemidi.egg-info/SOURCES.txt
+pytemidi.egg-info/dependency_links.txt
+pytemidi.egg-info/requires.txt
+pytemidi.egg-info/top_level.txt

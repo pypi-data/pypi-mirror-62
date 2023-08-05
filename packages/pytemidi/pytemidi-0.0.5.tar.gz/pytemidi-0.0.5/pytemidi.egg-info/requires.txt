@@ -1,0 +1,10 @@
+comtypes
+
+[dev]
+check-manifest
+
+[mido]
+mido
+
+[test]
+coverage
