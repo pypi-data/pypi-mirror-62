@@ -1,0 +1,17 @@
+multicontentsmanager/__init__.py,sha256=8S1F3C9D3353e0SZZ1HMpOPaEpXxWrmVZzB90WRLTGQ,161
+multicontentsmanager/_version.py,sha256=ELA0uM8uXUunOPyUnOWznXXllnNbgzkxizII_jT2j8M,677
+multicontentsmanager/absolute.py,sha256=47GaYXrOYjncYfBbt-P3efldrco_JUpUsPK8bTAYDKw,305
+multicontentsmanager/extension.py,sha256=CTcA4M-_Z3-opbXPNUceaOOmWsk_Uo7R2m3w3qBc3wY,1181
+multicontentsmanager/handlers.py,sha256=xCfMyZ2n4IT2Pcs6T67UlYbvn8Q_WJOq1wNarqh1Djw,269
+multicontentsmanager/metacontentsmanager.py,sha256=jgluEYWAC4IJpXajf5lrcdqRuyYR5Iksv3x4R16GXmU,5180
+multicontentsmanager/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multicontentsmanager/tests/test_extension.py,sha256=J2CPeYZY1wKJ00xk7pLwOl7QtEdjJnUPGUBSKgR9lEs,336
+multicontentsmanager/tests/test_handlers.py,sha256=2bLylA3K48mHFHePRpHkWGVwcEV-5G2k9nOaI1wiKQY,307
+multicontentsmanager/tests/test_init.py,sha256=ziEf9aD7ByY77OmVKvfnRBUKkCLxdh5D4cctDmTwuZ8,249
+multicontentsmanager-0.0.1.data/data/etc/jupyter/jupyter_notebook_config.d/multicontentsmanager.json,sha256=cHf1fV2y0tEb66UYlAGeLN3848pz3t1doP1kcrfOz48,191
+multicontentsmanager-0.0.1.data/data/share/jupyter/lab/extensions/multicontentsmanager-0.0.1.tgz,sha256=bbxSRAmWSgwSLVqJAUdWNhsZoPYJ_K1y8GC5DSM2GII,16989
+multicontentsmanager-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+multicontentsmanager-0.0.1.dist-info/METADATA,sha256=aSngTSR-PvlX4l3PAmdsmgvEbA2c2qv1oejcW_icXSI,4085
+multicontentsmanager-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+multicontentsmanager-0.0.1.dist-info/top_level.txt,sha256=HvXizsRdbnhIc6ksEyRxMKKMmhUR9-mOmkkmT77jNBY,21
+multicontentsmanager-0.0.1.dist-info/RECORD,,
