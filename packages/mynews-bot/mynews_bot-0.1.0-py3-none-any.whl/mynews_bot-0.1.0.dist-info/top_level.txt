@@ -1,0 +1,3 @@
+data
+mynews_bot
+rss_feed
