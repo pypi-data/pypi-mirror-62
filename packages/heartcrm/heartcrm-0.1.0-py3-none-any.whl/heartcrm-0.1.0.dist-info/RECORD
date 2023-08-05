@@ -1,0 +1,10 @@
+heartcrm/__init__.py,sha256=sMTUUNGR3x61iBNfEGW_navI_ZR3V08WU-5gfADPSD0,106
+heartcrm/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heartcrm/conf.py,sha256=w15Pg8K-z_XqPtjWD8ulihaQoPp_IUAyObmVtKnWBpo,1687
+heartcrm/heart.py,sha256=SJcR-U44nqY0mBcj_cRLhwU3DwmAEVtmPGNYNB25bTI,4519
+heartcrm-0.1.0.dist-info/LICENSE,sha256=QLazpaBFIGkXy4TmP-5q2Xvw1e6EzflAOcztg7xCZFU,1074
+heartcrm-0.1.0.dist-info/METADATA,sha256=odpR9g4oyW8RAOy8SgUM2bYb5rjaEX5GeVXZENG7SpA,583
+heartcrm-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+heartcrm-0.1.0.dist-info/entry_points.txt,sha256=mWmPTZL04FNfiS16QPmyo0gNu0Wlp9ttoUiOmaN-vdY,45
+heartcrm-0.1.0.dist-info/top_level.txt,sha256=xQYg4vEvuTPubK7tN7AgPVc2VUmYo-Wyagt9sNdcnfE,9
+heartcrm-0.1.0.dist-info/RECORD,,
