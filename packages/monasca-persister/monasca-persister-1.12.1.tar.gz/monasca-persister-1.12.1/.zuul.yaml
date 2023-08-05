@@ -1,0 +1,26 @@
+- project:
+    templates:
+      - openstack-python-jobs
+      - openstack-python35-jobs
+      - check-requirements
+    check:
+      jobs:
+        - monasca-tempest-python-influxdb
+        - monasca-tempest-java-influxdb
+        - monasca-tempest-python-cassandra
+        - monasca-tempest-java-cassandra
+        - openstack-tox-lower-constraints
+        - legacy-monasca-persister-maven-build
+        - openstack-tox-cover
+    gate:
+      jobs:
+        - monasca-tempest-python-influxdb
+        - monasca-tempest-java-influxdb
+        - monasca-tempest-python-cassandra
+        - monasca-tempest-java-cassandra
+        - openstack-tox-lower-constraints
+        - legacy-monasca-persister-maven-build
+        - openstack-tox-cover
+    post:
+      jobs:
+        - legacy-monasca-persister-localrepo-upload
