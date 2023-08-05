@@ -1,0 +1,3 @@
+pysftp==0.2.8
+pandas
+stomp.py
