@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: mysqlfast
+Version: 1.0
+Summary: 包中含有一个py文件
+文件中有一类MysqlZhu
+通过此类创建一个对象，初始化传入数据库的参数
+host、port、database、user、password、charset
+通过调用类execute_sql(sql)方法执行语句
+查询类会返回所有的结果
+更新修改不会有返回值。出错有异常输出
+Home-page: UNKNOWN
+Author: zhugxu
+Author-email: zhu_gxu@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
