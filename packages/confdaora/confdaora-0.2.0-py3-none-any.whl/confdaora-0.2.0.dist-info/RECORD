@@ -1,0 +1,10 @@
+confdaora/__init__.py,sha256=Sd5uLfz6hWzUQjuer-5t9S13nJsWYG_4dHcbtQPj0Ws,198
+confdaora/confdaora.py,sha256=501atMhjMk222irf6wPEnhsl5XBJhcuEXGou3oGpAww,3092
+confdaora/exceptions.py,sha256=9uksTCjfeufxsW9HB5_ZjkY6F7yMFkP2ziYqdqfGRa8,42
+confdaora/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confdaora/tests/test_dict_loader.py,sha256=X9MJIwVu1Vwgkz3ZrSM_Z_5_5ggw6cNKUl7HBLM3emo,3017
+confdaora/tests/test_environ_loader.py,sha256=DsL9tnLNcJqqYINO4xN2WyoeTEnutv6-9ors2iYylnk,630
+confdaora-0.2.0.dist-info/LICENSE,sha256=35kdDnpbs20OVMmUCDov0bMUTKFfdZ-nWgDHcho4ov8,1068
+confdaora-0.2.0.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+confdaora-0.2.0.dist-info/METADATA,sha256=CHG1BK-XjrSm-DgbB0FKc1jjE_wfRgEP8qVLhNQk8Wo,3085
+confdaora-0.2.0.dist-info/RECORD,,
