@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: dse_do_utils
+Version: 0.3.0.0
+Summary: Decision Optimization utilities for IBM Watson Studio projects
+Home-page: https://github.com/IBM/dse-decision-optimization-utilities
+Author: Victor Terpstra
+Author-email: vterpstra@us.ibm.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation :: Sphinx
