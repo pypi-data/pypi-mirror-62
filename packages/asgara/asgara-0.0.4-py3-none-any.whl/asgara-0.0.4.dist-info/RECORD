@@ -1,0 +1,8 @@
+example_pkg/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+example_pkg/asgara.py,sha256=RLLJUdHElHDhea-BZwvXZyRJ--q5Y18aoG8xFfaXbx0,397
+example_pkg/pincopallo.py,sha256=RLLJUdHElHDhea-BZwvXZyRJ--q5Y18aoG8xFfaXbx0,397
+asgara-0.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+asgara-0.0.4.dist-info/METADATA,sha256=xylY1bF2blsG9xk0TDbjBf5ndVNwxN-M1em453cTESk,598
+asgara-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+asgara-0.0.4.dist-info/top_level.txt,sha256=6z5BxHpE17rpY8UuF_FwZjTIbkRc7f6jXImHpIXC7gw,12
+asgara-0.0.4.dist-info/RECORD,,
