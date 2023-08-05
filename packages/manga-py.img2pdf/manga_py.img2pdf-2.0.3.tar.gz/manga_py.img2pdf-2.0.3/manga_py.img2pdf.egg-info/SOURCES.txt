@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+manga_py/__init__.py
+manga_py.img2pdf.egg-info/PKG-INFO
+manga_py.img2pdf.egg-info/SOURCES.txt
+manga_py.img2pdf.egg-info/dependency_links.txt
+manga_py.img2pdf.egg-info/entry_points.txt
+manga_py.img2pdf.egg-info/not-zip-safe
+manga_py.img2pdf.egg-info/requires.txt
+manga_py.img2pdf.egg-info/top_level.txt
+manga_py/img2pdf/__init__.py
+manga_py/img2pdf/image2pdf.py
+manga_py/img2pdf/meta.py
