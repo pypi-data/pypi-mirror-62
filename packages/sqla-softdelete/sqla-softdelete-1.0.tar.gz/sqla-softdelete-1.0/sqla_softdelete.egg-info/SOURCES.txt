@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+sqla-softdelete/__init__.py
+sqla-softdelete/query.py
+sqla-softdelete/soft_delete_mixin.py
+sqla_softdelete.egg-info/PKG-INFO
+sqla_softdelete.egg-info/SOURCES.txt
+sqla_softdelete.egg-info/dependency_links.txt
+sqla_softdelete.egg-info/requires.txt
+sqla_softdelete.egg-info/top_level.txt
