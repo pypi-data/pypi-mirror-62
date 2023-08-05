@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+mdc/mdc.min.js
+mdc/mdc.min.js.map
+mdc/metadata.json
+mdc/package-info.json
+zhy_dash_comp.egg-info/PKG-INFO
+zhy_dash_comp.egg-info/SOURCES.txt
+zhy_dash_comp.egg-info/dependency_links.txt
+zhy_dash_comp.egg-info/top_level.txt

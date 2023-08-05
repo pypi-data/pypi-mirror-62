@@ -1,0 +1,7 @@
+include mdc/mdc.min.js
+include mdc/mdc.min.js.map
+include mdc/metadata.json
+include mdc/package-info.json
+include README.md
+include LICENSE
+include package.json
