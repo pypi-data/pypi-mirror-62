@@ -1,0 +1,9 @@
+README.rst
+setup.py
+treewatcher/__init__.py
+treewatcher/treewatcher.py
+treewatcher.egg-info/PKG-INFO
+treewatcher.egg-info/SOURCES.txt
+treewatcher.egg-info/dependency_links.txt
+treewatcher.egg-info/requires.txt
+treewatcher.egg-info/top_level.txt
