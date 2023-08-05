@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+spotify_bot/__init__.py
+spotify_bot/bot.py
+spotify_bot.egg-info/PKG-INFO
+spotify_bot.egg-info/SOURCES.txt
+spotify_bot.egg-info/dependency_links.txt
+spotify_bot.egg-info/entry_points.txt
+spotify_bot.egg-info/requires.txt
+spotify_bot.egg-info/top_level.txt
