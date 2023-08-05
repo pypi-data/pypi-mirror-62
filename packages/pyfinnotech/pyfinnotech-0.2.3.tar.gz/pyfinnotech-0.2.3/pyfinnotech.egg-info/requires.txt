@@ -1,0 +1,8 @@
+requests
+restfulpy==0.40.1
+nanohttp==0.26.1
+pymlconf==0.8.6
+
+[test]
+nose
+codecov
