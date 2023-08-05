@@ -1,0 +1,13 @@
+edx_dl/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+edx_dl/_version.py,sha256=WBOcXh8XZ4FNX3RRgliAF5LcxRZyjlt2fyuSPGfwP98,23
+edx_dl/common.py,sha256=u-b-xJ-bHPpqh7LYaaVtC_oCd7XZakBWdJcLWBWqsGY,5002
+edx_dl/edx_dl.py,sha256=FkKzEtGn0J7OJ7T9wM5CPsaAnjF9csP5tXwYLzNK7Fo,37795
+edx_dl/parsing.py,sha256=WvkDogLkDJSRcePBGe2jy2nxND6blnOeHuT-WHyxok4,17363
+edx_dl/utils.py,sha256=A8VuuCfwYpP4mgXF084g7Ip4G-JUlL-w19zSbxLb-hU,4085
+edx_dl-0.1.12.dist-info/AUTHORS.md,sha256=BKDaxpafk_-hZNUmZctwg3l3EeFTXElehz2wKn5gsDw,608
+edx_dl-0.1.12.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+edx_dl-0.1.12.dist-info/METADATA,sha256=b_LLwaxrqlJ2Up2iBszW2_aUP0ku1aaZRAepp3CoBiw,6508
+edx_dl-0.1.12.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+edx_dl-0.1.12.dist-info/entry_points.txt,sha256=KDpNIq_bDVP1RWd_s-Refprr9tXdNa7YFcP5qcdawTQ,47
+edx_dl-0.1.12.dist-info/top_level.txt,sha256=kj4oFXwq6RcEVmN_-T8iNg4o7S0R_W_j9ovmwBtottU,7
+edx_dl-0.1.12.dist-info/RECORD,,
