@@ -1,0 +1,17 @@
+README.md
+serve-imagenet-dir
+serve-imagenet-shards
+setup.py
+tensormon
+tensorshow
+tensorstat
+tensorcom/__init__.py
+tensorcom/tenbin.py
+tensorcom/zcom.py
+tensorcom.egg-info/PKG-INFO
+tensorcom.egg-info/SOURCES.txt
+tensorcom.egg-info/dependency_links.txt
+tensorcom.egg-info/requires.txt
+tensorcom.egg-info/top_level.txt
+test/test_tenbin.py
+test/test_zcom.py
