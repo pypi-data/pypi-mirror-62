@@ -1,0 +1,11 @@
+CHANGES.md
+MANIFEST.in
+README.md
+setup.py
+tslite/__init__.py
+tslite/database.py
+tslite.egg-info/PKG-INFO
+tslite.egg-info/SOURCES.txt
+tslite.egg-info/dependency_links.txt
+tslite.egg-info/not-zip-safe
+tslite.egg-info/top_level.txt
