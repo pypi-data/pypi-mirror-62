@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: trajectory
+Version: 0.1.1
+Summary: Trajectory data lossy compression format based on Google's Encoded Polyline Algorithm Format
+Home-page: https://github.com/adonmo/trajectory
+License: MIT
+Keywords: geo,gis,postgres,mobility,trajectory,spatiotemporal
+Author: B Krishna Chaitanya
+Author-email: bkchaitan94@gmail.com
+Requires-Python: >=3.6
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: six (>=1.14.0,<2.0.0)
+Project-URL: Documentation, https://github.com/adonmo/trajectory
+Project-URL: Repository, https://github.com/adonmo/trajectory
+Description-Content-Type: text/x-rst
+
+.. image:: https://github.com/adonmo/trajectory/workflows/Tests/badge.svg
+   :target: https://github.com/adonmo/trajectory/actions
+   :alt: Test Status
+
+.. image:: https://img.shields.io/pypi/dm/trajectory.svg
+   :target: https://pypistats.org/packages/trajectory
+   :alt: PyPI downloads
+
+.. image:: https://img.shields.io/github/license/adonmo/trajectory.svg
+   :target: https://github.com/adonmo/trajectory/blob/master/LICENSE
+   :alt: MIT License
+
+trajectory
+============
+
+``trajectory`` is a library for lossy compression of trajectory data based on Google's Encoded Polyline Algorithm Format (http://goo.gl/PvXf8Y). It is heavily based on (in fact forked from) https://github.com/hicsail/polyline.
+
+Installation
+============
+
+``trajectory`` can be installed using ``pip`` or ``easy_install``
+
+.. code-block:: sh
+
+    $ pip install trajectory
+    or
+    $ easy_install trajectory
+
+API Documentation
+=================
+
+Encoding
+--------
+
+To serialize a trajectory (set of (lat, lon, unix time in seconds) tuples)
+
+.. code-block:: py
+
+    import trajectory
+    trajectory.encode([
+        (38.500, -120.200, 1582482601),
+        (40.700, -120.950, 1582482611),
+        (43.252, -126.453, 1582482627)
+    ], 5)
+
+This should return ``_p~iF~ps|U_ynpijgz~G_ulLnnqC_c`|@_mqNvxq`@__t`B``.
+
+You can set the required precision with the optional ``precision`` parameter. The default value is 5.
+
+Decoding
+--------
+
+To deserialize a trajectory (set of (lat, lon, unix time in seconds) tuples) represented by an encoded string
+
+.. code-block:: py
+
+    import trajectory
+    trajectory.decode('_p~iF~ps|U_ynpijgz~G_ulLnnqC_c`|@_mqNvxq`@__t`B', 5)
+
+This should return the following:
+
+.. code-block:: py
+
+    [
+        (38.500, -120.200, 1582482601),
+        (40.700, -120.950, 1582482611),
+        (43.252, -126.453, 1582482627)
+    ]
+
+You can set the required precision with the optional ``precision`` parameter. The default value is 5.
+
+
+Development
+===========
+
+Setup Dependencies
+------------------
+
+.. code-block:: sh
+
+    $ poetry install
+
+Running Tests
+-------------
+
+.. code-block:: sh
+
+    $ poetry run pytest
+
+Contributing
+------------
+
+Issues and pull requests are welcome.
+
+* For proposing new features/improvements or reporting bugs, `create an issue <https://github.com/adonmo/trajectory/issues/new/choose>`_.
+* Check `open issues <https://github.com/adonmo/trajectory/issues>`_ for viewing existing ideas, verify if it is already proposed/being worked upon.
+* When implementing new features make sure to add relavant tests and documentation before sending pull requests.
+
