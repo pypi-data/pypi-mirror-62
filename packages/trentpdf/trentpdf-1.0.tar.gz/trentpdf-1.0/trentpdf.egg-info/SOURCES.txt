@@ -1,0 +1,9 @@
+README.md
+setup.py
+trentpdf/__init__.py
+trentpdf/pdf2image.py
+trentpdf/pdf2text.py
+trentpdf.egg-info/PKG-INFO
+trentpdf.egg-info/SOURCES.txt
+trentpdf.egg-info/dependency_links.txt
+trentpdf.egg-info/top_level.txt
