@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: faable
+Version: 1.0.0
+Summary: Faable APIs from python
+Home-page: https://github.com/faable/api-python
+Author: Faable
+Author-email: marc@faable.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Faable Python APIs
+
+
+
