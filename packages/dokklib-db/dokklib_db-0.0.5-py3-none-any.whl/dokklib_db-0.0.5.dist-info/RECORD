@@ -1,0 +1,13 @@
+dokklib_db/__init__.py,sha256=gC0xvDznOfk--Ja3m7pd7jykYvWkJ91msIe1FDuJ6E8,667
+dokklib_db/index.py,sha256=qBLztgGUC_CSWUXhVGcJO0QS5XJ9TdM76IMpeZU_358,1546
+dokklib_db/keys.py,sha256=buhnJF8KAdSMqfvEz_X6EVh5F0KDeFkylN40lO7C4s4,3586
+dokklib_db/op_args.py,sha256=xu_5Do5h3HmnujaijvMaWTTyMMqej1QoTR0KkQidYpk,14841
+dokklib_db/table.py,sha256=Y5sR4AJanUYtqYAviV1d1cQTOSMlK6UxnQWJBkiLPzE,13415
+dokklib_db-0.0.5.data/data/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dokklib_db-0.0.5.data/data/NOTICE,sha256=3J31SpCp1jwqJ0BkqZynQqAlIoLJCdRdd4iym63eEl4,59
+dokklib_db-0.0.5.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dokklib_db-0.0.5.dist-info/METADATA,sha256=6i4j81Q-a3RGn5E9g__B9XN2H3-gh-tVS3awreyz3n4,2706
+dokklib_db-0.0.5.dist-info/NOTICE,sha256=3J31SpCp1jwqJ0BkqZynQqAlIoLJCdRdd4iym63eEl4,59
+dokklib_db-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dokklib_db-0.0.5.dist-info/top_level.txt,sha256=B4rlO076tLz7rqGkkhM9IUDSIHpgAsUgKwMAq8v9n70,11
+dokklib_db-0.0.5.dist-info/RECORD,,
