@@ -1,0 +1,15 @@
+QV/__init__.py,sha256=fnxScKj7a6U0WouAWCFyTRtBSBGkdrKuvRX7M5Y2tcs,610
+QV/context.py,sha256=csRp4gvnU6Sn3MbgU1Ntll4DACXEWHvvwSTV0SFskd0,8877
+QV/dimension.py,sha256=gyeUXhTZjwcSceRreJnXZODP45jWRki4Z_gRuakI8-o,6678
+QV/kind_of_quantity.py,sha256=ATdriGEbIWJVPHeZqiNV_nMxDobBGx8ltiORJbVvOg8,6913
+QV/prefix.py,sha256=iz0eAKsovmuBP-kYpzzCqgByFKJQSgiOwaH4BPWSIkE,7396
+QV/quantity_value.py,sha256=rhWzYyV0hq6rFGx5YgTtd1MZFnVkCFb-_QICwx6Aa7k,13514
+QV/scale.py,sha256=m7XupqwZPxJlCy7mAqjNOh-pbujH4Ouy-GYeA-6RUG8,10961
+QV/unit_register.py,sha256=c48O7OcGnnLd5TcvCKUPBsgB6T8fWAugKM30kSz7GQ4,8349
+QV/units_dict.py,sha256=-XbILY9S_ErIbRv31cwsIpijctRDMiLdwvbprKOKDIc,2050
+Quantity_Value-0.1.0.dist-info/AUTHORS.rst,sha256=lEOkBj3AbUA2FE6nh-jyKM9sX7c-bXUAIl7FRGfNtXg,47
+Quantity_Value-0.1.0.dist-info/LICENSE,sha256=v0jGzfP_5XSeXLjlsFRdAoZCkZmvxxZt7PvCwaEd6qo,1104
+Quantity_Value-0.1.0.dist-info/METADATA,sha256=pyTiTXHKrqn-uCLNgE_pIhx3cp1Bb1QvYUOmgjd7AYY,3907
+Quantity_Value-0.1.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+Quantity_Value-0.1.0.dist-info/top_level.txt,sha256=yF5cC1jDFwE8apGYwLV56w7YRgn0exbfVtCZjeU5FsA,3
+Quantity_Value-0.1.0.dist-info/RECORD,,
