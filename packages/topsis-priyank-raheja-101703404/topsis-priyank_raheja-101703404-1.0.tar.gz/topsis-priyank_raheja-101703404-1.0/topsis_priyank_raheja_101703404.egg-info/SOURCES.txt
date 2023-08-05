@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+TOPSIS_package/cli.py
+topsis_priyank_raheja_101703404.egg-info/PKG-INFO
+topsis_priyank_raheja_101703404.egg-info/SOURCES.txt
+topsis_priyank_raheja_101703404.egg-info/dependency_links.txt
+topsis_priyank_raheja_101703404.egg-info/entry_points.txt
+topsis_priyank_raheja_101703404.egg-info/requires.txt
+topsis_priyank_raheja_101703404.egg-info/top_level.txt
