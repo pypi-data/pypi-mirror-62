@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: atl-cache-warmer
+Version: 0.1
+Summary: Little script to warm up confluence and jira caches to make it more responsive
+Home-page: UNKNOWN
+Author: np-at
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# atl_cache_warmer
+Little script to log in and warm up the cache of Jira or Confluence instances (just a basic http request)
+
+
