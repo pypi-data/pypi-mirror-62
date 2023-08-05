@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+linggle_leap/__init__.py
+linggle_leap.egg-info/PKG-INFO
+linggle_leap.egg-info/SOURCES.txt
+linggle_leap.egg-info/dependency_links.txt
+linggle_leap.egg-info/requires.txt
+linggle_leap.egg-info/top_level.txt
+linggle_leap/Linggle/__init__.py
+linggle_leap/Linggle/api.py
+linggle_leap/Linggle/config.py
