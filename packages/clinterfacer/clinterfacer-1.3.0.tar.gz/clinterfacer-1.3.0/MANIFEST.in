@@ -1,0 +1,4 @@
+include sources/clinterfacer/resources/logging.template.ini
+include sources/clinterfacer/resources/__main__.template.py
+include sources/clinterfacer/resources/commands/command.template.py
+include sources/clinterfacer/resources/subparsers/command.template.py

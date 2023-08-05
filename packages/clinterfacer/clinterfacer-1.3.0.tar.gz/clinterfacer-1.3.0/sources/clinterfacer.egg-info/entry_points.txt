@@ -1,0 +1,3 @@
+[console_scripts]
+clinterfacer = clinterfacer.__main__:main
+
