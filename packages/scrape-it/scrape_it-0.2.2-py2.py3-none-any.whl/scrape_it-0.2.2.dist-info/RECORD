@@ -1,0 +1,11 @@
+scrape_it.py,sha256=2ET-cyXD4WBRXoYK6uZ1qep8NS38oFtPEsEdym1cRbk,18387
+scrape_it/__init__.py,sha256=WZjfSLnww2gtyMBQeV2Do3vgzmj7sU9xWdPKcKlbfrU,1710
+scrape_it/correct_base.py,sha256=_iNbHih9G9_lGXvVMJPbseLILdaG1DiP-X-YhpzvBgA,3377
+scrape_it/models.py,sha256=hMSEJrWWwli8MoIHXXgsEk4OhwLGrHFUdINQO_MPE0Q,1641
+scrape_it/run.py,sha256=u3ggJsLiGayEAbBS4DIQC7UooDtquv09nY2gnttCemc,140
+scrape_it/scrape_it.py,sha256=5tSkhCarYaneEVAcoA2joEGLC9CbGOGlqBqLUP2m9Nk,18409
+scrape_it/scrape_policy_text.py,sha256=y-VGB4rYLhfW1C953AoYA5UC89Cxj_X0BG5rCtlYeDA,20328
+scrape_it-0.2.2.dist-info/METADATA,sha256=Q3CiAJ5fR0IbyLmvuXXfBaAOZuApykMUAV1v70_NpKw,3809
+scrape_it-0.2.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+scrape_it-0.2.2.dist-info/top_level.txt,sha256=Dmmseln4743tdw3RItDdyA5y1VYMewNygiT1Jz1_ShM,10
+scrape_it-0.2.2.dist-info/RECORD,,
