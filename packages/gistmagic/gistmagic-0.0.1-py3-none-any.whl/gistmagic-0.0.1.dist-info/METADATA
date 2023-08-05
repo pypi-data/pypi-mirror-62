@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gistmagic
+Version: 0.0.1
+Summary: History to Gist - line magic for Ipython
+Home-page: https://github.com/rbagrov/GistMagic
+Author: Rostislav Bagrov
+Author-email: bagrov.rostislav@gmail.com
+License: MIT
+Keywords: ipython gist magic
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: ipython (>=7)
+Requires-Dist: PyGithub (>=1.46)
+
+
+# GistMagic
+
+This package performs upload to GitHub Gist of last X lines of your Ipython session history.
+
+
+## Quickstart
+
+```ipython
+!pip install gistmagic
+%load_ext gistmagic
+...
+%gistmagic -5
+```
+
+# Install
+
+```bash
+pip install gistmagic
+```
+
+
