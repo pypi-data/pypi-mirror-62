@@ -1,0 +1,7 @@
+setup.py
+numerica/__init__.py
+numerica.egg-info/PKG-INFO
+numerica.egg-info/SOURCES.txt
+numerica.egg-info/dependency_links.txt
+numerica.egg-info/not-zip-safe
+numerica.egg-info/top_level.txt
