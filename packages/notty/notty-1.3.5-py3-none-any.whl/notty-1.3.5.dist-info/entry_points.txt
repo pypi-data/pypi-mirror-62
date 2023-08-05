@@ -1,0 +1,3 @@
+[console_scripts]
+notty=notty.app:main
+
