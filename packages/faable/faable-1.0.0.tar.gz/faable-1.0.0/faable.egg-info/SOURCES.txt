@@ -1,0 +1,6 @@
+README.md
+setup.py
+faable.egg-info/PKG-INFO
+faable.egg-info/SOURCES.txt
+faable.egg-info/dependency_links.txt
+faable.egg-info/top_level.txt
