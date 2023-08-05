@@ -1,0 +1,6 @@
+appdirs
+stringcase
+colorama
+ruamel.yaml
+aiohttp
+precept>=0.6.3
