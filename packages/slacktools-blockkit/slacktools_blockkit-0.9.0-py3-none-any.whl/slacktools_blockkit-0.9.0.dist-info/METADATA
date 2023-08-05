@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: slacktools-blockkit
+Version: 0.9.0
+Summary: UNKNOWN
+Home-page: https://github.com/danpoland/slacktools-blockkit
+Author: Daniel Poland
+Author-email: dan@crispy.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+A zero dependency package that makes working with Slack's block-kit UI framework (https://api.slack.com/block-kit) less painful.
+
+
