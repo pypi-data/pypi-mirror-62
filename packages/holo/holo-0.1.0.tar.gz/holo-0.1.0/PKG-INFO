@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: holo
+Version: 0.1.0
+Summary: Holo is a library provides overload like cpp
+Home-page: https://github.com/Na0ture/holo
+Keywords: overload
+Author: lvzhi
+Author-email: 279094354@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/Na0ture/holo
