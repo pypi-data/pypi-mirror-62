@@ -1,0 +1,53 @@
+Metadata-Version: 2.0
+Name: pynidm
+Version: 0.6.dev0
+Summary: PYNIDM: a Python NIDM library and tools
+Home-page: https://github.com/incf-nidash/PyNIDM
+Author: INCF-NIDASH developers
+Author-email: incf-nidash-nidm@googlegroups.com
+Maintainer: INCF-NIDASH developers
+Maintainer-email: incf-nidash-nidm@googlegroups.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: click
+Requires-Dist: datalad
+Requires-Dist: duecredit
+Requires-Dist: fuzzywuzzy
+Requires-Dist: graphviz
+Requires-Dist: graphviz
+Requires-Dist: neurdflib
+Requires-Dist: ontquery
+Requires-Dist: ontquery (>=0.2.2)
+Requires-Dist: orthauth (>=0.0.8)
+Requires-Dist: pandas
+Requires-Dist: prov
+Requires-Dist: pybids
+Requires-Dist: pydot
+Requires-Dist: pydotplus
+Requires-Dist: pygithub
+Requires-Dist: pyld
+Requires-Dist: pytest
+Requires-Dist: python-Levenshtein
+Requires-Dist: rdflib-jsonld
+Requires-Dist: requests
+Requires-Dist: tabulate
+Requires-Dist: validators
+
+NIDM
+========
+A Python library to manipulate the [Neuroimaging Data Model](http://nidm.nidash.org).
+License
+=======
+``pynidm`` is licensed under the terms of the Apache License 2.0. See the file
+"LICENSE" for information on the history of this software, terms & conditions
+for usage, and a DISCLAIMER OF ALL WARRANTIES.
+
+

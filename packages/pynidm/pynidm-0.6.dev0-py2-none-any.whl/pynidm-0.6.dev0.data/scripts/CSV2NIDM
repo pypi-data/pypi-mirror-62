@@ -1,0 +1,7 @@
+#!/Users/dbkeator/anaconda/bin/python
+
+import sys
+from nidm.experiment.tools.CSV2NIDM import main
+
+if __name__ == "__main__":
+    main(sys.argv)
