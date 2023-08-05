@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+serverless_event_mocks/__init__.py
+serverless_event_mocks/event.py
+serverless_event_mocks.egg-info/PKG-INFO
+serverless_event_mocks.egg-info/SOURCES.txt
+serverless_event_mocks.egg-info/dependency_links.txt
+serverless_event_mocks.egg-info/top_level.txt
