@@ -1,0 +1,30 @@
+"localhost":
+    "localhost":
+        - ping
+"Host":
+    "*":
+        - ping
+"Chat":
+    "chat.*":
+        - ping
+    "xmpp.*":
+        - ping
+"Files":
+    "files.*":
+        - ping
+"Mail":
+    "imap.*":
+        - ping
+    "smtp.*":
+        - ping
+    "pop.*":
+        - ping
+"Tunnel":
+    "*":
+        - ping
+"Social":
+    "social.*":
+        - ping
+"Sync":
+    "sync.*":
+        - ping
