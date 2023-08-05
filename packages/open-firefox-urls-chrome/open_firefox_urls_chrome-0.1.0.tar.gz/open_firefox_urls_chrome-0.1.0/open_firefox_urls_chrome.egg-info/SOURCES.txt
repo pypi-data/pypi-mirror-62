@@ -1,0 +1,9 @@
+README.md
+open_firefox_urls_chrome.py
+setup.py
+open_firefox_urls_chrome.egg-info/PKG-INFO
+open_firefox_urls_chrome.egg-info/SOURCES.txt
+open_firefox_urls_chrome.egg-info/dependency_links.txt
+open_firefox_urls_chrome.egg-info/entry_points.txt
+open_firefox_urls_chrome.egg-info/requires.txt
+open_firefox_urls_chrome.egg-info/top_level.txt
