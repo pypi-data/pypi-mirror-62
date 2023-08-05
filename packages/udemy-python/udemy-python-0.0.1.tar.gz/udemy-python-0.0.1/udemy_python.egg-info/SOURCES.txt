@@ -1,0 +1,10 @@
+README.md
+setup.py
+udemy/__init__.py
+udemy/api.py
+udemy/errors.py
+udemy/models.py
+udemy_python.egg-info/PKG-INFO
+udemy_python.egg-info/SOURCES.txt
+udemy_python.egg-info/dependency_links.txt
+udemy_python.egg-info/top_level.txt
