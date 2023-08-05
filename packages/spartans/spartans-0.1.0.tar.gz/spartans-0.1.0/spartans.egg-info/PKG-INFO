@@ -1,0 +1,67 @@
+Metadata-Version: 1.2
+Name: spartans
+Version: 0.1.0
+Summary: Sparse Tools for Analysis
+Home-page: https://github.com/Sentinel-One/spartans
+Author: Sentinel-One, Dean Langsam
+Author-email: deanla@gmail.com
+License: GNU General Public License v3
+Description: ========
+        Spartans
+        ========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/spartans.svg
+                :target: https://pypi.python.org/pypi/spartans
+        
+        .. image:: https://img.shields.io/travis/Sentinel-One/spartans.svg
+                :target: https://travis-ci.com/Sentinel-One/spartans
+        
+        .. image:: https://readthedocs.org/projects/spartans/badge/?version=latest
+                :target: https://spartans.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Sparse Tools for Analysis
+        
+        
+        * Free software: GNU General Public License v3
+        * Documentation: https://spartans.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-02-20)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: spartans,sparse,matrix,features
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
