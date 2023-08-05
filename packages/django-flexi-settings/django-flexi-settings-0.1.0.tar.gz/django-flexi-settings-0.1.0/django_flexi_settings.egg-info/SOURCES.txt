@@ -1,0 +1,14 @@
+.gitignore
+.gitlab-ci.yml
+README.md
+setup.py
+django_flexi_settings.egg-info/PKG-INFO
+django_flexi_settings.egg-info/SOURCES.txt
+django_flexi_settings.egg-info/dependency_links.txt
+django_flexi_settings.egg-info/entry_points.txt
+django_flexi_settings.egg-info/not-zip-safe
+django_flexi_settings.egg-info/requires.txt
+django_flexi_settings.egg-info/top_level.txt
+flexi_settings/__init__.py
+flexi_settings/loaders.py
+flexi_settings/settings.py
