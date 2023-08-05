@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_quicktools/Binomialdistribution.py
+distributions_quicktools/Gaussiandistribution.py
+distributions_quicktools/Generaldistribution.py
+distributions_quicktools/__init__.py
+distributions_quicktools.egg-info/PKG-INFO
+distributions_quicktools.egg-info/SOURCES.txt
+distributions_quicktools.egg-info/dependency_links.txt
+distributions_quicktools.egg-info/not-zip-safe
+distributions_quicktools.egg-info/top_level.txt
