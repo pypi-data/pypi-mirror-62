@@ -1,0 +1,77 @@
+- project:
+    templates:
+      - check-requirements
+      - openstack-cover-jobs-neutron
+      - openstack-lower-constraints-jobs-neutron
+      - openstack-python3-ussuri-jobs-neutron
+      - periodic-stable-jobs-neutron
+      - publish-openstack-docs-pti
+      - release-notes-jobs-python3
+    check:
+      jobs:
+        - neutron-vpnaas-dsvm-functional-sswan
+        - neutron-tempest-plugin-vpnaas
+        - neutron-tempest-plugin-vpnaas-libreswan-centos:
+            # TODO(mlavalle) switch to voting when this job is moved to Centos
+            # 8
+            voting: false
+    gate:
+      jobs:
+        - neutron-vpnaas-dsvm-functional-sswan
+        - neutron-tempest-plugin-vpnaas
+        # TODO(mlavalle) uncomment following line  when the job is moved to
+        # Centos 8
+        # - neutron-tempest-plugin-vpnaas-libreswan-centos
+    experimental:
+      jobs:
+        - neutron-vpnaas-dsvm-rally
+
+- job:
+    name: neutron-tempest-plugin-vpnaas-libreswan-centos
+    parent: neutron-tempest-plugin-vpnaas
+    nodeset: devstack-single-node-centos-7
+    vars:
+      devstack_localrc:
+        IPSEC_PACKAGE: libreswan
+        USE_PYTHON3: false
+      # VPNaaS 4in6 and 6in4 scenarios would fail after LibreSwan 3.18.
+      # Base node using Libreswan 3.20 on CentOS 7.4.
+      # Refer to https://github.com/libreswan/libreswan/issues/175.
+      devstack_local_conf:
+        test-config:
+          $TEMPEST_CONFIG:
+            neutron_vpnaas_plugin_options:
+              skip_4in6_6in4_tests: true
+
+- job:
+    name: neutron-vpnaas-dsvm-functional-sswan
+    parent: legacy-dsvm-base
+    run: playbooks/legacy/neutron-vpnaas-dsvm-functional-sswan/run.yaml
+    post-run: playbooks/legacy/neutron-vpnaas-dsvm-functional-sswan/post.yaml
+    timeout: 7800
+    required-projects:
+      - openstack/devstack-gate
+      - openstack/neutron
+      - openstack/neutron-vpnaas
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^neutron_vpnaas/tests/unit/.*$
+      - ^releasenotes/.*$
+
+- job:
+    name: neutron-vpnaas-dsvm-rally
+    parent: legacy-dsvm-base
+    run: playbooks/legacy/neutron-vpnaas-dsvm-rally/run.yaml
+    post-run: playbooks/legacy/neutron-vpnaas-dsvm-rally/post.yaml
+    timeout: 7800
+    required-projects:
+      - openstack/devstack-gate
+      - openstack/neutron
+      - openstack/neutron-vpnaas
+      - openstack/rally
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^neutron_vpnaas/tests/unit/.*$
+      - ^releasenotes/.*$
