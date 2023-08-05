@@ -1,0 +1,8 @@
+curatedmetagenomicdataloader/__init__.py,sha256=iJwWpsv2qT9iowX5bY0iSHek-L2DfQxyhxaCUV-8Rt0,1938
+curatedmetagenomicdataloader/loader.py,sha256=LouoTykhxahAl5KfOCw04IzLEe4JOLuqJnVUKpAEpCU,16017
+curatedmetagenomicdataloader/loader_test.py,sha256=mWXR8bHtOvr8WN65FWDlIIr7hZS9eKgldYIVvFPUZcU,3507
+curatedmetagenomicdataloader/metadata.py,sha256=rxKGjNWebwze89_rmMLEjcytIlkuziDI8aVpDF3HNfE,879
+curatedmetagenomicdataloader-0.1.1.dist-info/LICENSE,sha256=mSy8c3rq-0YA3k_2Vry3PcIunmC-J23p3f4D6aeUksM,1066
+curatedmetagenomicdataloader-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+curatedmetagenomicdataloader-0.1.1.dist-info/METADATA,sha256=Qi5Ihl3fzZJVwCWusyA9BKlEyvgNeAaFfiQ1LTHFfk0,784
+curatedmetagenomicdataloader-0.1.1.dist-info/RECORD,,
