@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: MLcommon
+Version: 0.1
+Summary: Common interface for Machine Learning models with explicit model protocol
+Home-page: https://jarbest@bitbucket.org/jarbest/mlcommon.git
+Author: Juan Carlos Arbeláez
+Author-email: juanarbelaez@vaico.com.co
+License: UNKNOWN
+Download-URL: https://bitbucket.org/jarbest/mlcommon/get/v01.tar.gz
+Description: UNKNOWN
+Keywords: VAICO,COMMON,ML
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
