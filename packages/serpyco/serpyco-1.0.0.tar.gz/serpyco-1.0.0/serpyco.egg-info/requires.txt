@@ -1,0 +1,4 @@
+python-dateutil
+python-rapidjson
+typing-inspect
+dataclasses;python_version<'3.7'
