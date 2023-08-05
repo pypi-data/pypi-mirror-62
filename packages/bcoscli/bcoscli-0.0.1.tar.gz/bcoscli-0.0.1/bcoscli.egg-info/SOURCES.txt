@@ -1,0 +1,11 @@
+README.md
+setup.py
+bcoscli/__init__.py
+bcoscli/commands.py
+bcoscli/config.py
+bcoscli.egg-info/PKG-INFO
+bcoscli.egg-info/SOURCES.txt
+bcoscli.egg-info/dependency_links.txt
+bcoscli.egg-info/entry_points.txt
+bcoscli.egg-info/requires.txt
+bcoscli.egg-info/top_level.txt
