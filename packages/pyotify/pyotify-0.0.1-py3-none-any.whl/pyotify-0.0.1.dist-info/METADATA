@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pyotify
+Version: 0.0.1
+Summary: Fully-featured library to interact with the Spotify Web API
+Home-page: https://github.com/paunzz/pyotify
+Author: Bogdan Paunovic
+Author-email: bogdanbokipaunovic@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.22.0)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# pyotify
+#### A fully-featured Python library for the Spotify Web API
+
+## Installation
+
+    pip install pyotify
+
+## Quick Start
+
+An example can be found in the [main.py](/pyotify/main.py) file.
+
+To get started, install pyotify and create an app on https://developers.spotify.com/.
+
+Add your app ID and SECRET to your environment.
+
+Then, using the `os.getenv()` method, get the app ID and SECRET.
+
+Finally pass both parameters to the 'Spotify' class.
+
+## Reporting Issues
+
+If you have suggestions, bugs or other issues specific to this library, file them [here](https://github.com/paunzz/pyotify/issues). Or just send me a pull request.
+
+

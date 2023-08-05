@@ -1,0 +1,10 @@
+pyotify/__init__.py,sha256=kRhBUbtJ2AV2s7StpLtyvzuepmMexRohS3nVbOozwZY,85
+pyotify/auth.py,sha256=HWftu91YVCRD-VyX9HFCsSGu42gyDwTP8pvudwn1418,4308
+pyotify/client.py,sha256=V5ZDBOtS-eAZM_7pcfwYbt4A5yyi6y4o4oUPl9GUWQ8,14473
+pyotify/main.py,sha256=aqzJmMRpqfWSNEw_0oVusAQF-P0R8RlLVZ5DRpxuPmo,232
+pyotify/utils.py,sha256=Z6YwMaGv_jT7HUd5Uqi1cvCASgcB7pto-gKWns6jXjM,739
+pyotify-0.0.1.dist-info/LICENSE,sha256=gfGyME14F6DhkR5CK_fFQwn0MhBOXmBogp2HkIp-ypc,1093
+pyotify-0.0.1.dist-info/METADATA,sha256=-kVOEuBuDbZJ_jsgifWKa7CG7YM-TkVrkteKc8Umw6c,1613
+pyotify-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pyotify-0.0.1.dist-info/top_level.txt,sha256=59BAiBHiSnCqfc25ihxWXWLQX7u2w3YDz9djj22XB5A,8
+pyotify-0.0.1.dist-info/RECORD,,
