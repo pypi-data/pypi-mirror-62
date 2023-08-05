@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: thiscn
+Version: 0.0.2
+Summary: The zen of Python, English and Chinese.
+Home-page: https://github.com/toyourheart163/thiscn
+Author: Mikele
+Author-email: blive200@gmail.com
+License: UNKNOWN
+Description: # The zen of Python, English and Chinese.
+        
+        ## install
+        
+        ```bash
+        pip install thiscn
+        ```
+        
+        ## use
+        
+        ```python
+        import thiscn
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
