@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+mpl_font/__init__.py
+mpl_font/noto.py
+mpl_font/wqy.py
+mpl_font.egg-info/PKG-INFO
+mpl_font.egg-info/SOURCES.txt
+mpl_font.egg-info/dependency_links.txt
+mpl_font.egg-info/requires.txt
+mpl_font.egg-info/top_level.txt
+mpl_font/fonts/noto/NotoSansCJKsc-Bold.otf
+mpl_font/fonts/noto/NotoSansCJKsc-Light.otf
+mpl_font/fonts/noto/NotoSansCJKsc-Medium.otf
+mpl_font/fonts/noto/NotoSansCJKsc-Regular.otf
+mpl_font/fonts/wqy/wqy-microhei.ttc
