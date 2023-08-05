@@ -1,0 +1,6 @@
+doreah>=1.4.5
+wand>=0.5.4
+pillow>=7.0.0
+suvorov>=0.6.0
+oyaml
+vermeer>=0.1.0
