@@ -1,0 +1,17 @@
+digiarch/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+digiarch/_data/blacklist.json,sha256=NGFyMGmtZHzRtxec_L6b9EpgT5kYoL9iPqJCK9i6bUE,1683
+digiarch/cli.py,sha256=jlnqVDIekzIQMM5LCq86cYBR-_81p1I1ptForKwd01E,3723
+digiarch/data.py,sha256=t6wHq1CaW8hlhGeO43zrcWtI-GxQO_mXPYTcWhstYnE,7251
+digiarch/identify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digiarch/identify/checksums.py,sha256=QLwFLFPSaDMdl07wsDoFTqNgWAlOACcgCHQrrSDS_yI,4328
+digiarch/identify/identify_files.py,sha256=A0MK1OYvasT5co_qv3bnZJrlrLxLJ8dZCV_n5b_odFE,3149
+digiarch/identify/reports.py,sha256=2ZtVUKrpzu8kbkINUFbAK8-MJaOGDJOqBdAHYNBrG6o,1474
+digiarch/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+digiarch/utils/exceptions.py,sha256=ENM7vkjW2tozHtIUWqqMabCd3utQFMEThlw3f5O3MjI,595
+digiarch/utils/group_files.py,sha256=VXQJSwe7Zom0Mowpy9JqR8vEkEO9VCQbDxP939oGbPo,1215
+digiarch/utils/path_utils.py,sha256=er4mBD8DjNMMrnRqid5hBKI_gIkk_JHk_5xUj7Vlx88,2694
+digiarch-0.4.0.dist-info/entry_points.txt,sha256=3VB9VDdYTNkLLf7HTJvZASamqtUJpEQ_SGOqk8eZoYs,45
+digiarch-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+digiarch-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+digiarch-0.4.0.dist-info/METADATA,sha256=azvaPyJTIsKRwwKPTBrmoTr6Ublydx0NplRl8JM_ptg,1515
+digiarch-0.4.0.dist-info/RECORD,,
