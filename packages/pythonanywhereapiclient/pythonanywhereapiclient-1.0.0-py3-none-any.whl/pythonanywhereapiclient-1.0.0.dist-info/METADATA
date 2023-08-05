@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: pythonanywhereapiclient
+Version: 1.0.0
+Summary: Thin wrapper for the PythonAnywhere API.
+Home-page: https://gitlab.com/texperience/pythonanywhere-api-client
+Author: Timo Rieber
+Author-email: trieber@texperience.de
+License: MIT License (MIT)
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3.0,>=2.23)
+Provides-Extra: development
+Requires-Dist: coverage (<6.0,>=5.0) ; extra == 'development'
+Requires-Dist: flake8 (<4.0,>=3.7) ; extra == 'development'
+Requires-Dist: pytest (<6.0,>=5.3) ; extra == 'development'
+Requires-Dist: pytest-mock (<3.0,>=2.0) ; extra == 'development'
+Requires-Dist: tox (<4.0,>=3.14) ; extra == 'development'
+
+# pythonanywhere-api-client
+
+[![Pipeline][pipeline-badge]][pipeline-link]
+[![Coverage][coverage-badge]][coverage-link]
+[![PyPI][pypi-badge]][pypi-link]
+
+[pipeline-badge]: https://gitlab.com/texperience/pythonanywhere-api-client/badges/master/pipeline.svg
+[pipeline-link]: https://gitlab.com/texperience/pythonanywhere-api-client/pipelines
+[coverage-badge]: https://gitlab.com/texperience/pythonanywhere-api-client/badges/master/coverage.svg
+[coverage-link]: https://gitlab.com/texperience/pythonanywhere-api-client/-/jobs
+[pypi-badge]: https://img.shields.io/pypi/v/pythonanywhere-api-client.svg
+[pypi-link]: https://pypi.python.org/pypi/pythonanywhere-api-client
+
+Thin wrapper for the [PythonAnywhere API][pa-api-docs].
+
+[pa-api-docs]: https://help.pythonanywhere.com/pages/API
+
+## Features
+* Basic API client responsible for authentication and sending requests
+* List and configure webapps
+* List and upload files
+
+## Technical requirements
+
+Below is the list of currently supported Python releases:
+
+| # | Python |
+|---|--------|
+| 1 | 3.6    |
+| 2 | 3.7    |
+| 3 | 3.8    |
+
+## Code and contribution
+
+The code is open source and released under the [MIT License (MIT)][mit-license]. It is available on [Gitlab][gitlab] and follows the guidelines about [Semantic Versioning][semver] for transparency within the release cycle and backward compatibility whenever possible.
+
+All contributions are welcome, whether bug reports, code contributions and reviews, documentation or feature requests.
+
+[mit-license]: https://en.wikipedia.org/wiki/MIT_License
+[gitlab]: https://gitlab.com/texperience/pythonanywhere-api-client
+[semver]: http://semver.org/
+
+## Getting Started
+
+This document provides all the basic information you need to start using the client. It covers base concepts, shows examples, and documents links for further reading.
+
+### Setup
+
+There are a few setup steps you need to complete before you can proceed:
+
+1.  [Sign up][pa-signup] for a PythonAnywhere account, if you don't already have one.
+1.  [Activate][pa-api-docs] your personal API token.
+
+[pa-signup]: https://www.pythonanywhere.com/login
+
+### Installation
+
+Install `pythonanywhere-api-client` using pip:
+
+```bash
+pip install pythonanywhere-api-client
+```
+
+### Configuration
+
+The client simply needs three environment variables to work properly:
+
+* `PYTHONANYWHERE_API_CLIENT_HOST`
+* `PYTHONANYWHERE_API_CLIENT_TOKEN`
+* `PYTHONANYWHERE_API_CLIENT_USER`
+
+For example to set these environment variables in a bash:
+
+```bash
+export PYTHONANYWHERE_API_CLIENT_HOST="www.pythonanywhere.com"
+export PYTHONANYWHERE_API_CLIENT_TOKEN="yoursecrettoken"
+export PYTHONANYWHERE_API_CLIENT_HOST="yourusername"
+```
+
+Valid values for `PYTHONANYWHERE_API_CLIENT_HOST` are `www.pythonanywhere.com` and `eu.pythonanywhere.com`.
+
+### Usage
+
+The following examples showcase some typical usage scenarios.
+
+```python
+from pythonanywhereapiclient import file, webapp
+
+# List all webapps
+webapp.list()
+
+# Create a webapp
+webapp.create('example.com', 'python36')
+
+# Modify an existing webapp
+webapp.modify(
+    'example.com',
+    python_version='3.6',
+    working_directory='/home/user/work',
+    source_directory='/home/user/source',
+    virtualenv_path='/home/user/virtualenv',
+    force_https=True
+)
+
+# Create a static mapping
+webapp.create_static('example.com', '/static/', '/home/user/data/static')
+
+# Reload a webapp (e.g. after source or configuration changes)
+webapp.reload('example.com')
+
+# Delete a webapp
+webapp.delete('example.com')
+
+# List all files at path
+file.list('/home/username/data')
+
+# Upload a file
+file.upload('/home/username/data/foo.txt', 'this is a text file')
+```
+
+
