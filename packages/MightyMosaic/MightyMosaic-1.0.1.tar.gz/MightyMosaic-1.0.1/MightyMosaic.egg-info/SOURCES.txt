@@ -1,0 +1,9 @@
+README.md
+setup.py
+MightyMosaic/MightyMosaic.py
+MightyMosaic/__init__.py
+MightyMosaic.egg-info/PKG-INFO
+MightyMosaic.egg-info/SOURCES.txt
+MightyMosaic.egg-info/dependency_links.txt
+MightyMosaic.egg-info/requires.txt
+MightyMosaic.egg-info/top_level.txt
