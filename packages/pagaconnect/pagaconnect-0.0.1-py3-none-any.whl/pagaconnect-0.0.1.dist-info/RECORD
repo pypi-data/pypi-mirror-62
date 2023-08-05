@@ -1,0 +1,8 @@
+paga_connect_client/__init__.py,sha256=HUB_aF-FguL51YpLR1Bb-3RklMdth6Tk56fd9siIkH0,55
+paga_connect_client/apibase.py,sha256=9hYQkzuJUX8dLfWJcGMaC3daf_A0qgJ569ETpyjs_7U,2273
+paga_connect_client/paga_connect_client_core.py,sha256=33saOALiwIZhl28GXbhKxCFUSXK5ZUkuH-cDlCu_9_o,4685
+paga_connect_client/version.py,sha256=SBWgs8BN9r7q9AugjJc-TDhU4MDjz0S73U6JmZ9qqxo,126
+pagaconnect-0.0.1.dist-info/METADATA,sha256=CQY8ke5B-oYCIDOZ-8ghodq9NqKpWZ_LwMGiT7vXDC4,718
+pagaconnect-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pagaconnect-0.0.1.dist-info/top_level.txt,sha256=nTpYGDrhVm-mPg4PeUZF4TalBVa7MH1--6rUfMk5tRM,32
+pagaconnect-0.0.1.dist-info/RECORD,,
