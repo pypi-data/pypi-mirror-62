@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hclctpm
+Version: 0.0.5
+Summary: HCLCTPM: Heterogeneous Casual Learning Continuous Treatment Policy Matching.
+Home-page: https://github.com/willzyz/hclctpm
+Author: Will Y. Zou
+Author-email: wzou@alumni.stanford.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: tensorflow (==1.15.0)
+
+UNKNOWN
+
+
