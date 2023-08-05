@@ -1,0 +1,3 @@
+[console_scripts]
+ngm = ngm.__main__:main
+
