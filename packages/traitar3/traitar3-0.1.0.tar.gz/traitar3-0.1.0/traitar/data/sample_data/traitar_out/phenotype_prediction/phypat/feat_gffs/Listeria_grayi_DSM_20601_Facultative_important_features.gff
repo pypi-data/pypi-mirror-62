@@ -1,0 +1,10 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	4608	4803	1.2e-25	-	.	Parent=HMPREF0556_0005;Name=PF04167;Note=DUF402;Description=Protein of unknown function (DUF402)
+accn|NZ_GG692936	HMMER	phypat	33971	34277	2.2000000000000002e-16	-	.	Parent=HMPREF0556_0039;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|NZ_GG692933	HMMER	phypat	115431	115746	5.3000000000000005e-17	+	.	Parent=HMPREF0556_0201;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|NZ_GG692933	HMMER	phypat	117359	117704	7.8999999999999989e-41	+	.	Parent=HMPREF0556_0203;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|NZ_GG692933	HMMER	phypat	335050	335260	6.8000000000000001e-14	+	.	Parent=HMPREF0556_0417;Name=PF08211;Note=dCMP_cyt_deam_2;Description=Cytidine and deoxycytidylate deaminase zinc-binding region
+accn|NZ_GG692933	HMMER	phypat	416050	416767	4.7000000000000004e-61	+	.	Parent=HMPREF0556_0506;Name=PF01226;Note=Form_Nir_trans;Description=Formate/nitrite transporter
+accn|NZ_GG692932	HMMER	phypat	881739	883500	1.6999999999999992e-212	-	.	Parent=HMPREF0556_1769;Name=PF02901;Note=PFL;Description=Pyruvate formate lyase
+accn|NZ_GG692932	HMMER	phypat	1024139	1025051	1.2999999999999999e-122	-	.	Parent=HMPREF0556_1909;Name=PF08267;Note=Meth_synt_1;Description=Cobalamin-independent synthase, N-terminal domain
+accn|NZ_GG692934	HMMER	phypat	80363	80681	1.1e-29	+	.	Parent=HMPREF0556_2339;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component

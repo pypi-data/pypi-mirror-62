@@ -1,0 +1,3 @@
+##gff-version 3
+accn|NZ_GG692933	HMMER	phypat	271478	272273	3.1999999999999993e-89	+	.	Parent=HMPREF0556_0359;Name=PF03881;Note=Fructosamin_kin;Description=Fructosamine kinase
+accn|NZ_GG692932	HMMER	phypat	340799	341327	1.8999999999999999e-69	-	.	Parent=HMPREF0556_1240;Name=PF13743;Note=Thioredoxin_5;Description=Thioredoxin

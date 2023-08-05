@@ -1,0 +1,16 @@
+##gff-version 3
+accn|NZ_GG692933	HMMER	phypat	198272	199364	6.7999999999999987e-107	+	.	Parent=HMPREF0556_0286;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692933	HMMER	phypat	318457	319543	4.4999999999999999e-48	-	.	Parent=HMPREF0556_0402;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692933	HMMER	phypat	753629	754709	6.8999999999999996e-56	+	.	Parent=HMPREF0556_0853;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692933	HMMER	phypat	755774	756845	8.5999999999999999e-58	-	.	Parent=HMPREF0556_0854;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692932	HMMER	phypat	70729	71260	1.0999999999999999e-25	-	.	Parent=HMPREF0556_0948;Name=PF01865;Note=PhoU_div;Description=Protein of unknown function DUF47
+accn|NZ_GG692932	HMMER	phypat	272146	272908	6.7000000000000006e-18	+	.	Parent=HMPREF0556_1153;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692932	HMMER	phypat	313467	313932	6.7000000000000001e-11	+	.	Parent=HMPREF0556_1205;Name=PF13483;Note=Lactamase_B_3;Description=Beta-lactamase superfamily domain
+accn|NZ_GG692932	HMMER	phypat	447196	448285	2.9999999999999997e-87	+	.	Parent=HMPREF0556_1346;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692932	HMMER	phypat	450218	451277	4.4999999999999992e-82	+	.	Parent=HMPREF0556_1348;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692932	HMMER	phypat	453283	454291	1.8999999999999995e-75	+	.	Parent=HMPREF0556_1351;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692932	HMMER	phypat	533588	534689	9.0999999999999979e-94	+	.	Parent=HMPREF0556_1434;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|NZ_GG692932	HMMER	phypat	670229	670688	3.1000000000000002e-10	+	.	Parent=HMPREF0556_1564;Name=PF01972;Note=SDH_sah;Description=Serine dehydrogenase proteinase
+accn|NZ_GG692932	HMMER	phypat	683270	683840	2.0000000000000002e-29	+	.	Parent=HMPREF0556_1578;Name=PF13483;Note=Lactamase_B_3;Description=Beta-lactamase superfamily domain
+accn|NZ_GG692932	HMMER	phypat	820111	820576	9.300000000000001e-10	+	.	Parent=HMPREF0556_1707;Name=PF10662;Note=PduV-EutP;Description=Ethanolamine utilisation - propanediol utilisation
+accn|NZ_GG692934	HMMER	phypat	187223	188375	5.6999999999999999e-91	+	.	Parent=HMPREF0556_2438;Name=PF02274;Note=Amidinotransf;Description=Amidinotransferase

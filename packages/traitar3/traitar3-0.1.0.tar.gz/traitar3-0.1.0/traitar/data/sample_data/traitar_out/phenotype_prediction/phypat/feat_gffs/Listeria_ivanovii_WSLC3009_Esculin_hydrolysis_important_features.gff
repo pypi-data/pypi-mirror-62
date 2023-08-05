@@ -1,0 +1,19 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	150785	151004	1.3999999999999999e-18	-	.	Parent=AX25_00690;Name=PF07885;Note=Ion_trans_2;Description=Ion channel
+accn|CP007172	HMMER	phypat	397608	398001	1.4999999999999998e-20	+	.	Parent=AX25_01895;Name=PF14526;Note=Cass2;Description=Integron-associated effector binding protein
+accn|CP007172	HMMER	phypat	477015	477468	9.6999999999999989e-22	+	.	Parent=AX25_02285;Name=PF14526;Note=Cass2;Description=Integron-associated effector binding protein
+accn|CP007172	HMMER	phypat	528103	528436	2.1000000000000001e-42	-	.	Parent=AX25_02560;Name=PF06993;Note=DUF1304;Description=Protein of unknown function (DUF1304)
+accn|CP007172	HMMER	phypat	623224	623443	4.8999999999999999e-15	+	.	Parent=AX25_03000;Name=PF13345;Note=DUF4098;Description=Domain of unknown function (DUF4098)
+accn|CP007172	HMMER	phypat	958182	958644	8.0999999999999991e-41	+	.	Parent=AX25_04660;Name=PF14526;Note=Cass2;Description=Integron-associated effector binding protein
+accn|CP007172	HMMER	phypat	1062710	1063298	3.9999999999999999e-48	+	.	Parent=AX25_05220;Name=PF03932;Note=CutC;Description=CutC family
+accn|CP007172	HMMER	phypat	1179084	1179507	1.2999999999999998e-63	+	.	Parent=AX25_05820;Name=PF10662;Note=PduV-EutP;Description=Ethanolamine utilisation - propanediol utilisation
+accn|CP007172	HMMER	phypat	1530819	1531284	4.8e-10	-	.	Parent=AX25_07590;Name=PF10662;Note=PduV-EutP;Description=Ethanolamine utilisation - propanediol utilisation
+accn|CP007172	HMMER	phypat	1588583	1588727	3.0999999999999999e-13	+	.	Parent=AX25_07890;Name=PF06347;Note=SH3_4;Description=Bacterial SH3 domain
+accn|CP007172	HMMER	phypat	1695313	1695520	8.4000000000000013e-22	-	.	Parent=AX25_08375;Name=PF14310;Note=Fn3-like;Description=Fibronectin type III-like domain
+accn|CP007172	HMMER	phypat	1850125	1850332	4.1999999999999991e-25	-	.	Parent=AX25_09180;Name=PF14310;Note=Fn3-like;Description=Fibronectin type III-like domain
+accn|CP007172	HMMER	phypat	2039671	2040055	1.1999999999999999e-11	-	.	Parent=AX25_10115;Name=PF03435;Note=Saccharop_dh;Description=Saccharopine dehydrogenase
+accn|CP007172	HMMER	phypat	2130427	2131081	2.4999999999999998e-94	+	.	Parent=AX25_10545;Name=PF03306;Note=AAL_decarboxy;Description=Alpha-acetolactate decarboxylase
+accn|CP007172	HMMER	phypat	2202181	2202400	4.4000000000000001e-22	+	.	Parent=AX25_10875;Name=PF07885;Note=Ion_trans_2;Description=Ion channel
+accn|CP007172	HMMER	phypat	2546319	2546787	1.3000000000000001e-09	-	.	Parent=AX25_12635;Name=PF08840;Note=BAAT_C;Description=BAAT / Acyl-CoA thioester hydrolase C terminal
+accn|CP007172	HMMER	phypat	2585347	2585563	3.5999999999999998e-11	-	.	Parent=AX25_12835;Name=PF13345;Note=DUF4098;Description=Domain of unknown function (DUF4098)
+accn|CP007172	HMMER	phypat	2586563	2586767	9.1999999999999996e-15	-	.	Parent=AX25_12840;Name=PF13345;Note=DUF4098;Description=Domain of unknown function (DUF4098)

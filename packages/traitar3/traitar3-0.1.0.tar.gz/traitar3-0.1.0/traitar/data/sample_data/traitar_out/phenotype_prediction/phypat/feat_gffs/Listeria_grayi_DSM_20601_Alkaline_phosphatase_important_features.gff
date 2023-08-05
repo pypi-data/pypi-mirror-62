@@ -1,0 +1,3 @@
+##gff-version 3
+accn|NZ_GG692932	HMMER	phypat	985368	985827	5.0999999999999997e-30	+	.	Parent=HMPREF0556_1869;Name=PF02872;Note=5_nucleotid_C;Description=5'-nucleotidase, C-terminal domain
+accn|NZ_GG692935	HMMER	phypat	233709	234093	6.3999999999999992e-14	+	.	Parent=HMPREF0556_2208;Name=PF02872;Note=5_nucleotid_C;Description=5'-nucleotidase, C-terminal domain

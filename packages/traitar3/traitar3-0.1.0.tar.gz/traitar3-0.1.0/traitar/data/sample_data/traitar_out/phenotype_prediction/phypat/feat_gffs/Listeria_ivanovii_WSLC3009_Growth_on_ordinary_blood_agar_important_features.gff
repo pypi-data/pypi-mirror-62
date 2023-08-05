@@ -1,0 +1,13 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	107832	108099	9.3000000000000012e-26	+	.	Parent=AX25_00505;Name=PF04397;Note=LytTR;Description=LytTr DNA-binding domain
+accn|CP007172	HMMER	phypat	172895	173240	2.7000000000000005e-14	-	.	Parent=AX25_00800;Name=PF06114;Note=DUF955;Description=Domain of unknown function (DUF955)
+accn|CP007172	HMMER	phypat	797669	798038	5.0999999999999992e-34	+	.	Parent=AX25_03890;Name=PF00781;Note=DAGK_cat;Description=Diacylglycerol kinase catalytic domain
+accn|CP007172	HMMER	phypat	987151	987574	5.2999999999999994e-40	-	.	Parent=AX25_04805;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
+accn|CP007172	HMMER	phypat	1030468	1030753	1.2e-29	+	.	Parent=AX25_05050;Name=PF04397;Note=LytTR;Description=LytTr DNA-binding domain
+accn|CP007172	HMMER	phypat	1878512	1878890	2.7000000000000002e-34	-	.	Parent=AX25_09305;Name=PF00781;Note=DAGK_cat;Description=Diacylglycerol kinase catalytic domain
+accn|CP007172	HMMER	phypat	1982242	1982407	2.7999999999999996e-16	-	.	Parent=AX25_09810;Name=PF01471;Note=PG_binding_1;Description=Putative peptidoglycan binding domain
+accn|CP007172	HMMER	phypat	2305272	2306166	3.5999999999999996e-84	+	.	Parent=AX25_11425;Name=PF03601;Note=Cons_hypoth698;Description=Conserved hypothetical protein 698
+accn|CP007172	HMMER	phypat	2396123	2396483	5.2999999999999996e-13	+	.	Parent=AX25_11830;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
+accn|CP007172	HMMER	phypat	2641606	2641990	4.1999999999999998e-33	-	.	Parent=AX25_13110;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
+accn|CP007172	HMMER	phypat	2661552	2661900	4.5999999999999997e-31	-	.	Parent=AX25_13215;Name=PF00781;Note=DAGK_cat;Description=Diacylglycerol kinase catalytic domain
+accn|CP007172	HMMER	phypat	2824411	2824798	1.6e-27	-	.	Parent=AX25_14130;Name=PF02706;Note=Wzz;Description=Chain length determinant protein

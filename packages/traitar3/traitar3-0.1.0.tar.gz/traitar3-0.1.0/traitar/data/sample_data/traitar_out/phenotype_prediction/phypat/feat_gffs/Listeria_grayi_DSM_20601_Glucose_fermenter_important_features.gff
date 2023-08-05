@@ -1,0 +1,43 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	33671	33920	2.4999999999999998e-23	-	.	Parent=HMPREF0556_0039;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	33589	33829	6.9000000000000007e-16	+	.	Parent=HMPREF0556_0131;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	59891	61319	2.5999999999999994e-135	+	.	Parent=HMPREF0556_0152;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692933	HMMER	phypat	63696	65103	8.2999999999999975e-181	-	.	Parent=HMPREF0556_0156;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692933	HMMER	phypat	65755	65965	2.8999999999999998e-13	-	.	Parent=HMPREF0556_0157;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692933	HMMER	phypat	71200	72544	2.8999999999999991e-144	+	.	Parent=HMPREF0556_0164;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692933	HMMER	phypat	97150	97387	4.7000000000000001e-20	+	.	Parent=HMPREF0556_0188;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	108714	110133	1.9999999999999998e-122	+	.	Parent=HMPREF0556_0197;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692933	HMMER	phypat	111096	111360	1.0000000000000001e-18	+	.	Parent=HMPREF0556_0198;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	115131	115398	1.8e-17	+	.	Parent=HMPREF0556_0201;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	116716	117160	3.7999999999999997e-55	+	.	Parent=HMPREF0556_0202;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|NZ_GG692933	HMMER	phypat	117842	118280	5.5999999999999996e-59	+	.	Parent=HMPREF0556_0203;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|NZ_GG692933	HMMER	phypat	122435	122819	5.5999999999999989e-46	-	.	Parent=HMPREF0556_0207;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|NZ_GG692933	HMMER	phypat	201463	201691	8.8000000000000009e-23	+	.	Parent=HMPREF0556_0288;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	210676	211063	3.8000000000000001e-47	+	.	Parent=HMPREF0556_0295;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|NZ_GG692933	HMMER	phypat	240390	240639	1.6e-15	+	.	Parent=HMPREF0556_0325;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692933	HMMER	phypat	273170	274535	9.9999999999999995e-127	+	.	Parent=HMPREF0556_0361;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692933	HMMER	phypat	402951	404328	1.3999999999999997e-137	+	.	Parent=HMPREF0556_0494;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692933	HMMER	phypat	558881	559535	1.5999999999999999e-93	-	.	Parent=HMPREF0556_0655;Name=PF03306;Note=AAL_decarboxy;Description=Alpha-acetolactate decarboxylase
+accn|NZ_GG692932	HMMER	phypat	46133	46400	4.2999999999999993e-14	+	.	Parent=HMPREF0556_0924;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692932	HMMER	phypat	96492	96732	5.1000000000000002e-09	+	.	Parent=HMPREF0556_0973;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692932	HMMER	phypat	135312	135567	2.0000000000000002e-20	+	.	Parent=HMPREF0556_1013;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692932	HMMER	phypat	137425	137812	2.6999999999999998e-48	+	.	Parent=HMPREF0556_1014;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|NZ_GG692932	HMMER	phypat	183409	183715	8.7000000000000003e-13	-	.	Parent=HMPREF0556_1057;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692932	HMMER	phypat	246468	247386	4.2999999999999994e-54	-	.	Parent=HMPREF0556_1129;Name=PF01238;Note=PMI_typeI;Description=Phosphomannose isomerase type I
+accn|NZ_GG692932	HMMER	phypat	404067	404454	2.0999999999999998e-50	+	.	Parent=HMPREF0556_1304;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|NZ_GG692932	HMMER	phypat	414520	415276	3.2000000000000002e-16	+	.	Parent=HMPREF0556_1316;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692932	HMMER	phypat	465373	465706	2.4999999999999999e-13	-	.	Parent=HMPREF0556_1364;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692932	HMMER	phypat	863304	864681	7.0999999999999986e-126	-	.	Parent=HMPREF0556_1751;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692935	HMMER	phypat	4186	4459	1e-14	+	.	Parent=HMPREF0556_1996;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692935	HMMER	phypat	126748	126895	1.5000000000000001e-26	+	.	Parent=HMPREF0556_2119;Name=PF10509;Note=GalKase_gal_bdg;Description=Galactokinase galactose-binding signature
+accn|NZ_GG692935	HMMER	phypat	156108	156375	9.8000000000000002e-17	+	.	Parent=HMPREF0556_2143;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692935	HMMER	phypat	157607	158789	2.7999999999999991e-139	+	.	Parent=HMPREF0556_2145;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|NZ_GG692935	HMMER	phypat	185626	185887	6.1999999999999998e-28	+	.	Parent=HMPREF0556_2172;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692934	HMMER	phypat	2718	3870	2.1999999999999996e-100	-	.	Parent=HMPREF0556_2245;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|NZ_GG692934	HMMER	phypat	5688	5955	9.2e-21	-	.	Parent=HMPREF0556_2248;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692934	HMMER	phypat	126373	127774	4.2999999999999976e-174	+	.	Parent=HMPREF0556_2382;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692934	HMMER	phypat	177435	178845	1.5999999999999996e-136	+	.	Parent=HMPREF0556_2430;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|NZ_GG692934	HMMER	phypat	181611	181995	9.0999999999999985e-54	+	.	Parent=HMPREF0556_2432;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|NZ_GG692934	HMMER	phypat	235594	235855	1.2e-22	+	.	Parent=HMPREF0556_2491;Name=PF00874;Note=PRD;Description=PRD domain
+accn|NZ_GG692934	HMMER	phypat	251684	252008	3.1e-14	+	.	Parent=HMPREF0556_2508;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|NZ_GG692934	HMMER	phypat	276194	276455	2.6e-17	-	.	Parent=HMPREF0556_2538;Name=PF00874;Note=PRD;Description=PRD domain

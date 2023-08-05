@@ -1,0 +1,2 @@
+##gff-version 3
+accn|NZ_GG692935	HMMER	phypat	227300	227513	2.2000000000000002e-11	+	.	Parent=HMPREF0556_2205;Name=PF00041;Note=fn3;Description=Fibronectin type III domain

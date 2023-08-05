@@ -1,0 +1,2 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	732068	732650	4.3999999999999995e-25	+	.	Parent=AX25_03545;Name=PF02154;Note=FliM;Description=Flagellar motor switch protein FliM

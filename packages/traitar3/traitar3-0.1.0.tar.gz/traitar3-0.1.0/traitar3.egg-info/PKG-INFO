@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: traitar3
+Version: 0.1.0
+Summary: Traitar3 - The microbial trait analyzer for Python3
+Home-page: https://github.com/nick-youngblut/traitar3
+Author: Nick Youngblut
+Author-email: nyoungb2@gmail.com
+License: GNU General Public License, version 3 (GPL-3.0)
+Description: Traitar3 - The microbial trait analyzer for Python3
+        
+        See https://github.com/nick-youngblut/traitar3 for more information.
+        
+Platform: UNKNOWN

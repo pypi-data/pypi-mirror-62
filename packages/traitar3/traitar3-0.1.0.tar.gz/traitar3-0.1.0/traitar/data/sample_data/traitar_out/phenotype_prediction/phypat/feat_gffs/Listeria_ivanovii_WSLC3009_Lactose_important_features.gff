@@ -1,0 +1,6 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	552962	553409	1.3000000000000002e-10	-	.	Parent=AX25_02665;Name=PF09863;Note=DUF2090;Description=Uncharacterized protein conserved in bacteria (DUF2090)
+accn|CP007172	HMMER	phypat	691219	691369	7.4000000000000001e-20	+	.	Parent=AX25_03305;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|CP007172	HMMER	phypat	968773	969763	1.0999999999999999e-87	+	.	Parent=AX25_04705;Name=PF03773;Note=DUF318;Description=Predicted permease
+accn|CP007172	HMMER	phypat	2567983	2568133	7.3e-23	-	.	Parent=AX25_12730;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|CP007172	HMMER	phypat	2630722	2630863	4.8000000000000001e-16	-	.	Parent=AX25_13050;Name=PF00401;Note=ATP-synt_DE;Description=ATP synthase, Delta/Epsilon chain, long alpha-helix domain

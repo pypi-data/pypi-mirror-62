@@ -1,0 +1,19 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	54764	55613	3.7999999999999992e-119	-	.	Parent=HMPREF0556_0052;Name=PF04898;Note=Glu_syn_central;Description=Glutamate synthase central domain
+accn|NZ_GG692933	HMMER	phypat	116716	117160	3.7999999999999997e-55	+	.	Parent=HMPREF0556_0202;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|NZ_GG692933	HMMER	phypat	117842	118280	5.5999999999999996e-59	+	.	Parent=HMPREF0556_0203;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|NZ_GG692933	HMMER	phypat	278191	278365	1.4000000000000002e-21	-	.	Parent=HMPREF0556_0364;Name=PF13556;Note=HTH_30;Description=PucR C-terminal helix-turn-helix domain
+accn|NZ_GG692933	HMMER	phypat	354824	354974	2.9999999999999998e-18	+	.	Parent=HMPREF0556_0438;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|NZ_GG692933	HMMER	phypat	504329	504479	5.5000000000000008e-20	-	.	Parent=HMPREF0556_0598;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|NZ_GG692932	HMMER	phypat	22359	22695	6.7999999999999993e-43	-	.	Parent=HMPREF0556_0901;Name=PF06993;Note=DUF1304;Description=Protein of unknown function (DUF1304)
+accn|NZ_GG692932	HMMER	phypat	171895	172045	5.2999999999999997e-19	+	.	Parent=HMPREF0556_1045;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|NZ_GG692932	HMMER	phypat	183937	184093	3.1e-20	+	.	Parent=HMPREF0556_1058;Name=PF12464;Note=Mac;Description=Maltose acetyltransferase
+accn|NZ_GG692932	HMMER	phypat	403025	403466	2.3999999999999999e-47	+	.	Parent=HMPREF0556_1303;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|NZ_GG692932	HMMER	phypat	404632	405235	1.5e-50	+	.	Parent=HMPREF0556_1305;Name=PF03932;Note=CutC;Description=CutC family
+accn|NZ_GG692932	HMMER	phypat	684201	684507	1.2e-34	+	.	Parent=HMPREF0556_1579;Name=PF07085;Note=DRTGG;Description=DRTGG domain
+accn|NZ_GG692932	HMMER	phypat	853943	854735	7.2999999999999991e-63	+	.	Parent=HMPREF0556_1741;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|NZ_GG692932	HMMER	phypat	857465	858260	1.1999999999999998e-63	-	.	Parent=HMPREF0556_1744;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|NZ_GG692932	HMMER	phypat	867705	868431	4.7999999999999987e-67	+	.	Parent=HMPREF0556_1755;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|NZ_GG692932	HMMER	phypat	881739	883500	1.6999999999999992e-212	-	.	Parent=HMPREF0556_1769;Name=PF02901;Note=PFL;Description=Pyruvate formate lyase
+accn|NZ_GG692934	HMMER	phypat	78791	79682	2.8999999999999992e-114	+	.	Parent=HMPREF0556_2337;Name=PF02733;Note=Dak1;Description=Dak1 domain
+accn|NZ_GG692934	HMMER	phypat	101528	101678	2.7000000000000001e-17	+	.	Parent=HMPREF0556_2360;Name=PF13556;Note=HTH_30;Description=PucR C-terminal helix-turn-helix domain

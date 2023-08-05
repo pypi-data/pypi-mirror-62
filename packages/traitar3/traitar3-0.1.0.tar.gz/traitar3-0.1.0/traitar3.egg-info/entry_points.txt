@@ -1,0 +1,3 @@
+[console_scripts]
+traitar = traitar.__main__:main
+

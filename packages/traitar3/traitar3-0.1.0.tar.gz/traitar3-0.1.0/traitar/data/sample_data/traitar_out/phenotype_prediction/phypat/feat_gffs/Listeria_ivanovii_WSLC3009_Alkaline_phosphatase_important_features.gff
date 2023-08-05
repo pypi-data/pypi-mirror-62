@@ -1,0 +1,3 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	177278	177740	1.6999999999999999e-40	-	.	Parent=AX25_00830;Name=PF02872;Note=5_nucleotid_C;Description=5'-nucleotidase, C-terminal domain
+accn|CP007172	HMMER	phypat	2500086	2500479	4.4000000000000002e-14	-	.	Parent=AX25_12400;Name=PF02872;Note=5_nucleotid_C;Description=5'-nucleotidase, C-terminal domain

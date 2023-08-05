@@ -1,0 +1,2 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	165019	165232	2.8000000000000002e-13	+	.	Parent=AX25_00765;Name=PF00041;Note=fn3;Description=Fibronectin type III domain

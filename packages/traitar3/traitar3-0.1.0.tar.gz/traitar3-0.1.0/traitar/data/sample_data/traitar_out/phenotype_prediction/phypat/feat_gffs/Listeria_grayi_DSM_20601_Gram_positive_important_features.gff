@@ -1,0 +1,11 @@
+##gff-version 3
+accn|NZ_GG692933	HMMER	phypat	278191	278365	1.4000000000000002e-21	-	.	Parent=HMPREF0556_0364;Name=PF13556;Note=HTH_30;Description=PucR C-terminal helix-turn-helix domain
+accn|NZ_GG692933	HMMER	phypat	361353	361782	8.9999999999999997e-54	+	.	Parent=HMPREF0556_0445;Name=PF03816;Note=LytR_cpsA_psr;Description=Cell envelope-related transcriptional attenuator domain
+accn|NZ_GG692933	HMMER	phypat	419983	420397	6.2000000000000008e-26	+	.	Parent=HMPREF0556_0510;Name=PF04203;Note=Sortase;Description=Sortase family
+accn|NZ_GG692933	HMMER	phypat	536286	536502	9.9999999999999993e-35	+	.	Parent=HMPREF0556_0632;Name=PF04472;Note=DUF552;Description=Protein of unknown function (DUF552)
+accn|NZ_GG692933	HMMER	phypat	637981	638476	2.8999999999999996e-42	+	.	Parent=HMPREF0556_0736;Name=PF13307;Note=Helicase_C_2;Description=Helicase C-terminal domain
+accn|NZ_GG692932	HMMER	phypat	312906	313266	6.1000000000000005e-30	+	.	Parent=HMPREF0556_1204;Name=PF04203;Note=Sortase;Description=Sortase family
+accn|NZ_GG692932	HMMER	phypat	334583	335018	2.2000000000000001e-48	-	.	Parent=HMPREF0556_1233;Name=PF03816;Note=LytR_cpsA_psr;Description=Cell envelope-related transcriptional attenuator domain
+accn|NZ_GG692932	HMMER	phypat	574022	574268	4.0999999999999998e-37	+	.	Parent=HMPREF0556_1475;Name=PF03951;Note=Gln-synt_N;Description=Glutamine synthetase, beta-Grasp domain
+accn|NZ_GG692935	HMMER	phypat	63871	64327	4.5000000000000002e-49	-	.	Parent=HMPREF0556_2058;Name=PF03816;Note=LytR_cpsA_psr;Description=Cell envelope-related transcriptional attenuator domain
+accn|NZ_GG692934	HMMER	phypat	101528	101678	2.7000000000000001e-17	+	.	Parent=HMPREF0556_2360;Name=PF13556;Note=HTH_30;Description=PucR C-terminal helix-turn-helix domain

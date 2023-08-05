@@ -1,0 +1,7 @@
+##gff-version 3
+accn|NZ_GG692933	HMMER	phypat	354824	354974	2.9999999999999998e-18	+	.	Parent=HMPREF0556_0438;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|NZ_GG692933	HMMER	phypat	504329	504479	5.5000000000000008e-20	-	.	Parent=HMPREF0556_0598;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|NZ_GG692932	HMMER	phypat	26062	26503	3.7000000000000007e-10	-	.	Parent=HMPREF0556_0904;Name=PF09863;Note=DUF2090;Description=Uncharacterized protein conserved in bacteria (DUF2090)
+accn|NZ_GG692932	HMMER	phypat	171895	172045	5.2999999999999997e-19	+	.	Parent=HMPREF0556_1045;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|NZ_GG692932	HMMER	phypat	306837	307713	1.2999999999999998e-87	+	.	Parent=HMPREF0556_1199;Name=PF03773;Note=DUF318;Description=Predicted permease
+accn|NZ_GG692935	HMMER	phypat	55457	55598	3.9999999999999999e-16	+	.	Parent=HMPREF0556_2049;Name=PF00401;Note=ATP-synt_DE;Description=ATP synthase, Delta/Epsilon chain, long alpha-helix domain

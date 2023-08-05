@@ -1,0 +1,48 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	75739	77149	1.6999999999999993e-140	+	.	Parent=AX25_00345;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	79915	80299	3.8000000000000002e-54	+	.	Parent=AX25_00355;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	86466	86775	7.2000000000000009e-14	-	.	Parent=AX25_00400;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	153698	154139	3.0000000000000001e-58	+	.	Parent=AX25_00705;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	159549	160992	2.3999999999999993e-120	+	.	Parent=AX25_00740;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	194682	194967	5.9000000000000003e-12	+	.	Parent=AX25_00905;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	302981	303413	4e-41	+	.	Parent=AX25_01400;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	333151	334585	5.5999999999999992e-135	+	.	Parent=AX25_01545;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	340767	342171	5.4999999999999981e-174	-	.	Parent=AX25_01580;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	343258	343504	1.4000000000000001e-13	-	.	Parent=AX25_01590;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	366227	367613	9.1999999999999985e-146	+	.	Parent=AX25_01700;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	367900	368158	5.7999999999999992e-23	+	.	Parent=AX25_01705;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	370037	370421	2.6e-53	+	.	Parent=AX25_01710;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	393179	394544	1.9999999999999999e-126	+	.	Parent=AX25_01870;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	499564	499822	7.5999999999999996e-18	+	.	Parent=AX25_02420;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	504293	505433	1.5999999999999999e-76	+	.	Parent=AX25_02455;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|CP007172	HMMER	phypat	588561	589941	3.1999999999999992e-136	+	.	Parent=AX25_02850;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	645353	645734	5.3999999999999996e-48	-	.	Parent=AX25_03135;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	674323	674584	5.4999999999999998e-13	+	.	Parent=AX25_03220;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	704568	704871	1.4999999999999999e-15	-	.	Parent=AX25_03380;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	769379	769760	4.7999999999999998e-49	+	.	Parent=AX25_03735;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	805395	805842	6.5000000000000003e-62	-	.	Parent=AX25_03945;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	808094	808343	9.5999999999999997e-21	-	.	Parent=AX25_03955;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	924410	924674	4.4e-17	+	.	Parent=AX25_04450;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	963377	964796	1.0999999999999997e-121	+	.	Parent=AX25_04690;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	965756	966011	6.5000000000000006e-21	+	.	Parent=AX25_04695;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	1062127	1062508	1.8999999999999997e-50	+	.	Parent=AX25_05215;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	1073504	1073744	1.7999999999999999e-11	+	.	Parent=AX25_05275;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	1081163	1081547	1.7e-53	+	.	Parent=AX25_05305;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	1165066	1165435	4.1999999999999992e-41	+	.	Parent=AX25_05730;Name=PF00358;Note=PTS_EIIA_1;Description=phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+accn|CP007172	HMMER	phypat	1698272	1698533	1.8e-24	-	.	Parent=AX25_08390;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	1838106	1838355	2.8000000000000003e-23	-	.	Parent=AX25_09140;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	2130427	2131081	2.4999999999999998e-94	+	.	Parent=AX25_10545;Name=PF03306;Note=AAL_decarboxy;Description=Alpha-acetolactate decarboxylase
+accn|CP007172	HMMER	phypat	2139659	2140106	9.6999999999999983e-52	-	.	Parent=AX25_10595;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	2244139	2245306	9.7999999999999988e-70	-	.	Parent=AX25_11110;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|CP007172	HMMER	phypat	2247124	2247388	2.2e-17	-	.	Parent=AX25_11125;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	2264889	2265813	3.1999999999999999e-59	-	.	Parent=AX25_11210;Name=PF01238;Note=PMI_typeI;Description=Phosphomannose isomerase type I
+accn|CP007172	HMMER	phypat	2298378	2298633	3.9000000000000001e-21	-	.	Parent=AX25_11390;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	2526915	2527176	9.2999999999999995e-27	-	.	Parent=AX25_12550;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	2678382	2678646	1.6000000000000002e-10	-	.	Parent=AX25_13310;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	2742740	2743961	1.2999999999999997e-127	-	.	Parent=AX25_13710;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|CP007172	HMMER	phypat	2745850	2746117	4.0000000000000002e-25	-	.	Parent=AX25_13725;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	2769000	2770182	2.6999999999999991e-100	-	.	Parent=AX25_13840;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|CP007172	HMMER	phypat	2772039	2772306	9.1e-20	-	.	Parent=AX25_13855;Name=PF00874;Note=PRD;Description=PRD domain
+accn|CP007172	HMMER	phypat	2833859	2835221	4.5999999999999982e-126	-	.	Parent=AX25_14175;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	2835259	2835910	9.800000000000001e-26	-	.	Parent=AX25_14180;Name=PF05116;Note=S6PP;Description=Sucrose-6F-phosphate phosphohydrolase
+accn|CP007172	HMMER	phypat	2900176	2901580	1.2999999999999996e-171	+	.	Parent=AX25_14510;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
