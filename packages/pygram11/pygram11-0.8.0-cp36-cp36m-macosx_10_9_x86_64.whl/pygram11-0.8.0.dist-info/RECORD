@@ -1,0 +1,9 @@
+pygram11/_backend1d.cpython-36m-darwin.so,sha256=bLml4NEnsvFofZuXEILpFCx4o5RhBzKGaWqKyrT0Fbw,305924
+pygram11/_backend2d.cpython-36m-darwin.so,sha256=tHZQ_xrSrZpJAb9T2GzCZGBtM3psAe-zUAr1SHtXMLI,311804
+pygram11/__init__.py,sha256=0fogYaUUxYuDtIR86j4kVmlms5tzgncv49WHAM4ibxQ,16136
+pygram11/.dylibs/libomp.dylib,sha256=RRZQvGo598L2D3PpzEO9yK5D5aSjl1NaO4Yv6FofVek,542016
+pygram11-0.8.0.dist-info/RECORD,,
+pygram11-0.8.0.dist-info/LICENSE,sha256=DG1rUVMlI2iruK322ej4tnUJOz7Ryx105swhwmHAVNs,1070
+pygram11-0.8.0.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+pygram11-0.8.0.dist-info/top_level.txt,sha256=1nqyEb7cAhEuPssMWY9rd6ipJ9E1KnaXxIFDQsK4-ao,9
+pygram11-0.8.0.dist-info/METADATA,sha256=C6yk9VF5ZipsU8dW1IIW7DWRBnB9DeoCUxAnGlFDCoc,5804
