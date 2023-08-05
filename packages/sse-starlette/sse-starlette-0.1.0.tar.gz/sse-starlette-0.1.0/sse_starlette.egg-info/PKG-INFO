@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: sse-starlette
+Version: 0.1.0
+Summary: SSE plugin for Starlette
+Home-page: https://github.com/sysid/sse-starlette
+Author: sysid
+Author-email: sysid@gmx.de
+License: BSD
+Description: # Server Sent Events for Starlette
+        
+        Installation:
+        
+        ```shell
+        pip install sse-starlette
+        ```
+        
+        Usage:
+        
+        ```python
+        from sse_starlette import ServerSentEvent
+        
+        tbd
+        ```
+        
+        Here's a more complete example, using Starlette:
+        
+        ```python
+        ```
+        
+        ## Tests
+        ```python
+        ./scripts/test
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
