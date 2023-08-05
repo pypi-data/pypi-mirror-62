@@ -1,0 +1,8 @@
+README
+setup.cfg
+setup.py
+speclear/speclear.py
+speclear.egg-info/PKG-INFO
+speclear.egg-info/SOURCES.txt
+speclear.egg-info/dependency_links.txt
+speclear.egg-info/top_level.txt
