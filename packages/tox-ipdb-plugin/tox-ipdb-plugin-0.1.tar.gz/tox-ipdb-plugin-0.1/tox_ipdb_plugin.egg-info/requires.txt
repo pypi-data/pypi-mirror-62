@@ -1,0 +1,7 @@
+tox>=3.0
+
+[quality]
+flake8
+isort
+mypy
+pydocstyle
