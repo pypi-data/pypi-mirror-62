@@ -1,0 +1,14 @@
+jupyterlab
+altair-transform
+altair~=4.0.0
+vega_datasets
+ibis-framework
+pymapd
+tornado<6
+mypy_extensions
+typing_extensions
+jaeger-client
+jupyter_jaeger~=1.0.3
+
+[dev]
+black
