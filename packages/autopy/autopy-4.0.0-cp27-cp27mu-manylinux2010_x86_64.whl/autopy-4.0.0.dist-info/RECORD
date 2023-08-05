@@ -1,0 +1,13 @@
+autopy/mouse.so,sha256=TffU0XxV9Y2KSPiB0djHzVFAxoa96l88Gawh5_ZBgmA,4411432
+autopy/bitmap.so,sha256=TffU0XxV9Y2KSPiB0djHzVFAxoa96l88Gawh5_ZBgmA,4411432
+autopy/color.so,sha256=TffU0XxV9Y2KSPiB0djHzVFAxoa96l88Gawh5_ZBgmA,4411432
+autopy/key.so,sha256=TffU0XxV9Y2KSPiB0djHzVFAxoa96l88Gawh5_ZBgmA,4411432
+autopy/alert.so,sha256=TffU0XxV9Y2KSPiB0djHzVFAxoa96l88Gawh5_ZBgmA,4411432
+autopy/screen.so,sha256=TffU0XxV9Y2KSPiB0djHzVFAxoa96l88Gawh5_ZBgmA,4411432
+autopy/__init__.py,sha256=sJwurTjKAJWEvrOJaKm3CrK0q4hJFStq61_9Q0x5qus,277
+autopy/.libs/libXtst-c71b5a0e.so.6.1.0,sha256=-za8Cjs_k0KmaZADFIw6ENJswJ4SnRq7lcLUp6aambc,29872
+autopy/.libs/libXi-4d5ffb2e.so.6.1.0,sha256=6LcCxX8hWc2qBNyBnvqbkGaEGWfDPGpqQG67_yNqDoo,68416
+autopy-4.0.0.dist-info/top_level.txt,sha256=XZwopO5i8LsCkf3cJbCQeQLMiBD7XwTozpS9kMDQ_N4,7
+autopy-4.0.0.dist-info/RECORD,,
+autopy-4.0.0.dist-info/METADATA,sha256=HDYND3EW1TNy6GBSWm8x2zG1K_MPHM9tjiTwbhFgPz8,9860
+autopy-4.0.0.dist-info/WHEEL,sha256=eGX-MHK0v1h-Bc_uVrnvtszZoafGXw5wtwguJWqXPuc,113
