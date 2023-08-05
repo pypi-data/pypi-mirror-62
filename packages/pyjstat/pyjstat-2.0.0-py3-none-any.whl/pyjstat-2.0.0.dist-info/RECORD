@@ -1,0 +1,9 @@
+pyjstat/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+pyjstat/pyjstat.py,sha256=ViKP8Ci5lKKm_vuKTNZL9Md4wBLxz_ntJu5xmNv8Lcc,30399
+pyjstat/test/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+pyjstat/test/test.py,sha256=bwW5vE6sAkhCuANQt-OvYyif0LsD7450oEJsQxbPtVY,28778
+pyjstat-2.0.0.dist-info/LICENSE.txt,sha256=bcDgaNzzpbyOBUIFuFt3IOHUkmW7xkv1FdLPeRl99po,11323
+pyjstat-2.0.0.dist-info/METADATA,sha256=oU_V6DC9ZfjEvxNy07JYBArEVf-ggth5nUzgYkKCt_A,6671
+pyjstat-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyjstat-2.0.0.dist-info/top_level.txt,sha256=VzTZY4OL0IAYfqeLTcZbb6P-qm8IaYteETM16teNNKE,8
+pyjstat-2.0.0.dist-info/RECORD,,
