@@ -1,0 +1,13 @@
+cbitstruct/__init__.py,sha256=YHSt3Tldy40Ftb3VTsUFH_k1Xxz9qzJ_jBoS1fofZyE,462
+cbitstruct/_cbitstruct.cp36-win_amd64.pyd,sha256=Eg_TBwhfnmueY2Un3hYMP24d-vcQRVyMqUc_I67nyPo,37376
+cbitstruct/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cbitstruct/tests/test_against_bitstruct.py,sha256=wcjfGwQxh7UkKTTu5W4LxxlQ5D6wLhs6fHxj-NCphKY,5382
+cbitstruct/tests/test_api.py,sha256=kzoQaLMNHJcE-pqKvxK5mTr7zhYXTmdlrWRT9ttY3fQ,7931
+cbitstruct/tests/test_bitstruct.py,sha256=w-cgwAcJs2xpDI0fcJyJFgcaNoI_JLALdBooTKSlq7U,19540
+cbitstruct/tests/test_cornercase.py,sha256=JvI3WwXGiLD811I5IIYdlyol1iTPKOZTDTX55bJD2wE,6024
+cbitstruct/tests/test_perf.py,sha256=TWCyGE0UWnhB-GtzVcMXtSQ5KdtvesDVFnnls294iko,4744
+cbitstruct-1.0.7.dist-info/LICENSE.md,sha256=zjrfIHTX-EXyEqTVvgY4-Awgw8_X51vLp1JD4YoegDE,15905
+cbitstruct-1.0.7.dist-info/METADATA,sha256=nDILHwvw8iDhqaVY9lPiyl9OsjZ3DdMWzPGoIHqlBII,4211
+cbitstruct-1.0.7.dist-info/WHEEL,sha256=Mp7cNSJkwOccBZaxEtyYhlze1HXRCLLX3tIlVLTix2E,106
+cbitstruct-1.0.7.dist-info/top_level.txt,sha256=UE-wMv_vEdEDfH7PkTVHsnZFNBDOQZC_cBRMO2DbxIQ,11
+cbitstruct-1.0.7.dist-info/RECORD,,
