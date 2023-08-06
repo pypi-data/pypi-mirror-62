@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: orex
+Version: 0.0.1
+Summary: An object-oriented approach to regular expressions.
+Home-page: https://dgit.cs.uni-saarland.de/koehlma/python-orex
+License: MIT
+Author: Maximilian Köhl
+Author-email: mkoehl@cs.uni-saarland.de
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: mxu (>=0.0.5,<0.0.6)
+Project-URL: Repository, https://dgit.cs.uni-saarland.de/koehlma/python-orex
+Description-Content-Type: text/x-rst
+
+Orex: Object-Oriented Regular Expressions
+=========================================
+
+An object-oriented approach to regular expressions.
+

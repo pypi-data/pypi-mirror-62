@@ -1,0 +1,9 @@
+orex/__init__.py,sha256=I99mscI_w4VzJs915gVZCxlEJyudKu8bKR1Vg6iinLU,1173
+orex/backend.py,sha256=2zwikUu5RKXNQ2IVJiDimpWWkIjveAfNbs-i9Ha7bkI,2006
+orex/collection.py,sha256=M-fqofrkJ7V26ohr_7eT4aV3V6e1FiV6lcd-F5hN3Kk,2032
+orex/match.py,sha256=mU2Z58iN4OXlOPTeQB_VQll1SwOv4I2tD_6s5oNdyhI,2215
+orex/patterns.py,sha256=FNd-amGqJ3_uhd5ob5YWtxyksQC-z25IAlQKIlv0h50,6395
+orex/stringify.py,sha256=JgL3p5x3QTpChrSbKJrkInAqCykOF91nyLLGVU5886s,6961
+orex-0.0.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+orex-0.0.1.dist-info/METADATA,sha256=kzNNSX4l9SAld3P_mx7XlxaBgABhCvjzRXe0rtjJctY,811
+orex-0.0.1.dist-info/RECORD,,
