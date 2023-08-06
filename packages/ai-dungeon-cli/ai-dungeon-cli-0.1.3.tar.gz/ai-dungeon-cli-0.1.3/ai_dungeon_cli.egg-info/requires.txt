@@ -1,0 +1,5 @@
+PyYAML>=5.1.2
+requests>=2.23.0
+
+[:platform_system == "Windows"]
+pyreadline>=2.1
