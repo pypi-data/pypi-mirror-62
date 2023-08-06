@@ -1,0 +1,4 @@
+numpy>=1.11.1
+torch>=1.1.0
+easydict
+opencv-python
