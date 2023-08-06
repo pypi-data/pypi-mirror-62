@@ -1,0 +1,13 @@
+ldh_client/__init__.py,sha256=b8Xp6cbhrVd-t7uwbCyC4w4QbmVUmhOSpd8tm05olXM,296
+ldh_client/common.py,sha256=IZDsW9kmHawDMbc7eKYp5uU4lzYGRoB-YVahYQpQ2eA,1424
+ldh_client/nautilus_files_setup.py,sha256=4-aC3rBN_xsVk0pm_jN8QetzAy0VgyKhnX9JHGBulOc,301
+ldh_client/nm_tunnel_setup.py,sha256=nuVv1SJHSfEQ742z6eFqifQhOEgr4MQPJbpMgI_TxLs,4301
+ldh_client/data/default.strict.yaml,sha256=of4bx3wGgkAxoNcbZFIOmR7BDqe1fvadkKpvniDhg7I,47
+ldh_client-0.0.7.data/scripts/liberty.py,sha256=lcMnUh5XINO7zX_tlfx4fZOSfhqNFx_Nh7pV9qWuwfo,1905
+ldh_client-0.0.7.dist-info/COPYING.AGPL.md,sha256=9bJteRXTUo80DhThSryXUY5iNb6aQob6N82kyIIGH9Y,34279
+ldh_client-0.0.7.dist-info/COPYING.md,sha256=rx5oV61JNNZZ6kqSZPyoDKWteFPBJ18dmN_a-FS-4oE,1780
+ldh_client-0.0.7.dist-info/METADATA,sha256=zl2S8fF-048T28Db1c3d6i4I4bs8s4zTfJJr7xD2V18,3785
+ldh_client-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ldh_client-0.0.7.dist-info/entry_points.txt,sha256=32XWqicYp1SsJDVBB1DO-T3R7O2b6pZzjLsc3gLcvDg,41
+ldh_client-0.0.7.dist-info/top_level.txt,sha256=J2FlvnoxJi1sILNaw6YYDw65Kz_UtT-zGdLqxMLRniI,11
+ldh_client-0.0.7.dist-info/RECORD,,
