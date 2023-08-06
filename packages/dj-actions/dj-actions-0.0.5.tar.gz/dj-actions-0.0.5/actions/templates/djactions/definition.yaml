@@ -1,0 +1,20 @@
+---
+  title: {{action_id}}
+  version: 1
+  is_live: false
+  description: ..
+  form: {{action_import_path}}.form.{{action_camel_case}}Form
+  # will use the viewsets serializer by default, but you can also specify your own
+  # set it to false if you want to return straight json from your form
+  # serializer: ..
+  multiple_results: false
+  capabilities: []
+  tags: []
+  example_payload: {}
+  examples:
+    - name: Basic test case
+      description: Check most basic functionality
+      payload: {}
+  commands:
+    - name: Test action
+      command: python manage.py test {{action_import_path}}
