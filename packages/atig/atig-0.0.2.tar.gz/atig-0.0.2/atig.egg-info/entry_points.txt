@@ -1,0 +1,3 @@
+[console_scripts]
+atig = atig:main
+

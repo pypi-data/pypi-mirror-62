@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: atig
+Version: 0.0.2
+Summary: Alembic migration history viewer
+Home-page: https://github.com/djentleman/atig
+Author: Todd Perry
+Author-email: todd.perry@myport.ac.uk
+License: UNKNOWN
+Description: # ATIG
+        
+        Command line tool for viewing Alembic migration history, inspired by tig
+        
+        just run `atig` in an alembic directory
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
