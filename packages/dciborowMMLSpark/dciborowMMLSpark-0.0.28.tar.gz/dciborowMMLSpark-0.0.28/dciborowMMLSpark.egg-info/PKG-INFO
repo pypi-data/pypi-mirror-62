@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: dciborowMMLSpark
+Version: 0.0.28
+Summary: Microsoft ML for Spark
+Home-page: https://github.com/dciborow/mmlspark
+Author: Microsoft
+Author-email: mmlspark-support@microsoft.com
+License: MIT
+Description: Microsoft ML for Apache Spark contains Microsoft's open source contributions to the Apache Spark ecosystem
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
