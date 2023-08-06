@@ -1,0 +1,17 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+cmdline_lpp_solver.egg-info/PKG-INFO
+cmdline_lpp_solver.egg-info/SOURCES.txt
+cmdline_lpp_solver.egg-info/dependency_links.txt
+cmdline_lpp_solver.egg-info/entry_points.txt
+cmdline_lpp_solver.egg-info/requires.txt
+cmdline_lpp_solver.egg-info/top_level.txt
+lpp_solver/__init__.py
+lpp_solver/__main__.py
+lpp_solver/logging_.py
+lpp_solver/lp_problem.py
+lpp_solver/simplex.py
