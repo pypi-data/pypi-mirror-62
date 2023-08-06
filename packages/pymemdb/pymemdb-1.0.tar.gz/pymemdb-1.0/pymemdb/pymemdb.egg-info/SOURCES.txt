@@ -1,0 +1,7 @@
+README.md
+setup.py
+pymemdb/pymemdb.egg-info/PKG-INFO
+pymemdb/pymemdb.egg-info/SOURCES.txt
+pymemdb/pymemdb.egg-info/dependency_links.txt
+pymemdb/pymemdb.egg-info/requires.txt
+pymemdb/pymemdb.egg-info/top_level.txt
