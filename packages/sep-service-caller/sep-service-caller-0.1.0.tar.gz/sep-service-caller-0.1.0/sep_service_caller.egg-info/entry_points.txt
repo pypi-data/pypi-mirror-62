@@ -1,0 +1,3 @@
+[console_scripts]
+sep-service = sep_service_caller.main:main
+
