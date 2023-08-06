@@ -1,0 +1,5 @@
+setup.py
+mfitools.egg-info/PKG-INFO
+mfitools.egg-info/SOURCES.txt
+mfitools.egg-info/dependency_links.txt
+mfitools.egg-info/top_level.txt
