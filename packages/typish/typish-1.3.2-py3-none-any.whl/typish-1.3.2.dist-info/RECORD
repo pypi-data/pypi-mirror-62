@@ -1,0 +1,11 @@
+typish/__init__.py,sha256=ByqGOQ-e39Gk2A5Z14kBWD3aCiXEHDt-ejyG-Y9asuA,456
+typish/_classes.py,sha256=z2ZvFmt0jQzjBlDIeDCJkRpV4zRB5KYv_NB14_knLAs,6883
+typish/_decorators.py,sha256=sLZMN_NMMq2YJKq89xw0-YV0LEffu0tNNIixLiOZKwM,732
+typish/_functions.py,sha256=nxEDJphLxmTLHk2Z_T6t5fB_a0c2rucW-uMr_QMLlXQ,13225
+typish/_meta.py,sha256=pQ5hbY0UIaQxevhcUOdH8OG8kR9rVjfrpvSQ14prnKw,245
+typish/_types.py,sha256=8vaEswbnEQyuaH6J3mBk_I6PUwTXwF-EHV-gH9klZYc,391
+typish/effe.py,sha256=jphUmTk9_t-ADtQOYg6Vvwl7ialgsZxEw2D15Q5JqWc,841
+typish-1.3.2.dist-info/METADATA,sha256=5SnjM6yRPy690dfW3-vOcy3hBHC9hm8taRvDwgcq-HQ,3414
+typish-1.3.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+typish-1.3.2.dist-info/top_level.txt,sha256=0d-LkM00cwkivwIHZ1NLYezetVHCuNtlkpXtZqvPdsk,7
+typish-1.3.2.dist-info/RECORD,,
