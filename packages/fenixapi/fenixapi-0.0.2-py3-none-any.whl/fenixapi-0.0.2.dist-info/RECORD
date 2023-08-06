@@ -1,0 +1,8 @@
+fenix/__init__.py,sha256=DfdmQQJCeLcNy6cvOofUy2oGNJcW61O8PLEe9cqChmc,73
+fenix/exceptions.py,sha256=vtEXkU_GKRcnXGYlH5Wza3S-czEs5n71pH-gDkquur4,418
+fenix/session.py,sha256=KRlrCN_wHy68plSz1Nf8JFL698_hh-kLIQ5jHDzQXoA,4588
+fenix/utils.py,sha256=fAGiU733aly7XQOmi1tFX4JfUidQT_Qkm6AkXq0mpdk,3099
+fenixapi-0.0.2.dist-info/METADATA,sha256=Aupzm3Xf6kTg5Jx-OgsbXm3epUWXqUlVVCFjaY5UgwU,547
+fenixapi-0.0.2.dist-info/RECORD,,
+fenixapi-0.0.2.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+fenixapi-0.0.2.dist-info/top_level.txt,sha256=phjC3k3sGIb1aRc8uxcJhVHAHAjeDrF19vBwu1whOE0,6
