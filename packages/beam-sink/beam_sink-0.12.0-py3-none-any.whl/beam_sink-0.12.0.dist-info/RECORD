@@ -1,0 +1,10 @@
+beam_sink/__init__.py,sha256=MfeoECN60_wTcH9t5P1FunEU1CZiAFqYsEVJRLRsfDA,71
+beam_sink/sinks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beam_sink/sinks/mysql.py,sha256=1yb09oIViIQsOghTCfSuqs8v7hKkaIji3w99jCCjipY,3861
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mysql.py,sha256=4hXcqNvJHrHLYhQd2eFS2ZKQBXEntTJAHVd4DfW7HxA,2454
+beam_sink-0.12.0.dist-info/LICENSE,sha256=KAOswrU_cZrFyb0WXZUZ7YvIxWAeO3qSCcbvGDIWdTo,1070
+beam_sink-0.12.0.dist-info/METADATA,sha256=oqNnFQonfGzjBn9fA36TD9UiMS8TK17f1lePzk-uwsE,368
+beam_sink-0.12.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+beam_sink-0.12.0.dist-info/top_level.txt,sha256=Wbhdiwm6UNtgSJ4joFn0p0t24YmYQjTaOiqg_NY9swU,16
+beam_sink-0.12.0.dist-info/RECORD,,
