@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: tlang-tdoc
+Version: 0.0.1
+Summary: Tree Document Format
+Home-page: https://hg.sr.ht/~sebastien/tdoc/
+Author: Sebastien Pierre
+Author-email: sebastien.pierre@gmail.com
+License: Revised BSD License
+Download-URL: https://hg.sr.ht/~sebastien/tdoc/archive/0.0.1.tar.gz
+Description: TDoc is a text format to write XML-compatible trees.
+        
+Keywords: xml,tree,document,markup,syntax,parser
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
