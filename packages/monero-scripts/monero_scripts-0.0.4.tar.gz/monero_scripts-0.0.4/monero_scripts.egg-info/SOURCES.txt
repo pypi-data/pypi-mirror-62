@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+_version.py
+connect_to_node.py
+get_monero_hard_fork_info.py
+get_monero_seed_nodes.py
+pyproject.toml
+setup.py
+monero_scripts.egg-info/PKG-INFO
+monero_scripts.egg-info/SOURCES.txt
+monero_scripts.egg-info/dependency_links.txt
+monero_scripts.egg-info/requires.txt
+monero_scripts.egg-info/top_level.txt
