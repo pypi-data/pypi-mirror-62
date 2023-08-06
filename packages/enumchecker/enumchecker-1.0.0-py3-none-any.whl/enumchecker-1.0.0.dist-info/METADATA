@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: enumchecker
+Version: 1.0.0
+Summary: Checks your python enums. Eliminates common errors.
+Home-page: UNKNOWN
+Author: Suade Labs
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Testing
+
+# enumchecker
+Checks your python enums. Eliminates common attribute errors and name conflicts.
+
+
