@@ -1,0 +1,7 @@
+README.md
+setup.py
+./bin/setup-py
+setup_py_cli.egg-info/PKG-INFO
+setup_py_cli.egg-info/SOURCES.txt
+setup_py_cli.egg-info/dependency_links.txt
+setup_py_cli.egg-info/top_level.txt
