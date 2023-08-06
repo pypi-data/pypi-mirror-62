@@ -1,0 +1,7 @@
+README.txt
+setup.cfg
+setup.py
+finalglobal.egg-info/PKG-INFO
+finalglobal.egg-info/SOURCES.txt
+finalglobal.egg-info/dependency_links.txt
+finalglobal.egg-info/top_level.txt
