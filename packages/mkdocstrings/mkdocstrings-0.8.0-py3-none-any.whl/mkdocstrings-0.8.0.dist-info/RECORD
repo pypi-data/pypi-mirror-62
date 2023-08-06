@@ -1,0 +1,13 @@
+README.md,sha256=XDLa0WyFp0TNRqhYUIVnv-5NEpbPFU80icDDvaZKXzE,8489
+mkdocstrings/__init__.py,sha256=t6IrugL1D58miGOeqhBb4-iKHtGT4zeCNRvVseYUMTw,363
+mkdocstrings/docstrings.py,sha256=S1HYcKshrQLLZGL_R9KqQMt7LtGCDZ94mBeY6YRhKEY,9370
+mkdocstrings/documenter.py,sha256=JjQ2BmDkBCwSq0q2y2sVY0zOVngbj6foiSpTW8tJO2c,22345
+mkdocstrings/plugin.py,sha256=yvCq1B8JR98pOcbPHfPC3Lcl7ux-vQ-f6KeYE0UTr-g,5527
+mkdocstrings/renderer.py,sha256=EnK4BnDsPj-Zn8SSLg4GQVN12yJggTyRyo0QgiiSzts,8734
+mkdocstrings/utils.py,sha256=v8x8SxYDWqZLXqwFzFQ-sZavXDEhIJvR7w6Wf9m7uv0,462
+pyproject.toml,sha256=e4gdfjUH2a3cmRLFx-ezWWDhv4kVq5ZKlBj6R3-KKoA,1792
+mkdocstrings-0.8.0.dist-info/entry_points.txt,sha256=4_GHW980f3x-Apto5urXJ_4T-f5riy2T4UZ-p9xtZkQ,70
+mkdocstrings-0.8.0.dist-info/LICENSE,sha256=CWPhZO4wCQgGXLc5hPRozRbGdwSWXL0exgU76L4yUvI,754
+mkdocstrings-0.8.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mkdocstrings-0.8.0.dist-info/METADATA,sha256=QmdpIl_Cj5AI0e-lSJ7cojFHBeISozeb3dL-Gq0yK2Y,9179
+mkdocstrings-0.8.0.dist-info/RECORD,,
