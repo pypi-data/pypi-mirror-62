@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: libthumbor
+Version: 2.0.0
+Summary: libthumbor is the python extension to generate thumbor URLs
+License: MIT
+Keywords: imaging,face,detection,feature,thumbor,thumbnail,imagemagick,pil,opencv
+Author: Bernardo Heynemann
+Author-email: heynemann@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: six (>=1.14.0,<2.0.0)
