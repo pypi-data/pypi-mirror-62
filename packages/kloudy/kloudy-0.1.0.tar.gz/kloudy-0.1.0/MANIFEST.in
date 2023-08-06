@@ -1,0 +1,1 @@
+include kloudy/aws/commands/aws.py kloudy/gcp/commands/gcp.py README.md LICENSE

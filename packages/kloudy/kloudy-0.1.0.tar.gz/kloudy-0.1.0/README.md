@@ -1,0 +1,181 @@
+# About
+
+kloudy is a python package which provides a human-friendly command-line interface for your cloud (AWS, GCP & Azure) 
+provider resources. At the moment, it supports AWS and Google cloud however the support for Azure will be added soon.
+
+kloudy is not a replacement to any command-line interface/SDK provided by AWS or GCP.kloudy does not aim to replace 
+any command-line utility provided by cloud provider but it aims to help cloud user/administrator do his/her routine 
+tasks much more easily.
+
+# Features
+
+*   Unified command-line interface to multiple cloud providers (AWS and GCP for now)
+*   Gets you data across all regions/projects easily
+*   Works seamlessly with your existing AWS/GCP configuration files and environment variables.
+
+# Known Limitations
+
+*   still in an alpha stage
+*   runs only on python 3.6 and above
+
+# Installation
+
+The easiest way to install kloudy is to use pip in a virtualenv:
+
+```bash
+python3 -m venv .venv
+pip install kloudy
+```
+
+or, if you are not installing in a virtualenv, to install globally:
+
+```bash
+sudo pip install kloudy
+```
+
+or for your user:
+
+```bash
+pip install kloudy --user
+```
+
+# Getting Started - AWS
+
+Before using kloudy, you need to provide it with your AWS credentials. You can do this in several ways:
+
+*   Environment variables
+    * AWS_ACCESS_KEY_ID - Specifies the secret key associated with the access key. This is essentially the "password" for the access key.
+    * AWS_SECRET_ACCESS_KEY - Specifies an AWS access key associated with an IAM user or role.
+    * AWS_DEFAULT_REGION - Specifies the AWS Region to send the request to.
+    
+    For example,
+    ```bash
+    $ export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+    $ export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+    $ export AWS_DEFAULT_REGION=us-west-2
+    ```
+    More details available at,
+    https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
+    
+*   Shared credentials file
+    * AWS_SHARED_CREDENTIALS_FILE - Specifies the location of the file that the AWS CLI uses to store access keys. The default path is ~/.aws/credentials).
+
+*   Config file
+    * AWS_CONFIG_FILE - Specifies the location of the file that the AWS CLI uses to store configuration profiles. The default path is ~/.aws/config).
+
+*   IAM Role
+    * You can configure the AWS Command Line Interface (AWS CLI) to use an IAM role by defining a profile for the role in the ~/.aws/config file.
+    
+    For example,
+    
+    ```bash
+    [profile marketingadmin]
+    role_arn = arn:aws:iam::123456789012:role/marketingadminrole
+    source_profile = user1
+    ```
+    More details available at,
+    https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-role.html
+    
+The quickest way to get started is to run the aws configure command:
+
+```bash
+$ aws configure
+AWS Access Key ID: foo
+AWS Secret Access Key: bar
+Default region name [us-west-2]: eu-west-1
+Default output format [None]: json
+```
+# Usage
+
+*   Load your AWS credentials into an environment
+*   Run kloudy command with an appropriate option
+
+# Supported options for AWS
+
+
+| Cloud Provider       | Command Subgroup           | Command  | Command | Description |
+| :------------- |:-------------:| :-----:| :-----:| :------------|
+| aws      | billing | list | monthly | list AWS account monthly charges |
+|       |  |  | monthly-by-service | list AWS account monthly charges by service |
+|          | cloudtrail | list | lookup-events | list cloudtrail events which are not read only |
+|       | ebs      |   list | volumes | list ebs volumes |
+|       |       |    | volume-snapshot | list snapshot for a given ebs volume |
+|       |  ec2     |  list  | amis | list AMIs |
+|       |       |    | instances | list EC2 instances |
+|       |       |    | key-pairs | list key-pairs |
+|       |       |    | security-groups | list Security Groups |
+|       |  ec2     |  describe  | security-group | Describe a given security group |
+|       |  iam     |  list  | users | list all IAM users |
+|       |       |    | groups | list all IAM groups |
+|       |       |    | roles | list all IAM roles |
+|       |  s3     |  list  | buckets | list all S3 buckets |
+|       |       |    | buckets-size-in-mb | list all S3 buckets by Size |
+|       |  ssm     |  list  | parameters | list all SSM parameters |
+|       |  s3     |  list  | buckets | list all S3 buckets |
+|       |  vpc     |  list  | vpcs | list all VPCs |
+|       |       |    | detached-elastic-ips | list all unattached EIPs |
+|       |       |    | internet-gateways | list all internet-gateways |
+|       |       |    | nat-gateways | list all nat-gateways |
+
+# Example
+
+```bash
+Usage: kloudy aws [OPTIONS] COMMAND [ARGS]...
+
+  AWS Cloud SubGroup
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  billing
+  cloudtrail  Manage AWS CloudTrail resources
+  ebs         Manage AWS EBS resources
+  ec2         Manage AWS EC2 resources
+  iam         Manage AWS IAM resources
+  s3          Manage AWS S3 resources
+  ssm         Manage AWS SSM resources
+  vpc         Manage AWS vpc resources
+```
+Each command has sub-commands. Run kloudy with --help to list all the possible sub-commands.
+
+# Getting Started - GCP
+
+Before using kloudy with GCP, you need to provide it with your GCP credentials.
+
+
+*   In the Cloud Console, on the project selector page, select or create a Cloud project.
+*   Make sure that billing is enabled for your Google Cloud project.
+*   Install the Cloud SDK.
+*   After the SDK is installed, run 
+```bash
+gcloud auth application-default login.
+```
+
+# Usage
+
+*   Load your GCP credentials into an environment
+*   Run kloudy command with an appropriate option
+
+# Supported options for GCP
+
+
+| Cloud Provider       | Command Subgroup           | Command  | Command | Description |
+| :------------- |:-------------:| :-----:| :-----:| :------------|
+| gcp      | compute | list | instances | list compute engine instances |
+| gcp      | project | list | projects | list all GCP projects |
+
+# Example
+
+```bash
+Usage: kloudy gcp [OPTIONS] COMMAND [ARGS]...
+
+  Google Cloud SubGroup
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  compute  GCP compute engine sub-group
+  project  GCP project sub-group
+```
