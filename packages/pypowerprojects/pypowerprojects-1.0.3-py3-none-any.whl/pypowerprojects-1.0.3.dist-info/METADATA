@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pypowerprojects
+Version: 1.0.3
+Summary: A Python package to send email using Python
+Home-page: https://github.com/tirth-2001/ttt.git
+Author: PyPower Projects
+Author-email: projectspypower@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyttsx3
+Requires-Dist: captcha
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: wget
+
+# PyPower Projects
+## Send email using Python
+# How To Use :
+## 1. Install the library pypowerprojects
+## 2. Go to python bash and execute the following command : from pypowerprojects import gmail
+
+
