@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: skt-scale
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # scale-sdk
+        python scale
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: test

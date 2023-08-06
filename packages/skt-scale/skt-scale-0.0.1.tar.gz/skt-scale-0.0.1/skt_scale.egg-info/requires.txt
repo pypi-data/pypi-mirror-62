@@ -1,0 +1,8 @@
+fire
+requests
+
+[test]
+pylint
+pytest
+pytest-mock
+responses
