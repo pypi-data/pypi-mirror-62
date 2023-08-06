@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/mythos/__init__.py
+src/mythos/audio/__init__.py
+src/mythos/audio/__version__.py
+src/mythos_audio.egg-info/PKG-INFO
+src/mythos_audio.egg-info/SOURCES.txt
+src/mythos_audio.egg-info/dependency_links.txt
+src/mythos_audio.egg-info/entry_points.txt
+src/mythos_audio.egg-info/namespace_packages.txt
+src/mythos_audio.egg-info/not-zip-safe
+src/mythos_audio.egg-info/requires.txt
+src/mythos_audio.egg-info/top_level.txt
