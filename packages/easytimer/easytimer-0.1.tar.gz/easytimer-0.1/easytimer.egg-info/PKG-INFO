@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: easytimer
+Version: 0.1
+Summary: A module for easily timing sections of code.
+Home-page: UNKNOWN
+Author: Adam Rose
+License: UNKNOWN
+Description: # About
+        
+        A module for easily timing sections of code.
+        
+        # Installation
+        
+        ```
+        pip install easytimer
+        ```
+        
+        # Usage
+        
+        - tick() starts a new section timer and ends the previous section timer
+        - tock() prints out the runtime for each section so far
+        - Calling tick() multiple times with the same name adds to a running total for that name
+        
+        ## Examples
+        
+        ```python
+        from easytimer import tick, tock
+        import time
+        
+        # Example with unnamed sections
+        tick()
+        time.sleep(0.1)
+        tick()
+        time.sleep(0.2)
+        tick()
+        time.sleep(0.1)
+        
+        ```
+        
+        ```
+        --- Timer Results ---
+        tick 1 - 0.10s
+        tick 2 - 0.20s
+        tick 3 - 0.10s
+        ---------------------
+        ```
+        
+        ```python
+        # Example with named sections
+        tick('Setup')
+        time.sleep(0.1)
+        
+        tick('Multi')
+        time.sleep(0.2)
+        
+        tick('Intermediate')
+        time.sleep(0.3)
+        
+        tick('Multi')
+        time.sleep(0.4)
+        
+        tock()
+        ```
+        
+        ```
+        --- Timer Results ---
+        Setup        - 0.10s
+        Multi        - 0.60s
+        Intermediate - 0.30s
+        ---------------------
+        ```
+        
+        ```python
+        # Example with loop
+        tick("Part A")
+        time.sleep(0.1)
+        for i in range(10):
+            tick('Part B1')
+            time.sleep(0.02)
+            tick('Part B2')
+            time.sleep(0.03)
+        tick("Part C")
+        time.sleep(0.4)
+        
+        tock()
+        ```
+        
+        ```
+        --- Timer Results ---
+        Part A  - 0.10s
+        Part B1 - 0.20s
+        Part B2 - 0.30s
+        Part C  - 0.40s
+        ---------------------
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
