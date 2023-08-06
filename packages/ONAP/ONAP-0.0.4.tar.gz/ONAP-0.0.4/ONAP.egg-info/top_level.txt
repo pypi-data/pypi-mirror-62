@@ -1,0 +1,11 @@
+ONAP
+ONAP/classes
+ONAP/functions
+ONAP/functions/community
+ONAP/functions/components
+ONAP/functions/graph_embedding
+ONAP/functions/graph_embedding/node2vec
+ONAP/functions/not_sorted
+ONAP/functions/structural_holes
+ONAP/tests
+ONAP/utils
