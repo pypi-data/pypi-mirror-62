@@ -1,0 +1,5 @@
+setup.py
+HotelLite.egg-info/PKG-INFO
+HotelLite.egg-info/SOURCES.txt
+HotelLite.egg-info/dependency_links.txt
+HotelLite.egg-info/top_level.txt
