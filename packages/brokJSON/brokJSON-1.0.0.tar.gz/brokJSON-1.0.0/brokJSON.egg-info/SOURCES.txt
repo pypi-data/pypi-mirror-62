@@ -1,0 +1,8 @@
+README.md
+setup.py
+brokJSON.egg-info/PKG-INFO
+brokJSON.egg-info/SOURCES.txt
+brokJSON.egg-info/dependency_links.txt
+brokJSON.egg-info/top_level.txt
+brokjson/__init__.py
+brokjson/__main__.py
