@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: argali
+Version: 0.1.1
+Summary: Data Analysis Tools
+Home-page: https://dataanalysis.co.uk
+Author: Aaron Honour
+Author-email: aaronhonour@protonmail.com
+License: UNKNOWN
+Description: ARGALI README
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
