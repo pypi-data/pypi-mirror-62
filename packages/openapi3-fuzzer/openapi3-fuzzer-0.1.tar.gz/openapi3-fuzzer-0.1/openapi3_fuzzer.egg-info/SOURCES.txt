@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+openapi3-fuzzer/__init__.py
+openapi3-fuzzer/get_aad_access_token.py
+openapi3-fuzzer/openapi3-fuzzer.py
+openapi3_fuzzer.egg-info/PKG-INFO
+openapi3_fuzzer.egg-info/SOURCES.txt
+openapi3_fuzzer.egg-info/dependency_links.txt
+openapi3_fuzzer.egg-info/top_level.txt
