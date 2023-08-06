@@ -1,0 +1,13 @@
+slicerfiducials/__init__.py,sha256=xo_0UqJVQCqf3r7iYB1TyJdtQzsQtKcUb0dZ0oIWlRg,191
+slicerfiducials/cli.py,sha256=aPUczAEThJtCfa2iNytz2b_4U2kMbJ7-3YC6vWOSgxg,2678
+slicerfiducials/slicerfiducials.py,sha256=8I2y_u-hWfBzHaX6geT_WlJbpxloNQR-izpPbzYBdmo,9875
+slicerfiducials/enumerations/__init__.py,sha256=LcWiyb_1P1wjvyOBREBI1n7_QtE7giuqU0qsvUzeKig,52
+slicerfiducials/enumerations/format.py,sha256=P47HIocbNn6xOHIORuaxhpA3lkep6kV3OD0vmHRw3tU,127
+slicerfiducials/enumerations/space.py,sha256=L_w7TEAW_KRJWmyprGXki771qv8laoWmonh-ZTmWYTA,115
+slicerfiducials-0.1.6.dist-info/AUTHORS.rst,sha256=Huc0R39t9HnQ0NgXzhwYl5rbj5vmqKfeAmWRbMFTGc0,168
+slicerfiducials-0.1.6.dist-info/LICENSE,sha256=_qaEDLh6TT8_R3FxZ_oaj_0SRF42Z0HOsT5leBh_WK8,1577
+slicerfiducials-0.1.6.dist-info/METADATA,sha256=q5iTFWqEvIkUT3Jvns7ZHYW3sjQlZomuq57FpGXXz1c,2119
+slicerfiducials-0.1.6.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+slicerfiducials-0.1.6.dist-info/entry_points.txt,sha256=fil43ImdRcrZql23MyGKzOtT7ebM1e-8TxPkRKWuE2U,62
+slicerfiducials-0.1.6.dist-info/top_level.txt,sha256=Y_HSNAQX-Ku7tOjhyo650hsHpAlZmcJFOqxZ0ji5Z3g,16
+slicerfiducials-0.1.6.dist-info/RECORD,,
