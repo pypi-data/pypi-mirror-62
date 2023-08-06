@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cgt
+Version: 0.0.2
+Summary: Tools for representing circular genomes in sage
+Home-page: https://github.com/js51/Circular-genome-tools
+Author: Joshua Stevenson
+Author-email: joshua.stevenson@utas.edu.au
+License: UNKNOWN
+Description: # Circular-genome-tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2
+Description-Content-Type: text/markdown
