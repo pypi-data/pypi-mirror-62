@@ -1,0 +1,86 @@
+Metadata-Version: 1.0
+Name: bitkub
+Version: 0.0.2
+Summary: A Python library for Bitkub API
+Home-page: https://github.com/sang-sakarin/bitkub
+Author: sang_sakarin
+Author-email: sang_sakarin@outlook.com
+License: sang_sakarin
+Description: Bitkub Python
+        =============
+        
+        A Python library for
+        `bitkub.com <https://github.com/bitkub/bitkub-official-api-docs>`__ API
+        
+        Table of Contents
+        -----------------
+        
+        -  `Installation <#installation>`__
+        -  `Usage <#usage>`__
+        -  `Creating a Bitkub <#creating>`__
+        -  `Viewing status <#viewingstatus>`__
+        -  `Viewing servertime <#viewingservertime>`__
+        -  Coming Soon ...
+        
+        Installation 
+        -------------
+        
+        ::
+        
+            pip install bitkub
+        
+        Usage 
+        ------
+        
+        ::
+        
+            from bitkub import Bitkub
+        
+        Creating a Bitkub Object 
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        ::
+        
+            bitkub = Bitkub()
+        
+        [ { 'name': 'Non-secure endpoints', 'status': 'ok', 'message': '' }, {
+        'name': 'Secure endpoints', 'status': 'ok', 'message': '' } ] ###
+        Viewing status #### Function bitkub.status()
+        
+        Response:
+        ^^^^^^^^^
+        
+        ::
+        
+            [
+              {
+                'name': 'Non-secure endpoints',
+                'status': 'ok',
+                'message': ''
+              },
+              {
+                'name': 'Secure endpoints',
+                'status': 'ok',
+                'message': ''
+              }
+            ]
+        
+        Viewing servertime 
+        ~~~~~~~~~~~~~~~~~~~
+        
+        Function
+        ^^^^^^^^
+        
+        ::
+        
+            bitkub.servertime()
+        
+        Response:
+        ^^^^^^^^^
+        
+        ::
+        
+            1583051817
+        
+Keywords: bitkub bitkub-python bitkub-python-sdk
+Platform: UNKNOWN
