@@ -1,0 +1,10 @@
+[console_scripts]
+iconify-browser = iconify.browser:run
+iconify-fetch = iconify.fetch:fetch
+iconify-fetch-dash = iconify.fetch:dashIcons
+iconify-fetch-ei = iconify.fetch:elusiveIcons
+iconify-fetch-fa = iconify.fetch:fontAwesome
+iconify-fetch-feather = iconify.fetch:featherIcons
+iconify-fetch-google-emojis = iconify.fetch:googleEmojis
+iconify-fetch-mdi = iconify.fetch:materialDesign
+
