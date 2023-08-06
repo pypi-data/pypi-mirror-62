@@ -1,0 +1,4 @@
+[console_scripts]
+rexmind = XmindToTestlink.rexmind:md_to_xmind
+xmindtotestlink = XmindToTestlink.main:main
+
