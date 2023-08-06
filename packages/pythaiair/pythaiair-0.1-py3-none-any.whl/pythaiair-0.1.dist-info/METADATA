@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pythaiair
+Version: 0.1
+Summary: Thai Air Quality library
+Home-page: https://github.com/wannaphong/pythaiair
+Author: Wannaphong Phatthiyaphaibun
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pythainlp (>=2.0)
+Requires-Dist: requests
+Requires-Dist: xmltodict
+Requires-Dist: pytz
+Requires-Dist: tqdm
+
+# pythaiair
+
+
