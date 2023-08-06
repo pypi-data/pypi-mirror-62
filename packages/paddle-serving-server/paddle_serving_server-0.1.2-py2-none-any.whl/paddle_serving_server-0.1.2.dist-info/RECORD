@@ -1,0 +1,13 @@
+paddle_serving_server/__init__.py,sha256=NFFr6S8VdDi1PoZkMFpyt4Vuv0rsZf59qL8DbD4cAeo,11282
+paddle_serving_server/plugin_service.py,sha256=LQpzEZlDqZ-yQryHmFMuKPX8qZRc2cVoSg3ZX45UkyU,2060
+paddle_serving_server/serve.py,sha256=TExN8BK8XN9i3v4IaRiTf-N1zcR2bCPZPtGqZI665uY,2323
+paddle_serving_server/version.py,sha256=5k5vFlvu_XrfipnMnTkCSKc8lUXKXMkZFBNlWpcFvg0,751
+paddle_serving_server/web_serve.py,sha256=z7I319jIYIjVu_-gOWiM_IHB3oy9_doxcGRW11J7vug,1758
+paddle_serving_server/web_service.py,sha256=ZTxF4cn2Z8BCQ9Yh-3Wj2dFn-7kMxYya415IiK0LnKw,3399
+paddle_serving_server/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paddle_serving_server/proto/general_model_config_pb2.py,sha256=K8D5Ox2DrKIKL9-iAVqfInfR4q5Zr9eWd4Az1rR2SqI,8313
+paddle_serving_server/proto/server_configure_pb2.py,sha256=wS1RfcdLQl1gTRd69mrNFmP_7VcRgscDRrNjTnILSf8,27681
+paddle_serving_server-0.1.2.dist-info/METADATA,sha256=lp9yYVZ6YO-qSoYLRhiJ9Kr56taCW2Afm8va59hbDgg,1335
+paddle_serving_server-0.1.2.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+paddle_serving_server-0.1.2.dist-info/top_level.txt,sha256=bJddkdjp6T35SBsbPGZGohomIRsQmbqwCgjqhTZd1As,22
+paddle_serving_server-0.1.2.dist-info/RECORD,,
