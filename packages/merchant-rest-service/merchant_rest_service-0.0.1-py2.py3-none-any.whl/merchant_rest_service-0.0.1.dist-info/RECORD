@@ -1,0 +1,11 @@
+merchant_rest_service/__init__.py,sha256=F_OzHu0PxdoxrTK1JUAroQjwbLL8P7hmwwAhKuKcPtY,53
+merchant_rest_service/apibase.py,sha256=XgVetOYeTGepQjn8wK_GZRcWPbYZOr5XKR4Zf1E-ido,2079
+merchant_rest_service/merchant_client_core.py,sha256=Cd08C8xmJ8EZtzY3iPYkl0ZcrqxiHUSMs0xsN6_c4Dw,7720
+merchant_rest_service/version.py,sha256=ELV6IAkpDjcOY1mTFeedMzi7_ALLHsYaHpBFl4O9NiQ,166
+merchant_rest_service-0.0.1.dist-info/AUTHORS.rst,sha256=alSQO7bs9chSR_5WcVN-96IZTqyeQ2ok3ExGTtEDzdw,74
+merchant_rest_service-0.0.1.dist-info/LICENSE,sha256=QBVv0WdCt1j7Cx0M3i2qpU93DgHxfJjHCe3ycpA53aA,1117
+merchant_rest_service-0.0.1.dist-info/METADATA,sha256=iDBbP9fOQMUTtBxdhlM25k6_Jp8RgKIM-hhk6z57rkg,2729
+merchant_rest_service-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+merchant_rest_service-0.0.1.dist-info/entry_points.txt,sha256=AXJ0z3UnFboSgyPiPJ8LMF3kH5Tw2o_7XxmFsK88erA,74
+merchant_rest_service-0.0.1.dist-info/top_level.txt,sha256=6RIACfsRN5hG3rnfIYyRvb9rWazOZIthvkcKlKk1qZY,22
+merchant_rest_service-0.0.1.dist-info/RECORD,,
