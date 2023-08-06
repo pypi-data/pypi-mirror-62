@@ -1,0 +1,5 @@
+- bwa
+- minimap2
+- sambamba
+- samtools
+- sequana_coverage
