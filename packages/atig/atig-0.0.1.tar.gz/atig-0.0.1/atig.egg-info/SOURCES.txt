@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+atig/__init__.py
+atig/main.py
+atig/migration.py
+atig.egg-info/PKG-INFO
+atig.egg-info/SOURCES.txt
+atig.egg-info/dependency_links.txt
+atig.egg-info/entry_points.txt
+atig.egg-info/top_level.txt
