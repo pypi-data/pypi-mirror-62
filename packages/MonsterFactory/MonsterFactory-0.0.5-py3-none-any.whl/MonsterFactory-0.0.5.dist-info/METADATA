@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: MonsterFactory
+Version: 0.0.5
+Summary: Random Monster Generator
+Home-page: UNKNOWN
+Author: Robert Sharp
+Author-email: webmaster@sharpdesigndigital.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Fortuna
+
+# Monster Factory
+
+Fifth Edition D&D Monster Generator
+
+```
+>>> Monster(cr=3)
+Name: Ogre
+Tier: 1
+CR: 3
+Rank: Minion
+Health: 79
+Armor Class: 13
+Attack Bonus: 4
+Save DC: 13
+Typical Damage: 24
+XP Value: 525
+```
+
+
