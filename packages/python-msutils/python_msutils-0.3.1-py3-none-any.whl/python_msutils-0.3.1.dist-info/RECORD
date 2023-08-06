@@ -1,0 +1,17 @@
+msutils/VERSION,sha256=9PyVbsYbGHzRh5DAsKb6XR06MN5KVJPjJ3RgSF7RiPI,5
+msutils/__init__.py,sha256=S1jI369Lbo11_49o58D1JUIY3Ch-uX0qIKOCMEkYq2w,677
+msutils/clonable.py,sha256=b90X2u2wMhVVuW9Z_PGETlu4MEFJ7iIjUfyqgQUx178,1025
+msutils/dateutil.py,sha256=Roy0kN1SzdozOdVXbnkaoAgrx1RpGF23KBd-71EW1p0,2211
+msutils/jsonmap.py,sha256=jFVnsiPEgtHs-VtoGfZj9WwTT2nR4emXjxkXrnfoXxM,1240
+msutils/jsonutil.py,sha256=4V3zuNSI3ozkjNp7ChnHDggh2XXMABNgeCAM6pcYHr0,2227
+msutils/klass.py,sha256=Rxgp2cyU7QVsCzT3W6dbpgGhuBhfoIqc1krfd52MXfk,223
+msutils/mathutil.py,sha256=hweC1T6fTQ-8JqfLnuaQHQ0NBCMXugz-KJpRGvM7b2o,4981
+msutils/osutil.py,sha256=dm-2DTBRLmWSNq8lbmunVgGg6mFwKdhEaZhdPnHJVlw,1864
+msutils/pathutil.py,sha256=IN4cMH4KZALIxD8pw6I5PjUfaYonueizCYCK_dMVwZQ,995
+msutils/rangeutil.py,sha256=-X_B84kcIbqOHrBncnCPFZ0hKs88_ctjX7_DPjb8pYg,206
+msutils/util.py,sha256=9Mk5gOepmPNwLhpnxgMPR7HzKImf_I9h7fbjWUS5bjo,2658
+python_msutils-0.3.1.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+python_msutils-0.3.1.dist-info/METADATA,sha256=br2f1bhV--fITqGwBvR34N5oE0DT7BUEMNv3KMpbqq0,1033
+python_msutils-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_msutils-0.3.1.dist-info/top_level.txt,sha256=_VoIJIqsf6Dht1cZDNGTK992ro4M4fExfI9c2tQYiVQ,8
+python_msutils-0.3.1.dist-info/RECORD,,
