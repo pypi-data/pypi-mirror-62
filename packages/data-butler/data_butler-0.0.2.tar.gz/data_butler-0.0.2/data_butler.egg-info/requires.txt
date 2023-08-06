@@ -1,0 +1,5 @@
+geonamescache
+pycountry
+matplotlib
+pandas
+PrettyTable
