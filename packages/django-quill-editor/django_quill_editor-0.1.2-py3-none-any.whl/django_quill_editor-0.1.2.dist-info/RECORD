@@ -1,0 +1,12 @@
+django_quill/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_quill/config.py,sha256=tVfhAondevjHPA0YQAhr7AcNkFl0liAaaLKey70OcEQ,385
+django_quill/fields.py,sha256=Qkb_3hn8hFTi1cFz79GlxSfytZ5SJ8-0D8UNIQalWZc,4140
+django_quill/forms.py,sha256=99g4Xmp_TmoZ31-lNEs3TLJLEaXndLK1mi6XyJQuEqg,261
+django_quill/quill.py,sha256=n3mR0cB5cS3T7UiTMLURqCU6Z2ytgZOqyGbeZKprdH0,563
+django_quill/widgets.py,sha256=LFEpImz5gVrWOA5Db5QRQCDXBrO6NRu0u9_kiHZmkGU,2415
+django_quill_editor-0.1.2.dist-info/LICENSE,sha256=zpCZSH7_oDD-bIX6P_UQqzdr7z8-2KOLqvOXPpK50zU,1068
+django_quill_editor-0.1.2.dist-info/METADATA,sha256=HxZaNSaGABjWiI6vda5ZOcCltL4qWawL38aMMS93T78,440
+django_quill_editor-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_quill_editor-0.1.2.dist-info/top_level.txt,sha256=QxyvLcL5cgQXpdPaqLKU2urDVjS82GFPgl-kctjNE0o,13
+django_quill_editor-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_quill_editor-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-quill-editor
+Version: 0.1.2
+Summary: Integrate Quill editor with Django project.
+Home-page: https://github.com/LeeHanYeong/django-quill-editor
+Author: Lee HanYeong
+Author-email: dev@lhy.kr
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Requires-Dist: django
+
+# django-quill-editor
+
+
+
