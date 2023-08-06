@@ -1,0 +1,7 @@
+README.md
+setup.py
+kanimus_py.egg-info/PKG-INFO
+kanimus_py.egg-info/SOURCES.txt
+kanimus_py.egg-info/dependency_links.txt
+kanimus_py.egg-info/top_level.txt
+testpkg/__init__.py
