@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = ">=3.7"
+twine = "*"
+
+[packages]
+python-fuzzy-systems = {editable = true,path = "."}
+numpy = "*"
+fuzzy-systems = {editable = true,path = "."}
+gnuplotlib = "*"
+
+[requires]
+python_version = "3.8"

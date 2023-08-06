@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+__init__.py
+setup.py
+images/electrisity_cost.png
+images/temperature.png
+src/fuzzy_system.py
+src/test_fuzzy_system.py
+src/fuzzy_systems.egg-info/PKG-INFO
+src/fuzzy_systems.egg-info/SOURCES.txt
+src/fuzzy_systems.egg-info/dependency_links.txt
+src/fuzzy_systems.egg-info/top_level.txt
