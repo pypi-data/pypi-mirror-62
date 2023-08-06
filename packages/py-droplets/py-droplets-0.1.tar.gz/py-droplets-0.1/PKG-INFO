@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: py-droplets
+Version: 0.1
+Summary: Python package for describing and analyzing droplets in experiments and simulations
+Home-page: https://github.com/zwicker-group/py-droplets
+Author: David Zwicker
+Author-email: david.zwicker@ds.mpg.de
+License: MIT
+Download-URL: https://github.com/zwicker-group/py-droplets/archive/v0.1.tar.gz
+Description: # py-droplets
+        
+        [![Build Status](https://travis-ci.org/zwicker-group/py-droplets.svg?branch=master)](https://travis-ci.org/zwicker-group/py-droplets)
+        [![codecov](https://codecov.io/gh/zwicker-group/py-droplets/branch/master/graph/badge.svg)](https://codecov.io/gh/zwicker-group/py-droplets)
+        [![Documentation Status](https://readthedocs.org/projects/py-droplets/badge/?version=latest)](https://py-droplets.readthedocs.io/en/latest/?badge=latest)
+        
+        `py-droplets` provides python code for representing data about physical
+        droplets, like position, size, or shape.
+        These droplets can also be represented as collections (emulsions) over time.
+        Moreover, the package provides methods for locating droplets in microscope
+        images or phase field data from simulations.
+        
+Keywords: emulsions,image-analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
