@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vegasflow
+Version: 0.1
+Summary: Monte Carlo integration with Tensorflow
+Home-page: https://github.com/N3PDF/VegasFlow
+Author: S.Carrazza, J.Cruz-Martinez
+Author-email: stefano.carrazza@cern.ch, juan.cruz@mi.infn.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6,<3.8
+Requires-Dist: numpy
+Requires-Dist: joblib
+Requires-Dist: tensorflow
+Provides-Extra: benchmark
+Requires-Dist: vegas ; extra == 'benchmark'
+Provides-Extra: docs
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: cffi ; extra == 'examples'
+
+See readthedocs webpage with the documentation
+
+
