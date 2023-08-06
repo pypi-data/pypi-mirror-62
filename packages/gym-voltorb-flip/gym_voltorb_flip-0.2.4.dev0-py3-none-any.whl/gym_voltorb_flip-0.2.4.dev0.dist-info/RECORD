@@ -1,0 +1,6 @@
+gym_voltorb_flip/__init__.py,sha256=tx1bEWdOx6qqStJKbIwgrQ2S70yJ5POVruDXRvwqnOE,153
+gym_voltorb_flip/envs/__init__.py,sha256=-MUDTwr31-qN-soZpVtceGmJ0W-2cMeORYGVy10zCjE,66
+gym_voltorb_flip/envs/voltorb_flip_env.py,sha256=9CyKbvdEOsaiqebvZ_U_Xv-jyU8BOPFTJTftPtOHVkQ,5143
+gym_voltorb_flip-0.2.4.dev0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+gym_voltorb_flip-0.2.4.dev0.dist-info/METADATA,sha256=3ElfYX4vHLRwx1YcgQ1yx1Q6BxNL8ktR7JH6eMOM_-w,546
+gym_voltorb_flip-0.2.4.dev0.dist-info/RECORD,,
