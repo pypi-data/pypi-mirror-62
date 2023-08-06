@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: soll
+Version: 0.2.0
+Summary: Python HTTP POST method invoker
+Home-page: https://github.com/jalepi/soll
+Author: jalepi
+Author-email: jalepi@live.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: tornado
+
+# soll
+Python HTTP POST to method call
+
+
