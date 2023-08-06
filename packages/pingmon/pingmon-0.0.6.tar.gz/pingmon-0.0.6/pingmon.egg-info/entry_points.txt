@@ -1,0 +1,3 @@
+[console_scripts]
+pingmon = pingmon.pingmon:main
+
