@@ -1,0 +1,93 @@
+Metadata-Version: 1.2
+Name: merchant_rest_service
+Version: 0.0.1
+Summary: When you need to make use of Paga Merchant Service API, using our libraries to interact with the APIs makes your integration fast as most of the API logic has been handled when using the Paga Merchant Libraries
+Home-page: https://https://github.com/pagadevcomm/merchant_rest_service.git/pagadevcomm/merchant_rest_service
+Author: Paga Developer Community
+Author-email: devcomm@paga.com
+License: MIT
+Project-URL: Changelog, https://https://github.com/pagadevcomm/merchant_rest_service.git/pagadevcomm/merchant_rest_service/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://https://github.com/pagadevcomm/merchant_rest_service.git/pagadevcomm/merchant_rest_service/issues
+Description: ========
+        Overview
+        ========
+        
+        When you need to make use of Paga Merchant Service API, using our libraries to interact with the APIs makes your
+        integration fast as most of the API logic has been handled when using the Paga Merchant Libraries
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install merchant_rest_service
+        
+        You can also install the in-development version with::
+        
+            pip install git+ssh://git@https://github.com/pagadevcomm/merchant_rest_service.git/pagadevcomm/merchant_rest_service.git@master
+        
+        Documentation
+        =============
+        
+        
+        To use the project:
+        
+        .. code-block:: python
+        
+            import merchant_rest_service
+            merchant_rest_service.longest()
+        
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (3)
+        ---------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*

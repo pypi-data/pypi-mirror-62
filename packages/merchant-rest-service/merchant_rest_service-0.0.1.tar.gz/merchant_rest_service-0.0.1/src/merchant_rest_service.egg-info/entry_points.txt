@@ -1,0 +1,3 @@
+[console_scripts]
+merchant_rest_service = merchant_rest_service.cli:main
+
