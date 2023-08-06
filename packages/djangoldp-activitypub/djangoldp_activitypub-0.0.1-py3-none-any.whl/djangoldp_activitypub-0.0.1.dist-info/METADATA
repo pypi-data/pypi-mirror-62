@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: djangoldp-activitypub
+Version: 0.0.1
+Summary: djangoldp package for Activity Pub
+Home-page: http://git.happy-dev.fr/startinblox/djangoldp_activitypub
+Author: Startin'blox
+Author-email: jblemee@happy-dev.fr
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: djangoldp (~=0.0)
+Requires-Dist: cryptography (<3,>=2)
+Requires-Dist: requests-http-signature (~=0.0)
+
+UNKNOWN
+
+
