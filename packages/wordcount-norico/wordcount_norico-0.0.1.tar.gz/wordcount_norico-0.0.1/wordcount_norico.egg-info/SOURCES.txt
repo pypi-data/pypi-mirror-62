@@ -1,0 +1,5 @@
+setup.py
+wordcount_norico.egg-info/PKG-INFO
+wordcount_norico.egg-info/SOURCES.txt
+wordcount_norico.egg-info/dependency_links.txt
+wordcount_norico.egg-info/top_level.txt
