@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tflite2onnx
+Version: 0.0.1
+Summary: Converting TensorFlow Lite models to ONNX models
+Home-page: https://jackwish.net/tflite2onnx
+Author: 王振华(Zhenhua WANG)
+Author-email: i@jackwish.net
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/jackwish/tflite2onnx/issues
+Project-URL: Source, https://github.com/jackwish/tflite2onnx
+Keywords: tflite,tensorflow,onnx
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.5.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+Converting TensorFlow Lite models to ONNX models
+================================================
+
+Under constructing.
+
+https://jackwish.net/tflite2onnx
+
+
