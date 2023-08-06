@@ -1,0 +1,12 @@
+color/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+color/_nbdev.py,sha256=joGgKQDX4ljnIfPidmgnJPR8qtxzp4QBMMMmrHnM_B8,1204
+color/core.py,sha256=gYmGumaTm-_c7HAT0Hm1V82i103AcUOPm5rIHOdTbLw,7081
+pcolor/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+pcolor/_nbdev.py,sha256=BTsjqbgTiUHuZA0yjyQtRWGi7sYdg-KNUw8wrKBogYM,1291
+pcolor/core.py,sha256=QF_pQ69Ab8bVdh04EnhwJsSfLBVBpqVIUWEgIhm0ns8,7222
+pcolor-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pcolor-0.0.3.dist-info/METADATA,sha256=2U-qsRlKywLNgOWx30HeWYE0pWI0hDxArDOEMpXSxeI,1091
+pcolor-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pcolor-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pcolor-0.0.3.dist-info/top_level.txt,sha256=TtjVEOFs9cOhuMrIj3vyX6nW93yPF7-nZikpoR1HqeA,13
+pcolor-0.0.3.dist-info/RECORD,,
