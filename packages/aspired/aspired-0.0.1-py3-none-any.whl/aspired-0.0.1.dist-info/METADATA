@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aspired
+Version: 0.0.1
+Summary: ASPIRED
+Home-page: https://github.com/cylammarco/ASPIRED
+Author: Marco Lam
+Author-email: cylammarco@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: reproject (==0.5)
+Requires-Dist: scipy
+Requires-Dist: astropy
+Requires-Dist: ccdproc
+Requires-Dist: astroscrappy
+Requires-Dist: plotly
+
+# ASPIRED
+[![Build Status](https://travis-ci.com/cylammarco/ASPIRED.svg?branch=dev)](https://travis-ci.com/cylammarco/ASPIRED)
+[![Readthedocs Status](https://readthedocs.org/projects/aspired/badge/?version=latest&style=flat)](https://aspired.readthedocs.io/en/latest/)
+
+OPTICON funded project - Automated SpectroPhotometric Image REDuction
+
+[Documentation](https://aspired.readthedocs.io/en/latest/)
+
+
