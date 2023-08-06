@@ -1,0 +1,11 @@
+migrationmaker/__init__.py,sha256=_mc3Vemq2yPH0dOSbHSW-EzOedproVXbpHx2RjyIDZk,280
+migrationmaker/migration.py,sha256=Ro8pGg_EMR7X3sRB6KqG2RX7bqUo_5CtNascK28CsNY,11267
+migrationmaker/version_ctl.py,sha256=th-HlQHZgnyCCUnsX0uahFI24uhxzpN2C9Jmdsil7zY,3961
+sqlalchemy_migration_maker-0.4.dist-info/METADATA,sha256=jo32l6F3rGmwSjU0DZSuzexXMvs_D-HMvX6mTtOXAqY,2760
+sqlalchemy_migration_maker-0.4.dist-info/RECORD,,
+sqlalchemy_migration_maker-0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sqlalchemy_migration_maker-0.4.dist-info/top_level.txt,sha256=4fEkRNmK6Ni97myz5DAfjJrP6ITWkjpfpGcEa86-fAM,21
+tests/__init__.py,sha256=V1EZjXPToGKY1WcGHP05C78QfZ-R2xL9y62FjsaFIBc,144
+tests/model.py,sha256=TA-pBzWh8FXEpl5BVW9a7kz8HPWewEmufiDV9bbl3m8,1448
+tests/test_meta.py,sha256=7_GfnT0gF4slia8w0VZm5m59MoXVu8BnQwS9EV1NWLc,2593
+tests/test_version_control.py,sha256=D1DFMrkkPLI07ViBNFkRHL9r0gCRQaVtaf97N-DHbMk,2351
