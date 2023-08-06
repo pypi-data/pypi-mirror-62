@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: uselessfacts
+Version: 1.0.0
+Summary: A powerfull , flexible and modern python module to retrieve random useless facts from the mighty web . View more on the github page
+Home-page: https://github.com/Jakeisbored/uselessfacts
+Author: Jake
+Author-email: jstyle07072004@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
