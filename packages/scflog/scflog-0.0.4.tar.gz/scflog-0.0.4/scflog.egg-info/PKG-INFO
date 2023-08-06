@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: scflog
+Version: 0.0.4
+Summary: 一款可以实时查看腾讯云SCF Python Runtime日志的工具
+Home-page: https://github.com/gosls/PythonLogsCli
+Author: anycodes
+Author-email: service@52exe.cn
+License: Apache License 2.0
+Description: # SCFLogs
+        
+        no-data
+Keywords: scf,python,logs,scflogs
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
