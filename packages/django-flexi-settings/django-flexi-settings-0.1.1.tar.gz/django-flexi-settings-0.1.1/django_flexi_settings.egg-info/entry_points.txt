@@ -1,0 +1,5 @@
+[flexi_settings.loaders]
+json = flexi_settings.loaders:load_json
+python = flexi_settings.loaders:load_python
+yaml = flexi_settings.loaders:load_yaml
+
