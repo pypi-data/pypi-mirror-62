@@ -1,0 +1,4 @@
+patool~=1.12
+pyunpack~=0.1
+requests~=2.23
+tqdm~=4.43
