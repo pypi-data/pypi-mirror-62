@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+evogression/__init__.py
+evogression/calc_target_cython.c
+evogression/creatures.py
+evogression/evolution.py
+evogression/evolution_group.py
+evogression/generate_parameter_coefficients_calc.c
+evogression/standardize.py
+evogression.egg-info/PKG-INFO
+evogression.egg-info/SOURCES.txt
+evogression.egg-info/dependency_links.txt
+evogression.egg-info/requires.txt
+evogression.egg-info/top_level.txt
