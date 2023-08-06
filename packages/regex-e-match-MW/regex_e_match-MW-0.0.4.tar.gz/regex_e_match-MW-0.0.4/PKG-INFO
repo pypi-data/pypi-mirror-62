@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: regex_e_match-MW
+Version: 0.0.4
+Summary: Makes matching of regex statements easy.
+Home-page: UNKNOWN
+Author: MW
+Author-email: 
+License: UNKNOWN
+Description: Simpl function to get a simple array from regex matches.
+        Instead of the python re package itself with the less user friendly groups.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+setup.py
+regex_e_match/__init__.py
+regex_e_match_MW.egg-info/PKG-INFO
+regex_e_match_MW.egg-info/SOURCES.txt
+regex_e_match_MW.egg-info/dependency_links.txt
+regex_e_match_MW.egg-info/top_level.txt
