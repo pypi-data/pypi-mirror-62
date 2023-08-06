@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Geometric_Particle_Swarm_Optimisation.egg-info/PKG-INFO
+Geometric_Particle_Swarm_Optimisation.egg-info/SOURCES.txt
+Geometric_Particle_Swarm_Optimisation.egg-info/dependency_links.txt
+Geometric_Particle_Swarm_Optimisation.egg-info/requires.txt
+Geometric_Particle_Swarm_Optimisation.egg-info/top_level.txt
+pso/mutate.py
+pso/pinitialise.py
+pso/preprocessing.py
+pso/pso.py
+pso/svc.py
+pso/tpmbx.py
