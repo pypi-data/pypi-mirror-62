@@ -1,0 +1,312 @@
+[
+ {
+  "__gobject__": "Converter",
+  "command": "unoconv  --doctype  document --stdout {file}",
+  "enabled": true,
+  "name": "unoconv (document)",
+  "notes": "",
+  "patterns": [
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.html"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.doc"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.docx"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.txt"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.odt"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.ott"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.rtf"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.xhtml"
+   }
+  ],
+  "priority": 10.0
+ },
+ {
+  "__gobject__": "Converter",
+  "command": "ps2pdf {file} -",
+  "enabled": true,
+  "name": "ps2pdf",
+  "notes": "",
+  "patterns": [
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.ps"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.eps"
+   }
+  ],
+  "priority": 10.0
+ },
+ {
+  "__gobject__": "Converter",
+  "command": "unoconv  --doctype  graphics --stdout {file}",
+  "enabled": true,
+  "name": "unoconv (graphics)",
+  "notes": "",
+  "patterns": [
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.bmp"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.gif"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.html"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.odd"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.otg"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.std"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.swf"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sxd"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sxw"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.tiff"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.wmf"
+   }
+  ],
+  "priority": 10.0
+ },
+ {
+  "__gobject__": "Converter",
+  "command": "unoconv  --doctype  presentation --stdout {file}",
+  "enabled": true,
+  "name": "unoconf (presentation)",
+  "notes": "",
+  "patterns": [
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.fodp"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.odp"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.otp"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.pptx"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.pps"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.ppt"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.pwp"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sda"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sdd"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sdd"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sdd"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sxd"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sxi"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.tiff"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.uop"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.vor"
+   }
+  ],
+  "priority": 10.0
+ },
+ {
+  "__gobject__": "Converter",
+  "command": "unoconv  --doctype  spreadsheet --stdout {file}",
+  "enabled": true,
+  "name": "unoconv (spreadsheet)",
+  "notes": "",
+  "patterns": [
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.csv"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.dbf"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.dif"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.fods"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.ods"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.ots"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.pxl"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sdc"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.slk"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.stc"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.sxc"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.uos"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.xls"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.xlt"
+   },
+   {
+    "__gobject__": "Pattern",
+    "notes": "",
+    "pattern": "*.xlsx"
+   }
+  ],
+  "priority": 10.0
+ }
+]

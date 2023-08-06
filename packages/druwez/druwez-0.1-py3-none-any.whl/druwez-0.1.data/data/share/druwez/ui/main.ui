@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkApplicationWindow" id="win">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes" context="Title for main window">Druwez</property>
+    <property name="default_width">600</property>
+    <property name="default_height">600</property>
+    <signal name="delete-event" handler="on_win_delete_event" swapped="no"/>
+    <signal name="drag-data-received" handler="on_win_drag_data_received" swapped="no"/>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox" id="box_main">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkMenuBar">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_File</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-new</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">file.new</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="n" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-open</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">file.open</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="o" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-save</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">file.save</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="s" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-save-as</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">file.save-as</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="s" signal="activate" modifiers="GDK_SHIFT_MASK | GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-quit</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">app.quit</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="q" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_Edit</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-paste</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">win.clipboard-paste</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="v" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-delete</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">job.remove</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                        <accelerator key="Delete" signal="activate"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkMenuItem">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">app.converters</property>
+                        <property name="label" translatable="yes">Converters ...</property>
+                        <accelerator key="F3" signal="activate"/>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_Help</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu_help">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem">
+                        <property name="label">gtk-about</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="action_name">app.about</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">12</property>
+            <property name="margin_right">12</property>
+            <property name="margin_top">12</property>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkTreeView" id="tv_jobs">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="hexpand">True</property>
+                    <property name="vexpand">True</property>
+                    <property name="reorderable">True</property>
+                    <property name="rules_hint">True</property>
+                    <property name="hover_selection">True</property>
+                    <property name="show_expanders">False</property>
+                    <property name="rubber_banding">True</property>
+                    <signal name="row-activated" handler="on_tv_jobs_row_activated" swapped="no"/>
+                    <child internal-child="selection">
+                      <object class="GtkTreeSelection">
+                        <property name="mode">multiple</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">6</property>
+                <property name="orientation">vertical</property>
+                <property name="spacing">3</property>
+                <child>
+                  <object class="GtkButton">
+                    <property name="label" context="button in main window">Add new job</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="margin_top">24</property>
+                    <property name="action_name">job.add</property>
+                    <accelerator key="plus" signal="clicked"/>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton">
+                    <property name="label" context="button in main window">Edit current job</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="action_name">job.edit</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton">
+                    <property name="label" context="button in main window">Remove selected jobs</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="margin_bottom">12</property>
+                    <property name="action_name">job.remove</property>
+                    <accelerator key="minus" signal="clicked"/>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton">
+                    <property name="label" context="button in main window">Print selected jobs</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="action_name">job.print-selected</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSeparator">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="padding">18</property>
+                    <property name="position">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkCheckButton" id="cb_show_job_dialog">
+                    <property name="label" translatable="yes" context="check button in main window">Show job dialog</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in main window">if activated the "Edit job" dialog will shown if you create a new job.
+Otherwise the job will be created with some default settings.</property>
+                    <property name="halign">start</property>
+                    <property name="valign">start</property>
+                    <property name="action_name">prefbutton.toggled</property>
+                    <property name="draw_indicator">True</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">6</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkCheckButton" id="cb_show_print_dialog">
+                    <property name="label" translatable="yes" context="check button in main window">Show print dialog</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in main window">if activated the printing dialog will shown if you print a  job.
+Otherwise the job will be printed with the system default printer default settings.</property>
+                    <property name="halign">start</property>
+                    <property name="valign">start</property>
+                    <property name="action_name">prefbutton.toggled</property>
+                    <property name="draw_indicator">True</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">7</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkCheckButton" id="cb_print_immediately">
+                    <property name="label" translatable="yes" context="check button in main window">Print immediately</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in main window">if activated a new job will automatically be printed after it has been created.</property>
+                    <property name="halign">start</property>
+                    <property name="valign">start</property>
+                    <property name="action_name">prefbutton.toggled</property>
+                    <property name="draw_indicator">True</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">8</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkCheckButton" id="cb_remove_after_printing">
+                    <property name="label" translatable="yes" context="check button in main window">Remove job after printing</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in main window">If activated a job will bee removed after it has been printed.
+Otherwise the job will be kept after printing so you can print it again later.</property>
+                    <property name="halign">start</property>
+                    <property name="valign">start</property>
+                    <property name="action_name">prefbutton.toggled</property>
+                    <property name="draw_indicator">True</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">9</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStatusbar" id="statusbar">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">6</property>
+            <property name="margin_right">6</property>
+            <property name="margin_top">6</property>
+            <property name="margin_bottom">6</property>
+            <property name="orientation">vertical</property>
+            <property name="spacing">2</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">5</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

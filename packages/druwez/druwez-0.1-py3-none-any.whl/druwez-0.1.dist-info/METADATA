@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: druwez
+Version: 0.1
+Summary: Use drag&drop or copy&paste from file managers to print files
+Home-page: https://www.florian-diesch.de/software/druwez/
+Author: Florian Diesch
+Author-email: devel@florian-diesch.de
+Maintainer: Florian Diesch
+Maintainer-email: devel@florian-diesch.de
+License: GPL-3
+Download-URL: https://www.florian-diesch.de/software/druwez/
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+======
+Druwez
+======
+
+`Druwez <https://www.florian-diesch.de/software/druwez/>`__ is a GTK based graphical printing tool written in Python.
+
+With Druwez you can use drag & drop or the clipboard to print multiple
+files at once from the file manager without opening any dedicated
+applications.
+
+You can optionally save print jobs to print them later (again). Only
+the file names but not the file content are saved in that case so you
+don't need much disk space.
+
+Druwez itself can handle PDF, PNG, JPEG and SVG files. To print other
+file formats you can define converters. A converter is a shell command
+that reads a file and writes PDF, PNG, JPEG or SVG data to standard
+output. For each converter you define shell patters for the files it
+should convert.
+
+By default Druwez use `unoconv
+<http://dag.wieers.com/home-made/unoconv/>`_ as converter for various
+office file formats and `Ghostscript <https://www.ghostscript.com/>`_
+for PostScript files.
+
+Druwez works on Linux and other Unix and Unix-like operating systems.
+
+
+License
+=======
+
+You can use Druwez under the conditions of `GPL v3 or later
+<COPYING.txt>`_.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/
+
+
+Requirements
+============
+
+* Python >= 3.6
+* Python3 setuptools
+* Python3 bindings for GObject introspection libraries
+* GObject introspection data for GLib, GObject, Gdk, Gdk Pixbuf, Gtk,
+  Gio and Poppler
+* GTK >= 3.20
+
+The following programs are used by the default configuration as
+converters. You can use Druwez without them if you don't need to print those file types or want to define your own converters.
+
+* `unoconv <http://dag.wieers.com/home-made/unoconv/>`_ is used by
+  default as converter for various office file format
+* `Ghostscript <https://www.ghostscript.com/>`_ is used by default as
+    converter for Posrscript files
+
+Debian-based distros
+--------------------
+
+On Debian-based distros Druwez needs the following packages:
+
+   python3-gi, python3-pkg-resources, gir1.2-glib-2.0,
+   gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-poppler-0.18
+
+
+If you install the .deb package this packages will be automatically
+installed if needed.
+
+In addition you may want the following packages to get the default
+converters (the .deb package has a "Suggests" dependency on then):
+
+   unoconv ghostscript
+
+
+.. note: Druwez needs at least Ubuntu 18.04, Debian 10 or another
+   distro that comes with Python 3.6 or newer
+
+
+

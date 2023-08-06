@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkAdjustment" id="adj_priority">
+    <property name="upper">100</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkTextBuffer" id="buf_notes"/>
+  <object class="GtkDialog" id="dlg">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Edit converter</property>
+    <property name="default_width">600</property>
+    <property name="default_height">300</property>
+    <property name="type_hint">dialog</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child internal-child="vbox">
+      <object class="GtkBox">
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox">
+            <property name="can_focus">False</property>
+            <property name="layout_style">end</property>
+            <child>
+              <object class="GtkButton" id="button1">
+                <property name="label">gtk-cancel</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_stock">True</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button2">
+                <property name="label">gtk-ok</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="can_default">True</property>
+                <property name="has_default">True</property>
+                <property name="receives_default">True</property>
+                <property name="use_stock">True</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">12</property>
+            <property name="margin_right">12</property>
+            <property name="margin_top">12</property>
+            <property name="margin_bottom">6</property>
+            <property name="orientation">vertical</property>
+            <property name="spacing">7</property>
+            <child>
+              <object class="GtkGrid">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="row_spacing">6</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_right">6</property>
+                    <property name="label" translatable="yes" context="label in &quot;Edit converter&quot; dialog">Name:</property>
+                    <property name="xalign">1</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="e_name">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in &quot;Edit converter&quot; dialog">The name is shown in list of converters.</property>
+                    <property name="hexpand">True</property>
+                    <property name="activates_default">True</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_right">6</property>
+                    <property name="label" translatable="yes" context="label in &quot;Edit converter&quot; dialog">Command:</property>
+                    <property name="xalign">1</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="e_command">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_markup" translatable="yes" context="tooltip in &quot;Edit converter&quot; dialog">The shell command to run. 
+&lt;tt&gt;{file}&lt;/tt&gt; is replaced with the path of the file. 
+The path is fully escaped so you should not quote it.</property>
+                    <property name="hexpand">True</property>
+                    <property name="activates_default">True</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_right">6</property>
+                    <property name="label" translatable="yes" context="label in &quot;Edit converter&quot; dialog">Priority:</property>
+                    <property name="xalign">1</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_right">6</property>
+                    <property name="label" translatable="yes" context="label in &quot;Edit converter&quot; dialog">Enabled:</property>
+                    <property name="xalign">1</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSwitch" id="sw_enabled">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in &quot;Edit converter&quot; dialog">If deactivated this converter is not used.</property>
+                    <property name="halign">start</property>
+                    <property name="valign">center</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">5</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkSpinButton">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="tooltip_text" translatable="yes" context="tooltip in &quot;Edit converter&quot; dialog">If more than one converter matches a file the one with the highest priority is used.</property>
+                    <property name="halign">start</property>
+                    <property name="valign">center</property>
+                    <property name="adjustment">adj_priority</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">1</property>
+                    <property name="top_attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="margin_bottom">12</property>
+                    <property name="label" translatable="yes">A converter is a shell command that reads the file to print and writes PDF, PNG, JPEG or SVG data to stdout
+
+The command is run by &lt;tt&gt;/bin/sh&lt;/tt&gt;. &lt;tt&gt;{file}&lt;/tt&gt; is replaces with the file's full path.</property>
+                    <property name="use_markup">True</property>
+                    <property name="wrap">True</property>
+                  </object>
+                  <packing>
+                    <property name="left_attach">0</property>
+                    <property name="top_attach">0</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFrame">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_top">6</property>
+                <property name="label_xalign">0</property>
+                <property name="shadow_type">none</property>
+                <child>
+                  <object class="GtkAlignment">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="left_padding">12</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="spacing">6</property>
+                        <child>
+                          <object class="GtkScrolledWindow">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="shadow_type">in</property>
+                            <child>
+                              <object class="GtkTreeView" id="tv_patterns">
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="tooltip_text" translatable="yes" context="treeview tooltip in &quot;Edit converter&quot; dialog">List of file patterns for which this converter should be used. Use the buttons on the right to modify the list.
+
+The order of the patterns is just for the user and doesn't matter for the program.</property>
+                                <property name="headers_visible">False</property>
+                                <signal name="row-activated" handler="on_tv_patterns_row_activated" swapped="no"/>
+                                <child internal-child="selection">
+                                  <object class="GtkTreeSelection"/>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                          <packing>
+                            <property name="expand">True</property>
+                            <property name="fill">True</property>
+                            <property name="position">0</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <property name="orientation">vertical</property>
+                            <property name="spacing">6</property>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="label" context="button label">Add new pattern</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">True</property>
+                                <property name="tooltip_text" translatable="yes" context="button tooltip in &quot;Edit converter&quot; dialog">Add a new file pattern to the list</property>
+                                <property name="action_name">patterns.add</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">0</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="label" context="button label">Edit pattern</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">True</property>
+                                <property name="tooltip_text" translatable="yes" context="button tooltip in &quot;Edit converter&quot; dialog">Edit the selected file pattern</property>
+                                <property name="action_name">patterns.edit</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">1</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="label" context="button label">Remove pattern</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">True</property>
+                                <property name="tooltip_text" translatable="yes" context="button tooltip in &quot;Edit converter&quot; dialog">Remove the current file pattern.
+
+&lt;b&gt;There's currently no way to restore removed patterns!&lt;/b&gt;</property>
+                                <property name="action_name">patterns.remove</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">2</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="label" context="button label">Move pattern up</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">True</property>
+                                <property name="tooltip_text" translatable="yes" context="button tooltip in &quot;Edit converter&quot; dialog">Move to current pattern one step up.
+The order of the patterns is just for the user and doesn't matter for the program.</property>
+                                <property name="margin_top">6</property>
+                                <property name="action_name">patterns.move-up</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">3</property>
+                              </packing>
+                            </child>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="label" context="button label">Move pattern down</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">True</property>
+                                <property name="receives_default">True</property>
+                                <property name="tooltip_text" translatable="yes" context="button tooltip in &quot;Edit converter&quot; dialog">Move to current pattern one step down.
+The order of the patterns is just for the user and doesn't matter for the program.</property>
+                                <property name="action_name">patterns.move-down</property>
+                              </object>
+                              <packing>
+                                <property name="expand">False</property>
+                                <property name="fill">True</property>
+                                <property name="position">4</property>
+                              </packing>
+                            </child>
+                          </object>
+                          <packing>
+                            <property name="expand">False</property>
+                            <property name="fill">True</property>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child type="label">
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes" context="label in &quot;Edit converter&quot; dialog">Patterns:</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFrame">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_top">6</property>
+                <property name="label_xalign">0</property>
+                <property name="shadow_type">none</property>
+                <child>
+                  <object class="GtkAlignment">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="left_padding">12</property>
+                    <child>
+                      <object class="GtkScrolledWindow">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="shadow_type">in</property>
+                        <child>
+                          <object class="GtkTextView">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="tooltip_text" translatable="yes" context="text area tooltip in &quot;Edit converter&quot; dialog">Notes you want to keep for this converter.</property>
+                            <property name="buffer">buf_notes</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child type="label">
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes" context="label in &quot;Edit converter&quot; dialog">Notes:</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <action-widgets>
+      <action-widget response="-6">button1</action-widget>
+      <action-widget response="-5">button2</action-widget>
+    </action-widgets>
+  </object>
+  <object class="GtkMenu" id="menu_tv_context">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="menu_type_hint">dnd</property>
+    <child>
+      <object class="GtkImageMenuItem" id="edit">
+        <property name="label">gtk-edit</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="action_name">patterns.edit</property>
+        <property name="use_underline">True</property>
+        <property name="use_stock">True</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkImageMenuItem" id="remove">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="action_name">patterns.remove</property>
+        <property name="use_underline">True</property>
+        <property name="use_stock">True</property>
+      </object>
+    </child>
+  </object>
+</interface>
