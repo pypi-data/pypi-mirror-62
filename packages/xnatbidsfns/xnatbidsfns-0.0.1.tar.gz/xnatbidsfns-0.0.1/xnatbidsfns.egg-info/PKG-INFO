@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xnatbidsfns
+Version: 0.0.1
+Summary: Utility functions for BIDS data
+Home-page: https://github.com/radiologics/docker-images
+Author: Radiologcs/NRG
+Author-email: kate@radiologics.com
+License: UNKNOWN
+Description: # XNAT BIDS Utils
+        Utility functions for BIDS data
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

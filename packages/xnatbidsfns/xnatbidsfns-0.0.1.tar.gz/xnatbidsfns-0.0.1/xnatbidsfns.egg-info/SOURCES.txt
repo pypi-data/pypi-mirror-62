@@ -1,0 +1,6 @@
+README.md
+setup.py
+xnatbidsfns.egg-info/PKG-INFO
+xnatbidsfns.egg-info/SOURCES.txt
+xnatbidsfns.egg-info/dependency_links.txt
+xnatbidsfns.egg-info/top_level.txt
