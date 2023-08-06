@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: csvy
+Version: 0.1.3a0
+Summary: 
+Home-page: https://gitlab.com/mgemmill-pypi/csvy
+Keywords: csv
+Author: Mark Gemmill
+Author-email: gitlab@markgemmill.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://gitlab.com/mgemmill-pypi/csvy
+Description-Content-Type: text/markdown
+
+csvy
+----
+
+Basic context wrappers for stardard library csv.read and csv.write methods.
+
+Writer example:
+
+    import csvy
+
+    with csvy.writer('csvpath.csv') as csvfile:
+        csvfile.writerow([1, 2, 3, 4])
+
+
+Reader example:
+
+    import csvy
+
+    with csvy.reader('csvpath.csv') as csvfile:
+        for index, row in csvfile.iter():
+            print(f"{index}: {row}")
+
