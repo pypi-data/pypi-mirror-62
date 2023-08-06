@@ -1,0 +1,17 @@
+README.md
+setup.py
+sibllib.egg-info/PKG-INFO
+sibllib.egg-info/SOURCES.txt
+sibllib.egg-info/dependency_links.txt
+sibllib.egg-info/top_level.txt
+xyfigure/__init__.py
+xyfigure/factory.py
+xyfigure/xybase.py
+xyfigure/xyfigure.py
+xyfigure/xymodel.py
+xyfigure/xyview.py
+xyfigure/test/__init__.py
+xyfigure/test/image_diff.py
+xyfigure/test/image_diff_test.py
+xyfigure/test/signal_test.py
+xyfigure/test/xyfigure_test.py
