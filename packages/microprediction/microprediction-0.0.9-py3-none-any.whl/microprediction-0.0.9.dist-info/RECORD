@@ -1,0 +1,10 @@
+microprediction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microprediction/client.py,sha256=_TGi3a_UZgxadHtaIFFKJR8SpPiyH0-_yG5_Jp6yLls,5319
+microprediction/collider.py,sha256=Sjtx5S-AA4HDcHbqQOXfn9RrZaF0iTum5xbiEinOtjE,1447
+microprediction/conventions.py,sha256=QwCMa_5-QTvqNuFLC5Spe8kGXbkg0e2IXPhGshU8sfs,6105
+microprediction/mining.py,sha256=kshxt2ABMhb1ACFPiAgLHYJSeG_k7MxdSOkE_ZOch80,839
+microprediction-0.0.9.dist-info/METADATA,sha256=IJX-HdtFnp8r5aotGiJWzVvqsPduj9z8TeJsdURa3O0,1307
+microprediction-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+microprediction-0.0.9.dist-info/entry_points.txt,sha256=T2rad4JBuVN0LbvJWEYPXVcjmJNPc6RLjRG_HFKE368,67
+microprediction-0.0.9.dist-info/top_level.txt,sha256=05d9Leu3k9O2citJCjv2fTadggNS7LEH5EZn2PFnMpk,16
+microprediction-0.0.9.dist-info/RECORD,,
