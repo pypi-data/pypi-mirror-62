@@ -1,0 +1,8 @@
+README.md
+setup.py
+Yatagan.egg-info/PKG-INFO
+Yatagan.egg-info/SOURCES.txt
+Yatagan.egg-info/dependency_links.txt
+Yatagan.egg-info/top_level.txt
+yatagan/__init__.py
+yatagan/yatagan.py
