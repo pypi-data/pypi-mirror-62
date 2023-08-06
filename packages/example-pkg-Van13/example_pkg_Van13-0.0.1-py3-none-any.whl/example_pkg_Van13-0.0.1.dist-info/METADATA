@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: example-pkg-Van13
+Version: 0.0.1
+Summary: Help you calculate time differences
+Home-page: https://github.com/pypa/sampleproject
+Author: HuaiNan_No.1_middle_school
+Author-email: 1142263724@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+You can use this package , enter two special times(such as '2020-03-05 16:29:02' . Tips : don't change and miss '-' , ' ' , ':') , and you will get a feedback about the bridge of two times . Besides , you can use an end time to sub a start time , and get the difference between them.
+#E.g:
+start_time = Mytimer('2017-01-20 12:00:00')
+end_time = Mytimer('2017-02-22 12:30:20')
+print(end_time.calseconds(start_time))
+print(end_time - start_time)
+
