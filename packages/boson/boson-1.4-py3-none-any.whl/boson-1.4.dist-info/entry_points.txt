@@ -1,0 +1,3 @@
+[console_scripts]
+boson = boson.console:console_main
+

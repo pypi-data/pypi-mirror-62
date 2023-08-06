@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: boson
+Version: 1.4
+Summary: Grammar analyzer generator
+Home-page: https://github.com/ictxiangxin/boson
+Author: ict
+Author-email: ictxiangxin@hotmail.com
+Maintainer: ict
+Maintainer-email: ictxiangxin@hotmail.com
+License: GPL v3
+Keywords: boson,Grammar analyzer generator
+Platform: MS Windows
+Platform: Mac X
+Platform: Unix/Linux
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jinja2 (>=2.7)
+
+Boson v1.4 - Grammar analyzer generator
+
+
