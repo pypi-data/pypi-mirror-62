@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: QGrain
+Version: 0.2.7.2
+Summary: QGrain is an esay to use tool that can unmix and analyse the multi-modal grain size distribution.
+Home-page: https://github.com/QGrain-Organization/QGrain
+Author: Yuming Liu
+Author-email: liuyuming@ieecas.cn
+License: MIT
+Description: UNKNOWN
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
