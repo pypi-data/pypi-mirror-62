@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="cciaa.modulistica">
+
+    <five:registerPackage package="." initialize=".initialize" />
+    <i18n:registerTranslations directory="locales" />
+
+
+    <include package=".browser" />
+    <include package=".behaviors" />
+
+    <genericsetup:registerProfile
+      name="default"
+      title="CCIAA: Downloadable Forms view"
+      directory="profiles/default"
+      description="Some additional feature, mainly a new view, for make easy the download of forms and documents"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
