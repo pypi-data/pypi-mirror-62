@@ -1,0 +1,9 @@
+README.md
+decentralized-internet.zip
+images
+setup.py
+test
+decentralized_internet.egg-info/PKG-INFO
+decentralized_internet.egg-info/SOURCES.txt
+decentralized_internet.egg-info/dependency_links.txt
+decentralized_internet.egg-info/top_level.txt
