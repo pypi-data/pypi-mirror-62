@@ -1,0 +1,11 @@
+multildap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+multildap/attr_rewrite.py,sha256=zn6Ms9kCJuO2MTOrYwfAhFgtMhPpChdDCQVsS6lmJuk,1923
+multildap/client.py,sha256=0eT5iSmGayvRls_u3IogLNvSxG3KhwVumQOKVJFMXiQ,7801
+multildap/commands.py,sha256=yaKwihVE-q6ySxDhSf3h2LI1Ru15GS8HEmJrnRWPcmY,6609
+multildap/decorators.py,sha256=ycYaNwTTxKMVKI9yshqEigfGNVYNh4eLXUFX1_RTp88,621
+multildap/multildapd.py,sha256=fT1A2m1nEWpM91M0G62N880JR_yboYF9KE5Y-zw2_vM,9356
+multildap-0.2.data/scripts/multildapd.py,sha256=q5F3QMETzSYiV3LBFQ8w73yB_LwnQCWIqN5jqU1ux1o,9342
+multildap-0.2.dist-info/METADATA,sha256=BqRGHnRoYexiP1yOHmVQFaGoWgu1eaSTVti44dHKFu0,8003
+multildap-0.2.dist-info/RECORD,,
+multildap-0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+multildap-0.2.dist-info/top_level.txt,sha256=rigvcEHZsxQHhm4FDIvu3tZYN7jHL9PmkR06VYyuHTk,10
