@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "helldiver"
+version = "0.1.3"
+description = "A lightweight markdown to blog-aware HTML converter."
+authors = ["Rohan Bansal <rohanarunbansal@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+argparse = "^1.4.0"
+markdown2 = "^2.3.8"
+beautifulsoup4 = "^4.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
