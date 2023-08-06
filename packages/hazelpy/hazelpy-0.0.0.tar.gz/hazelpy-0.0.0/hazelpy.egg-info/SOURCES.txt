@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+hazelpy/__init__.py
+hazelpy.egg-info/PKG-INFO
+hazelpy.egg-info/SOURCES.txt
+hazelpy.egg-info/dependency_links.txt
+hazelpy.egg-info/top_level.txt
