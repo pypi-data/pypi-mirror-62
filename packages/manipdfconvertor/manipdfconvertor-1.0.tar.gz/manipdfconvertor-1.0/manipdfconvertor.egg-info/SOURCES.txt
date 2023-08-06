@@ -1,0 +1,13 @@
+README.md
+setup.py
+manipdf.egg-info/PKG-INFO
+manipdf.egg-info/SOURCES.txt
+manipdf.egg-info/dependency_links.txt
+manipdf.egg-info/top_level.txt
+manipdfconvertor/__init__.py
+manipdfconvertor/pdf2image.py
+manipdfconvertor/pdf2text.py
+manipdfconvertor.egg-info/PKG-INFO
+manipdfconvertor.egg-info/SOURCES.txt
+manipdfconvertor.egg-info/dependency_links.txt
+manipdfconvertor.egg-info/top_level.txt
