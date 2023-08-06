@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyipx800/__init__.py
+pyipx800.egg-info/PKG-INFO
+pyipx800.egg-info/SOURCES.txt
+pyipx800.egg-info/dependency_links.txt
+pyipx800.egg-info/top_level.txt
