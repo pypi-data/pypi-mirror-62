@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/mythos/__init__.py
+src/mythos/auth/__init__.py
+src/mythos/auth/__version__.py
+src/mythos_auth.egg-info/PKG-INFO
+src/mythos_auth.egg-info/SOURCES.txt
+src/mythos_auth.egg-info/dependency_links.txt
+src/mythos_auth.egg-info/entry_points.txt
+src/mythos_auth.egg-info/namespace_packages.txt
+src/mythos_auth.egg-info/not-zip-safe
+src/mythos_auth.egg-info/requires.txt
+src/mythos_auth.egg-info/top_level.txt
