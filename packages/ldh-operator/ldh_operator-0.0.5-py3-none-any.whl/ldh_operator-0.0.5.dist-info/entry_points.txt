@@ -1,0 +1,3 @@
+[console_scripts]
+whipstaff = whipstaff:cli
+
