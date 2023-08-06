@@ -1,0 +1,6 @@
+Pillow
+asyncio
+numpy
+python-dotenv
+requests
+websockets
