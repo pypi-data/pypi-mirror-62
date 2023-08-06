@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: github-release-retry
+Version: 1.0
+Summary: A tool for creating GitHub Releases and uploading assets reliably.
+Home-page: https://github.com/google/github-release-retry
+Author: The github-release-retry Project Authors
+Author-email: android-graphics-tools-team@google.com
+License: Apache License 2.0
+Project-URL: Documentation, https://github.com/google/github-release-retry
+Project-URL: Source, https://github.com/google/github-release-retry
+Keywords: GitHub Release Releases reliable retry
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Requires-Dist: dataclasses-json
+Requires-Dist: requests
+Requires-Dist: dataclasses ; python_version == "3.6"
+
+UNKNOWN
+
+
