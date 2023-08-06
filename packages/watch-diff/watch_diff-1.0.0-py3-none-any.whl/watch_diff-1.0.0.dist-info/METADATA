@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: watch-diff
+Version: 1.0.0
+Summary: Watch command output and get notified on changes
+Home-page: https://github.com/berfr/watch-diff
+Author: berfr
+Author-email: me@berfr.me
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: setuptools (==45.2.0) ; extra == 'dev'
+Requires-Dist: tox (==3.14.5) ; extra == 'dev'
+Requires-Dist: twine (==3.1.1) ; extra == 'dev'
+Requires-Dist: wheel (==0.34.2) ; extra == 'dev'
+
+# watch-diff
+
+## credentials
+
+```shell
+export SMTP_HOST=qwer.ty
+export SMTP_PORT=1234
+export SMTP_USER=qwer@qwer.ty
+read -s -p "SMTP_PASS: " SMTP_PASS
+export SMTP_PASS
+```
+
+## development
+
+```shell
+# setup
+python3 -m venv venv && . venv/bin/activate
+
+# editable install
+pip install -e .[dev]
+
+# running tests
+python -m unittest -v
+
+# running tests for all supported python versions
+tox
+```
+
+
