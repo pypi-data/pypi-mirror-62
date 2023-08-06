@@ -1,0 +1,11 @@
+auriga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auriga/auriga.pt,sha256=b9O6rKdXo_nBKqzmNNF6sydHTBUoqQCb2UVrDgvN_wc,2864316
+auriga/auriga.py,sha256=oOii0Nwz3d5bvNw0RD03Ug24v17agWMNa-rnPSK1YDE,14646
+auriga/test/test.csv,sha256=N1Axlithgzc0zb2d87JAsM_5Y3SV7GzrQ5vQPx8dSAc,15622
+auriga/test/test.fits,sha256=WccT9JZvc-hBmziUWvKl0LfT6tXbrCDV2s9Ytr6P1Bw,23040
+Auriga-0.1.dist-info/LICENSE,sha256=lgSUE6GcJCzFTpLOQlJKTOKQleAwEjeM5sus1EIkUn0,1059
+Auriga-0.1.dist-info/METADATA,sha256=JCxretC98SETSlXIfC790pEowmksjxnfENG5H5XvD3E,4590
+Auriga-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Auriga-0.1.dist-info/entry_points.txt,sha256=9C7StqJtbYZ61PE6pXql5pIOd7f3fB2vAYkuDS-zUk8,47
+Auriga-0.1.dist-info/top_level.txt,sha256=4xXbIgBPETOw6GpJMaHfgkTEBqBcf3ysYqS_rUYviJs,7
+Auriga-0.1.dist-info/RECORD,,
