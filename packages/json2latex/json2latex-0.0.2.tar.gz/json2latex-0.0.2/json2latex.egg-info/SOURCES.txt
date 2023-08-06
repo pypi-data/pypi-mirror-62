@@ -1,0 +1,12 @@
+README.md
+setup.py
+json2latex/__init__.py
+json2latex/escape.py
+json2latex/python2latex.py
+json2latex.egg-info/PKG-INFO
+json2latex.egg-info/SOURCES.txt
+json2latex.egg-info/dependency_links.txt
+json2latex.egg-info/requires.txt
+json2latex.egg-info/top_level.txt
+scripts/json2latex
+test/test.py
