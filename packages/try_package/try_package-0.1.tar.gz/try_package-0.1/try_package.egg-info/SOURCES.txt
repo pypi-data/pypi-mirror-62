@@ -1,0 +1,7 @@
+setup.py
+try_package/__init__.py
+try_package.egg-info/PKG-INFO
+try_package.egg-info/SOURCES.txt
+try_package.egg-info/dependency_links.txt
+try_package.egg-info/not-zip-safe
+try_package.egg-info/top_level.txt
