@@ -1,0 +1,43 @@
+{% extends "npb/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block headers %}
+<link rel="stylesheet" href="{% static css_file_name %}" />
+{% endblock %}
+
+{% block title %}{% trans "Untitled" as untitled %}{{ paste.title|default:untitled }}{% endblock %}
+
+{% block content %}
+<div>
+    {% trans "Untitled" as untitled %}
+    <h1>{{ paste.title|default:untitled }}</h1>
+
+    <p class="legend">
+    {% trans "anonymous" as anonymous %}
+    {% blocktrans with author=paste.author|default:anonymous date=paste.created_on %}By {{ author }} on {{ date }}{% endblocktrans %}
+
+    {% if paste.edited %}
+    <br />
+    {% blocktrans with date=paste.edited_on %}Edited on {{ date }}{% endblocktrans %}
+    {% endif %}
+
+    {% if paste.expire_on %}
+    <br />
+    {% blocktrans with date=paste.expire_on %}Expires on {{ date }}{% endblocktrans %}
+    {% endif %}
+    </p>
+
+    {% if paste.is_suspended %}
+    <h2>{% trans 'This paste has been suspended.' %}</h2>
+    {% trans "No reason provided" as no_reason %}
+    <p class="legend">{{ paste.suspension_reason|default:no_reason }}</p>
+    {% else %}
+    <div class="report-link">
+        <a href="{% url 'npb:report_paste' paste.uuid %}">{% trans 'report this paste'|capfirst %}</a>
+    </div>
+    {% endif %}
+
+    {{ paste.formated_content|safe }}
+</div>
+{% endblock %}
