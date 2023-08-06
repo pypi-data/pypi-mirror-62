@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tessdb-stats
+Version: 1.0.0
+Summary: ('tessdb internal statistics database for the tessdb observations database',)
+Home-page: http://github.com/stars4all/tessdb-comdline/
+Author: Rafael Gonzalez
+Author-email: astrorafael@yahoo.es
+License: MIT
+Description: # tessdb internal stats (overview)
+        
+        Statistics database for processed logfile events and statistics emitted by the tessdb-server program
+        
+        
+        # COMMANDS
+        
+        The `tess-event` command line tool is self-explanatory. You can find the all by typing `tess --help`
+        ```
+        pi@rb-tess:~ $ python3 -m tess_event --help
+        ```
+        
+Keywords: Astronomy Python RaspberryPi LightPollution
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
