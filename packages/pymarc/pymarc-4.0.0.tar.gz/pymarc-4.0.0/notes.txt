@@ -1,0 +1,21 @@
+The occassion for the v4 release was a contribution from @herrboyer that adds a new [Leader class](https://gitlab.com/pymarc/pymarc/-/blob/master/pymarc/leader.py) thatj will make it easier to access and update the record leader. It still acts like a string, but unlike python strings it is mutable, and it includes setters for the different positions. So if you wanted to change the type of record (6) to Notated Music (c) you could:
+
+    rec.leader.type_of_record = 'c'
+
+Instead of having to laboriously reconstruct the string:
+
+    rec.leader = rec.leader[0:6] + 'c' + rec.leader[7:]
+
+Tweaking the leader isn't something that most people are into. But if you have
+programs that do modify the leader you may want to switch it over, since there
+may be cases where the new class isn't backwards compatible (hence the v4.0)
+release.
+
+We used this opportunity of a new major version to do some additional things:
+
+* We've moved development to Gitlab, which fits the project's opensource ethos better than GitHub.
+* pymarc is now python3 only, and we have dropped python 2 support. This has simplified the code base and should be easier to maintaingoing forward (see https://gitlab.com/pymarc/pymarc/-/merge_requests/152). Thanks to @termim for leading this work)
+* We've updated the license to reflect the full list of contributors (thanks to @denials' work on [apply_headers.py](https://gitlab.com/pymarc/pymarc/-/blob/master/apply_headers.py).
+* Thanks to @herrboyer we now have a setup for linting (and correcting) the pymarc source code (see https://gitlab.com/pymarc/pymarc/-/merge_requests/150)
+* And thanks again to @denials we have continuous integration set up here on Gitlab. (See https://gitlab.com/pymarc/pymarc/-/merge_requests/156)
+
