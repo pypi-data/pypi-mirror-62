@@ -1,0 +1,5 @@
+setup.py
+dewei.egg-info/PKG-INFO
+dewei.egg-info/SOURCES.txt
+dewei.egg-info/dependency_links.txt
+dewei.egg-info/top_level.txt
