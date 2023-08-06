@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: foxylib
+Version: 0.3.72
+Summary: First package
+Home-page: https://github.com/foxytrixy-com/foxylib
+Author: Moonyoung Kang
+Author-email: yerihyo@gmail.com
+License: UNKNOWN
+Description: foxylib
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
