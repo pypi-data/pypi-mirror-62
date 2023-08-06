@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: reptimer
+Version: 0.0.2
+Summary: A timer that repeats and beeps.
+Home-page: https://github.com/Salompas/timer
+Author: Guilherme Salome
+Author-email: guilhermesalome@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
