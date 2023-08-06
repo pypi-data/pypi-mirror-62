@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vjobs-ebrandon
+Version: 0.1.1
+Summary: Collects jobs from ebrandon.ca for vjobs
+Home-page: https://gitlab.com/flaxking/vjobs-ebrandon
+Author: flaxking
+Author-email: flaxking@digitalnostril.com
+License: UNKNOWN
+Description: Collects jobs from ebrandon.ca for vjobs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

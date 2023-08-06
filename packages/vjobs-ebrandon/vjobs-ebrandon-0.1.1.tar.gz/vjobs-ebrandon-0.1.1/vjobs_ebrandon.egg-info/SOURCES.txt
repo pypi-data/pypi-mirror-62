@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+vjobs_ebrandon/__init__.py
+vjobs_ebrandon/config.yml
+vjobs_ebrandon/main.py
+vjobs_ebrandon.egg-info/PKG-INFO
+vjobs_ebrandon.egg-info/SOURCES.txt
+vjobs_ebrandon.egg-info/dependency_links.txt
+vjobs_ebrandon.egg-info/requires.txt
+vjobs_ebrandon.egg-info/top_level.txt
