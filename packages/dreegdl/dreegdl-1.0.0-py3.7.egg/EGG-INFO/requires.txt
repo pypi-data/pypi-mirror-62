@@ -1,0 +1,11 @@
+tensorflow
+keras
+numpy
+pywavelets
+scipy
+tqdm
+IPython
+statsmodels
+sklearn
+pandas
+matplotlib
