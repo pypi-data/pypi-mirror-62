@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+faust_rocksdbs3/__init__.py
+faust_rocksdbs3/rocksdb_s3.py
+faust_rocksdbs3.egg-info/PKG-INFO
+faust_rocksdbs3.egg-info/SOURCES.txt
+faust_rocksdbs3.egg-info/dependency_links.txt
+faust_rocksdbs3.egg-info/entry_points.txt
+faust_rocksdbs3.egg-info/requires.txt
+faust_rocksdbs3.egg-info/top_level.txt

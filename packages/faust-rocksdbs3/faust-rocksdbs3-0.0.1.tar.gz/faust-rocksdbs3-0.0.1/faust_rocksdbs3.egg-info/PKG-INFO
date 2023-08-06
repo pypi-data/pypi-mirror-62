@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: faust-rocksdbs3
+Version: 0.0.1
+Summary: Faust RocksDB store extension that also backup / restores to an S3 bucket
+Home-page: https://github.com/andrejohnson-expedia/faust-rocksdb-s3
+Author: Andrew Johnson
+Author-email: andrejohnson@expediagroup.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
