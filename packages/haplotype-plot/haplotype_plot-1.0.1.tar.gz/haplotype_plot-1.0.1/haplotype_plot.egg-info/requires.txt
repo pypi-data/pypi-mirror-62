@@ -1,0 +1,7 @@
+scikit-allel
+h5py
+PyVCF
+numpy
+matplotlib
+seaborn
+pathlib
