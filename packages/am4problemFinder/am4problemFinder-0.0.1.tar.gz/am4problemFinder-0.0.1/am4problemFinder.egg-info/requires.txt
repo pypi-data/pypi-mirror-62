@@ -1,0 +1,5 @@
+lxml
+colorama
+prettytable
+urllib3
+bs4

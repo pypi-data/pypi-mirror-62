@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: am4problemFinder
+Version: 0.0.1
+Summary: A tool to help you find issues of your flights in Airline Manager 4.
+Home-page: https://github.com/cathaypacific8747/am4problemfinder/
+Author: Cathay Express
+Author-email: cathayexpress4@gmail.com
+License: GNU AGPL-3.0
+Description: # am4problemfinder
+        This tool helps you find issues of your flights in Airline Manager 4, by listing our information you need to improve your fleet, for example, average profit per pax and average profit per hour.
+        
+        ![What the program looks like](/assets/img/main.png)
+        
+        This tool is intended for **advanced** AM4 users. To use this tool, you will have to run the scripts locally on your machine.
+        
+        Note: this program only works if you have registered on `airline4.net`, not through Facebook or any other means.
+        
+        ## Installation
+        
+        #### Windows 7 or above:
+        1. Download a copy of [Python 3](https://www.python.org/downloads/windows/) if you don't have one.
+        
+        2. Choose the option for `Download Windows x86-64 executable installer`, for the latest stable release.
+        
+        3. Execute the Python Setup, check the `Add Python 3.* to PATH`, then click `Install Now`.
+        
+        4. On this page, click the `Clone or download` button, then click `Download ZIP`.
+        
+        5. Extract the files, and move the entire folder to your desired location, perhaps 'Desktop'.
+        
+        6. Within the folder, click `Shift + Right Click`, and select either:
+        	* `Open command window here`(highly recommended), or
+        	* `Open Powershell window here`.
+        
+        7. Within the window, type:
+        	* `pip install -r requirements.txt`
+        	* `python dX.py`
+        
+        8. It should prompt you for further instructions. To run the program again, simply:
+        	* repeat `step 6` and type `python dX.py`, or,
+        	* `cd` into the folder and execute `python dX.py` 
+        
+        #### Mac OS X:
+        
+        1. Download a copy of [Python 3](https://www.python.org/downloads/mac-osx/) if you don't have one.
+        
+        2. Choose for `Latest Python 3 Release - Python 3.*.*`, then double-click on the `pkg` file. Installation should begin.
+        
+        3. On this page, click the `Clone or download` button, then click `Download ZIP`.
+        
+        4. Extract the files, and move the entire folder to your desired location, perhaps `Desktop`.
+        
+        5. Open the `Terminal` application, then type:
+        
+        	* `cd` into the directory of that folder, for example, `cd Desktop/am4problemFinder/`	
+        	* `pip3 install -r requirements.txt`
+        	* `python3 dX.py`
+        
+        8. It should prompt you for further instructions. To run the program again, simply:
+        	* `cd` into the folder as illustrated in step 6,
+        	* execute `python dX.py`
+        
+        #### Linux:
+        
+        1. You should know what to do. ;)
+        
+        #### Android and IOS:
+        
+        Currently not supported. 
+        
+        ## Additional information
+        
+        * The program will prompt you to enter your credentials for your AM4 account. (username and password)
+        
+        * This program will, and never, collect and personal information and all requests are to/from `airline4.net`.
+        
+        * If you use this program often, you can override your PHPSESSID by commenting out relevant lines in `dX.py`.
+        
+        * This program is very likely to fail in the new cargo update, or any menu changes, as it relies heavily on HTML parsing.
+        
+        * The developers of this project is in no way responsible for any loss in any means, as detailed in the GNU AGPL-3.0 license.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
