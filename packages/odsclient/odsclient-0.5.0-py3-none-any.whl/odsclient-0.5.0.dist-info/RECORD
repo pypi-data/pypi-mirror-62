@@ -1,0 +1,16 @@
+odsclient/__init__.py,sha256=vFZVTWSuQjfDmuZzEXgjk62fjQXE6_rcrdMemLztvu4,687
+odsclient/_version.py,sha256=jvUt7GFestHRfjP6olpxJNiOud9lAaLnybKlgFfqT4o,116
+odsclient/core.py,sha256=J0zs1TUM3_iSLsGw8hh9icmF2EYpumt56FkwKps-w-c,23897
+odsclient/keyring_cmds.py,sha256=_6dKKGOVeqVD0qXyJImSSGrmgxTSMH6Ms9TkJXhUhDo,8304
+odsclient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odsclient/shortcuts.py,sha256=NkELKQf7ZlXTMdpvAvWK9g5SvhW29qSaogMS5d04lBA,11583
+odsclient/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odsclient/tests/test_core.py,sha256=GcAqEZI8ebxL3YfmuSxNkPZM-41ycWQtNCA7f5d7c_c,2050
+odsclient/tests/test_odskey.py,sha256=ND9-tOz3VxgmGklwADZdVv7kOvWIlwyNTTbIFnnObu4,1831
+odsclient/tests/test_readme.py,sha256=2UgyAHAbTQ0VNFM9Mmdmsbd1zs-0pDHhfcuNfmo7v9Y,6478
+odsclient-0.5.0.dist-info/LICENSE,sha256=6tdSfVYHypW5C-EDKKr5o89mLCKLlgJ80Y1mwWW7f30,1514
+odsclient-0.5.0.dist-info/METADATA,sha256=OihNbwtjdQByuKza1Y1ftgm_-yygtLroxa-2GDSAR6A,2273
+odsclient-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odsclient-0.5.0.dist-info/entry_points.txt,sha256=MWEdZD2LdEwUjTULVcSDeJ1v798YfiwejOqsAhYlsGg,60
+odsclient-0.5.0.dist-info/top_level.txt,sha256=OCj3OcCGRKAQJ34_yck78rDh1uhdtmkjWFqxJMJ38Cs,10
+odsclient-0.5.0.dist-info/RECORD,,
