@@ -1,0 +1,6 @@
+boto3
+numpy
+pandas
+pytz
+requests
+s3fs
