@@ -1,0 +1,4 @@
+gmqtt
+aiohttp
+cchardet
+aiodns
