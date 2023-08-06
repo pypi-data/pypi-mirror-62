@@ -1,0 +1,4 @@
+setuptools
+Mopidy>=3.0
+Pykka>=1.1
+evdev>=0.7
