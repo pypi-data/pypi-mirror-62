@@ -1,0 +1,9 @@
+scikit-build
+cmake>3.12
+numpy
+redis
+kafka-python
+lz4
+blosc
+ffmpeg-python
+natsort
