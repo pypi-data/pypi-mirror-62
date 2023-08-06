@@ -1,0 +1,3 @@
+[console_scripts]
+x-atp-api = atp.api:main
+
