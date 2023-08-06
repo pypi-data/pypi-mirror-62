@@ -1,0 +1,16 @@
+django<3.0,>=2.2.8
+djangorestframework
+djangorestframework-simplejwt
+django-filter
+django-fsm
+channels
+channels_redis[cryptography]
+celery[redis]
+billiard==3.6.1.0
+django-celery-beat
+psycopg2-binary
+pillow
+numpy
+pandas
+jsonschema
+plotly
