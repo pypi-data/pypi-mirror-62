@@ -1,0 +1,12 @@
+{
+    "RAFCONTPP": {
+        "Allow_Override": "False", 
+        "PDDL_ACTION": {
+            "description": "", 
+            "pddl_action": "(:action detect_ru\n    :parameters (?pose - Location ?ru - RemoteUnit ?robot - Robot)\n    :precondition (and (at ?ru ?pose) (at ?robot ?pose) )\n    :effect (and (detected ?robot ?ru))\n)", 
+            "pddl_predicates": "(at ?ru - RemoteUnit ?pose - Location)\r\n(detected ?namespace - Robot ?ru - RemoteUnit)\r\n(at ?namespace - Robot ?pose - Location)", 
+            "pddl_types": "RemoteUnit, Location, Robot", 
+            "requirements": "[':typing', ':strips']"
+        }
+    }
+}
