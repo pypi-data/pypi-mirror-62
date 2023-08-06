@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: simple-linear-algebra
+Version: 0.0.1
+Summary: A small package to implement basic linear algebra operations
+Home-page: https://github.com/caroger/linear_algebra
+Author: Roger Hu
+Author-email: handeasy@gmail.com
+License: UNKNOWN
+Description: # linear_algebra
+        
+        ## Motivation
+        
+        - Review linear algebraby implementing concenpts in Python code
+        - Learn OOP in Python
+        
+        ## Installation
+        
+        ```bash
+        pip install
+        ```
+        
+        ## Features
+        
+        ---
+        
+        ### Completed
+        
+        - Vector
+          
+          ```python
+          # Initialize vector 
+          v_1 = Vector(1, 2, 3)
+          v_2 = Vector(4, 5, 6)
+          ```
+        
+        - Add (+)
+        
+        - ```python
+          [in]: Vector(1, 2, 3) + Vector(4, 5, 6)
+          [out]: Vecotr(5, 7, 9)
+          ```
+        
+        - Subtract (-)
+        
+        - ```python
+          [in]: Vector(3, 2, 1) - Vector(1, 1, 1)
+          [out]: Vector(2, 1, 0) 
+          ```
+        
+        - Multiply (*)
+        
+        - ```python
+          # scaler
+          [in]: 2 * Vector(1, 2, 3)
+          [out]: Vector(2, 4, 6)
+          
+          # inner product
+          [in]: Vector(1, 2, 3) * Vector(1, 1, 1)
+          [out]: 6
+          ```
+        
+        - .norm
+        
+        - ```python3
+          # .norm attribute of the vector is the length or magnitude of the 
+          # vector
+          [in]: Vector(1, 2, 3).norm
+          [out]: 3.7419573
+          ```
+        
+        ### To be Implemented
+        
+        - Matrix
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

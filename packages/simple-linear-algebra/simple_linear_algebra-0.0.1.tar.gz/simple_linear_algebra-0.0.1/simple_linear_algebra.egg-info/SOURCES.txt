@@ -1,0 +1,9 @@
+README.md
+setup.py
+simple_linear_algebra.egg-info/PKG-INFO
+simple_linear_algebra.egg-info/SOURCES.txt
+simple_linear_algebra.egg-info/dependency_links.txt
+simple_linear_algebra.egg-info/top_level.txt
+vector/__init__.py
+vector/example_code.py
+vector/vector.py
