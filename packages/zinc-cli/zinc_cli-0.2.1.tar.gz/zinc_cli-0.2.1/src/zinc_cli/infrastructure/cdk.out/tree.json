@@ -1,0 +1,1714 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "ITGT101-zinc-stack": {
+        "id": "ITGT101-zinc-stack",
+        "path": "ITGT101-zinc-stack",
+        "children": {
+          "HostedZone": {
+            "id": "HostedZone",
+            "path": "ITGT101-zinc-stack/HostedZone"
+          },
+          "Site": {
+            "id": "Site",
+            "path": "ITGT101-zinc-stack/Site"
+          },
+          "SiteBucket": {
+            "id": "SiteBucket",
+            "path": "ITGT101-zinc-stack/SiteBucket",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/SiteBucket/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::S3::Bucket",
+                  "aws:cdk:cloudformation:props": {
+                    "bucketName": "static.zinccli.com",
+                    "websiteConfiguration": {
+                      "indexDocument": "index.html",
+                      "errorDocument": "index.html"
+                    }
+                  }
+                }
+              },
+              "Notifications": {
+                "id": "Notifications",
+                "path": "ITGT101-zinc-stack/SiteBucket/Notifications"
+              },
+              "Policy": {
+                "id": "Policy",
+                "path": "ITGT101-zinc-stack/SiteBucket/Policy",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/SiteBucket/Policy/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::S3::BucketPolicy",
+                      "aws:cdk:cloudformation:props": {
+                        "bucket": {
+                          "Ref": "SiteBucket397A1860"
+                        },
+                        "policyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "s3:GetObject",
+                              "Effect": "Allow",
+                              "Principal": "*",
+                              "Resource": {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    {
+                                      "Fn::GetAtt": [
+                                        "SiteBucket397A1860",
+                                        "Arn"
+                                      ]
+                                    },
+                                    "/*"
+                                  ]
+                                ]
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "BucketArn": {
+            "id": "BucketArn",
+            "path": "ITGT101-zinc-stack/BucketArn"
+          },
+          "<built-in function id>-bucket": {
+            "id": "<built-in function id>-bucket",
+            "path": "ITGT101-zinc-stack/<built-in function id>-bucket",
+            "children": {
+              "CertificateRequestorFunction": {
+                "id": "CertificateRequestorFunction",
+                "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction",
+                "children": {
+                  "ServiceRole": {
+                    "id": "ServiceRole",
+                    "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/ServiceRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/ServiceRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "lambda.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "DefaultPolicy": {
+                        "id": "DefaultPolicy",
+                        "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/ServiceRole/DefaultPolicy",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                              "aws:cdk:cloudformation:props": {
+                                "policyDocument": {
+                                  "Statement": [
+                                    {
+                                      "Action": [
+                                        "acm:RequestCertificate",
+                                        "acm:DescribeCertificate",
+                                        "acm:DeleteCertificate"
+                                      ],
+                                      "Effect": "Allow",
+                                      "Resource": "*"
+                                    },
+                                    {
+                                      "Action": "route53:GetChange",
+                                      "Effect": "Allow",
+                                      "Resource": "*"
+                                    },
+                                    {
+                                      "Action": "route53:changeResourceRecordSets",
+                                      "Effect": "Allow",
+                                      "Resource": {
+                                        "Fn::Join": [
+                                          "",
+                                          [
+                                            "arn:",
+                                            {
+                                              "Ref": "AWS::Partition"
+                                            },
+                                            ":route53:::hostedzone/Z2V1AL5NKD0TDT"
+                                          ]
+                                        ]
+                                      }
+                                    }
+                                  ],
+                                  "Version": "2012-10-17"
+                                },
+                                "policyName": "builtinfunctionidbucketCertificateRequestorFunctionServiceRoleDefaultPolicyFEE87989",
+                                "roles": [
+                                  {
+                                    "Ref": "builtinfunctionidbucketCertificateRequestorFunctionServiceRole1A05A7B8"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "Code": {
+                    "id": "Code",
+                    "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/Code/Stage"
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/Code/AssetBucket"
+                      }
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorFunction/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                      "aws:cdk:cloudformation:props": {
+                        "code": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3Bucket0997A4A0"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "handler": "index.certificateRequestHandler",
+                        "role": {
+                          "Fn::GetAtt": [
+                            "builtinfunctionidbucketCertificateRequestorFunctionServiceRole1A05A7B8",
+                            "Arn"
+                          ]
+                        },
+                        "runtime": "nodejs10.x",
+                        "timeout": 900
+                      }
+                    }
+                  }
+                }
+              },
+              "CertificateRequestorResource": {
+                "id": "CertificateRequestorResource",
+                "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorResource",
+                "children": {
+                  "Default": {
+                    "id": "Default",
+                    "path": "ITGT101-zinc-stack/<built-in function id>-bucket/CertificateRequestorResource/Default"
+                  }
+                }
+              }
+            }
+          },
+          "AssetParameters": {
+            "id": "AssetParameters",
+            "path": "ITGT101-zinc-stack/AssetParameters",
+            "children": {
+              "0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0": {
+                "id": "0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0",
+                "path": "ITGT101-zinc-stack/AssetParameters/0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ITGT101-zinc-stack/AssetParameters/0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ITGT101-zinc-stack/AssetParameters/0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ITGT101-zinc-stack/AssetParameters/0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0/ArtifactHash"
+                  }
+                }
+              },
+              "6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430": {
+                "id": "6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430",
+                "path": "ITGT101-zinc-stack/AssetParameters/6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ITGT101-zinc-stack/AssetParameters/6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ITGT101-zinc-stack/AssetParameters/6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ITGT101-zinc-stack/AssetParameters/6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430/ArtifactHash"
+                  }
+                }
+              },
+              "4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1": {
+                "id": "4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1",
+                "path": "ITGT101-zinc-stack/AssetParameters/4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ITGT101-zinc-stack/AssetParameters/4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ITGT101-zinc-stack/AssetParameters/4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ITGT101-zinc-stack/AssetParameters/4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1/ArtifactHash"
+                  }
+                }
+              },
+              "035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc": {
+                "id": "035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc",
+                "path": "ITGT101-zinc-stack/AssetParameters/035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ITGT101-zinc-stack/AssetParameters/035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ITGT101-zinc-stack/AssetParameters/035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ITGT101-zinc-stack/AssetParameters/035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc/ArtifactHash"
+                  }
+                }
+              },
+              "1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a": {
+                "id": "1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a",
+                "path": "ITGT101-zinc-stack/AssetParameters/1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "ITGT101-zinc-stack/AssetParameters/1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "ITGT101-zinc-stack/AssetParameters/1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "ITGT101-zinc-stack/AssetParameters/1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a/ArtifactHash"
+                  }
+                }
+              }
+            }
+          },
+          "CertificateArn": {
+            "id": "CertificateArn",
+            "path": "ITGT101-zinc-stack/CertificateArn"
+          },
+          "SiteDistribution": {
+            "id": "SiteDistribution",
+            "path": "ITGT101-zinc-stack/SiteDistribution",
+            "children": {
+              "AliasConfigurationCert": {
+                "id": "AliasConfigurationCert",
+                "path": "ITGT101-zinc-stack/SiteDistribution/AliasConfigurationCert"
+              },
+              "CFDistribution": {
+                "id": "CFDistribution",
+                "path": "ITGT101-zinc-stack/SiteDistribution/CFDistribution",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::CloudFront::Distribution",
+                  "aws:cdk:cloudformation:props": {
+                    "distributionConfig": {
+                      "enabled": true,
+                      "defaultRootObject": "index.html",
+                      "httpVersion": "http2",
+                      "priceClass": "PriceClass_100",
+                      "ipv6Enabled": true,
+                      "origins": [
+                        {
+                          "id": "origin1",
+                          "domainName": {
+                            "Fn::GetAtt": [
+                              "SiteBucket397A1860",
+                              "RegionalDomainName"
+                            ]
+                          },
+                          "s3OriginConfig": {}
+                        }
+                      ],
+                      "defaultCacheBehavior": {
+                        "allowedMethods": [
+                          "GET",
+                          "HEAD"
+                        ],
+                        "cachedMethods": [
+                          "GET",
+                          "HEAD"
+                        ],
+                        "compress": true,
+                        "forwardedValues": {
+                          "queryString": false,
+                          "cookies": {
+                            "forward": "none"
+                          }
+                        },
+                        "targetOriginId": "origin1",
+                        "viewerProtocolPolicy": "redirect-to-https"
+                      },
+                      "aliases": [
+                        "zinccli.com"
+                      ],
+                      "viewerCertificate": {
+                        "acmCertificateArn": {
+                          "Fn::GetAtt": [
+                            "builtinfunctionidbucketCertificateRequestorResource79AF02AB",
+                            "Arn"
+                          ]
+                        },
+                        "sslSupportMethod": "sni-only",
+                        "minimumProtocolVersion": "TLSv1.1_2016"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "DistributionId": {
+            "id": "DistributionId",
+            "path": "ITGT101-zinc-stack/DistributionId"
+          },
+          "SiteAliasRecord": {
+            "id": "SiteAliasRecord",
+            "path": "ITGT101-zinc-stack/SiteAliasRecord",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/SiteAliasRecord/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Route53::RecordSet",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "zinccli.com.",
+                    "type": "A",
+                    "aliasTarget": {
+                      "hostedZoneId": "Z2FDTNDATAQYW2",
+                      "dnsName": {
+                        "Fn::GetAtt": [
+                          "SiteDistributionCFDistribution209CF7F5",
+                          "DomainName"
+                        ]
+                      }
+                    },
+                    "hostedZoneId": "Z2V1AL5NKD0TDT"
+                  }
+                }
+              }
+            }
+          },
+          "DeployWithInvalidation": {
+            "id": "DeployWithInvalidation",
+            "path": "ITGT101-zinc-stack/DeployWithInvalidation",
+            "children": {
+              "CustomResourceHandler": {
+                "id": "CustomResourceHandler",
+                "path": "ITGT101-zinc-stack/DeployWithInvalidation/CustomResourceHandler"
+              },
+              "Asset1": {
+                "id": "Asset1",
+                "path": "ITGT101-zinc-stack/DeployWithInvalidation/Asset1",
+                "children": {
+                  "Stage": {
+                    "id": "Stage",
+                    "path": "ITGT101-zinc-stack/DeployWithInvalidation/Asset1/Stage"
+                  },
+                  "AssetBucket": {
+                    "id": "AssetBucket",
+                    "path": "ITGT101-zinc-stack/DeployWithInvalidation/Asset1/AssetBucket"
+                  }
+                }
+              },
+              "CustomResource": {
+                "id": "CustomResource",
+                "path": "ITGT101-zinc-stack/DeployWithInvalidation/CustomResource",
+                "children": {
+                  "Default": {
+                    "id": "Default",
+                    "path": "ITGT101-zinc-stack/DeployWithInvalidation/CustomResource/Default"
+                  }
+                }
+              }
+            }
+          },
+          "Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C": {
+            "id": "Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C",
+            "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C",
+            "children": {
+              "ServiceRole": {
+                "id": "ServiceRole",
+                "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                      "aws:cdk:cloudformation:props": {
+                        "assumeRolePolicyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "sts:AssumeRole",
+                              "Effect": "Allow",
+                              "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        },
+                        "managedPolicyArns": [
+                          {
+                            "Fn::Join": [
+                              "",
+                              [
+                                "arn:",
+                                {
+                                  "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "DefaultPolicy": {
+                    "id": "DefaultPolicy",
+                    "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/DefaultPolicy",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/DefaultPolicy/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                          "aws:cdk:cloudformation:props": {
+                            "policyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": [
+                                    "s3:GetObject*",
+                                    "s3:GetBucket*",
+                                    "s3:List*"
+                                  ],
+                                  "Effect": "Allow",
+                                  "Resource": [
+                                    {
+                                      "Fn::Join": [
+                                        "",
+                                        [
+                                          "arn:",
+                                          {
+                                            "Ref": "AWS::Partition"
+                                          },
+                                          ":s3:::",
+                                          {
+                                            "Ref": "AssetParameters4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1S3Bucket14650576"
+                                          }
+                                        ]
+                                      ]
+                                    },
+                                    {
+                                      "Fn::Join": [
+                                        "",
+                                        [
+                                          "arn:",
+                                          {
+                                            "Ref": "AWS::Partition"
+                                          },
+                                          ":s3:::",
+                                          {
+                                            "Ref": "AssetParameters4e8819f876ac70bed06931a3d0f961c7a133295f6abc413a32ae052ee048dde1S3Bucket14650576"
+                                          },
+                                          "/*"
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Action": [
+                                    "s3:GetObject*",
+                                    "s3:GetBucket*",
+                                    "s3:List*",
+                                    "s3:DeleteObject*",
+                                    "s3:PutObject*",
+                                    "s3:Abort*"
+                                  ],
+                                  "Effect": "Allow",
+                                  "Resource": [
+                                    {
+                                      "Fn::GetAtt": [
+                                        "SiteBucket397A1860",
+                                        "Arn"
+                                      ]
+                                    },
+                                    {
+                                      "Fn::Join": [
+                                        "",
+                                        [
+                                          {
+                                            "Fn::GetAtt": [
+                                              "SiteBucket397A1860",
+                                              "Arn"
+                                            ]
+                                          },
+                                          "/*"
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Action": [
+                                    "cloudfront:GetInvalidation",
+                                    "cloudfront:CreateInvalidation"
+                                  ],
+                                  "Effect": "Allow",
+                                  "Resource": "*"
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "policyName": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF",
+                            "roles": [
+                              {
+                                "Ref": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Code": {
+                "id": "Code",
+                "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Code",
+                "children": {
+                  "Stage": {
+                    "id": "Stage",
+                    "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Code/Stage"
+                  },
+                  "AssetBucket": {
+                    "id": "AssetBucket",
+                    "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Code/AssetBucket"
+                  }
+                }
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                  "aws:cdk:cloudformation:props": {
+                    "code": {
+                      "s3Bucket": {
+                        "Ref": "AssetParameters6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430S3Bucket13DFEC6A"
+                      },
+                      "s3Key": {
+                        "Fn::Join": [
+                          "",
+                          [
+                            {
+                              "Fn::Select": [
+                                0,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430S3VersionKeyED938FBC"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "Fn::Select": [
+                                1,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters6416c21be320b522db64c705872c0a54d788e3df57b34a5f0d1e8602d7521430S3VersionKeyED938FBC"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    "handler": "index.handler",
+                    "role": {
+                      "Fn::GetAtt": [
+                        "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265",
+                        "Arn"
+                      ]
+                    },
+                    "runtime": "python3.6",
+                    "timeout": 900
+                  }
+                }
+              }
+            }
+          },
+          "ContactFormLambda": {
+            "id": "ContactFormLambda",
+            "path": "ITGT101-zinc-stack/ContactFormLambda",
+            "children": {
+              "ServiceRole": {
+                "id": "ServiceRole",
+                "path": "ITGT101-zinc-stack/ContactFormLambda/ServiceRole",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/ContactFormLambda/ServiceRole/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                      "aws:cdk:cloudformation:props": {
+                        "assumeRolePolicyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "sts:AssumeRole",
+                              "Effect": "Allow",
+                              "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        },
+                        "managedPolicyArns": [
+                          {
+                            "Fn::Join": [
+                              "",
+                              [
+                                "arn:",
+                                {
+                                  "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "DefaultPolicy": {
+                    "id": "DefaultPolicy",
+                    "path": "ITGT101-zinc-stack/ContactFormLambda/ServiceRole/DefaultPolicy",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/ContactFormLambda/ServiceRole/DefaultPolicy/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                          "aws:cdk:cloudformation:props": {
+                            "policyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": [
+                                    "ses:SendEmail",
+                                    "ses:SendRawEmail"
+                                  ],
+                                  "Effect": "Allow",
+                                  "Resource": "*"
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "policyName": "ContactFormLambdaServiceRoleDefaultPolicy99B96C03",
+                            "roles": [
+                              {
+                                "Ref": "ContactFormLambdaServiceRole020D5737"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Code": {
+                "id": "Code",
+                "path": "ITGT101-zinc-stack/ContactFormLambda/Code",
+                "children": {
+                  "Stage": {
+                    "id": "Stage",
+                    "path": "ITGT101-zinc-stack/ContactFormLambda/Code/Stage"
+                  },
+                  "AssetBucket": {
+                    "id": "AssetBucket",
+                    "path": "ITGT101-zinc-stack/ContactFormLambda/Code/AssetBucket"
+                  }
+                }
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/ContactFormLambda/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                  "aws:cdk:cloudformation:props": {
+                    "code": {
+                      "s3Bucket": {
+                        "Ref": "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3Bucket90967AA8"
+                      },
+                      "s3Key": {
+                        "Fn::Join": [
+                          "",
+                          [
+                            {
+                              "Fn::Select": [
+                                0,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3VersionKey2608A430"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "Fn::Select": [
+                                1,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3VersionKey2608A430"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    "handler": "lambda_handler.handler",
+                    "role": {
+                      "Fn::GetAtt": [
+                        "ContactFormLambdaServiceRole020D5737",
+                        "Arn"
+                      ]
+                    },
+                    "runtime": "python3.7"
+                  }
+                }
+              }
+            }
+          },
+          "ApiCertificate": {
+            "id": "ApiCertificate",
+            "path": "ITGT101-zinc-stack/ApiCertificate",
+            "children": {
+              "CertificateRequestorFunction": {
+                "id": "CertificateRequestorFunction",
+                "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction",
+                "children": {
+                  "ServiceRole": {
+                    "id": "ServiceRole",
+                    "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                          "aws:cdk:cloudformation:props": {
+                            "assumeRolePolicyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "sts:AssumeRole",
+                                  "Effect": "Allow",
+                                  "Principal": {
+                                    "Service": "lambda.amazonaws.com"
+                                  }
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "managedPolicyArns": [
+                              {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    "arn:",
+                                    {
+                                      "Ref": "AWS::Partition"
+                                    },
+                                    ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                                  ]
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "DefaultPolicy": {
+                        "id": "DefaultPolicy",
+                        "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/DefaultPolicy",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                              "aws:cdk:cloudformation:props": {
+                                "policyDocument": {
+                                  "Statement": [
+                                    {
+                                      "Action": [
+                                        "acm:RequestCertificate",
+                                        "acm:DescribeCertificate",
+                                        "acm:DeleteCertificate"
+                                      ],
+                                      "Effect": "Allow",
+                                      "Resource": "*"
+                                    },
+                                    {
+                                      "Action": "route53:GetChange",
+                                      "Effect": "Allow",
+                                      "Resource": "*"
+                                    },
+                                    {
+                                      "Action": "route53:changeResourceRecordSets",
+                                      "Effect": "Allow",
+                                      "Resource": {
+                                        "Fn::Join": [
+                                          "",
+                                          [
+                                            "arn:",
+                                            {
+                                              "Ref": "AWS::Partition"
+                                            },
+                                            ":route53:::hostedzone/Z2V1AL5NKD0TDT"
+                                          ]
+                                        ]
+                                      }
+                                    }
+                                  ],
+                                  "Version": "2012-10-17"
+                                },
+                                "policyName": "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57",
+                                "roles": [
+                                  {
+                                    "Ref": "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "Code": {
+                    "id": "Code",
+                    "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/Code",
+                    "children": {
+                      "Stage": {
+                        "id": "Stage",
+                        "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/Code/Stage"
+                      },
+                      "AssetBucket": {
+                        "id": "AssetBucket",
+                        "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/Code/AssetBucket"
+                      }
+                    }
+                  },
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorFunction/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                      "aws:cdk:cloudformation:props": {
+                        "code": {
+                          "s3Bucket": {
+                            "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3Bucket0997A4A0"
+                          },
+                          "s3Key": {
+                            "Fn::Join": [
+                              "",
+                              [
+                                {
+                                  "Fn::Select": [
+                                    0,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Fn::Select": [
+                                    1,
+                                    {
+                                      "Fn::Split": [
+                                        "||",
+                                        {
+                                          "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "handler": "index.certificateRequestHandler",
+                        "role": {
+                          "Fn::GetAtt": [
+                            "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678",
+                            "Arn"
+                          ]
+                        },
+                        "runtime": "nodejs10.x",
+                        "timeout": 900
+                      }
+                    }
+                  }
+                }
+              },
+              "CertificateRequestorResource": {
+                "id": "CertificateRequestorResource",
+                "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorResource",
+                "children": {
+                  "Default": {
+                    "id": "Default",
+                    "path": "ITGT101-zinc-stack/ApiCertificate/CertificateRequestorResource/Default"
+                  }
+                }
+              }
+            }
+          },
+          "ApiCertificateArn": {
+            "id": "ApiCertificateArn",
+            "path": "ITGT101-zinc-stack/ApiCertificateArn"
+          },
+          "VerifyDomainIdentity": {
+            "id": "VerifyDomainIdentity",
+            "path": "ITGT101-zinc-stack/VerifyDomainIdentity",
+            "children": {
+              "Provider": {
+                "id": "Provider",
+                "path": "ITGT101-zinc-stack/VerifyDomainIdentity/Provider"
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/VerifyDomainIdentity/Resource",
+                "children": {
+                  "Default": {
+                    "id": "Default",
+                    "path": "ITGT101-zinc-stack/VerifyDomainIdentity/Resource/Default"
+                  }
+                }
+              }
+            }
+          },
+          "AWS679f53fac002430cb0da5b7982bd2287": {
+            "id": "AWS679f53fac002430cb0da5b7982bd2287",
+            "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287",
+            "children": {
+              "ServiceRole": {
+                "id": "ServiceRole",
+                "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                      "aws:cdk:cloudformation:props": {
+                        "assumeRolePolicyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "sts:AssumeRole",
+                              "Effect": "Allow",
+                              "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        },
+                        "managedPolicyArns": [
+                          {
+                            "Fn::Join": [
+                              "",
+                              [
+                                "arn:",
+                                {
+                                  "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "DefaultPolicy": {
+                    "id": "DefaultPolicy",
+                    "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/DefaultPolicy",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/DefaultPolicy/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                          "aws:cdk:cloudformation:props": {
+                            "policyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "ses:VerifyDomainIdentity",
+                                  "Effect": "Allow",
+                                  "Resource": "*"
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "policyName": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleDefaultPolicyD28E1A5E",
+                            "roles": [
+                              {
+                                "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Code": {
+                "id": "Code",
+                "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/Code",
+                "children": {
+                  "Stage": {
+                    "id": "Stage",
+                    "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/Code/Stage"
+                  },
+                  "AssetBucket": {
+                    "id": "AssetBucket",
+                    "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/Code/AssetBucket"
+                  }
+                }
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/AWS679f53fac002430cb0da5b7982bd2287/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                  "aws:cdk:cloudformation:props": {
+                    "code": {
+                      "s3Bucket": {
+                        "Ref": "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3Bucket440FE184"
+                      },
+                      "s3Key": {
+                        "Fn::Join": [
+                          "",
+                          [
+                            {
+                              "Fn::Select": [
+                                0,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3VersionKeyE00E112E"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "Fn::Select": [
+                                1,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3VersionKeyE00E112E"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    "handler": "index.handler",
+                    "role": {
+                      "Fn::GetAtt": [
+                        "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+                        "Arn"
+                      ]
+                    },
+                    "runtime": "nodejs12.x",
+                    "timeout": 120
+                  }
+                }
+              }
+            }
+          },
+          "SESVerificationRecord": {
+            "id": "SESVerificationRecord",
+            "path": "ITGT101-zinc-stack/SESVerificationRecord",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/SESVerificationRecord/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Route53::RecordSet",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "_amazonses.zinccli.com.",
+                    "type": "TXT",
+                    "hostedZoneId": "Z2V1AL5NKD0TDT",
+                    "resourceRecords": [
+                      {
+                        "Fn::Join": [
+                          "",
+                          [
+                            "\"",
+                            {
+                              "Fn::GetAtt": [
+                                "VerifyDomainIdentityA4F38560",
+                                "VerificationToken"
+                              ]
+                            },
+                            "\""
+                          ]
+                        ]
+                      }
+                    ],
+                    "ttl": "1800"
+                  }
+                }
+              }
+            }
+          },
+          "ContactFormAPIGW": {
+            "id": "ContactFormAPIGW",
+            "path": "ITGT101-zinc-stack/ContactFormAPIGW",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ApiGateway::RestApi",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "ContactFormAPI"
+                  }
+                }
+              },
+              "Deployment": {
+                "id": "Deployment",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/Deployment",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/ContactFormAPIGW/Deployment/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::ApiGateway::Deployment",
+                      "aws:cdk:cloudformation:props": {
+                        "restApiId": {
+                          "Ref": "ContactFormAPIGW2E71629F"
+                        },
+                        "description": "Automatically created by the RestApi construct"
+                      }
+                    }
+                  }
+                }
+              },
+              "DeploymentStage.prod": {
+                "id": "DeploymentStage.prod",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/DeploymentStage.prod",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/ContactFormAPIGW/DeploymentStage.prod/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::ApiGateway::Stage",
+                      "aws:cdk:cloudformation:props": {
+                        "restApiId": {
+                          "Ref": "ContactFormAPIGW2E71629F"
+                        },
+                        "deploymentId": {
+                          "Ref": "ContactFormAPIGWDeployment108377598f188f75d867609f44ede44e7889a3a1"
+                        },
+                        "methodSettings": [
+                          {
+                            "httpMethod": "*",
+                            "resourcePath": "/*",
+                            "throttlingBurstLimit": 100,
+                            "throttlingRateLimit": 10
+                          }
+                        ],
+                        "stageName": "prod"
+                      }
+                    }
+                  }
+                }
+              },
+              "Endpoint": {
+                "id": "Endpoint",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/Endpoint"
+              },
+              "CloudWatchRole": {
+                "id": "CloudWatchRole",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/CloudWatchRole",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/ContactFormAPIGW/CloudWatchRole/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                      "aws:cdk:cloudformation:props": {
+                        "assumeRolePolicyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "sts:AssumeRole",
+                              "Effect": "Allow",
+                              "Principal": {
+                                "Service": "apigateway.amazonaws.com"
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        },
+                        "managedPolicyArns": [
+                          {
+                            "Fn::Join": [
+                              "",
+                              [
+                                "arn:",
+                                {
+                                  "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs"
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "Account": {
+                "id": "Account",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/Account",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::ApiGateway::Account",
+                  "aws:cdk:cloudformation:props": {
+                    "cloudWatchRoleArn": {
+                      "Fn::GetAtt": [
+                        "ContactFormAPIGWCloudWatchRole143FBBF6",
+                        "Arn"
+                      ]
+                    }
+                  }
+                }
+              },
+              "Default": {
+                "id": "Default",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default",
+                "children": {
+                  "contact": {
+                    "id": "contact",
+                    "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::ApiGateway::Resource",
+                          "aws:cdk:cloudformation:props": {
+                            "parentId": {
+                              "Fn::GetAtt": [
+                                "ContactFormAPIGW2E71629F",
+                                "RootResourceId"
+                              ]
+                            },
+                            "pathPart": "contact",
+                            "restApiId": {
+                              "Ref": "ContactFormAPIGW2E71629F"
+                            }
+                          }
+                        }
+                      },
+                      "POST": {
+                        "id": "POST",
+                        "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/POST",
+                        "children": {
+                          "ApiPermission.ITGT101zincstackContactFormAPIGWFC91BFC1.POST..contact": {
+                            "id": "ApiPermission.ITGT101zincstackContactFormAPIGWFC91BFC1.POST..contact",
+                            "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/POST/ApiPermission.ITGT101zincstackContactFormAPIGWFC91BFC1.POST..contact",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::Lambda::Permission",
+                              "aws:cdk:cloudformation:props": {
+                                "action": "lambda:InvokeFunction",
+                                "functionName": {
+                                  "Fn::GetAtt": [
+                                    "ContactFormLambdaBE8DD0D4",
+                                    "Arn"
+                                  ]
+                                },
+                                "principal": "apigateway.amazonaws.com",
+                                "sourceArn": {
+                                  "Fn::Join": [
+                                    "",
+                                    [
+                                      "arn:",
+                                      {
+                                        "Ref": "AWS::Partition"
+                                      },
+                                      ":execute-api:us-east-1:535707483867:",
+                                      {
+                                        "Ref": "ContactFormAPIGW2E71629F"
+                                      },
+                                      "/",
+                                      {
+                                        "Ref": "ContactFormAPIGWDeploymentStageprod37226E19"
+                                      },
+                                      "/POST/contact"
+                                    ]
+                                  ]
+                                }
+                              }
+                            }
+                          },
+                          "ApiPermission.Test.ITGT101zincstackContactFormAPIGWFC91BFC1.POST..contact": {
+                            "id": "ApiPermission.Test.ITGT101zincstackContactFormAPIGWFC91BFC1.POST..contact",
+                            "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/POST/ApiPermission.Test.ITGT101zincstackContactFormAPIGWFC91BFC1.POST..contact",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::Lambda::Permission",
+                              "aws:cdk:cloudformation:props": {
+                                "action": "lambda:InvokeFunction",
+                                "functionName": {
+                                  "Fn::GetAtt": [
+                                    "ContactFormLambdaBE8DD0D4",
+                                    "Arn"
+                                  ]
+                                },
+                                "principal": "apigateway.amazonaws.com",
+                                "sourceArn": {
+                                  "Fn::Join": [
+                                    "",
+                                    [
+                                      "arn:",
+                                      {
+                                        "Ref": "AWS::Partition"
+                                      },
+                                      ":execute-api:us-east-1:535707483867:",
+                                      {
+                                        "Ref": "ContactFormAPIGW2E71629F"
+                                      },
+                                      "/test-invoke-stage/POST/contact"
+                                    ]
+                                  ]
+                                }
+                              }
+                            }
+                          },
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/POST/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::ApiGateway::Method",
+                              "aws:cdk:cloudformation:props": {
+                                "httpMethod": "POST",
+                                "resourceId": {
+                                  "Ref": "ContactFormAPIGWcontactEED5846F"
+                                },
+                                "restApiId": {
+                                  "Ref": "ContactFormAPIGW2E71629F"
+                                },
+                                "authorizationType": "NONE",
+                                "integration": {
+                                  "type": "AWS",
+                                  "uri": {
+                                    "Fn::Join": [
+                                      "",
+                                      [
+                                        "arn:",
+                                        {
+                                          "Ref": "AWS::Partition"
+                                        },
+                                        ":apigateway:us-east-1:lambda:path/2015-03-31/functions/",
+                                        {
+                                          "Fn::GetAtt": [
+                                            "ContactFormLambdaBE8DD0D4",
+                                            "Arn"
+                                          ]
+                                        },
+                                        "/invocations"
+                                      ]
+                                    ]
+                                  },
+                                  "integrationHttpMethod": "POST",
+                                  "integrationResponses": [
+                                    {
+                                      "statusCode": "200",
+                                      "responseParameters": {
+                                        "method.response.header.Access-Control-Allow-Origin": "'*'"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "methodResponses": [
+                                  {
+                                    "statusCode": "200",
+                                    "responseParameters": {
+                                      "method.response.header.Access-Control-Allow-Origin": true
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "OPTIONS": {
+                        "id": "OPTIONS",
+                        "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/OPTIONS",
+                        "children": {
+                          "Resource": {
+                            "id": "Resource",
+                            "path": "ITGT101-zinc-stack/ContactFormAPIGW/Default/contact/OPTIONS/Resource",
+                            "attributes": {
+                              "aws:cdk:cloudformation:type": "AWS::ApiGateway::Method",
+                              "aws:cdk:cloudformation:props": {
+                                "httpMethod": "OPTIONS",
+                                "resourceId": {
+                                  "Ref": "ContactFormAPIGWcontactEED5846F"
+                                },
+                                "restApiId": {
+                                  "Ref": "ContactFormAPIGW2E71629F"
+                                },
+                                "authorizationType": "NONE",
+                                "integration": {
+                                  "type": "MOCK",
+                                  "requestTemplates": {
+                                    "application/json": "{\"statusCode\":200}"
+                                  },
+                                  "passthroughBehavior": "WHEN_NO_MATCH",
+                                  "integrationResponses": [
+                                    {
+                                      "statusCode": "200",
+                                      "responseParameters": {
+                                        "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+                                        "method.response.header.Access-Control-Allow-Origin": "'*'",
+                                        "method.response.header.Access-Control-Allow-Methods": "'GET,OPTIONS'"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "methodResponses": [
+                                  {
+                                    "statusCode": "200",
+                                    "responseParameters": {
+                                      "method.response.header.Access-Control-Allow-Headers": true,
+                                      "method.response.header.Access-Control-Allow-Methods": true,
+                                      "method.response.header.Access-Control-Allow-Origin": true
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "CustomDomain": {
+                "id": "CustomDomain",
+                "path": "ITGT101-zinc-stack/ContactFormAPIGW/CustomDomain",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "ITGT101-zinc-stack/ContactFormAPIGW/CustomDomain/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::ApiGateway::DomainName",
+                      "aws:cdk:cloudformation:props": {
+                        "domainName": "api.zinccli.com",
+                        "endpointConfiguration": {
+                          "types": [
+                            "REGIONAL"
+                          ]
+                        },
+                        "regionalCertificateArn": {
+                          "Fn::GetAtt": [
+                            "ApiCertificateCertificateRequestorResource57CB3F69",
+                            "Arn"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "Map:--=>ITGT101zincstackContactFormAPIGWFC91BFC1": {
+                    "id": "Map:--=>ITGT101zincstackContactFormAPIGWFC91BFC1",
+                    "path": "ITGT101-zinc-stack/ContactFormAPIGW/CustomDomain/Map:--=>ITGT101zincstackContactFormAPIGWFC91BFC1",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "ITGT101-zinc-stack/ContactFormAPIGW/CustomDomain/Map:--=>ITGT101zincstackContactFormAPIGWFC91BFC1/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::ApiGateway::BasePathMapping",
+                          "aws:cdk:cloudformation:props": {
+                            "domainName": {
+                              "Ref": "ContactFormAPIGWCustomDomain80DCFB76"
+                            },
+                            "restApiId": {
+                              "Ref": "ContactFormAPIGW2E71629F"
+                            },
+                            "stage": {
+                              "Ref": "ContactFormAPIGWDeploymentStageprod37226E19"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "ApiAliasRecord": {
+            "id": "ApiAliasRecord",
+            "path": "ITGT101-zinc-stack/ApiAliasRecord",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "ITGT101-zinc-stack/ApiAliasRecord/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Route53::RecordSet",
+                  "aws:cdk:cloudformation:props": {
+                    "name": "api.zinccli.com.",
+                    "type": "A",
+                    "aliasTarget": {
+                      "dnsName": {
+                        "Fn::GetAtt": [
+                          "ContactFormAPIGWCustomDomain80DCFB76",
+                          "RegionalDomainName"
+                        ]
+                      },
+                      "hostedZoneId": {
+                        "Fn::GetAtt": [
+                          "ContactFormAPIGWCustomDomain80DCFB76",
+                          "RegionalHostedZoneId"
+                        ]
+                      }
+                    },
+                    "hostedZoneId": "Z2V1AL5NKD0TDT"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
