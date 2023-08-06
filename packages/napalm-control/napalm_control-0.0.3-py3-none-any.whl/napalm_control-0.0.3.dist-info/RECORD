@@ -1,0 +1,13 @@
+napalm_control/Lie_tools.py,sha256=t52txT6uKHfISNleMfdmJeUnOJCmULyGLcMaQ2vR5XY,7947
+napalm_control/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napalm_control/approximation_tools.py,sha256=wYQZgCyy6kWTHKx5_UyYRA0lkTy1ywdIUtfga1NktOs,45067
+napalm_control/shuffle_tools.py,sha256=7QlKqBP5aDyHdH4G7Q_T6qUCO8AQBFsAF1gjYPaHXsQ,5607
+napalm_control/fliess/lie_basis.pickle,sha256=1EtO2MSc1VNThtLcoESbYpp3lgn2eeuT5ws7l9b6keo,2126784
+napalm_control/fliess/moments_grading.pickle,sha256=5ivYqHYlh21zGsi3R8FO-_NOvWJzmvGu8yO7TvydAWE,10747821
+napalm_control/nonlinear_moments/lie_basis.pickle,sha256=XltrS-UyKnITP4cxaE8-8kqRjZWUCnKI-AtfratWYB4,14445685
+napalm_control/nonlinear_moments/moments_grading.pickle,sha256=RPbzzzA05t-Kz090C3wLJxNBprKGpmfS7msvwgKa794,785957
+napalm_control-0.0.3.dist-info/LICENSE,sha256=K0fqAQY5hcdDFg15sjCWr6bZedodRrVnW_lwiQl6h3g,1090
+napalm_control-0.0.3.dist-info/METADATA,sha256=ui_4RvBDo7cnYYXv40bKrQqQnSZ0B6ZiUzlavofqbWk,813
+napalm_control-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+napalm_control-0.0.3.dist-info/top_level.txt,sha256=EIfhkQCMKv3idQFPUMMeCvMmdOtHq8OsRwqsNY6JSXM,15
+napalm_control-0.0.3.dist-info/RECORD,,
