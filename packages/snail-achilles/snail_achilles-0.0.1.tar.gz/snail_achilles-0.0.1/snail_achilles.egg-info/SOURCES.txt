@@ -1,0 +1,10 @@
+README.md
+setup.py
+achilles/__init__.py
+achilles/model.py
+snail_achilles.egg-info/PKG-INFO
+snail_achilles.egg-info/SOURCES.txt
+snail_achilles.egg-info/dependency_links.txt
+snail_achilles.egg-info/not-zip-safe
+snail_achilles.egg-info/requires.txt
+snail_achilles.egg-info/top_level.txt
