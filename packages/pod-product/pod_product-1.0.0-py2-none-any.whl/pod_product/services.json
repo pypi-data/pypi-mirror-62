@@ -1,0 +1,83 @@
+{
+  "post_nzh_biz_addProduct": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29851,
+      "sandbox": 39347
+    }
+  },
+  "post_nzh_biz_addProducts": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29852,
+      "sandbox": 39348
+    }
+  },
+  "post_nzh_biz_updateProduct": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29853,
+      "sandbox": 39349
+    }
+  },
+  "post_nzh_biz_updateProducts": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29854,
+      "sandbox": 39350
+    }
+  },
+  "get_nzh_productList": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29855,
+      "sandbox": 39351
+    }
+  },
+  "get_nzh_biz_productList": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29856,
+      "sandbox": 39352
+    }
+  },
+  "get_nzh_getAttributeTemplateList": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29857,
+      "sandbox": 39353
+    }
+  },
+  "get_nzh_searchProduct": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29858,
+      "sandbox": 39354
+    }
+  },
+  "get_nzh_searchSubProduct": {
+    "platform_url": "base_url",
+    "sub_url": "/nzh/doServiceCall",
+    "http_verb": "post",
+    "products": {
+      "production": 29859,
+      "sandbox": 39355
+    }
+  }
+}
