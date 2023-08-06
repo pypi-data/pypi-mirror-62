@@ -1,0 +1,3 @@
+[console_scripts]
+safe-reboot = safe_reboot.safe_reboot:main
+
