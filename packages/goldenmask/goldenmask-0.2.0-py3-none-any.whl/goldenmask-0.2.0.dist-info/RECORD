@@ -1,0 +1,12 @@
+goldenmask/.goldenmaskignore,sha256=EepJsM78H5by_jQBursGqXsTWXc6Qm-NoeZ5llRSud0,1976
+goldenmask/__init__.py,sha256=HnYloW7KoJf6u2C-tQD1nln0B0qdQlXAF7A6KUFHqSc,244
+goldenmask/__main__.py,sha256=0QmpB2N0RpkqXhZvZGHACIPGRimJlHYq1QRFcUDKKt0,117
+goldenmask/cli.py,sha256=wKFHx1lyUU7TnszHv8c1MIQB2VG9F94TgQ3wu2eBC7w,1993
+goldenmask/exceptions.py,sha256=_vjCLbPYDq7b9oKreeHlSxWWzNK7A7lMmzzvePrIvlI,404
+goldenmask/protect.py,sha256=3LPMcMesxIgqIRkRxbukRq3X_Hc0B5OIaCtiTgSKqF4,8218
+goldenmask/utils.py,sha256=rRnrbd-kcU9GGv5JsJxmAi8IMQ-m38XTzTRSmzqbIbc,7070
+goldenmask-0.2.0.dist-info/entry_points.txt,sha256=Pw92IDjqRvrbC2dtuINrr0ka9lGpHGveYlRu_U0odsM,56
+goldenmask-0.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+goldenmask-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+goldenmask-0.2.0.dist-info/METADATA,sha256=TVP4tvPJg4DF1psycbFm_7x0pnTQKHK5CAPRPVHYMaE,3869
+goldenmask-0.2.0.dist-info/RECORD,,
