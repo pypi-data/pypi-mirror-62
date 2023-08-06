@@ -1,0 +1,12 @@
+geoget/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+geoget/_nbdev.py,sha256=C2lIemfRyVXdwNKLtHITrDcGEQDqXwKu9Y73n6IT61k,883
+geoget/cli.py,sha256=UcGNfD-Ib8V_85BkIp-NfmKledv5rFJgPJvegx3yx04,1802
+geoget/core.py,sha256=wRRqvi-xL2iHDGGL_30k1EHDmlhOkTK-YewJOcOWrrU,105
+geoget/download.py,sha256=M2hNFFEtOF55gmGAgQASII1o90LRcmVyCyqlNjPrnIg,10288
+geoget/external.py,sha256=PHH-V9PZemVNAAc6ZgGmrixzqwovEtsdZK2k5KTNcR8,5588
+geoget-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+geoget-0.1.0.dist-info/METADATA,sha256=uvKx0Li1MFRGCwMb35kD3nqGx-qLvhNlLLZVRYd3msU,1977
+geoget-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+geoget-0.1.0.dist-info/entry_points.txt,sha256=czBctDkbnAbkB4z2PQe3gvPo_PygD6LQTIdzWbKXpn8,62
+geoget-0.1.0.dist-info/top_level.txt,sha256=fnwfFjptAQauMgCRc0teYGEjrd39N1lfq2wIk7eDXaU,7
+geoget-0.1.0.dist-info/RECORD,,
