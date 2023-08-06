@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: influx-rp-generator
+Version: 0.0.1
+Summary: Influx service to automatically generate RPs
+Home-page: UNKNOWN
+Author: Mykola Kondratiuk
+Author-email: nkondratyk93@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python :: 3.8
