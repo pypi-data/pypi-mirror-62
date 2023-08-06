@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: peaksql
+Version: 0.0.2
+Summary: TODO: add peaksq description
+Home-page: https://github.com/vanheeringen-lab/peaksql
+Author: ['Maarten van der Sande <maartenvandersande@hotmail.com>']
+License: MIT
+Description: # PeakSQL
+        
+        [![Maintainability](https://api.codeclimate.com/v1/badges/d5f1443a164eb0d64d33/maintainability)](https://codeclimate.com/github/vanheeringen-lab/peaksql/maintainability)
+        [![Test Coverage](https://api.codeclimate.com/v1/badges/d5f1443a164eb0d64d33/test_coverage)](https://codeclimate.com/github/vanheeringen-lab/peaksql/test_coverage)
+        ![ContinuousIntegration](https://github.com/vanheeringen-lab/peaksql/workflows/ContinuousIntegration/badge.svg)
+        ![ContinuousDeployment](https://github.com/vanheeringen-lab/peaksql/workflows/ContinuousDeployment/badge.svg)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
