@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dottree
+Version: 0.1.1
+Summary: 
+Author: Jitender
+Author-email: gitbackspacer@gmail.com
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
