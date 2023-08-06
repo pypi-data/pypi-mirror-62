@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyabzu
+Version: 0.0.2
+Summary: Abzu package
+Home-page: UNKNOWN
+Author: Abzu
+Author-email: support@abzu.ai
+License: UNKNOWN
+Description: 
+            # Abzu
+            This is just an empty package for now. 
+            Maybe you are looking for [feyn package](https://pypi.org/project/feyn/) or you can read more about us at https://www.abzu.ai
+            
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
