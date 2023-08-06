@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: aiida-porousmaterials
+Version: 1.0.0a1
+Summary: AiiDA plugin for PorousMaterials code
+Home-page: https://github.com/pzarabadip/aiida-porousmaterials
+Author: Pezhman Zarabadi-Poor
+Author-email: pzarabadip@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Framework :: AiiDA
+Description-Content-Type: text/markdown
+Requires-Dist: aiida-core[atomic_tools] (<2.0.0,>=1.0.0)
+Requires-Dist: pandas (==0.25.1)
+Provides-Extra: pre-commit
+Requires-Dist: pre-commit (==1.18.3) ; extra == 'pre-commit'
+Requires-Dist: yapf (==0.28.0) ; extra == 'pre-commit'
+Requires-Dist: prospector (==1.1.7) ; extra == 'pre-commit'
+Requires-Dist: pylint (==2.3.1) ; extra == 'pre-commit'
+Provides-Extra: test
+Requires-Dist: pgtest (==1.2.0) ; extra == 'test'
+Requires-Dist: pytest (<5.0.0,>=4.4) ; extra == 'test'
+Requires-Dist: pytest-cov (<3.0.0,>=2.6.1) ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pzarabadip/aiida-porousmaterials/blob/master/LICENSE)
+[![Build](https://github.com/pzarabadip/aiida-porousmaterials/workflows/Build/badge.svg)](https://github.com/pzarabadip/aiida-porousmaterials/actions?query=workflow%3ABuild+branch%3Amaster)
+[![codecov](https://codecov.io/gh/pzarabadip/aiida-porousmaterials/branch/github-actions/graph/badge.svg)](https://codecov.io/gh/pzarabadip/aiida-porousmaterials)
+[![DOI](https://zenodo.org/badge/201230518.svg)](https://zenodo.org/badge/latestdoi/201230518)
+
+# aiida-porousmaterials
+[AiiDA](www.aiida.net) plugin for [PorousMaterials](https://github.com/SimonEnsemble/PorousMaterials.jl) package
+
+# Installation
+`git clone https://github.com/pzarabadip/aiida-porousmaterials`
+
+`pip install -e .`
+
+**NOTE** Currently, it is minimal plugin for an ongoing project. It will be updated to be able for doing wider ranger of calculations.
+
+# License
+MIT
+
+# Contact
+`pzarabadip@gmail.com`
+
+# Acknowledgment
+I would like to thank the funding received from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie Actions and cofinancing by the South Moravian Region under agreement 665860. This software reflects only the authors’ view and the EU is not responsible for any use that may be made of the information it contains.
+
+![aiida-porousmaterials](ackn_logo.png)
+
+

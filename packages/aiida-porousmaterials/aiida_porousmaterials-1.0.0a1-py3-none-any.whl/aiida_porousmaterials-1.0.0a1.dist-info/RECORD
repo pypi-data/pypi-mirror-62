@@ -1,0 +1,13 @@
+aiida_porousmaterials/__init__.py,sha256=tKFyzXqhjqigRjmsTCtnictXqoK2YHTqnq0-PEvKp4k,83
+aiida_porousmaterials/calculations/__init__.py,sha256=nh8v9j7Eyhc0l-BS0JTM7pDlE_yn6beS5jLagme9uiU,4112
+aiida_porousmaterials/parser/__init__.py,sha256=7PqCCZiulAlBCMSK-tsNF-hjWRNhws1Oqv0Ff2zHHuk,1943
+aiida_porousmaterials/utils/__init__.py,sha256=2V1rtxWyocuwr2UJm-6GDlPPUSW8_DRl8A5RMmJRDvY,122
+aiida_porousmaterials/utils/base_parser.py,sha256=W6AUJ8oeqnVayFs-upV6OT-nkhWMMpw3sSTvTWNuAzo,2199
+aiida_porousmaterials/utils/input_generator.py,sha256=crB70dc1TshCigxa8Y3jUFcSgMdvTnihQPKMJtXj-tY,990
+aiida_porousmaterials-1.0.0a1.data/data/setup.json,sha256=klxzBC0T9gKkLbMspU7YCb03ir5Nqd-zek65K-i5Xss,1368
+aiida_porousmaterials-1.0.0a1.dist-info/LICENSE,sha256=5AabXi8O_Vxi9fmv4iqkgT-gkv67zlUzj_9DndOKJsU,1078
+aiida_porousmaterials-1.0.0a1.dist-info/METADATA,sha256=4Uafru17w5Ie1j3EpUnEHy-nA9tGfXSWJILegUlfeSs,2551
+aiida_porousmaterials-1.0.0a1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+aiida_porousmaterials-1.0.0a1.dist-info/entry_points.txt,sha256=Rvqe9p9FjzskHS5M94UtanSgNGNp3x5Ta-rst7MWEIk,188
+aiida_porousmaterials-1.0.0a1.dist-info/top_level.txt,sha256=bLqm08RKm15QOaYhpH4e_kaxa8ADcXmuvpuyAwn-Bnw,22
+aiida_porousmaterials-1.0.0a1.dist-info/RECORD,,

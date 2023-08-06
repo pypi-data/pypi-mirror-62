@@ -1,0 +1,6 @@
+[aiida.calculations]
+porousmaterials = aiida_porousmaterials.calculations:PorousMaterialsCalculation
+
+[aiida.parsers]
+porousmaterials = aiida_porousmaterials.parser:PorousMaterialsParser
+
