@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+pytwwa5/__init__.py
+pytwwa5/calc.py
+pytwwa5/my_module.py
+pytwwa5.egg-info/PKG-INFO
+pytwwa5.egg-info/SOURCES.txt
+pytwwa5.egg-info/dependency_links.txt
+pytwwa5.egg-info/top_level.txt
