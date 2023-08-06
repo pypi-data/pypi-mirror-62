@@ -1,0 +1,11 @@
+datasette_configure_fts/__init__.py,sha256=daUFYhRAUYesvgNTepD-7ekLr6fFtbRvjU8z1BRt6ko,519
+datasette_configure_fts/app.py,sha256=LuODiQ9W_rK2AKrZgZlC8HTi5JrS2gklciMC_zLuFVA,4388
+datasette_configure_fts/utils.py,sha256=Y6dQokp5Cs5cmb8hjKNWsHv07H6yX9U1q5LLujWynCw,1285
+datasette_configure_fts/templates/configure_fts_database.html,sha256=J0SHjF-QXFAvt4vKNqjLr7C7GURzasvMlqb90zD5i_Y,1228
+datasette_configure_fts/templates/configure_fts_index.html,sha256=_Ru26zqSQlY6sjkKdvH9lUd02TV3xCqz8zQklCUBfxA,632
+datasette_configure_fts-0.4.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_configure_fts-0.4.2.dist-info/METADATA,sha256=k_xMi7KoNZ06n-S218dSFOZLLJ3gyn_e4oR6Mab31Z0,1399
+datasette_configure_fts-0.4.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datasette_configure_fts-0.4.2.dist-info/entry_points.txt,sha256=LvuoZdmMnWk8StdGmyluAVVINdO9jZlt1nxpCLbrWO0,53
+datasette_configure_fts-0.4.2.dist-info/top_level.txt,sha256=2IQkDwgHNGhXDAhO4uRtZioQXuXBjZ-3ywJlSXfY8Yw,24
+datasette_configure_fts-0.4.2.dist-info/RECORD,,
