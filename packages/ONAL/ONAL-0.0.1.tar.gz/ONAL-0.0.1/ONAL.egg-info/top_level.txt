@@ -1,0 +1,11 @@
+ONAL
+ONAL/classes
+ONAL/functions
+ONAL/functions/community
+ONAL/functions/components
+ONAL/functions/graph_embedding
+ONAL/functions/graph_embedding/node2vec
+ONAL/functions/not_sorted
+ONAL/functions/structural_holes
+ONAL/tests
+ONAL/utils
