@@ -1,0 +1,13 @@
+FHmonitor/FHmonitor.py,sha256=BFFKQmL73uRefDDIbXd99rC4Rwyf8VJXFPGQt7ETfCk,3274
+FHmonitor/__init__.py,sha256=DMvOwnHBfTw1iX5CYoxOwJDCXYeOLuKQp3f6kjNnOfo,133
+FHmonitor/meter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FHmonitor/meter/atm90_e32_pi.py,sha256=p0BqzpXSEeTDlDkN7dXPSAwJB4-ZY1wcTLpbqWfesag,15346
+FHmonitor/meter/atm90_e32_registers.py,sha256=Pxkx6GrvLoSbjFVr_YVp5rDVk7NtKTGemKdBUV7W1_I,8187
+FHmonitor/store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FHmonitor/store/store.py,sha256=Xq8Gr5UNIbKRm-Sra9nXS935fN5y30dFj3vRvJCMMF4,1829
+FHmonitor-0.0.1.dist-info/AUTHORS.rst,sha256=bHJDKk7trakrCjpeu8m_Y9MBUEWoTKoUKA08p29OFIM,162
+FHmonitor-0.0.1.dist-info/LICENSE,sha256=2YGEbtsVVuNY4y0gSS2GAlmc48y-jy8kNSBDXaaCOcg,1075
+FHmonitor-0.0.1.dist-info/METADATA,sha256=HPcq7f1rkUCpQBvFgaC9RhRknVVL8Rjp1xt6Ct3SLMo,1976
+FHmonitor-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+FHmonitor-0.0.1.dist-info/top_level.txt,sha256=HBPd6a4BkSb7r8fbjBNaOQu60-KNYsk7_BIBL76wJ_8,10
+FHmonitor-0.0.1.dist-info/RECORD,,
