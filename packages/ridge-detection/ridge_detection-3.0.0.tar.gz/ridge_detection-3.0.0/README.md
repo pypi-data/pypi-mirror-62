@@ -1,0 +1,151 @@
+# ridge_detection
+This package implements and extends the ridge / line detection algorithm described in:
+
+Steger, C., 1998. An unbiased detector of curvilinear structures. IEEE Transactions on Pattern Analysis and Machine Intelligence, 20(2), pp.113–125.  
+
+It is basically the translation from java to python of https://github.com/thorstenwagner/ij-ridgedetection.
+For more informations about the params visit "https://imagej.net/Ridge_Detection".
+
+## **Please pay attention that we removed some part of the code and some parameters** 
+
+HOW RUN IT
+-
+Starting form the version 2.0.0 a GUI is provided. This is the running main
+
+    from ridge_detection.gui import create_win
+    
+    if __name__ == "__main__":
+        create_win()
+
+The core part of the tool is the LineDetector class. That is callable from config file (see below) or with dict variable which must have the same format
+ 
+An example script is:
+
+    from ridge_detection.lineDetector import LineDetector
+    from ridge_detection.params import Params,load_json
+    from ridge_detection.basicGeometry import reset_counter
+    from ridge_detection.helper import displayContours,save_to_disk
+    from argparse import ArgumentParser
+    from datetime import datetime
+    from PIL import Image
+    from  mrcfile import open as mrcfile_open
+    
+    
+    def run():
+        start=datetime.now()
+        parser = ArgumentParser("ridge detection parser tool")
+        parser.add_argument(dest="config_filename",type=str, nargs='?',help="name of the config_file to use. Default value is 'example_config.json'")
+        args=parser.parse_args()
+        config_filename = args.config_filename if args.config_filename is not None else "example_config.json"
+        json_data=load_json(config_filename)
+        params = Params(config_filename)
+    
+        try:
+            img=mrcfile_open(json_data["path_to_file"]).data
+        except ValueError:
+            img=Image.open(json_data["path_to_file"])
+    
+        detect = LineDetector(params=config_filename)
+        result = detect.detectLines(img)
+        resultJunction =detect.junctions
+        out_img,img_only_lines = displayContours(params,result,resultJunction)      
+        if params.get_saveOnFile() is True:
+            save_to_disk(out_img,img_only_lines)
+    
+        print(" TOTAL EXECUTION TIME: " + str(datetime.now()-start))
+    
+    if __name__ == "__main__":
+        run()
+
+From the command line:
+
+    python main.py name_your_config_file.json
+
+EXAMPLE CONFIG FILE
+-
+It has to be a json format
+
+    {
+        "path_to_file": "../example.tif",
+        "mandatory_parameters": {
+            "Sigma": 3.39,
+            "Lower_Threshold": 0.34,
+            "Upper_Threshold": 1.02,
+            "Maximum_Line_Length": 0,
+            "Minimum_Line_Length": 0,
+            "Darkline": "LIGHT",
+            "Overlap_resolution": "NONE"
+        },
+    
+        "optional_parameters": {
+            "Line_width": 10.0,
+            "High_contrast": 200,
+            "Low_contrast": 80
+        },
+    
+        "further_options": {
+            "Correct_position": true,
+            "Estimate_width": true,
+            "doExtendLine": true,
+            "Show_junction_points": true,
+            "Show_IDs": false,
+            "Display_results": true,
+            "Preview": true,
+            "Make_Binary": false,
+            "save_on_disk": true
+        }
+	}
+
+
+PARAMETER SELECTION
+
+There are three parameters which have to be specified. These are the mandatory parameters. The optional parameters can be used to estimate the mandatory parameters
+
+
+MANDATORY PARAMETERS:
+-
+
+SIGMA  -->  Determines  the sigma for the derivatives. It depends on the line width
+
+LOWER THRESHOLD --> Line points with a response smaller as this threshold are rejected 
+
+UPPER THRESHOLD --> Line points with a response larger as this threshold are accepted. 
+
+DARKLINE (true/false) --> This parameter determines whether dark or bright lines are extracted. 
+
+OVERLAP RESOLUTION (None/Slope) --> You can select a method to attempt automatic overlap resolution. The accuracy of this method will depend on the structure of your data.
+ * NONE --> The default behavior: no assumption of overlap is made. Any point of potential intersection will be treated as an end point for the ridges involved.
+ * SLOPE --> This method makes the assumption that when two ridges overlap, it is more likely that they will continue on their path than make turns. **This is best suited to datasets with brief periods of overlap!** If two ridges have a significant portion of overlap, the accuracy of this method will rapidly diminish. 
+
+OPTIONAL PARAMETERS: 
+-
+They are used to estimate the mandatory parameters. It is able starting from the version 3.0.0
+
+The formula are written using latex. You cannot see them on git. 
+
+
+LINE WIDTH (w)  --> The line diameter in pixels. It estimates the mandatory parameter 'Sigma' by: <img src="https://latex.codecogs.com/svg.latex?{\color{White} \frac{w}{2\sqrt{3}}+0.5}"/>
+
+HIGH CONTAST (Bupper) -->  Highest grayscale value of the line. It estimates the mandatory parameter 'Upper threshold' by: <img src="https://latex.codecogs.com/svg.latex?{\color{White} 0.17*\frac{2*Bupper*\frac{w}{2}}{\sqrt{2\pi}\sigma^{3}} *   e^{-\frac{(\frac{w}{2})^{2}}{2\sigma ^{2}}} } "/>
+
+LOW CONTAST  (Blow) --> Lowest grayscale value of the line. It estimates the mandatory parameter 'Lower threshold' by: <img src="https://latex.codecogs.com/svg.latex?{\color{White} 0.17*\frac{2*Blow*\frac{w}{2}}{\sqrt{2\pi}\sigma^{3}} *   e^{-\frac{(\frac{w}{2})^{2}}{2\sigma ^{2}}} }"/>
+
+FURTHER OPTIONS (True/False)
+-
+
+CORRECTION POSITION --> Correct the line position if it has different contrast on each side of it
+
+ESTIMATE WIDTH: If this option is selected the width of the line is estimated.
+
+SHOW JUNCTION POINTS: If this option is selected the junctions points will be displayed.
+
+SHOW IDs: The ID of each line will be shown.
+
+DISPLAY RESULTS: If this option is selected, all contours and junctions are filled into a results table.
+
+
+
+
+
+ 
+ 
