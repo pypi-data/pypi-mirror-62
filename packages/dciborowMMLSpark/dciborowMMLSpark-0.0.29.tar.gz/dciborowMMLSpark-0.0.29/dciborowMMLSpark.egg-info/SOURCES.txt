@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+dciborowMMLSpark.egg-info/PKG-INFO
+dciborowMMLSpark.egg-info/SOURCES.txt
+dciborowMMLSpark.egg-info/dependency_links.txt
+dciborowMMLSpark.egg-info/requires.txt
+dciborowMMLSpark.egg-info/top_level.txt
+dciborowMMLSpark.egg-info/zip-safe
+deps/jars/mmlspark_2.11-0.18.1.jar
+mmlspark/__init__.py
+mmlspark/recommendation/RankingTrainValidationSplit.py
+mmlspark/recommendation/RankingTrainValidationSplitModel.py
+mmlspark/recommendation/SAR.py
+mmlspark/recommendation/SARModel.py
+mmlspark/recommendation/__init__.py
