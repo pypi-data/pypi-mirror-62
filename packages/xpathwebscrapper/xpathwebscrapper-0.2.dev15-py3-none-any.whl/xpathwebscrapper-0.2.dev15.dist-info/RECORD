@@ -1,0 +1,12 @@
+xpathwebscrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpathwebscrapper/__main__.py,sha256=JGoidKZyNxhVEak5e_7_DExW9UF-g2vICvz_VHCFdGg,77
+xpathwebscrapper/grab.py,sha256=xV_hLK-cju14CslkeJ-RZjYeWBatwo8b1-j_VKCrWU0,1120
+xpathwebscrapper/utils.py,sha256=FUhzHCcE-GqyGH2e6Fp-dYnRBwisEryM8zP0A639JdU,2096
+xpathwebscrapper/webparser.py,sha256=IA20c5NnoXDHW_NrcOh5q9YT_4oU8VuYrzjYXZJegWg,3609
+xpathwebscrapper-0.2.dev15.dist-info/LICENSE,sha256=XzsVgbUD6AE2VQHEVqYeORniii9xdHJ15MnbGWBpnTg,1073
+xpathwebscrapper-0.2.dev15.dist-info/METADATA,sha256=n-TrKz2VjKXc0EYV98XeCukXsc_XYBF7UcdTXDp_Mzw,886
+xpathwebscrapper-0.2.dev15.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xpathwebscrapper-0.2.dev15.dist-info/entry_points.txt,sha256=sNeGi0mQoOoqDSGvWNUdDCsViABo4hz8zX5aUza5hFY,65
+xpathwebscrapper-0.2.dev15.dist-info/top_level.txt,sha256=fsQrr85_V-Q2qDmGw6-Dy8eqyjQ3iWucO6_dyGJtqpo,17
+xpathwebscrapper-0.2.dev15.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xpathwebscrapper-0.2.dev15.dist-info/RECORD,,
