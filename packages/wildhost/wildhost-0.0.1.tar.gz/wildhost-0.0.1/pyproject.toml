@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "wildhost"
+author = "havefish"
+author-email = "havefish@protonmail.com"
+home-page = "https://github.com/havefish/wildhost"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires=[
+    "tldextract",
+]
+description-file="README.md"
