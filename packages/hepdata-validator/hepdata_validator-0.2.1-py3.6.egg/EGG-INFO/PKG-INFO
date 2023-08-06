@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hepdata-validator
+Version: 0.2.1
+Summary: UNKNOWN
+Home-page: https://github.com/hepdata/hepdata-validator
+Author: HEPData Team
+Author-email: info@hepdata.net
+License: GPLv2
+Description: HEPData validator code. More information and source code at https://github.com/hepdata/hepdata-validator
+Keywords: hepdata validator
+Platform: any
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: all
