@@ -1,0 +1,16 @@
+sdcli/__init__.py,sha256=EIXp97K7YpCgN3qAoFbDJUPGOdqUOdsWbKG8oFfLzgk,72
+sdcli/config/__init__.py,sha256=0mbNAvUGzuK0pphZZdZr_759IRUegeymeTQO4lQ7wa4,85
+sdcli/config/_config.py,sha256=sVJzl5CYb_W85Vbd6hoDVEdU-phGnVdPAK5wyi2aIDI,539
+sdcli/config/config_obs.py,sha256=aaC0FwfdL4tHfa84IZfsBK0h7fcPENBeE1puRqf5tEU,20871
+sdcli/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdcli/src/generator.py,sha256=ZMDG87vfE_hxIyHxamjIQ04kDS0UOc1uQy06BOL28P8,638
+sdcli/src/info.py,sha256=UKE9sm-5Tiara0q2kZuZjbX_TX2f-zQJhNz52VMJbUM,335
+sdcli/src/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdcli/src/lib/cli.py,sha256=0XuaoTfHU58LL0yH_WGlA8PvwJLWJkV3cFpzJ_cWkJs,926
+sdcli/src/lib/error.py,sha256=7hMTSQKnLHuY5KJDe0N-UVVfDYTd5mVvLz0tXl1M9Qo,255
+sdcli-1.1.5.dist-info/LICENSE,sha256=OFt1-RUpH7XfqALHXjoxbjweN6SNDcq3SwnnhJ2SG1U,1079
+sdcli-1.1.5.dist-info/METADATA,sha256=-rkzsbuFlBw1MmgAYQli418_OTV5igb7v2oHF5hglaw,1872
+sdcli-1.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sdcli-1.1.5.dist-info/entry_points.txt,sha256=ynji9naWYzf4yNRwdbtJib7EZ_V8zMZ8dGKEFuj79yU,40
+sdcli-1.1.5.dist-info/top_level.txt,sha256=z3fbPG1mhyQmGJeLiRIcBxs014kG-VWamDja7srLr1o,6
+sdcli-1.1.5.dist-info/RECORD,,
