@@ -1,0 +1,14 @@
+future
+treelib<2.0.0,>=1.6.1
+elasticsearch<8.0.0,>=7.1.0
+six<2.0.0,>=1.13.0
+
+[pandas]
+pandas>=0.24.2
+
+[test]
+coverage
+nose
+mock
+flake8
+pandas>=0.24.2
