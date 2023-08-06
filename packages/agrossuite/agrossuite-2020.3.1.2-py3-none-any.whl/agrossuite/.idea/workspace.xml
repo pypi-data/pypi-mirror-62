@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8c1bf95-4513-4ab0-836f-2b7d2265ea2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/Coupled Problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Heat Transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Matrices/matrices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Matrices/transient_solver-heat_matrix_mass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Matrices/transient_solver-heat_matrix_stiffness.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Matrices/transient_solver-heat_rhs.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Matrices/transient_solver-heat_solutions.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/acoustic/building.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/acoustic/horn.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/elasticity/beam.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/elasticity/bimetallic_strip.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/axisymmetric_capacitor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/depressed_collector.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/oscilloscope.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/planar_capacitor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/separator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/sparkgap.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/electrostatic/surge_arrester.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/heat/actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/heat/building.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/heat/building_detail.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/heat/transient.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/circle_conductor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/cooking.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/furnace.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/halbach_array.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/heating.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/homogeneous_field.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/lenses.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/levitation.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/magnet.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/motor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/profile_conductor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/profile_conductor_transient.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/proximity_effect.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/rotating_heating.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/rotating_heating_magnets.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/speaker.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/three_phase_cable.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/magnetic/velocity.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/rf_te/free_environment.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/0/rf_te/waveguide.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/acoustic/apartment.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/acoustic/horn.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/acoustic/subwoofer.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/coupled_problems/electron_gun.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/coupled_problems/furnace.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/coupled_problems/rotational_heating.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/coupled_problems/thermoelastic_actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/current/resistor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/elasticity/beam.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/elasticity/bimetallic_strip.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/elasticity/bridge.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/electrostatic/cylindrical_capacitor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/electrostatic/depressed_collector.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/electrostatic/oscilloscope.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/electrostatic/separator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/electrostatic/sparkgap.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/electrostatic/surge_arrester.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/flow/airfoil.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/flow/hole.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/flow/pipe.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/heat/actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/heat/apartment.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/heat/detail.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/cooker.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/halbach_array.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/homogeneous_field.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/inductive _sensor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/lenses.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/levitation.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/motor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/permanent_magnet.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/profile_conductor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/rotational_heating.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/magnetic/speaker.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/21/rf_te/waveguide.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/acoustic/apartment.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/acoustic/horn.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/acoustic/subwoofer.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/coupled_problems/electron_gun.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/coupled_problems/furnace.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/coupled_problems/rotational_heating.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/coupled_problems/thermoelastic_actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/current/resistor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/elasticity/beam.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/elasticity/bimetallic_strip.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/elasticity/bridge.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/electrostatic/cylindrical_capacitor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/electrostatic/depressed_collector.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/electrostatic/oscilloscope.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/electrostatic/separator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/electrostatic/sparkgap.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/electrostatic/surge_arrester.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/flow/airfoil.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/flow/hole.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/flow/pipe.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/heat/actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/heat/apartment.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/heat/detail.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/actuator.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/cooker.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/halbach_array.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/homogeneous_field.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/inductive _sensor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/lenses.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/levitation.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/motor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/permanent_magnet.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/profile_conductor.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/rotational_heating.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/magnetic/speaker.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/data_files/30/rf_te/waveguide.a2d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/core/mesh_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/examples/examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/particle_tracing/comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/particle_tracing/multiparticle_tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/particle_tracing/pairparticle_tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/particle_tracing/particle_tracing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/script/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/script/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/script/field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/script/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/script/problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/script/script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resources_source/tests/disabled/vtk_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/agrossuite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/agrossuite/_agros.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/agrossuite/agros.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/agrossuite/libs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/acoustic/building.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/acoustic/horn.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/elasticity/beam.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/elasticity/bimetallic_strip.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/axisymmetric_capacitor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/depressed_collector.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/oscilloscope.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/planar_capacitor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/separator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/sparkgap.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/electrostatic/surge_arrester.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/heat/actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/heat/building.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/heat/building_detail.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/heat/transient.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/circle_conductor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/cooking.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/furnace.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/halbach_array.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/heating.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/homogeneous_field.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/lenses.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/levitation.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/magnet.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/motor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/profile_conductor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/profile_conductor_transient.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/proximity_effect.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/rotating_heating.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/rotating_heating_magnets.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/speaker.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/three_phase_cable.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/magnetic/velocity.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/rf_te/free_environment.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/0/rf_te/waveguide.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/acoustic/apartment.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/acoustic/horn.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/acoustic/subwoofer.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/coupled_problems/electron_gun.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/coupled_problems/furnace.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/coupled_problems/rotational_heating.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/coupled_problems/thermoelastic_actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/current/resistor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/elasticity/beam.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/elasticity/bimetallic_strip.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/elasticity/bridge.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/electrostatic/cylindrical_capacitor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/electrostatic/depressed_collector.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/electrostatic/oscilloscope.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/electrostatic/separator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/electrostatic/sparkgap.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/electrostatic/surge_arrester.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/flow/airfoil.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/flow/hole.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/flow/pipe.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/heat/actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/heat/apartment.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/heat/detail.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/cooker.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/halbach_array.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/homogeneous_field.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/inductive _sensor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/lenses.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/levitation.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/motor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/permanent_magnet.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/profile_conductor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/rotational_heating.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/magnetic/speaker.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/21/rf_te/waveguide.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/acoustic/apartment.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/acoustic/horn.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/acoustic/subwoofer.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/coupled_problems/electron_gun.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/coupled_problems/furnace.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/coupled_problems/rotational_heating.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/coupled_problems/thermoelastic_actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/current/resistor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/elasticity/beam.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/elasticity/bimetallic_strip.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/elasticity/bridge.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/electrostatic/cylindrical_capacitor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/electrostatic/depressed_collector.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/electrostatic/oscilloscope.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/electrostatic/separator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/electrostatic/sparkgap.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/electrostatic/surge_arrester.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/flow/airfoil.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/flow/hole.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/flow/pipe.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/heat/actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/heat/apartment.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/heat/detail.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/actuator.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/cooker.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/halbach_array.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/homogeneous_field.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/inductive _sensor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/lenses.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/levitation.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/motor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/permanent_magnet.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/profile_conductor.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/rotational_heating.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/magnetic/speaker.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/data_files/30/rf_te/waveguide.a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/core/mesh_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/examples/examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/particle_tracing/comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/particle_tracing/multiparticle_tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/particle_tracing/pairparticle_tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/particle_tracing/particle_tracing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/script/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/script/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/script/field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/script/geometry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/script/problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/script/script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/disabled/vtk_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Coupled Problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Heat Transfer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Matrices/matrices.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Matrices/transient_solver-heat_matrix_mass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Matrices/transient_solver-heat_matrix_stiffness.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Matrices/transient_solver-heat_rhs.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/Matrices/transient_solver-heat_solutions.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/examples/agrossuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/scenario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_adaptivity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_coupled_basic_problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_coupled_unrealistic_problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_acoustic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_current.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_elasticity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_electrostatic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_heat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_magnetic_harmonic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_magnetic_steady.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_magnetic_transient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_math_coeff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_rf_te.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_field_rf_tm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_matrix_solvers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/test_optilab.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YWZ7af02ctYmeJNC12cQfVud03" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in tests">
+    <configuration name="pytest in test_field_current.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="agrossuite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_field_current.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="agrossuite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python tests.pytest in test_field_current.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8c1bf95-4513-4ab0-836f-2b7d2265ea2d" name="Default Changelist" comment="" />
+      <created>1583060143768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583060143768</updated>
+      <workItem from="1583060144887" duration="333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1824" height="275" key="GridCell.Tab.0.bottom" timestamp="1583060331289">
+      <screen x="50" y="27" width="1870" height="1053" />
+    </state>
+    <state width="1824" height="275" key="GridCell.Tab.0.bottom/50.27.1870.1053@50.27.1870.1053" timestamp="1583060331289" />
+    <state width="1824" height="275" key="GridCell.Tab.0.center" timestamp="1583060331288">
+      <screen x="50" y="27" width="1870" height="1053" />
+    </state>
+    <state width="1824" height="275" key="GridCell.Tab.0.center/50.27.1870.1053@50.27.1870.1053" timestamp="1583060331288" />
+    <state width="1824" height="275" key="GridCell.Tab.0.left" timestamp="1583060331288">
+      <screen x="50" y="27" width="1870" height="1053" />
+    </state>
+    <state width="1824" height="275" key="GridCell.Tab.0.left/50.27.1870.1053@50.27.1870.1053" timestamp="1583060331288" />
+    <state width="1824" height="275" key="GridCell.Tab.0.right" timestamp="1583060331289">
+      <screen x="50" y="27" width="1870" height="1053" />
+    </state>
+    <state width="1824" height="275" key="GridCell.Tab.0.right/50.27.1870.1053@50.27.1870.1053" timestamp="1583060331289" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/agrossuite$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1583060331281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/agrossuite$pytest_in_test_field_current_py.coverage" NAME="pytest in test_field_current.py Coverage Results" MODIFIED="1583060324284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
