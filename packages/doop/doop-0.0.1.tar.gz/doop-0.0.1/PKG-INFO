@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: doop
+Version: 0.0.1
+Summary: orbital dynamics
+Home-page: https://pypi.org/project/doop/
+License: MIT
+Keywords: orbit
+Author: walchko
+Author-email: walchko@users.noreply.github.com
+Requires-Python: >=3.6
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/nimbus-bp-1729/doop
+Description-Content-Type: text/markdown
+
+![](pics/lrrr.png)
+
