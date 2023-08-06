@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: staircase
+Version: 0.2.0
+Summary: Modelling of quantitative state changes as step functions
+Home-page: https://github.com/venaturum/staircase
+Author: Riley Clement
+Author-email: venaturum@gmail.com
+License: MIT
+Keywords: Staircase,Step Functions,Data Analysis,Intervals,Simulation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: sortedcontainers (>=2)
+Requires-Dist: pandas (>=0.24)
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
