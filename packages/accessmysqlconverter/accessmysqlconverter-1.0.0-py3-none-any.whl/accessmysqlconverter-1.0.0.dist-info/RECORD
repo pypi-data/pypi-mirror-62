@@ -1,0 +1,10 @@
+accessmysqlconverter/__init__.py,sha256=nD5UuG5Zz4ZxS1XEJKq7EUNVoRs9Yt90KtmMPiX6DFw,62
+accessmysqlconverter/accessconnector.py,sha256=xFkTUBpI_PJFmfBtyO8HJqKKdjiWrLt7Iq3U6j6Zx3E,2300
+accessmysqlconverter/accesshandler.py,sha256=Isal28g6xil1GruGC_9HHU2XRo9odArE8NKwX528LiY,4279
+accessmysqlconverter/application.py,sha256=3PM3rgzIc03NGZuqgOa_il_jKEgJolrWYOca--_GxDI,11095
+accessmysqlconverter/fileformatter.py,sha256=8i5jiLvCqB24Qrlufz_gyO3RGofOlhu0yrEVYaUzIw4,5435
+accessmysqlconverter-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+accessmysqlconverter-1.0.0.dist-info/METADATA,sha256=ZO-tCoJb1fPke2yNgYciSe1Cuy6wG8unuIOBIQcRyLQ,1430
+accessmysqlconverter-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+accessmysqlconverter-1.0.0.dist-info/top_level.txt,sha256=1opowoqLq3KLx2YCN6EuC2PrK36-mZQ-Ax4oRKiwzK4,21
+accessmysqlconverter-1.0.0.dist-info/RECORD,,
