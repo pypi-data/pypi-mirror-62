@@ -1,0 +1,8 @@
+README.md
+setup.py
+BaseScript/__init__.py
+BaseScript/xgc.py
+XGC.egg-info/PKG-INFO
+XGC.egg-info/SOURCES.txt
+XGC.egg-info/dependency_links.txt
+XGC.egg-info/top_level.txt
