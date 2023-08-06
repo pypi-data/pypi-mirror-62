@@ -1,0 +1,10 @@
+mustache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mustache/__main__.py,sha256=4PVGdivSFYUV2cxtk6R5HLA0LVyhfRnls_NWdoNhxQ8,33
+mustache/_version.py,sha256=z0zCHFTcKSR0tJ6h5qrpNmRVP21QIPP8N0p7quCnnm0,23
+mustache/mustache.py,sha256=G4YXHbk5Uz2-FaURcj434pt2RApauSHNXaxTjSSQIM8,19405
+mustache_hic-0.1.10.dist-info/LICENSE.txt,sha256=t4SEGrfrZiSqxV5avP-6Xqde9EuAe4soNXTlffj5Ztw,1072
+mustache_hic-0.1.10.dist-info/METADATA,sha256=2e618xeAFcNnDeJvKtGJUJ4Zv2fdKrt7QJ_7ah5Humk,615
+mustache_hic-0.1.10.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mustache_hic-0.1.10.dist-info/entry_points.txt,sha256=VmwpGAcVu6wuphQ2h-FklZxXF2ntWv6bTL2G8sN-1UI,53
+mustache_hic-0.1.10.dist-info/top_level.txt,sha256=7xDBogYvoE_msQeUNHTe7BvY9hn02L1EKcxAoRhqmeI,9
+mustache_hic-0.1.10.dist-info/RECORD,,
