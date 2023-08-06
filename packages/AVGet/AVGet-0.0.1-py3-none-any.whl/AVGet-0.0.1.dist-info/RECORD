@@ -1,0 +1,11 @@
+avget/__init__.py,sha256=DsdP486GVUBKLqx2Q8pqj2PxfT6AWhcfXeJPcOh11pA,112
+avget/__main__.py,sha256=yzfwldPsL97Zs_bRvLW8PdcUOJHgrHyoqetDfOph5ck,105
+avget/__version__.py,sha256=RSn1czxyOcb49TVGyQlJo-384qYXUCuZBHdCnOdr4O8,302
+tests/__init__.py,sha256=YUs9l9DgMzFdPgJwREYdrU_aL_BjlzdKaZBtrGfEJs0,46
+tests/test_main.py,sha256=7SbjObMpcm4l_WeU4YNGij4I6r55d88h6kerBh8XE50,114
+AVGet-0.0.1.dist-info/LICENSE,sha256=CGWSNtAuHMpDj4U9Hb6M3vK66cQqLteY6tesvmLUegw,1060
+AVGet-0.0.1.dist-info/METADATA,sha256=p51whFL2h1U-66Yx2kSxTGYyr-MrRmGtTunEohFu0c0,1133
+AVGet-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+AVGet-0.0.1.dist-info/entry_points.txt,sha256=DedEnDga9d15uhNg5ps_ExtfprY84xqFLvLJJ9nlzXY,47
+AVGet-0.0.1.dist-info/top_level.txt,sha256=takHZ4FRQzNHJj1MPsOVQPrejDNEgEN6olqNfIvfbfg,12
+AVGet-0.0.1.dist-info/RECORD,,
