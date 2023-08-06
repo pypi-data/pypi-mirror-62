@@ -1,0 +1,9 @@
+README.md
+setup.py
+bencode/__init__.py
+bencode/bencode_decoder.py
+klik_bencode.egg-info/PKG-INFO
+klik_bencode.egg-info/SOURCES.txt
+klik_bencode.egg-info/dependency_links.txt
+klik_bencode.egg-info/not-zip-safe
+klik_bencode.egg-info/top_level.txt
