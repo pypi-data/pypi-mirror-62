@@ -1,0 +1,4 @@
+nose
+pyflakes
+twine
+aridity
