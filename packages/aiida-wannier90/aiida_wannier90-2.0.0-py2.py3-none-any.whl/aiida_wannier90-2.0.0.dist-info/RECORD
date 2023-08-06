@@ -1,0 +1,15 @@
+aiida_wannier90/__init__.py,sha256=UC2KakI7Kg2PulMpMFm1rR2zO5MNHTeY8XqhbciQK7w,2248
+aiida_wannier90/calculations.py,sha256=04-hXo_5ELHAcryIneKMbPIiCeblMD7bKYb_DS-TDE8,20975
+aiida_wannier90/orbitals.py,sha256=aZgTpizodHjRSxau6i2KcHt5vopmcv3DboGU3l8CEf0,13745
+aiida_wannier90/parsers.py,sha256=d53UMQ0bKP7ZL76raoQGl2PF3eYcN6rg1iJQcsHbYak,19640
+aiida_wannier90/utils.py,sha256=kz3tpXJPNm_a4VGtCuPkEM75JLyTMQpDRPdJG28qH6k,3380
+aiida_wannier90/io/__init__.py,sha256=o4K0xZwhJXxBTa0AbyFWqXjwvEYz6xZdEZj8EsypVeo,869
+aiida_wannier90/io/_group_list.py,sha256=mWlpqUvbb4LqnA1fPo8cCXbxnmLvIEocWOIBf9g_apI,1577
+aiida_wannier90/io/_write_win.py,sha256=EOXcCXDsFP-HR9kl0qHd5HHXx0Z2DrUZTyJQo_jVuNU,13282
+aiida_wannier90/workflows/__init__.py,sha256=qulta_8nofv2nWGuSjPNT3U4xQrtLpB2Gu_CRMnsKPE,672
+aiida_wannier90/workflows/minimal.py,sha256=XrZjzVG43Jiw1m6Z6t6u17bjkMO_2K4MBo7HQIN_LIY,12282
+aiida_wannier90-2.0.0.dist-info/METADATA,sha256=h7pdG67xQjJJWjhrLL51hU6PH2HtXjA7MeV2PCdpC6Y,3026
+aiida_wannier90-2.0.0.dist-info/RECORD,,
+aiida_wannier90-2.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+aiida_wannier90-2.0.0.dist-info/entry_points.txt,sha256=4GZ1zlkPKg6YgveLnSfjMRJlAd2sjnLy60AN408nFh4,281
+aiida_wannier90-2.0.0.dist-info/top_level.txt,sha256=LW6d-qBXO_9ebygmQLQiwQQcrfeqpeFf46xidxz3fRo,16
