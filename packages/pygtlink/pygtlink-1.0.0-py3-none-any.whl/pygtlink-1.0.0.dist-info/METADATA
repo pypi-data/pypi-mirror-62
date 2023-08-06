@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pygtlink
+Version: 1.0.0
+Summary: A package to handle basic openigtlink message with python
+Home-page: https://github.com/mariatirindelli/PyOpenIgtlink
+Author: Maria Tirindelli
+Author-email: maria.tirindelli@hotmail.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: crcmod
+Requires-Dist: numpy
+
+## PyOpenIgtlink
+
+This package provides an python implementation of OpenIgtLink message types. 
+Currently the implemented types are:  
+
+IMAGE  
+POSITION  
+STATUS  
+SENSOR  
+
+An example of a python openigtlink server and client is also provided.  
+
+### Support or Contact  
+
+maria.tirindelli@hotmail.it
+
+
