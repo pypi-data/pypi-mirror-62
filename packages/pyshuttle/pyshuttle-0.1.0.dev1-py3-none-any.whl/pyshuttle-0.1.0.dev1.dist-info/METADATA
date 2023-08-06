@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyshuttle
+Version: 0.1.0.dev1
+Summary: Cross-chain atomic swaps between the networks of two cryptocurrencies.
+Home-page: https://github.com/meherett/shuttle
+Author: Meheret Tesfaye
+Author-email: meherett@zoho.com
+License: AGPL-3.0
+Keywords: shuttle
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3,>=2.22.0)
+Requires-Dist: cryptos (<2,>=1.36)
+Requires-Dist: chainside-btcpy (<1,>=0.6.4)
+Requires-Dist: mnemonic (<1,>=0.19)
+Requires-Dist: py-equity (<1,>=0.1.0)
+
+# Shuttle
+Cross-chain atomic swaps between the networks of two cryptocurrencies.
+
+## Meta
+
+Meheret Tesfaye â€“ [@meherett](https://github.com/meherett) â€“ meherett@zoho.com
+
+Distributed under the AGPL-3.0 license. See ``LICENSE`` for more information.
+
+[https://github.com/meherett/shuttle](LICENSE)
+
+## License
+[AGPL-3.0](LICENSE)
+
+
