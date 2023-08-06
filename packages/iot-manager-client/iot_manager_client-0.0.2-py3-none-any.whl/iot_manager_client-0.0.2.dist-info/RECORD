@@ -1,0 +1,9 @@
+iot_manager_client/IoTClient.py,sha256=UgcwHU_XthMqdE9Bs0TICYFVD15L57MMsTlwCgGDt5c,7770
+iot_manager_client/Packet.py,sha256=GLdRXQZoq2yQUozQnQOf6TmYsgbr72PBUzeruPeocHo,1431
+iot_manager_client/ReservedBytes.py,sha256=XgrsAwY4Slf1s5Sv4Wggwp7pyIYR4oaW27vYNwTOQy0,228
+iot_manager_client/__init__.py,sha256=baQTU4dwRZsRWVC-i0y46jf3xRp48rREGf8uykdFtfA,158
+iot_manager_client/__main__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+iot_manager_client-0.0.2.dist-info/METADATA,sha256=KOxbnMLf09hNbzc8fXhy3J8tRZyo4Bwrjs2tCMpOUMk,670
+iot_manager_client-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+iot_manager_client-0.0.2.dist-info/top_level.txt,sha256=jk4e9trZMDV8D_DYRi71l8XxQ1aNknBL0K5uh1w28yg,19
+iot_manager_client-0.0.2.dist-info/RECORD,,
