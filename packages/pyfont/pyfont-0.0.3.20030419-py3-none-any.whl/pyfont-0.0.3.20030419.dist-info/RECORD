@@ -1,0 +1,11 @@
+example/__init__.py,sha256=TdM0TPHoFK6tQk8kuGUEnjI-PQ4lIfjOFEEkg-DieMA,683
+pyfont/__init__.py,sha256=8ieTUhjhcM7Vq1Uk7kx-zhUHurUY2GChcF_ypWEg46o,331
+pyfont/api.py,sha256=MicVZwyLpmb8aI-JOBtTUXXB4DxYfCGQNJpa2-ez4mc,3190
+pyfont/draw_by_html.py,sha256=mATJcTSA6sIxcJwSlRL8Vb2tIWB3LgkJkAobCpvdDng,9868
+pyfont/font.py,sha256=06WTudaD5wEUYNdZtF0nxRAmnFjNqMZoDMWExFj9ajM,18254
+pyfont/html_to_image.py,sha256=Ex8sapytCBopVtpfoFfX2PccS4Wh1cEM8JZ1qozQM_g,2612
+pyfont-0.0.3.20030419.dist-info/LICENSE,sha256=DiEz4gwHdYAEvPaI0_jYHv8mbX_unE1DTjP26yhDg7Y,1088
+pyfont-0.0.3.20030419.dist-info/METADATA,sha256=iGaGqSLIkxvmQL9w8mD60wQfH0fcVL9xO3iOQwcb7MY,2354
+pyfont-0.0.3.20030419.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyfont-0.0.3.20030419.dist-info/top_level.txt,sha256=Rw-u7u6DaoKcnP_AmyaoYBqqC8JEZgO5UPYPu1I1F6U,15
+pyfont-0.0.3.20030419.dist-info/RECORD,,
