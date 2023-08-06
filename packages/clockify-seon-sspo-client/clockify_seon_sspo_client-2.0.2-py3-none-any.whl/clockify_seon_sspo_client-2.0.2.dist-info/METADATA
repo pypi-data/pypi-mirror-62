@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: clockify-seon-sspo-client
+Version: 2.0.2
+Summary: Responsible for send command to clockify job in sspo
+Home-page: UNKNOWN
+Author: Paulo Sergio dos Santo Junior
+Author-email: paulossjuniort@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: rabbitmqX
+
+# Version
+version="v1.1.1"
+
+# Goal
+Cliente que envia comandos para o job do clockify. Por meio deste cliente é possível que o usuário solicite recuperações de dados do clockify. 
+
+
+## Installation
+To install clockify_seon_sspo_client, run this command in your terminal:
+```
+pip install clockify_seon_sspo_client
+```
+
+## Usage:
+
+```python
+from pprint import pprint
+
+from clockify_seon_client.factory.factory import Factory
+from clockify_seon_client.factory.service_enum import Service
+
+#Chamar essa função para cada projeto que for um workspace
+#Associar um ou mais projetos complexos a um workspace do Clockify
+
+organization = "<organization uuid>"
+clockify_key = "<clockify key>"
+application = "<application uuid>"
+
+scrum_complex_project = Factory.create(Service.ScrumComplexProject)
+scrum_complex_project.integrate(organization,clockify_key,application)
+
+scrum_atomicproject = Factory.create(Service.ScrumAtomicProject)
+scrum_atomicproject.integrate(organization,clockify_key,application)
+
+team_member = Factory.create(Service.TeamMember)
+team_member.integrate(organization,clockify_key,application)
+
+stakeholder_participation = Factory.create(Service.StakeholderParticipation)
+stakeholder_participation.integrate(organization,clockify_key,application)
+```
+
+
+
+
+
+
+
+
