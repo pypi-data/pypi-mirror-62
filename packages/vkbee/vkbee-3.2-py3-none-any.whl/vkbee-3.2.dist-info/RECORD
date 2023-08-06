@@ -1,0 +1,11 @@
+vkbee/__init__.py,sha256=RlFRhi43Ah2b4gq0dCeYKQeLBq0MC2sn0P_4Hm1zNfA,293
+vkbee/bot_longpoll.py,sha256=VZvbIffXUEcqowuhQvyHNPnrVCRdBrvgHUfqZbmChok,6777
+vkbee/exceptions.py,sha256=NiHzGS_8XN_hGjmNaH2UNMj9W8_1cinK_vaA69f17aE,661
+vkbee/longpoll.py,sha256=OQ3CMT5mfhK0P6uWvs-Fu4mDFrwuWqUhEUSZFBTCXlA,10612
+vkbee/oldlong.py,sha256=8i402Hs80Ua7itUQmZr2bK04NOo5niHUVOVmv2_WLtY,2382
+vkbee/vkbee.py,sha256=UXiKh0VDrPlYJvV7D97TirouiE5eMKjdMY-I6BBhNsM,3609
+vkbee-3.2.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+vkbee-3.2.dist-info/METADATA,sha256=75a2iQXbTpoLR9eD0FVogTzMYvNtz9LrShOGwYnls6E,1912
+vkbee-3.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vkbee-3.2.dist-info/top_level.txt,sha256=CyzTnC3a10g5sqLoccOBfkHNawNPfWZBYaj56jdjskY,6
+vkbee-3.2.dist-info/RECORD,,
