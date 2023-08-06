@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distpkg2020/Binomialdistribution.py
+distpkg2020/Gaussiandistribution.py
+distpkg2020/Generaldistribution.py
+distpkg2020/__init__.py
+distpkg2020.egg-info/PKG-INFO
+distpkg2020.egg-info/SOURCES.txt
+distpkg2020.egg-info/dependency_links.txt
+distpkg2020.egg-info/not-zip-safe
+distpkg2020.egg-info/top_level.txt
