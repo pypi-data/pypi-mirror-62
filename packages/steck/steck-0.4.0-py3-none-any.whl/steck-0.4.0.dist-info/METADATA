@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: steck
+Version: 0.4.0
+Summary: Client for pinnwand pastebin.
+Home-page: https://github.com/supakeen/steck
+License: MIT
+Keywords: pastebin
+Author: supakeen
+Author-email: cmdr@supakeen.com
+Requires-Python: >=3.6,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: pathspec (>=0.7.0,<0.8.0)
+Requires-Dist: python-magic (>=0.4.15,<0.5.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/supakeen/steck
+Description-Content-Type: text/x-rst
+
+.. image:: https://travis-ci.org/supakeen/steck.svg?branch=master
+    :target: https://travis-ci.org/supakeen/steck
+
+.. image:: https://readthedocs.org/projects/steck/badge/?version=latest
+    :target: https://steck.readthedocs.io/en/latest/
+
+.. image:: https://steck.readthedocs.io/en/latest/_static/license.svg
+    :target: https://github.com/supakeen/steck/blob/master/LICENSE
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/ambv/black
+
+.. image:: https://img.shields.io/pypi/v/steck
+    :target: https://pypi.org/project/steck
+
+.. image:: https://codecov.io/gh/supakeen/steck/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/supakeen/steck
+
+steck
+#####
+
+``steck`` is a Python application to interface with the pinnwand_ pastebin
+software.
+
+Prerequisites
+=============
+* Python >= 3.6
+* click
+* requests
+* python-magic
+* termcolor
+
+Usage
+=====
+
+Simple use::
+
+  € steck paste *
+  You are about to paste the following 7 files. Do you want to continue?
+   - LICENSE
+   - mypy.ini
+   - poetry.lock
+   - pyproject.toml
+   - README.rst
+   - requirements.txt
+   - steck.py
+  Continue? [y/N] y
+  View Paste https://localhost:8000/6MZA
+  Remove Paste https://localhost:8000/remove/XFVRNNCC7L5ATXOU4RHZNBEKIQ
+
+
+License
+=======
+``steck`` is distributed under the MIT license. See `LICENSE`
+for details.
+
+.. _project page: https://github.com/supakeen/steck
+.. _documentation: https://steck.readthedocs.io/en/latest/
+.. _pinnwand: https://supakeen.com/project/pinnwand
+
