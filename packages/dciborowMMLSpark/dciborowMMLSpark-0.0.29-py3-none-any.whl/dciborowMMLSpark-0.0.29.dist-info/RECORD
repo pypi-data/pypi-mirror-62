@@ -1,0 +1,13 @@
+mmlspark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmlspark/recommendation/RankingTrainValidationSplit.py,sha256=Mn8Jkucl11xtB3X3a9yYQfQ90F9zwsII3m29tipFNIs,5872
+mmlspark/recommendation/RankingTrainValidationSplitModel.py,sha256=a7pNBVAQJwz9S7caTnmmWUKm1BfSunYu1b-1X56rSKM,2825
+mmlspark/recommendation/SAR.py,sha256=AdIgREMQEUySFfe8um62u-6wPE5jdzYSA6ikTREPW0k,634
+mmlspark/recommendation/SARModel.py,sha256=rlJDVJU1_wacL7dDqYbgrlEnd0P2SHKUpBFfeyDMHk8,543
+mmlspark/recommendation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyspark/jars/mmlspark_2.11-0.18.1.jar,sha256=cKYUFfzqqY_s0hHJ-1RqisqA10xuJCxRgc0fJAeKwyQ,4191627
+dciborowMMLSpark-0.0.29.dist-info/LICENSE.txt,sha256=G6siI1jXSRRlxaUwTEczMnWhCkTm2yV41mnCjM61jQg,1095
+dciborowMMLSpark-0.0.29.dist-info/METADATA,sha256=usVDoymthHICrQo-PUuqA1oPa6yg9z8DR-0V-iUo5Gw,576
+dciborowMMLSpark-0.0.29.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dciborowMMLSpark-0.0.29.dist-info/top_level.txt,sha256=KNDS1PF4HmkOWs5vHQUpt3466X96BRw5YbCxNghhgeM,17
+dciborowMMLSpark-0.0.29.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dciborowMMLSpark-0.0.29.dist-info/RECORD,,
