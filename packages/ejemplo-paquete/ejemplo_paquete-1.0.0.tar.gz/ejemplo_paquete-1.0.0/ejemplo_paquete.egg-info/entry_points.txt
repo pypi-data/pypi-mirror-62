@@ -1,0 +1,3 @@
+[console_scripts]
+ejemplo_paquete = ejemplo_paquete.ejemplo_paquete_mod:main
+

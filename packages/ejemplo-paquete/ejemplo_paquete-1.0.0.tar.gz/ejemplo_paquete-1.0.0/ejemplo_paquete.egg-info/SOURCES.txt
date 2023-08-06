@@ -1,0 +1,10 @@
+README.rst
+setup.py
+ejemplo_paquete/__init__.py
+ejemplo_paquete/ejemplo_paquete_mod.py
+ejemplo_paquete.egg-info/PKG-INFO
+ejemplo_paquete.egg-info/SOURCES.txt
+ejemplo_paquete.egg-info/dependency_links.txt
+ejemplo_paquete.egg-info/entry_points.txt
+ejemplo_paquete.egg-info/requires.txt
+ejemplo_paquete.egg-info/top_level.txt
