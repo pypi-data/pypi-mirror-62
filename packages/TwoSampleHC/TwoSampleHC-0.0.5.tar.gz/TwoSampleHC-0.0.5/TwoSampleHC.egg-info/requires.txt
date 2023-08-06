@@ -1,0 +1,2 @@
+numpy>=1.6
+scipy>=1.2pandas>=0.24
