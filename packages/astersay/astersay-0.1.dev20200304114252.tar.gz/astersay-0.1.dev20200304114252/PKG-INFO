@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: astersay
+Version: 0.1.dev20200304114252
+Summary: This is a Python library for Asterisk to work with Yandex and Google voice models.
+Home-page: https://gitlab.com/avantelecom/asterisk-dialogs/
+Author: Grigoriy Kramarenko
+Author-email: root@rosix.ru
+License: BSD License
+Description: ================
+        asterisk-dialogs
+        ================
+        
+        Python-библиотека для работы Asterisk с голосовыми моделями Yandex и Google сервисов.
+        
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Communications :: Internet Phone
+Classifier: Topic :: Communications :: Telephony

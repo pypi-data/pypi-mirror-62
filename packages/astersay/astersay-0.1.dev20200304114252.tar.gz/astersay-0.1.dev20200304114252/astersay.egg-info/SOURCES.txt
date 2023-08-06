@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+astersay/__init__.py
+astersay/version.py
+astersay.egg-info/PKG-INFO
+astersay.egg-info/SOURCES.txt
+astersay.egg-info/dependency_links.txt
+astersay.egg-info/not-zip-safe
+astersay.egg-info/top_level.txt
