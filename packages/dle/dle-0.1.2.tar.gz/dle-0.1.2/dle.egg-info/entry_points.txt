@@ -1,0 +1,3 @@
+[console_scripts]
+dle = dle.__main__:main
+
