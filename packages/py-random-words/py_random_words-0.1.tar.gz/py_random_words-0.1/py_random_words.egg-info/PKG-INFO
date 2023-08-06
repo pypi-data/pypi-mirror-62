@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: py-random-words
+Version: 0.1
+Summary: Generate random names
+Home-page: https://github.com/andreasonny83/py_random_words
+Author: andreasonny83
+Author-email: andreasonny83@gmail.com
+License: MIT
+Description: # Py Random Words
+        
+        ## Installation
+        
+        To install, simply:
+        
+        ```bash
+        $ pip install py_random_words
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
