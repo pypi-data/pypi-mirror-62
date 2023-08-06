@@ -1,0 +1,16 @@
+neos/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+neos/_nbdev.py,sha256=UaEPETKZNBCFYPKZH3-wvO1EZfQhJ3oCnRUYtGnam44,1027
+neos/cls.py,sha256=PoBwtewMyGVNu0cbVDRDRmGBDdQwHHOfhKp-wgak92E,2219
+neos/data.py,sha256=bK5lDY-CV-MfyESYAvtlCcgUjvQbKNGq9WaYSvuZPC8,849
+neos/fit.py,sha256=xbCg39AAwkjiBFYqcweU3VIgib2nQaS_F4fbLNycleI,3228
+neos/hists.py,sha256=3ScY1Bg1h6gSuI8EmIemkk1ENAfboXiMYPvJ0wf-0sM,3579
+neos/makers.py,sha256=3VJzBck_FhdXWtth5B_xducU1Asq6_x7IWr1CFp7A5I,1792
+neos/models.py,sha256=1sLTNovInP1CIy62f03-4780sEYYVL06U9zekUuL-qQ,2480
+neos/nn.py,sha256=EhdC4BRXXB6Cj4xPxvjDSbiLI03dSzPmOf7XeaO3gu4,18545
+neos/transforms.py,sha256=leUl1nXg2yNb7cNvVbezBTlUJpu7xH4INY0gDW0MgjU,835
+neos-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neos-0.0.1.dist-info/METADATA,sha256=IpFtWYPOa6BkTSXOWCOwH0jlD9TKSusiFvdJaDlqSS0,6443
+neos-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+neos-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+neos-0.0.1.dist-info/top_level.txt,sha256=vFeuoCJUpLKqBwUU9orjsFRQ9mSlP4899v8s6AdSOhk,5
+neos-0.0.1.dist-info/RECORD,,
