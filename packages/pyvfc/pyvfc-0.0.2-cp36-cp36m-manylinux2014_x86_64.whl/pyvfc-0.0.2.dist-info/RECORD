@@ -1,0 +1,10 @@
+pyvfc.cpython-36m-x86_64-linux-gnu.so,sha256=nCFGIpMVx2fziOuXmBhUoQECFw7HMtL6Dll0Sdq3ibA,207192
+.libspyvfc/libopencv_highgui-6fc58933.so.3.4.9,sha256=ppfM3nx5ohs_qQI00oapjbThoS72GOA2M16rzV4gLmQ,97648
+.libspyvfc/libopencv_core-15ccb8e7.so.3.4.9,sha256=PMNyyDLOiZF4OM69LssSyy8Hlx52AplRL1egb_cQS-M,19943968
+.libspyvfc/libopencv_imgcodecs-356773c1.so.3.4.9,sha256=tyPmDV61XNe5LiCGHWKsjFriyATPArwW9nwA08J6PRU,3829144
+.libspyvfc/libopencv_videoio-36f9035f.so.3.4.9,sha256=c06oJxZ22cLw4PEWLfc6a2ghUBTsd_yAdlAT822yBXo,390168
+.libspyvfc/libopencv_imgproc-dc3af61f.so.3.4.9,sha256=pcRHhNqNTUgLHOzAysCc5SQlMzTZlek5UWKYUXHbRDY,26371056
+pyvfc-0.0.2.dist-info/METADATA,sha256=lRlaS0LypVY0V3d2QiTVNMDKpU4pVIGJdckj-3QJfVY,427
+pyvfc-0.0.2.dist-info/RECORD,,
+pyvfc-0.0.2.dist-info/WHEEL,sha256=uDucJ1UL2LNjEPvMgVBaCioNi9D5zsZQlmGQojhVUJI,112
+pyvfc-0.0.2.dist-info/top_level.txt,sha256=Ak6Wu8AulM3hp-UT4wkhZm5xYc-1hjMxbRO6jv4M3Ck,6
