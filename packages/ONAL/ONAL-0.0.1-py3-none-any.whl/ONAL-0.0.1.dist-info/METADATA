@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ONAL
+Version: 0.0.1
+Summary: ONAL testing
+Home-page: https://github.com/willingnesshxl/OpenGraph
+Author: A, B, C, D
+Author-email: ONAL@163.com
+License: MIT
+Keywords: ONAL
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: gensim (==3.8.1)
+
+UNKNOWN
+
+
