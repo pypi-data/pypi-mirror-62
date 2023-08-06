@@ -1,0 +1,14 @@
+numpy
+
+[ceaf]
+scipy
+
+[dev]
+pyflakes
+nose
+
+[plots]
+matplotlib
+
+[significance]
+joblib
