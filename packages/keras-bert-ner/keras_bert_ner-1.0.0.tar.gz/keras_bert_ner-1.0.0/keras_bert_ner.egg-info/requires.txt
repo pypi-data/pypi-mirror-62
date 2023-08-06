@@ -1,0 +1,8 @@
+flask
+keras
+numpy
+loguru
+requests
+termcolor
+tensorflow
+keras_contrib
