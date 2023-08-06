@@ -1,0 +1,10 @@
+DlibExtern.cpp
+LICENSE
+MANIFEST.in
+README.md
+igeDlibExtern.cpp
+setup.py
+igeDlibExtern.egg-info/PKG-INFO
+igeDlibExtern.egg-info/SOURCES.txt
+igeDlibExtern.egg-info/dependency_links.txt
+igeDlibExtern.egg-info/top_level.txt
