@@ -1,0 +1,13 @@
+dataget/__init__.py,sha256=m-oTY7L_UmREJz4Fs36tp6RB7QRhc5O6zsKZekhGsHw,129
+dataget/dataset.py,sha256=QYb-sqV6733eSSgczkSnzwCnUKmkK9P54m7IU_IEc_U,1455
+dataget/kaggle.py,sha256=3-3zDX9_cUIQsyfFztZZkTbgpGP455Qn_kwy07Ytpi4,1175
+dataget/toy/__init__.py,sha256=zHmqn4a1A0TSkvybNU1AxNuxoqRRNRSG9yAd9FfAQm8,30
+dataget/toy/spirals.py,sha256=EaurzU6MWnMCPMUt4tmUlhWqfRXVyab-C5bD9pwNiJs,918
+dataget/utils.py,sha256=sE58VVdQ4lm0YRe1t79rc-wk0X8VJxWz64RGfVlnX5I,2252
+dataget/vision/__init__.py,sha256=sL9gzMmthqlfKexlS-FmKeRgO8g2hWCVQhv7khIIsZM,62
+dataget/vision/cifar.py,sha256=MsrZvrzROQYgjwLz9oOqEPtmhvdvOW1KHbiJCu_Wab0,3230
+dataget/vision/mnist.py,sha256=yckTBanIsqwKh61wTXmmbLln16puUfWN5UZA0PuO1JU,1954
+dataget-0.4.4.dist-info/LICENSE,sha256=ZmQQhqRY7GOpg2-SbCcKB5s9QZ-ex2AS4HRXmu1uNSU,1072
+dataget-0.4.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dataget-0.4.4.dist-info/METADATA,sha256=IYfvCS_ukDlZNC9d1w5H1fuLKnhe3BZDs0Yigy4j1MI,3408
+dataget-0.4.4.dist-info/RECORD,,
