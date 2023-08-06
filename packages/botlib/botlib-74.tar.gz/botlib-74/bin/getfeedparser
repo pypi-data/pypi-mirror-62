@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+#
+#
+
+import bot
+import bot.rss
+
+k = bot.kernel()
+resp = bot.rss.get_url("https://bitbucket.org/botd/lbot/downloads/feedparser.py")
+f = open("feedparser.py", "w")
+f.write(str(resp.data, "utf-8"))
+f.close()
