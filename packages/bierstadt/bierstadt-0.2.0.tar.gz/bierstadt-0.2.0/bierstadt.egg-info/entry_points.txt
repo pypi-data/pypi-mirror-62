@@ -1,0 +1,3 @@
+[console_scripts]
+bierstadt = bierstadt.cmd:main
+
