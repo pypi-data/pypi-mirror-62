@@ -1,0 +1,9 @@
+obonet
+click
+tqdm
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
