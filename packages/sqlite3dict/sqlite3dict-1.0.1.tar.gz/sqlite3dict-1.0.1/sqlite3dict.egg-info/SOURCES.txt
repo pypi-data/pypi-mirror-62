@@ -1,0 +1,17 @@
+README.md
+setup.py
+sqlite3dict/__init__.py
+sqlite3dict/collection.py
+sqlite3dict/storage.py
+sqlite3dict/test.py
+sqlite3dict.egg-info/PKG-INFO
+sqlite3dict.egg-info/SOURCES.txt
+sqlite3dict.egg-info/dependency_links.txt
+sqlite3dict.egg-info/top_level.txt
+sqlite3dict/crud/__init__.py
+sqlite3dict/crud/delete.py
+sqlite3dict/crud/insert.py
+sqlite3dict/crud/query.py
+sqlite3dict/crud/safejson.py
+sqlite3dict/crud/update.py
+test/test.py
