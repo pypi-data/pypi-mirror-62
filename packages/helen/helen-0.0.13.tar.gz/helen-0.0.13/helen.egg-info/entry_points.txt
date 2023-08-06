@@ -1,0 +1,6 @@
+[console_scripts]
+helen = helen:main
+helen_train = helen_train:main
+marginPolish = marginpolish:main
+marginpolish = marginpolish:main
+
