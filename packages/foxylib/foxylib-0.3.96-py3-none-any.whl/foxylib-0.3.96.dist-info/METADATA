@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: foxylib
+Version: 0.3.96
+Summary: First package
+Home-page: https://github.com/foxytrixy-com/foxylib
+Author: Moonyoung Kang
+Author-email: yerihyo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Dist: future (==0.17.1)
+Requires-Dist: nose (==1.3.7)
+Requires-Dist: Pillow (==6.2.1)
+Requires-Dist: pyyaml (==5.2)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: ply (==3.11)
+Requires-Dist: uritemplate (==3.0.0)
+Requires-Dist: google-api-python-client (==1.7.8)
+Requires-Dist: google-auth (==1.8.1)
+Requires-Dist: google-auth-httplib2 (==0.0.3)
+Requires-Dist: google-auth-oauthlib (==0.4.1)
+Requires-Dist: oauth2client (==4.1.3)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: elasticsearch (==7.0.1)
+Requires-Dist: beautifulsoup4 (==4.7.1)
+Requires-Dist: frozendict (==1.2)
+Requires-Dist: dill (==0.3.0)
+Requires-Dist: pymongo (==3.8.0)
+Requires-Dist: iso3166 (==1.0)
+Requires-Dist: pytest (==5.2.2)
+Requires-Dist: PyGithub (==1.44.1)
+Requires-Dist: notebook (==6.0.2)
+Requires-Dist: slackclient (==2.5.0)
+Requires-Dist: sendgrid (==6.1.0)
+Requires-Dist: stripe (==2.41.1)
+Requires-Dist: connexion[swagger-ui] (==2.6.0)
+Requires-Dist: authlib (==0.13)
+Requires-Dist: pyhwp (==0.1b12)
+Requires-Dist: xlutils (==2.0.0)
+Requires-Dist: WTForms (==2.2.1)
+Requires-Dist: python-coveralls (==2.9.3)
+Requires-Dist: pytest-cov (==2.8.1)
+Requires-Dist: cachetools (==3.1.1)
+
+foxylib
+
+
