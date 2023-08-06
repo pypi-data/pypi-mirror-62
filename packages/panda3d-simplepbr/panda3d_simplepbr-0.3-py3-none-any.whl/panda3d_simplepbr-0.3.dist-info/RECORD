@@ -1,0 +1,11 @@
+simplepbr/__init__.py,sha256=XPlSi900icgeNAL9lhmoL1EPI72yypZ8N040VGpQq1s,3511
+simplepbr/post.vert,sha256=5f-zXldrlE8_TSeA5ZKlMADxiiVlvrW2zC2EOHrlu4M,263
+simplepbr/simplepbr.frag,sha256=clIy9IRNCQ0w1ZNCkBkeG6exTpTFIOMBhbQtqubcsHM,5303
+simplepbr/simplepbr.vert,sha256=qNMFM-YA5iW3fTC0UmAMbZ4KNo66GBrVD0k__huFphI,819
+simplepbr/tonemap.frag,sha256=8iNpA7RTosMBpDuffY5llvFPjcMJ3vf1izZu-gOWVHU,329
+simplepbr/version.py,sha256=mSEGsm3krpaP32dIC6o0jfSpVPy-WcrOfoatVvRBnV4,20
+panda3d_simplepbr-0.3.dist-info/LICENSE.txt,sha256=opVa3x2WIhVAqr9Q-2O0P6Oq20eV1IXuQOekdCTk5ok,1515
+panda3d_simplepbr-0.3.dist-info/METADATA,sha256=g6haYDf7_bUtm9OqdBt8PGzX4wdgwl0VlhHO1PA4Hag,3850
+panda3d_simplepbr-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+panda3d_simplepbr-0.3.dist-info/top_level.txt,sha256=YUMuzzfWGN0IpXsWjayeeMtdbBf1Cli4o791RgDH2NA,10
+panda3d_simplepbr-0.3.dist-info/RECORD,,
