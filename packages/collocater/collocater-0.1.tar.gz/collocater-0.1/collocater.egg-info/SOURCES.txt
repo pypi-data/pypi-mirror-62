@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+collocater/__init__.py
+collocater/collocater.py
+collocater.egg-info/PKG-INFO
+collocater.egg-info/SOURCES.txt
+collocater.egg-info/dependency_links.txt
+collocater.egg-info/requires.txt
+collocater.egg-info/top_level.txt
+collocater/data/.DS_Store
+collocater/data/collocater_obj.joblib
+test/test.py
