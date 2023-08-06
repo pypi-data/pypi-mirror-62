@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+plot_silo_station.png
+setup.py
+ausweather/__init__.py
+ausweather/bom.py
+ausweather/charts.py
+ausweather/database.py
+ausweather/silo.py
+ausweather.egg-info/PKG-INFO
+ausweather.egg-info/SOURCES.txt
+ausweather.egg-info/dependency_links.txt
+ausweather.egg-info/requires.txt
+ausweather.egg-info/top_level.txt
+notebooks/List of BoM stations with data.ipynb
+notebooks/SILO data.ipynb
