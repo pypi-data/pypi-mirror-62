@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels>=0.11.0
+tscv
+fbprophet
+tensorflow>=2.0.0
+ipdb
+art
