@@ -1,0 +1,14 @@
+minipam/__init__.py,sha256=r_Iw1rjMo30Xdr7Y9Mimk2L2u9flllnOqedH-RNO7B4,169
+minipam/__main__.py,sha256=AqOW9t-TFEG5TFABM64dqDLMika-MRQCj4pofWjy5aM,141
+minipam/ipam.py,sha256=_p8QFMqXG5WTUounQ5FDH_zzv3_CT0LPLA5VDwHMp8M,10222
+minipam/utils.py,sha256=VBA-m5wbLmYwJEl_3lV-9IwZ5U4sJnHu75_EMjsOtbI,1540
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ipam.py,sha256=BXfbKwJNt_kW-E8uWuyAmWqJs7u7Z8AHGlyVdDcfEJ4,1307
+tests/test_main.py,sha256=muFZFUacB5Mnz3fH6SRovTVRxkn5zekj4vOBVy2Uut0,79
+tests/test_utils.py,sha256=DUqoa-3BBoyeSQE9AX1Xiu8VpRXrRkRkcKyW00aZi-o,1843
+minipam-0.0.1.dev1.dist-info/LICENSE,sha256=MqUY-zhC4FIKwtvkyq6kNW27vXnkgtl0hgN5Wv89ewE,35075
+minipam-0.0.1.dev1.dist-info/METADATA,sha256=GmLoAj_fhShib3XUe7iXXLO__LalzTgwfX3Uhp_HYQQ,522
+minipam-0.0.1.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+minipam-0.0.1.dev1.dist-info/entry_points.txt,sha256=BqcIxjxgc9AK8xO3IYFG67HqwdTb6AQNN6VEaZA5dnU,51
+minipam-0.0.1.dev1.dist-info/top_level.txt,sha256=tFoIy4O4Z2S5BXu9l6Ba_ZYzA9C5az0iV1HtAEN5Gek,14
+minipam-0.0.1.dev1.dist-info/RECORD,,
