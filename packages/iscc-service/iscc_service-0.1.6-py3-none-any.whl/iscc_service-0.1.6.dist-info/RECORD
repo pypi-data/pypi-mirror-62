@@ -1,0 +1,11 @@
+iscc_service/__init__.py,sha256=js_m8PQ2W0sqE2u8EbnwOj4Lf2mj4pZf8gFa9fJIYQQ,23
+iscc_service/config.py,sha256=VwIsxUSZPDIWgFLXgzVemAW6hq-nlROcZaH1MEPkgdI,311
+iscc_service/conn.py,sha256=VWVN5uSrlFpRG0jq_vBPqmrr-koE8DbgVLCaaK5Ijrc,638
+iscc_service/main.py,sha256=YiokegVREHpnjqg36YBc0bFkuOUGhoRnF0t_v63rMFM,8110
+iscc_service/models.py,sha256=_xpvbo0gWoFqB-gyXfk7yri36ruPAoWFYZVIAHmIkKE,2933
+iscc_service/tools.py,sha256=6t7ht0MQhOoz0kFkjzFpNXEH_5qWrVqsOvBIVhdhRv4,739
+iscc_service-0.1.6.dist-info/entry_points.txt,sha256=zXuJ7xBm_dBHQwU1MGwdQ5fpoNfJ3xP71JGHR6zbzvg,60
+iscc_service-0.1.6.dist-info/LICENSE,sha256=gLf_1kqbJzPDV_mV2g8MZzxdBGV10Vdm1IRoyam8-J8,1088
+iscc_service-0.1.6.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+iscc_service-0.1.6.dist-info/METADATA,sha256=p2oSUiyOTRaXeOQ4RR34EkMnOEJdgPMFKltNX386XgQ,3355
+iscc_service-0.1.6.dist-info/RECORD,,
