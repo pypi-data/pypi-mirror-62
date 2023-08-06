@@ -1,0 +1,72 @@
+================
+gevent-websocket
+================
+
+`gevent-websocket`_ is a WebSocket library for the gevent_ networking library.
+
+Features include:
+
+- Integration on both socket level or using an abstract interface.
+- RPC and PubSub framework using `WAMP`_ (WebSocket Application
+  Messaging Protocol).
+- Easily extendible using a simple WebSocket protocol plugin API
+
+
+::
+
+    from geventwebsocket import WebSocketServer, WebSocketApplication, Resource
+
+    class EchoApplication(WebSocketApplication):
+        def on_open(self):
+            print "Connection opened"
+
+        def on_message(self, message):
+            self.ws.send(message)
+
+        def on_close(self, reason):
+            print reason
+
+    WebSocketServer(
+        ('', 8000),
+        Resource({'/': EchoApplication})
+    ).serve_forever()
+
+or a low level implementation::
+
+    from gevent import pywsgi
+    from geventwebsocket.handler import WebSocketHandler
+
+    def websocket_app(environ, start_response):
+        if environ["PATH_INFO"] == '/echo':
+            ws = environ["wsgi.websocket"]
+            message = ws.receive()
+            ws.send(message)
+
+    server = pywsgi.WSGIServer(("", 8000), websocket_app,
+        handler_class=WebSocketHandler)
+    server.serve_forever()
+
+More examples can be found in the ``examples`` directory. Hopefully more
+documentation will be available soon.
+
+Installation
+------------
+
+The easiest way to install gevent-websocket is directly from PyPi_ using pip or
+setuptools by running the commands below::
+
+    $ pip install gevent-websocket
+
+
+Gunicorn Worker
+^^^^^^^^^^^^^^^
+
+Using Gunicorn it is even more easy to start a server. Only the
+`websocket_app` from the previous example is required to start the server.
+Start Gunicorn using the following command and worker class to enable WebSocket
+funtionality for the application.
+
+::
+
+    gunicorn -k "geventwebsocket.gunicorn.workers.GeventWebSocketWorker" wsgi:websocket_app
+
