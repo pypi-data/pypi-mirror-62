@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: click-help-colors
+Version: 0.7
+Summary: Colorization of help messages in Click
+Home-page: https://github.com/r-m-n/click-help-colors
+License: MIT
+Download-URL: https://github.com/r-m-n/click-help-colors/archive/0.7.tar.gz
+Description: UNKNOWN
+Keywords: click
+Platform: UNKNOWN
+Provides-Extra: dev
