@@ -1,0 +1,9 @@
+FRUIT.py
+README.md
+setup.cfg
+setup.py
+FRUITPy.egg-info/PKG-INFO
+FRUITPy.egg-info/SOURCES.txt
+FRUITPy.egg-info/dependency_links.txt
+FRUITPy.egg-info/top_level.txt
+test/test.py

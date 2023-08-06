@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: FRUITPy
+Version: 0.1.0
+Summary: Python interface for the FRUIT Fortran unit testing framework
+Home-page: https://github.com/acroucher/FRUITPy
+Author: Adrian Croucher
+Author-email: a.croucher@auckland.ac.nz
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
