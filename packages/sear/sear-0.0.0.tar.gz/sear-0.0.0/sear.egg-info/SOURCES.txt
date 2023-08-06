@@ -1,0 +1,7 @@
+README.md
+setup.py
+sear/__init__.py
+sear.egg-info/PKG-INFO
+sear.egg-info/SOURCES.txt
+sear.egg-info/dependency_links.txt
+sear.egg-info/top_level.txt

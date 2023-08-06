@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: sear
+Version: 0.0.0
+Summary: Signed/encrypted archive: a tar-like archive format
+Home-page: https://github.com/iqlusioninc/sear/blob/develop/README.md
+Author: Tony Arcieri
+Author-email: tony@iqlusion.io
+License: Apache Software License
+Description: Signed/Encrypted ARchive: always-encrypted tar-like archive tool with optional signature support
+Keywords: encryption,signing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
