@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mxu
+Version: 0.0.1
+Summary: A collection of utilities and helpers for writing Python programs.
+Home-page: https://github.com/koehlma/mx-python-utils
+Author: Maximilian Köhl
+Author-email: mkoehl@cs.uni-saarland.de
+Requires-Python: >=3.8,<4.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/koehlma/mx-python-utils
+Description-Content-Type: text/x-rst
+
+MX Python Utilities
+===================
+
+A collection of utilities and helpers for writing Python programs.
+
