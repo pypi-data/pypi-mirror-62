@@ -1,0 +1,15 @@
+openepda/__init__.py,sha256=iCpY4o5-8lAGJuR-YVZTXIt1oda4qKgRTJSjXukDjRM,147
+openepda/main.py,sha256=LhL6tOt7YYq_UWuVxoKkJB8573ZjON3f6j_J1D_cuic,6254
+openepda/validators.py,sha256=-0PSrYIX7QtgIdU7q_DGvwwOVDV-qwbfhgm-0FWHdV0,5067
+openepda/schemas/cdf_schema_v0.1.yaml,sha256=9vwD1PqpUK1tRZ7sXwhen0Z2VW9H3_UPPVLCEgpm48k,2361
+openepda/schemas/updk_sbb_schema_v0.2.yaml,sha256=VP-d1rueZSTLBJ1lKsbsq4Yv0YhmC541ouPbXagIfgg,14381
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_data_dumper.py,sha256=dQTBfoXbbIZ1DkSxQuWK8uK74wZIgUwLAChrRUZwTQs,1432
+tests/test_data_loader.py,sha256=8qGJt1YWWs23pcUW_fqwESeWjEfNyeKvkSk0Btcplb0,689
+tests/test_validators.py,sha256=zg2h6tnzP8CzQGuJoNQRApeKctyyJCMsT2V4MRv7aio,377
+openepda-0.1.3.dist-info/AUTHORS,sha256=B7IYIaz8dRTsxwc1WVPlfzPXF7ygfHhwzdvhEyi1oII,246
+openepda-0.1.3.dist-info/LICENSE,sha256=heTt3jGUCTQXG-KM464Y2T054r_hXODkMC9FR3SzPko,210
+openepda-0.1.3.dist-info/METADATA,sha256=JRs_LcrGyW8SetwkJm9ywyk0lElvBkvh_ujbQquhhq4,2332
+openepda-0.1.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+openepda-0.1.3.dist-info/top_level.txt,sha256=TzQ-2qo2VicpC6kZj4DC4dKx2dt1zA77oWaGE1mIZPs,15
+openepda-0.1.3.dist-info/RECORD,,
