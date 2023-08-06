@@ -1,0 +1,98 @@
+# LCO Source Extraction Service CLI
+
+# sep-service-caller
+*Command line interface to LCO's source extraction service*
+
+The source extraction service documentation can be found here: https://github.com/LCOGT/sextractor-service
+
+## Installation
+*pip install sep-service-caller*
+
+## Logging
+Logging is to STDOUT, with the ability to set the log level via the `--log-level` argument.
+
+Extraction results are posted to LCO's Elasticsearch instance, and by default set to populate
+the `source-extraction` index.
+
+The `source-extraction` index can be [viewed in Kibana](http://kibana.lco.gtn/goto/8429a1c456dd20b653a4f1f8ef4ff78f).
+
+## Usage
+To view the help text, simply use the `-h` flag:
+
+`sep-service -h`
+
+```bash
+usage: sep-service [-h] [--sep-mode {DEFAULT,CUSTOM}] [--threshold THRESHOLD]
+                   [--deblend DEBLEND]
+                   [--deblend-n-threshold DEBLEND_N_THRESHOLD]
+                   [--min-area MIN_AREA]
+                   [--noise-model {PIXELMODEL,GLOBALRMS}]
+                   [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                   [--api-frames-endpoint API_FRAMES_ENDPOINT]
+                   [--source-extraction-endpoint SOURCE_EXTRACTION_ENDPOINT]
+                   [--elasticsearch-endpoint ELASTICSEARCH_ENDPOINT]
+                   [--elasticsearch-index ELASTICSEARCH_INDEX]
+                   site camera dayobs auth_token
+
+Perform source extraction via the LCO sep service
+
+positional arguments:
+  site                  3-letter LCO site string, e.g. lsc
+  camera                4-letter LCO camera string e.g. fa15
+  dayobs                Dayobs in YYYYmmdd format, e.g 20200214
+  auth_token            Archive API authentication token
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --sep-mode {DEFAULT,CUSTOM}
+                        Source extraction service mode. See sep service docs
+                        for details. (default: DEFAULT)
+  --threshold THRESHOLD
+                        SExtractor threshold value (default: 10.0)
+  --deblend DEBLEND     SExtractor deblend value (default: 0.005)
+  --deblend-n-threshold DEBLEND_N_THRESHOLD
+                        Number of thresholds to be used when deblending
+                        objects. (default: 32)
+  --min-area MIN_AREA   SExtractor minarea value (default: 9)
+  --noise-model {PIXELMODEL,GLOBALRMS}
+                        Noise model to use. See source extraction service docs
+                        for details. (default: PIXELMODEL)
+  --log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}
+                        Logging level to be displayed (default: INFO)
+  --api-frames-endpoint API_FRAMES_ENDPOINT
+                        Archive API frames endpoint (default: https://archive-
+                        api.lco.global/frames/)
+  --source-extraction-endpoint SOURCE_EXTRACTION_ENDPOINT
+                        LCO sep service endpoint (default: http://source-
+                        extraction.lco.gtn)
+  --elasticsearch-endpoint ELASTICSEARCH_ENDPOINT
+                        LCO elasticsearch endpoint (default:
+                        http://elasticsearch.lco.gtn:9200/)
+  --elasticsearch-index ELASTICSEARCH_INDEX
+                        Index to post source extraction output to (default:
+                        source-extraction)
+
+```
+
+See LCO's [Source Extraction Service Docs](https://github.com/LCOGT/sextractor-service)
+
+## Examples
+Note: All examples include `<archive-auth-token>`, which should be replaced by an Archive API Token that has access
+to the images that you wish to perform source extraction on.
+
+To perform source extraction on all reduced science images (e91) from LSC/fa15 on DAY-OBS 20200214:
+```bash
+sep-service lsc fa15 20200214 <archive-auth-token>
+```
+
+Let's try without DEFAULT values!
+Note, that you must specify `--sep-mode CUSTOM` to override the sep service's [default values](https://github.com/LCOGT/sextractor-service#extraction-modes)
+```bash
+sep-service lsc fa15 20200214 <archive-auth-token> --sep-mode CUSTOM --threshold 8.0
+```
+In this case, threshold will be set to 8.0, but all other tunable sep parameters will stay at their default
+
+You can override as many values as you wish! Go crazy!
+```bash
+sep-service lsc fa15 20200214 <archive-auth-token> --sep-mode CUSTOM --threshold 8.0 --minarea 2.0 --noise-model GLOBALRMS
+```
