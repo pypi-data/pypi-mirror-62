@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dj-rest-auth
+Version: 0.1.4
+Summary: Authentication and Registration in Django Rest Framework
+Home-page: http://github.com/jazzband/dj-rest-auth
+Author: iMerica
+Author-email: imichael@pm.me
+License: UNKNOWN
+Description: # Dj-Rest-Auth
+        [![<iMerica>](https://circleci.com/gh/iMerica/dj-rest-auth.svg?style=svg)](https://app.circleci.com/github/iMerica/dj-rest-auth/pipelines)
+        
+        
+        Drop-in API endpoints for handling authentication securely in Django Rest Framework. Works especially well 
+        with SPAs (e.g React, Vue, Angular), and Mobile applications. 
+        
+        ## Requirements
+        - Django 2 or 3.
+        - Python 3
+        
+        ## Quick Setup
+        
+        Install package
+        
+            pip install dj-rest-auth
+            
+        Add `dj_rest_auth` app to INSTALLED_APPS in your django settings.py:
+        
+            INSTALLED_APPS = (
+                ...,
+                'rest_framework',
+                'rest_framework.authtoken',
+                ...,
+                'dj_rest_auth'
+            )
+            
+        Add URL patterns
+        
+        
+            urlpatterns = [
+                url(r'^dj-rest-auth/', include('dj_rest_auth.urls'))
+            ]
+        
+        ### Documentation
+        
+        View the full documentation here: https://dj-rest-auth.readthedocs.io/en/latest/index.html
+        
+        
+        ### Acknowledgements
+        
+        This project began as a fork of `django-rest-auth`. Big thanks to everyone who contributed to that repo!
+Keywords: django rest auth registration rest-framework django-registration api
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: with_social
