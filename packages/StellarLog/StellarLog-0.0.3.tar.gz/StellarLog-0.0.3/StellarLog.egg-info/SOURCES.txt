@@ -1,0 +1,6 @@
+README.md
+setup.py
+StellarLog.egg-info/PKG-INFO
+StellarLog.egg-info/SOURCES.txt
+StellarLog.egg-info/dependency_links.txt
+StellarLog.egg-info/top_level.txt
