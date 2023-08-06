@@ -1,0 +1,17 @@
+sqlite3dict/__init__.py,sha256=d7tC4qnVIBr9RgINtks0q6UnkP9aAMX3HBB2HBGeOig,267
+sqlite3dict/collection.py,sha256=3q9ORVAWPJbuoQnMd6P2xHNIEiTcWDbLiFQiccMW6cE,1310
+sqlite3dict/storage.py,sha256=ZnYhvde0VQapXdEzEHNQ_BeenhGy0RuXN_Mep2Rndnw,4117
+sqlite3dict/test.py,sha256=2NYwNjaPRJDv_GgygfO0mXOKz_v-l9nHwzwY2p56maw,1898
+sqlite3dict/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlite3dict/common/safejson.py,sha256=ttrzWDQ9VCbaAKC_R9Wmlbzre0_akw_Ou4AssEUx3VE,477
+sqlite3dict/crud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlite3dict/crud/delete.py,sha256=oX2hjITJ_U6bO69i3_BRZcMvwppdgi3VZjcFqjgxUFw,1336
+sqlite3dict/crud/insert.py,sha256=H0r7kL_VI310iIOE71HPjPKFBCc-07lU7sgnhIWiKsg,1566
+sqlite3dict/crud/query.py,sha256=38B88T0zVntjKLT1Oi50ePa4zmJfQWcAdGYZjUQ_3FM,3246
+sqlite3dict/crud/safejson.py,sha256=smM-CB3WRiZvtmqXqzvI46CqUD7RuAUFVkng64IJo8I,643
+sqlite3dict/crud/update.py,sha256=eiFZmLieC9dsFt-JeEx1f-Vpi5ImZmu6WOLV6OR9K5o,2400
+sqlite3dict-1.0.1.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+sqlite3dict-1.0.1.dist-info/METADATA,sha256=d3QQm5-CCmsaRUhSL1WlOge-PzgH_YKTAKxOmclGXCM,3501
+sqlite3dict-1.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+sqlite3dict-1.0.1.dist-info/top_level.txt,sha256=oSkMmWibqb8u61grxXWSQYZ7eY_qnEdAMElbQm-dydQ,12
+sqlite3dict-1.0.1.dist-info/RECORD,,
