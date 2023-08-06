@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mbonig.cicd_spa_website.egg-info/PKG-INFO
+src/mbonig.cicd_spa_website.egg-info/SOURCES.txt
+src/mbonig.cicd_spa_website.egg-info/dependency_links.txt
+src/mbonig.cicd_spa_website.egg-info/requires.txt
+src/mbonig.cicd_spa_website.egg-info/top_level.txt
+src/mbonig/cicd-spa-website/__init__.py
+src/mbonig/cicd-spa-website/py.typed
+src/mbonig/cicd-spa-website/_jsii/__init__.py
+src/mbonig/cicd-spa-website/_jsii/cicd_spa_website@0.0.2.jsii.tgz
