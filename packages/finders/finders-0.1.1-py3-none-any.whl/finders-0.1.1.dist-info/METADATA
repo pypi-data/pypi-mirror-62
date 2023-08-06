@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: finders
+Version: 0.1.1
+Summary: Finders - Find resources to determine if you want to keep them
+Home-page: https://github.com/acaire/finders
+Author: Ash Caire
+Author-email: ash.caire@gmail.com
+License: MIT
+Download-URL: https://github.com/acaire/finders/archive/0.1.1.tar.gz
+Keywords: finders,keepers,resource,discovery,aws,cloudformation,stacks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3
+
+UNKNOWN
+
+
