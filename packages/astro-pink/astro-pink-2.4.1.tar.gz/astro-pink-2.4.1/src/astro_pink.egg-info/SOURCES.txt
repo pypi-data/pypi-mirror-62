@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/astro_pink.egg-info/PKG-INFO
+src/astro_pink.egg-info/SOURCES.txt
+src/astro_pink.egg-info/dependency_links.txt
+src/astro_pink.egg-info/not-zip-safe
+src/astro_pink.egg-info/top_level.txt
