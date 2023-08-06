@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mcrp-splitters
+Version: 0.1.2
+Summary: MCNP-related packages. Splitters for text files
+Home-page: UNKNOWN
+Author: A. Travleev
+Author-email: anton.travleev@gmail.com
+License: UNKNOWN
+Keywords: MCNP utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering
+Provides: mcrp_splitters
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: mcrp-utils
+
+# MCNP-related packages: Splitter for text files
+
+MCNP operates with several text files. The files can be large, this package
+provide readers with possibility to access only specified part of the file.
+
+See also ``mcrp_utils`` and ``mcrp_cgam``. 
+
+## Example
+Get all cell and surface cards of the input file ``i1.inp``:
+
+```python
+from mcrp-splitters import InputSplitter
+
+s = inputSplitter('i1.inp')
+for c in s.cards(blocks='cs', skipcomments=True):
+    print c
+
+```
+
+
