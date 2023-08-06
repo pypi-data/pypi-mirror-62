@@ -1,0 +1,16 @@
+.coveragerc
+LICENSE
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.cfg
+setup.py
+read_only_attributes.egg-info/PKG-INFO
+read_only_attributes.egg-info/SOURCES.txt
+read_only_attributes.egg-info/dependency_links.txt
+read_only_attributes.egg-info/top_level.txt
+roa/__init__.py
+roa/read_only_attributes.py
+tests/__init__.py
+tests/test_read_only_attributes.py
