@@ -1,0 +1,9 @@
+We are about to create the following files:
+
+* {{code_path}}
+     |_ tests
+        |_ test_forms.py:Test{{action_camel_case}}FormTestCase
+        |_ test_api.py:Test{{action_camel_case}}ApiTestCase
+     |_ form.py:{{action_camel_case}}Form
+     |_ definition.yaml
+     |_ README.md

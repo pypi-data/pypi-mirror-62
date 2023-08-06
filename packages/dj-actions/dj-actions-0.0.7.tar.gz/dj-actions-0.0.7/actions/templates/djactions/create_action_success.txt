@@ -1,0 +1,16 @@
+--------------------------------------------------------
+Action has been correctly set up 👍
+
+Don't forget to register the action in {{base_path}}/action_registry.py:
+
+```
+action_list.append(('{{action_id}}', ACTION_TYPE.{{action_type|upper}}.value, STATUS.ALPHA.value))
+```
+
+Test your action with:
+
+```
+python manage.py test {{action_import_path}}
+```
+
+onwards!
