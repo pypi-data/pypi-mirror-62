@@ -1,0 +1,17 @@
+snscrape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snscrape/base.py,sha256=uVrAKzPPL9RuTtGUnrnQhpJV8xI2Pt2-mdVPHdEo72c,2955
+snscrape/cli.py,sha256=60Fyy92IUxqtOTOaPxZgvGoLJEl3UXTRVNk7H3Nf6hU,7970
+snscrape/version.py,sha256=ilJNtA--H0PDu8-nJ9CzI8P66QoOEwuWtei1NGHpyjY,157
+snscrape/modules/__init__.py,sha256=YlStWgV_fXN6vbivmj0ZyhTXQqGPmls6JQvq0iZ_QM4,330
+snscrape/modules/facebook.py,sha256=VJA9mG7JtAp16PzAJWuOdwuTmtPRBhcXAkSZqaN491M,10283
+snscrape/modules/gab.py,sha256=fF9fHvir5ra7-UdEiVGkJ3zcHyUFEz3vKTdIi4a4m_o,3356
+snscrape/modules/googleplus.py,sha256=dKDlcsdjrUO0lIo3EC-OYl5ttKNTSm4-vvq0KFAOj1A,4383
+snscrape/modules/instagram.py,sha256=Ec9DWDZzHQLAFc8oqeuNAeut-RG1GZ5-beijJaO-0JU,6965
+snscrape/modules/twitter.py,sha256=MWRJygiZXRS1sbXj0KD2B5YoxeqwyBChijq-Zp9t-HA,12892
+snscrape/modules/vkontakte.py,sha256=xqouVW_O0D7sICxZAzeEtYtHtbrtRg8hK02ZICkfB7M,3693
+snscrape-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+snscrape-0.3.1.dist-info/METADATA,sha256=Af5uYIGc--HTPDvDmmOiZ8liFgsc6HJHBzMhVBARIo4,515
+snscrape-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+snscrape-0.3.1.dist-info/entry_points.txt,sha256=kIRMX3VsVTtvs1XLsFjtw7w1Qjkcv1DXmuwexa3JEHQ,48
+snscrape-0.3.1.dist-info/top_level.txt,sha256=sdoaVtbBLHhuI5wD6vpXx8x9kxGitVZJrDaE-ZLjq30,9
+snscrape-0.3.1.dist-info/RECORD,,
