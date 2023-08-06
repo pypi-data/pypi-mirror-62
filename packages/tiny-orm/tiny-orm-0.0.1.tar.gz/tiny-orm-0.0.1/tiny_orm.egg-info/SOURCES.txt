@@ -1,0 +1,10 @@
+CONTRIBUTING.md
+MANIFEST.in
+README.md
+setup.py
+tiny_orm.py
+tiny_orm.egg-info/PKG-INFO
+tiny_orm.egg-info/SOURCES.txt
+tiny_orm.egg-info/dependency_links.txt
+tiny_orm.egg-info/not-zip-safe
+tiny_orm.egg-info/top_level.txt
