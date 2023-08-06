@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: stream-zipper
+Version: 1.0.0
+Summary: Package which allows you to take several file streams and turn them into a single zipfile stream
+Home-page: https://github.com/MauriceBenink/python_stream_zipper
+Author: Maurice Benink
+Author-email: MauriceBenink@hotmail.com
+License: BSD-3-Clause
+Description: [![Downloads](https://img.shields.io/pypi/dm/{pypi-namespace}.svg?color=orange)](https://pypi.python.org/pypi/{pypi-namespace})
+        [![Latest Version](https://img.shields.io/pypi/v/{pypi-namespace}.svg)](https://pypi.python.org/pypi/{pypi-namespace})
+        [![Supported Python versions](https://img.shields.io/pypi/pyversions/{pypi-namespace}.svg)](https://pypi.python.org/pypi/{pypi-namespace})
+        ## StreamZipper
+        
+        This package adds a serializer to ensure all models in the serializers get properly prefetched or selected
+        
+        
+        ## installation
+        
+        
+        
+        ## Usage
+        
+        
+        
+        ## Config
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
