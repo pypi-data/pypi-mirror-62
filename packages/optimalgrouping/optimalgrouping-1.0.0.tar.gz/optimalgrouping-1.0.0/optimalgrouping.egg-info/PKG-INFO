@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: optimalgrouping
+Version: 1.0.0
+Summary: Performs optimal grouping of spectra using Kaastra & Bleeker (2016)
+Home-page: https://gitlab.astro.unige.ch/ferrigno/optimalgrouping
+Author: Carlo Ferrigno
+Author-email: carlo.ferrigno@unige.ch
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
