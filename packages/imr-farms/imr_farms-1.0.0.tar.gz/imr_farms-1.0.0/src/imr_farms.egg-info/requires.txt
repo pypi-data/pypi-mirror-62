@@ -1,0 +1,5 @@
+numpy
+pytest
+GDAL
+xarray
+netCDF4
