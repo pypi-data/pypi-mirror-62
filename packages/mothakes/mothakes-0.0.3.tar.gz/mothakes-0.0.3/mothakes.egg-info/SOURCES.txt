@@ -1,0 +1,8 @@
+README.md
+setup.py
+mothakes/__init__.py
+mothakes/json_util.py
+mothakes.egg-info/PKG-INFO
+mothakes.egg-info/SOURCES.txt
+mothakes.egg-info/dependency_links.txt
+mothakes.egg-info/top_level.txt
