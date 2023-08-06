@@ -1,0 +1,44 @@
+# Torloc
+Torloc runs multiple Tor services on local ports. So you can use many different ip addresses without having to start
+each service manually.
+
+For Linux and Windows.
+
+# Installation
+
+    pip install torloc
+
+Or download the tarball / `git clone` and...
+
+    python setup.py install
+
+Or include `torloc` directory in your project (PySocks required).
+
+Or simply copy the `torloc` directory to your Python's lib/site-packages directory (PySocks required).
+
+# Usage
+```python
+import torloc
+
+ports_data = torloc.start(6, threads=3)
+for port in ports_data:
+    ...
+torloc.stop(ports_data)
+```
+##### Output example
+```
+STARTING: 49152... 
+STARTING: 49153... 
+STARTING: 49154... 
+READY: 49152 (192.42.116.27)
+STARTING: 49155... 
+READY: 49153 (185.220.101.48)
+STARTING: 49156... 
+READY: 49154 (185.220.100.252)
+STARTING: 49157... 
+READY: 49155 (185.220.101.24)
+READY: 49156 (185.220.101.25)
+READY: 49157 (185.220.101.46)
+
+Stooping 49152, 49153, 49154, 49155, 49156, 491537 ... OK
+```
