@@ -1,0 +1,12 @@
+README.md
+setup.py
+ideas/__init__.py
+ideas/console.py
+ideas/encoding.py
+ideas/import_hook.py
+ideas/utils.py
+ideas.egg-info/PKG-INFO
+ideas.egg-info/SOURCES.txt
+ideas.egg-info/dependency_links.txt
+ideas.egg-info/requires.txt
+ideas.egg-info/top_level.txt
