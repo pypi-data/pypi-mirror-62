@@ -1,0 +1,6 @@
+numpydoc
+pydocstyle
+pylint
+pytest
+pytest-cov
+black ; python_version >= '3.6'
