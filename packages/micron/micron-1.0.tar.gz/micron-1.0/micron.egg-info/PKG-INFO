@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: micron
+Version: 1.0
+Summary: minimal cron alternative for container
+Home-page: https://github.com/nlm/micron
+Author: Nicolas Limage
+Author-email: github@xephon.org
+License: MIT
+Description: UNKNOWN
+Keywords: crontab container
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
