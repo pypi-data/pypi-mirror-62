@@ -1,0 +1,9 @@
+Pillow
+numpy
+scipy
+scikit-image
+tqdm
+opencv-python-headless
+dataclasses
+efficientnet
+tensorflow<2.1.0,>=2.0.0
