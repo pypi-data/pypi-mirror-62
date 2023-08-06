@@ -1,0 +1,5 @@
+setup.py
+greendeck_timeseries.egg-info/PKG-INFO
+greendeck_timeseries.egg-info/SOURCES.txt
+greendeck_timeseries.egg-info/dependency_links.txt
+greendeck_timeseries.egg-info/top_level.txt
