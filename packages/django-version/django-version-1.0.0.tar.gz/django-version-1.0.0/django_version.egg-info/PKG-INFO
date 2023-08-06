@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: django-version
+Version: 1.0.0
+Summary: A middleware retrieving a project version from settings and returning it in the response headers.
+Home-page: https://github.com/NyanKiyoshi/django-version
+Author: NyanKiyoshi
+Author-email: hello@vanille.bid
+License: MIT
+Description: <div align='center'>
+          <h1>django-version</h1>
+          <p>
+            A middleware retrieving a project version from settings and returning it in the response headers.<br/>
+            Appends <code>X-Project-Version: a.b.c</code> to every response.
+          </p>
+          <p>
+            <a href='https://travis-ci.org/NyanKiyoshi/django-version/'>
+              <img src='https://travis-ci.org/NyanKiyoshi/django-version.svg?branch=master' alt='Requirement Status' />
+            </a>
+            <a href='https://pypi.python.org/pypi/django-version'>
+              <img src='https://img.shields.io/pypi/v/django-version.svg' alt='Version' />
+            </a>
+            <a href='https://pypi.python.org/pypi/django-version'>
+              <img src='https://img.shields.io/pypi/pyversions/django-version.svg' alt='Supported versions' />
+            </a>
+            <a href='https://pypi.python.org/pypi/django-version'>
+              <img src='https://img.shields.io/pypi/implementation/django-version.svg' alt='Supported implementations' />
+            </a>
+          </p>
+        </div>
+        
+        ## Installation
+        ```shell script
+        $ pip install django-version
+        ```
+        
+        ## Usage
+        1. Append `django_version` to `INSTALLED_APPS`
+        1. Append `django_version.VersionMiddleware` to `MIDDLEWARE`
+        1. Set your project version into the setting key `PROJECT_VERSION` as a string
+        
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
