@@ -1,0 +1,10 @@
+zentropi/__init__.py,sha256=WSe2y1bV_rksW6_PQp1QVW2zXwl1vx2_l5aT6MrizfI,25
+zentropi/__main__.py,sha256=0fpwVcTcpruvxTKmdB5mgA6BtH-lM0fMNJLwpqOE_ok,363
+zentropi/cli.py,sha256=ttmor8MeKkSIgDAah7ISAmlCWzrXELLGFWtACxtHFWI,735
+zentropi-2020.0.1.dist-info/AUTHORS.rst,sha256=C0dALQGAw3Hc17t-qC_pQVHXXN0gpYlP1tSJuAyNcDQ,64
+zentropi-2020.0.1.dist-info/LICENSE,sha256=tbUt-zI5q7YCJrmCL-kGvhUQEFGaeS-OEVbqU6H7dEM,1518
+zentropi-2020.0.1.dist-info/METADATA,sha256=pt2iObB_izhQoaRA0sPLoyi4uzuQ5z0sh4tOSYK2rUY,1936
+zentropi-2020.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+zentropi-2020.0.1.dist-info/entry_points.txt,sha256=LpPpOfU9wDauvnL-IIFYLfELd-FgyZHC_BsoMgw76jk,48
+zentropi-2020.0.1.dist-info/top_level.txt,sha256=DOWwW8Pb0wZjlNkJgYaq03ysvZrayToWIGss-ErFqQA,9
+zentropi-2020.0.1.dist-info/RECORD,,

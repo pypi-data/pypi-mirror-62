@@ -1,0 +1,3 @@
+[console_scripts]
+zentropi = zentropi.cli:main
+
