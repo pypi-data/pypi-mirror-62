@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tcex
+Version: 2.0.0
+Summary: ThreatConnect Exchange App Framework
+Home-page: https://github.com/ThreatConnect-Inc/tcex
+Author: ThreatConnect (support@threatconnect.com)
+Author-email: support@threatconnect.com
+License: Apache License, Version 2
+Download-URL: https://github.com/ThreatConnect-Inc/tcex/tarball/2.0.0
+Project-URL: Documentation, https://threatconnect-inc.github.io/tcex/
+Project-URL: Source, https://github.com/ThreatConnect-Inc/tcex
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Provides-Extra: develop
+Provides-Extra: dev
+Provides-Extra: development
