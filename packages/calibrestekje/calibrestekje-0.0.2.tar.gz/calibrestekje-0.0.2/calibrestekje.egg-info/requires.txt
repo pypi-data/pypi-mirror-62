@@ -1,0 +1,8 @@
+sqlalchemy<=1.4,>=1.3.13
+
+[changelog]
+towncrier<20.0,<=19.2.0
+
+[docs]
+sphinx
+sphinx_rtd_theme
