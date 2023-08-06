@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: runthis-server
+Version: 0.0.2
+Summary: Safely serves multiple, isolated terminal sessions in a browser
+Home-page: https://github.com/regro/runthis-server
+Author: Anthony Scopatz
+Author-email: scopatz@gmail.com
+Maintainer: Anthony Scopatz
+License: BSD
+Description: # runthis-server
+Platform: Cross Platform
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
