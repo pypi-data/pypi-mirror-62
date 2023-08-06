@@ -1,0 +1,7 @@
+setup.py
+rpa_getcmd/__init__.py
+rpa_getcmd/rpa_getcmd.py
+rpa_getcmd.egg-info/PKG-INFO
+rpa_getcmd.egg-info/SOURCES.txt
+rpa_getcmd.egg-info/dependency_links.txt
+rpa_getcmd.egg-info/top_level.txt
