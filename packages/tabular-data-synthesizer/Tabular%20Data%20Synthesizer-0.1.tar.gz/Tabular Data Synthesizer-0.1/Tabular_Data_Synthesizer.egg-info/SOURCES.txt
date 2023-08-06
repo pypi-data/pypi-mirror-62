@@ -1,0 +1,13 @@
+README.md
+setup.py
+Tabular_Data_Synthesizer.egg-info/PKG-INFO
+Tabular_Data_Synthesizer.egg-info/SOURCES.txt
+Tabular_Data_Synthesizer.egg-info/dependency_links.txt
+Tabular_Data_Synthesizer.egg-info/requires.txt
+Tabular_Data_Synthesizer.egg-info/top_level.txt
+tabular_data_synthesizer/__init__.py
+tabular_data_synthesizer/constants.py
+tabular_data_synthesizer/ctgan.py
+tabular_data_synthesizer/nonlinearity.py
+tabular_data_synthesizer/optimizers.py
+tabular_data_synthesizer/preprocessor.py
