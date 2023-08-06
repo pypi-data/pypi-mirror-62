@@ -1,0 +1,12 @@
+statopt/__init__.py,sha256=vrCnftdgXxaEOWTjumwUMXFL5nE5hhhLDJT8PGt_pEE,199
+statopt/bucket.py,sha256=N3OiRZfcDnMpZuv4kLfRbaIRqGY_e8w63isL8Tksblk,7928
+statopt/qhm.py,sha256=gVWyNYcVTLbfBGBtJNqeiBP4NGIHE9lUPyFq-JtEf7A,5117
+statopt/salsa.py,sha256=vg2MNlwd5WsYNf1wWT7U0jKVMs-HoNK1IB5TckL7n5w,4566
+statopt/sasa.py,sha256=URQtRVORPaYo7J2I-2s4AodJIAG-z4_TU57l78qTq6A,10144
+statopt/slope.py,sha256=3HqUXV57FSkS4kST1xesIVtHeYXwnXfrfUAQVIZmZ1A,7843
+statopt/ssls.py,sha256=K6XJDXz-zMsxOoEMX5bcms0gJSu9gH4Fpemp3vfXvIU,10715
+statopt-0.1.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+statopt-0.1.dist-info/METADATA,sha256=d1j3yFdbt5Es6VNy9iIjW6poWWvwgfUS3mm09hA89Yw,3508
+statopt-0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+statopt-0.1.dist-info/top_level.txt,sha256=pTbvtCIRzef615ZrbfD0cYWbDH8wiSqkS5RdmT9O7D0,8
+statopt-0.1.dist-info/RECORD,,
