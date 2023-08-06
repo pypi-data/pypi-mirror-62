@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: secretsmanager-nitro-dhaven
+Version: 0.0.4
+Summary: Some helper functions to make it easier to interact with AWS secretsManager
+Home-page: UNKNOWN
+Author: David Haven
+Author-email: david.haven@gonitro.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: System Administrators
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.12.1)
+Requires-Dist: argparse (>=1.4.0)
+
+UNKNOWN
+
+
