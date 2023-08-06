@@ -1,0 +1,7 @@
+README.md
+setup.py
+multiselection/jupyter_multiselection.egg-info/PKG-INFO
+multiselection/jupyter_multiselection.egg-info/SOURCES.txt
+multiselection/jupyter_multiselection.egg-info/dependency_links.txt
+multiselection/jupyter_multiselection.egg-info/not-zip-safe
+multiselection/jupyter_multiselection.egg-info/top_level.txt
