@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lowder
+Version: 0.7.0
+Summary: CLI Loader
+License: MIT
+Author: John Aldrich Bernardo
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
