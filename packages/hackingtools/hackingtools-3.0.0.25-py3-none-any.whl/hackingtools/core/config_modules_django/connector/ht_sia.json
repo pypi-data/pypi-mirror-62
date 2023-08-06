@@ -1,0 +1,15 @@
+{
+    "__gui_label__": "ht_sia",
+    "django_form_module_function": {
+        "getWalletSeeds": {
+            "__function__": "getWalletSeeds",
+            "__async__": false,
+            "__return__": "text",
+            "__pool_it_getWalletSeeds__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        }
+    }
+}
