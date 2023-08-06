@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: yuntu
+Version: 0.1.1
+Summary: Acoustic Analysis tools for Conabio
+Home-page: https://github.com/CONABIO-audio/yuntu
+Author: CONABIO, Dalia Camacho García Formentí, Santiago Martínez Balvanera, Everardo Gustavo Robredo Esquivelzeta
+Author-email: dcamacho@conabio.gob.mx, smartinez@conabio.gob.mx, erobredo@conabio.gob.mx
+License: BSD License
+Description: # Yuntú
+        
+        CONABIO audio analysis toolset for bioacoustics.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
