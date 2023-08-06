@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: confgetti
+Version: 0.1.11
+Summary: Package for getting configuration variables from remote configuration server, json files and environment variables in a simple way
+License: Proprietary
+Author: Styria Digital Development
+Author-email: development@styria.dev
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: python-consul (>=1.1.0,<2.0.0)
+Requires-Dist: voluptuous (>=0.11.7,<0.12.0)
