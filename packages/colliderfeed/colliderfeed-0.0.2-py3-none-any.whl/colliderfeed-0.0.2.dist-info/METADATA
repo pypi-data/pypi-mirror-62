@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: colliderfeed
+Version: 0.0.2
+Summary: Data feed for Intech Supercollider contest
+Home-page: https://github.com/microprediction/colliderfeed.git
+Author: microprediction
+Author-email: info@3za.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: pathlib
+Requires-Dist: retrying
+
+# colliderfeed
+
+Example of how to maintain a data stream at www.3za.org 
+
+
+
+
