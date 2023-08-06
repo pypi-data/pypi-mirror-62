@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: tiima
+Version: 0.1.0
+Summary: Python API Client for Visma Tiima
+Home-page: https://gitlab.com/python-poetry/poetry
+License: MIT
+Author: Frank Wickström
+Author-email: no-email@example.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: beautifulsoup4 (>=4.8,<5.0)
+Requires-Dist: environs (>=7.2,<8.0)
+Requires-Dist: requests (>=2.23,<3.0)
+Project-URL: Repository, https://gitlab.com/python-poetry/poetry
+Description-Content-Type: text/markdown
+
+# Tiima
+
+A Python wrapper around the Visma Tiima mobile REST API
+
+## Installation
+
+### PIP
+`pip install tiima`
+
+### Poetry
+`poetry add tiima`
+
+
+## Usage
+
+
+```
+from tiima import Tiima
+
+# Usage with env vars
+tiima = Tiima()
+tiima.login()
+
+# Setting auth variables explicitly
+tiima = Tiima(company_id="foo", api_key="bar)
+tiima.login(username="example@example.com", password="example")
+
+# Calling an API endpoint
+print(tiima.user())
+```
+
+### Configuration
+
+Authentication can be done either explcitly or by settings the following environment variables:
+
+
+| Variable          | Description                          |
+| ----------------- | ------------------------------------ |
+| TIIMA_USERNAME    | Users Tiima username (email)         |
+| TIIMA_PASSWORD    | Users Tiima password                 |
+| TIIMA_COMPANY_ID  | Users company id (usually all caps)  |
+| TIIMA_API_KEY     | Tiima API Key                        |
+
+
+## Disclaimer
+
+This software has no connection to Visma, nor is it in any way endorsed by Visma or any other company
+affiliated with the product (Visma Tiima). This project was created to make it easier for developers
+to use the API and for them to be able to create their own application around the API.
+
+## License
+
+MIT
+
