@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: computype
+Version: 0.0.4
+Summary: A library that looks like the computer is typing and stuff, see https://codeberg.org/RevelCorp/Computype
+Home-page: https://codeberg.org/RevelCorp/Computype
+Author: Revel Corp (Jason Wang specifically)
+Author-email: revel.corporation@mailfence.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: keyboard
+
+This library allows you to do things like: make it look like your computer is typing(ctype), backspace text(backspace), clear the screen(clear), and wait for the user to press enter(pressenter). 
+
+***ctype***
+
+To use ctype, do ctype(text, speed). Replace text with what you want to type and speed with the amount of time between each letter.
+
+***backspace***
+
+Backspace works the same as ctype. backspace(text, speed).
+
+***pressenter***
+
+All you have to do is type pressenter(). It waits for you to press enter!
+
+***clear***
+
+Just type clear() to clear the screen. Works on any system that's NT (Windows, DOS) or UNIX (macOS, Linux, Solaris, and almost every other OS) compatible.
+
