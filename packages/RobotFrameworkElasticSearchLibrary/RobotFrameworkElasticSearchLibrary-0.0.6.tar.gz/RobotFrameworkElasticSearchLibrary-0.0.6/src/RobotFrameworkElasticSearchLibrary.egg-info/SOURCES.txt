@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+requirements/install.txt
+src/RobotFrameworkElasticSearchLibrary/RobotFrameworkElasticSearchLibrary.py
+src/RobotFrameworkElasticSearchLibrary/__init__.py
+src/RobotFrameworkElasticSearchLibrary/version.py
+src/RobotFrameworkElasticSearchLibrary.egg-info/PKG-INFO
+src/RobotFrameworkElasticSearchLibrary.egg-info/SOURCES.txt
+src/RobotFrameworkElasticSearchLibrary.egg-info/dependency_links.txt
+src/RobotFrameworkElasticSearchLibrary.egg-info/requires.txt
+src/RobotFrameworkElasticSearchLibrary.egg-info/top_level.txt
