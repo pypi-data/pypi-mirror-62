@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+stream_zipper/__init__.py
+stream_zipper/exceptions.py
+stream_zipper/zipstream.py
+stream_zipper.egg-info/PKG-INFO
+stream_zipper.egg-info/SOURCES.txt
+stream_zipper.egg-info/dependency_links.txt
+stream_zipper.egg-info/requires.txt
+stream_zipper.egg-info/top_level.txt
