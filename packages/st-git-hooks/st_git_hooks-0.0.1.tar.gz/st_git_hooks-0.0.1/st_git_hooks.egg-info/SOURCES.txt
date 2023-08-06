@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+st_git_hooks/__init__.py
+st_git_hooks/__main__.py
+st_git_hooks/post-commit
+st_git_hooks/pre-commit
+st_git_hooks.egg-info/PKG-INFO
+st_git_hooks.egg-info/SOURCES.txt
+st_git_hooks.egg-info/dependency_links.txt
+st_git_hooks.egg-info/top_level.txt
