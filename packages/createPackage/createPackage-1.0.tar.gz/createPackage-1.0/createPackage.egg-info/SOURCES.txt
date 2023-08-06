@@ -1,0 +1,11 @@
+README.md
+setup.py
+createPackage/__init__.py
+createPackage/createPackage.py
+createPackage/templates.py
+createPackage.egg-info/PKG-INFO
+createPackage.egg-info/SOURCES.txt
+createPackage.egg-info/dependency_links.txt
+createPackage.egg-info/not-zip-safe
+createPackage.egg-info/requires.txt
+createPackage.egg-info/top_level.txt
