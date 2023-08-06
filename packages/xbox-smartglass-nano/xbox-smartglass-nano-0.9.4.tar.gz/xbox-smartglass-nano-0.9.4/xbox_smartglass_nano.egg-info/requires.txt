@@ -1,0 +1,5 @@
+xbox-smartglass-core>=1.1.0
+marshmallow-objects
+marshmallow-enum
+av==6.1.0
+PySDL2
