@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: rnb2docker
+Version: 0.0.1
+Summary: Library for turning R Jupyter Notebooks into Docker images.
+Home-page: https://github.com/fracpete/rnb2docker
+Author: Peter "fracpete" Reutemann
+Author-email: fracpete@gmail.com
+License: Apache Software License 2.0
+Description:  Library for turning R Jupyter Notebooks into Docker images. 
+        Changelog
+        =========
+        
+        0.0.1 (2020-03-05)
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3

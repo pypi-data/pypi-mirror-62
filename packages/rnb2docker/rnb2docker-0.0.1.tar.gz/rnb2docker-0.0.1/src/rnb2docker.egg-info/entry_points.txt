@@ -1,0 +1,3 @@
+[console_scripts]
+rnb2docker = rnb2docker.generator:sys_main
+
