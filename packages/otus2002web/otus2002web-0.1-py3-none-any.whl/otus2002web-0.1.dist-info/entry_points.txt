@@ -1,0 +1,3 @@
+[console_scripts]
+famous = otus.main:main
+
