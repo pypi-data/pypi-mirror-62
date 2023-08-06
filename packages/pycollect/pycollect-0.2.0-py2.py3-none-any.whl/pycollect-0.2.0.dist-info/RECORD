@@ -1,0 +1,9 @@
+pycollect/__init__.py,sha256=D1IR-MpiS6FEWAVQTmpZqHnRYxi-Lz_CZKQTiJtyvsk,195
+pycollect/module_finder.py,sha256=ZWbofTEdGIxMVfEleYO6w6Naxz9OSIbb8Z0jNMCNLO0,1322
+pycollect/python_file_collector.py,sha256=JAL4atRW1HTLloqD8spL3zvqEX2SNf2F9rgbYg9z1Z8,7658
+pycollect-0.2.0.dist-info/AUTHORS.rst,sha256=JZTuC_O3cnPhR7XClV3AsZRekXU0k0CExCHtDmCE01A,76
+pycollect-0.2.0.dist-info/LICENSE,sha256=w2sNqIy4OJmcly-NsJTh6hoERN-gHZtrg1RjSE1ZdpU,1084
+pycollect-0.2.0.dist-info/METADATA,sha256=AtU9wXZAjdKTiydQ62Qx3fu5PcfysuGrgSNCE7CodJo,2108
+pycollect-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pycollect-0.2.0.dist-info/top_level.txt,sha256=Flb7Gmgu0Rem9D7w9mZIeiOfN7vz6L9y3xXinLVoFPc,10
+pycollect-0.2.0.dist-info/RECORD,,
