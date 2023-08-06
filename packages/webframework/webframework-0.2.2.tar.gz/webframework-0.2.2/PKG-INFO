@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: webframework
+Version: 0.2.2
+Summary: Framework para desarrollar tests automatizados
+Home-page: http://source.olleros/qa-automation/python-web-framework-automation
+Keywords: framework,python,qa,automation
+Author: cmejia
+Author-email: cmejia@kiusys.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing :: BDD
+Requires-Dist: allure-behave (>=2.8.11,<3.0.0)
+Requires-Dist: behave (>=1.2.6,<2.0.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Project-URL: Repository, http://source.olleros/qa-automation/python-web-framework-automation
+Description-Content-Type: text/markdown
+
+
