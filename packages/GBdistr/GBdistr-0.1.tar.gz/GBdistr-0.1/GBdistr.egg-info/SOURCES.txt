@@ -1,0 +1,10 @@
+setup.py
+GBdistr/Binomialdistribution.py
+GBdistr/Gaussiandistribution.py
+GBdistr/Generaldistribution.py
+GBdistr/__init__.py
+GBdistr.egg-info/PKG-INFO
+GBdistr.egg-info/SOURCES.txt
+GBdistr.egg-info/dependency_links.txt
+GBdistr.egg-info/not-zip-safe
+GBdistr.egg-info/top_level.txt
