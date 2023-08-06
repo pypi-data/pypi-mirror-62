@@ -1,0 +1,7 @@
+README.md
+setup.py
+emailutil/__init__.py
+emailutil.egg-info/PKG-INFO
+emailutil.egg-info/SOURCES.txt
+emailutil.egg-info/dependency_links.txt
+emailutil.egg-info/top_level.txt
