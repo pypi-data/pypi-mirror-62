@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: responsum
+Version: 0.1.2
+Summary: A generic dispersion response library
+Home-page: https://github.com/mpe-grb/responsum
+Author: J. Michael Burgess
+Author-email: jmichaelburgess@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+
+
+[![Build Status](https://travis-ci.org/grburgess/responsum.svg?branch=master)](https://travis-ci.org/grburgess/responsum)
+[![codecov](https://codecov.io/gh/grburgess/responsum/branch/master/graph/badge.svg)](https://codecov.io/gh/grburgess/responsum)
+# responsum
+A python library for dealing with energy dispersion style responses. This is heavily modeled (and taken from) the [3ML](https://github.com/threeML) reponse functionality, but for much of my work I need to handle responses and do not want to depend on 3ML as it is a large library. 
+
+
