@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mxmul-pkg-wht
+Version: 0.1.0
+Summary: An example for teaching how to publish a Python package
+Home-page: UNKNOWN
+Author: Haitao Wu
+Author-email: wht_93@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
