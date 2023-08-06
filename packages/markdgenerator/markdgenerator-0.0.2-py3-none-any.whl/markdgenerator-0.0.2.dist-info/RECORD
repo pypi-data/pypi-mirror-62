@@ -1,0 +1,10 @@
+markdgenerator/__about__.py,sha256=1mjAqiflOkLZPyPDDk3ysx4ZQZEYDGwJGYTZvJ4UFN0,374
+markdgenerator/__init__.py,sha256=VbvJp7iJLEmxqaAarvurzGtUXtim0xNBrY3JLz1w2v8,551
+markdgenerator/common.py,sha256=XvpTH3Ih-fy7riWVQQB25knu73WFYa9ImAPQ_CYOH6g,14332
+markdgenerator/config.py,sha256=Q6ULyykwnNuWiIVc6SEEAUoKL92pYS87laST6HN5u58,14
+markdgenerator/pandoc.py,sha256=FLtML0afCPo3YgIUlqz_yUNwIpn2BDOT_i3WD7HQy08,3149
+markdgenerator-0.0.2.dist-info/LICENSE,sha256=A-Jfgm60OAplfAx8DivF9ahFq5RpW_aUhEdF71l5sYM,1540
+markdgenerator-0.0.2.dist-info/METADATA,sha256=G_znJyl1z6eQgRTx9a9y_cQNFUSFQ2txCP4IePbESNg,2195
+markdgenerator-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+markdgenerator-0.0.2.dist-info/top_level.txt,sha256=TzgQ_vRMsZ4KXIUoBMcp8kPHaU5aAl5lMAnRUmJitqs,15
+markdgenerator-0.0.2.dist-info/RECORD,,
