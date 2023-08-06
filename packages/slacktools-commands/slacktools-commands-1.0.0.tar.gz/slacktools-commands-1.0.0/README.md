@@ -1,0 +1,73 @@
+# slacktools-commands
+A simple framework for working with Slack slash-commands (https://api.slack.com/interactivity/slash-commands).
+ 
+Register you custom `Command` class with the 
+`ComandFactory` and when you receive a command request from Slack simply grab the command instance from the
+factory and execute it.
+
+### Install
+
+`pip install slacktools-commands`
+
+### Basic Usage
+
+Define your command:
+```python
+from commands import register_command, Command, CommandValidationError
+
+from myproject import get_status, post_status
+
+
+@register_command("/status")
+class StatusCommand(Command):
+    def _validate(self):
+        if not get_status(id=self.payload.text):
+            raise CommandValidationError("Not a valid id.")
+        
+    def _execute(self):
+        post_status(id=self.payload.text)
+
+``` 
+
+Handle the Slack command request:
+```python
+from rest_framework.views import APIView
+from rest_framework.response import Response
+
+from commands import CommandFactory
+
+class CommandsView(APIView):
+    def post(self, request):
+        command = CommandFactory.make_commmand(request.data)
+        command.execute()
+        return Response()
+```
+
+### Action Commands
+Action commands allow you execute many different actions from a single Slack command. The text following
+the command is used to determine which action should be performed. The text is split by spaces, the first character
+set determines the action and the remain character sets are passed to the action as options/parameters.
+
+#### Example
+The below class definitions will handle the following command: `/status service api`
+```python
+from commands import ActionCommand, Action, CommandValidationError, register_command
+
+from myproject import post_status_msg
+
+
+class ServiceStatus(Action):
+    def validate(self):
+        if len(self.options) == 0:
+            CommandValidationError(self.payload, "Missing service name")
+    
+    def execute(self):
+        post_status_msg(self.options[0])
+
+
+@register_command("/status")
+class StatusCommand(ActionCommand):
+    ACTIONS = {
+        "service": ServiceStatus
+    }
+```
