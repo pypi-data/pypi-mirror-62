@@ -1,0 +1,9 @@
+README.md
+aba_noots.py
+functools.pyi
+ler_novo.py
+setup.py
+aldovilela3.egg-info/PKG-INFO
+aldovilela3.egg-info/SOURCES.txt
+aldovilela3.egg-info/dependency_links.txt
+aldovilela3.egg-info/top_level.txt
