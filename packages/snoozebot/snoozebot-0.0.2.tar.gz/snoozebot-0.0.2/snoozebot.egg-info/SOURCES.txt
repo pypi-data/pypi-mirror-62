@@ -1,0 +1,11 @@
+COPYING
+MANIFEST.in
+README
+README.md
+setup.cfg
+setup.py
+snoozebot/__init__.py
+snoozebot.egg-info/PKG-INFO
+snoozebot.egg-info/SOURCES.txt
+snoozebot.egg-info/dependency_links.txt
+snoozebot.egg-info/top_level.txt
