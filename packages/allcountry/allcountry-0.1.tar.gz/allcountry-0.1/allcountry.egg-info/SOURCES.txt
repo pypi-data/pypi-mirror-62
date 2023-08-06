@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+allcountry.py
+setup.py
+allcountry.egg-info/PKG-INFO
+allcountry.egg-info/SOURCES.txt
+allcountry.egg-info/dependency_links.txt
+allcountry.egg-info/top_level.txt
+data/data.json
