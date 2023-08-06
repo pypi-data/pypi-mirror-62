@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+mkdocs-code-runner=mkdocs_code_runner.plugin:CodeRunner
+
