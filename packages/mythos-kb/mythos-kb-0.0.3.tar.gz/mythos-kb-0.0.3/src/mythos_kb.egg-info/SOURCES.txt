@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/mythos/__init__.py
+src/mythos/kb/__init__.py
+src/mythos/kb/__version__.py
+src/mythos_kb.egg-info/PKG-INFO
+src/mythos_kb.egg-info/SOURCES.txt
+src/mythos_kb.egg-info/dependency_links.txt
+src/mythos_kb.egg-info/entry_points.txt
+src/mythos_kb.egg-info/namespace_packages.txt
+src/mythos_kb.egg-info/not-zip-safe
+src/mythos_kb.egg-info/requires.txt
+src/mythos_kb.egg-info/top_level.txt
