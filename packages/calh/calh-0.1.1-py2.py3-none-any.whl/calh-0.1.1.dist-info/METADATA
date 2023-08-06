@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: calh
+Version: 0.1.1
+Summary: Calendar Heatmap
+Home-page: https://github.com/ricky-lim/calh
+Author: Ricky Lim
+Author-email: rlim.email@gmail.com
+License: Apache Software License 2.0
+Keywords: calh
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: Click (>=7.0)
+
+====
+calh
+====
+
+
+.. image:: https://img.shields.io/pypi/v/calh.svg
+        :target: https://pypi.python.org/pypi/calh
+
+.. image:: https://img.shields.io/travis/ricky-lim/calh.svg
+        :target: https://travis-ci.com/ricky-lim/calh
+
+.. image:: https://readthedocs.org/projects/calh/badge/?version=latest
+        :target: https://calh.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/ricky-lim/calh/shield.svg
+     :target: https://pyup.io/repos/github/ricky-lim/calh/
+     :alt: Updates
+
+
+
+Calendar Heatmap
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://calh.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-03-06)
+------------------
+
+* First release on PyPI.
+
+0.1.1 (2020-03-06)
+------------------
+
+* Stop support on python 3.5 due to f-string
+
+
