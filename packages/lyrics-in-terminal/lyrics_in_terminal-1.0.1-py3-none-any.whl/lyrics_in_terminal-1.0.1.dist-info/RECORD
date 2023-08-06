@@ -1,0 +1,11 @@
+lyrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lyrics/lyrics_in_terminal.py,sha256=W2hIqecC_Wmu_Of9IwwtsRF3S0zU91TEx7UyStehSQo,4654
+lyrics/player.py,sha256=91E0raf3aK32UWupNFxBnTeeN97OCL9p9uWGu3FU_Qg,2061
+lyrics/track.py,sha256=SHj8YBWOmpP92r1fuqvBlP2dZokyUrmqk-FNRXALlRg,1850
+lyrics/util.py,sha256=ro-Mmu01UvInBuxLW8nwuGVD-yrqSrRVRPf5Z54i8hY,4553
+lyrics_in_terminal-1.0.1.dist-info/LICENSE,sha256=2XVJBQ0M8DPw7sxd21VuwHJ5iiidIZ2XIrqD7rgYiCk,1071
+lyrics_in_terminal-1.0.1.dist-info/METADATA,sha256=zspvaTYN12mV0P223IXIE_id_SfRl9lGsJ0UT6-xPCs,3821
+lyrics_in_terminal-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lyrics_in_terminal-1.0.1.dist-info/entry_points.txt,sha256=dWigU_GckuHco1xOuVPXpEYjyqllMw8Q_9TL7DQuhWw,60
+lyrics_in_terminal-1.0.1.dist-info/top_level.txt,sha256=aObhj7-i0nSFRKDsG15MQnJQQWwgcWsFZscLbJPdoso,7
+lyrics_in_terminal-1.0.1.dist-info/RECORD,,
