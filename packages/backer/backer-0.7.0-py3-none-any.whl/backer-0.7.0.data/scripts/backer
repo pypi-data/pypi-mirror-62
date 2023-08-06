@@ -1,0 +1,6 @@
+#!python
+
+from backer.__main__ import backer
+
+if __name__ == '__main__':
+    backer()
