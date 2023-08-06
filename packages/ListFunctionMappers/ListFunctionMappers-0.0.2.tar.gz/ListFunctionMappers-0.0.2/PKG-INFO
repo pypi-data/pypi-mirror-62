@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ListFunctionMappers
+Version: 0.0.2
+Summary: package for map a list
+Home-page: https://github.com/pypa/sampleproject
+Author: Tantely
+Author-email: tantelitiana22@gmail.com
+License: UNKNOWN
+Description: This lilte package is create to allow use to use functional style in a list object.
+        It is more easier to use when we have for example to deal with a several transforrmation
+        in our data. 
+        
+        It the first time I submit a code with an idea. This is the first version. I hope it will
+        progress in the futur and One will make more functionnal programming style with python
+        list. 
+        
+        
+        In this little package, we can find most of function used in a list object but with map
+        or reduce or flatten,... method. 
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
