@@ -1,0 +1,16 @@
+[console_scripts]
+crepes = rattail_corepos.corepos.commands:main
+
+[crepes.commands]
+export-core = rattail_corepos.corepos.commands:ExportCore
+export-csv = rattail_corepos.corepos.commands:ExportCSV
+import-core = rattail_corepos.corepos.commands:ImportCore
+import-csv = rattail_corepos.corepos.commands:ImportCSV
+
+[rattail.commands]
+corepos-import-square = rattail_corepos.commands:CoreImportSquare
+import-corepos = rattail_corepos.commands:ImportCOREPOS
+
+[rattail.config.extensions]
+rattail-corepos = rattail_corepos.config:RattailCOREPOSExtension
+
