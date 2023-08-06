@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: silent-io
+Version: 0.0.1
+Summary: Tool for silently injecting mouse and keyboard input to applications regardless of window focus.
+Home-page: https://github.com/patrikkj/silent-io
+Author: Patrik Kjærran
+Author-email: patrikkja@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# silent-io
+Module using Win32 API for silently injecting mouse and keyboard input to applications regardless of window focus.
+
+ - Mouse: https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getcapture
+ - Keyboard: https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getfocus
+
+
