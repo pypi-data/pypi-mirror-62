@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+mementoembed/__init__.py
+mementoembed/mementoembed.py
+mementoembed/surrogate.py
+mementoembed.egg-info/PKG-INFO
+mementoembed.egg-info/SOURCES.txt
+mementoembed.egg-info/dependency_links.txt
+mementoembed.egg-info/requires.txt
+mementoembed.egg-info/top_level.txt
