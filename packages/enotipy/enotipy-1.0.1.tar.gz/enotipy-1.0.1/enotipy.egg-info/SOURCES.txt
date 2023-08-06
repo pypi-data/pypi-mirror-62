@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+enotipy/__init__.py
+enotipy/enotipy.py
+enotipy.egg-info/PKG-INFO
+enotipy.egg-info/SOURCES.txt
+enotipy.egg-info/dependency_links.txt
+enotipy.egg-info/entry_points.txt
+enotipy.egg-info/top_level.txt
