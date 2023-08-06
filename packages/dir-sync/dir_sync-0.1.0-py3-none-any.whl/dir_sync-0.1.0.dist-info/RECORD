@@ -1,0 +1,11 @@
+sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sync/google_drive.py,sha256=f3DUygE3ReeDB9emLW6vhUU6kIU_i7zzR9XZnvwGESA,2860
+sync/google_drive_file.py,sha256=I3o2-BP32VoGmgJ0LalozYEtWzDYTtgyxwwRG_1kl84,905
+sync/local_fs.py,sha256=uyE9ARpyr25DXFXkTrdrq6pagMFMehjEk-xCwLV7z68,4272
+sync/main.py,sha256=kZxF26pgCoiFcZk360DLJo7NvKMcUWHm9Elq2edJvmU,2347
+dir_sync-0.1.0.dist-info/LICENSE.md,sha256=fTSI3ayAQyD49e5De8VTDdLmmPsNSBsR6NpQTxkilwc,1111
+dir_sync-0.1.0.dist-info/METADATA,sha256=MrSqomLMl-DX9DOtG5oVSEG1iPvrDJqeOPk6XANrPtU,466
+dir_sync-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dir_sync-0.1.0.dist-info/entry_points.txt,sha256=G1QtFlC66LVwkcE5dmnjAaFeHK5A3_FSCGn3NSxRob0,45
+dir_sync-0.1.0.dist-info/top_level.txt,sha256=mQ2tuuyK6drDrbZYPGy-okcdxmkbqaxXt_MrdNRipZ0,5
+dir_sync-0.1.0.dist-info/RECORD,,
