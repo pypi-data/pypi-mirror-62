@@ -1,0 +1,10 @@
+README.md
+json2json_setup.py
+conversion/__init__.py
+conversion/data_node.py
+conversion/json_mapper.py
+conversion/post_process.py
+json2json.egg-info/PKG-INFO
+json2json.egg-info/SOURCES.txt
+json2json.egg-info/dependency_links.txt
+json2json.egg-info/top_level.txt
