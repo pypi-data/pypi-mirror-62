@@ -1,0 +1,6 @@
+Python_Studio/__init__.py
+Python_Studio/setup.py
+python_studio.egg-info/PKG-INFO
+python_studio.egg-info/SOURCES.txt
+python_studio.egg-info/dependency_links.txt
+python_studio.egg-info/top_level.txt
