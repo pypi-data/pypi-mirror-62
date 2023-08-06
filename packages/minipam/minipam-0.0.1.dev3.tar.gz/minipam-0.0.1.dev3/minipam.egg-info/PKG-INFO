@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: minipam
+Version: 0.0.1.dev3
+Summary: Minimal IPAM using YAML file for data storage
+Home-page: https://gitlab.com/egeldmacher/minipam
+Author: Eric Geldmacher
+Author-email: egeldmacher@wustl.edu
+License: GPLv3
+Description: # MinIpam
+        
+        Minimal IPAM using YAML file for data storage
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
