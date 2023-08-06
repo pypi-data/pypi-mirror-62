@@ -1,0 +1,12 @@
+hubble_shuttle/__init__.py,sha256=9jCKUgxROUhsoJnjHPEcCAUoHYWszvJU9_G_h_kwfh8,30
+hubble_shuttle/api.py,sha256=LIlWxVTfCWOava-jjjrL3pqdeUS8eZm0FCsA7Hb1DUQ,1271
+hubble_shuttle/exceptions.py,sha256=QAAdVPNwg9xMqoIZ-bh3a3pQzLCqfB4U6CFl5BvroUg,1040
+hubble_shuttle/http.py,sha256=8PC3l-sIorVeFVQqg1GrUfSokblDITNyFN3BTpjo7es,4149
+hubble_shuttle/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hubble_shuttle/tests/tests_exceptions.py,sha256=hm0ZvugWk5zqhuj19Nt6BS-xDzwf48JVG_9FYTdbEfo,1426
+hubble_shuttle/tests/tests_shuttle_api.py,sha256=_UefYxUh9YJi3Idl4GQA0DDjTW6ichKMdof3TA39RHg,32639
+hubble_shuttle-0.1.dist-info/LICENSE,sha256=bD0KMRcyEZkXaCquBFTsb0-twhS1me6EmFuw5hbNrTk,1051
+hubble_shuttle-0.1.dist-info/METADATA,sha256=1AR9iNPgnqIhID7whVsbHyZ0WgmTt9bsXnDXTyempDY,7833
+hubble_shuttle-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hubble_shuttle-0.1.dist-info/top_level.txt,sha256=j1X2__wOQ1e6HftCyS4A_j2_3vUKOFABTAZq5Ss6VrU,15
+hubble_shuttle-0.1.dist-info/RECORD,,
