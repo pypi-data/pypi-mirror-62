@@ -1,0 +1,3 @@
+[console_scripts]
+notate=notate.take_note:take_note
+
