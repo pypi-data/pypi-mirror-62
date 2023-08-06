@@ -1,0 +1,7 @@
+future
+msgpack
+braceexpand
+simplejson
+pyzmq
+numpy
+pyyaml
