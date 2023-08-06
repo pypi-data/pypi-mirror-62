@@ -1,0 +1,2 @@
+KGlobal
+KGlobal_Core
