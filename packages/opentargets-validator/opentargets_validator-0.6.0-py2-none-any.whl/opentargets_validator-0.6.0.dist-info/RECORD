@@ -1,0 +1,12 @@
+opentargets_validator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentargets_validator/cli.py,sha256=ZGWHLmU0dOU95rjXvXQm13Oq8ei4FtACLZCGL8WpiRA,2448
+opentargets_validator/helpers.py,sha256=CwqQuI_QdlBg7TRYDFEwHqDAJ18SGpUUgDNsZerP_f0,2422
+opentargets_validator/validator.py,sha256=yIWbNMFfC47DHPgbDrME8kDsyFu28mMvjwbmH22nUV8,2854
+opentargets_validator/version.py,sha256=g7d3Ixnm_o_2mp37H27iIjT67yzeJmJexPmK9y5HEJY,384
+opentargets_validator/resources/logging.ini,sha256=HO0ToU80FiMBx0a3nckMwfM87i0StfcPFItxHyS15rI,341
+opentargets_validator-0.6.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+opentargets_validator-0.6.0.dist-info/METADATA,sha256=WTfbi6gpilAaoBMZHSGChr08gI6UUHnfmVEG-fHkpik,4457
+opentargets_validator-0.6.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+opentargets_validator-0.6.0.dist-info/entry_points.txt,sha256=2cHfbARyn7KsrDnRblA9m_WS02zpuIQWz5NwbsDxe6M,74
+opentargets_validator-0.6.0.dist-info/top_level.txt,sha256=l17kj3yRVPgjkw_fWpsrX1oHZ-ryPDNqX3mIY9nDeSg,22
+opentargets_validator-0.6.0.dist-info/RECORD,,
