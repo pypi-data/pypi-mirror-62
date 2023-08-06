@@ -1,0 +1,8 @@
+fletch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fletch/api.py,sha256=qHI6XxGqq8jiuPi0Ug39fwm_hmdH5avCc6diMrqUby8,3774
+fletch/middleware.py,sha256=w41ouCv1kHflmP15Gem2CqV96f25FXpXV56aR5lgcpk,675
+fletch/response.py,sha256=tLg64rbtGTS6YZhpyuA9NFr9fZLCNBd1_eNSECyvZaw,954
+fletch-0.0.3.dist-info/METADATA,sha256=0b1FETXnEMbFnaXp6E5X16ebD8FfmavxlNLPdDK4rlk,4127
+fletch-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fletch-0.0.3.dist-info/top_level.txt,sha256=lwChcVi5TGYRcZH3KUZgGqhYukM3ZFzKn5RBCc4d7H4,7
+fletch-0.0.3.dist-info/RECORD,,
