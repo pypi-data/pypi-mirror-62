@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Python-Test-Migration-Challenge
+Version: 1.0.1
+Summary: A Python package to do cloud migration Coding challenge
+Home-page: https://github.com/alhadbhadekar/python-test-migrate-challenge
+Author: Alhad Bhadekar
+Author-email: alhad.bhadekar@gmail.com
+License: MIT
+Description: # Python Test Migrate Challenge
+        A Python package to migrate cloud data
+        
+        # Usage
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
