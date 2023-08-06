@@ -1,0 +1,11 @@
+fire
+requests
+redis
+enum
+future
+
+[test]
+pylint
+pytest
+pytest-mock
+responses
