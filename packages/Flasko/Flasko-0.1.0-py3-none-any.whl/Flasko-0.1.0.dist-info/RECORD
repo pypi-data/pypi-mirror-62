@@ -1,0 +1,13 @@
+flasko/__init__.py,sha256=5ORjBnsiPVOQR2Yz7ZDyPPLShGAnqNEMwGjRc2FWyYw,180
+flasko/app.py,sha256=en502Ifbo2zmlR__6RCG5vcrlk0YcpXH1IHb4B1SBCs,2530
+flasko/json.py,sha256=LwKH7SjSjRN2P_i4jP6CfP0O_xZvfetaOYOvPhdiCjk,618
+flasko/auth/__init__.py,sha256=HCJ_d6XpnqQuHtTRiz_abMfNl5KcR01MWkHAc58Q-NU,128
+flasko/auth/auth_manager.py,sha256=yiGIDumt3HxTYmNsRVvmPoCPipxXSBl2jt1pE3tVdBk,1076
+flasko/auth/user_session.py,sha256=SoUT8L9SJ_JpaXki0OyAAXQEhzcifQlnIvkqkrwzc5g,407
+flasko/user/__init__.py,sha256=IpDCITTWLwVHOynAoJ04j6PY45AJ_p78d1D8xMurPKo,61
+flasko/user/user.py,sha256=jLGKWKtyTGwqtrZ6erpb3aMypo49FOJmnqAJABFy1-A,497
+Flasko-0.1.0.dist-info/LICENSE,sha256=qpddX32k6czGStK1BRkb7AWqcX8TI3Ab1TL3RHKYDo4,1078
+Flasko-0.1.0.dist-info/METADATA,sha256=SLxPaHELrEOCDzrnlx9cGdfvvCw0Yxn28CSypX2ebNk,1868
+Flasko-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Flasko-0.1.0.dist-info/top_level.txt,sha256=xWItLhex7HD7N_I0ZubhT9QH2NIZGgb33_c_vJr0Yzo,7
+Flasko-0.1.0.dist-info/RECORD,,
