@@ -1,0 +1,3 @@
+[console_scripts]
+chris = chris.cli.main:run
+

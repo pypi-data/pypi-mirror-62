@@ -1,0 +1,11 @@
+chris/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chris/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chris/cli/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chris/color/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chris/color/color.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chris-0.0.1.dist-info/LICENSE.txt,sha256=eFm96wqFzxb6kJee6WwUSrTegR6PPFMZ2ErNXEkfDY4,9040
+chris-0.0.1.dist-info/METADATA,sha256=B-ps2HT81mQbThD-S522tV5TlQjtuLEg3M8OhbDDEts,1201
+chris-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chris-0.0.1.dist-info/entry_points.txt,sha256=4qvYPbYLWaU6pO437dolTovYEF2kUTLrujXZ3efGeeQ,46
+chris-0.0.1.dist-info/top_level.txt,sha256=_eBu-vV8Fk9uh8RR7ym3D4Z83KxkJzJ0c37LOdCUvQo,6
+chris-0.0.1.dist-info/RECORD,,
