@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: colab-ssh
+Version: 0.2.10
+Summary: Google colab SSH connector
+Home-page: https://github.com/WassimBenzarti/colab-ssh-connector.git
+Author: Wassim Benzarti
+Author-email: m.wassim.benzarti@gmail.com
+License: UNKNOWN
+Description: # Google CoLab SSH
+        Connect to Google colab via ssh easily
+        
+        ## Installation
+        ```bash
+        pip install colab_ssh --upgrade --user
+        ```
+        
+        ## Getting started
+        
+        ```python
+        import colab_ssh import launch_ssh
+        launch_ssh(password, ngrokToken)
+        ```
+        
+        - `password` is your ssh password that you want to choose
+        - `ngrokToken` is your ngrok token that you can get from [here](https://dashboard.ngrok.com/auth)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
