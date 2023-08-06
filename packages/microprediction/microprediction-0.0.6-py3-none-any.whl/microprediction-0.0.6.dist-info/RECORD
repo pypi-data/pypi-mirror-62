@@ -1,0 +1,9 @@
+microprediction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microprediction/client.py,sha256=o9VMY7CyZ7RhgTq2VNcWqZocbXZMGWt8O4k46sYNZJE,5029
+microprediction/collider.py,sha256=Sjtx5S-AA4HDcHbqQOXfn9RrZaF0iTum5xbiEinOtjE,1447
+microprediction/conventions.py,sha256=a_FZheiEIz1cN-UhJFGS_SyWgSbVbZkGC1Oy9jM9Vt0,3263
+microprediction-0.0.6.dist-info/METADATA,sha256=kE0U4e4nwWk0Mq9TzprjJVgtBVTODnWOj8Pu2yl1BbI,1307
+microprediction-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+microprediction-0.0.6.dist-info/entry_points.txt,sha256=T2rad4JBuVN0LbvJWEYPXVcjmJNPc6RLjRG_HFKE368,67
+microprediction-0.0.6.dist-info/top_level.txt,sha256=05d9Leu3k9O2citJCjv2fTadggNS7LEH5EZn2PFnMpk,16
+microprediction-0.0.6.dist-info/RECORD,,
