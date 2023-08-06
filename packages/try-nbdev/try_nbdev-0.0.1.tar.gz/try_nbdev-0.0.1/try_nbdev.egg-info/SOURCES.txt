@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+try_nbdev/__init__.py
+try_nbdev/_nbdev.py
+try_nbdev/core.py
+try_nbdev/math_symbols.py
+try_nbdev.egg-info/PKG-INFO
+try_nbdev.egg-info/SOURCES.txt
+try_nbdev.egg-info/dependency_links.txt
+try_nbdev.egg-info/entry_points.txt
+try_nbdev.egg-info/not-zip-safe
+try_nbdev.egg-info/top_level.txt
