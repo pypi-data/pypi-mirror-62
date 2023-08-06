@@ -1,0 +1,7 @@
+README.md
+setup.py
+regpy/__init__.py
+regpy.egg-info/PKG-INFO
+regpy.egg-info/SOURCES.txt
+regpy.egg-info/dependency_links.txt
+regpy.egg-info/top_level.txt
