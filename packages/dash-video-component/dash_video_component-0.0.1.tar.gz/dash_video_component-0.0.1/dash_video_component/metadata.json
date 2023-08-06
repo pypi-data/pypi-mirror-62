@@ -1,0 +1,96 @@
+{
+  "src/lib/components/DashVideoComponent.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "DashVideoComponent",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "source": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "A label that will be printed when this component is rendered."
+      },
+      "fluid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "In fluid mode, it\u2019s 100% wide all the time,\nthe height will be calculated by the video's ratio.",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The width value of video, could be an number or percent or auto.\n(This attribute is effective only if you set fluid as false)",
+        "defaultValue": {
+          "value": "1024",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The height value of video, could be an number or percent or auto.\n(This attribute is effective only if you set fluid as false)",
+        "defaultValue": {
+          "value": "640",
+          "computed": false
+        }
+      },
+      "autoPlay": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "if specified, the video automatically begins to play back as soon\nas it can do so without stopping to finish loading the data.",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "state": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Pause or playing",
+        "defaultValue": {
+          "value": "'play'",
+          "computed": false
+        }
+      },
+      "time": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Set this property to seek to the specific time",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
