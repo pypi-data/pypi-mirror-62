@@ -1,0 +1,8 @@
+include LICENSE
+include README.rst
+recursive-include docs *
+recursive-include dev_tools/db *
+recursive-include dev_tools/forms *
+recursive-include dev_tools/meta *
+recursive-include dev_tools/template *
+recursive-include dev_tools/templatetags *
