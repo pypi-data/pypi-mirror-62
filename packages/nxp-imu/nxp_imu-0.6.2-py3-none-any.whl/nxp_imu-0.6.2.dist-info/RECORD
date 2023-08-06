@@ -1,0 +1,9 @@
+nxp_imu/FXAS21002.py,sha256=cgSCS6lZctZcW463pOK-Hf-f5S2xCWa3lgRtrVX1Z00,5652
+nxp_imu/FXOS8700.py,sha256=n-afenSWa2tPabNl_Lr5FjpdFdbPrUgSY0baBHV6PGE,6456
+nxp_imu/I2C.py,sha256=qVpivgW2VNdKBGvt97tzgGhRxsXSgEyZ_IUsCuyTMn0,1299
+nxp_imu/IMU.py,sha256=dXSPAA_r7mkgsPUNjyogwIhaVfa0Jf5zoRvS3XXPNSU,4898
+nxp_imu/__init__.py,sha256=SmgsNhpkjyfXuRoImSTXwW_qqbAZABSC74dq7iNrm0g,340
+nxp_imu-0.6.2.dist-info/LICENSE,sha256=MMe1_licimYYgw3yP3uvOuatBbdUv2bDe-NzAJ7YXlo,1073
+nxp_imu-0.6.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+nxp_imu-0.6.2.dist-info/METADATA,sha256=oa1aYSCuVPrVzqRy2qgSW8V8mVap9BZeDaU3QUxCvrA,8394
+nxp_imu-0.6.2.dist-info/RECORD,,
