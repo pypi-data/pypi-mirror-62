@@ -1,0 +1,875 @@
+{
+  "Resources": {
+    "ApiCorsLambdaServiceRole0DB39061": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCorsLambda/ServiceRole/Resource"
+      }
+    },
+    "ApiCorsLambdaServiceRoleDefaultPolicy063CEF86": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "ses:SendEmail",
+                "ses:SendRawEmail"
+              ],
+              "Effect": "Allow",
+              "Resource": "*"
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "ApiCorsLambdaServiceRoleDefaultPolicy063CEF86",
+        "Roles": [
+          {
+            "Ref": "ApiCorsLambdaServiceRole0DB39061"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCorsLambda/ServiceRole/DefaultPolicy/Resource"
+      }
+    },
+    "ApiCorsLambda5083F55F": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Ref": "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3Bucket90967AA8"
+          },
+          "S3Key": {
+            "Fn::Join": [
+              "",
+              [
+                {
+                  "Fn::Select": [
+                    0,
+                    {
+                      "Fn::Split": [
+                        "||",
+                        {
+                          "Ref": "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3VersionKey2608A430"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Fn::Select": [
+                    1,
+                    {
+                      "Fn::Split": [
+                        "||",
+                        {
+                          "Ref": "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3VersionKey2608A430"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "Handler": "lambda_handler.handler",
+        "Role": {
+          "Fn::GetAtt": [
+            "ApiCorsLambdaServiceRole0DB39061",
+            "Arn"
+          ]
+        },
+        "Runtime": "python3.7"
+      },
+      "DependsOn": [
+        "ApiCorsLambdaServiceRoleDefaultPolicy063CEF86",
+        "ApiCorsLambdaServiceRole0DB39061"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCorsLambda/Resource",
+        "aws:asset:path": "asset.035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc",
+        "aws:asset:property": "Code"
+      }
+    },
+    "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCertificate/CertificateRequestorFunction/ServiceRole/Resource"
+      }
+    },
+    "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "acm:RequestCertificate",
+                "acm:DescribeCertificate",
+                "acm:DeleteCertificate"
+              ],
+              "Effect": "Allow",
+              "Resource": "*"
+            },
+            {
+              "Action": "route53:GetChange",
+              "Effect": "Allow",
+              "Resource": "*"
+            },
+            {
+              "Action": "route53:changeResourceRecordSets",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition"
+                    },
+                    ":route53:::hostedzone/Z2V1AL5NKD0TDT"
+                  ]
+                ]
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57",
+        "Roles": [
+          {
+            "Ref": "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCertificate/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource"
+      }
+    },
+    "ApiCertificateCertificateRequestorFunction35B7F4E7": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3Bucket0997A4A0"
+          },
+          "S3Key": {
+            "Fn::Join": [
+              "",
+              [
+                {
+                  "Fn::Select": [
+                    0,
+                    {
+                      "Fn::Split": [
+                        "||",
+                        {
+                          "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Fn::Select": [
+                    1,
+                    {
+                      "Fn::Split": [
+                        "||",
+                        {
+                          "Ref": "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "Handler": "index.certificateRequestHandler",
+        "Role": {
+          "Fn::GetAtt": [
+            "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678",
+            "Arn"
+          ]
+        },
+        "Runtime": "nodejs10.x",
+        "Timeout": 900
+      },
+      "DependsOn": [
+        "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57",
+        "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCertificate/CertificateRequestorFunction/Resource",
+        "aws:asset:path": "asset.0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0",
+        "aws:asset:property": "Code"
+      }
+    },
+    "ApiCertificateCertificateRequestorResource57CB3F69": {
+      "Type": "AWS::CloudFormation::CustomResource",
+      "Properties": {
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "ApiCertificateCertificateRequestorFunction35B7F4E7",
+            "Arn"
+          ]
+        },
+        "DomainName": "api.zinccli.com",
+        "HostedZoneId": "Z2V1AL5NKD0TDT"
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiCertificate/CertificateRequestorResource/Default"
+      }
+    },
+    "VerifyDomainIdentityA4F38560": {
+      "Type": "Custom::AWS",
+      "Properties": {
+        "ServiceToken": {
+          "Fn::GetAtt": [
+            "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "Arn"
+          ]
+        },
+        "Create": {
+          "action": "verifyDomainIdentity",
+          "service": "SES",
+          "parameters": {
+            "Domain": "zinccli.com"
+          },
+          "physicalResourceIdPath": "VerificationToken"
+        }
+      },
+      "UpdateReplacePolicy": "Delete",
+      "DeletionPolicy": "Delete",
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/VerifyDomainIdentity/Resource/Default"
+      }
+    },
+    "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+              ]
+            ]
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource"
+      }
+    },
+    "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleDefaultPolicyD28E1A5E": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "ses:VerifyDomainIdentity",
+              "Effect": "Allow",
+              "Resource": "*"
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleDefaultPolicyD28E1A5E",
+        "Roles": [
+          {
+            "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/DefaultPolicy/Resource"
+      }
+    },
+    "AWS679f53fac002430cb0da5b7982bd22872D164C4C": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket": {
+            "Ref": "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3Bucket440FE184"
+          },
+          "S3Key": {
+            "Fn::Join": [
+              "",
+              [
+                {
+                  "Fn::Select": [
+                    0,
+                    {
+                      "Fn::Split": [
+                        "||",
+                        {
+                          "Ref": "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3VersionKeyE00E112E"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Fn::Select": [
+                    1,
+                    {
+                      "Fn::Split": [
+                        "||",
+                        {
+                          "Ref": "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3VersionKeyE00E112E"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "Handler": "index.handler",
+        "Role": {
+          "Fn::GetAtt": [
+            "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+            "Arn"
+          ]
+        },
+        "Runtime": "nodejs12.x",
+        "Timeout": 120
+      },
+      "DependsOn": [
+        "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleDefaultPolicyD28E1A5E",
+        "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/AWS679f53fac002430cb0da5b7982bd2287/Resource",
+        "aws:asset:path": "asset.1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a",
+        "aws:asset:property": "Code"
+      }
+    },
+    "SESVerificationRecord8B86296A": {
+      "Type": "AWS::Route53::RecordSet",
+      "Properties": {
+        "Name": "_amazonses.zinccli.com.",
+        "Type": "TXT",
+        "HostedZoneId": "Z2V1AL5NKD0TDT",
+        "ResourceRecords": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "\"",
+                {
+                  "Fn::GetAtt": [
+                    "VerifyDomainIdentityA4F38560",
+                    "VerificationToken"
+                  ]
+                },
+                "\""
+              ]
+            ]
+          }
+        ],
+        "TTL": "1800"
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/SESVerificationRecord/Resource"
+      }
+    },
+    "ApiGatewayWithCors6DE4076F": {
+      "Type": "AWS::ApiGateway::RestApi",
+      "Properties": {
+        "Name": "ApiGatewayWithCors"
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Resource"
+      }
+    },
+    "ApiGatewayWithCorsDeployment248C07006d8c7b9008b60153017d185494c027ef": {
+      "Type": "AWS::ApiGateway::Deployment",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "ApiGatewayWithCors6DE4076F"
+        },
+        "Description": "Automatically created by the RestApi construct"
+      },
+      "DependsOn": [
+        "ApiGatewayWithCorscontactOPTIONSAF0F6FED",
+        "ApiGatewayWithCorscontactPOSTC2AEB33C",
+        "ApiGatewayWithCorscontactDD9226DB"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Deployment/Resource"
+      }
+    },
+    "ApiGatewayWithCorsDeploymentStageprod7F1DD875": {
+      "Type": "AWS::ApiGateway::Stage",
+      "Properties": {
+        "RestApiId": {
+          "Ref": "ApiGatewayWithCors6DE4076F"
+        },
+        "DeploymentId": {
+          "Ref": "ApiGatewayWithCorsDeployment248C07006d8c7b9008b60153017d185494c027ef"
+        },
+        "MethodSettings": [
+          {
+            "HttpMethod": "*",
+            "ResourcePath": "/*",
+            "ThrottlingBurstLimit": 100,
+            "ThrottlingRateLimit": 10
+          }
+        ],
+        "StageName": "prod"
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/DeploymentStage.prod/Resource"
+      }
+    },
+    "ApiGatewayWithCorsCloudWatchRole9C3700F0": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "apigateway.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs"
+              ]
+            ]
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/CloudWatchRole/Resource"
+      }
+    },
+    "ApiGatewayWithCorsAccount3D15B20D": {
+      "Type": "AWS::ApiGateway::Account",
+      "Properties": {
+        "CloudWatchRoleArn": {
+          "Fn::GetAtt": [
+            "ApiGatewayWithCorsCloudWatchRole9C3700F0",
+            "Arn"
+          ]
+        }
+      },
+      "DependsOn": [
+        "ApiGatewayWithCors6DE4076F"
+      ],
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Account"
+      }
+    },
+    "ApiGatewayWithCorscontactDD9226DB": {
+      "Type": "AWS::ApiGateway::Resource",
+      "Properties": {
+        "ParentId": {
+          "Fn::GetAtt": [
+            "ApiGatewayWithCors6DE4076F",
+            "RootResourceId"
+          ]
+        },
+        "PathPart": "contact",
+        "RestApiId": {
+          "Ref": "ApiGatewayWithCors6DE4076F"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Default/contact/Resource"
+      }
+    },
+    "ApiGatewayWithCorscontactPOSTApiPermissionzsamplezinccontactapiApiGatewayWithCors4FCFB36EPOSTcontactE35DBEAA": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "ApiCorsLambda5083F55F",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:us-east-1:535707483867:",
+              {
+                "Ref": "ApiGatewayWithCors6DE4076F"
+              },
+              "/",
+              {
+                "Ref": "ApiGatewayWithCorsDeploymentStageprod7F1DD875"
+              },
+              "/POST/contact"
+            ]
+          ]
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Default/contact/POST/ApiPermission.zsamplezinccontactapiApiGatewayWithCors4FCFB36E.POST..contact"
+      }
+    },
+    "ApiGatewayWithCorscontactPOSTApiPermissionTestzsamplezinccontactapiApiGatewayWithCors4FCFB36EPOSTcontact84621B15": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "ApiCorsLambda5083F55F",
+            "Arn"
+          ]
+        },
+        "Principal": "apigateway.amazonaws.com",
+        "SourceArn": {
+          "Fn::Join": [
+            "",
+            [
+              "arn:",
+              {
+                "Ref": "AWS::Partition"
+              },
+              ":execute-api:us-east-1:535707483867:",
+              {
+                "Ref": "ApiGatewayWithCors6DE4076F"
+              },
+              "/test-invoke-stage/POST/contact"
+            ]
+          ]
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Default/contact/POST/ApiPermission.Test.zsamplezinccontactapiApiGatewayWithCors4FCFB36E.POST..contact"
+      }
+    },
+    "ApiGatewayWithCorscontactPOSTC2AEB33C": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "POST",
+        "ResourceId": {
+          "Ref": "ApiGatewayWithCorscontactDD9226DB"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayWithCors6DE4076F"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationHttpMethod": "POST",
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Origin": "'*'"
+              },
+              "StatusCode": "200"
+            }
+          ],
+          "Type": "AWS",
+          "Uri": {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition"
+                },
+                ":apigateway:us-east-1:lambda:path/2015-03-31/functions/",
+                {
+                  "Fn::GetAtt": [
+                    "ApiCorsLambda5083F55F",
+                    "Arn"
+                  ]
+                },
+                "/invocations"
+              ]
+            ]
+          }
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Origin": true
+            },
+            "StatusCode": "200"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Default/contact/POST/Resource"
+      }
+    },
+    "ApiGatewayWithCorscontactOPTIONSAF0F6FED": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "HttpMethod": "OPTIONS",
+        "ResourceId": {
+          "Ref": "ApiGatewayWithCorscontactDD9226DB"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayWithCors6DE4076F"
+        },
+        "AuthorizationType": "NONE",
+        "Integration": {
+          "IntegrationResponses": [
+            {
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Methods": "'GET,OPTIONS'"
+              },
+              "StatusCode": "200"
+            }
+          ],
+          "PassthroughBehavior": "WHEN_NO_MATCH",
+          "RequestTemplates": {
+            "application/json": "{\"statusCode\":200}"
+          },
+          "Type": "MOCK"
+        },
+        "MethodResponses": [
+          {
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Methods": true,
+              "method.response.header.Access-Control-Allow-Origin": true
+            },
+            "StatusCode": "200"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/Default/contact/OPTIONS/Resource"
+      }
+    },
+    "ApiGatewayWithCorsCustomDomain95F50159": {
+      "Type": "AWS::ApiGateway::DomainName",
+      "Properties": {
+        "DomainName": "api.zinccli.com",
+        "EndpointConfiguration": {
+          "Types": [
+            "REGIONAL"
+          ]
+        },
+        "RegionalCertificateArn": {
+          "Fn::GetAtt": [
+            "ApiCertificateCertificateRequestorResource57CB3F69",
+            "Arn"
+          ]
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/CustomDomain/Resource"
+      }
+    },
+    "ApiGatewayWithCorsCustomDomainMapzsamplezinccontactapiApiGatewayWithCors4FCFB36EF5F53841": {
+      "Type": "AWS::ApiGateway::BasePathMapping",
+      "Properties": {
+        "DomainName": {
+          "Ref": "ApiGatewayWithCorsCustomDomain95F50159"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayWithCors6DE4076F"
+        },
+        "Stage": {
+          "Ref": "ApiGatewayWithCorsDeploymentStageprod7F1DD875"
+        }
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiGatewayWithCors/CustomDomain/Map:--=>zsamplezinccontactapiApiGatewayWithCors4FCFB36E/Resource"
+      }
+    },
+    "ApiAliasRecordBCE933A3": {
+      "Type": "AWS::Route53::RecordSet",
+      "Properties": {
+        "Name": "api.zinccli.com.",
+        "Type": "A",
+        "AliasTarget": {
+          "DNSName": {
+            "Fn::GetAtt": [
+              "ApiGatewayWithCorsCustomDomain95F50159",
+              "RegionalDomainName"
+            ]
+          },
+          "HostedZoneId": {
+            "Fn::GetAtt": [
+              "ApiGatewayWithCorsCustomDomain95F50159",
+              "RegionalHostedZoneId"
+            ]
+          }
+        },
+        "HostedZoneId": "Z2V1AL5NKD0TDT"
+      },
+      "Metadata": {
+        "aws:cdk:path": "zsample-zinc-contact-api/ApiAliasRecord/Resource"
+      }
+    }
+  },
+  "Parameters": {
+    "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3Bucket90967AA8": {
+      "Type": "String",
+      "Description": "S3 bucket for asset \"035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc\""
+    },
+    "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcS3VersionKey2608A430": {
+      "Type": "String",
+      "Description": "S3 key for asset version \"035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc\""
+    },
+    "AssetParameters035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dcArtifactHashB1DDD34D": {
+      "Type": "String",
+      "Description": "Artifact hash for asset \"035acbd2af4e6d1d706110b909a5b4d03a2edbfed1f6da05e97ceaf35c70c1dc\""
+    },
+    "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3Bucket0997A4A0": {
+      "Type": "String",
+      "Description": "S3 bucket for asset \"0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0\""
+    },
+    "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0S3VersionKey83D9C166": {
+      "Type": "String",
+      "Description": "S3 key for asset version \"0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0\""
+    },
+    "AssetParameters0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0ArtifactHashF8F836D1": {
+      "Type": "String",
+      "Description": "Artifact hash for asset \"0b9723d54b7db3fbfc1a143398b02392e5fe080a68535480782a949b4372d0f0\""
+    },
+    "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3Bucket440FE184": {
+      "Type": "String",
+      "Description": "S3 bucket for asset \"1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a\""
+    },
+    "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aS3VersionKeyE00E112E": {
+      "Type": "String",
+      "Description": "S3 key for asset version \"1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a\""
+    },
+    "AssetParameters1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57aArtifactHash1BC4D777": {
+      "Type": "String",
+      "Description": "Artifact hash for asset \"1ab5295e57f53e6291178d0f7e5deb4883fcbfbe85515f66d5778d3a9e96a57a\""
+    }
+  },
+  "Outputs": {
+    "CertificateArn": {
+      "Value": {
+        "Fn::GetAtt": [
+          "ApiCertificateCertificateRequestorResource57CB3F69",
+          "Arn"
+        ]
+      }
+    },
+    "ApiGatewayWithCorsEndpoint559B76CB": {
+      "Value": {
+        "Fn::Join": [
+          "",
+          [
+            "https://",
+            {
+              "Ref": "ApiGatewayWithCors6DE4076F"
+            },
+            ".execute-api.us-east-1.",
+            {
+              "Ref": "AWS::URLSuffix"
+            },
+            "/",
+            {
+              "Ref": "ApiGatewayWithCorsDeploymentStageprod7F1DD875"
+            },
+            "/"
+          ]
+        ]
+      }
+    }
+  }
+}
