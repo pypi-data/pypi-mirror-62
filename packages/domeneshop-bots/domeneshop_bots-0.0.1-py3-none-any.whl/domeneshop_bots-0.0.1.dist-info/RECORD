@@ -1,0 +1,10 @@
+domeneshop_bots/DNSBot.py,sha256=pO0nW5lI48kzyFbkLBacGGN8TQcdV5jGJW6-S9wIL_E,4806
+domeneshop_bots/__init__.py,sha256=OFZRcWIXGTUsbTFiRhhic_i52EEQLoPQFlzMNDQo3E4,49
+domeneshop_bots/helper.py,sha256=Aus9wFVpTd7tnuqauT5AVqAi8Sdr6s01U516rstpYxs,1162
+tests/DNSBotTest.py,sha256=ihj81mND5GpkiKi6CAaPqG_Mbck9Jugpui3cbOqpuNk,1381
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domeneshop_bots-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+domeneshop_bots-0.0.1.dist-info/METADATA,sha256=A02sI1IC5yEgSBg1OkA6OqnOgp03YMaCXS2eCSD_aWY,2471
+domeneshop_bots-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+domeneshop_bots-0.0.1.dist-info/top_level.txt,sha256=RZJEJeS8H6jwBiS55fbOd8e_G9RlJ77lzEVnAAvS24Y,22
+domeneshop_bots-0.0.1.dist-info/RECORD,,
