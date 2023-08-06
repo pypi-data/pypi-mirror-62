@@ -1,0 +1,89 @@
+
+ *******************************************************************************
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA, OCTOBER 18, 2002
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ reac
+  fuel H2(L)  H 2
+  h,cal=-2154.0      t(k)=20.27       wt%=100.
+  oxid O2(L)  O 2
+  h,cal=-3102.      t(k)=90.18       wt%=100.
+  
+ prob case=LOX_/_LH2
+  rocket frozen nfz=1    p,psia=1000.000000,  supar=40.000000,
+  o/f=6.000000,
+  
+  
+ output calories  short  transport
+ end
+
+
+
+
+
+
+           THEORETICAL ROCKET PERFORMANCE ASSUMING FROZEN COMPOSITION
+
+ Pinj =  1000.0 PSIA
+ CASE = LOX_/_LH2      
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)      CAL/MOL       K  
+ FUEL        H2(L)                        1.0000000     -2154.000     20.270
+ OXIDANT     O2(L)                        1.0000000     -3102.000     90.180
+
+ O/F=    6.00000  %FUEL= 14.285714  R,EQ.RATIO= 1.322780  PHI,EQ.RATIO= 1.322780
+
+                 CHAMBER   THROAT     EXIT
+ Pinf/P            1.0000   1.7712   549.80
+ P, ATM            68.046   38.418  0.12376
+ T, K             3483.35  3170.29  1081.40
+ RHO, G/CC       3.2038-3 1.9875-3 1.8771-5
+ H, CAL/G         -235.74  -516.38 -2202.18
+ U, CAL/G         -750.09  -984.50 -2361.86
+ G, CAL/G        -15090.3 -14035.9 -6813.74
+ S, CAL/(G)(K)     4.2644   4.2644   4.2644
+
+ M, (1/n)          13.458   13.458   13.458
+ Cp, CAL/(G)(K)    0.9029   0.8896   0.6759
+ GAMMAs            1.1955   1.1990   1.2795
+ SON VEL,M/SEC     1604.0   1532.5    924.6
+ MACH NUMBER        0.000    1.000    4.387
+
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE   1.0588  0.98872  0.41042
+
+  WITH FROZEN REACTIONS
+
+ Cp, CAL/(G)(K)    0.9029   0.8896   0.6759
+ CONDUCTIVITY      1.3519   1.2422   0.4143
+ PRANDTL NUMBER    0.7071   0.7081   0.6695
+
+ PERFORMANCE PARAMETERS
+
+ Ae/At                      1.0000   40.000
+ CSTAR, FT/SEC              7427.0   7427.0
+ CF                         0.6770   1.7919
+ Ivac,LB-SEC/LB              286.6    430.4
+ Isp, LB-SEC/LB              156.3    413.6
+
+ MOLE FRACTIONS
+
+ *H              0.03417   HO2             0.00003   *H2             0.24832
+ H2O             0.66590   H2O2            0.00001   *O              0.00334
+ *OH             0.04478   *O2             0.00345
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+ NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+
+
+
