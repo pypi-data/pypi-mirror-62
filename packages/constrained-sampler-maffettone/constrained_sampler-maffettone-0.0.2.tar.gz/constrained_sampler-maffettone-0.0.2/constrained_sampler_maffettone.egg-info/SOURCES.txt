@@ -1,0 +1,26 @@
+MANIFEST.in
+Readme.md
+setup.py
+bin/sampler
+constrained_sampler/__init__.py
+constrained_sampler/constraints.py
+constrained_sampler/sample_space.py
+constrained_sampler/utils.py
+constrained_sampler_maffettone.egg-info/PKG-INFO
+constrained_sampler_maffettone.egg-info/SOURCES.txt
+constrained_sampler_maffettone.egg-info/dependency_links.txt
+constrained_sampler_maffettone.egg-info/requires.txt
+constrained_sampler_maffettone.egg-info/top_level.txt
+data/alloy.out
+data/examples.out
+data/formulation.out
+data/mixture.out
+examples/alloy.txt
+examples/example.txt
+examples/formulation.txt
+examples/mixture.txt
+notebooks/Adaptive Displacement.ipynb
+scripts/sampler.py
+test/__init__.py
+test/test_constraints.py
+test/test_sample_space.py

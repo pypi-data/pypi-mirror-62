@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: constrained-sampler-maffettone
+Version: 0.0.2
+Summary: Package to generate numbers in the unit hypercube subject to constraints.
+Home-page: https://github.com/maffettone/constrained_sampler
+License: UNKNOWN
+Description: # Sampling a high dimensional space under non-linear constraints.  
+        Initially composed as a technical challenge for Citrine.
+        
+        ## Operation
+        #### As a python script
+        
+        #### Install from PyPy
+        
+        
+        ## Scaling and future work
+        * Security considerations of `eval`. 
+        * Special cases have analytic solutions (linear constraints defining a simplex)
+        * The current method works best in continuous spaces. 
+        * Consider limits of time and memory 
+        * Improved uniformnity on sampling after certain number of steps (autocorrelation function) D. Chandler, Introduction to Modern Statistical Mechanics (Oxford University
+        Press, 1987
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

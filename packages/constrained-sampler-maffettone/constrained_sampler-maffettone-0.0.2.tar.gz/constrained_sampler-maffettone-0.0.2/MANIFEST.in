@@ -1,0 +1,7 @@
+include Readme.md
+include scripts/*
+include data/*
+include examples/*
+include scripts/*
+include notebooks/*
+exclude */scratch*
