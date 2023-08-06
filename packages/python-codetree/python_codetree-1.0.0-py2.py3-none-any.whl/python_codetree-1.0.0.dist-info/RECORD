@@ -1,0 +1,17 @@
+codetree/__init__.py,sha256=BHnWQaWMFBDAY9GdNDhj3pMU4LCVEkFm7vzIXJrAT7M,134
+codetree/cli.py,sha256=KIruBp8Z3rPcJ-J9Rshg5m8IE7d8YskJCkOe3IBqurw,1010
+codetree/config.py,sha256=HtBRExt7IKBkzHkyppaiMumVQ9EY26UhMNNbIN_MHCo,11938
+codetree/fileutils.py,sha256=kp0EwMiW6McH-lMt1SF9FaH1H0bHkEEX8TYhVPPGS-I,2592
+codetree/handlers/__init__.py,sha256=REec1rYUkDQtO2UzMJitLoIxopGw0KVqxVflbLm1v9w,215
+codetree/handlers/basic.py,sha256=KuZpvFHvBCaqS4A1ljyOTLnmgy63SPd09Vcvo2KH9-Q,4563
+codetree/handlers/bzr.py,sha256=TOt2c_nW-VS2gnijiUfOUIHP4YjHZg3lewshDm1fth0,8728
+codetree/handlers/charm.py,sha256=MIacN6YUvWmhOPUpnGRRRiFjtnO65hBA8M_374_w5s8,8807
+codetree/handlers/exceptions.py,sha256=SmO0flmFPob3AILVK6M0qIHXVBu508Nav0GiUmGvp_8,480
+codetree/handlers/git.py,sha256=tnIC7hPK2Fc7AYzQQ8yXRa8ffvf5zYUWifnI3mhPQJU,4463
+codetree/handlers/utils.py,sha256=GOvvQCzE55MBGJxq-rNz3jaPYICWWzYucbYbm5YSr0M,1955
+python_codetree-1.0.0.dist-info/LICENSE,sha256=Ufzg8rxz34ci4F71H0axUBHJbeO4p0LEunHsha9bh-g,1113
+python_codetree-1.0.0.dist-info/METADATA,sha256=rzLuizGFRbAd96FYAvTD5_Y72fDftHL6p56WGV1Kkvk,1032
+python_codetree-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+python_codetree-1.0.0.dist-info/entry_points.txt,sha256=PBfwTOpachTfBLUZ33_xzRokcPHeo84MYusW1QpPPDs,48
+python_codetree-1.0.0.dist-info/top_level.txt,sha256=W0VzzB6D-ZrUtYufd_0NeUy2hy4AysgqdZXlTuDq-oQ,9
+python_codetree-1.0.0.dist-info/RECORD,,
