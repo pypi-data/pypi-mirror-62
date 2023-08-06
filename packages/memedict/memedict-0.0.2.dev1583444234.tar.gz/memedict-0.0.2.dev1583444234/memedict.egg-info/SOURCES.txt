@@ -1,0 +1,9 @@
+README.rst
+setup.py
+memedict.egg-info/PKG-INFO
+memedict.egg-info/SOURCES.txt
+memedict.egg-info/dependency_links.txt
+memedict.egg-info/entry_points.txt
+memedict.egg-info/requires.txt
+memedict.egg-info/top_level.txt
+slackerade/__init__.py
