@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyMechkar/__init__.py
+pyMechkar/analysis.py
+pyMechkar/exploreData.py
+pyMechkar.egg-info/PKG-INFO
+pyMechkar.egg-info/SOURCES.txt
+pyMechkar.egg-info/dependency_links.txt
+pyMechkar.egg-info/top_level.txt
