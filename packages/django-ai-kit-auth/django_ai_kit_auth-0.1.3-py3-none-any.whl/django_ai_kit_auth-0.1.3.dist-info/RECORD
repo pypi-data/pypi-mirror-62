@@ -1,0 +1,15 @@
+ai_kit_auth/__init__.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+ai_kit_auth/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+ai_kit_auth/apps.py,sha256=_l4fRbwIWF49CVA0pUwkupLGQsUlbQbz9lL449IlRHU,108
+ai_kit_auth/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+ai_kit_auth/serializers.py,sha256=CnVq1LJvD6w858A9DbPANws5-IisyBMt3g3fWYM05w4,958
+ai_kit_auth/urls.py,sha256=a4syBunUlNAuAB0vm4x2a0z1BjavITgs0gHLern8RH8,426
+ai_kit_auth/views.py,sha256=tVzLyIhBJ2SX-ow0UsaBRZ8N9AulHNYsE5qDHbXJapg,1167
+ai_kit_auth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_kit_auth/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ai_kit_auth/tests/settings.py,sha256=SyYTDkeuDZoDjHg1ZSV0K-eE8MhhMjx7CxneJawdafw,129
+ai_kit_auth/tests/tests.py,sha256=6w-UzqoN14VbmcdUHHcxRpe807EKBGS83_yupJIh164,780
+django_ai_kit_auth-0.1.3.dist-info/METADATA,sha256=7eGLL38M9V21afF12Nx_LTPvrPFMn3D28681zT6SW2I,1031
+django_ai_kit_auth-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_ai_kit_auth-0.1.3.dist-info/top_level.txt,sha256=_SzZmNzetAU1_r1YjEF4ioRTTAydcuxkHElUKkPhEjA,12
+django_ai_kit_auth-0.1.3.dist-info/RECORD,,
