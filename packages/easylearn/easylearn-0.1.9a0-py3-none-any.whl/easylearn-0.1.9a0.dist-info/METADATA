@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: easylearn
+Version: 0.1.9a0
+Summary: This project is designed for machine learning in resting-state fMRI field
+Home-page: https://github.com/lichao312214129/lc_rsfmri_tools_python
+Author: Chao Li
+Author-email: lichao19870617@gmail.com
+Maintainer: Chao Li +
+Maintainer-email: lichao19870617@gmail.com
+License: MIT License
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: joblib (==0.14.1)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: pandas (==1.0.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: scikit-learn (==0.22.2)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: nibabel (==3.0.1)
+Requires-Dist: imbalanced-learn (==0.6.2)
+Requires-Dist: skrebate (==0.6)
+Requires-Dist: matplotlib
+
+# easylearn package 
+This project is designed for machine learning in resting-state fMRI field.   
+
+Our mission is to enable everyone who wants to apply machine learning to their research field to apply machine learning in the simplest way.  
+
+Our goal is to develop a graphical interface so that researchers who are not familiar with programming can easily apply machine learning to their fields.  
+
+## At present, the project is in the development stage  
+
+** We hope you can join us! **
+
+>Email: lichao19870617@gmail.com OR lichao19870617@163.com   
+>weChart: QQ312214129.
+
+# Demo
+The simplest demo is in the eslearn/examples.
+
