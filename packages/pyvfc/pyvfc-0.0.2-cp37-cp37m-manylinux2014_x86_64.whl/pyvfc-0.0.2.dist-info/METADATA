@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyvfc
+Version: 0.0.2
+Summary: Vector field consensus (VFC) Python wrapper
+Home-page: https://github.com/cramppet/pyvfc
+Author: Peter Crampton
+Author-email: cramppet@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pybind11 (>=2.4)
+Requires-Dist: opencv-python (<=3.4.9.31)
+
+UNKNOWN
+
+
