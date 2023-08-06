@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dash_rabix
+Version: 0.0.1
+Summary: Dash component for viewing CWL workflows using Rabix SVG.
+Home-page: UNKNOWN
+Author: Jacob Roberts <jacoberts@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

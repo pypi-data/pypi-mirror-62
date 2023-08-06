@@ -1,0 +1,7 @@
+include dash_rabix/dash_rabix.min.js
+include dash_rabix/dash_rabix.min.js.map
+include dash_rabix/metadata.json
+include dash_rabix/package-info.json
+include README.md
+include LICENSE
+include package.json

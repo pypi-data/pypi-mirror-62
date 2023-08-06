@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dash_rabix/DashRabix.py
+dash_rabix/__init__.py
+dash_rabix/_imports_.py
+dash_rabix/dash_rabix.min.js
+dash_rabix/dash_rabix.min.js.map
+dash_rabix/metadata.json
+dash_rabix/package-info.json
+dash_rabix.egg-info/PKG-INFO
+dash_rabix.egg-info/SOURCES.txt
+dash_rabix.egg-info/dependency_links.txt
+dash_rabix.egg-info/top_level.txt

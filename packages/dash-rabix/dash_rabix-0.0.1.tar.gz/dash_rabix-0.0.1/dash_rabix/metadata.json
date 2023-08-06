@@ -1,0 +1,73 @@
+{
+  "src/lib/components/DashRabix.react.js": {
+    "description": "DashRabix displays a CWL workflow using Rabix SVG.\nIt takes a CWL in JSON format.",
+    "displayName": "DashRabix",
+    "methods": [
+      {
+        "name": "getHeader",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "removeNodeFromPath",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "addSelectedStepToPath",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "getNavBar",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "cwlWorkflow": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "JSON string with CWL workflow to render."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Object with style fields."
+      },
+      "showHeader": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show the title and header."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
