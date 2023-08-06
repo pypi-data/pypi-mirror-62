@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: qcSubroutines
+Version: 0.1.4
+Summary: A python package for the containing some quantum subroutines.
+Home-page: UNKNOWN
+Author: Yannis Fleischhauer
+Author-email: yannis.fleischhauer@wiwi.uni-kl.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+qcSubroutines is a Python package containing some quantum subroutines.
+Combined with qcSim, a tool for the simulation of quantum computers, these subroutines can be used to build quantum algorithms.
+
+
+
