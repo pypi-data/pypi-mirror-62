@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tindi
+Version: 0.0.1
+Summary: Paquete calculadora
+Home-page: https://github.com/marcelo-nugatti/tindi
+Author: Marcelo Nunez
+Author-email: real.nugatti@gmail.com
+License: UNKNOWN
+Description: # Calculadora para colegios
+        
+        ## Instalación
+        * pip3 install tindi
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

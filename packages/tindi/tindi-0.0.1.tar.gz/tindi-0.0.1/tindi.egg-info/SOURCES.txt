@@ -1,0 +1,8 @@
+README.md
+setup.py
+tindi/__init__.py
+tindi/calculadora.py
+tindi.egg-info/PKG-INFO
+tindi.egg-info/SOURCES.txt
+tindi.egg-info/dependency_links.txt
+tindi.egg-info/top_level.txt
