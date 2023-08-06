@@ -1,0 +1,11 @@
+configDmanager/__init__.py,sha256=lCcXNIdnfNRC-sNKaxUX0q-NRvwL04Mg3MFTAjLP5eM,198
+configDmanager/_config.py,sha256=4_CVcEsv5Zz4a8qPn60KB-ctIpbcJ85f35bZyubSu5M,6255
+configDmanager/_configmanager.py,sha256=TVtbMSL46Br1m-BPDgdDJ3QXd3tQ01QBj4PPTwJpnWI,5433
+configDmanager/_format.py,sha256=IFup5PtijhAI3fp9NMiVezb4LRiVeCgrn5jhvPlV6M0,806
+configDmanager/config_types.py,sha256=6ELDMOFia1hGWHblF16_9oXSVHESubZ-1VdFbJWlTWU,1135
+configDmanager/errors.py,sha256=1XCDkFPNxuFunGVx2fiAT48ANplfSpOUscey2l4Heq4,668
+ConfigDmanager-0.1.0.dist-info/LICENSE,sha256=ESiqWVMnxC9HVJi8PcQWE-aJJ9aWImZm06XzKIa1414,1088
+ConfigDmanager-0.1.0.dist-info/METADATA,sha256=W2tJxFcpj6_8xpDU5lPPAPx3jiKhDxB19fDqHMMCp2A,2314
+ConfigDmanager-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ConfigDmanager-0.1.0.dist-info/top_level.txt,sha256=zcqo8uTaqt0feWJtKB8c_RoupdIYLL86tRR-UDc_KkQ,15
+ConfigDmanager-0.1.0.dist-info/RECORD,,
