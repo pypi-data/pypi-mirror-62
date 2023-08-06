@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pytest_slackfixtures.py
+setup.py
+slacktools_slackfixtures.egg-info/PKG-INFO
+slacktools_slackfixtures.egg-info/SOURCES.txt
+slacktools_slackfixtures.egg-info/dependency_links.txt
+slacktools_slackfixtures.egg-info/entry_points.txt
+slacktools_slackfixtures.egg-info/requires.txt
+slacktools_slackfixtures.egg-info/top_level.txt
