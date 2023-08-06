@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: paddlepalm
+Version: 2.0
+Summary: a flexible, general and easy-to-use NLP large-scale pretraining and multi-task learning framework.
+Home-page: https://github.com/PaddlePaddle/PALM
+Author: PaddlePaddle
+Author-email: zhangyiming04@baidu.com
+License: Apache 2.0
+Keywords: paddlepaddle,paddle,nlp,pretrain,multi-task-learning
+Platform: any
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: paddlepaddle-gpu (>=1.7.0)
+
+UNKNOWN
+
+
