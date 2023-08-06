@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+nycflights13/__init__.py
+nycflights13.egg-info/PKG-INFO
+nycflights13.egg-info/SOURCES.txt
+nycflights13.egg-info/dependency_links.txt
+nycflights13.egg-info/requires.txt
+nycflights13.egg-info/top_level.txt
+nycflights13/data/airlines.csv
+nycflights13/data/airports.csv
+nycflights13/data/flights.csv.zip
+nycflights13/data/planes.csv
+nycflights13/data/weather.csv
