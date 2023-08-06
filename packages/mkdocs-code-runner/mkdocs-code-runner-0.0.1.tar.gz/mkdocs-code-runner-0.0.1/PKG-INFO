@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mkdocs-code-runner
+Version: 0.0.1
+Summary: Mkdocs plugin for converting JavaScript code into runnable scripts.
+Home-page: https://github.com/wolfgangwazzlestrauss/mkdocs-code-runner
+License: MIT
+Author: Macklan Weinstein
+Author-email: wolfgangwazzlestrauss@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: beautifulsoup4 (>=4.8.2,<5.0.0)
+Requires-Dist: mkdocs (>=1.1,<2.0)
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <h1>mkdocs-code-runner</h1>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/pypi/v/mkdocs-code-runner" alt="PyPI Version">
+  <img src="https://img.shields.io/github/license/wolfgangwazzlestrauss/mkdocs-code-runner" alt="License">
+  <img src="https://github.com/wolfgangwazzlestrauss/mkdocs-code-runner/workflows/build/badge.svg" alt="Build Status">
+  <img src="https://img.shields.io/github/repo-size/wolfgangwazzlestrauss/mkdocs-code-runner" alt="Repository Size">
+</p>
+
+mkdocs-code-runner is an [MkDocs](https://www.mkdocs.org/) plugin which converts Javascript code
+blocks in Markdown files into runnable scripts for your browser.
+
+
+## Getting Started
+
+### Installation
+
+mkdocs-code-runner can be installed for Python 3.6+ with
+
+```bash
+pip install --user mkdocs-code-runner
+```
+
+
+## Contributing
+
+For guidance on setting up a development environment and making a contribution to mkdocs-code-runner,
+see the [contributing guide](CONTRIBUTING.md).
+
+
+## License
+
+Distributed under the terms of the [MIT license](LICENSE.md), mkdocs-code-runner is
+free and open source software.
+
