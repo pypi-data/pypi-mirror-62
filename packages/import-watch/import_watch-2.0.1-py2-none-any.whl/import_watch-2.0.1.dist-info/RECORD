@@ -1,0 +1,12 @@
+import_watch/__init__.py,sha256=2SLRbOyxk8KSLa9K2fX5tuH1dmCmgpGr8qxk0-5_NRk,4430
+import_watch/_cyclic_import_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+import_watch/_cyclic_import_package/a.py,sha256=SQoM-XAANTrzt6FTPxpX5YZin-qPTm55DJcrGitfSIQ,59
+import_watch/_cyclic_import_package/b.py,sha256=Cpm1cEJH1ZFW7Lhsqw1K0ncHtSMFFBtI0uYUPYyShME,59
+import_watch/_cyclic_import_package/codec.py,sha256=_JYtN0vX8YnU5ArgcrocEipV8KMHL8WMZutP2r2FYO4,64
+import_watch/_cyclic_import_package/error.py,sha256=iTU1v8B765rJCDb-IAcvNaSj_NYdZuqDxJ1Nz52zUw0,63
+import_watch/_cyclic_import_package/loader.py,sha256=3zOBLeWvqPOhd_HyVpihu7rfdwLsh1KeKEyAseQD1PE,63
+import_watch/_cyclic_import_package/yaml.py,sha256=iTU1v8B765rJCDb-IAcvNaSj_NYdZuqDxJ1Nz52zUw0,63
+import_watch-2.0.1.dist-info/METADATA,sha256=oqcNV0n7IDPijSIODssS_mZ9O2yZbAhVmor06sTx_4M,1486
+import_watch-2.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+import_watch-2.0.1.dist-info/top_level.txt,sha256=Tn7e9ATQ-46j27yLGOv7Bbhz3gwv9cG0ZXvcj2o5QSA,13
+import_watch-2.0.1.dist-info/RECORD,,
