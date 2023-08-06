@@ -1,0 +1,15 @@
+setup.py
+pylink_core/ExecThread.pyc
+pylink_core/SerialCom.pyc
+pylink_core/Uf2Manager.pyc
+pylink_core/__init__.py
+pylink_core/__init__.pyc
+pylink_core/__main__.pyc
+pylink_core/flask_sockets.pyc
+pylink_core/klink.pyc
+pylink_core/uflash.pyc
+pylink_core.egg-info/PKG-INFO
+pylink_core.egg-info/SOURCES.txt
+pylink_core.egg-info/dependency_links.txt
+pylink_core.egg-info/top_level.txt
+pylink_core.egg-info/zip-safe
