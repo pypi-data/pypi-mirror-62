@@ -1,0 +1,15 @@
+numpy
+scipy
+
+[docs]
+sphinx_rtd_theme
+numpy
+scipy
+
+[test]
+pytest
+coverage
+pytest-cov
+matplotlib
+numpy
+scipy

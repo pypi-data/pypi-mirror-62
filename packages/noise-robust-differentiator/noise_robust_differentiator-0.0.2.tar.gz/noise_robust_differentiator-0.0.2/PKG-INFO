@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: noise_robust_differentiator
+Version: 0.0.2
+Summary: Python implementation of Pavel Holoborodko's smooth noise-robust differentiators
+Home-page: UNKNOWN
+Author: Matt Vernacchia
+Author-email: mvernacc@mit.edu
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/mvernacc/noise_robust_differentiator
+Description: # noise_robust_differentiator
+        Python implementation of Pavel Holoborodko's smooth noise-robust differentiators.
+        See http://www.holoborodko.com/pavel/numerical-methods/numerical-derivative/smooth-low-noise-differentiators/
+        
+Keywords: derivative noise numerical
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: docs
