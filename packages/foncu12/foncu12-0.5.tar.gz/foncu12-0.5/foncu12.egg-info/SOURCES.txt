@@ -1,0 +1,8 @@
+README.txt
+setup.cfg
+setup.py
+/home/foncu/Desktop/foncu1/setup.py
+foncu12.egg-info/PKG-INFO
+foncu12.egg-info/SOURCES.txt
+foncu12.egg-info/dependency_links.txt
+foncu12.egg-info/top_level.txt
