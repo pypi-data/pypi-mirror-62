@@ -1,0 +1,9 @@
+colliderfeed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colliderfeed/collider_feed_config_private.py,sha256=kGxvnnCHkLJfWmqTa5UGlU1L8OyXDQ4l1PjZS4o21Og,685
+colliderfeed/daemon.py,sha256=dG8ZVX-pazENZZ44K6Cd2bu5oJgR5q0KxbmlvPm2kxk,3211
+colliderfeed/fake_feed_daemon.py,sha256=SANyB0wVwNg0xxv98UE57cD1buwJFRtChDVQ2LwKGmg,1613
+colliderfeed-0.0.3.dist-info/METADATA,sha256=p4up2PzIv84MTZNetnQ4SA2t1WzyP7sXOVOgaiTZfZg,637
+colliderfeed-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+colliderfeed-0.0.3.dist-info/entry_points.txt,sha256=TPFnqyu-6PhletW7D76tq83pHUauFW9ZyxbqGBEHf08,61
+colliderfeed-0.0.3.dist-info/top_level.txt,sha256=1I6ZebprI35uYaM1yaQHdNWEtSTGakMI1IC0FPVTU1g,13
+colliderfeed-0.0.3.dist-info/RECORD,,
