@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ai-harness
+Version: 0.1.1
+Summary: A harness project for ML & DL
+Home-page: https://github.com/aicanhelp/ai-harness
+Author: modongsong
+Author-email: modongsongml@163.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/aicanhelp/ai-harness/issues
+Project-URL: Source, https://github.com/aicanhelp/ai-harness/
+Description: # AI Harness
+        
+        ##Introduction
+        This project would like to supply some convenient tools for the machine learning and deep learning.
+        Current features:  
+        - arguments: try to combine yaml and argparse to use the arguments defined in the yaml file for the default values of arguments
+        _ others
+        
+        
+Keywords: deeplearning tools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
