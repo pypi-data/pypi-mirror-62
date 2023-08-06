@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/cloud-fancyindex-generator
+cloud_fancyindex.egg-info/PKG-INFO
+cloud_fancyindex.egg-info/SOURCES.txt
+cloud_fancyindex.egg-info/dependency_links.txt
+cloud_fancyindex.egg-info/requires.txt
+cloud_fancyindex.egg-info/top_level.txt
