@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cfntool
+Version: 0.2.1
+Summary: 
+Author: ccdale
+Author-email: chris.allison@hivehome.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (>=1.12.15,<2.0.0)
+Requires-Dist: ccalogging (>=0.3.3,<0.4.0)
+Requires-Dist: chaim (>=0.8.0,<0.9.0)
+Requires-Dist: getopt2 (>=0.0.3,<0.0.4)
