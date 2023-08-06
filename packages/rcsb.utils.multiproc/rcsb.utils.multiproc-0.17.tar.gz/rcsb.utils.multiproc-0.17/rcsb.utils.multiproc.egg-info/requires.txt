@@ -1,0 +1,8 @@
+future
+multiprocess>=0.70.9
+
+[dev]
+check-manifest
+
+[test]
+coverage
