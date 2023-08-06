@@ -1,0 +1,4 @@
+[console_scripts]
+log_generator = monilog.bin.run_log_generator:run
+monitoring = monilog.bin.run_monitoring:run
+
