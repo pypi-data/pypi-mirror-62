@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: supervisor_multiprocesslogging
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: xzregg
+Author-email: xzregg@gmail.com
+License: MIT Licence
+Description: UNKNOWN
+Keywords: supervisor_multiprocesslogging,supervisor_multiprocesslogging
+Platform: any
+Requires: supervisor

@@ -1,0 +1,4 @@
+[console_scripts]
+supervisord = supervisor_multiprocesslogging:main
+supervisord_multiprocesslogging = supervisor_multiprocesslogging:main
+
