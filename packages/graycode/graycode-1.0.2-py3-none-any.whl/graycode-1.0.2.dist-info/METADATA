@@ -1,0 +1,37 @@
+Metadata-Version: 2.0
+Name: graycode
+Version: 1.0.2
+Summary: Convert two's complement integer to gray code and vice versa
+Home-page: https://gitlab.com/heikkiorsila/gray-code
+Author: Heikki Orsila
+Author-email: heikki.orsila@iki.fi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Gray codes for Python
+
+## Introduction
+
+Library functions to convert gray code to two's complement integer and
+vice versa in Python 3.
+
+See LICENSE.md for copyright information. This library is licensed under the
+MIT license.
+
+See https://en.wikipedia.org/wiki/Gray_code for details about gray codes.
+
+## Example
+
+    import graycode
+
+    graycode.tc_to_gray_code(2)
+    # => 3
+    graycode.gray_code_to_tc(3)
+    # => 2
+
+
