@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pygments-vice
+Version: 0.1.3
+Summary: pygments-vice is a pygments style that is a port of the vim-vice colorscheme
+Home-page: https://github.com/pedroreys/pygments-vice
+Author: Pedro Reys
+Author-email: pedro@pedroreys.com
+License: MIT
+Description: # pygments-vice
+        ![logo][logo]
+        
+        This pygments style is a port of the [vim-vice](https://github.com/bcicen/vim-vice) colorscheme for vim
+        
+        Vice is a dark and vibrant style for pygments
+        
+        ![screencap][screencap]
+        
+        
+        ## Installation
+        
+        ```commandline
+        pip install pygments-vice
+        ```
+        
+        After installed, you will have a new style available to use with pygments called `vice`
+        
+        
+        [logo]: http://i.imgur.com/HWvyN7M.png "vice"
+        [screencap]: https://i.imgur.com/jt6TthK.png "vice"
+        
+Keywords: syntax highlighting pygments style
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

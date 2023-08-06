@@ -1,0 +1,3 @@
+[pygments.styles]
+vice = vice.vice:ViceStyle
+
