@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: upload-path-pyramid
+Version: 0.1.0
+Summary: A small utility function to create path of a uploaded file.
+Home-page: https://github.com/suryasr007/upload-path-pyramid
+License: MIT
+Keywords: pyramid,upload-path,media form upload
+Author: Surya Teja
+Author-email: 94suryateja@gmail.com
+Requires-Python: >=3.8,<3.9
+Classifier: Framework :: Pyramid
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
