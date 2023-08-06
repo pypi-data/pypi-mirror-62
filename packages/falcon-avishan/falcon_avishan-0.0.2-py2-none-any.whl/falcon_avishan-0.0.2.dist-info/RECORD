@@ -1,0 +1,17 @@
+avishan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avishan/installation.txt,sha256=mnP-5APo8E6x0UHCQf6fe7BOCNZ4YaabZlmSDYM_11g,58
+avishan/middlewares.py,sha256=fFpvY74CgqBclwEUwYEz_IjqbnB74BQD74t6QtEbIQE,1168
+avishan/requirements.txt,sha256=f8zd5Mfq0hkEsbsecXrcZCN91sTFUfLLRzJ0w3Y-6qY,47
+avishan/stage.py,sha256=za2OnMVRcaeTtV5xBtxk88KGZuze2N_HzDhH2DYQRBw,614
+avishan/utils.py,sha256=bEQHiB1NUOW0sqp_s52nP6LvGv26oZel8m380gED-kM,1071
+avishan/views.py,sha256=aiZyG-WAFmspUN6934YRB74cxvlNnotn1COjyUssDJ0,737
+avishan/__pycache__/__init__.cpython-37.pyc,sha256=Y7en6c6E-pMkTM0xBdhFm7RlNe_PlB0Zt1mV0m6x5uU,143
+avishan/__pycache__/middlewares.cpython-37.pyc,sha256=dKj_oxCxdub8HrQQ9aoQgXimf0uVjcduOJTsJTtpgDA,1415
+avishan/__pycache__/stage.cpython-37.pyc,sha256=oD6g72LEN_EZ7O8sojtkLIZ_KcoxqW5qwLe2VwxNRyI,1011
+avishan/__pycache__/utils.cpython-37.pyc,sha256=CACyBmPCfn_2P0E4qbKWGrng7z9PLWeNbnP-vm69My4,1799
+avishan/__pycache__/views.cpython-37.pyc,sha256=hzxdqlM2Mh2gItjkgb-lgwgLnLkfiUu8nZ0OC4cVzl8,1226
+falcon_avishan-0.0.2.dist-info/LICENSE,sha256=anFLI1ECMbCGMx2t9JNsdX5z0XNds-bY5Y9tqq2ADIs,1072
+falcon_avishan-0.0.2.dist-info/METADATA,sha256=s_AB5owJ42hTo25w-uUchfoj7szLuO0xAauRb_YKniI,1795
+falcon_avishan-0.0.2.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+falcon_avishan-0.0.2.dist-info/top_level.txt,sha256=FtzDdcrCcvc-uYpDa2SDRjo6MaBWAj-EJaEROqHO6K4,8
+falcon_avishan-0.0.2.dist-info/RECORD,,
