@@ -1,0 +1,10 @@
+lvbdist/__init__.py,sha256=kRwF1_CsBU3zUW6r0dLCkeom0tDG1hwjUKar_uZHGyE,4695
+lvbdist/_lvbdist.cp38-win32.pyd,sha256=bSu9nJUyOeieOFuQ2h2yEHldxrJPNrux3Z4q2AompFo,14848
+lvbdist/lvbdist_back.c,sha256=Ei6QspOv8_QuxhxrgDT9tuGUZYjyPcETs4t23YhXqJQ,4048
+lvbdist/lvbdistcalcs/prob_func.c,sha256=WZHRc89IdpVMiHk9HFZ-oG23ECbNdW2rvvnYS4TKRUY,6016
+lvbdist/lvbdistcalcs/prob_func.h,sha256=HQi3Vhfx3egNR4Zrn6q7jwZkgZPUcPJSNzcB0ZYV2wE,3515
+linearly_varying_binomial_distribution-1.0.1.dist-info/LICENSE,sha256=AadbboEJM5s5FQX_jpcjrJLOlms_gBp-sf5n8KZ533g,1060
+linearly_varying_binomial_distribution-1.0.1.dist-info/METADATA,sha256=ajPSIMDJk09Nv5zFR15pNArtyoqsN5jSBIWn-J9wgY4,3169
+linearly_varying_binomial_distribution-1.0.1.dist-info/WHEEL,sha256=4TRfulwMrP8YSxpInGvijpm1wI5U2HlC51tdD-QDOYU,101
+linearly_varying_binomial_distribution-1.0.1.dist-info/top_level.txt,sha256=p3X-H--kxJio5io4_rBUsh3IRUsKzuw9hnuYCRCbrcA,8
+linearly_varying_binomial_distribution-1.0.1.dist-info/RECORD,,
