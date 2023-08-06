@@ -1,0 +1,10 @@
+setup.py
+iyzipy/__init__.py
+iyzipy/iyzipy.py
+iyzipy/pki_builder.py
+iyzipy/resources.py
+iyzipy.egg-info/PKG-INFO
+iyzipy.egg-info/SOURCES.txt
+iyzipy.egg-info/dependency_links.txt
+iyzipy.egg-info/requires.txt
+iyzipy.egg-info/top_level.txt
