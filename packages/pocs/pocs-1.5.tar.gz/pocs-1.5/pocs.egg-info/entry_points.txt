@@ -1,0 +1,5 @@
+[console_scripts]
+poc-s = pocs.pocs:main
+pocs = pocs.pocs:main
+pocs_dnslog = pocs.pocs_dnslog:main
+
