@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: fastapi-security-typeform
+Version: 1.0.0
+Summary: 
+Home-page: https://github.com/piterpy-meetup/fastapi-security-typeform
+License: MIT
+Keywords: fastapi,fastapi security,typeform,signature header,http signatures,typeform webhhok,hmac sha256
+Author: Dima Boger
+Author-email: meetup@piterpy.ru
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: fastapi
+Project-URL: Repository, https://github.com/piterpy-meetup/fastapi-security-typeform
+Description-Content-Type: text/markdown
+
+# fastapi-security-typeform
+
+Security plugin for [FastAPI](https://github.com/tiangolo/fastapi) which allows you check 
+[Typeform signature](https://developer.typeform.com/webhooks/secure-your-webhooks/) in your webhook endpoint. 
+
+## How to setup signing flow for your typeform webhook
+
+**Current flow** is here https://developer.typeform.com/webhooks/secure-your-webhooks/
+
+tl;dr:
+ * [create personal access token](https://developer.typeform.com/get-started/personal-access-token/)
+ * generate random string (secret)
+ * curl to create new webhook
+ ```
+curl --request PUT \
+  --url https://api.typeform.com/forms/{form_id}/webhooks/{tag} \
+  --header 'Authorization: bearer {your_access_token}' \
+  --header 'Content-Type: application/json' \
+  -d '{"url":"https://{webhook_endpoint}", "enabled":true, "secret": "{your_secret}"}'
+``` 
+
+
+## How to use
+
+Use pip or another package management util:
+```bash
+pip install fastapi-security-typeform
+```
+
+or
+
+```bash
+poetry add fastapi-security-typeform
+```
+
+or
+
+```bash
+pipenv install fastapi-security-typeform
+```
+
+Then initialize it with your webhook secret and pass it to endpoint as dependency.
+
+It will raise 403 error if signature isn't valid.
+
+```python
+from fastapi import Depends, FastAPI
+
+from fastapi_security_typeform import SignatureHeader
+
+app = FastAPI()
+signature_header_security = SignatureHeader(secret=b'{your_secret}')
+
+@app.post("/typeform_webhook")
+def typeform_webhook(signature = Depends(signature_header_security)):
+    ...
+    return {"success": True}
+
+```
+
