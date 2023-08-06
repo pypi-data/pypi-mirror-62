@@ -1,0 +1,3 @@
+[console_scripts]
+pynb2docker = pynb2docker.generator:sys_main
+

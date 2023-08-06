@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pynb2docker
+Version: 0.0.1
+Summary: Library for turning Python Jupyter Notebooks into Docker images.
+Home-page: https://github.com/fracpete/pynb2docker
+Author: Peter "fracpete" Reutemann
+Author-email: fracpete@gmail.com
+License: Apache Software License 2.0
+Description:  Library for turning Python Jupyter Notebooks into Docker images. 
+        Changelog
+        =========
+        
+        0.0.1 (????-??-??)
+        ------------------
+        
+        - initial release
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3

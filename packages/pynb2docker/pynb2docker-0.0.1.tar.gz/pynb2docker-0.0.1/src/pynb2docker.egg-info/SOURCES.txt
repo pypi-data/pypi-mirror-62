@@ -1,0 +1,12 @@
+CHANGES.rst
+DESCRIPTION.rst
+MANIFEST.in
+README.md
+setup.py
+src/pynb2docker/__init__.py
+src/pynb2docker/generator.py
+src/pynb2docker.egg-info/PKG-INFO
+src/pynb2docker.egg-info/SOURCES.txt
+src/pynb2docker.egg-info/dependency_links.txt
+src/pynb2docker.egg-info/entry_points.txt
+src/pynb2docker.egg-info/top_level.txt
