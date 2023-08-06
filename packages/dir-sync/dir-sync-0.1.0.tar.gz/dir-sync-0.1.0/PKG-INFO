@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: dir-sync
+Version: 0.1.0
+Summary: Sync files in the local folder with files in the remote location, e.g. Google Drive.
+Home-page: https://github.com/mingchaoliao/dir-sync
+Author: Mingchao Liao
+Author-email: mingchaoliao95@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
