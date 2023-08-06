@@ -1,0 +1,182 @@
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# Pip's cache doesn't store the python packages
+# https://pip.pypa.io/en/stable/reference/pip_install/#caching
+#
+# If you want to also cache the installed packages, you have to install
+# them in a virtualenv and cache it as well.
+stages:
+  - init
+  - build
+  - test
+  - doc
+  - release
+
+
+.virtualenv_template: &virtualenv_definition |
+  pip install -U pip setuptools wheel
+  [ ! -d 'venv' ] && python -m venv venv
+  source venv/bin/activate
+  JPP_DIR=jpp pip install .
+
+.dependencies_template: &dependencies_template |
+  [ ! -d 'jpp' ] && git clone https://$KM3NET_USERNAME:$KM3NET_PASSWORD@git.km3net.de/common/jpp.git
+
+
+.junit_template: &junit_definition
+    artifacts:
+      reports:
+        junit: "reports/junit*.xml"
+
+
+download-pdfs:
+    image: docker.km3net.de/base/ci-helper:1
+    stage: init
+    script:
+        - '[ ! -d "pdfs" ] && mkdir pdfs && cd pdfs && for i in {1..6}; do wget "http://pi1139.physik.uni-erlangen.de/data/latest/J${i}p.dat" ; done'
+    artifacts:
+      paths:
+        - pdfs
+    cache:
+      paths:
+        - pdfs
+
+build-jpp-master-py35:
+    image: docker.km3net.de/base/python:3.5
+    stage: build
+    script:
+        - *dependencies_template
+        - *virtualenv_definition
+    cache:
+      paths:
+        - venv
+    artifacts:
+      paths:
+        - venv
+
+build-jpp-master-py36:
+    image: docker.km3net.de/base/python:3.6
+    stage: build
+    script:
+        - *dependencies_template
+        - *virtualenv_definition
+    cache:
+      paths:
+        - venv
+    artifacts:
+      paths:
+        - venv
+        
+build-jpp-master-py37:
+    image: docker.km3net.de/base/python:3.7
+    stage: build
+    script:
+        - *dependencies_template
+        - *virtualenv_definition
+    cache:
+      paths:
+        - venv
+    artifacts:
+      paths:
+        - venv
+        
+build-jpp-master-py38:
+    image: docker.km3net.de/base/python:3.8
+    stage: build
+    script:
+        - *dependencies_template
+        - *virtualenv_definition
+    cache:
+      paths:
+        - venv
+    artifacts:
+      paths:
+        - venv
+        
+test-jpp-master-py35:
+    image: docker.km3net.de/base/python:3.5
+    stage: test
+    script:
+        - ls -al
+        - ls -al venv
+        - source venv/bin/activate
+        - which python
+        - pip list
+        - pip install -U pytest
+        - pytest
+    dependencies:
+        - build-jpp-master-py35
+        - download-pdfs
+
+test-jpp-master-py36:
+    image: docker.km3net.de/base/python:3.6
+    stage: test
+    script:
+        - ls -al
+        - ls -al venv
+        - source venv/bin/activate
+        - which python
+        - pip list
+        - pip install -U pytest
+        - pytest
+    dependencies:
+        - build-jpp-master-py36
+        - download-pdfs
+
+test-jpp-master-py37:
+    image: docker.km3net.de/base/python:3.7
+    stage: test
+    script:
+        - ls -al
+        - ls -al venv
+        - source venv/bin/activate
+        - which python
+        - pip list
+        - pip install -U pytest
+        - pytest
+    dependencies:
+        - build-jpp-master-py37
+        - download-pdfs
+
+test-jpp-master-py38:
+    image: docker.km3net.de/base/python:3.8
+    stage: test
+    script:
+        - ls -al
+        - ls -al venv
+        - source venv/bin/activate
+        - which python
+        - pip list
+        - pip install -U pytest
+        - pytest
+    dependencies:
+        - build-jpp-master-py38
+        - download-pdfs
+
+pages:
+    image: docker.km3net.de/base/python:3.8
+    stage: doc
+    script:
+        - pip install -U sphinx
+        - cd docs && make clean && make html && cd ..
+        - mv docs/_build/html public/
+        - cp -R examples public/
+    artifacts:
+        paths:
+            - public
+    cache: {}
+    only:
+        - tags
+        - master
+
+pypi:
+    image: docker.km3net.de/base/python:3.8
+    stage: release
+    cache: {}
+    script:
+        - pip install -U twine setuptools
+        - python setup.py sdist
+        - twine upload dist/*
+    only:
+        - tags
