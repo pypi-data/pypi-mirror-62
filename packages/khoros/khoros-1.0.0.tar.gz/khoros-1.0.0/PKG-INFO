@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: khoros
+Version: 1.0.0
+Summary: Useful tools and utilities to assist in managing a Khoros Community (formerly Lithium) environment.
+Home-page: https://github.com/jeffshurtliff/khoros
+Author: Jeff Shurtliff
+Author-email: jeff.shurtliff@rsa.com
+License: UNKNOWN
+Description: # Khoros Community Python Library
+        The  **khoros**  library acts as a Python software development kit (SDK) to administer and manage 
+        [Khoros Community](https://developer.khoros.com/khoroscommunitydevdocs) (formerly Lithium)  online community platforms.
+        
+        ## Installation
+        The package can be installed via pip using the syntax below.
+        
+        ``` sh
+        pip install khoros
+        ```
+        
+        You may also clone the repository and install from source using the syntax below.
+        
+        ``` sh
+        git clone git://github.com/jeffshurtliff/khoros.git
+        cd khoros/
+        python setup.py install
+        ```
+        
+        ## License
+        [MIT License](https://github.com/jeffshurtliff/khorosjx/blob/master/LICENSE)
+        
+        # Reporting Issues
+        Issues can be reported within the [GitHub repository](https://github.com/jeffshurtliff/khoros/issues).
+        
+        # Disclaimer
+        This package is considered unofficial and is in no way endorsed or supported by [Khoros](https://www.khoros.com).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Message Boards
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Requires-Python: >=3.6, <3.8.1
+Description-Content-Type: text/markdown
