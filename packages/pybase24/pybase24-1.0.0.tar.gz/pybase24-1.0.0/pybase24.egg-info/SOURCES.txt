@@ -1,0 +1,8 @@
+README.md
+setup.py
+pybase24/__init__.py
+pybase24/base24.py
+pybase24.egg-info/PKG-INFO
+pybase24.egg-info/SOURCES.txt
+pybase24.egg-info/dependency_links.txt
+pybase24.egg-info/top_level.txt
