@@ -1,0 +1,9 @@
+confidential/__init__.py,sha256=Qrh1a3dofMvur2-G1eb4pBZxUn830OIEA06K3BnY-wg,108
+confidential/exceptions.py,sha256=01tJZmcPlSDoLSof6DqCErPAeBCJKZPuNHOsMVQ_8qo,43
+confidential/secrets_manager.py,sha256=kf6CHMvdRCVGaJpcepTQdbPNfX6m1BlnKxrvbD-hAvU,5010
+confidential/utils.py,sha256=qKQhGcLRnUGoilDrX-AvZrO-Le7IKgJ6R4uRic9FcMw,514
+confidential-2.3.0.dist-info/entry_points.txt,sha256=LPPp5buxQQkvg-9FGhE9424zE1tKnvcD_5NC2V3-ojA,76
+confidential-2.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+confidential-2.3.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+confidential-2.3.0.dist-info/METADATA,sha256=kALi21ztCiwAkYWUGcetpGtInmqQBScOg-6Nee8H0PA,474
+confidential-2.3.0.dist-info/RECORD,,
