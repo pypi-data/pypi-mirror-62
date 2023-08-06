@@ -1,0 +1,14 @@
+missive/__init__.py,sha256=piA-DBEXcYd4_cEzGXx1Z49CFYtzDJ0ALxBJcvR0o14,42
+missive/messages.py,sha256=FYKIFLtR1ivMW_891O2L9Wo5qBPZyidZCr9Ah08i35s,205
+missive/missive.py,sha256=2mvwBcn1w3oYJmsHlWeElwNC0EX0gVlcV5MCJiJSsOA,3511
+missive/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+missive/adapters/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+missive/adapters/stdin.py,sha256=nkRF7iQF0jgg_ZRp1CZpPWF9V5bgdzIulBhe5min9Dc,377
+missive/adapters/wsgi.py,sha256=zPvD1rwg-OFFfGCrjrxAFIZs9F-vlXxEJf_aOQGeY9s,617
+missive/dlq/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+missive/dlq/file.py,sha256=lJ9cLZL2NT_YbR3Ojc4nYQ7WmnEgveXuz4PTPVyHuVQ,425
+missive-0.1.dist-info/METADATA,sha256=azZ0YkBXcl_rhxDeqMo0vFUaXPCjq4EBBHjUHJssDME,554
+missive-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+missive-0.1.dist-info/top_level.txt,sha256=t_XuqBx-KORNi-dGPUfptBGvXCgPWdDGw7cF9rnZQUI,8
+missive-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+missive-0.1.dist-info/RECORD,,
