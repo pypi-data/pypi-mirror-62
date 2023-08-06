@@ -1,0 +1,15 @@
+image_pattern/__init__.py,sha256=90aY1jnnHptl91XkhHCYiNxeF-lrLFlYwpC94gvljUk,245
+image_pattern/context.py,sha256=ZeXsgFVn8z12xL1PjlhOW4_uwSCqT_7mc6w5CCVfHBk,384
+image_pattern/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_pattern/contrib/django.py,sha256=8UICVOTCSzQt7V0dL1V02Miw1LN3IXSdLPK2MNKmGv0,2131
+image_pattern/elements/__init__.py,sha256=QpGL-9SxKNMVO7f9Ua9-b-CFJYaKqEfeBuRo_v2y6Fw,179
+image_pattern/elements/base.py,sha256=0ObBjQswsFjywfh7c24GE_XPHpR5q9L94FBCdNQmEzc,2949
+image_pattern/elements/canvas.py,sha256=noNUc-pW0b9ux6v8e0LTG0_GWI6utd3kKMc72Q6EdFw,527
+image_pattern/elements/rectangle.py,sha256=jfBOyqQw_9D-MS28mBDBV0e4Hq6vsaue9Z5lvS3Hvq8,2739
+image_pattern/elements/text.py,sha256=tcvWmweJlVqIqhnkO1GVMv24ZZ4zqoysia77r2hudgw,6834
+image_pattern/layers.py,sha256=UIo3EQhDeQXvRAec7cqIzB6Dor66lvCW7IDPHUOuelk,2230
+image_pattern/patterns.py,sha256=mHhTiAClVczYl4OB9h4J5-n-IUdof65M94T5GdScCFE,785
+image_pattern/size.py,sha256=BUCqpMFSvBbszXbTyEyaUNXpjtrPdZ7cL5Vg75oos2Q,2535
+image_pattern-0.0.15.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+image_pattern-0.0.15.dist-info/METADATA,sha256=DPf_glNLfU_BcAtncNHFjH5uEaddyrwFXah8dn8xR24,360
+image_pattern-0.0.15.dist-info/RECORD,,
