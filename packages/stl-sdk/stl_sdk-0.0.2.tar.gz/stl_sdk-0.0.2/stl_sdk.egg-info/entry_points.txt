@@ -1,0 +1,3 @@
+[console_scripts]
+stl = stl_sdk.__main__:run
+
