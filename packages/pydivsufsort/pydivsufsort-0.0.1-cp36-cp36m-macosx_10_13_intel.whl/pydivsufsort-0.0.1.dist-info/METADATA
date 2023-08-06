@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pydivsufsort
+Version: 0.0.1
+Summary: String algorithms
+Home-page: https://github.com/louisabraham/pydivsufsort
+Author: Louis Abraham
+Author-email: louis.abraham@yahoo.fr
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wheel
+Requires-Dist: numpy
+
+1. `python -m pip install .`
+2. `pytest`
+
+
+
