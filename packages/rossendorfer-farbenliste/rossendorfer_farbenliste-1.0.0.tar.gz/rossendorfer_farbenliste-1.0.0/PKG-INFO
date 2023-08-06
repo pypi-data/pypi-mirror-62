@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rossendorfer_farbenliste
+Version: 1.0.0
+Summary: Definition of some colors and colorscales
+Home-page: UNKNOWN
+Author: Michal Smid
+Author-email: m.smid@hzdr.de
+License: UNKNOWN
+Description: rossendorfer_farbenliste
+        Written 2020, Michal Smid
+        
+        This package contains colors and colorscales which correspond to the style guideline of HZDR.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
