@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: bwtest
+Version: 1.5.87
+Summary: A fast backtest framework
+Home-page: http://www.gushi.com/
+Author: Leon
+Author-email: skyrecca@163.com
+License: Apache 2.0
+Description: only support python 3.7 windows 64bit 
+Keywords: pip,bw,financial analyze
+Platform: windows
+Requires-Python: >=3.7.0
