@@ -1,0 +1,12 @@
+log_labeler/__init__.py,sha256=8iaOJTyEV3UiaxGhw9pgbqhlvo8KiikLait14gZwse0,461
+log_labeler/decorators.py,sha256=kZaQX7mDSuM5OIx4c6xfTlIV6bH1_QG63Efc1JRpMV0,1649
+log_labeler/encoders.py,sha256=kue1EJijDgLeBWmAO8Dt3Fwdu7gdt-MM4JUTfUlR2zY,228
+log_labeler/filters.py,sha256=U0udoZl_HOlHfV3cdK1Wce-4Xxtz88CFgY9iLi7mLFk,789
+log_labeler/gunicorn_structlog_config.py,sha256=wztgSMbb6umIq6kjoibdGJHl5hYTeWkn-M7m0Usahmk,4463
+log_labeler/handlers.py,sha256=cQKOcj-qo5d9ISGWiGj-wxSm0yiLsO7EtwZEy_t9CBk,880
+log_labeler/middleware.py,sha256=FXbIVpmr9FiYN9P8V0B2WGrrxH3wV1SXOlkNK2Fb9D4,4701
+log_labeler/utils.py,sha256=U0MHxLylWx5R_cWsPlIA2JlPmE4p8HdAJCt3Ju5KZ5o,1133
+django_log_labeler-0.0.22.dist-info/METADATA,sha256=xccIO0H4a1I2sJJkhnVJNhUOVnaIB8N7I-uca0MLidI,3868
+django_log_labeler-0.0.22.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_log_labeler-0.0.22.dist-info/top_level.txt,sha256=gYw416_Ipkz23DVNDj48DtIRDldDB2_1aLe0tv1jyIc,12
+django_log_labeler-0.0.22.dist-info/RECORD,,
