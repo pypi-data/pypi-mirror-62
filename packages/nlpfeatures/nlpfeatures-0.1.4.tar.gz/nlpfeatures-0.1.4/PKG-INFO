@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nlpfeatures
+Version: 0.1.4
+Summary: add-on library nlp primitives
+Home-page: https://github.com/chekrizh/nlpfeaturespip install twine
+Author: chekrizh
+Author-email: chekrizh@gmail.com
+License: UNKNOWN
+Description: for reading documentation check repo in github https://github.com/chekrizh/nlpfeatures
+Platform: UNKNOWN
