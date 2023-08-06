@@ -1,0 +1,3 @@
+[console_scripts]
+bca4abm = bca4abm.cli.main:main
+
