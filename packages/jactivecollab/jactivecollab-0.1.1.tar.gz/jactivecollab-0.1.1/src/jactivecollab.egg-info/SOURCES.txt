@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/jactivecollab.py
+src/jactivecollab.egg-info/PKG-INFO
+src/jactivecollab.egg-info/SOURCES.txt
+src/jactivecollab.egg-info/dependency_links.txt
+src/jactivecollab.egg-info/requires.txt
+src/jactivecollab.egg-info/top_level.txt
