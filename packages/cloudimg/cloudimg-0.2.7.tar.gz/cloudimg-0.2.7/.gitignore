@@ -1,0 +1,10 @@
+*.py[cod]
+__pycache__/
+.*.swp
+*.egg-info
+.coverage
+.tox/
+cover/
+dist/
+build/
+venv/
