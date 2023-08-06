@@ -1,0 +1,6 @@
+spectra_torch/__init__.py,sha256=ERmmOxz_9mUkIuccNbzUa5Y6gVLLVDdyc4cCxbCCUbY,20
+spectra_torch/base.py,sha256=lvv6hg5fKyf5QuR6X8gnCbNHT-qb9SRd9N2pkyDZF-g,12083
+spectra_torch-0.3.0.dist-info/METADATA,sha256=4SdXf5gaTJGAzJwGIaFbKMt340fbhhOf57G1768fLhI,2495
+spectra_torch-0.3.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+spectra_torch-0.3.0.dist-info/top_level.txt,sha256=Gy_fkGpmC95lKd0z5zgWgb_XMSSZEyxv4OrsEdGgzxY,14
+spectra_torch-0.3.0.dist-info/RECORD,,
