@@ -1,0 +1,7 @@
+setup.py
+test/__init__.py
+test/test.py
+yctest.egg-info/PKG-INFO
+yctest.egg-info/SOURCES.txt
+yctest.egg-info/dependency_links.txt
+yctest.egg-info/top_level.txt

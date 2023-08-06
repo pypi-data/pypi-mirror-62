@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: yctest
+Version: 0.0.1
+Summary: An feature extraction algorithm
+Home-page: UNKNOWN
+Author: yaoc15
+Author-email: 940609536@qq.com
+License: MIT Licence
+Description: An feature extraction algorithm, improve the FastICA
+Keywords: pip,yctest
+Platform: any
