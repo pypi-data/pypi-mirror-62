@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: summarizer4u
+Version: 0.3.2
+Summary: Get your text summarized
+Home-page: https://github.com/Navan0
+Author: Navaneeth KT
+Author-email: nktclt@gmail.com
+License: UNKNOWN
+Description:  Get your text summarized ! 
+         
+         from summarizer4u import summary 
+         
+         text = summary("your text go here") 
+         
+         print(text) 
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
