@@ -1,0 +1,4 @@
+[console_scripts]
+PlantSetup = PlantStation.Configure:run
+PlantStation = PlantStation.App:run
+
