@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hirmeos-crossref-citedby-driver
+Version: 0.0.1
+Summary: Functions required by the crossref-citedby-driver
+Home-page: https://github.com/hirmeos/crossref-citedby-driver
+Author: Rowan Hatherley
+Author-email: rowan.hatherley@ubiquitypress.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.8.0)
+Requires-Dist: lxml (==4.4.1)
+Requires-Dist: requests (==2.22.0)
+
+# crossref-citedby-driver
+
+
