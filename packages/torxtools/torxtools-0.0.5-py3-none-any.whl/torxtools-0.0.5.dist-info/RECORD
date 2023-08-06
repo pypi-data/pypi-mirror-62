@@ -1,0 +1,9 @@
+torxtools/__init__.py,sha256=EOLxwJtWQ7-3oXp99_UgacnllpDzvV85u3dJNpuqT6g,74
+torxtools/cfgutils.py,sha256=oGPu4TALoZAb5OB1Mt825kD629l8D4SQIpeRz6W4sp0,1807
+torxtools/pathutils.py,sha256=t8hMMm5HLb-mgcLFIiNSTAMpC0vt1NfHs-gRGEf6anc,1189
+torxtools/xdgutils.py,sha256=ttulaR4kfvondpgO_lAMOIPWAPXM-VAC2-kVbIXCDT8,1586
+torxtools-0.0.5.dist-info/LICENSE,sha256=gUH1Vc9QlvG7P_QGRBS3DhPStK-WOh5Ji9AyLjcw7pE,1081
+torxtools-0.0.5.dist-info/METADATA,sha256=-JUwFFGJlAcfuz3fgtsvEu_xpPL_ERTe8NafeqtQkfY,703
+torxtools-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+torxtools-0.0.5.dist-info/top_level.txt,sha256=ojtjFEyjpBie2sIv6jwK4PId1cKMaOdEONYFOwnmRX0,10
+torxtools-0.0.5.dist-info/RECORD,,
