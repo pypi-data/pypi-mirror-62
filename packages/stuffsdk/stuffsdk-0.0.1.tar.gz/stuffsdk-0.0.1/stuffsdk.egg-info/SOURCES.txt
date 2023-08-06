@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/__init__.py
+src/stuffsdk.py
+stuffsdk.egg-info/PKG-INFO
+stuffsdk.egg-info/SOURCES.txt
+stuffsdk.egg-info/dependency_links.txt
+stuffsdk.egg-info/entry_points.txt
+stuffsdk.egg-info/top_level.txt

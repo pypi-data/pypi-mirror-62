@@ -1,0 +1,3 @@
+[console_scripts]
+stuffsdk = src.stuff_mining:main
+
