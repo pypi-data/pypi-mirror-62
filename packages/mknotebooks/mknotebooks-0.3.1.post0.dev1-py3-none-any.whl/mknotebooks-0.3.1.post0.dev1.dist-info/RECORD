@@ -1,0 +1,15 @@
+mknotebooks/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+mknotebooks/_version.py,sha256=zzXDJAtgZFFMPgMg7AVGFCNv6m4JUho2r6JuJ7HD1nA,507
+mknotebooks/extra_args_execute_preprocessor.py,sha256=DKJF-c45T5Lst8yIvooOUc3Q9J_2WFlGRKmH9OwLkT4,206
+mknotebooks/pandas_output_formatter.py,sha256=OfCLDVYARk9Z43fxyKYWJHcEJ_D-jhIjw17b88wKArs,359
+mknotebooks/plugin.py,sha256=09H11D6Z_tVMNioh-by_qtN2fvjGzP3LPuH8Y4Z9MZo,7799
+mknotebooks/templates/ansi-colours.css,sha256=xmZGgGrfNm_-BsTEefjJtJA5IUSZMK_7lrefaX5AzCY,2778
+mknotebooks/templates/custom_markdown.tpl,sha256=8lbPo5poftxfvAXchmls7Y6aILXK6gThEU8FulB0HtI,6235
+mknotebooks/templates/jupyter-cells.css,sha256=8Gwk_1FYXkYGcAPdW_s_7MdppYxBOcVR63ufBfca_lo,167
+mknotebooks/templates/pandas-dataframe.css,sha256=YJJomO4z2EW2-2eT8BRDpSm0fdc4rsSjSr6vVOrINe8,606
+mknotebooks-0.3.1.post0.dev1.dist-info/LICENSE,sha256=CwvjtIDDWUr3GFIL1rFigM_JZyLi6EIhhnhzeV4gQ0M,1069
+mknotebooks-0.3.1.post0.dev1.dist-info/METADATA,sha256=mWdWJrOb8bThjtnGDCr4L-SdzUY7ybMiAyhiBRMVKqA,2702
+mknotebooks-0.3.1.post0.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mknotebooks-0.3.1.post0.dev1.dist-info/entry_points.txt,sha256=nj_6exIdPvZgRnrbAXILTtgH4uHhxV-WI2De3IiuiFw,58
+mknotebooks-0.3.1.post0.dev1.dist-info/top_level.txt,sha256=nPJEeaIhj8tOEvqAhTxmuy3KkHt5h3cyHdfFfuBp2Xc,12
+mknotebooks-0.3.1.post0.dev1.dist-info/RECORD,,
