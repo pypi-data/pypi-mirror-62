@@ -1,0 +1,10 @@
+README.md
+setup.py
+zenpi/__init__.py
+zenpi/zenpi.py
+zenpi.egg-info/PKG-INFO
+zenpi.egg-info/SOURCES.txt
+zenpi.egg-info/dependency_links.txt
+zenpi.egg-info/entry_points.txt
+zenpi.egg-info/requires.txt
+zenpi.egg-info/top_level.txt
