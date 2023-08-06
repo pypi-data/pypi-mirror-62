@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.json
+setup.py
+aiida_porousmaterials/__init__.py
+aiida_porousmaterials.egg-info/PKG-INFO
+aiida_porousmaterials.egg-info/SOURCES.txt
+aiida_porousmaterials.egg-info/dependency_links.txt
+aiida_porousmaterials.egg-info/entry_points.txt
+aiida_porousmaterials.egg-info/requires.txt
+aiida_porousmaterials.egg-info/top_level.txt
+aiida_porousmaterials/calculations/__init__.py
+aiida_porousmaterials/parser/__init__.py
+aiida_porousmaterials/utils/__init__.py
+aiida_porousmaterials/utils/base_parser.py
+aiida_porousmaterials/utils/input_generator.py
