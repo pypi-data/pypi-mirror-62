@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pythonista-anchor
+Version: 1.0
+Summary: Pythonista UI layouts using relative constraints instead of coordinate
+Home-page: https://github.com/mikaelho/pythonista-uiconstraints
+Author: Mikael Honkala
+Author-email: mikael.honkala@gmail.com
