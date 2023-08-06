@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: arpa2.quickder-tools
+Version: 1.4.0
+Summary: Quick DER -- Tools to work with ASN.1 specifications
+Home-page: https://gitlab.com/arpa2/quick-der
+Author: Rick van Rein (for the ARPA2 Quick DER project)
+Author-email: rick@openfortress.nl
+License: UNKNOWN
+Description: # Quick DER Tools
+        
+        > *Quick DER is a mixture of tools, libraries and precompiled ASN.1 specifications.*
+        
+        The following tools are available:
+        
+          * `asn2quickder` to parse an ASN.1 specification, and map each to a C header file or Python module.
+        
+          * `asn1literate` to extract ASN.1 from Markdown code fragments.
+        
+          * `derdump` to view DER files.
+        
+        
+        ## An eye on DER
+        
+        ![This is what derdump looks like](img/derdump-screenshot.png)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: RUNTIME

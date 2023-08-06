@@ -1,0 +1,5 @@
+[console_scripts]
+asn1literate = arpa2.quickder_tools.asn1literate:main
+asn2quickder = arpa2.quickder_tools.asn2quickder:main
+derdump = arpa2.quickder_tools.derdump:main
+

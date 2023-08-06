@@ -1,0 +1,6 @@
+asn1ate>=0.6.0
+colored
+six
+
+[RUNTIME]
+arpa2.quickder
