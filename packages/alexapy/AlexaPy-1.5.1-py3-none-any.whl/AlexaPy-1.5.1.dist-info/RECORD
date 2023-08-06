@@ -1,0 +1,14 @@
+alexapy/__init__.py,sha256=ncn04qzNh74WGvJlLe2Gc-sKzp3Dylp9JzWnN43FHDI,728
+alexapy/__version__.py,sha256=aeDtGqixbHX69bKGuGRutev0TsNbeZLCWhhJtev_saU,305
+alexapy/alexaapi.py,sha256=6C6w8cg3zhZavPKg0pMzcnWRjHzElqbuHWZgeG-w5kE,32677
+alexapy/alexalogin.py,sha256=gnl-UdBLbIXOHc6IC5tTX8Wr54ktrHZh9pKvPG4IZn0,28479
+alexapy/alexawebsocket.py,sha256=zp_rjQPA95nNPmNJB2mImiCdEV3h_69oZzbEAookPUM,12475
+alexapy/cookiejar.py,sha256=CBJ3M-Mg7SGATHJo_lyzbXWtwIwrK44fzPI-JriQExU,5702
+alexapy/errors.py,sha256=b2baezt-3_P4u0aZhOX8uf0YdjF6GAxEar2AGEzLndc,677
+alexapy/helpers.py,sha256=gw0hBoSvKbg_iCGDij9H_5pRqUZu6dVfDBHY79rwY6g,2983
+AlexaPy-1.5.1.dist-info/AUTHORS.md,sha256=KSbXpkhAQLKw_wqdU3kfveFIL8QAK755IVou1KhqtS8,427
+AlexaPy-1.5.1.dist-info/LICENSE,sha256=Lh-qBbuRV0-jiCIBhfV7NgdwFxQFOXH3BKOzK865hRs,10480
+AlexaPy-1.5.1.dist-info/METADATA,sha256=zdLsebRAiZ4lT35BCXfRxNBKx25XZsuWbNOLkpPtlE4,2352
+AlexaPy-1.5.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+AlexaPy-1.5.1.dist-info/top_level.txt,sha256=2K3__GlzTpZOFhbh86l6Ea3i6OrqcQQzfjEw04g82aI,8
+AlexaPy-1.5.1.dist-info/RECORD,,
