@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gapy-theMladyPan
+Version: 0.0.1
+Summary: Genetic Algorithm, Python implementation
+Home-page: https://github.com/themladypan/pyga
+Author: Stanislav Rubint
+Author-email: stanislav@rubint.sk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pyga
+python genetic algorithm implementation
+
+
