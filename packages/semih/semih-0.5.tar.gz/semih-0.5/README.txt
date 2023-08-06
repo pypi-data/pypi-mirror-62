@@ -1,0 +1,1 @@
+Globally Accessible Library by Firat!!!

@@ -1,0 +1,7 @@
+README.txt
+setup.cfg
+setup.py
+semih.egg-info/PKG-INFO
+semih.egg-info/SOURCES.txt
+semih.egg-info/dependency_links.txt
+semih.egg-info/top_level.txt
