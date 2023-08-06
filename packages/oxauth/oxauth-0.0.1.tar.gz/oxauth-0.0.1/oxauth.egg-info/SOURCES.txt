@@ -1,0 +1,9 @@
+README.md
+setup.py
+oxauth/__init__.py
+oxauth/strategy_2.py
+oxauth.egg-info/PKG-INFO
+oxauth.egg-info/SOURCES.txt
+oxauth.egg-info/dependency_links.txt
+oxauth.egg-info/requires.txt
+oxauth.egg-info/top_level.txt
