@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: hanlingzhi-test
+Version: 0.0.1
+Summary: 验证打包功能的测试包, 请勿下载
+Home-page: https://github.com/hanlingzhi/TF-ByScenario
+Author: Han LingZhi
+Author-email: 343651570@qq.com
+License: MIT
+Description: # 韩灵稚打包测试
+        Hanlingzhi's Package PyPi Demo
+        ###工程结构说明
+        <pre>
+        .
+        ├── LICENSE.txt    	// 证书文件
+        ├── README.md		// MD文件
+        ├── hanlingzhi
+        │   ├── __init__.py
+        │   └── math_h.py
+        ├── setup.py			// 打包配置
+        └── string_h
+            ├── __init__.py
+            └── reverse.py
+        </pre>
+        ###测试服务器打包流程
+        * 升级setuptools和wheel包
+        <pre>python3 -m pip install --user --upgrade setuptools wheel</pre>
+        * 打包到本地文件
+        <pre>python3 setup.py sdist bdist_wheel
+        
+        
+        
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Keywords: hanlingzhi package demo
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
