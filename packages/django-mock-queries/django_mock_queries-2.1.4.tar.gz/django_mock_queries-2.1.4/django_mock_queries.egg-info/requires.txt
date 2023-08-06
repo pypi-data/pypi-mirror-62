@@ -1,0 +1,4 @@
+mock
+Django
+djangorestframework
+model-bakery==1.0.2
