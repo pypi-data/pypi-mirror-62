@@ -1,0 +1,9 @@
+sparse_dot_topn/__init__.py,sha256=8f0WdHXz4DKUmLO89lNRoX4-9CSrZ7UqFwWhL_jgnHE,174
+sparse_dot_topn/awesome_cossim_topn.py,sha256=w97_UIVmUu7jYYoMb3J3VID0iTODq1LeI3jSUWPHT2w,2435
+sparse_dot_topn/sparse_dot_topn.cpython-37m-darwin.so,sha256=Dg3FnLKydSHvjKlNn0peZClTU2Eh1a3GzUprZ25YV54,65644
+sparse_dot_topn/sparse_dot_topn_threaded.cpython-37m-darwin.so,sha256=hZA6apOK-BE-oo2GS2EotViXGIqjVl5WWMYMScu8J-4,79152
+sparse_dot_topn-0.2.7.dist-info/LICENSE,sha256=YjUMpko6gSoWuX5Q1VvRej9abh7IPmjoIjUa1cQcf-4,11375
+sparse_dot_topn-0.2.7.dist-info/METADATA,sha256=sZLXMxgj-_O6-htk_uflXf_Yi46A5zDKL-oU_4NnJk0,2172
+sparse_dot_topn-0.2.7.dist-info/WHEEL,sha256=3MaGW2p97bAuypYB82dW_j_Lc_Fni2yOyOJA9oupd_4,111
+sparse_dot_topn-0.2.7.dist-info/top_level.txt,sha256=1Qjv4Rbm7ZEr6nv2x3sUpVNnWAjAPW_U7PNsQLaibWE,16
+sparse_dot_topn-0.2.7.dist-info/RECORD,,
