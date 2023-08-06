@@ -1,0 +1,11 @@
+qcSubroutines/__init__.py,sha256=0Quqpyzvlji2Q13Qd5ULRgevaze2c67HjspZneVQGnY,291
+qcSubroutines/dist_calc.py,sha256=1naNGrf0AbDnNRF6uT_0IUrVBkgAIDw_P6tnFySrDUQ,5139
+qcSubroutines/duerr_hoyer.py,sha256=Jv1QQLSRPYxJzVjCiq5ai8TC--eMH0T1CZrXP0puj0A,3331
+qcSubroutines/grover.py,sha256=RiuVTe5UkVVe_Ho9Lror_DdDnbQs2riGPJOoJz7cTk4,1980
+qcSubroutines/quantum_phase_estimation.py,sha256=ywT9IJ-hPVWDfI-oZjBSfbLdMtIgnFDnIz3LDd8JwfI,2608
+qcSubroutines/swap_test.py,sha256=N_WYpEgELErUVHztrWCmcX104XwkKoTgjxu2t2zpr9M,1382
+qcSubroutines-0.1.1.dist-info/LICENCE.txt,sha256=P1BkiWgPfQ07e8gA_wxi2Vzlp7n_9so3RrN9nU7O1cM,1074
+qcSubroutines-0.1.1.dist-info/METADATA,sha256=VFqlfe9441Fp6Gw5DjpAlh-GZKJbBOjLmRjQMPQ96R8,608
+qcSubroutines-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+qcSubroutines-0.1.1.dist-info/top_level.txt,sha256=q1XN_6M6N1AUrcGQ1B6qDqo_bfh2u7bkF2413aYTJB0,14
+qcSubroutines-0.1.1.dist-info/RECORD,,
