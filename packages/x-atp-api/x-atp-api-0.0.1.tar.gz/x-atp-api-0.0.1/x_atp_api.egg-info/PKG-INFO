@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: x-atp-api
+Version: 0.0.1
+Summary: Interface test program for X automated test platform
+Home-page: https://github.com/hekaiyou/x-atp-api
+Author: HeKaiYou
+Author-email: hekaiyou@gmail.com
+License: UNKNOWN
+Description: # x-atp-api
+        
+        X automated test platform
+        
+Keywords: x,atp,api,test
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
