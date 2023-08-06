@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: imgvid-utils
+Version: 0.0.10
+Summary: A package that provides helpful utilities to interact with videos and images through OpenCV.
+Home-page: https://github.com/philippeitis/imgvid_utils
+Author: Philippe Solodov
+Author-email: solop1906@gmail.com
+License: UNKNOWN
+Description: # imgvid_utils
+        Provides helpful functions to interact with videos and images.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
