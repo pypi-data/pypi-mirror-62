@@ -1,0 +1,4 @@
+[console_scripts]
+sloth-buy = slothstock.scripts.sloth_buy:main
+sloth-sell = slothstock.scripts.sloth_sell:main
+
