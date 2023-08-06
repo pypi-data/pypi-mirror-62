@@ -1,0 +1,5 @@
+pyswd@ https://github.com/cortexm/pyswd/tarball/master
+tabulate
+tqdm
+argparse
+coloredlogs
