@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: cloc
+Version: 0.1.1
+Summary: Command Line Object Chaining (cloc) - Modern cli framework for simple and complex cli applications
+Home-page: https://www.github.com/tannerburns/cloc
+Author: Tanner Burns
+Author-email: tjburns102@gmail.com
+License: UNKNOWN
+Description: # Command Line Object Chaining - cloc
+        
+        <!--Badges-->
+        ![MIT badge](https://img.shields.io/badge/license-MIT-black)
+        ![Python3.6 badge](https://img.shields.io/badge/python-v3.6+-blue?logo=python&logoColor=yellow)
+        ![Platform badge](https://img.shields.io/badge/platform-linux%20%7C%20osx%20%7C%20win32-yellow)
+        
+            Modern cli framework for simple and complex cli applications
+        
+        # ToC
+        - [ Requirements ](#requirements)
+        - [ Installation ](#install)
+        - [ Information ](#information)
+        - [ Examples ](#examples)
+        <br><br>
+        
+        <a name="requirements"></a>
+        ## Requirements
+        * System
+            * Python 3.6+
+            
+        * Python Pip
+            * requests
+        <br><br>
+        
+        <a name="install"></a>
+        ## Installation
+         *Virtual Environment is recommended*
+        ```bash
+        $ git clone https://www.github.com/tannerburns/cloc
+        $ cd cloc
+        $ pip3 install .
+        ```
+        <br>
+        
+        <a name="information"></a>
+        ## Information
+            Command line framework for making simple and complex command line applications.
+        * Easily group commands together
+        * Connect commands with classes for querysets
+        * Create command line viewsets for abstracting user interaction on command querysets
+        <br><br>
+        
+        <a name="#examples"></a>
+        ## Examples
+        ```python
+        from cloc import cmd, grp, opt
+        from cloc.types import IntRange
+        
+        @grp('cli')
+        def cli():
+            """base cli"""
+            pass
+        
+        @cmd('hello')
+        @opt('--count', '-c', type=IntRange, default=1, help='Number of greetings: ex -c 0,5 OR -c 5')
+        @opt('--name', '-n', type=str, help='The person to greet')
+        def hello(count: IntRange, name: str):
+            """Simple program that greets NAME for a total of COUNT times."""
+            for _ in count:
+                print(f'Hello {name!r}')
+        
+        if __name__ == '__main__':
+            cli.add_command(hello)
+            cli()
+        ```
+            
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
