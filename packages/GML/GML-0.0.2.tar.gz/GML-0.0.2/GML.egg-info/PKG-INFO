@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: GML
+Version: 0.0.2
+Summary: Automatic Machine Learning with many powerful tools.
+Home-page: https://github.com/Muhammad4hmed/Ghalat-Machine-Learning
+Author: Muhammad Ahmed
+Author-email: m.ahmed.memonn@gmail.com
+License: MIT
+Description: Ghalat Machine Learning
+        
+        Everything will be updated soon.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

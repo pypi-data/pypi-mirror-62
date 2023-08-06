@@ -1,0 +1,3 @@
+[console_scripts]
+GML = GML.cli:main
+
