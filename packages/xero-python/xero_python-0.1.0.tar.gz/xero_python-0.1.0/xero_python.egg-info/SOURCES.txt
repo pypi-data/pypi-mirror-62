@@ -1,0 +1,12 @@
+AUTHORS.md
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+xero_python/__init__.py
+xero_python.egg-info/PKG-INFO
+xero_python.egg-info/SOURCES.txt
+xero_python.egg-info/dependency_links.txt
+xero_python.egg-info/top_level.txt
