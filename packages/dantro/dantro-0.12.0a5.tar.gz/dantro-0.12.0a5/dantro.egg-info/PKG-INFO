@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dantro
+Version: 0.12.0a5
+Summary: Loads, handles, and plots hierarchically structured data
+Home-page: https://ts-gitlab.iup.uni-heidelberg.de/utopia/dantro
+Author: dantro developers
+Author-email: dantro-dev@iup.uni.heidelberg.de
+License: LGPL-3.0-or-later
+Description: 
+        With dantro, hierarchically structured heterogeneous data can be loaded into a
+        uniform data structure, a so-called data tree. Furthermore, dantro provides
+        capabilities to generically work on and create plots from that data. The whole
+        package aims at implementing an abstract and homogeneous interface that allows
+        specializing the provided classes to the needs to the data that is to be worked
+        with. At the same time, it already provides useful functionality, which makes
+        specialization easier.
+        
+        Learn More
+        ----------
+        
+        For more information, visit the project page and have a look at the README:
+        https://ts-gitlab.iup.uni-heidelberg.de/utopia/dantro
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Provides-Extra: test_deps
+Provides-Extra: doc_deps
