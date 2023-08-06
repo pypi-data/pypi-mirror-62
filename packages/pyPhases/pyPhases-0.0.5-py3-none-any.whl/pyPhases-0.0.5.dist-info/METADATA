@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyPhases
+Version: 0.0.5
+Summary: A Framework for creating a boilerplate template for ai projects that are ready for MLOps
+Home-page: https://github.com/pypa/sampleproject
+Author: Franz Ehrlich
+Author-email: fehrlichd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyarrow
+
+# pyPhases
+
+A small framework for python projects that are mainly progress based.
+
+The main princible of the framework are `Phases`.
+
+## Phases
+A Phase has a `main` Method and can export data.
+
+## Stages
+
+Stages is a group of Phases and only have a name. A Stage can be run seperatly with `project.run("stagename")`
+
+
+
+# test
+
+
+
