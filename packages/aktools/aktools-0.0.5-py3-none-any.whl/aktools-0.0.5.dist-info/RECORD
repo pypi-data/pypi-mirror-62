@@ -1,0 +1,12 @@
+aktools/__init__.py,sha256=Z0el1QOLssA9EEQCVUFz21Tj_DC-F8zgOW_8CVxWbRU,337
+aktools/file_api/__init__.py,sha256=x5OeIYqJOYTidZ3G8w1VEsgv_hdU253Ff4oZXQVOU6I,139
+aktools/file_api/local_deploy.py,sha256=URmdgAtG3vrE5witI96WT4cB-eYzyJ_XglwS3DrG_7c,309
+aktools/news/__init__.py,sha256=x5OeIYqJOYTidZ3G8w1VEsgv_hdU253Ff4oZXQVOU6I,139
+aktools/news/news_api.py,sha256=7NvY7aU7YcAAWncDDzVIdSzGFKjvlR2p874l73LTYKo,1786
+tests/__init__.py,sha256=aAr8dWNOPZtVGp9UCpg-0jKXejPWNzyUGBP9jkLuHzE,137
+tests/test_demo.py,sha256=PUFfr3gAlqrmj_oIw4Yjn5a9ssf4AjA5WXjj2Rit3Vs,412
+aktools-0.0.5.dist-info/LICENSE,sha256=alDbfExfYdWOAAep-6xANIhc8xS7oWavHe5Ktq3Zer0,1089
+aktools-0.0.5.dist-info/METADATA,sha256=VPId8IFzHgjnboB6MNfu3CkzvYdt2_KTQueE3BcDux4,3204
+aktools-0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+aktools-0.0.5.dist-info/top_level.txt,sha256=3j-VL5MUTwuMtGprztz6hCrIxtOvmCLrHLK3mEhKDjk,14
+aktools-0.0.5.dist-info/RECORD,,
