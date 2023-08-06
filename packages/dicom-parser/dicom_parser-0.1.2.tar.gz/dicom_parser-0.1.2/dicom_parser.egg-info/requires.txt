@@ -1,0 +1,13 @@
+pydicom~=1.4
+nibabel~=3.0
+numpy~=1.18
+
+[dev]
+black==19.10b0
+coverage~=5.0
+doc8~=0.8
+flake8~=3.7
+ipython~=7.12
+pytest~=5.3
+sphinx~=2.4
+sphinx-rtd-theme~=0.4
