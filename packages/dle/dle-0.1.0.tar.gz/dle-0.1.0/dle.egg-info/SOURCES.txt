@@ -1,0 +1,8 @@
+README.md
+setup.py
+dle.egg-info/PKG-INFO
+dle.egg-info/SOURCES.txt
+dle.egg-info/dependency_links.txt
+dle.egg-info/entry_points.txt
+dle.egg-info/requires.txt
+dle.egg-info/top_level.txt
