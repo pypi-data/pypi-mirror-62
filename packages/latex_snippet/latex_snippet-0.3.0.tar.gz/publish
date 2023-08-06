@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -ev
+
+cargo publish
+
+wasm-pack build --target web
+
+pyo3-pack publish -b cffi -u David.Roundy
