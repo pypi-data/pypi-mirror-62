@@ -1,0 +1,7 @@
+gitlab-ci-pipeline-queue
+setup.py
+gitlab_ci_pipeline_queue.egg-info/PKG-INFO
+gitlab_ci_pipeline_queue.egg-info/SOURCES.txt
+gitlab_ci_pipeline_queue.egg-info/dependency_links.txt
+gitlab_ci_pipeline_queue.egg-info/requires.txt
+gitlab_ci_pipeline_queue.egg-info/top_level.txt
