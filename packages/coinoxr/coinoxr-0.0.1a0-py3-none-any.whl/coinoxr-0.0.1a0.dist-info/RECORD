@@ -1,0 +1,17 @@
+coinoxr/__init__.py,sha256=gnyTEfL1OAnxah8LTQAOTCBERvy0yJzZWYUFBxnPTn0,513
+coinoxr/client.py,sha256=Nqdvk3ZJuA9FaM574MCvPoWVsoTHLO-71QAm9ocjK0o,424
+coinoxr/convert.py,sha256=aOvtCXiHJDZHse6RB6ito6pBnbOc1q1lLuP8Gk9g1Vg,450
+coinoxr/currency.py,sha256=pC2xxdD7uMeV7e7PZyYRXIkm2zUgG5mXtthhz0sAHjc,548
+coinoxr/error.py,sha256=W7g1Oxc0ceijZlAsRAtwc7MrVSZL5iqU8tMJUI1CtK8,38
+coinoxr/historical.py,sha256=pM2eQwIBDYiyN29EdPfPsfALWFXUaGnP3KPPEUIgtCo,612
+coinoxr/latest.py,sha256=opC50SKhAIn0sCzbqH0LkT8s8a2M69w_SKn-eOc5FX0,574
+coinoxr/ohlc.py,sha256=tPnE3QlAaKEAKkwd6HDWbjnBCKM8BhH4f_kK2mrvI6M,634
+coinoxr/requestor.py,sha256=F3K1kdsaCRFPNegIjSTy0IzImX6-bDEKkdPtARpCJ38,896
+coinoxr/response.py,sha256=6stnOodEBPATjMr8ZkhK-i8Ohb7YFJqkUabpC06S2p0,100
+coinoxr/time_series.py,sha256=OpTstWspUrIwJqc6SDvstrgiEi4_TCsB7_qHO6r__n8,745
+coinoxr/usage.py,sha256=519hj4opsnoIGt22307bTSoPZZzOmN13Wkdqj5Gl_xc,347
+coinoxr-0.0.1a0.dist-info/LICENSE,sha256=OMK8zBSI1NK_pMLfkwdIf_dvcxP_QNgGyvXas1AhiJY,1069
+coinoxr-0.0.1a0.dist-info/METADATA,sha256=_Yb4bJQKch7WLCxj_nvl9Zn8V6e5ZnBNzF6PtXRAH7w,1117
+coinoxr-0.0.1a0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+coinoxr-0.0.1a0.dist-info/top_level.txt,sha256=P2UrxqNVPheMC9PpUnz1Q42d7jj95f-6d1Ijl5cvroo,8
+coinoxr-0.0.1a0.dist-info/RECORD,,
