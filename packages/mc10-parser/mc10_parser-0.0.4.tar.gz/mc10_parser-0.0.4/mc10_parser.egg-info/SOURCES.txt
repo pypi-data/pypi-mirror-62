@@ -1,0 +1,11 @@
+README.md
+setup.py
+mc10_parser/__init__.py
+mc10_parser/dataio.py
+mc10_parser/dictio.py
+mc10_parser/session.py
+mc10_parser.egg-info/PKG-INFO
+mc10_parser.egg-info/SOURCES.txt
+mc10_parser.egg-info/dependency_links.txt
+mc10_parser.egg-info/requires.txt
+mc10_parser.egg-info/top_level.txt
