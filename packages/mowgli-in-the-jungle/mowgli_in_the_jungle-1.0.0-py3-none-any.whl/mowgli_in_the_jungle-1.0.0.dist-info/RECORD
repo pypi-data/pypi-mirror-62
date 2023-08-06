@@ -1,0 +1,15 @@
+cfg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictor/predictor.py,sha256=qhIg4yjmmC_UDFJNzPUDSHU1NV2-sFL5K6Mz72QFGK4,383
+predictor/example_predictor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictor/example_predictor/example_predictor.py,sha256=D6rn5VpbE-PUnboBVlBWz7EFoRQkY5cu4ouVXvMVubo,698
+predictor/mowgli_predictor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictor/mowgli_predictor/mowgli_predictor.py,sha256=fpfSOaxgIUfHPdIJhjLMbu9bOnzoDAA_QvaS3ca5alY,621
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/ground.py,sha256=EIMEBYOrYbXcwXHxgNLvNVYm8SQM6wlfhcy-iGFzwf0,392
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/general.py,sha256=IldXyw2_Q3Wju6JBwpN9-0DMXn_Vwp7QacqGEqT7KXA,962
+mowgli_in_the_jungle-1.0.0.dist-info/METADATA,sha256=6m9bZ_f-t5b2_uq0O2xJIua0Afx3y0n8NKctleqODnE,9188
+mowgli_in_the_jungle-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mowgli_in_the_jungle-1.0.0.dist-info/top_level.txt,sha256=w8fiM1gzOgDnWjXt3HkZvrbff9FM8VRBneH9-bUsZjQ,26
+mowgli_in_the_jungle-1.0.0.dist-info/RECORD,,
