@@ -1,0 +1,3 @@
+[console_scripts]
+FIREcaller = FIREcaller.FIREcaller:main
+
