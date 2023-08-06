@@ -1,0 +1,7 @@
+aiohttp
+async_timeout
+asyncio
+datetime
+dateutil
+python-dateutil
+pytz
