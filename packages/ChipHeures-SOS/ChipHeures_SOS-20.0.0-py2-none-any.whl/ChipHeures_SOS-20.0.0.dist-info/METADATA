@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: ChipHeures-SOS
+Version: 20.0.0
+Summary: Tool for database maintenance of the Chip'heures web application
+Home-page: UNKNOWN
+Author: Laurent LAPORTE
+Author-email: tantale.solutions@gmail.com
+License: MIT
+Keywords: database,sqlite,maintenant,intranet,web,application
+Platform: posix
+Platform: nt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, <3
+Description-Content-Type: text/x-rst
+Requires-Dist: Click
+Provides-Extra: test
+
+===============
+Chip'heures SOS
+===============
+
+Tool for database maintenance of the Chip'heures web application.
+
+
+==========
+Change log
+==========
+
+v20.0.0 (2020-02-27)
+====================
+
+Features
+--------
+
+Main features:
+
+* ``list``:          List the database tables and show record counts.
+* ``list_orders``:   List the orders and show the close date.
+* ``close_orders``:  Close the "old" orders.
+* ``backup``:        Backup the database.
+
+

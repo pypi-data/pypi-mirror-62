@@ -1,0 +1,3 @@
+[console_scripts]
+chipheures_sos = chipheures_sos.cli:cli
+

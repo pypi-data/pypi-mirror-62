@@ -1,0 +1,12 @@
+chipheures_sos/__init__.py,sha256=F9LKRj_WAVE_L6_v3l_eW1kqCgUs1YULCSeB__2D-wY,131
+chipheures_sos/app.py,sha256=nth7NRzK5YyeUeND6URij6XUBmoaY-imGATQaGxTm9o,3764
+chipheures_sos/cli.py,sha256=WY79v_wfI4xF-q7uJpR95NDMz_gMFIcCyJfglJBqjXQ,3114
+chipheures_sos/db.py,sha256=1wQcqwdahOJvD38L7-upa4u9or_8Nnm_TdGWbzausf0,2551
+chipheures_sos/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chipheures_sos/model/oder.py,sha256=vq2J9uHOnGVW76C3zjFJ1dv9yWGXpnrVZlrfu0vJpeE,1236
+ChipHeures_SOS-20.0.0.dist-info/LICENSE.rst,sha256=3baTZJJ2SWGIVQtV_vN6m8f9vl32axvpVtB7q0BZeeM,1082
+ChipHeures_SOS-20.0.0.dist-info/METADATA,sha256=XKZbKmb5LFcdQlfkEG5bmDguHlbUZp-VztxTPnoHgOY,1231
+ChipHeures_SOS-20.0.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+ChipHeures_SOS-20.0.0.dist-info/entry_points.txt,sha256=AcCXLdkX8f8HsbkLJwwwocScwib66WNqW7Ejheivy0Q,59
+ChipHeures_SOS-20.0.0.dist-info/top_level.txt,sha256=0ofJA48prWUXqWO8u1glnDlwmx29sHEr05_J_BTO6AQ,15
+ChipHeures_SOS-20.0.0.dist-info/RECORD,,
