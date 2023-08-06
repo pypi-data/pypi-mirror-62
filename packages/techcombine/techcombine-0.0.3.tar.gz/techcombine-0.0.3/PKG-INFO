@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: techcombine
+Version: 0.0.3
+Summary: Techcombine framework for ecommerce
+Home-page: https://github.com/chinnawatp/techcombine-framework
+Maintainer: Techcombine developer team
+Maintainer-email: chin@techcombine.co
+License: MIT
+Description: # techcombine-framework
+        
+        ## Installation for everyone
+        ```bash
+        $pip install techcombine
+        ```
+        
+        ## Installation for Developer
+        ```bash
+        $pip install techcombine[dev]
+        ```
+        Now you can test this package by using ```pytest``` or ```pytest direstory/```, For example
+        ```bash
+        $pytest
+        # or
+        $pytest .\techcombine\tests\
+        ```
+        
+        ## Installation from sources
+        ```bash
+        (env)$python setup.py install
+        ```
+        
+        ## manual
+        ### class LINENotify
+        Method: **notify_hook(subtitle, api, token, data=None, \*\*kwargs)** Make webhook to Line Notify from your server<br>
+            return: request
+        ```python
+        from techcombine.utils import generate_notify_data
+        LINENotify.notify_hook(subtitle, data=None: dict, **kwargs)
+        
+        # When you use this method you need to defind variable in django.conf settings
+        LINE_NOTIFY_TOKEN = some sting + 'access_token'
+        LINE_NOTIFY_API = 'https://notify-api.line.me/api/notify'
+        
+        # Data example
+        data = {
+          "Order ID": order.slug,
+          "email": order.email,
+          "first_name": order.first_name,
+          "phone_number": order.phone_number,
+          "created_at": order.created_at,
+        } # Or use generate_notify_data(ojb)
+        ```
+        parameter:<br>
+        - subtitle: (str) Is subtitle of data hook to line notify chat
+        - data: (default=None/DictType only) Is dict of your all data to show in mail
+        - Or using **dict
+        
+        Method: **generate_notify_data(obj, key_type="id", header=None)** Generate dict data from django models object.
+            return: dict data format for using in notify_hook()
+        ```python
+        from techcombine.utils import generate_notify_data
+        data = generate_notify_data(ojb, key_type="id", header=None)
+        ```
+        parameter:<br>
+        - obj: (Django models object) field['obj.id or obj.slug', 'name', 'email', 'created_at', 'url'] ```#if header=None: data will doesn't have url field```
+        - key_type: (str) Type of object key from ID or Slug
+        - header: (str) For fill link url of object
+        
+        ### Class MailService
+        Method: **send_email(from_email, to_emails, subject, html_content, token)** Send email from from_email to to_email by sendgrid<br>
+                return request response
+        ```python
+        from techcobine.mail import MailService
+        import os
+        
+        from_email = 'from_email@example.com',
+        to_emails = 'to@example.com',
+        subject = 'For example subject',
+        html_content = '<strong>and easy to do anywhere, even with Python</strong>'
+        token = os.environ.get('SENDGRID_API_KEY')
+        
+        MailService.send_email(from_email, to_emails, subject, html_content, token)
+        ```
+        parameter:
+        - **from_email**: type(string), Is an email sender.
+        - **to_email**: type(string), Is an email recipients.
+        - **subject**: type(string), Is subject of this email.
+        - **html_content**: type(string), write html for render template on email.
+        - **token**: type(string), Is sendgrid api token.
+        
+        
+        Method: **send_verify_email(from_email, to_email, host_name, user_token, sendgrid_token, subject=None)** Send verify email from from_email to to_email by sendgrid<br>
+        return: request response
+        ```python
+        MailService.send_verify_email(from_email, to_email, host_name, user_tokenm sendrid_token)
+        ```
+        
+        Method: **send_reset_password(from_email, to_email, host_name, user_token, sendgrid_token, subject=None)** Send to reset password<br>
+        return: request response
+        ```python
+        Mail.Service.send_reset_password(from_email, to_email, host_name, user_tokenm sendrid_token)
+        ```
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Provides-Extra: dev

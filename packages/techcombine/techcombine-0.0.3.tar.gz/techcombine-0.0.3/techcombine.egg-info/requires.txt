@@ -1,0 +1,8 @@
+django==2.1.7
+djangorestframework==3.9.2
+Unidecode==1.0.23
+requests==2.21.0
+sendgrid==6.0.5
+
+[dev]
+pytest>=4.0.2
