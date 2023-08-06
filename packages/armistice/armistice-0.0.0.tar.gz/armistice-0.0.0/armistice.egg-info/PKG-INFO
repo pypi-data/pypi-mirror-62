@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: armistice
+Version: 0.0.0
+Summary: Hardware private key storage for next-generation cryptography
+Home-page: https://github.com/iqlusioninc/armistice/blob/develop/README.md
+Author: Tony Arcieri
+Author-email: tony@iqlusion.io
+License: Apache Software License
+Description: Hardware private key storage for next-generation cryptography (e.g. BLS) initially targeting USB armory Mk II devices from F-Secure
+Keywords: encryption,signing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers

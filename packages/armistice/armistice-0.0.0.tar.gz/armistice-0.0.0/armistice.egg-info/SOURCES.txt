@@ -1,0 +1,7 @@
+README.md
+setup.py
+armistice/__init__.py
+armistice.egg-info/PKG-INFO
+armistice.egg-info/SOURCES.txt
+armistice.egg-info/dependency_links.txt
+armistice.egg-info/top_level.txt
