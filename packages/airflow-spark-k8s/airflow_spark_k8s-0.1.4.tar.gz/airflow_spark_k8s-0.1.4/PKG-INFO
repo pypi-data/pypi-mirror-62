@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: airflow_spark_k8s
+Version: 0.1.4
+Summary: Airflow integration for Spark On K8s
+Home-page: http://pypi.python.org/pypi/airflow-spark-k8s/
+Author: Roi Teveth
+Author-email: roi.teveth@nielsen.com
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
