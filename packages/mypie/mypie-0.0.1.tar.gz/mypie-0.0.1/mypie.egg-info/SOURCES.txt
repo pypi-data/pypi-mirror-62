@@ -1,0 +1,6 @@
+README.md
+setup.py
+mypie.egg-info/PKG-INFO
+mypie.egg-info/SOURCES.txt
+mypie.egg-info/dependency_links.txt
+mypie.egg-info/top_level.txt

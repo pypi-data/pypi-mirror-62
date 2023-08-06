@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mypie
+Version: 0.0.1
+Summary: A small self help package
+Home-page: http://radiantinfonet.com/
+Author: Manmohan Mishra
+Author-email: manmohan.techie@gmail.com
+License: UNKNOWN
+Description: # Radiant Self Help Package
+        
+        This is a simple example package.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
