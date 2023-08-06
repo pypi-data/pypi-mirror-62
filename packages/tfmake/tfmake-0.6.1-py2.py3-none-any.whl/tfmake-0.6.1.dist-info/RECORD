@@ -1,0 +1,10 @@
+pyproject.toml,sha256=MWwvfo0SZgsbI4wROaSLuU6k127aN84XcAZwmby1NDA,485
+tfmake/Makefile.aws,sha256=cRjGpmAzGYO1nX6qQXMVau03EqSGByMvVEcPnk7XTgQ,3205
+tfmake/Makefile.azure,sha256=Hbsd6At28sK-NQnTIr26h79GEo4U78aQZo2DFDaR99w,3285
+tfmake/__init__.py,sha256=9mDxgYuFf5UT4uF3FXB0RY_W0oImm3EKSvsWwmv0rtQ,249
+tfmake/cli.py,sha256=nx6TF3bEJ_iI-oXk6RYWzSVHffD3WfDvGnNCZVakL2k,1187
+tfmake/custom/__init__.py,sha256=yIePLBbJDjUUUzKJ31nPzCwtOXtxlEkLw2Rl1v6x10A,1063
+tfmake-0.6.1.dist-info/entry_points.txt,sha256=lpo-xkEDpxtTrTGvmkrGYH-rSrA6kiwAlYJizIklZwI,42
+tfmake-0.6.1.dist-info/WHEEL,sha256=Tf_JTHRUsYmRccQnQfn1tqmNatmXkNB0OFKM-B4YyuA,87
+tfmake-0.6.1.dist-info/METADATA,sha256=h6eWtCwbsVL2NYX75uVp3giiSJyOXtCBwXbrFGMKbzo,619
+tfmake-0.6.1.dist-info/RECORD,,
