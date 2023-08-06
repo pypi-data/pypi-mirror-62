@@ -1,0 +1,12 @@
+arangodb:
+  DB_end_point: createDB
+  DB_service_host: arangoml.arangodb.cloud
+  DB_service_name: createDB
+  DB_service_port: 8529
+  arangodb_replication_factor: null
+  conn_protocol: https
+  dbName: MLbr2gwf49jvnz2v3f86lnar
+  password: MLhrmvuyo2bgux1joop92mp
+  username: ML6gbywukhkco8ledu9euren
+mlgraph:
+  graphname: enterprise_ml_graph
