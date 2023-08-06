@@ -1,0 +1,9 @@
+sparcli/__init__.py,sha256=-IQjyvRqHSBUB1Wf7XIzd6zdaJIcW8AkKlh49c97Y_8,1165
+sparcli/capture.py,sha256=E9cpiSsqvZYZg5OzTHlwiU7-hO6qiHb69OO0arAqS_Q,26877
+sparcli/context.py,sha256=Nr9u6DYlNetw6qxmfpvzrMtJ4WVKs12pO8dguJG7lFE,452
+sparcli/controller.py,sha256=AfJVched3gFy1ljyUcO32qws7EZeNn4LpYJVFjO7cvo,2246
+sparcli/data.py,sha256=tz_D-zzk35c37xqt3sXiDdpaStcim2j0AR4iBTetxD0,1728
+sparcli/render.py,sha256=MVAFkCYdJBDmqiwnfUd2UYv_mibalOKbL9rVLdp5Eyg,951
+sparcli-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sparcli-0.1.1.dist-info/METADATA,sha256=G5ZagpoYTkf4o5f-Ee-yjHOb2g1GhzbUBsNCCFEAm-Q,1466
+sparcli-0.1.1.dist-info/RECORD,,
