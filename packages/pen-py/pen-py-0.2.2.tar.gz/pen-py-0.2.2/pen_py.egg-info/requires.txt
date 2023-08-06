@@ -1,0 +1,5 @@
+dotmap>=1.3
+flask
+google-cloud-datastore
+python-jose>=3
+requests>=2
