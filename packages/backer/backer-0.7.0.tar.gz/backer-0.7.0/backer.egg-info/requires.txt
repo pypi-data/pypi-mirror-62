@@ -1,0 +1,5 @@
+python-dotenv
+pyyaml
+run-subprocess
+schedule
+watchdog
