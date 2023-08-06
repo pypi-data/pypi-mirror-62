@@ -1,0 +1,7 @@
+include passcaptcha/data/*.*
+include passcaptcha/models/yolov3.cfg
+include passcaptcha/models/yolov3.txt
+include passcaptcha/passcaptcha.example.yaml
+include README.rst
+include setup.py
+include CHANGES.md
