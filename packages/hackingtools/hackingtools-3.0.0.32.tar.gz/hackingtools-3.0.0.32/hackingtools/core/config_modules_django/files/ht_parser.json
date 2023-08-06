@@ -1,0 +1,153 @@
+{
+    "__gui_label__": "ht_parser",
+    "django_form_module_function": {
+        "csvToJSON": {
+            "__function__": "csvToJSON",
+            "__async__": false,
+            "__return__": "text",
+            "fileData": {
+                "__type__": "file",
+                "label_desc": "fileData",
+                "placeholder": "fileData",
+                "required": true
+            },
+            "csv_headers": {
+                "__type__": "checkbox",
+                "label_desc": "csv_headers",
+                "placeholder": "csv_headers",
+                "value": false,
+                "selected": false
+            },
+            "__pool_it_csvToJSON__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "csvToXML": {
+            "__function__": "csvToXML",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_csvToXML__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "htmlToCSV": {
+            "__function__": "htmlToCSV",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_htmlToCSV__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "htmlToJSON": {
+            "__function__": "htmlToJSON",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_htmlToJSON__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "htmlToXML": {
+            "__function__": "htmlToXML",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_htmlToXML__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "jsonToCSV": {
+            "__function__": "jsonToCSV",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_jsonToCSV__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "jsonToHTML": {
+            "__function__": "jsonToHTML",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_jsonToHTML__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "jsonToXML": {
+            "__function__": "jsonToXML",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_jsonToXML__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "readFileToType": {
+            "__function__": "readFileToType",
+            "__async__": false,
+            "__return__": "text",
+            "filename": {
+                "__type__": "file",
+                "label_desc": "filename",
+                "placeholder": "filename",
+                "required": true
+            },
+            "typeToExport": {
+                "__type__": "text",
+                "label_desc": "typeToExport",
+                "placeholder": "typeToExport",
+                "required": true
+            },
+            "typeOf": {
+                "__type__": "text",
+                "label_desc": "typeOf",
+                "placeholder": "typeOf",
+                "value": null
+            },
+            "csv_headers": {
+                "__type__": "checkbox",
+                "label_desc": "csv_headers",
+                "placeholder": "csv_headers",
+                "value": false,
+                "selected": false
+            },
+            "__pool_it_readFileToType__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "xmlToCSV": {
+            "__function__": "xmlToCSV",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_xmlToCSV__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        },
+        "xmlToHTML": {
+            "__function__": "xmlToHTML",
+            "__async__": false,
+            "__return__": "",
+            "__pool_it_xmlToHTML__": {
+                "__type__": "checkbox",
+                "label_desc": "Pool the execution to the pool list",
+                "selected": false
+            }
+        }
+    }
+}
