@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: px-totp
+Version: 0.0.1
+Summary: Time-based One-Time Password Generator
+Home-page: https://github.com/perfide/px-totp
+Author: P. H.
+Author-email: px-totp.perfide@safersignup.de
+License: UNKNOWN
+Description: 
+        Time-based One-Time Password Generator
+        
+        ## Installation
+        
+        ### For Development
+        
+        ```
+        python setup.py develop
+        ```
+        
+        ### From Source
+        
+        ```
+        python setup.py install
+        ```
+        
+        ### From PyPi
+        
+        Install `px-totp` on your system using:
+        
+        ```
+        pip install px-totp
+        ```
+        
+        ## Usage
+        
+        Get basic usage info: `echo "secret" | px-totp`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
