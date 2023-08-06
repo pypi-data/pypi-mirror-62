@@ -1,0 +1,17 @@
+model_constructor/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+model_constructor/_nbdev.py,sha256=DLWc8xjqYJA2S52H3b4OE3DQSXnUYQR2ZSv0NXEHfB8,1687
+model_constructor/constructor.py,sha256=nrznjF9nctKsPH6f4rlQMUuDQYWV7A19KFdimc28wI4,4073
+model_constructor/layers.py,sha256=YK0Gp4bYtyknmvWc2q0RVIIbwBMHfDkjcy3o_DIYWbU,9066
+model_constructor/net.py,sha256=pP6kMRT5xgQ90_OHEbfdus4zB2u508GCrAr5pThmzT4,8397
+model_constructor/resnet.py,sha256=xuBAfkFUvnbQ8zNAC3DB6BpnxgbPQDvc0VAvsDQgkqY,685
+model_constructor/tst_layers.py,sha256=9uwGTS5JW4MTRIgdtQU_mTpT387jKT6UsIIKFysmzXY,237
+model_constructor/tst_net.py,sha256=Ft9RtaA-KStB-pQORj-VqmszP82-6cuNXhNusT2t1mA,109
+model_constructor/tst_net_.py,sha256=2QK-05uVE66MBOaBHpEyvrxXZSizBPuWA4nP35dHShs,5631
+model_constructor/tst_net_2.py,sha256=ljqn5pFPu9bsiqPDRAm264AFgQSx-XoncSdbhqDITOA,8110
+model_constructor/xresnet.py,sha256=V4LuMkPy_3zrn6dtLQJUXTnDh-E5dAEXLaVnbFyQFJ4,775
+model_constructor-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+model_constructor-0.1.1.dist-info/METADATA,sha256=wvD6R5nNQthNC-_qcG--PQjVwJQGqhWL3fPolPcO9vQ,34105
+model_constructor-0.1.1.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+model_constructor-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+model_constructor-0.1.1.dist-info/top_level.txt,sha256=fUFjATHCMa0EsdmQhBr8gNar7MjC2ohfJGRM2mZwK74,18
+model_constructor-0.1.1.dist-info/RECORD,,
