@@ -1,0 +1,17 @@
+pygrocydm/__init__.py,sha256=kKfoMTD3YdKcYqc2APRrR-zBZpfZ80BJqFV9BEjWm6k,97
+pygrocydm/chore.py,sha256=8vLNpx0PEuSDZcso-VLLmI3XQkE3SM6dg0gErYT6Eq0,2696
+pygrocydm/grocy_api_client.py,sha256=OY-aQJVa0Hx4_3pMzRQTjMjbwhbdz__nlOtYTHLddrE,3025
+pygrocydm/grocy_datamanager.py,sha256=gMDViwR-zUMteKRIpxQn6Eb-4csIGe5IpujtGb6Ag7c,697
+pygrocydm/product.py,sha256=zB9T1BwUFtYQJsXRp8VKk0DtZOIaV8jfpiX8sArjJTo,3867
+pygrocydm/utils.py,sha256=yf6X0ot5n8_LOmrBLUbJ81eyII-Zol7ZBc_1ETNpvjU,829
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_Chore.py,sha256=-VCe5r-uscfN6tQ12fDD6KxzJPADc1oN1irdIZ1dPwQ,2486
+test/test_Product.py,sha256=uMPFlRwPCs927FJRwKrvDxvwOwMbzZIEv9beq82xmk4,3490
+test/test_const.py,sha256=UcGHTwrABG3mwQGZi-i6zG1V0kSLBw2e8NWEJ-DiVXw,126
+test/test_grocy_datamanager.py,sha256=sC8uTgK0nf9V7BCrnkK95RFozsG5NugS75V-HzYYvPY,1827
+test/test_utils.py,sha256=VeQHiPhvJB-imoG2fFKyVBR_Fu6M1cWgnPLJFrezefg,1971
+pygrocydm-0.1.0.dist-info/LICENSE,sha256=f16BPbUQ9O1BPwXfDchgUPeEyVW9EaaGhVJBnbK1LgA,1069
+pygrocydm-0.1.0.dist-info/METADATA,sha256=xm1c2KYV5ExsBNP4SI7Kg8674Ufk0mYlqzoWp-jCwFg,1856
+pygrocydm-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pygrocydm-0.1.0.dist-info/top_level.txt,sha256=WAhLDkblWdgaZvWVW7M9bo_y-uW_kXCH9d_IWPphaQ4,15
+pygrocydm-0.1.0.dist-info/RECORD,,
