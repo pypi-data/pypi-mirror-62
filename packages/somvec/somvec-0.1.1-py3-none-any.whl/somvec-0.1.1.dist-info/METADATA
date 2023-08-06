@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: somvec
+Version: 0.1.1
+Summary: A vectorised implementation of the Self-Organising Map (SOM) algorithm
+Home-page: https://bitbucket.org/GeoffreyClark/somvec
+Author: Geoffrey Clark
+Author-email: geoffreyrussellclark@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
