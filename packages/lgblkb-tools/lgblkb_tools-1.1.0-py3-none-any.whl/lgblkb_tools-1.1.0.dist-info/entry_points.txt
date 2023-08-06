@@ -1,0 +1,4 @@
+[console_scripts]
+bump=lgblkb_tools.dev_script:export_reqs
+export_reqs=lgblkb_tools.dev_script:export_reqs
+
