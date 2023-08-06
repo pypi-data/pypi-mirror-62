@@ -1,0 +1,7 @@
+README.txt
+setup.cfg
+setup.py
+foncu123.egg-info/PKG-INFO
+foncu123.egg-info/SOURCES.txt
+foncu123.egg-info/dependency_links.txt
+foncu123.egg-info/top_level.txt
