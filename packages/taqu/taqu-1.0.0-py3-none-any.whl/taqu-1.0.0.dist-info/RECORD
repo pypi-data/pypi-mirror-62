@@ -1,0 +1,13 @@
+taqu/__init__.py,sha256=jAAH-kCznpzHAWVHekcukUexsG_WxJfkzGRc4_wOTTk,103
+taqu/client.py,sha256=5R2cMYmm24q5_nz9GmzrXfSmG8GCjXIOTxJ3nt5j2DU,120
+taqu/exceptions.py,sha256=-lb5LDdc2xrji7LJH90uECMjzCxWHnmHHk8EE1T_k7E,43
+taqu/utils.py,sha256=L6wBy92nS_-_NOcx8uwYS5lvV1IMlFrr1ETfOP2zPFc,195
+taqu/worker.py,sha256=7IFx-TfGY-uBV-N9zLodxHI0N6fY02zK3FwdZ14ZLiU,120
+taqu/aio/__init__.py,sha256=Nqcx1TJuSYMRfQIjYU17GBa286a4OfhPE29vsV3yMOM,121
+taqu/aio/client.py,sha256=7z0yufn_-hsh1SNAmCt0rRj2Ynyp3Pr-Kbf-5WlO-uQ,1819
+taqu/aio/worker.py,sha256=aAC8Lr8RrCXM_7tr27M0RpGQJSU33f2O-FhWNc7_P8w,5027
+taqu-1.0.0.dist-info/LICENSE,sha256=nZvwB1yia-vArsBzepupso8ZyCL7CJu8oUfxkmg6ouw,1530
+taqu-1.0.0.dist-info/METADATA,sha256=LBF4t4rrkZNcAM2jJzloj_g_JJHoUyfQCNGFB7qx-ns,5858
+taqu-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+taqu-1.0.0.dist-info/top_level.txt,sha256=sMOp-EfuP5QkTZBzYZQi7L_fWkrlh7pcY-1wISSgenY,5
+taqu-1.0.0.dist-info/RECORD,,
