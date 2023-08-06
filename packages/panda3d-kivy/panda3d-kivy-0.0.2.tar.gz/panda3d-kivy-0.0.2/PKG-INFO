@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: panda3d-kivy
+Version: 0.0.2
+Summary: Panda3D add-on for Kivy integration.
+Home-page: https://github.com/Cheaterman/panda3d-kivy
+Author: Cheaterman
+Author-email: the.cheaterman@gmail.com
+License: MIT
+Description: Panda3D-Kivy
+        ============
+        
+        A Panda3D add-on for Kivy integration.
+        
+        The aim is to make the integration of Kivy apps into a Panda3D application
+        almost transparent.
+        Potential uses include creating on-screen GUI, or even RTT 3D UI's.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
