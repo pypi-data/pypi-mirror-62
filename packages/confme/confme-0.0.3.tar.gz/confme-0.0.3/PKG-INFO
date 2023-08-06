@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: confme
+Version: 0.0.3
+Summary: Easy configuration management in python
+Home-page: https://github.com/iwanbolzern/confme
+Author: Iwan Silvan Bolzern
+Author-email: iwan.bolzern@zuehlke.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pyyaml (>=5.3,<6.0)
+Project-URL: Repository, https://github.com/iwanbolzern/confme
+Description-Content-Type: text/markdown
+
+# ConfMe: Configuration Made Easy 💖
+![Test](https://github.com/iwanbolzern/ConfMe/workflows/Test/badge.svg?branch=master)
+
+ConfMe is a simple to use, production ready application configuration management library, which takes into consideration the following three thoughts:
+1. Access to configuration values must be safe at runtime. **No ```myconfig['value1']['subvalue']``` anymore!**
+2. The configuration must be checked for consistency at startup e.g. type check, range check, ...
+3. Secrets shall be injectable from environment variables
+
+ConfMe makes all these features possible with just a few type annotations on plain Python objects.
+
+## Installation
+ConfMe can be installed from the official python package repository [pypi](https://pypi.org/project/confme/)
+```
+pip install confme
+```
+Or, if you're using pipenv:
+```
+pipenv install confme
+```
+Or, if you're using poetry:
+```
+poetry add confme
+```
+
+## Basic Usage of confme
+Define your config structure as plain python objects with type annotations:
+```python
+from confme import configclass, load_config
+
+@configclass
+class DatabaseConfig:
+    host: str
+    port: int
+    user: str
+
+@configclass
+class MyConfig:
+    name: int
+    database: DatabaseConfig
+```
+Create a configuration yaml file with the same structure as your configuration classes have:
+```yaml
+name: "Database Application"
+database:
+    host: "localhost"
+    port: 5000
+    user: "any-db-user"
+```
+Load the yaml file into your Python object structure and access it in a secure manner:
+```python
+my_config = load_config(MyConfig, 'config.yaml')
+
+print(f'Using database connection {my_config.database.host} '
+      f'on port {my_config.database.port}')
+```
+In the background the yaml file is parsed and mapped to the defined object structure. While mapping the values to object properties, type checks are performed. If a value is not available or is not of the correct type, an error is generated already when the configuration is loaded.
+
+## Supported Annotations
+At the moment the following type annotations are supported:
+- str
+- int
+- float
+- [Secret](#Secret)
+- [Range](#Range) not yet implemented
+- [Enum](#Enum) not yet implemented
+
+### Secret['ENV_NAME', TYPE]
+With the Secret annotation you can inject secrets from environment variables directly into your configuration structure. This is especially handy when you're deploying applications by using docker. Therefore, let's extend the previous example with a Secret annotation:
+```python
+...
+from confme import configclass, load_config
+from confme.annotation import Secret
+
+@configclass
+class DatabaseConfig:
+    ...
+    password: Secret['highSecurePassword', str]
+```
+Now set the password to the defined environment variable:
+```bash
+export highSecurePassword="This is my password"
+```
+Load your config and check for the injected password.
+```
+my_config = load_config(MyConfig, 'config.yaml')
+print(f'My password is: {my_config.database.password}')
+```
+
+### Range[NUMBER_TYPE, FROM, TO]
+```python
+...
+from confme import configclass, load_config
+from confme.annotation import Secret
+
+@configclass
+class DatabaseConfig:
+    ...
+    password: Range[int, 2, 3]
+```
+
+### SELECTION[args...]
+
+
+
+## LICENSE
+ConfMe is released under the [MIT](LICENSE) license.
