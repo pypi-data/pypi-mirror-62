@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: trict
+Version: 0.1.1
+Summary: UserDict subclass with extra stuff
+Home-page: https://github.com/saskakarsi/trict
+Author: Saska Karsi
+Author-email: saska.karsi@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: # trict
+        Python dictionary with extra stuff
+        
+        Subclass of collections.UserDict with some recursive and other helper stuff I've sometimes felt I've needed.
+        
+Keywords: mapping,map,dictionary,recursive,dict
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
