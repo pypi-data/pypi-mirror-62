@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ConfigDmanager
+Version: 0.0.1
+Summary: A simple configuration files manager package
+Home-page: https://github.com/hmiladhia/ConfigDmanager
+Author: Dhia Hmila
+Author-email: hmiladhia@hotmail.fr
+License: UNKNOWN
+Description: # ConfigDmanager
+        
+        ## Installation
+        
+        ["Link"]: https://test.pypi.org/project/ConfigDmanager/0.0.1
+        
+        
+        
+        ```bash
+        pip install -i https://test.pypi.org/simple/ ConfigDmanager==0.0.1
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
