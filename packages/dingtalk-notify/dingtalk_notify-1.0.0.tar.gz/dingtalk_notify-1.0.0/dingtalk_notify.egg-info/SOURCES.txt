@@ -1,0 +1,8 @@
+README.md
+setup.py
+dingtalk_notify/__init__.py
+dingtalk_notify/ding_talk.py
+dingtalk_notify.egg-info/PKG-INFO
+dingtalk_notify.egg-info/SOURCES.txt
+dingtalk_notify.egg-info/dependency_links.txt
+dingtalk_notify.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dingtalk-notify
+Version: 1.0.0
+Summary: the dingtalk robot, 钉钉报警（带签名）
+Home-page: https://github.com/JetBlink/dingtalk_notify_python_sdk
+Author: sh7ning
+Author-email: sh7ning@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
