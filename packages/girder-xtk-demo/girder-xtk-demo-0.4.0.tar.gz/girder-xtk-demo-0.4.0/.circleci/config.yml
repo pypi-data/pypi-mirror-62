@@ -1,0 +1,33 @@
+version: 2.1
+
+jobs:
+  release:
+    docker:
+      - image: circleci/python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Setup virtual environment
+          command: |
+            if [ ! -d env ]; then python -m virtualenv env || python -m venv env; fi
+            echo ". $CIRCLE_WORKING_DIRECTORY/env/bin/activate" >> $BASH_ENV
+      - run:
+          name: Install packages needed for release
+          command: pip install setuptools_scm twine
+      - deploy:
+          name: Release
+          command: |
+            python setup.py sdist
+            twine check dist/*
+            twine upload --skip-existing dist/*
+
+workflows:
+  version: 2
+  ci:
+    jobs:
+      - release:
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              only: master
