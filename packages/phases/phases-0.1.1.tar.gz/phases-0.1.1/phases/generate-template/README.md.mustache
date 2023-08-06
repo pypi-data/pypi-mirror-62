@@ -1,0 +1,25 @@
+# {{name}}
+
+{{description}}
+
+## setup
+
+`pip install -r requirements.txt`
+
+## Run
+
+### complete
+
+`python {{name}}`
+
+{{#stages}}
+#### {{.}}
+
+`python {{project.name}} {{name}}`
+
+Runs:
+{{#phases}}
+    - `{{name}}`: {{description}}
+{{/phases}}
+
+{{/stages}}
