@@ -1,0 +1,1 @@
+gcc -W -Wall two_bits_encoding.c twobitsmodule.c -I/Users/guillaumelaunay/anaconda3//envs/p38/include/python3.8 -o twobitsmodule.o -L/Users/guillaumelaunay/anaconda3//envs/p38/lib/ -lpython3.8
