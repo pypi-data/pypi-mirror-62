@@ -1,0 +1,9 @@
+README.md
+setup.py
+somvec/SomWeightInit.py
+somvec/__init__.py
+somvec.egg-info/PKG-INFO
+somvec.egg-info/SOURCES.txt
+somvec.egg-info/dependency_links.txt
+somvec.egg-info/not-zip-safe
+somvec.egg-info/top_level.txt
