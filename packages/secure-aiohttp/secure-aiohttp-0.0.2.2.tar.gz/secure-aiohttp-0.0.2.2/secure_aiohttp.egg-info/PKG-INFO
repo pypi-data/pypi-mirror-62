@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: secure-aiohttp
+Version: 0.0.2.2
+Summary: aiohttp additional security layer
+Home-page: https://github.com/pinlast/secure-aiohttp
+Author: Danil Pekarchuk
+Author-email: danilopekarchuk321@gmail.com
+License: Apache 2
+Description: # secure-aiohttp
+        
+        # not ready, work in progress for now!
+        
+        ## 1)XSS
+        XSS protection is implemented with `CSP`.
+        secure-aihttp includes either predifined set of rules or custom implemented.
+        Ability to log reports will be added soon.
+        
+        ### CSP defines this directives:
+        <b>all identification was taken from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), which you should visit to dive deeper and undersend what each directive means.</b>
+        | directive | identification |
+        |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+        | block-all-mixed-content |  prevents loading any assets using HTTP   when the page is loaded using HTTPS. |
+        | child-src | defines the valid sources for web workers and nested   browsing contexts loaded using elements such as `<frame>` and `<iframe>`.  |
+        | connect-src |restricts the URLs which can be loaded  using script interfaces. |
+        | default-src |serves as a fallback for the other  CSP fetch directives. |
+        | font-src |specifies valid sources for fonts  loaded using @font-face |
+        | form-action |restricts the URLs which can be used  as the target of a form submissions from a given context. |
+        | frame-ancestors |specifies valid parents that may embed  a page using `<frame>`, `<iframe>`, `<object>`, `<embed>`, or `<applet>`. |
+        | img-src |specifies valid sources of images and favicons. |
+        | manifest-src |specifies which manifest can be applied to the resource. |
+        | media-src |specifies valid sources for loading  media using the `<audio>` and `<video>` elements. |
+        | navigate-to |restricts the URLs to which a document  can initiate navigations by any means including  `<form>` (if form-action is not specified), `<a>`, window.location, window.open, etc. This is an enforcement on what navigations this document initiates not on what this document is allowed to navigate to. |
+        | object-src |specifies valid sources for the  `<object>`, `<embed>`, and `<applet>` elements. |
+        | plugin-types |restricts the set of plugins that can be embedded into  a document by limiting the types of resources which can be loaded. |
+        | prefetch-src |specifies valid resources that may be prefetched or prerendered. |
+        | report-to | HTTP response header field instructs the user agent to store reporting endpoints for an origin. |
+        | report-uri | Deprecated, used for compatability with old browser versions. |
+        | sandbox |enables a sandbox for the requested resource similar to the `<iframe>` sandbox attribute.  It applies restrictions to a page's actions including preventing popups, preventing the execution of plugins and scripts, and enforcing a same-origin policy. |
+        | script-src |specifies valid sources for JavaScript.  This includes not only URLs loaded directly into `<script>` elements, but also things like inline script event handlers (onclick) and XSLT stylesheets which can trigger script execution. |
+        | script-src-attr |specifies valid sources for JavaScript inline event handlers.  This includes only inline script event handlers like onclick, but not URLs loaded directly into `<script>` elements |
+        | script-src-elem |specifies valid sources for JavaScript `<script>` elements,  but not inline script event handlers like onclick. |
+        | style-src |specifies valid sources for stylesheets. |
+        | style-src-attr |specifies valid sources for inline styles applied to individual DOM elements. |
+        | style-src-elem |specifies valid sources for stylesheets  `<style>` elements and `<link>` elements with rel="stylesheet". |
+        | upgrade-insecure-requests |instructs user agents to treat all of  a site's insecure URLs (those served over HTTP) as though they have been replaced with secure URLs (those served over HTTPS). |
+        | worker-src |specifies valid sources for Worker, SharedWorker, or ServiceWorker scripts. |
+        | base-uri |restricts the URLs which can be used in a document's `<base>` element. |
+        
+        
+        
+        # License
+        
+        `secure-aiohttp` is offered under the Apache 2 license.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
