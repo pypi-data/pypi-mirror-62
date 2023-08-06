@@ -1,0 +1,3 @@
+[console_scripts]
+hen-python = datahen.CLI:main
+
