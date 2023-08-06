@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+include Dockerfile
+include requirements.txt
+recursive-include radiopadre/notebooks *.ipynb
+recursive-include radiopadre/html *.js *.css
+recursive-include radiopadre_kernel/js9 *.html
