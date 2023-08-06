@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pix-to-xls
+Version: 1.0.1
+Summary: A simple tool to make ascii art from an image using excel colored cells
+Home-page: https://github.com/joelibaceta/pix-to-xls
+Author: Joel Ibaceta
+Author-email: mail@joelibaceta.com
+License: MIT
+Project-URL: Source, https://github.com/joelibaceta/pix-to-xls
+Project-URL: Tracker, https://github.com/joelibaceta/pix-to-xls/issues
+Keywords: xls pixel-art images
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: xlrd
+Requires-Dist: getkey
+
+A simple tool to make ascii art from an image using excel colored cells
+
+

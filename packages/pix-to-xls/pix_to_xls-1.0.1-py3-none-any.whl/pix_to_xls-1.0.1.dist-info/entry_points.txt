@@ -1,0 +1,3 @@
+[console_scripts]
+pix-to-xls = pix_to_xls.cli:main
+
