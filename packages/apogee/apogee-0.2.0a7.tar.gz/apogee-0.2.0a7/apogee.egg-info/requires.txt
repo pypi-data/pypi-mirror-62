@@ -1,0 +1,7 @@
+numpy
+jupyter
+networkx
+scipy
+networkx
+pyyaml
+Cython
