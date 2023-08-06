@@ -1,0 +1,3 @@
+[console_scripts]
+pyswd = swd._app:main
+
