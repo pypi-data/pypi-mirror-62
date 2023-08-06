@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+nlpfeatures/__init__.py
+nlpfeatures/nlpfeatures.py
+nlpfeatures.egg-info/PKG-INFO
+nlpfeatures.egg-info/SOURCES.txt
+nlpfeatures.egg-info/dependency_links.txt
+nlpfeatures.egg-info/not-zip-safe
+nlpfeatures.egg-info/top_level.txt
