@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: k3logging
+Version: 0.1
+Summary: Standard python logging extension and utility module
+Home-page: UNKNOWN
+Author: Joachim Kestner
+Author-email: joachim.kestner@khoch3.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+
+# k3logging
+
+Python logging extension module.
+
+
+
