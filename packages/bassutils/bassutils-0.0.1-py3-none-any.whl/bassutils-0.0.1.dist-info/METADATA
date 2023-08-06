@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bassutils
+Version: 0.0.1
+Summary: Python package testing
+Home-page: https://github.com/basameera/bass-utils
+Author: Sameera Sandaruwan
+Author-email: basameera@pm.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# bass-utils
+
+[![Build Status](https://travis-ci.org/basameera/bass-utils.svg?branch=master)](https://travis-ci.org/basameera/bass-utils)
+
+
+
