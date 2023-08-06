@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pp_multifunctional/__init__.py
+pp_multifunctional/pp_palindrome.py
+pp_multifunctional/pp_pm25.py
+pp_multifunctional.egg-info/PKG-INFO
+pp_multifunctional.egg-info/SOURCES.txt
+pp_multifunctional.egg-info/dependency_links.txt
+pp_multifunctional.egg-info/top_level.txt
