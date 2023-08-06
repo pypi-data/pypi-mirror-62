@@ -1,0 +1,11 @@
+CHANGES.txt
+README.txt
+ez_setup.py
+setup.cfg
+setup.py
+watchdogdev_test.py
+src/watchdogdev.c
+watchdogdev.egg-info/PKG-INFO
+watchdogdev.egg-info/SOURCES.txt
+watchdogdev.egg-info/dependency_links.txt
+watchdogdev.egg-info/top_level.txt

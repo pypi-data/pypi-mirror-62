@@ -1,0 +1,13 @@
+1.0.0
+  * Python3 support (thanks @DoubleAJ)
+  * Semantic versioning
+
+0.11
+
+  * Removed the open() function
+  * Updated tests and README
+  * Created this file
+
+0.1
+
+  * Initial release 

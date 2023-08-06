@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: watchdogdev
+Version: 1.0.0
+Summary: Implementation of Linux watchdog device API
+Home-page: http://timka.org/watchdogdev/
+Author: Timur Izhbulatov
+Author-email: timochka@gmail.com
+License: http://opensource.org/licenses/PythonSoftFoundation.php
+Description: This package contains implementation of Linux watchdog device API for Python
+        (see Documentation/watchdog/watchdog-api.txt in Linux kernel source tree).
+        
+        Included extension module provides wrappers for ioctl commands as well as simple
+        write access to the device.
+Keywords: watchdog hardware monitoring linux
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: C
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: System :: Networking :: Monitoring :: Hardware Watchdog
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Requires-Python: >=2.7, <4
