@@ -1,0 +1,15 @@
+README.md
+setup.py
+primer/__init__.py
+primer/debug.py
+primer/performance.py
+primer/profile.py
+primer_kit.egg-info/PKG-INFO
+primer_kit.egg-info/SOURCES.txt
+primer_kit.egg-info/dependency_links.txt
+primer_kit.egg-info/requires.txt
+primer_kit.egg-info/top_level.txt
+test/__init__.py
+test/test_debug.py
+test/test_performance.py
+test/test_profile.py
