@@ -1,0 +1,12 @@
+
+[configobj]
+configobj
+
+[toml]
+toml
+
+[vault]
+hvac
+
+[yaml]
+PyYAML
