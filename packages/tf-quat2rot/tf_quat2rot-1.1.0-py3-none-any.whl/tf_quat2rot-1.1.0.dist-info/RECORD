@@ -1,0 +1,9 @@
+tf_quat2rot/__init__.py,sha256=lL1NL3JAEw82ClBf6cxJSXknceoFWger3R1n7yEtETE,461
+tf_quat2rot/check.py,sha256=AE_qBd160TZdlHrbtl7FTetSnH9Mui6ZtGgc69HkwvU,1112
+tf_quat2rot/converter.py,sha256=YbdijlC3rGtwwZQykZ-yi_Qvw7_k5V8TExaBbjSu-O0,3764
+tf_quat2rot/generator.py,sha256=am0moqJVL1diCdMP0rX1WxDHuChTJ9NwKUbYUNgxSnk,1824
+tf_quat2rot-1.1.0.dist-info/LICENSE,sha256=mQTjxLuvvlKSOqahUuSGrh58AkEROp42_AmqcxYGtO0,1071
+tf_quat2rot-1.1.0.dist-info/METADATA,sha256=EpMi71epBQItyoSVrfGwQ3jGxYkDgFvwvWfYxcqhPbA,442
+tf_quat2rot-1.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+tf_quat2rot-1.1.0.dist-info/top_level.txt,sha256=YlA0Z446gt5wdRrbwl-dR0uln81dTe2kA1zMT-tBmjU,12
+tf_quat2rot-1.1.0.dist-info/RECORD,,
