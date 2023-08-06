@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mobi
+Version: 0.1.0
+Summary: unpack mobi files
+Home-page: https://github/iscc/mobi
+License: GPL-3.0-only
+Keywords: mobi,mobipocket,unpack,extract,text
+Author: Titusz Pan
+Author-email: tp@py7.de
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/iscc/mobi
+Description-Content-Type: text/markdown
+
+# mobi - lib for unpacking mobi files
+
+work in progress ...
+
