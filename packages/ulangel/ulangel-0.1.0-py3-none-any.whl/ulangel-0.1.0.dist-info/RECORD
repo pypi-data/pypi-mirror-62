@@ -1,0 +1,14 @@
+ulangel/__init__.py,sha256=6BZagU6sua0oFoEiqzRa1JVJfG19N8U4O-mIJW_aFIE,51
+ulangel/data/data_packer.py,sha256=pWENfeROsjldYIl7Sxg7PlFkNuPIGJrb0-fn76x0xeY,6157
+ulangel/data/text_processor.py,sha256=0W1injEMrb-r_RdQuuXWdKSZijeNtuOHnftqpMZu8cY,3063
+ulangel/rnn/dropouts.py,sha256=viRvW-6t72CqqyxVF04PiBAnWjyZBvzeCdxJbUuqAf4,3241
+ulangel/rnn/nn_block.py,sha256=NALwuxbzVjpEXqegcsidQYB4cHMlXS_bgZRyEfhCmyw,10865
+ulangel/utils/callbacks.py,sha256=Q0LUym-_VMxY2HD9xoWA4I30WX836S6w30o2K1QT9FI,6314
+ulangel/utils/learner.py,sha256=CnWb-59bNDGbNfR0l90oxgWwsXHnN0ETpAisK7C1eP0,4662
+ulangel/utils/optimizer.py,sha256=VGLRnLd-PZOTplftAL_M_wX9fAkyskODkKXbcDQiJII,5534
+ulangel/utils/stats.py,sha256=hdNo5TjOAtJQ-dXtyTSydwd0nJMJSbcgTHg0QFpuYIs,3018
+ulangel-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ulangel-0.1.0.dist-info/METADATA,sha256=y3lQc8YiFRjAfjuR_G-UMZZyZtMg8hYK3m-HQAvs8oA,34555
+ulangel-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ulangel-0.1.0.dist-info/top_level.txt,sha256=nOfV4qyig0qg118Qq7DJz3BYAmnt_EX4dwvU44ZJDNU,8
+ulangel-0.1.0.dist-info/RECORD,,
