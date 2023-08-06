@@ -1,0 +1,9 @@
+thermostate/__init__.py,sha256=9XKfSsCvn9SURKI-hbNAWFps8PQmzNBfNbvzhUhA9F0,167
+thermostate/_version.py,sha256=HaQRJdbTIW_O6s1fap3HQLzDSprhZtzVa73lmDqjXtM,197
+thermostate/abbreviations.py,sha256=XxB6_YzTpCcvtD3zj4I8zbk-0Ok7kHFHZvInvc2j1xw,1328
+thermostate/thermostate.py,sha256=Dv8HWT9BzRBLyxwKoDtOW44vmdTRF29DAVMYVjpv2C8,13088
+thermostate-1.0.0.dist-info/LICENSE.md,sha256=dyAyPIVFS3EPBCUR7AM_oXxoQ930dbyCKhXUG9uBxT0,1519
+thermostate-1.0.0.dist-info/METADATA,sha256=Wsd8s7dnzbgOxTbZWaJTKnb8k7j7M5txcVKDen8GmJA,12953
+thermostate-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+thermostate-1.0.0.dist-info/top_level.txt,sha256=Rp9zO_REInehD1mHIezNn74YImUAO-ySStlBakjFxYI,12
+thermostate-1.0.0.dist-info/RECORD,,
