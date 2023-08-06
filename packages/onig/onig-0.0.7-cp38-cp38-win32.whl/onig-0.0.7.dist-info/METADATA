@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: onig
+Version: 0.0.7
+Summary: A Python wrapper around the Oniguruma regular expression library.
+Home-page: https://dgit.cs.uni-saarland.de/koehlma/onig
+License: MIT
+Author: Maximilian Köhl
+Author-email: mkoehl@cs.uni-saarland.de
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cffi (>=1.14.0,<2.0.0)
+Requires-Dist: unibuf (>=0.1.1,<0.2.0); implementation_name == "cpython"
+Project-URL: Repository, https://dgit.cs.uni-saarland.de/koehlma/onig
+Description-Content-Type: text/x-rst
+
+Python Onig
+===========
+
+Python bindings for the Oniguruma regular expression library.
+
