@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: planetriangles
+Version: 1.1
+Summary: Finds the remaining sides and angles of a triangle when given enough of the sides and/or angles. Includes a command line exerciser, formatting tools, and a test suite.
+Home-page: https://github.com/bob-anderson-ok/plane_triangle
+Author: Bob Anderson
+Author-email: bob.anderson.ok@gmail.com
+License: License :: OSI Approved :: MIT License
+Keywords: trigonometry,triangle,law of sines,law of cosines
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+
+planetriangles
+===============
+
+Mostly you will use:
+
+    err_msg, a, b, c, A, B, C = complete_the_triangle(a, b, c, A, B, C) 
+
+This is the main routine in the plane_triangles.py module.  Its input parameters default to None.
+
+It solves (if possible) for the missing sides and/or angles in the parameter list.
+
+If two solutions are possible, it will indicate this by a return value in ``err_msg`` that starts with "Other". The
+first answer should be used, then a request made for the return of the second by repeating the original call with
+the ``ssa_flag`` set to ``'other'``, i.e.
+
+    err_msg, a, b, c, A, B, C = complete_the_triangle(a, b, c, A, B, C, ssa_flag='other')   
+
+Installation
+============
+    pip install planetriangles
+
+Then, to get started, from a python REPL you can run the exerciser with ...
+
+    >>> from planetriangles.exerciser import run_ui
+    >>> run_ui()
+
+Load the user functions with ...
+
+    >>> from planetriangles.plane_triangles import *
+
+All of the exported functions have help text included.
+So you can get help
+with the usual ``help(complete_the_triangle)`` method. There are a number of formatting routines for converting angles
+to various forms (radians, degrees, degrees and minutes, degrees minutes seconds) with a specified precision.
+
+The module (``plane_triangles_tests.py``) contains a set of tests. It uses ``assert`` statements to detect
+errors. Importing the module will run the tests. All is well when no ``assert`` throws an exception.
+
+There is an interactive test/excercise program that can be invoked by importing and executing ``run_ui()`` from the
+module ``excerciser.py``.  To get it started,
+do this ...
+
+    >>> from planetriangles.exerciser import run_ui
+    >>> run_ui()
+
+It starts with a prompt that allow one to set the desired format
+for the display of angles (radians, degrees, degrees and minutes, degrees and minutes and seconds).
+
+The next two prompts allow the precision (number of digits to right of decimal point) for angles and lengths to be
+specified.
+
+A loop is then entered that prompts for the sides and angles to be used. Just press enter to indicate that a value will
+not be provided (i.e., is to be calculated).
+
+If all six parameters are left empty, the loop terminates.
+
+Example
+=======
+
+    >>> from planetriangles.exerciser import run_ui()
+    >>> run_ui()
+    .
+    Session started...
+    .
+    Angle format to use [r, d, dm, dms]: d
+    Angle precision (digits to right of decimal point) to use: 4
+    Length precision (digits to right of decimal point) to use: 4
+    .
+    Side a: 1
+    Side b: 1
+    Side c: 
+    Angle A (degrees): 
+    Angle B (degrees): 
+    Angle C (degrees): 90
+    a: 1.0000 b: 1.0000 c: 1.4142   A: 45.0000d B: 45.0000d C: 90.0000d
+
+
+
+
