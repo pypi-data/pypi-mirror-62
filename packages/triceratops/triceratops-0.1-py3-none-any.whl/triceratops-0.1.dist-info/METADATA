@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: triceratops
+Version: 0.1
+Summary: Statistical Validation of TESS Objects of Interest
+Home-page: https://github.com/stevengiacalone/triceratops
+Author: Steven Giacalone
+Author-email: steven_giacalone@berkeley.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: pandas (>=0.23.4)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: matplotlib (>=3.0.3)
+Requires-Dist: astropy (>=3.1.2)
+Requires-Dist: astroquery (>=0.4)
+Requires-Dist: batman-package (>=2.4.6)
+Requires-Dist: mechanicalsoup (>=0.12.0)
+
+Tool for Rating Interesting Candidate Exoplanets and Reliability Analysis of Transits Originating from Proximate Stars - A tool for validating TESS Objects of Interest
+
+This repository is a work in progress.
+
+
