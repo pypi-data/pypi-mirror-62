@@ -1,0 +1,15 @@
+vegasflow/__init__.py,sha256=1SKn91D1BkrPCJ7REOOY45Ttf3nhUEH5Y6_vUJFWwh4,69
+vegasflow/configflow.py,sha256=d5YRXqTOvCys7u2TNcDgXt0oahZ3gNqgaoL9blqlzKA,821
+vegasflow/monte_carlo.py,sha256=Jtu27hVTUT3ObTt9431A6uvWn_WctRx1Z3mbJL3Vw7I,14808
+vegasflow/plain.py,sha256=CyZLHj1cUJPIchr8MUqbauoHHl9vh-XQcgqS5404fGg,1311
+vegasflow/utils.py,sha256=ah9dsVaqHa3zg2_trlr_rHdbAiRlIlV8xZaiwTAvPuc,1116
+vegasflow/vflow.py,sha256=9dRBbBPJ1AxUQOG0wad8ztbDvnzyRoIGVupMUGf3PuI,12464
+vegasflow/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vegasflow/tests/test_algs.py,sha256=lJy2T8fMCdU1I1r5_FX4pAwopJCyy6F55yoJrrGxo6I,3649
+vegasflow/tests/test_config.py,sha256=eNYaMjGPvdoIsLZW988NT-2wp3gO2arJNZuS0gCv_pM,269
+vegasflow/tests/test_utils.py,sha256=M_CV3LlpSl70MWu9_3OQd-pdKj2ZUtQjPsV5wcCk8DU,1005
+vegasflow-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vegasflow-1.0.2.dist-info/METADATA,sha256=QG2RWEOAeLhX14tk0PhZnedZSrqFU2sMvptgjfZtfso,2865
+vegasflow-1.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vegasflow-1.0.2.dist-info/top_level.txt,sha256=p4O2dvHepePbjnAQ39SmHtElpUiCDGI9bCtBkK5oUaI,10
+vegasflow-1.0.2.dist-info/RECORD,,
