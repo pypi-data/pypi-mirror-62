@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+chris/__init__.py
+chris.egg-info/PKG-INFO
+chris.egg-info/SOURCES.txt
+chris.egg-info/dependency_links.txt
+chris.egg-info/entry_points.txt
+chris.egg-info/requires.txt
+chris.egg-info/top_level.txt
+chris/cli/__init__.py
+chris/cli/main.py
+chris/color/__init__.py
+chris/color/color.py
