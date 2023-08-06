@@ -1,0 +1,3 @@
+[console_scripts]
+pychemin=pychemin.cli:run
+
