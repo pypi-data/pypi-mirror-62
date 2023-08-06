@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fastAutoTest-dev
+Version: 2.2.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: jaggergan,fitchzheng
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: websocket-client (>=0.44.0)
+Requires-Dist: uiautomator (>=0.3.2)
+Requires-Dist: lxml (>=4.0.0)
+Requires-Dist: bidict (>=0.14.0)
+
+UNKNOWN
+
+
