@@ -1,0 +1,10 @@
+README.md
+setup.py
+hypixelapi/hypixelapi.py
+hypixelapi/test_hypixelapi.py
+hypixelapi/util.py
+hypixelapi.egg-info/PKG-INFO
+hypixelapi.egg-info/SOURCES.txt
+hypixelapi.egg-info/dependency_links.txt
+hypixelapi.egg-info/requires.txt
+hypixelapi.egg-info/top_level.txt
