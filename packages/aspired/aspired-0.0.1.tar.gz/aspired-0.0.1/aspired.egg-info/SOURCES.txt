@@ -1,0 +1,9 @@
+README.md
+setup.py
+aspired.egg-info/PKG-INFO
+aspired.egg-info/SOURCES.txt
+aspired.egg-info/dependency_links.txt
+aspired.egg-info/not-zip-safe
+aspired.egg-info/requires.txt
+aspired.egg-info/top_level.txt
+test/test_aspired.py

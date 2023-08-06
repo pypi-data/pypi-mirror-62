@@ -1,0 +1,7 @@
+numpy>=1.16
+reproject==0.5
+scipy
+astropy
+ccdproc
+astroscrappy
+plotly
