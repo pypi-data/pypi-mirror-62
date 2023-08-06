@@ -1,0 +1,8 @@
+sw_journey_planner/__init__.py,sha256=k6UVf7R8jKpPBYHjlSeYKO2lUY88meihHgPM_JeHQAA,52
+sw_journey_planner/starship.py,sha256=1AY-wB1NARxBRClhOEMcyA0yU-IE8DfuP9TITH2EiQw,2212
+sw_journey_planner/starship_loader/__init__.py,sha256=oK7LCrPkjggKHZTgHtygGLg2RJt9h6Vb22BWMswRxKE,72
+sw_journey_planner/starship_loader/swapi.py,sha256=p9GoSoshLhcE-6YdxzSuhl__uRRxGkMdiHZOxRwCpAc,4373
+sw_journey_planner-1.0.0.dist-info/METADATA,sha256=m1OfnR6pn_BM9kEeTCAX2UuHRQlAwwe-M4c2WceczPw,201
+sw_journey_planner-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sw_journey_planner-1.0.0.dist-info/top_level.txt,sha256=EU5HwlNCNZsSMr1dFgBs0XimQU38l34h9hc3610JQEQ,19
+sw_journey_planner-1.0.0.dist-info/RECORD,,
