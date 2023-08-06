@@ -1,0 +1,9 @@
+README.md
+setup.py
+magicov/__init__.py
+magicov.egg-info/PKG-INFO
+magicov.egg-info/SOURCES.txt
+magicov.egg-info/dependency_links.txt
+magicov.egg-info/entry_points.txt
+magicov.egg-info/requires.txt
+magicov.egg-info/top_level.txt
