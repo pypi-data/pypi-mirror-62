@@ -1,0 +1,12 @@
+evogression/__init__.py,sha256=J0Gi4p8pI0SZPf0V6JMULmhi5gE_EjYz3xQIrUgrYM4,161
+evogression/calc_target_cython.cp37-win32.pyd,sha256=9KqowQMqMKNMUDIqf9QWz0EWLjQbLxCSA1IqiLLuHm0,33792
+evogression/creatures.py,sha256=SUNs6EyupaEZrWtKCanlnTmZlr55gcCdLgbAEUYC3lQ,25417
+evogression/evolution.py,sha256=tSojeiKVeRcEu0JMirrOTdi4cVizGlK8oQmaPF3pRx8,24607
+evogression/evolution_group.py,sha256=UnJWZx-wEajvberCd3by6bdqq3MCJ1FB8jAOX_SZhM8,4564
+evogression/generate_parameter_coefficients_calc.cp37-win32.pyd,sha256=PGaTU7HAVv958pXisT_BW9rDCJvqJEj8n8_BcRhgA88,46080
+evogression/standardize.py,sha256=mk3N6r_v25SsYvYCQl9Q6lKHNfErjIyuNMg3kzidu44,2202
+evogression-0.2.0.dist-info/LICENSE.txt,sha256=oIZSEY-KNcTVHa4ryC1xFHVJXECVt_aU8FTFdb4jklc,1090
+evogression-0.2.0.dist-info/METADATA,sha256=VXh-au_GaoBWGG-Y2ewRSkdWzSwXokKfF3-OploNnY0,4251
+evogression-0.2.0.dist-info/WHEEL,sha256=lZrZVSunAsdph2A7GL0UUoLJct7efkntCUJ_-xF1QuQ,102
+evogression-0.2.0.dist-info/top_level.txt,sha256=eIQrF3ryDPQqLztz8eKs9AdYuOGnH4PqRCgaFE_XTdE,12
+evogression-0.2.0.dist-info/RECORD,,
