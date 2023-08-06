@@ -1,0 +1,17 @@
+## Almost there.
+
+Now you just need to mixin the ActionMixin to your views. Here's an example of how that might look:
+
+```
+# for older versions of django rest framework
+# from actions.legacy import ActionMixin
+from actions.mixins import ActionMixin
+from {{appname}}.actions.action_registry import ACTIONS
+
+..
+
+class {{resource}}ViewSet(ActionMixin, viewsets.ModelViewSet):
+    queryset = {{resource}}.objects.all()
+    serializer_class = {{resource}}Serializer
+    action_registry = ACTIONS
+```
