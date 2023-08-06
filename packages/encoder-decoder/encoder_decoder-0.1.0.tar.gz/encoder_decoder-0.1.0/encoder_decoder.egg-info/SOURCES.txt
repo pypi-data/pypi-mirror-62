@@ -1,0 +1,7 @@
+README.md
+setup.py
+encoder_decoder.egg-info/PKG-INFO
+encoder_decoder.egg-info/SOURCES.txt
+encoder_decoder.egg-info/dependency_links.txt
+encoder_decoder.egg-info/not-zip-safe
+encoder_decoder.egg-info/top_level.txt
