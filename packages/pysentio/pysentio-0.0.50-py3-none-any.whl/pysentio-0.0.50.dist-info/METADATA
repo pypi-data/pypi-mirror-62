@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pysentio
+Version: 0.0.50
+Summary: Python library for Sentio Pro Sauna Controller
+Home-page: https://github.com/astrandb/pysentio
+Author: Ake Strandberg
+Author-email: ake@strandberg.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial (>=3.4)
+
+# pysentio
+Library for Sentio Pro sauna controller
+
+
