@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: key-logger
+Version: 0.0.1
+Summary: pip install key-logger
+Home-page: https://gitlab.com/DannyK999/keylogger
+Author: DannyK999
+Author-email: dannyk999@live.com
+License: UNKNOWN
+Description: # Keylogger
+        
+        The package we've all been waiting for
+        
+        Simply install with `pip install key-logger`
+        
+        
+        Actual features coming soon
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
