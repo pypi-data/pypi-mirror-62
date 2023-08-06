@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: QGrain
+Version: 0.2.7.1
+Summary: QGrain is an esay to use tool that can unmix and analyse the multi-modal grain size distribution.
+Home-page: https://github.com/QGrain-Organization/QGrain
+Author: Yuming Liu
+Author-email: liuyuming@ieecas.cn
+License: MIT
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: PySide2 (>=5.14.1)
+Requires-Dist: scikit-learn (>=0.22.1)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: shiboken2 (>=5.14.1)
+Requires-Dist: xlrd (>=1.2.0)
+Requires-Dist: XlsxWriter (>=1.2.7)
+Requires-Dist: xlwt (>=1.3.0)
+Requires-Dist: Pillow (>=7.0.0)
+Requires-Dist: opencv-python (>=4.2.0.32)
+
+UNKNOWN
+
+
