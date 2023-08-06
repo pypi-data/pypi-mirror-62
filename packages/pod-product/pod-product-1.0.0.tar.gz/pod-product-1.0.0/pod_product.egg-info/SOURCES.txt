@@ -1,0 +1,13 @@
+README.md
+setup.py
+pod_product/__init__.py
+pod_product/json_schema.json
+pod_product/pod_product.py
+pod_product/services.json
+pod_product/version.py
+pod_product.egg-info/PKG-INFO
+pod_product.egg-info/SOURCES.txt
+pod_product.egg-info/dependency_links.txt
+pod_product.egg-info/not-zip-safe
+pod_product.egg-info/requires.txt
+pod_product.egg-info/top_level.txt
