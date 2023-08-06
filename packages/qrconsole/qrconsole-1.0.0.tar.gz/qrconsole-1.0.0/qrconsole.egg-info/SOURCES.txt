@@ -1,0 +1,10 @@
+README.md
+setup.py
+qrconsole/__init__.py
+qrconsole/__main__.py
+qrconsole/qrconsole.py
+qrconsole.egg-info/PKG-INFO
+qrconsole.egg-info/SOURCES.txt
+qrconsole.egg-info/dependency_links.txt
+qrconsole.egg-info/requires.txt
+qrconsole.egg-info/top_level.txt
