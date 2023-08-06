@@ -1,0 +1,4 @@
+websocket-client>=0.44.0
+uiautomator>=0.3.2
+lxml>=4.0.0
+bidict>=0.14.0
