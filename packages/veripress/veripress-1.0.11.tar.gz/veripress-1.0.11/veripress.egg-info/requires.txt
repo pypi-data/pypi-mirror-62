@@ -1,0 +1,8 @@
+Flask<1.2,>=1.1
+Werkzeug<1.0,>=0.16
+Flask-Caching<2.0,>=1.4
+PyYAML<6.0,>=5.3
+Markdown<4.0,>=3.2
+Pygments<2.6,>=2.5
+pytz<2020.0,>=2019.3
+click<8.0,>=7.0
