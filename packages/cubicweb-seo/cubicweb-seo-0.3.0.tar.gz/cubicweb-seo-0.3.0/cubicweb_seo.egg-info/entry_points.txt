@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+seo = cubicweb_seo
+

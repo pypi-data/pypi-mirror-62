@@ -1,0 +1,10 @@
+include README
+include *.py
+include */*.py
+recursive-include cubicweb_seo *.py
+recursive-include cubicweb_seo/data *.gif *.png *.jpg *.ico *.css *.js
+recursive-include cubicweb_seo/i18n *.po
+recursive-include test/data bootstrap_cubes *.py
+
+include tox.ini
+prune debian
