@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: graphique
+Version: 0.0
+Summary: GraphQL service for arrow tables and parquet files.
+Home-page: https://github.com/coady/graphique
+Author: Aric Coady
+Author-email: aric.coady@gmail.com
+License: Apache Software License
+Project-URL: Documentation, https://graphique.readthedocs.io
+Description: [![image](https://img.shields.io/travis/coady/graphique.svg)](https://travis-ci.com/coady/graphique)
+        [![image](https://readthedocs.org/projects/graphique/badge)](https://graphique.readthedocs.io)
+        [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://pypi.org/project/black/)
+        [![image](http://mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+        
+        [GraphQL](https://graphql.org) service for [arrow](https://arrow.apache.org) tables
+        and [parquet](https://parquet.apache.org) files.
+        The schema is derived automatically.
+        
+        # Usage
+        ```console
+        % PARQUET_PATH=... uvicorn graphique:app [--reload]
+        ```
+        
+        Open http://localhost:8000/graphql.
+        
+        # Installation
+        ```console
+        % pip install graphique
+        ```
+        
+        # Tests
+        100% branch coverage.
+        
+        ```console
+        % pytest [--cov]
+        ```
+        
+Keywords: graphql arrow parquet
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: docs
