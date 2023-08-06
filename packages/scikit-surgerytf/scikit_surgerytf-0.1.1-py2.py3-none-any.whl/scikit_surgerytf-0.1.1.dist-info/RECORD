@@ -1,0 +1,17 @@
+sksurgerytf/__init__.py,sha256=csNOTlekiJMxHs-Z8ceoPFbYMQzFglRPIkMztpb7nJg,131
+sksurgerytf/_version.py,sha256=msT0OmhJepBE3EFHslWMO4uszN9HYipwL0WlfPuKiYQ,18470
+sksurgerytf/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sksurgerytf/models/fashion.py,sha256=BsKcPOaKG9s1KuSWtsgCzx67Evuyv5-2dXe31nUqfY8,10039
+sksurgerytf/models/rgb_unet.py,sha256=xv68chnR85kDoEkUxxSgL2L4gMw7K9Ki64omDAxHOsk,23268
+sksurgerytf/ui/__init__.py,sha256=vyuDbg0oX1EbJ4uN54gMYp4TBtre_Ljq0Q8b_3Tqk-g,39
+sksurgerytf/ui/sksurgery_fashion_command_line.py,sha256=Y2gtXjpkM1Qx0Oovk1YP7Prt_y_HDPBVB_X-y_l6F1A,1635
+sksurgerytf/ui/sksurgery_rgbunet_command_line.py,sha256=RSMpwRyUYMK52Mjmg4NypYmsnrqVOrfvYV0qq1I_J3o,3692
+sksurgerytf/ui/sksurgery_segstats_command_line.py,sha256=r3VlhOEfBkNWuEReLCfjzmMfFdIENIivir4NJ8WeAeQ,1239
+sksurgerytf/utils/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+sksurgerytf/utils/segmentation_statistics.py,sha256=P9LjGSfJvG7wO1_533skDhPLOlCzMTZmCR79qyPKz-A,4493
+scikit_surgerytf-0.1.1.dist-info/LICENSE,sha256=ktYviS_UtXuj6SIwJLUK5KK6O9juqMgWXgGmSSf9wPI,598
+scikit_surgerytf-0.1.1.dist-info/METADATA,sha256=WIEPNOfy8VrU40jx4WA1murPSzRA4qOAOW1K_heKCA8,8074
+scikit_surgerytf-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+scikit_surgerytf-0.1.1.dist-info/entry_points.txt,sha256=AyVGzW4JOUJRY3GxktMhGXNtvpP2nntQg8wRuCtJ3Do,231
+scikit_surgerytf-0.1.1.dist-info/top_level.txt,sha256=vOs0JlT2wse5I5dfNZRcTqbpEKntk8arOk5zbaQPJ1o,12
+scikit_surgerytf-0.1.1.dist-info/RECORD,,
