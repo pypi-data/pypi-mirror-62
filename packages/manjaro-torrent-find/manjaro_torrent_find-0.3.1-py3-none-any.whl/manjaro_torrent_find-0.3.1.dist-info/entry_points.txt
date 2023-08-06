@@ -1,0 +1,3 @@
+[console_scripts]
+mtf=manjaro_torrent_find.mtf:goBabe
+
