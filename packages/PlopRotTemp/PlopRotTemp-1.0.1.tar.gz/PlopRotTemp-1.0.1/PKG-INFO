@@ -1,0 +1,29 @@
+Metadata-Version: 1.0
+Name: PlopRotTemp
+Version: 1.0.1
+Summary: Extract forcefield parameters of a small molecule using OPLS2005
+Home-page: https://github.com/NostrumBioDiscovery/PlopRotTemp
+Author: Daniel Soler
+Author-email: daniel.soler@nostrumbiodiscovery.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: PlopRotTemp
+        #######################
+        
+        Get started:
+        ----------------
+        
+        To run PlopRotTemp you must use the next command on linux shell:
+        
+        1. pip install ploprottemp or conda install -c nostrumbiodiscovery ploprottemp
+        
+        2. $ /path/to/academic/schrodinger -m PlopRotTemp.main /path/to/mae/ligand
+        
+        Test
+        -------------
+        
+        - cd Examples
+        - e.g /opt/schrodinger2017-4/utilities/python /path/to/PlopRotTemp/main.py AS4_INIT.mae
+        
+        
+Platform: UNKNOWN
