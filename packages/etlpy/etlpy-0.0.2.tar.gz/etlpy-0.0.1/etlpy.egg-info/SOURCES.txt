@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+etlpy/__init__.py
+etlpy.egg-info/PKG-INFO
+etlpy.egg-info/SOURCES.txt
+etlpy.egg-info/dependency_links.txt
+etlpy.egg-info/requires.txt
+etlpy.egg-info/top_level.txt

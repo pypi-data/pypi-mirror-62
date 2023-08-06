@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: etlpy
+Version: 0.0.1
+Summary: ETL Utilities using Python Pandas
+Home-page: https://github.com/neelpuniwala/Pandas-ETL
+Author: Neel Puniwala
+Author-email: neelpuniwala1996@gmail.com
+License: MIT
+Download-URL: https://github.com/neelpuniwala/Pandas-ETL/archive/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: Pandas,ETL,Data Engineering
+Platform: UNKNOWN

@@ -1,0 +1,7 @@
+pymysql
+pymssql
+psycopg2
+cx_Oracle
+pyhive
+cassandra-driver
+pyarrow
