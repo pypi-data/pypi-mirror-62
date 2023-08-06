@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.cfg
+setup.py
+versioneer.py
+data_manipulation/__init__.py
+data_manipulation/_version.py
+data_manipulation.egg-info/PKG-INFO
+data_manipulation.egg-info/SOURCES.txt
+data_manipulation.egg-info/dependency_links.txt
+data_manipulation.egg-info/top_level.txt
