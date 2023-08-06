@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: youconfigme
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: https://github.com/crossnox/YouConfigMe
+Author: CrossNox
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: test
+Provides-Extra: dev
