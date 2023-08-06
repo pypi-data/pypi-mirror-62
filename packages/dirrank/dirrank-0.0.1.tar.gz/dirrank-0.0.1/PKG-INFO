@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dirrank
+Version: 0.0.1
+Summary: Rank files in a directory recursively, based on user preference.
+Home-page: https://github.com/liampulles/dirrank
+Author: Liam Pulles
+Author-email: me@liampulles.com
+License: MIT
+Description: # dirrank
+        dirrank is a tool for ranking files in a directory, recursively, based on user preference.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

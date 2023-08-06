@@ -1,0 +1,7 @@
+README.md
+setup.py
+dirrank/__init__.py
+dirrank.egg-info/PKG-INFO
+dirrank.egg-info/SOURCES.txt
+dirrank.egg-info/dependency_links.txt
+dirrank.egg-info/top_level.txt
