@@ -1,0 +1,11 @@
+README.md
+setup.py
+iot_manager_client/IoTClient.py
+iot_manager_client/Packet.py
+iot_manager_client/ReservedBytes.py
+iot_manager_client/__init__.py
+iot_manager_client/__main__.py
+iot_manager_client.egg-info/PKG-INFO
+iot_manager_client.egg-info/SOURCES.txt
+iot_manager_client.egg-info/dependency_links.txt
+iot_manager_client.egg-info/top_level.txt
