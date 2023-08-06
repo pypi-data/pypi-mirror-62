@@ -1,0 +1,11 @@
+telethon_secret_chat/__init__.py,sha256=VuyPwoHRa_zZAxp4OcvZuqhQEj8TpGprh-jPlKUK2-4,226
+telethon_secret_chat/secret_chat_manager.py,sha256=g5TlpDfOYh1Y6-t0nsbFFpEJ-nISWgo0stoA63ztZb4,2965
+telethon_secret_chat/secret_methods.py,sha256=3x2d4oFMvvEtOX-OsoyqfCPS69aUPbls7Oxh2vdBBsA,32096
+telethon_secret_chat/version.py,sha256=vAjl7O6dlyv55Lz3Ih5izkJx212CazmW1xuVySpB-_E,99
+telethon_secret_chat/secret_sechma/__init__.py,sha256=_3XPOz7SWC0QPV-9yisEjpdgJIk14FcSEGjf_YuJMO0,4330
+telethon_secret_chat/secret_sechma/secretTL.py,sha256=yjmpAhSwM24Rr7_MZHBLFpXWQCSU9_hyHsLaxG6zlgQ,108339
+telethon_secret_chat-0.1.13.dist-info/LICENSE,sha256=8NKnHVao0hMtvBqmhQdTklGBFTeZqOxckULlJ1O8eH4,1084
+telethon_secret_chat-0.1.13.dist-info/METADATA,sha256=sh00t7izrrNMeePCT4anL7fEZpGz9UyDsdmPVpHtwZA,2333
+telethon_secret_chat-0.1.13.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+telethon_secret_chat-0.1.13.dist-info/top_level.txt,sha256=Fp5YKDlKenatPNq_Klvar9GSo3j1yb-GJEKk_5SAlRM,21
+telethon_secret_chat-0.1.13.dist-info/RECORD,,
