@@ -1,0 +1,59 @@
+#!/usr/bin/python3 -u
+#
+# bin/bot
+
+import sys, os ; sys.path.insert(0, os.getcwd())
+
+import argparse
+import atexit
+import bot
+import lo
+import logging
+import logging.handlers
+import os
+import sys
+import termios
+import threading
+import time
+import traceback
+
+from bot.krn import Kernel
+from lo import strip
+from lo.hdl import Event, Handler, dispatch
+from lo.shl import execute, parse_cli, termreset
+
+opts = [
+    ('-m', '--modules', 'store', str, "", 'modules to load.', 'modules'),
+    ('-w', '--workdir', 'store', str, "", 'set working directory.', 'workdir'),
+    ('-l', '--loglevel', 'store', str, "error", 'set loglevel.', 'level'),
+    ('-a', '--logfile', 'store', str, "", 'file to log to.', 'logfile'),
+    ('-y', '--wait', 'store_true', False, "wait for bot to finish.", "wait")
+]
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        termreset()
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    si = open("/dev/null", 'r')
+    so = open("/dev/null", 'a+')
+    se = open("/dev/null", 'a+')
+    os.dup2(si.fileno(), sys.stdin.fileno())
+    os.dup2(so.fileno(), sys.stdout.fileno())
+    os.dup2(se.fileno(), sys.stderr.fileno())
+
+def main():
+    cfg = parse_cli("botd", bot.__version__, opts)
+    daemon()
+    k = Kernel()
+    k.cfg.last()
+    k.cfg.update(strip(cfg))
+    k.cfg.modules += "bot.shw,bot.irc"
+    k.walk(k.cfg.modules, True)
+    k.start()
+    k.wait()
+    
+execute(main)
+os._exit(0)
