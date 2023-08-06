@@ -1,0 +1,8 @@
+setup.py
+djangocms_helpers/__init__.py
+djangocms_helpers/apps.py
+djangocms_helpers.egg-info/PKG-INFO
+djangocms_helpers.egg-info/SOURCES.txt
+djangocms_helpers.egg-info/dependency_links.txt
+djangocms_helpers.egg-info/requires.txt
+djangocms_helpers.egg-info/top_level.txt
