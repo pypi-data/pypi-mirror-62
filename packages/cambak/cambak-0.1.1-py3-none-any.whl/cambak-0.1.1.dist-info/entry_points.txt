@@ -1,0 +1,3 @@
+[console_scripts]
+cambak=cambak:main_cli
+
