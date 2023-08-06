@@ -1,0 +1,15 @@
+pipdownload/__init__.py,sha256=_N5DnnCAf5G6qh6CsERE7oUNp_m3TJd9t1yThS5fShk,170
+pipdownload/__main__.py,sha256=z6Nb9LTztjFAyAGbQ6SWl-1lmu0XJGFe5IXe3vbLTEQ,77
+pipdownload/cli.py,sha256=bAsFiS4aWigtwXs_W80FJdA53vE61svpwouhiv1l9P4,7126
+pipdownload/exceptions.py,sha256=fDW1xTxaCSOx9rst0-2cPSyFfHuG-1yBcHKTzioFb7A,2061
+pipdownload/utils.py,sha256=hsxvjrVigeIMSDd4a5p0SD1I3cTvu5ZgdDua68PXbnk,10123
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=-RDJDZz3RjhSiYTqfptoJC8V_TicezwIjdXTAWYm7DE,334
+tests/test_cli.py,sha256=5PCeiNfIzVcTn1A2wldngoog-CM7QQd4zAe0d0kl6IA,2996
+tests/test_utils.py,sha256=4lfFkzMBPRUxDiuItKPEcy3F4bUT8Ajlt0yvJNsrSDE,604
+pip_download-0.1.2.dist-info/LICENSE-MIT,sha256=J4JMm-T726jq92Tol413MxZlQuXVnsWFE1GgBDjFFBY,1132
+pip_download-0.1.2.dist-info/METADATA,sha256=EcLdv3_1rpVoPVy4aFIpEz7R4bzkgla-Xd0xsm35Usw,3144
+pip_download-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pip_download-0.1.2.dist-info/entry_points.txt,sha256=92fk2MMsqylXjYqu15O6IFWFIDFPB0I9CpfY0PhAUJc,62
+pip_download-0.1.2.dist-info/top_level.txt,sha256=wIDGkN8gmbUILvCe1N7I9OKjwJwqu9kWdMsAyi3kPJo,18
+pip_download-0.1.2.dist-info/RECORD,,
