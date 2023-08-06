@@ -1,0 +1,14 @@
+broadworks_django_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+broadworks_django_auth/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+broadworks_django_auth/apps.py,sha256=sUTeLfZTWtUbp3Tyj6OOr1wMyldMHu0I-is1csHugTo,111
+broadworks_django_auth/backends.py,sha256=ds_nsk-B2Y0RgSe340eBlY_O0y5asO9Sp-3wz7Z0yJc,1522
+broadworks_django_auth/models.py,sha256=M4IJlBb7uy50My5rv5VjrQL-KC4RVS_8VNGqq-ZKoz4,561
+broadworks_django_auth/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+broadworks_django_auth/migrations/0001_initial.py,sha256=d6GWstr3BzqxrhgtlU_BlFtok58TIn1JmvsBZgWpTwc,1034
+broadworks_django_auth/migrations/0002_auto_20191202_1556.py,sha256=BPk9qmKwMrLejCQw_zACJ3ptiKam0kT4upzoPB55UTQ,886
+broadworks_django_auth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Broadworks_Django_Authentication-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+Broadworks_Django_Authentication-0.0.1.dist-info/METADATA,sha256=CFd12H4Y6LPMRL0nnhvjpbdccIcaDnFcZ3KCTCSZvlc,868
+Broadworks_Django_Authentication-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+Broadworks_Django_Authentication-0.0.1.dist-info/top_level.txt,sha256=XiQYGJFkCf3B-9ceHP4sjF7QSr51PKblXoGiKpzTsqo,23
+Broadworks_Django_Authentication-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Broadworks-Django-Authentication
+Version: 0.0.1
+Summary: Broadworks Authentication for your django app
+Home-page: UNKNOWN
+Author: Aaron Parfitt
+Author-email: aaronparfitt123@gmail.com
+License: UNKNOWN
+Keywords: Broadworks,Django
+Platform: UNKNOWN
+Classifier: Framework :: Django :: 2.1
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: BroadworksOCIP
+
+# Broadworks-Django-Auth 
+
+## Install the app
+settings.py
+```python
+INSTALLED_APPS = [
+    ...
+    'broadworks_django_auth'
+]
+
+```
+## Adding to Authentication Backends
+
+settings.py
+```python
+AUTHENTICATION_BACKENDS = [
+    'broadworks_django_auth.backends.BraodworksAuthentication',
+]
+```
+
+
+## Adding your OCIP Address
+
+settings.py
+
+```python
+BROADWORKS_ADDRESS = "https://api.broadsoft.com/webservice/services/ProvisioningService"
+
+```
+
+
