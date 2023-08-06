@@ -1,0 +1,9 @@
+README.md
+setup.py
+./basemath/__init__.py
+./tests/__init__.py
+./tests/test_basemath.py
+basemath.egg-info/PKG-INFO
+basemath.egg-info/SOURCES.txt
+basemath.egg-info/dependency_links.txt
+basemath.egg-info/top_level.txt
