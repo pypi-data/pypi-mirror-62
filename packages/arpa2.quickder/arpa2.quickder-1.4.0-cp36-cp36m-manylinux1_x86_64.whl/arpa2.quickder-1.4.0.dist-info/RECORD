@@ -1,0 +1,16 @@
+_quickder.cpython-36m-x86_64-linux-gnu.so,sha256=dhi6ooICfkBiAVoABUf-MY6DtoH1b1VRZgrfeijBSgY,58912
+PYTHON.MD,sha256=wEdzvqbAwlyR3AZnTXu_KAU4oi-_SP4eJTYOziIpSr8,4966
+arpa2.quickder-1.4.0-py3.6-nspkg.pth,sha256=HCHX9u7VanKaE_-IMbe6RPmeaiYSiQn2RL6oG7pdlIo,534
+arpa2.quickder-1.4.0.dist-info/WHEEL,sha256=sls3I4AwOjcUUS0eD_jeWVVjbWXRb5AM-U3YAwvxhss,109
+arpa2.quickder-1.4.0.dist-info/RECORD,,
+arpa2.quickder-1.4.0.dist-info/top_level.txt,sha256=FSgGfASWzMjYSy_6dzYM-FJioti84_WZrw03dks3tPk,16
+arpa2.quickder-1.4.0.dist-info/METADATA,sha256=sul7Xqi_mWtlaGkMV5bkj5sUpDihsBF3fXTjY7pujiE,5464
+arpa2.quickder-1.4.0.dist-info/LICENSE.MD,sha256=1jacdG1xVeeD6EM82WhC27WmFMDvTD2LbqSZXWkkRB8,1487
+arpa2.quickder-1.4.0.dist-info/namespace_packages.txt,sha256=48wuifR-u-2AqZ4WPdifTrb5vqvvnAJUqCnbDs4yKCA,6
+arpa2/quickder/__init__.py,sha256=GzK13KGLhnwkHIBiqs8zgNHl0UXOBcCqYjOR-ChmwlY,64
+arpa2/quickder/api.py,sha256=R5p2HtaPNT4VXfEh_330EgrRbk_FdDWuDaxFxJ4FjI0,714
+arpa2/quickder/builder.py,sha256=ju3ldylzKaH7Rj8uoDrQSP_NtX9K-iU0Z2MyIT6qCsA,3658
+arpa2/quickder/primitive.py,sha256=9gGbm4dUiWaPan9qKTUBqK3U0Y_2sZbubKtUqY_m3aM,4125
+arpa2/quickder/packstx.py,sha256=3-_GQFlxQTR8FWu23AzKTNMs3O26xr9QXrpS-Y9zfvQ,1879
+arpa2/quickder/classes.py,sha256=1d6AvZNFQ2UF80lhv-v4tvglqJN7UQB8UZq1nP7Gt4A,30652
+arpa2/quickder/format.py,sha256=WmmOGIGbAMYNfOiUUzulerV3c143KNgFXREvY3BdGBw,5766
