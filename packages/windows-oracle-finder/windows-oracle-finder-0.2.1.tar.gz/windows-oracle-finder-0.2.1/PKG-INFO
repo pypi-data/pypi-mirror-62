@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: windows-oracle-finder
+Version: 0.2.1
+Summary: A small package for windows machines to find where the installation of oracle client resides.
+Home-page: https://github.com/hargikas/windows-oracle-finder
+Author: Charalampos Gkikas
+Author-email: hargikas@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/hargikas/windows-oracle-finder/
+Project-URL: Tracker, https://github.com/hargikas/windows-oracle-finder/issues
+Description: # windows-oracle-finder
+        A small module for windows machines to find where the installation of oracle client resides.
+        
+Keywords: oracle windows client instantclient
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3
+Description-Content-Type: text/markdown
