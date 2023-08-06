@@ -1,0 +1,14 @@
+autograde/__init__.py,sha256=5YTTjmvT4G8wsVKxaolGViVALicV-Jx6liDH0QFY8_A,261
+autograde/__main__.py,sha256=FAhaTVIglu4pxt1umby2_ncwM2h0EAsOleAqGixqkuE,6549
+autograde/helpers.py,sha256=-Cel45pAGXOG_NryxmeFpI51IrRj1LxHEWb7cW9mB_w,747
+autograde/notebook_test.py,sha256=LAbHYV5Jhegf5xAEzo_IL_BfjOSgIapbAugJQdSssGU,11794
+autograde/util.py,sha256=gYaXxSbkJ49tzm3NERs5tDTNmyElOD5uCy9CF-ysKLs,2420
+autograde/templates/__init__.py,sha256=BsdPJhmR7uqVP8JYhngAWPBlmAOfDy6vYVvs2-Rnnzo,386
+autograde/templates/inject_after.py,sha256=zXMIzC8Hb3woC8_9IyaDpzcHqxuqLW1Z4WbGhyQDZ3A,35
+autograde/templates/inject_before.py,sha256=MHamEQxCPIQk7FFbFt8Ew4zQ6p6GfXtD7CQD6-8YlHA,549
+autograde/templates/report.rst,sha256=d78iOqmjNYmpEqgPPwfASpKJIzqk5_e0E97I3cUaZvo,191
+jupyter_autograde-0.1.2.dist-info/LICENSE,sha256=oiNTamNx9v_vyDzQAJiOni9gizcnebMtCXeNCMbC128,1132
+jupyter_autograde-0.1.2.dist-info/METADATA,sha256=agfld1IfLrhmlgHGv9JcrbDw1-0bSbI-Vi_YZs9rDvE,3755
+jupyter_autograde-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jupyter_autograde-0.1.2.dist-info/top_level.txt,sha256=ghOTnHYCU5UREGCTia7isxgN4xsizWiwUUgrqd69rFk,10
+jupyter_autograde-0.1.2.dist-info/RECORD,,
