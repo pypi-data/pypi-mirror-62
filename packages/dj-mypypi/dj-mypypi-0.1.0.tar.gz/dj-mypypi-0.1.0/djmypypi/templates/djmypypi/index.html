@@ -1,0 +1,7 @@
+<html>
+<body>
+    {% for package in object_list %}
+    <a href="{% url 'djmypypi:package' package.name %}">{{package.name}}</a>
+    {% endfor %}
+</body>
+</html>
