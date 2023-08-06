@@ -1,0 +1,10 @@
+README.md
+setup.py
+splitp/__init__.py
+splitp/nx_tree.py
+splitp/parsers.py
+splitp/tree_helper_functions.py
+splitp.egg-info/PKG-INFO
+splitp.egg-info/SOURCES.txt
+splitp.egg-info/dependency_links.txt
+splitp.egg-info/top_level.txt
