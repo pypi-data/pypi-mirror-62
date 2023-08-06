@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DigitalPressureSensor
+Version: 1.0.0
+Summary: CircuitPython driver for Infineon Digital Pressure Sensor.
+Home-page: UNKNOWN
+License: MIT
+Description: # RaspberryPi_DPS
+        Unified library for all the versions of DPS(310, 368,422)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/x-rst

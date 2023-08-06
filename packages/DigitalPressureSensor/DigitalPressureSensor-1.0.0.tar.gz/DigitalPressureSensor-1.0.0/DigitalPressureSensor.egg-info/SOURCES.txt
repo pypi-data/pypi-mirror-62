@@ -1,0 +1,7 @@
+DPS.py
+README.md
+setup.py
+DigitalPressureSensor.egg-info/PKG-INFO
+DigitalPressureSensor.egg-info/SOURCES.txt
+DigitalPressureSensor.egg-info/dependency_links.txt
+DigitalPressureSensor.egg-info/top_level.txt
