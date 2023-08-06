@@ -1,0 +1,10 @@
+configDmanager/__init__.py,sha256=lCcXNIdnfNRC-sNKaxUX0q-NRvwL04Mg3MFTAjLP5eM,198
+configDmanager/_config.py,sha256=q1tRzHh2gH3TC9xO5pdrxSdmHeXNhCgljEKTqIjwRbE,6124
+configDmanager/_configmanager.py,sha256=auO5v-1FFOz1I7eucW065axLiL2Mf4N5r7-moz2MMGU,3362
+configDmanager/_format.py,sha256=IFup5PtijhAI3fp9NMiVezb4LRiVeCgrn5jhvPlV6M0,806
+configDmanager/errors.py,sha256=ryox7y-EJkbD-6cWuPELdUHQwh-VR0xSneyuxNoVRk4,661
+ConfigDmanager-0.0.3.dist-info/LICENSE,sha256=ESiqWVMnxC9HVJi8PcQWE-aJJ9aWImZm06XzKIa1414,1088
+ConfigDmanager-0.0.3.dist-info/METADATA,sha256=sCeidmR3zytqyPr1Pa7ii41cUXyFzzkd2aIspfZkyM8,2314
+ConfigDmanager-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ConfigDmanager-0.0.3.dist-info/top_level.txt,sha256=zcqo8uTaqt0feWJtKB8c_RoupdIYLL86tRR-UDc_KkQ,15
+ConfigDmanager-0.0.3.dist-info/RECORD,,
