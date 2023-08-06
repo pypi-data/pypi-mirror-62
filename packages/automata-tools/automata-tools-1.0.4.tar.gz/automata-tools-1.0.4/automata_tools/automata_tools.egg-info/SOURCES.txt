@@ -1,0 +1,7 @@
+README.md
+setup.py
+automata_tools/automata_tools.egg-info/PKG-INFO
+automata_tools/automata_tools.egg-info/SOURCES.txt
+automata_tools/automata_tools.egg-info/dependency_links.txt
+automata_tools/automata_tools.egg-info/requires.txt
+automata_tools/automata_tools.egg-info/top_level.txt
