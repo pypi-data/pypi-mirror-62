@@ -1,0 +1,8 @@
+name: functional_itertools
+
+dependencies:
+  - python=3.6
+  - bump2version=0.5.*
+  - flit=2.2.*
+  - pre-commit=2.1.*
+  - pynvim=0.4.*
