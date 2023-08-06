@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: soundification
+Version: 1.0.0
+Summary: Multi-Channel Audio Classifier
+Home-page: https://github.com/ravising-h/soundification
+Author: Ravi Singh
+Author-email: mailbox.ravisingh@gmail.com
+License: MIT
+Download-URL: https://github.com/ravising-h/soundification/tarball/1.0.0
+Description: Soundification   Sound-Classification using Pytorch   The master branch works with PyTorch 1.1 to 1.3.1.  Introduction  This epository is open-sourced toolbox based on pytorch which can be used for Sound Classification like Emotion recognition, Urbansound 8k, FSD  Feature  It is fast as uses Pytorch and GPUs.  Dataset Management easy.   Can run on colab.    It is platform friendly.  Multi Feature data extraction like MFCC, Chroma, STFT. Log files and Tensorboard The repo is maintained by RAVISING-H https://github.com/ravising-h/ 
+Platform: UNKNOWN

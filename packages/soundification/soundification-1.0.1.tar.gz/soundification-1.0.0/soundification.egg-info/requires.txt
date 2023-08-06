@@ -1,0 +1,4 @@
+pytorch
+librosa
+sys
+py3nvml

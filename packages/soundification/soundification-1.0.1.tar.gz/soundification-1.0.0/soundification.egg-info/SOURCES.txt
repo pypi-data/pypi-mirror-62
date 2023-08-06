@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+soundification.egg-info/PKG-INFO
+soundification.egg-info/SOURCES.txt
+soundification.egg-info/dependency_links.txt
+soundification.egg-info/requires.txt
+soundification.egg-info/top_level.txt
