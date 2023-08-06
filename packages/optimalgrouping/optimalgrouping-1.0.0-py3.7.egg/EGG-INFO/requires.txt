@@ -1,0 +1,4 @@
+argparse
+astropy
+numpy
+astroquery
