@@ -1,0 +1,11 @@
+matlab_kernel/__init__.py,sha256=WlZ2uj_i25KtzISMGwPvJNxfp1RSLnpgrkt94wTLwPU,58
+matlab_kernel/__main__.py,sha256=R4vgDQyAXCRel-bjwXhNqQY5rSVXMNjifL87mWDa9kM,95
+matlab_kernel/check.py,sha256=CKGRR2PvzS8jfEpIFhgE1fRVhR8-A-4f5pAwxBKDRMo,566
+matlab_kernel/kernel.json,sha256=7k2qJkfSIs9eiyttBUy_15JvAMyAi8pLgf9kzGYQi4U,197
+matlab_kernel/kernel.py,sha256=n4UOoVYkDy3BBs7dLrf64pRBykPAaefc8j6j3aXh-40,10116
+matlab_kernel-0.16.8.data/data/share/jupyter/kernels/matlab/kernel.json,sha256=7k2qJkfSIs9eiyttBUy_15JvAMyAi8pLgf9kzGYQi4U,197
+matlab_kernel-0.16.8.dist-info/LICENSE.txt,sha256=rC-D-HosiOuurvuv-lhTR9CkkuPfS6axiSpOqMK_sMw,2639
+matlab_kernel-0.16.8.dist-info/METADATA,sha256=wOxkDbukhFDgVJ0rPH--9EMcUvcv0CuphG02TIIBtng,3785
+matlab_kernel-0.16.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+matlab_kernel-0.16.8.dist-info/top_level.txt,sha256=2MCyDMeJtUZ_MTiILxj5tPlCpUL5cCpYiNqSHpv77FM,14
+matlab_kernel-0.16.8.dist-info/RECORD,,
