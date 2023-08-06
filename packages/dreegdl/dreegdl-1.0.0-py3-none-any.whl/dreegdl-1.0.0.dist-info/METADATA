@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dreegdl
+Version: 1.0.0
+Summary: Depression Rest EEG Deep Learning - Deep Learning tools for Depression Rest EEG signals
+Home-page: https://github.com/tocodeforsoul/Depression-Rest-EEG-Deep-Learning
+Author: ToCodeForSoul
+Author-email: tocodeforsoul@gmail.com
+License: Apache 2.0
+Keywords: EEG,Depression,Rest,Depression Rest,Depression Rest EEG,Depression Rest EEG Deep Learning,Deep Learning,Regression,Classification
+Platform: UNKNOWN
+Requires-Dist: tensorflow
+Requires-Dist: keras
+Requires-Dist: numpy
+Requires-Dist: pywavelets
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: IPython
+Requires-Dist: statsmodels
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+Depression Rest EEG Deep Learning package is intended to be used for works onthe corresponding EEG signals dataset provided by http://predict.cs.unm.edu/downloads.phpany further updates and changes may be applied soon.
+
+
