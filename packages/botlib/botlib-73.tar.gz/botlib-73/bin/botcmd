@@ -1,0 +1,47 @@
+#!/usr/bin/python3 -u
+#
+# bin/bot
+
+import sys, os ; sys.path.insert(0, os.getcwd())
+
+import argparse
+import atexit
+import bot
+import lo
+import logging
+import logging.handlers
+import os
+import sys
+import termios
+import threading
+import time
+import traceback
+
+from bot.krn import Kernel
+from lo.csl import Console
+from lo.hdl import Event, Handler, dispatch
+from lo.shl import execute, parse_cli, termreset
+
+opts = [
+    ('-m', '--modules', 'store', str, "", 'modules to load.', 'modules'),
+    ('-w', '--workdir', 'store', str, "", 'set working directory.', 'workdir'),
+    ('-l', '--loglevel', 'store', str, "error", 'set loglevel.', 'level'),
+    ('-a', '--logfile', 'store', str, "", 'file to log to.', 'logfile'),
+]
+
+def main():
+    cfg = parse_cli("botcmd", bot.__version__, opts, """ botcmd <cmd> """)
+    k = Kernel(cfg)
+    k.walk("bot")
+    k.walk(cfg.modules, True)
+    if k.error:
+        return
+    e = Event()
+    e.etype = "command"
+    e.orig = repr(k)
+    e.txt = " ".join(cfg.args)
+    dispatch(k, e)
+    e.wait()
+    
+execute(main)
+os._exit(0)

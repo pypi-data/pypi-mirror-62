@@ -1,0 +1,50 @@
+#!/usr/bin/python3 -u
+# BOTLIB - Framework to program bots.
+#
+#
+
+import sys, os ; sys.path.insert(0, os.getcwd())
+
+import argparse
+import atexit
+import bot
+import logging
+import logging.handlers
+import os
+import sys
+import termios
+import threading
+import time
+import traceback
+
+from bot.krn import Kernel
+from lo.csl import Console
+from lo.hdl import Event, Handler, dispatch
+from lo.shl import execute, parse_cli, termreset
+
+opts = [
+    ('-m', '--modules', 'store', str, "", 'modules to load.', 'modules'),
+    ('-w', '--workdir', 'store', str, "", 'set working directory.', 'workdir'),
+    ('-l', '--loglevel', 'store', str, "error", 'set loglevel.', 'level'),
+    ('-a', '--logfile', 'store', str, "", 'file to log to.', 'logfile'),
+    ('-y', '--wait', 'store_true', False, "wait for bot to finish.", "wait")
+]
+
+def main():
+    parse_cli("bot", bot.__version__, opts, """bot <server> <channel> <nick>""")
+    k = Kernel()
+    k.walk("bot.shw")
+    k.walk(k.cfg.modules, True)
+    if k.cfg.error:
+        return
+    if k.cfg.wait:
+        k.start()
+        k.wait()
+        return
+    c = Console()
+    c.cmds.update(k.cmds)
+    c.start()
+    c.wait()
+    
+execute(main)
+os._exit(0)

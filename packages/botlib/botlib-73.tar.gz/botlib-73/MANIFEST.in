@@ -1,0 +1,5 @@
+include README.rst
+include bin/getfeedparser
+include bin/install
+recursive-include lo *.py
+recursive-include mods *.py
