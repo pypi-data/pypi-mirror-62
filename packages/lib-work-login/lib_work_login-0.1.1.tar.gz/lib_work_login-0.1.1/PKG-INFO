@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: lib_work_login
+Version: 0.1.1
+Summary: Logs you into work
+Home-page: https://github.com/jfuruness/lib_work_login.git
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: BSD
+Download-URL: https://github.com/jfuruness/lib_work_login.git
+Description: UNKNOWN
+Keywords: Furuness,Login,login,terminal
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
