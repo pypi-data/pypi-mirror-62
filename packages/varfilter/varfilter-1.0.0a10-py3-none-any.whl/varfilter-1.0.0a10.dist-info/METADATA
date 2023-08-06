@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: varfilter
+Version: 1.0.0a10
+Summary: filtra variables de distintas fuentes
+Home-page: https://github.com/gomibaya/pyVarfilter/
+Author: Esteban Barón
+Author-email: esteban@gominet.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Spanish
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pyVarfilter
+
+Simplificación de obtención de variables del exterior, y filtrado básico.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+python3 >= 3.5
+python3-pip
+pylama
+bandit3
+
+
+## Deployment
+
+pip3 install pyVarfilter
+
+
+## Authors
+
+* **Esteban Barón** - *Initial work* - [gomibaya](https://github.com/gomibaya)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
+
