@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/startapi
+django_startapi/__init__.py
+django_startapi/creator.py
+django_startapi/insert.py
+django_startapi/start_api.py
+django_startapi.egg-info/PKG-INFO
+django_startapi.egg-info/SOURCES.txt
+django_startapi.egg-info/dependency_links.txt
+django_startapi.egg-info/requires.txt
+django_startapi.egg-info/top_level.txt
