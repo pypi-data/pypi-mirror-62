@@ -1,0 +1,13 @@
+README.md
+setup.py
+AVGet.egg-info/PKG-INFO
+AVGet.egg-info/SOURCES.txt
+AVGet.egg-info/dependency_links.txt
+AVGet.egg-info/entry_points.txt
+AVGet.egg-info/requires.txt
+AVGet.egg-info/top_level.txt
+avget/__init__.py
+avget/__main__.py
+avget/__version__.py
+tests/__init__.py
+tests/test_main.py

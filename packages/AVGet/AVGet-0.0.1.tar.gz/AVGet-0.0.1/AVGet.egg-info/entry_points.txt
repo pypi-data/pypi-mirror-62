@@ -1,0 +1,3 @@
+[console_scripts]
+avget = avget.__main__:main
+
