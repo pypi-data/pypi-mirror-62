@@ -1,0 +1,15 @@
+pan_cortex_data_lake/__init__.py,sha256=O_zPT5jsVItdNAGCSEAMJEoaAYGYjsLs4tVKge6Wl7c,389
+pan_cortex_data_lake/credentials.py,sha256=_6-ZqiQU0z9XwB_XHTGMOVPMdwWcUFNsHhXm5TYMoGQ,19619
+pan_cortex_data_lake/exceptions.py,sha256=ZqPs5mK_23MkmO7rz_zpDO28Ij2eClxc8VdauwznSY8,1804
+pan_cortex_data_lake/httpclient.py,sha256=yIbKqohLT450zBMhL7DHVoUX3gHGLCmZsydPruAOJ7s,11241
+pan_cortex_data_lake/query.py,sha256=eavRZLFrnjODPcCH70kC137GRg8aLwfBRjqTAn2K0zI,10510
+pan_cortex_data_lake/utils.py,sha256=uZ5_1yvCGWoFDV08UgAPAN0uMl-o26OW9t3rWBmzf9Y,998
+pan_cortex_data_lake/adapters/__init__.py,sha256=UP1sYRCgvE2Nrb2vP0dSPNRtYzaId6-p1c2r1AUfTXk,100
+pan_cortex_data_lake/adapters/adapter.py,sha256=NYSumxaqbwn2vRdD6IN00CgYr_2kcSho5hnGQq2KMbM,1406
+pan_cortex_data_lake/adapters/tinydb_adapter.py,sha256=49QpB1pCaRvNgKAFuKW7O2PhLXjFio_s7qiSV7TtpKM,2843
+pan_cortex_data_lake-2.0.0a5.dist-info/AUTHORS.md,sha256=swp31zeuBSlmeVtiBVGJIkOEZfoCEoxNCgMpb3bHPzA,182
+pan_cortex_data_lake-2.0.0a5.dist-info/LICENSE,sha256=dV02uzOseoRF2vCTp25y4dIBIWi1mSS_Y8OTjzbNQFE,752
+pan_cortex_data_lake-2.0.0a5.dist-info/METADATA,sha256=WUAr4z0IhvPNGw84JrudPxNBx_NN8_owc3E2b0zENqk,10711
+pan_cortex_data_lake-2.0.0a5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pan_cortex_data_lake-2.0.0a5.dist-info/top_level.txt,sha256=DymSmWKsSZMSf86iYhPR_MoJ4QEK1RreLE7jTNs9Gqk,21
+pan_cortex_data_lake-2.0.0a5.dist-info/RECORD,,
