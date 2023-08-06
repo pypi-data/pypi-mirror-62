@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyradiora-classic
+Version: 0.0.6
+Summary: Python API for RS232 control of Lutron RadioRA Classic lighting
+Home-page: https://github.com/rsnodgrass/pyradiora-classic
+Author: Ryan Snodgrass
+Author-email: rsnodgrass@gmail.com
+License: Apache2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Requires-Dist: pyserial (>=3.4)
+Requires-Dist: pyserial-asyncio (>=0.4)
+
+UNKNOWN
+
+
