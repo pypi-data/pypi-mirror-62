@@ -1,0 +1,15 @@
+psycopg2/__init__.py,sha256=Qsib8bh_5Dsk7u-hrswQrdT2XraiqRu26i3Md-zc77U,4899
+psycopg2/_ipaddress.py,sha256=vySnwSesuF4_dvhyyPy9WnOZvjnhLaL3JlgMVVGZm38,2882
+psycopg2/_json.py,sha256=9mwEl4ebmcKYTpZuoUug7VO-DbZm6ZD_9hJaDtKyFfQ,7845
+psycopg2/_range.py,sha256=rPqs0mTcP3EMY_rYt7OeUECvH897M8w9Xpdz3_4YhT4,17270
+psycopg2/errorcodes.py,sha256=fFKy-0PQUwDq3DFjfe_eOE-2iB4mzDX83dcgqddfvjI,13246
+psycopg2/extensions.py,sha256=BQw9pmZHdyQtmpJ1MfI8lVIUXrHsHAr4kubBYhWW4lM,7022
+psycopg2/extras.py,sha256=jcUwzCLDX4_x3LFVXHx08q8vjrvxVoUnzp2LotlGMLI,42332
+psycopg2/pool.py,sha256=MIgoTeG5x5Uk5z9ysYU6FcOg5LOyv9Lu1Kz4Jf1l4y0,8172
+psycopg2/psycopg1.py,sha256=dLOaEnta_X8x5E4NXzOPikUdN_VWwH7r-lc6welzgZs,3329
+psycopg2/sql.py,sha256=2vMBXPr3mTHINBYL9dFtjp4MrwTQTC2zT77onebJ2uM,13786
+psycopg2/tz.py,sha256=XwpPmKSvoCCv7G40Lbwo5L4KrR4149tNE3tXrernxAg,4424
+awslambda_psycopg2-1.0.1.dist-info/METADATA,sha256=f_Inja0F0EsyMi7XPzxxxU-AD9D0zhXvmFp-Q0z3quM,2247
+awslambda_psycopg2-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+awslambda_psycopg2-1.0.1.dist-info/top_level.txt,sha256=7dHGpLqQ3w-vGmGEVn-7uK90qU9fyrGdWWi7S-gTcnM,9
+awslambda_psycopg2-1.0.1.dist-info/RECORD,,
