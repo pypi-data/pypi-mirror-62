@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+fakemail.py
+setup.cfg
+setup.py
+fakemail.egg-info/PKG-INFO
+fakemail.egg-info/SOURCES.txt
+fakemail.egg-info/dependency_links.txt
+fakemail.egg-info/entry_points.txt
+fakemail.egg-info/requires.txt
+fakemail.egg-info/top_level.txt
