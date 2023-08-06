@@ -1,0 +1,17 @@
+kloudy/__init__.py,sha256=JC8a9rCu7VsHaRLXyaTFnpmohSq3QoUOQbt14fqOgB8,322
+kloudy/kloudy.py,sha256=Nd044BGTu3t_5_ypmoLDeB1saXd0MOGgnkDgWsRw8vc,278
+kloudy/aws/commands/aws.py,sha256=IVQrZH06-__dF5qTkD3JrAAPtyCj0aADO_3Cq_4haSw,59278
+kloudy/azure/commands/azure.py,sha256=Xl-hzyrviAoK9rD9BbI381O1lTOWHrEoNVUTpdRlSTQ,1722
+kloudy/gcp/commands/gcp.py,sha256=3Aj16p03Sa4vwU-xDgzJ3w-bIxhAXKrXT0lk62ykNCY,3716
+kloudy-0.1.1.dist-info/LICENSE,sha256=xCs5ywcMLkMC-TvTeDkUMLmDVEBNtjCVCqz5NAo3SJY,1073
+kloudy-0.1.1.dist-info/METADATA,sha256=ZUAdLSDXEvAezJ7sq_NnlTmAcH8mBaE8GIqgGtSYjF4,9023
+kloudy-0.1.1.dist-info/PKG-INFO 2,sha256=wnd1GUfafxnegRyobXrA0hYIilfhRG5NLji4ixNXM9c,8593
+kloudy-0.1.1.dist-info/SOURCES 2.txt,sha256=6lZUXAUI6e3WSctb4cSN4EdqcR4tsjCA52i_Q0kSuzs,310
+kloudy-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kloudy-0.1.1.dist-info/dependency_links 2.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kloudy-0.1.1.dist-info/entry_points 2.txt,sha256=s7rlQIc0MnCP7YKnlMPRtzYLmfNajUktxtlWUwU1-1o,57
+kloudy-0.1.1.dist-info/entry_points.txt,sha256=s7rlQIc0MnCP7YKnlMPRtzYLmfNajUktxtlWUwU1-1o,57
+kloudy-0.1.1.dist-info/requires 2.txt,sha256=SYDLlDEQLNuxCsmSvlIvNt3ApK_wiRpcdlBiIjxeS7w,95
+kloudy-0.1.1.dist-info/top_level 2.txt,sha256=3aPoPLrD2xtO4OvI3gGgBum0BPAqZXLHTHACGczSkDc,7
+kloudy-0.1.1.dist-info/top_level.txt,sha256=3aPoPLrD2xtO4OvI3gGgBum0BPAqZXLHTHACGczSkDc,7
+kloudy-0.1.1.dist-info/RECORD,,
