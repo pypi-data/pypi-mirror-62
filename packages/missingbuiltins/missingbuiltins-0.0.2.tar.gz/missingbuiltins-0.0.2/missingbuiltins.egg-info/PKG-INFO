@@ -1,0 +1,56 @@
+Metadata-Version: 1.2
+Name: missingbuiltins
+Version: 0.0.2
+Summary: Code I write over and over for no good reason
+Home-page: https://github.com/jbn/missingbuiltins
+Author: John Bjorn Nelson
+Author-email: jbn@abreka.com
+License: GNU General Public License v3
+Description: .. image:: https://img.shields.io/pypi/v/missingbuiltins.svg
+                :target: https://pypi.python.org/pypi/missingbuiltins
+        
+        .. image:: https://img.shields.io/travis/jbn/missingbuiltins.svg
+                :target: https://travis-ci.com/jbn/missingbuiltins
+        
+        ====
+        What
+        ====
+        
+        Code I write over and over for no good reason.
+        
+        Gonna see what happens by means of accretion.
+        
+        ------------
+        Installation
+        ------------
+        
+        .. code-block:: bash
+        
+           pip install missingbuiltins
+        
+        -----
+        Usage
+        -----
+        
+        .. code-block:: python
+        
+           from missingbuiltins import jsonl_load, jsonl_dump, chunker
+        
+           items = chunker(range(5), 2)
+           jsonl_dump("my_items.jsonl", items)  # => 5
+           got = list(jsonl_load("my_items.jsonl"))  # => [[1, 2], [3, 4], [5]]
+        
+        
+        
+Keywords: missingbuiltins
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
