@@ -1,0 +1,3 @@
+[console_scripts]
+multivar_hypergeom = multivar_hypergeom.cli:main
+

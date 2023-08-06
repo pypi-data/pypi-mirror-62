@@ -1,0 +1,11 @@
+multivar_hypergeom/__init__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+multivar_hypergeom/__main__.py,sha256=kmII7z5_EaLYddq-01djajitdqGHzMVXcHEC9QNa1Zw,383
+multivar_hypergeom/cli.py,sha256=d8qISnFWzJQq0s3uzwIIZh9aTB5lpz7GMb-Jf_MUVbQ,947
+multivar_hypergeom/multivar_hypergeom.py,sha256=gSctFAlMcM2UCGTZBDnRT5NG_kkmHT-7eCXmCjxIXfg,6321
+multivar_hypergeom-0.0.0.dist-info/AUTHORS.rst,sha256=-ECOisW_B8TS33T9v3cMIvORqDSNIXmocUIb0VBArnY,32
+multivar_hypergeom-0.0.0.dist-info/LICENSE,sha256=hd1Ean4jhkTpbb27gMKPSgVeuHaEsgyk0bPtxHLzE1o,1099
+multivar_hypergeom-0.0.0.dist-info/METADATA,sha256=d7SOkHtLd-yIOzAwwlpRx-nUbItmR9JMJn0IPR-pXCU,2267
+multivar_hypergeom-0.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+multivar_hypergeom-0.0.0.dist-info/entry_points.txt,sha256=B9XHw9kmsc8WaqrHKhtdNwRBR_-vBVn-PSjktl7pnho,68
+multivar_hypergeom-0.0.0.dist-info/top_level.txt,sha256=oNXqOJdGaJ7KmSLVaHu7U5C0IlT1K2zJY4MEHHx1I0s,19
+multivar_hypergeom-0.0.0.dist-info/RECORD,,
