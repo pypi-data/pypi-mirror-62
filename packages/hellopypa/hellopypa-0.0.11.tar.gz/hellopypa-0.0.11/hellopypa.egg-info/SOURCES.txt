@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+hellopypa/__init__.py
+hellopypa/__main__.py
+hellopypa/example.cfg
+hellopypa/hellopypa.py
+hellopypa/version.py
+hellopypa.egg-info/PKG-INFO
+hellopypa.egg-info/SOURCES.txt
+hellopypa.egg-info/dependency_links.txt
+hellopypa.egg-info/entry_points.txt
+hellopypa.egg-info/top_level.txt
+test/test_hello.py
