@@ -1,0 +1,10 @@
+unplate/__init__.py,sha256=ogmgjGDG5W7ssQejJ636Ms0i7kMYt-arCErh8AQZhKU,1389
+unplate/compile.py,sha256=FOlweS5_o3O9p7NLpURBcH_P1T2eD39aGogKflK0-PY,6485
+unplate/parameters.py,sha256=3-plNzYrz1-IA7IR1tn41BsOI9JZJImpwIFRsZWAiRY,481
+unplate/tokenize_util.py,sha256=mAPNZVQTeSH_4l6jApvjDQCmkmARYQTdRUeaxTTM8g4,2990
+unplate/util.py,sha256=2cSbtPPgPJmD3gpdeDCBmzTn1_l4vMRSwg2-mPlAHVk,747
+unplate-0.0.1.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+unplate-0.0.1.dist-info/METADATA,sha256=541PQGjvQ1EjylrDfGZOcn4XCTGl-aFBnW6qvW7VK6w,9069
+unplate-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+unplate-0.0.1.dist-info/top_level.txt,sha256=PV-2BglglPiLrKvwXNARWhChYtZ_557vKDxYSPcHbHo,8
+unplate-0.0.1.dist-info/RECORD,,
