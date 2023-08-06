@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyzz
+Version: 0.0.12
+Summary: UNKNOWN
+Home-page: https://github.com/sterin/pyzz-build
+Author: Baruch Sterin
+Author-email: pyzz@bsterin.com
+License: MIT/BSD-like
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+
+UNKNOWN
+
+
