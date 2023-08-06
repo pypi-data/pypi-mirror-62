@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hier-backbone
+Version: 0.9.0
+Summary: Extracty hierarchical backbones from a biparite network
+Home-page: https://github.com/car5654/hier-backbone
+Author: WS Jo, YY Ahn, JP Park
+Author-email: wooseong.jo@gmail.com
+Maintainer: Woo Seong Jo
+License: UNKNOWN
+Download-URL: https://github.com/car5654/hier-backbone/tree/master/hier_backbone
+Keywords: backbone,complex networks,hierarchy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Requires-Dist: networkx
+
+UNKNOWN
+
+
