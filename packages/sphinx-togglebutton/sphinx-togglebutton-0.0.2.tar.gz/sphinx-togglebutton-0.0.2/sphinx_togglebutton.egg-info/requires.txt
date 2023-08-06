@@ -1,0 +1,6 @@
+setuptools
+wheel
+sphinx
+
+[sphinx]
+sphinx
