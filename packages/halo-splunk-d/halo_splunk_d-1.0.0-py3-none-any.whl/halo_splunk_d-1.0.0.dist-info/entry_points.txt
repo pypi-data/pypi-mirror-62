@@ -1,0 +1,3 @@
+[console_scripts]
+hspi = halo_splunk.hspi:main
+
