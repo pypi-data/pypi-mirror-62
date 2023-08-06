@@ -1,0 +1,14 @@
+lvbdist/__init__.py,sha256=k-UHsWiHjH1rgooemBzxUgF3EIguRICQx6utaIQW2u4,4695
+lvbdist/_lvbdist.cp37-win_amd64.pyd,sha256=hhNWhnG4a7SzjYT6Kyp7PsBVXIc3y43Xa8M88TQzplQ,28672
+lvbdist/lvbdist_back.c,sha256=Ei6QspOv8_QuxhxrgDT9tuGUZYjyPcETs4t23YhXqJQ,4048
+lvbdist/lvbdistcalcs/prob_func.c,sha256=WZHRc89IdpVMiHk9HFZ-oG23ECbNdW2rvvnYS4TKRUY,6016
+lvbdist/lvbdistcalcs/prob_func.h,sha256=HQi3Vhfx3egNR4Zrn6q7jwZkgZPUcPJSNzcB0ZYV2wE,3515
+linearly_varying_binomial_distribution-1.0.0.dist-info/LICENSE,sha256=AadbboEJM5s5FQX_jpcjrJLOlms_gBp-sf5n8KZ533g,1060
+linearly_varying_binomial_distribution-1.0.0.dist-info/METADATA,sha256=ng_XQCaa-gkzcJZrjjBTOByEHlze-gUg89Q3-uXR-5o,3104
+linearly_varying_binomial_distribution-1.0.0.dist-info/WHEEL,sha256=QOmb-VuQJwuZ7Av_Q2839PCv6qsn6RGHIrt6Y0esFDg,106
+linearly_varying_binomial_distribution-1.0.0.dist-info/top_level.txt,sha256=p3X-H--kxJio5io4_rBUsh3IRUsKzuw9hnuYCRCbrcA,8
+linearly_varying_binomial_distribution_calcs_python_cos-1.0.0.dist-info/LICENSE,sha256=AadbboEJM5s5FQX_jpcjrJLOlms_gBp-sf5n8KZ533g,1060
+linearly_varying_binomial_distribution_calcs_python_cos-1.0.0.dist-info/METADATA,sha256=VBe95HjbrX-GpGRvpZ1hwOf-BDF011w3LJv08Ldpo48,492
+linearly_varying_binomial_distribution_calcs_python_cos-1.0.0.dist-info/WHEEL,sha256=QOmb-VuQJwuZ7Av_Q2839PCv6qsn6RGHIrt6Y0esFDg,106
+linearly_varying_binomial_distribution_calcs_python_cos-1.0.0.dist-info/top_level.txt,sha256=p3X-H--kxJio5io4_rBUsh3IRUsKzuw9hnuYCRCbrcA,8
+linearly_varying_binomial_distribution-1.0.0.dist-info/RECORD,,
