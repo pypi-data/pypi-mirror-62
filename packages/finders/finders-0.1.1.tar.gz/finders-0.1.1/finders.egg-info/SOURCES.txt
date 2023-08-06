@@ -1,0 +1,7 @@
+README.md
+setup.py
+finders.egg-info/PKG-INFO
+finders.egg-info/SOURCES.txt
+finders.egg-info/dependency_links.txt
+finders.egg-info/requires.txt
+finders.egg-info/top_level.txt
