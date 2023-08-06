@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: ocelot-quantum
+Version: 0.0.7
+Summary: (Under development). Ocelot is a framework for quantum simulations.
+Home-page: https://ocelotquantum.com
+Author: Leandro Seixas
+Author-email: contact@ocelotquantum.com
+License: Apache 2
+Description: 
+            (Under development). Ocelot is a framework for quantum simulations.
+            
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.5.*
