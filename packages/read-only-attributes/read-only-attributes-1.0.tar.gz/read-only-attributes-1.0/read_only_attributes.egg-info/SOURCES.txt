@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.cfg
+setup.py
+read-only-attributes/__init__.py
+read-only-attributes/read-only-attributes.py
+read_only_attributes.egg-info/PKG-INFO
+read_only_attributes.egg-info/SOURCES.txt
+read_only_attributes.egg-info/dependency_links.txt
+read_only_attributes.egg-info/top_level.txt
