@@ -1,0 +1,12 @@
+base24_builder/__init__.py,sha256=YKhbGQ-ABvAb64tSaEKjILy6hogWp-REohuRG6l0X8Y,22
+base24_builder/builder.py,sha256=HrWkCaHDcCao_Xou5vynKAu9U3JenGF1EbEg2U3Kqzw,8145
+base24_builder/cli.py,sha256=h5rUDnqzQCxZxhs5fJudCM4y3cyDRGxMLUiFdH-8VZ0,4710
+base24_builder/injector.py,sha256=ZmOGt0XjJ8T3_Q7k_M4Kt3oku33WblXIGMdT0Zb4aXo,3080
+base24_builder/shared.py,sha256=C89hYL-6ZJd4yucSFZrk94LKgZalEVyhlmfWpnG8c2A,1777
+base24_builder/updater.py,sha256=eaquntqxxXxFmMHhrPM9cX33kgFA4M5hiGoVWruT_9o,2924
+base24builder-2020.1.dist-info/LICENSE.md,sha256=mE3YWuoA3DlfXR_NbcobkzPa0DVbSWCleI8bdBVdwIo,1122
+base24builder-2020.1.dist-info/METADATA,sha256=bC7Bd8npGzeDrodNxYPzaloufon169ix9x-slVKwrzM,8440
+base24builder-2020.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+base24builder-2020.1.dist-info/entry_points.txt,sha256=PpRH84S3oLH10o2PMqx0x80szf7UvSvlN4Ez64aT9JQ,51
+base24builder-2020.1.dist-info/top_level.txt,sha256=hcBH3kOiOybR6yccUEmAJSkC6MgCgCqzpEGLtvNp6Jk,15
+base24builder-2020.1.dist-info/RECORD,,
