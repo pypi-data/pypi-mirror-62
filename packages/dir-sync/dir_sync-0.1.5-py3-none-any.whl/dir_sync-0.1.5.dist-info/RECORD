@@ -1,0 +1,11 @@
+sync/__init__.py,sha256=tvDPglHfFF6wMNWfbJdZz8mcbGhvKXzyzDhBSbKy7KI,15
+sync/google_drive.py,sha256=d6GllsdjIZSpMzduKYTicJckhHWm8LEWev4BtYWkGbk,2833
+sync/google_drive_file.py,sha256=I3o2-BP32VoGmgJ0LalozYEtWzDYTtgyxwwRG_1kl84,905
+sync/local_fs.py,sha256=uyE9ARpyr25DXFXkTrdrq6pagMFMehjEk-xCwLV7z68,4272
+sync/main.py,sha256=HQabLmiY1osimwuPMSiZyqzNftdooS5rABMlpiCjUnQ,2318
+dir_sync-0.1.5.dist-info/LICENSE.md,sha256=fTSI3ayAQyD49e5De8VTDdLmmPsNSBsR6NpQTxkilwc,1111
+dir_sync-0.1.5.dist-info/METADATA,sha256=WDZdQgIuboWBcDyF2NRhXGgXtgkkWtOUO8DbBfh7osY,3048
+dir_sync-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dir_sync-0.1.5.dist-info/entry_points.txt,sha256=G1QtFlC66LVwkcE5dmnjAaFeHK5A3_FSCGn3NSxRob0,45
+dir_sync-0.1.5.dist-info/top_level.txt,sha256=mQ2tuuyK6drDrbZYPGy-okcdxmkbqaxXt_MrdNRipZ0,5
+dir_sync-0.1.5.dist-info/RECORD,,
