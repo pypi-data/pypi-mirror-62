@@ -1,0 +1,13 @@
+spotpris2/MediaPlayer2.py,sha256=iiljWgklPwaIQ7QUUiu7iEWArdfkCaIVUrxpS6V1ex4,8795
+spotpris2/__init__.py,sha256=Ms_Qxnf8pJCsM6sMOiSCTM8_6wZdwRhRQzHkz4R7yR0,67
+spotpris2/__main__.py,sha256=QumWlEoSwwLbdwVY4UFxHbCIItGuNCIF5MmGYiVfPJI,2921
+spotpris2/html/success.html,sha256=uxT_fOYsDLa8CR3nX2sgpC_DwU8Fk80-Q9z-3FDU1ac,217
+spotpris2/mpris/mpris-dbus-interface.xml,sha256=lm1QJ2r9WcfLEtmOGZTCrTeX38D_VIBIVHS_esvAdEU,3257
+spotpris2/mpris/org.mpris.MediaPlayer2.Player.xml,sha256=NDU_bsHqIC0olU6H5ZgNttcN6yDSUF20Mbvf_gIWTBA,1647
+spotpris2/mpris/org.mpris.MediaPlayer2.xml,sha256=oKphpD2fgQp84Pka6UfoonH2Kz55yTvahxA4ItNwZkg,483
+SpotPRIS2-0.3.1.dist-info/LICENSE.txt,sha256=lMWLyAFHJ-BCh3gU3Zl0_3cHcpmGffYojfCqy7nPHK8,1071
+SpotPRIS2-0.3.1.dist-info/METADATA,sha256=IjUCE8ZDhdNZlK-Pfmuz_TXRkU7lYEtIxy01N6krnBw,1690
+SpotPRIS2-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SpotPRIS2-0.3.1.dist-info/entry_points.txt,sha256=35TAV-I2Te-C9OhWbNUJzH-mGaFPhgHEV0dJsFg67e4,55
+SpotPRIS2-0.3.1.dist-info/top_level.txt,sha256=kQIN22NEcCglLwcsrOQNDpKPkFqZ0JaeJCFXAHEoev4,10
+SpotPRIS2-0.3.1.dist-info/RECORD,,
