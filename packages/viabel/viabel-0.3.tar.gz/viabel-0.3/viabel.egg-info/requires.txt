@@ -1,0 +1,17 @@
+numpy>=1.13
+
+[examples]
+scipy
+autograd
+tqdm
+paragami
+matplotlib
+seaborn
+pandas
+pystan
+
+[vb]
+scipy
+autograd
+tqdm
+paragami

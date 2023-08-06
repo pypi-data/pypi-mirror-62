@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: viabel
+Version: 0.3
+Summary: Efficient, lightweight, variational inference and approximation bounds
+Home-page: https://github.com/jhuggins/viabel/
+Author: Jonathan H. Huggins
+Author-email: huggins@bu.edu
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Bayesian inference,variational inference,Wasserstein distance,alpha-divergence
+Platform: ALL
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=2.7
+Provides-Extra: vb
+Provides-Extra: examples
