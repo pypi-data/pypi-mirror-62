@@ -1,0 +1,10 @@
+redpic/__init__.py,sha256=6-APHpeklS_JQEPT9QBo_bD401srBxDNYYOWpGe-7D4,361
+redpic/accelerator.py,sha256=k1snJMqBaTJR-JcSl9rZsTiX9LLIJTL2FY9P1gknU7k,17067
+redpic/beam.py,sha256=MgnbBaB4QZ64gk_GKjc-ugdaKIjBP2Qeayx-9zq6jMk,3160
+redpic/constants.py,sha256=yDRoq395caQjirvaPBQ7bqsM0TZOTykFtI63WUQSNhs,2155
+redpic/solver.py,sha256=C4ny3xnSCvzuEEzlvELlTIA7u7vxEq2b6syWQWlEKeg,8766
+redpic-0.3.0.dist-info/LICENSE,sha256=hYZXa5Wn626t2feOBAGJIL4vNPeckdgadI5QvMUJb_k,1075
+redpic-0.3.0.dist-info/METADATA,sha256=ZiGpiOrPtb2gGbLGtQjqfmINJ7LsTnHB_pyvl41l3kE,1728
+redpic-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+redpic-0.3.0.dist-info/top_level.txt,sha256=yR3Hsczlssml7J-0i2tDtCfg_C8u2-ehBnghdjYdN1A,7
+redpic-0.3.0.dist-info/RECORD,,
