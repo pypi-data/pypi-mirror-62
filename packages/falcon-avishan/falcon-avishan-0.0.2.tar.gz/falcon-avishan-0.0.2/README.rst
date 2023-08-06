@@ -1,0 +1,47 @@
+==============
+Falcon Avishan
+==============
+
+Avishan is a set of tools for building fast, comfortable and reliable falcon apps.
+
+Quick start
+-----------
+
+1. On linux remember to install this packages::
+
+    pip install cython
+    pip install -v --no-binary :all: falcon
+
+2. Create virtual environment for your project::
+
+    sudo -H pip3 install virtualenv
+
+
+3. Create your views with inheriting classes from "AvishanView"::
+
+    class NewsView(AvishanView):
+        url = 'news/'
+
+    def get(self):
+        # entire get method
+        pass
+
+    def post(self):
+        # entire post method
+        pass
+
+4. At the end of your file, add this to create server::
+
+    stage = AvishanFalconStage()
+
+
+5. You can run your server simply with wsgiref::
+
+    if __name__ == '__main__':
+        from wsgiref import simple_server
+
+        httpd = simple_server.make_server('127.0.0.1', 8000, stage.app)
+        httpd.serve_forever()
+
+Features
+--------
