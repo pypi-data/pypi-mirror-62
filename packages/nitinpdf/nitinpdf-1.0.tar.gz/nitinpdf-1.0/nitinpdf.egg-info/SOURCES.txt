@@ -1,0 +1,9 @@
+README.md
+setup.py
+nitinpdf/__init__.py
+nitinpdf/pdf2image.py
+nitinpdf/pdftotext.py
+nitinpdf.egg-info/PKG-INFO
+nitinpdf.egg-info/SOURCES.txt
+nitinpdf.egg-info/dependency_links.txt
+nitinpdf.egg-info/top_level.txt
