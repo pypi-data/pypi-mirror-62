@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2020-02-21 10:52 and 2020-03-06 15:05.
 
-The repo is 84% (33986/40000) complete.
+The repo is 89% (35983/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-62/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| tensorflow-io-nightly | 189 |
-| topic-ontologies | 168 |
-| argument-esa-model | 165 |
-| pyFTracks | 141 |
-| srwpy | 109 |
-| tfa-nightly | 108 |
-| colab-ssh | 100 |
-| grpcio-tools | 93 |
-| fastavro | 88 |
-| napoleontoolbox | 87 |
-| persistent | 79 |
-| rqdatac | 78 |
-| psd-tools | 78 |
-| lalsuite | 75 |
-| arnoldpaperboy | 74 |
-| django-log-labeler | 71 |
-| awkward1 | 70 |
-| hackingtools | 66 |
-| tcod | 65 |
-| divik | 64 |
-| grpcio | 62 |
-| robotpy-hal | 60 |
-| mlbench-core | 60 |
-| MCEq | 60 |
-| sklearn-pmml-model | 58 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-62).
 
 
