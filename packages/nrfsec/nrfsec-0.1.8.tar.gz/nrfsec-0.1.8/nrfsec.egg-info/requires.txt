@@ -1,0 +1,5 @@
+pyswd
+tabulate
+tqdm
+argparse
+coloredlogs

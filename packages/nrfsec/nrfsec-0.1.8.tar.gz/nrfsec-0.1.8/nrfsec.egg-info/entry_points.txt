@@ -1,0 +1,3 @@
+[console_scripts]
+nrfsec = nrfsec.nrfsec:main
+
