@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mergemypdf
+Version: 0.0.1
+Summary: Merge PDFs using CLI with customizations.
+Home-page: https://github.com/kairavkkp/Merge-PDF
+Author: kairavkkp
+Author-email: kairavpithadia13@gmail.com
+License: MIT
+Description: # Merge-PDF
+Keywords: Merge-pdf PDF-CLI merge pdf merge-pdf-local offline-merge pdf-merge
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
