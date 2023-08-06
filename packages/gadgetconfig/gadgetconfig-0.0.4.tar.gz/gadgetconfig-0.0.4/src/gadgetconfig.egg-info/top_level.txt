@@ -1,0 +1,5 @@
+add
+export
+gadgetconfig
+manage
+remove

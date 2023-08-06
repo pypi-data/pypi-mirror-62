@@ -1,0 +1,383 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# Set encoding default for python 2.7
+# vim: syntax=python noexpandtab
+
+# gadgetconfig configures and enables a Gadget USB configuration
+#
+
+import os
+import sys
+
+import io
+import libconf
+import argparse
+import json
+import shutil
+
+import fnmatch
+import magic
+import struct
+from termcolor import colored
+
+"""sysfstree.py: ..."""
+
+# __author__  = "Stuart.Lynne@belcarra.com"
+
+
+
+def _test(args):
+	print("args: %s" % (args))
+
+
+
+class Gadget(object):
+
+	def __init__(self, configpath):
+		self.configpath = configpath
+		self.scheme = None
+		self.udcpath = "/sys/class/udc"
+		self.udclist = []
+
+	def pathread(self, path):
+
+		print("pathread: %s" % (path))
+		try:
+			fstat = os.stat(path)
+			# print("fstat: size:%s" % (fstat.st_size))
+		except (PermissionError):
+			print("pathread: %s PERMISSION ERROR" % (path))
+			return ''
+		except (FileNotFoundError):
+			print("pathread: %s NOT FOUND" % (path))
+			return ''
+
+		# 4096 or 0 byte files should contain info
+		if fstat.st_size == 4096 or fstat.st_size == 0:
+			try:
+				f = open(path, "r")
+				lines = f.readlines(1000)
+				f.close()
+				return lines
+			except (PermissionError, OSError):
+				return ''
+			except UnicodeDecodeError:
+				return '[UnicodeDecodeError]'
+
+		return '<UNKNOWN>'
+
+	# checkfs will verify that the usb_gadget configfs is available
+	#
+	def checkfs(self):
+		#print("isdir: %s" % (os.path.isdir("/sys/kernel/config/usb_gadget")))
+		#print("isdir: %s" % (os.path.isdir(self.configpath)))
+		try:
+			if not os.path.isdir(self.configpath):
+				print("%s: not a directory" % (self.configpath))
+				return False
+			if os.path.islink(self.configpath):
+				print("%s: is a symlink to %s" % (self.configpath, os.path.realpath(self.configpath)))
+				return False
+			return True
+		except PermissionError:
+			print("Cannot read: %s PermissionError" % (self.configpath))
+		except NameError:
+			print("Cannot read: %s NameError" % (self.configpath))
+
+		return False
+
+
+	# def detach(self):
+
+	def find_udcs(self):
+		links = os.listdir(self.udcpath)
+		self.udclist = []
+		print("Gadget UDCS")
+		for l in links:
+			fpath = "%s/%s" % (self.udcpath, l)
+			if os.path.islink(fpath):
+				self.udclist.append(l)
+				print("  %s -> %s" % (l, os.path.realpath(fpath)))
+			else:
+				print("  %s <UNKNOWN>" % (l))
+		print("")
+
+	def check_current(self):
+		dirs = os.listdir(self.configpath)
+		print("Current Gadget configurations")
+		if len(dirs) == 0:
+			print("<NONE>")
+		print("check_current: %s" % (self.configpath))
+		print("check_current: dirs: %s" % (dirs))
+		for d in dirs:
+			udc = self.pathread(("%s/%s/UDC" % (self.configpath, d)))
+			if len(udc) == 1:
+				print("  %s UDC -> %s" % (d, udc[0].rstrip()))
+			else:
+				print("  %s Not Configured" % (d))
+		print("")
+
+	def disable_current(self):
+		dirs = os.listdir(self.configpath)
+		print("Current Gadget configurations")
+		if len(dirs) == 0:
+			print("<NONE>")
+		for d in dirs:
+			udc = self.pathread(("%s/%s/UDC" % (self.configpath, d)))
+			if len(udc) == 1:
+				print("  %s UDC -> %s" % (d, udc[0].rstrip()))
+			else:
+				print("  %s Not Configured" % (d))
+		print("")
+
+
+	def remove_old_config(self, configname):
+
+		fpath = "%s/%s" % (self.configpath, configname)
+
+		print("Check for old configuration: %s" % (fpath))
+
+
+		if not os.path.exists(fpath) and not os.path.lexists(fpath):
+			print("%s does not exist" % (fpath))
+			return
+
+		if not os.path.isdir(fpath):
+			print("ERROR %s exists and is not a directory" % (fpath))
+			exit(1)
+
+		print("Removing old configuration: %s" % (fpath))
+		shutil.rmtree(fpath)
+
+
+	def write_str(self, path, s):
+		f = open(path, "w")
+		f.writelines(s)
+		f.close()
+
+
+	def create_strings(self, path, name, strings):
+		print("create_strings: %s" % (strings))
+
+		lang = strings['lang']
+
+		if lang is None:
+			print("lang: BAD %s" % (lang))
+			return
+
+		print("lang: %04x" % (lang))
+		lpath = "%s/%s/strings/0x%04x" % (path, name, lang)
+		print("mkdir: %s" % (lpath))
+		os.makedirs(lpath)
+
+		for s in strings:
+			if s == 'lang':
+				continue
+			print("%s: %s" % (s, strings[s]))
+			spath = "%s/%s" % (lpath, s)
+			self.write_str(spath, "%s\n" % strings[s])
+
+	def create_function(self, cname, fname, function):
+		print("--------")
+		print("s: cname: %s %s %s" % (cname, fname, function))
+		type = function.type
+		instance = function.instance
+		attrs = function.attrs
+		os_descs = function.os_descs
+
+		fpath = "%s/%s/functions/%s" % (self.configpath, cname, "%s.%s" % (type, instance))
+		os.makedirs(fpath)
+
+		print("attrs: %s" % (attrs))
+		for a in attrs:
+			print("a: %s" % (a))
+			self.write_str("%s/%s" % (fpath, a), "%s\n" % (attrs[a]))
+
+
+
+
+
+
+	def add_config(self, id, name, scheme, enable):
+
+		print("add_config name: %s" % (name))
+
+		dirlist = ["os_desc", "strings", "configs", "functions"]
+		for d in dirlist:
+			print("mkdir: %s **********" % (d))
+			os.makedirs("%s/%s/%s" % (self.configpath, name, d))
+
+		for a in scheme.attrs:
+			print("a: %s" % (a))
+			self.write_str("%s/%s/%s" % (self.configpath, name, a), "0x%02x\n" % (scheme.attrs[a]))
+
+		print('')
+
+		for l in scheme.strings:
+			print("create_strings: %s" % (l))
+			self.create_strings(self.configpath, name, l)
+
+		for f in scheme.functions:
+			self.create_function(name, f, scheme.functions[f])
+
+		for c in scheme.configs:
+			print("config: %s" % (c))
+			print("id: %s" % (c['id']))
+			print("name: %s" % (c['name']))
+			cpath = "%s/%s/configs/%s.%s" % (self.configpath, name, c['name'], c['id'])
+			print("cpath: %s" % (cpath))
+			#os.makedirs("%s/strings" % (cpath))
+			os.makedirs("%s" % (cpath))
+
+			for a in c['attrs']:
+				print("a: %s" % (a))
+				self.write_str("%s/%s" % (cpath, a), "0x%02x\n" % (c['attrs'][a]))
+
+			for l in c['strings']:
+				print("create_strings: %s" % (l))
+				self.create_strings(cpath, "", l)
+
+			for f in c['functions']:
+				src = "/%s/%s/functions/%s" % (self.configpath, name, f.function.replace("_", "."))
+				target = "%s/%s" % (cpath, f.name)
+				print("create symlink: %s -> %s" % (src, target))
+				os.symlink(src, target)
+
+		if not enable:
+			return
+
+		if len(self.udclist) > 1:
+			print("ERROR: multiple uds found: %s" % (self.udclist))
+			return
+
+		udcpath = "%s/%s/UDC" % (self.configpath, name)
+		print("udcpath: %s" % (udcpath))
+		self.write_str(udcpath, "%s\n" % (self.udclist[0]))
+
+	def create_device(self, scheme, default_id, devicename=None):
+
+		if scheme is None:
+			print("create_device: scheme is None")
+			return 
+		try:
+			configs = scheme['configs']
+		except IndexError:
+			print("create_device: scheme['configs'] is None")
+			return 
+		try:
+			attrs = scheme['attrs']
+		except IndexError:
+			print("create_device: scheme['attrs'] is None")
+			return 
+
+		print("create_device: attrs: %s" % (scheme.attrs))
+
+		if devicename is None:
+			try:
+				devicename = attrs['name']
+			except IndexError:
+				print("create_device: scheme does not have name and none provided")
+				exit(1)
+
+		self.remove_old_config(devicename)
+
+		print("Configure scheme: %s" % (scheme))
+		#d = dict(scheme)
+		#print("Configure dict: %s" % (d))
+
+		for c in configs:
+
+			print("Configure %s" % (c))
+
+			try:
+				id = c['id']
+			except IndexError:
+				print("config['id'] is None")
+				return False
+			try:
+				name = c['name']
+			except IndexError:
+				print("config['name'] is None")
+				return False
+
+			print("Configs[%s] %s" % (id, name))
+
+			self.remove_old_config(name)
+			self.add_config(id, name, scheme, id == default_id)
+
+			#if id == default_id:
+			#	print("id: %s %s" % (id, default_id))
+
+
+def test():
+	print("test")
+
+
+# def build(self):
+
+
+
+
+# this is mainly for testing standalone
+#
+def main():
+	parser = argparse.ArgumentParser(
+		description="Configure Gadget Device using SysFS and ConfigFS",
+		formatter_class=lambda prog: argparse.RawTextHelpFormatter(prog, width=999))
+
+	#parser.add_argument("-T", "--test", help="run tests", action='store_true')
+	#parser.add_argument("-L", "--conf", nargs='?', help="include (shell pattern match)", default='')
+	#parser.add_argument("paths", metavar='Path', type=str, nargs=argparse.REMAINDER, help="pathname", default=[])
+
+	#parser.add_argument("-D", "--disable", help="Disable the current Gadget", action='store_true')
+	#parser.add_argument("path", metavar='path', nargs='?', type=str, help="pathname", default=None)
+	
+	parser.add_argument("-N", "--name", nargs='?', type=str, help='device name override', default=None)
+	parser.add_argument("-I", "--id", nargs='?', type=int, help='enable ID', default=1)
+
+	group = parser.add_mutually_exclusive_group(required=False)
+
+	group.add_argument("-D", "--disable", help="disable current Gadget", action='store_true')
+	group.add_argument("path", metavar='path', nargs='?', type=str, help="Gadget Device Scheme", default=None)
+
+	args = parser.parse_args()
+
+	print("args: %s" % (args))
+
+	g = Gadget("sys/kernel/config/usb_gadget")
+	if not g.checkfs():
+		exit(1)
+
+	print("")
+	g.find_udcs()
+	g.check_current()
+
+	#if args.disable and args.path is not None:
+	#	parser.print_help()
+	#	print("")
+	#	exit(1)
+
+	if args.disable:
+		g.disable_current()
+		exit(0)
+		
+	
+	if args.path is None:
+		parser.print_help()
+		exit(1)
+
+	try:
+		print("Scheme: %s" % (args.path))
+		with io.open(args.path) as f:
+			scheme = libconf.load(f)
+			f.close()
+			g.create_device(scheme, args.id, devicename=args.name)
+
+			#print("json: %s" % (json.dumps(config, sort_keys=True, indent=4)))
+	except PermissionError:
+		print("Cannot open %s" % (args.path))
+
+	exit(0)
+
+if __name__ == "__main__":
+	main()

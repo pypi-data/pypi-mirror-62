@@ -1,0 +1,226 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# Set encoding default for python 2.7
+# vim: syntax=python noexpandtab
+
+# gadgetconfig configures and enables a Gadget USB configuration
+#
+
+import os
+import sys
+
+import io
+import libconf
+import argparse
+import json
+import shutil
+
+import fnmatch
+import magic
+import struct
+from termcolor import colored
+
+"""gadget.py: ..."""
+
+# __author__  = "Stuart.Lynne@belcarra.com"
+
+
+
+class ExportGadget(object):
+
+	def __init__(self, configpath, verbose=False):
+		self.configpath = configpath
+		self.verbose = verbose
+		self.verbose = True
+
+	def pathread(self, path):
+
+		#print("pathread: %s" % (path))
+		try:
+			fstat = os.stat(path)
+			# print("fstat: size:%s" % (fstat.st_size))
+		except (PermissionError):
+			print("pathread: %s PERMISSION ERROR" % (path))
+			return ''
+		except (FileNotFoundError):
+			print("pathread: %s NOT FOUND" % (path))
+			return ''
+
+		# 4096 or 0 byte files should contain info
+		if fstat.st_size == 4096 or fstat.st_size == 0:
+			try:
+				f = open(path, "r")
+				lines = f.readlines(1000)
+				f.close()
+				return lines
+			except (PermissionError, OSError):
+				return ''
+			except UnicodeDecodeError:
+				return '[UnicodeDecodeError]'
+
+		return '<UNKNOWN>'
+
+
+	def export_attributes(self, path, symlinks=False, exclude=[]):
+		# print("export_attributes: path %s" % (path))
+		attributes = {}
+		attribute_entries = sorted(os.listdir(path))
+		for entry in attribute_entries:
+			if any(fnmatch.fnmatch(entry, pattern) for pattern in exclude):
+				continue
+			# print("export_attributes: entry %s" % (entry))
+			epath = "%s/%s" % (path, entry)
+			if symlinks and os.path.islink(epath):
+				realpath = os.path.realpath(epath)
+				(head, tail) = os.path.split(realpath)
+				attributes[entry] = tail
+				continue
+			if os.path.isdir(epath) or os.path.islink(epath) or not os.path.isfile(epath):
+				continue
+			v = self.pathread(epath)[0].rstrip('\t\r\n\0')
+			#try:
+			#	h = "0x%02x" % (int(v))
+			#	# print("h: \"%s\" HEX" % (h))
+			#	attributes[entry] = h
+			#except (ValueError):
+			#	# print("v: \"%s\" STR" % (v))
+			#	attributes[entry] = v
+			attributes[entry] = v
+		return attributes
+
+	def export_strings(self, strings_path):
+		strings = {}
+		# print("export_strings: strings_path %s" % (strings_path))
+		for lang_name in sorted(os.listdir(strings_path)):
+			# print("export_strings: lang_name %s" % (lang_name))
+			string_path = "%s/%s" % (strings_path, lang_name)
+			# print("export_strings: string_path %s" % (string_path))
+			strings[lang_name] = self.export_attributes(string_path)
+		return strings
+
+	def export_device_configs(self, configs_path):
+		# print("")
+		# print("export_device_configs: configs_path: %s" % (configs_path))
+		configs = {}
+		for config_name in sorted(os.listdir(configs_path)):
+			functions = []
+			# print("-------")
+			# print("export_device_configs: config_name: %s" % (config_name))
+			config_path = "%s/%s" % (configs_path, config_name)
+			config_entries = sorted(os.listdir(config_path))
+			#config = self.export_attributes(config_path, symlinks=True)
+			config = self.export_attributes(config_path)
+			for  entry in config_entries:
+				epath = "%s/%s" % (config_path, entry)
+				# print("export_device_configs: epath: %s" % (epath))
+				if os.path.isdir(epath) and not os.path.islink(epath):
+					# is a directory
+					if entry == 'strings':
+						config[entry] = self.export_strings(epath)
+					continue
+				elif os.path.islink(epath):
+					# sysmlink - should not be any at this level
+					realpath = os.path.realpath(epath)
+					(path, target) = os.path.split(realpath)
+					functions.append({ 'name': entry, 'function' : target })
+					continue
+				elif os.path.isfile(epath):
+					# should be regular file
+					continue
+				else:
+					# unknown!
+					continue
+
+			config['functions'] = functions
+			configs[config_name] = config
+
+		return configs
+
+
+	def export_function_os_desc(self, os_desc_path):
+		# print("")
+		# print("export_function_os_desc: os_desc_path: %s" % (os_desc_path))
+		os_desc = {}
+		os_desc_entries = sorted(os.listdir(os_desc_path))
+		for entry in os_desc_entries:
+			epath = "%s/%s" % (os_desc_path, entry)
+			if os.path.isdir(epath) and not os.path.islink(epath) and fnmatch.fnmatch(entry, "interface.*"):
+				os_desc[entry] = interface = self.export_attributes(epath)
+		return os_desc
+
+	def export_device_functions(self, functions_path):
+		# print("")
+		# print("export_device_functions: functions_path: %s" % (functions_path))
+		functions = {}
+		for function_name in sorted(os.listdir(functions_path)):
+			function_path = "%s/%s" % (functions_path, function_name)
+			function_entries = sorted(os.listdir(function_path))
+			function = self.export_attributes(function_path, exclude=['ifname','port_num'])
+			for  entry in function_entries:
+				epath = "%s/%s" % (function_path, entry)
+				if os.path.isdir(epath) and not os.path.islink(epath):
+					# is a directory
+					if entry == 'os_desc':
+						function[entry] = self.export_function_os_desc(epath)
+					continue
+				elif os.path.islink(epath):
+					# sysmlink - should not be any at this level
+					#realpath = os.path.realpath(epath)
+					#target = os.path.split(realpath)
+					function[entry] = target
+					continue
+				elif os.path.isfile(epath):
+					# should be regular file
+					continue
+				else:
+					# unknown!
+					continue
+
+			functions[function_name] = function
+			pass
+		return functions
+
+	def export_device_os_desc(self, os_desc_path):
+		# print("export_device_os_desc: os_desc_path: %s" % (os_desc_path))
+		os_desc = self.export_attributes(os_desc_path, symlinks=True)
+		return os_desc
+
+
+	def export_devices(self):
+		device_paths = sorted(os.listdir(self.configpath))
+		devices = {}
+		for device_name in device_paths:
+			device_path = "%s/%s" % (self.configpath, device_name)
+			device = self.export_attributes(device_path, exclude=['UDC'])
+			# print("export_device: device_path: %s" % (device_path))
+			device_entries = sorted(os.listdir(device_path))
+			for entry in device_entries:
+				# print("export_device: device_path: %s entry: %s" % (device_path, entry))
+				epath = "%s/%s" % (device_path, entry)
+				if os.path.isdir(epath) and not os.path.islink(epath):
+					# is a directory
+					if entry == 'configs':
+						device[entry] = self.export_device_configs(epath)
+					elif entry == 'functions':
+						device[entry] = self.export_device_functions(epath)
+					elif entry == 'os_desc':
+						device[entry] = self.export_device_os_desc(epath)
+					elif entry == 'strings':
+						device[entry] = self.export_strings(epath)
+				elif os.path.islink(epath):
+					# sysmlink - should not be any at this level
+					pass
+				#elif os.path.isfile(epath):
+					#device[entry] = self.pathread(epath)
+					# should be regular file
+					continue
+				else:
+					# unknown!
+					pass
+
+			devices[device_name] = device
+
+
+		return devices
+
+

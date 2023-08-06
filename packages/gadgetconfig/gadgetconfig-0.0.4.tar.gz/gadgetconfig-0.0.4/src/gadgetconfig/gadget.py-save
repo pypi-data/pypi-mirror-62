@@ -1,0 +1,315 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# Set encoding default for python 2.7
+# vim: syntax=python noexpandtab
+
+# gadgetconfig configures and enables a Gadget USB configuration
+#
+
+import os
+import sys
+
+import io
+import libconf
+import argparse
+import json
+import shutil
+
+import fnmatch
+import magic
+import struct
+from termcolor import colored
+
+"""sysfstree.py: ..."""
+
+# __author__  = "Stuart.Lynne@belcarra.com"
+
+
+
+class Gadget(object):
+
+	def __init__(self, configpath):
+		self.configpath = configpath
+		self.scheme = None
+		self.udcpath = "/sys/class/udc"
+		self.device = None
+		self.udclist = []
+
+	def get_scheme_data(self, device_scheme, key, msg, optional=False):
+		#print("")
+		#print("get_scheme_data: key: %s scheme: %s" % (key, device_scheme))
+		try:
+			device_data = device_scheme[key]
+		except (IndexError, KeyError):
+			if not optional:
+				print("get_scheme_data: %s scheme['%s'] is None" % (msg, key))
+				exit(1) 
+			return None
+		return device_data
+
+
+	def write_str(self, path, s):
+		print("write_str: %s \"%s\"" % (path, s))
+		f = open(path, "w")
+		f.writelines(s)
+		f.close()
+
+	def create_strings(self, path, string_scheme):
+
+		strings = string_scheme[0]
+		print("create_strings: %s %s" % (path, strings))
+
+		lang = strings['lang']
+		if lang is None:
+			print("lang: BAD %s" % (lang))
+			return
+
+		#print("lang: %04x" % (lang))
+		lpath = "%s/strings/0x%04x" % (path, lang)
+		#print("mkdir: %s" % (lpath))
+		os.makedirs(lpath)
+
+		for s in strings:
+			if s == 'lang':
+				continue
+			#print("%s: %s" % (s, strings[s]))
+			spath = "%s/%s" % (lpath, s)
+			self.write_str(spath, "%s\n" % strings[s])
+
+
+	def hex_or_str(self, v):
+		if isinstance(v, (int)):
+			return "0x%02x\n" % v
+		else:
+			return "%s\n" % v
+
+	def create_attrs(self, path, os_attrs_scheme):
+
+		if os_attrs_scheme is None:
+			return
+
+		for s in os_attrs_scheme:
+			spath = "%s/%s" % (path, s)
+			v = os_attrs_scheme[s]
+			self.write_str(spath, self.hex_or_str(v))
+				
+	def create_function_os_descs(self, path, os_descs_scheme):
+
+		lpath = "%s/os_descs" % (path)
+		os.makedirs(lpath)
+
+		if os_descs_scheme is None:
+			return
+
+		print("--------------------")
+		print("create_function_os_descs:")
+		print(os_descs_scheme)
+		#os_desc_instance = self.get_scheme_data(os_descs_scheme[0], 'instance', "os_descs", optional=True)
+		#if os_desc_instance is None:
+		#	return
+		#print("instance: %s" % (os_desc_instance))
+
+		for os_desc_instance in os_descs_scheme:
+			print("os_desc_instance: %s" % (os_desc_instance))
+			for o in os_desc_instance:
+				spath = "%s/%s" % (lpath, o)
+				self.write_str(spath, "%s\n" % os_desc_instance[o])
+
+		print("--------------------")
+
+	def create_device_os_descs(self, path, os_descs_scheme):
+
+		lpath = "%s/os_descs" % (path)
+		os.makedirs(lpath)
+
+		if os_descs_scheme is None:
+			return
+
+		print("")
+		print(os_descs_scheme)
+
+		try:
+			config_id = os_descs_scheme['config_id']
+			config_name = os_descs_scheme['config_name']
+			print('config_id: %s' % (os_descs_scheme['config_id']))
+			config = "%s.%s" % (config_name, config_id)
+			src = "/%s/configs/%s" % (path, config)
+			target = "%s/%s" % (lpath, config)
+			print("create symlink: %s -> %s" % (src, target))
+			os.symlink(src, target)
+		except KeyError:
+			pass
+
+		for o in os_descs_scheme:
+			print("o: %s" % (o))
+			if o == 'config_id' or o == 'config_name':
+				continue
+			spath = "%s/%s" % (lpath, o)
+			self.write_str(spath, self.hex_or_str(os_descs_scheme[o]))
+
+
+	def create_functions(self, path, os_functions_scheme):
+
+		print("create_functions: %s" % (os_functions_scheme))
+		print("")
+
+		functions_path = "%s/functions" % (path)
+		os.makedirs(functions_path)
+
+		for function_name in os_functions_scheme:
+
+			s = os_functions_scheme[function_name]
+			print("create_function: %s" % (s))
+			function_type = self.get_scheme_data(s, 'type', "function")
+			function_instance = self.get_scheme_data(s, 'instance', "function")
+			function_os_descs = self.get_scheme_data(s, 'os_descs', "function", optional=True)
+			function_attrs = self.get_scheme_data(s, 'attrs', "function")
+			function_path = "%s/%s.%s" % (functions_path, function_type, function_instance)
+			os.makedirs(function_path)
+			self.create_attrs(function_path, function_attrs)
+
+			if function_os_descs:
+				print("function_os_descs: %s" % (function_os_descs))
+				self.create_function_os_descs(function_path, function_os_descs)
+
+			#print("function_name: s: %s" % (function_name, s))
+
+	def create_configs(self, path, os_configs_scheme):
+
+		print("create_configs: %s" % (os_configs_scheme))
+		print("")
+
+		configs_path = "%s/configs" % (path)
+		os.makedirs(configs_path)
+
+		for s in os_configs_scheme:
+			config_id = self.get_scheme_data(s, 'id', "config")
+			config_name = self.get_scheme_data(s, 'name', "config")
+			config_path = "%s/%s.%s" % (configs_path, config_name, config_id)
+			os.makedirs(config_path)
+			config_attrs = self.get_scheme_data(s, 'attrs', "config")
+			config_strings = self.get_scheme_data(s, 'strings', "config")
+			config_functions = self.get_scheme_data(s, 'functions', "config")
+
+			self.create_attrs(config_path, config_attrs)
+			self.create_strings(config_path, config_strings)
+
+			print("create_config: id %s" % (id))
+
+			for function_config in config_functions:
+				print("function_config: %s" % (function_config))
+				function_name = function_config['name']
+				function = function_config['function']
+
+				src = "/%s/functions/%s" % (path, function.replace("_", "."))
+				target = "%s/%s" % (config_path, function_name)
+				print("create symlink: %s -> %s" % (src, target))
+				os.symlink(src, target)
+
+
+
+	def remove_old_device(self, configname):
+
+		fpath = "%s/%s" % (self.configpath, configname)
+
+		print("Check for old configuration: %s" % (fpath))
+
+
+		if not os.path.exists(fpath) and not os.path.lexists(fpath):
+			print("%s does not exist" % (fpath))
+			return
+
+		if not os.path.isdir(fpath):
+			print("ERROR %s exists and is not a directory" % (fpath))
+			exit(1)
+
+		exit(1)
+		#print("Removing old configuration: %s" % (fpath))
+		#shutil.rmtree(fpath)
+
+	def create_device(self, device_scheme, default_id, devicename=None):
+
+		if device_scheme is None:
+			print("create_device: scheme is None")
+			return 
+
+		device_attrs = self.get_scheme_data(device_scheme, 'attrs', "device")
+
+		if devicename is None:
+			try:
+				devicename = device_attrs['name']
+			except IndexError:
+				print("create_device: scheme does not have name and none provided")
+				exit(1)
+
+		device_os_descs = self.get_scheme_data(device_scheme, 'os_descs', "device")
+		device_strings = self.get_scheme_data(device_scheme, 'strings', "device")
+
+		device_functions = self.get_scheme_data(device_scheme, 'functions', "device")
+		device_configs = self.get_scheme_data(device_scheme, 'configs', "device")
+
+
+
+		self.remove_old_device(devicename)
+
+
+		print("create devicename: %s" % (devicename))
+		device_path = "%s/%s" % (self.configpath, devicename)
+		os.makedirs(device_path)
+
+
+		self.create_attrs(device_path, device_attrs)
+		self.create_strings(device_path, device_strings)
+
+
+		self.create_functions(device_path, device_functions)
+
+		self.create_configs(device_path, device_configs)
+
+		print("device_os_descs: %s" % (device_os_descs))
+		self.create_device_os_descs(device_path, device_os_descs)
+		return
+
+		#for f in device_functions:
+		#	print("create_function: %s" % (f))
+		#	self.create_function(devicename, f, f)
+
+		#for c in device_configs:
+		#	config_id = self.get_scheme_data(c, 'id', "config")
+		#	config_name = self.get_scheme_data(c, 'devicename', "config")
+		#	print("create_config: id: %s devicename: %s" % (config_id, config_name))
+		#	#self.create_configs(devicename, f, scheme.functions[f])
+
+		return
+
+		print('')
+
+
+		print("Configure scheme: %s" % (device_scheme))
+		#d = dict(scheme)
+		#print("Configure dict: %s" % (d))
+
+		#for c in device_configs:
+#
+#			print("Configure %s" % (c))
+#
+##			try:
+#				id = c['id']
+#			except IndexError:
+#				print("config['id'] is None")
+#				return False
+#			try:
+#				name = c['name']
+#			except IndexError:
+#				print("config['name'] is None")
+#				return False
+#
+#			print("Configs[%s] %s" % (id, name))
+#
+			#self.remove_old_config(name)
+			#self.add_config(id, name, device_scheme, id == default_id)
+
+			#if id == default_id:
+			#	print("id: %s %s" % (id, default_id))
+
+
