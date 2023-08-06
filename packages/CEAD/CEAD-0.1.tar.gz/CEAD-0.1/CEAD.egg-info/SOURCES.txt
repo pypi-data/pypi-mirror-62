@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+CEAD/__init__.py
+CEAD/__main__.py
+CEAD/deploy.sh
+CEAD/package.sh
+CEAD.egg-info/PKG-INFO
+CEAD.egg-info/SOURCES.txt
+CEAD.egg-info/dependency_links.txt
+CEAD.egg-info/entry_points.txt
+CEAD.egg-info/requires.txt
+CEAD.egg-info/top_level.txt

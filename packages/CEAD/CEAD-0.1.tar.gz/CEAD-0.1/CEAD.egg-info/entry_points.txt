@@ -1,0 +1,3 @@
+[console_scripts]
+CEAD = CEAD:main
+
