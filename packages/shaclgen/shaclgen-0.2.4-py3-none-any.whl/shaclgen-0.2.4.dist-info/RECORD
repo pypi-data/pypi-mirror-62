@@ -1,0 +1,12 @@
+shaclgen/__init__.py,sha256=Lb3kXwg2RaHvuylbKct6uGmGT65NbxID08OPDVlIUgI,92
+shaclgen/__main__.py,sha256=93UCdzd3NBthB36OQfX4NY1ANEHqad-rqpVmNwz2zRU,2964
+shaclgen/constraint.py,sha256=PMysZdAaogXXIAM9Z3iNKw5CwuYtxu3blum2vlMdOhQ,90
+shaclgen/prefixes.py,sha256=5pGJwP7kVQ_Uzyvp7E2azhxFDDsFO6Wm7KOr25nR8s0,3928
+shaclgen/schema.py,sha256=iC0y0C6ETwFHkqJNjZA4hoorJGXrOUHZhFdbeMMQ9gA,20002
+shaclgen/shaclgen.py,sha256=2Hjws3rfX1PG0a1lM0OKFB--PS5KTYc5H_0fTDHCbYI,7128
+shaclgen/prefixes/namespaces.json,sha256=HvKrRiEvvUBDS81yjV7dUoWs9YdaJ4U0on1MOXZvFAk,139900
+shaclgen-0.2.4.dist-info/METADATA,sha256=Y-9QHir1lyNV69xKOg1i2B8sfdxe4uSEp0-lHF1Ksbs,2373
+shaclgen-0.2.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+shaclgen-0.2.4.dist-info/entry_points.txt,sha256=ZFBiammYodxwof9lKzxgJyzBm4DloEkQ2uOMGIm6L3M,53
+shaclgen-0.2.4.dist-info/top_level.txt,sha256=Q_u6g2iCzUgkDfc5Jumt8iuQmbEpoi0ekpzoysYXlZ8,9
+shaclgen-0.2.4.dist-info/RECORD,,
