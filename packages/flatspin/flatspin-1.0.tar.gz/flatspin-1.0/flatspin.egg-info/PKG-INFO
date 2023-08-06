@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: flatspin
+Version: 1.0
+Summary: Artificial Spin Ice simulator
+Home-page: https://flatspin.gitlab.io/
+Author: Johannes H. Jensen
+Author-email: johannes.jensen@ntnu.no
+License: GPLv3
+Project-URL: Source Code, https://gitlab.com/flatspin/flatspin
+Project-URL: Documentation, https://flatspin.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://gitlab.com/flatspin/flatspin/issues
+Description: flatspin
+        ========
+        
+        flatspin is a GPU-accelerated simulator for systems of interacting mesoscopic
+        spins (nanomagnets) arranged on a 2D lattice, also known as artificial spin ice
+        (ASI). flatspin can simulate realistic dynamics of millions of magnets within
+        practical time frames.
+        
+        flatspin is written in Python and uses OpenCL to accelerate the simulations on
+        the GPU.
+        
+        
+        Installing
+        ----------
+        
+        Install and update using ``pip``:
+        
+        .. code-block:: text
+        
+            pip install -U flatspin
+        
+        
+        Getting started
+        ---------------
+        
+        Once installed, head over to the `User Manual`_ to get started.
+        
+        .. _User Manual: https://flatspin.readthedocs.io/en/latest/quickstart.html
+        
+        
+        Links
+        -----
+        
+        * Website: https://flatspin.gitlab.io
+        * Documentation: https://flatspin.readthedocs.io/en/latest
+        * Releases: https://pypi.org/project/flatspin
+        * Code: https://gitlab.com/flatspin/flatspin
+        * Issue tracker: https://gitlab.com/flatspin/flatspin/issues
+        
+        .. _pip: https://pip.pypa.io/en/stable/quickstart/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: docs
