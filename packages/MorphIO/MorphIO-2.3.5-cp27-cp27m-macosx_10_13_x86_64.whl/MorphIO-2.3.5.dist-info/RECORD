@@ -1,0 +1,10 @@
+morphio/__init__.py,sha256=2T_d_qeG5LeJW6nrBaJiKnp5uHkyTGqHBTmnpgrYXbY,24
+morphio/_morphio.so,sha256=5w7OdPiwzca1KkbHeaCER14RAhKbtX_0j4D3Q-ysqd8,1390156
+morphio/.dylibs/libhdf5.103.dylib,sha256=uYQB346RbFMFiuS4KUf0qW8I4xeh-PYgBHN6zeqYpds,2948684
+morphio/.dylibs/libsz.2.dylib,sha256=gkS2ZAin4DloVTzwk-SjhUQtwlfhHaW0jY1DqVI4ii0,48364
+morphio/mut/__init__.py,sha256=4xECZFfrG9cl_esYL1zcdoXFhe2YKA530YD6YHIKJWw,29
+morphio/vasculature/__init__.py,sha256=GnPO6nW-IDcTxMXsFBspVhYxTLwoPSAdRQju1HALmNQ,37
+MorphIO-2.3.5.dist-info/METADATA,sha256=g5YgaXqpvNpBasq68QXEufBCrxiqf0qKmA9CBn-r-aU,13244
+MorphIO-2.3.5.dist-info/RECORD,,
+MorphIO-2.3.5.dist-info/top_level.txt,sha256=BzAG9hbvHB8LPMdmFQVdeNk0G6UfL-Nm7XuVcLmd0c8,8
+MorphIO-2.3.5.dist-info/WHEEL,sha256=Ly9Gre1S6gMEaMy8hb7efcMfqlwyWhC6i1Kh-tN3O7Y,111
