@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: run-subprocess
+Version: 0.9.0
+Summary: Run a subprocess with callbacks
+Home-page: https://github.com/rec/run_subprocess
+Author: Tom Ritchford
+Author-email: tom@swirly.com
+License: MIT
+Description: # run_subprocess
+        ⛏️ subprocess for subhumans  ⛏️
+        
+Keywords: backups
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
