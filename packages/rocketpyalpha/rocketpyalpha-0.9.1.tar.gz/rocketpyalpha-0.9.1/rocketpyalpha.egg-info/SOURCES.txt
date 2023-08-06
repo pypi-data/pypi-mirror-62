@@ -1,0 +1,12 @@
+README.md
+setup.py
+rocketpyalpha/Environment.py
+rocketpyalpha/Flight.py
+rocketpyalpha/Function.py
+rocketpyalpha/Rocket.py
+rocketpyalpha/SolidMotor.py
+rocketpyalpha/__init__.py
+rocketpyalpha.egg-info/PKG-INFO
+rocketpyalpha.egg-info/SOURCES.txt
+rocketpyalpha.egg-info/dependency_links.txt
+rocketpyalpha.egg-info/top_level.txt
