@@ -1,0 +1,7 @@
+[mkdocs.plugins]
+bootstrap4-blockquotes = mkdocsthemebootstrap4:Bootstrap4Blockquotes
+bootstrap4-tables = mkdocsthemebootstrap4:Bootstrap4Tables
+
+[mkdocs.themes]
+bootstrap4 = mkdocsthemebootstrap4
+
