@@ -1,0 +1,8 @@
+README.md
+setup.py
+AAA_Holy Script/__init__.py
+AAA_Holy Script/xgc.py
+XGC.egg-info/PKG-INFO
+XGC.egg-info/SOURCES.txt
+XGC.egg-info/dependency_links.txt
+XGC.egg-info/top_level.txt
