@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+shylock/__init__.py
+shylock/exceptions.py
+shylock/manager.py
+shylock.egg-info/PKG-INFO
+shylock.egg-info/SOURCES.txt
+shylock.egg-info/dependency_links.txt
+shylock.egg-info/requires.txt
+shylock.egg-info/top_level.txt
+shylock/backends/__init__.py
+shylock/backends/motorasyncio.py
