@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: opendp-whitenoise
+Version: 0.1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: burdock
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pandasql
+Requires-Dist: msrest
+Requires-Dist: scipy
+Requires-Dist: statsmodelsantlr4-python3-runtime (==4.8)
+
+UNKNOWN
+
+
