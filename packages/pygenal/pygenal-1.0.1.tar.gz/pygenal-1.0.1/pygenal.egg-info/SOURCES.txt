@@ -1,0 +1,9 @@
+README.md
+setup.py
+pygenal/__init__.py
+pygenal/ga.py
+pygenal/test.py
+pygenal.egg-info/PKG-INFO
+pygenal.egg-info/SOURCES.txt
+pygenal.egg-info/dependency_links.txt
+pygenal.egg-info/top_level.txt
