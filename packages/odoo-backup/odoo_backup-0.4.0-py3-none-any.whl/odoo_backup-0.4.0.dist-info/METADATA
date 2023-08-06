@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo-backup
+Version: 0.4.0
+Summary: 
+Author: Martin Lehoux
+Author-email: martin@lehoux.net
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: flask (>=1.1.1,<2.0.0)
+Requires-Dist: humanize (>=1.0.0,<2.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)

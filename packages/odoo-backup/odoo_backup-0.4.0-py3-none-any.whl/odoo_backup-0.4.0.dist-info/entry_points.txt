@@ -1,0 +1,3 @@
+[console_scripts]
+odoo_backup=odoo_backup.main:cli
+
