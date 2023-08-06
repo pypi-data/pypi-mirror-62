@@ -1,0 +1,12 @@
+timeseries_fastai/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+timeseries_fastai/_nbdev.py,sha256=B8mCN57YgvERfgGVn3qlw0LMVzqQnZvdYjgUD9DqzJ4,1253
+timeseries_fastai/core.py,sha256=Z2OtMjZyCgKhLSuJ4L9ga1pvsqUshZSBryUPs4ZN-FA,2581
+timeseries_fastai/data.py,sha256=I-n_pK3tLKuPwALE3Gx8R_VYbyFUB_EHlDuuUfrv-NE,2140
+timeseries_fastai/imports.py,sha256=_6f-Bf3qRz5tdFnDu4OSv6jnaJuLHXsXrz52welM3M0,203
+timeseries_fastai/models.py,sha256=_Y9-QqjhTmX7iAOy2hsFMZ1No5KTU7v_SxXrkTzgOws,4386
+timeseries_fastai-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+timeseries_fastai-0.0.1.dist-info/METADATA,sha256=jgdHG1b5-8zk5L_qX4V1lgvVQjAMsgtaBBkAxyUggbI,8337
+timeseries_fastai-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+timeseries_fastai-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+timeseries_fastai-0.0.1.dist-info/top_level.txt,sha256=HFgOjELDnk_bz5BzFV_nkBDd5N5JvcSCSTEOzT9QIBs,18
+timeseries_fastai-0.0.1.dist-info/RECORD,,
