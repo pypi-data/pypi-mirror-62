@@ -1,0 +1,7 @@
+progress>=1.5
+pyYAML
+requests>=2.22.0
+sqlalchemy
+tinydb
+tornado
+tornado_discovery
