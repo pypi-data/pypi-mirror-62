@@ -1,0 +1,3 @@
+[console_scripts]
+reptimer = reptimer.commandline:main
+
