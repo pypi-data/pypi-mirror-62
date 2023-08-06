@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        %for c in ff_column_names:
+            <th>${c | h}</th>
+        %endfor
+    </tr>
+    %for row in ff_rows:
+        <tr>
+            %for val in row:
+                <td>
+                    ${val | h}
+                </td>
+            %endfor
+        </tr>
+    %endfor
+</table>
