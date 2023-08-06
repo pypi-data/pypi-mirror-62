@@ -1,0 +1,9 @@
+README.md
+easy_requp.py
+setup.py
+easy_requp.egg-info/PKG-INFO
+easy_requp.egg-info/SOURCES.txt
+easy_requp.egg-info/dependency_links.txt
+easy_requp.egg-info/entry_points.txt
+easy_requp.egg-info/requires.txt
+easy_requp.egg-info/top_level.txt
