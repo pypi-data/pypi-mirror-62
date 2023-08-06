@@ -1,0 +1,8 @@
+symspelljpy/__init__.py,sha256=nZNbCDrmrdthMmNlwnoOOUjsI1s4D2JtzdooxM3ddSk,43
+symspelljpy/core.py,sha256=cWPhKPhXqyEHMdwV6_RT0opo57tnESDYjE8hs10ESDw,1472
+symspelljpy/path_resolver.py,sha256=ktJfkXOp3gNKv3AwCLPTny9ePcLF85DX9rlVNHowZ7I,303
+symspelljpy/resources/spellcheckclient-jar-with-dependencies.jar,sha256=u2aFL6rHlYOwvkFiwMzczdc9OpUYuJtC2ZgvBzizZ8A,16412585
+symspelljpy-0.3.dist-info/METADATA,sha256=0RVYsEqs_4BthI-tmf3roOPKdQRZnyYDAKwzUd8ZOrU,2938
+symspelljpy-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+symspelljpy-0.3.dist-info/top_level.txt,sha256=iz3rHZAICvyRm2iOvV9Kn3Jq13EFBA2SXB2Sr4B5UMo,12
+symspelljpy-0.3.dist-info/RECORD,,
