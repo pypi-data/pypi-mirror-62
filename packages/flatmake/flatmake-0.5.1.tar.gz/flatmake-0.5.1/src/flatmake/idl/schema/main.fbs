@@ -1,0 +1,29 @@
+namespace Dim;
+
+table UByteArray {
+	data: [ubyte];
+}
+
+table FloatArray {
+	data: [float32];
+}
+
+table Coordinates2D {
+	x: FloatArray;
+	y: FloatArray;
+}
+
+table RGBTripleArray {
+	r: [ubyte];
+	g: [ubyte];
+	b: [ubyte];
+}
+
+table Dim {
+    ubyteArray: UByteArray;
+    floatArray: FloatArray;
+    rgbTripleArray: RGBTripleArray;
+    coordinates2D: Coordinates2D;
+}
+
+root_type Dim;
