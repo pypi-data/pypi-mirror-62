@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: win-io
+Version: 0.0.2
+Summary: Module for hooking into native Windows API events.
+Home-page: https://github.com/patrikkj/win-io
+Author: Patrik Kjærran
+Author-email: patrikkja@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# win-io
+Module for hooking into native Windows API events.
+
+
