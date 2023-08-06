@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: consolidate-requirements
+Version: 0.0.3
+Summary: Package to consolidate multiple requirements files into one
+Home-page: https://github.com/hawesdb/consolidate-requirements
+Author: Daniel Hawes
+Author-email: hawesdb@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/consolidate-requirements/
+Keywords: Python 3,Requirements
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# consolidate-requirements
+Python pip package to consolidate multiple requirements files into one requirement.txt file
+
+
+
+
