@@ -1,0 +1,6 @@
+termcolor
+numpy
+six
+jinja2
+beautifulsoup4
+ase
