@@ -1,0 +1,3 @@
+[console_scripts]
+orbkit = orbkit.main:run_standalone
+
