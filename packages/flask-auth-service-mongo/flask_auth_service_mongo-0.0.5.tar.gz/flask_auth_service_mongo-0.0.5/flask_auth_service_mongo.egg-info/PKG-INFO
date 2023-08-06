@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: flask-auth-service-mongo
+Version: 0.0.5
+Summary: Flask authentication package with mongo.
+Home-page: https://gitlab.com/terminus-zinobe/flask-auth-service-mongo
+Author: Terminus
+Author-email: mateo.chaparro@zinobe.com
+License: UNKNOWN
+Description: # Flask authentication service with mongo
+        
+        Authentication package for terminus projects.
+        
+        ### Nota:
+        Todos los comandos descritos a continuación se deben ejecutar en la raíz del proyecto.
+        
+        
+        ## Entorno Virtual
+        - Crear
+            ```shell
+            $ python3 -m venv venv
+            ```
+        - Activar
+            ```shell
+            $ source venv/bin/activate
+            ```
+        - Desactivar
+            ```shell
+            $ deactivate
+            ```
+        
+        
+        ## Instalación del paquete
+        - Instalación
+            ```shell
+            $ pip3 install flask-auth-service-mongo
+            ```
+        
+        ## Configuración de la app
+        
+        Crear o modificar las archivos descritos a continuación.
+        
+        -   Variables de entorno en el archivo `.env`
+            * Configuración de la base de datos:
+                - Nombre de la base de datos.
+                    ```
+                    MONGO_APPLICATION_DATABASE=
+                    ```
+                - URI.
+                    ```
+                    MONGO_URI=
+                    ```
+                - Puerto.
+                    ```
+                    MONGO_PORT=
+                    ```
+                - Usuario.
+                    ```
+                    MONGO_APPLICATION_USER=
+                    ```
+                - Contraseña.
+                    ```
+                    MONGO_APPLICATION_PASSWORD=
+                    ```
+            * Configuración del usuario administrador por defecto.
+                - Nombre del usuario.
+                    ```
+                    DEFAULT_USER_ADMIN_USERNAME=
+                    ```
+                - Contraseña.
+                    ```
+                    DEFAULT_USER_ADMIN_PASSWORD=
+                    ```
+            * Configuracion de la clave secreta
+                ```
+                SECRET_KEY=
+                ```
+            * Activación o desactivación del token. Valor booleano.
+                ```
+                WHITE_LIST_TOKEN=
+                ```
+            * Longitud mínima del nombre de usuario
+                ```
+                USERNAME_MIN_LENGTH=
+                ```
+            - Longitud mínima de la contraseña 
+                ```
+                PASSWORD_MIN_LENGTH=
+                ```
+        - Configuración del archivo `config.py` de la app:
+            - Debe contener las variables:
+                ```
+                MONGODB_CONNECT=
+                MONGODB_SETTINGS= {}
+                ```
+                Conexión a la base de datos realizada con flask-mongoengine.
+                [Ver más.](http://docs.mongoengine.org/projects/flask-mongoengine/en/latest/)
+        
+        
+        ## UnitTest
+        
+        Pruebas escritas con `pytest`. [Ver más](https://docs.pytest.org/en/latest)
+        
+        ### Ejecución
+        - Ejecutar pruebas
+            ```shell
+            $ pytest
+            ```
+        - Ver la cobertura de las pruebas
+            ```shell
+            $ pytest --cov flask_auth_service_mongo
+            ```
+        
+        ## Documentacion
+        
+        Ver la documentacion. [Ver más](https://flask-auth-service-mongo.readthedocs.io/en/latest/index.html)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
