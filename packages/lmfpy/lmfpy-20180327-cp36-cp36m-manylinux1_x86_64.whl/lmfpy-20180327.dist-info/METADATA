@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lmfpy
+Version: 20180327
+Summary: UNKNOWN
+Home-page: https://github.com/DaehyunPY/lmf2txt
+Author: Daehyun You
+Author-email: daehyun@dc.tohoku.ac.jp
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
