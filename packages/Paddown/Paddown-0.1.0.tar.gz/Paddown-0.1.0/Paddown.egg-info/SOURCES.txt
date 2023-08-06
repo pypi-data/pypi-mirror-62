@@ -1,0 +1,11 @@
+README.md
+paddown.py
+pyproject.toml
+setup.cfg
+setup.py
+Paddown.egg-info/PKG-INFO
+Paddown.egg-info/SOURCES.txt
+Paddown.egg-info/dependency_links.txt
+Paddown.egg-info/entry_points.txt
+Paddown.egg-info/requires.txt
+Paddown.egg-info/top_level.txt
