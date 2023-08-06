@@ -1,0 +1,13 @@
+pyganja/GanjaScene.py,sha256=86PmYrpFiezTvMLswat283F-J3Bpi9MMP6Sb4o5UpUI,4000
+pyganja/__init__.py,sha256=VxWsU4nE-vi8rJG26kW4beQOM095qIIL991aPTCXM4o,95
+pyganja/_version.py,sha256=t-_8wPYiV6FTmqUZ3u_NmsXIhxvjseuiy4lh168Ek-o,296
+pyganja/cefwindow.py,sha256=G9tTIE4lCz5G9EUpCZL5qj9ODHEMBRe79HC5Otd9z8k,663
+pyganja/color.py,sha256=IQtr9W0gFuOvLZzJwlmbvJByi_XYXvnpADG8CjxJZuI,938
+pyganja/g3c.py,sha256=9BfOuCQUCX6p5BSleZC-Nn9k81jzIISZQ65dXlLrBm0,880
+pyganja/script_api.py,sha256=tF1s0KYw2P9L1u5S2JWnyEFnHrEvJHWfGbIdilPFR_g,9719
+pyganja/static/ganja.js/ganja.js,sha256=tOLMkSFL2SaAaA4O1TbGlJ_GZvzJmOacSEFLFwy8jos,104432
+pyganja-0.0.12.dist-info/LICENSE,sha256=wM5BKdIlo4hnxySfn4_yzFNuCtCQrgRVMF4MPZe38NI,1070
+pyganja-0.0.12.dist-info/METADATA,sha256=agFUJUvSfgDCkUQok3W4_87X39BXREnBumunekO-1d4,2424
+pyganja-0.0.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyganja-0.0.12.dist-info/top_level.txt,sha256=vW8Wdo_u4LTDKJjG0s4bLbdbRFXyc5RsVUw2GYOiwW0,8
+pyganja-0.0.12.dist-info/RECORD,,
