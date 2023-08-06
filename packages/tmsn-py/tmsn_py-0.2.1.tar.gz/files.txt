@@ -1,0 +1,7 @@
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/EGG-INFO/PKG-INFO
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/EGG-INFO/not-zip-safe
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/EGG-INFO/SOURCES.txt
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/EGG-INFO/native_libs.txt
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/EGG-INFO/top_level.txt
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/EGG-INFO/dependency_links.txt
+/Users/arapat/dev/virtualenv/py3/lib/python3.7/site-packages/tmsn_py-0.2-py3.7-macosx-10.15-x86_64.egg/tmsn/tmsn.cpython-37m-darwin.so
