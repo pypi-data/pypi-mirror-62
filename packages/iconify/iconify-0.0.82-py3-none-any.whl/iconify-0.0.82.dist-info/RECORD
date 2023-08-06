@@ -1,0 +1,13 @@
+iconify/__init__.py,sha256=j45BfzCiLhf9w-vsRPDyxq3MIKq1qjua9X08l60GVY8,100
+iconify/anim.py,sha256=q6xWBKEJlT7A5lJi6DKPypsW_z7btqqiNrfyzVcx4pY,7757
+iconify/browser.py,sha256=ez1UXq6BVL4VLEna9B6uY4liB8b3BmURAlFlyadJbuo,6040
+iconify/core.py,sha256=Fm834VEDY2SccsqgOJM1ENwkiAwuhoUrvWV_9akopR8,5976
+iconify/fetch.py,sha256=CGKS7ma8DK_eXNgoBwo7tNnOAi8tJxjRqtFizsHJNN8,4150
+iconify/path.py,sha256=qI1JOK5tgfxZLbqhSIPe99UJRxBF39Yb66ZIpVItT9A,2035
+iconify/qt.py,sha256=FHczDf5b80-qcVF6FZoFSUUoIvMp72-8p_iHm__8Mx0,792
+iconify-0.0.82.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+iconify-0.0.82.dist-info/METADATA,sha256=f8YTT8BNbIwZM8QnRxXSNUefb9Ovwtf-uE5l2w96c18,5948
+iconify-0.0.82.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+iconify-0.0.82.dist-info/entry_points.txt,sha256=f_FuuIhcze4HeaOMohhGWB5HchmBQDpvCfVlZwbH05c,233
+iconify-0.0.82.dist-info/top_level.txt,sha256=QJk44M4rcrrle4C5SeCbsiDziU8QkEqvj696Q83l1zA,8
+iconify-0.0.82.dist-info/RECORD,,
