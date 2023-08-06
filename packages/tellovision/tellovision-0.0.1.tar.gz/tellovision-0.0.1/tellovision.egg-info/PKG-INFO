@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tellovision
+Version: 0.0.1
+Summary: A package for RYZE Tello drone CV applications
+Home-page: https://github.com/Jacob-Bendele/tellovision
+Author: Jacob Bendele
+Author-email: Jacob.Bendele.ff@gmail.com
+License: UNKNOWN
+Description: # tellovision
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

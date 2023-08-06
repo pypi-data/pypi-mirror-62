@@ -1,0 +1,7 @@
+README.md
+setup.py
+tellovision/__init__.py
+tellovision.egg-info/PKG-INFO
+tellovision.egg-info/SOURCES.txt
+tellovision.egg-info/dependency_links.txt
+tellovision.egg-info/top_level.txt
