@@ -1,0 +1,12 @@
+fixerio3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixerio3/exceptions.py,sha256=3mJb6zpTvDY2TvkKEZ12PXz7ybSlseVlbxF_cMHlo0A,450
+fixerio3/fixerio.py,sha256=qG9wFSoOY9fo0TAJ7grvCjA3bmG5lC6vN-TwruXuUsY,15918
+fixerio3/utils.py,sha256=Hp7C7-vXL0BeQasxfWK4_tE8YV2YWZh8GzeouKT_txg,4243
+fixerio3/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixerio3/test/test_fixerio_class.py,sha256=31X4zwOGoimUQRdvW2x-PgkyBAzNOScqVn0lze4c7iI,1508
+fixerio3/test/test_fixerio_module.py,sha256=odCnY8Nn1OheA1V3dczKSOqBzSyiKAW5GCMqfDU64RY,833
+fixerio3_pr1-0.1.0.dist-info/LICENSE,sha256=nxBYqwpSO2fT_iIRH0WyrcUM42E949fZy-fMD7JSnpI,1072
+fixerio3_pr1-0.1.0.dist-info/METADATA,sha256=Q2Rd6ZbZyznn5uGUb3ADXzjjRNYfrO9jqMofogkHNJw,2903
+fixerio3_pr1-0.1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+fixerio3_pr1-0.1.0.dist-info/top_level.txt,sha256=kej5m738VOQE4C539xe0Qr5iaEdcp9VLz0HQUnqK4NU,9
+fixerio3_pr1-0.1.0.dist-info/RECORD,,
