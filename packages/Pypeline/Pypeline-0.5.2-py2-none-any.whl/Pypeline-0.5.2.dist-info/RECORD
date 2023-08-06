@@ -1,0 +1,11 @@
+pypeline/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pypeline/markup.py,sha256=M6bQvLJ4HzFNRWQUokjDTczhgyvj14tdRv4eT4WcJ1U,10599
+pypeline/markups.py,sha256=Xp31ah5CkH7F5s9aoQfqbX3YdWJCcUi_jWSDcQ10x9Q,1472
+pypeline/tests/__init__.py,sha256=BGGkOwp8uPr7OXUdriEs8UIQSH4sV9l9ESOq_WgHsK8,1365
+pypeline/tests/test_markup.py,sha256=OdaeA-8A2GMFhKuOZAQbUJpIEkh9H_E_QGBRvZ1dVg4,3194
+Pypeline-0.5.2.dist-info/METADATA,sha256=px4FZiE4YbYGb0-WJzPuIQTzGSkrfJ9MmOij9wuSKdU,1370
+Pypeline-0.5.2.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+Pypeline-0.5.2.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+Pypeline-0.5.2.dist-info/top_level.txt,sha256=HY746yIkgNOIsQ9cKxWtv-APBCMBjurZSoph9da7qkQ,9
+Pypeline-0.5.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Pypeline-0.5.2.dist-info/RECORD,,
