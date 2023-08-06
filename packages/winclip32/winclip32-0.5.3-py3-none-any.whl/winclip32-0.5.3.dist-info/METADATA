@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: winclip32
+Version: 0.5.3
+Summary: This is a small library for windows OS to work with clipboard data storage
+Home-page: https://github.com/PyPcDeV/winclip32
+Author: PyPcDeV
+Author-email: pypcdev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+
+This is a small library for _windows OS_ to work with _clipboard data storage_. winclip32 is based on _pywin32_ module.
+
+## _**Code Examples**_
+
+#### _**Example 1**_
+`import winclip32`  
+`winclip32.set_clipboard_data("unicode_std_text", "Python is beautiful!!!")`  
+`print(winclip32.get_clipboard_data("unicode_std_text"))  # >>> Python is beautiful!!!`
+#### _**Example 2**_
+`import winclip32`  
+`winclip32.set_clipboard_data("unicode_std_text", "Python is beautiful!!!")`  
+`print(winclip32.is_clipboard_data_type_available("bitmapinfo_std_structure"))  # >>> False`  
+`print(winclip32.is_clipboard_data_type_available(13))  # >>> True`
+#### _**Example 3**_
+`import winclip32`   
+`winclip32.get_clipboard_data_types_info()  # >>> ...`
+
+## _**Functions**_
+
+
+_winclip32.get_clipboard_data_types_info()_ >> print all informations about winclip32 clipboard data types
+
+_winclip32.get_clipboard_data(**_type_key_**)_ >> **_type_key_**: **_str_**/**_int_**; return data or error if something went wrong
+
+_winclip32.set_clipboard_data(**_type_key_**, **_data_**)_ >> **_type_key_**: _**str**_/_**int**_; _**data**_: **_int_**/_**str**_/_**unicode**_/any _**object**_ that supports the **_buffer interface_**; return data or error if something went wrong
+
+_winclip32.is_clipboard_data_type_available(**_type_key_**)_ >> **_type_key_**: _**str**_/_**int**_; return True if data type is available, False if not, and error if something went wrong
+
+_winclip32.count_clipboard_data_types()_ >> return the number of different data types currently on the clipboard.
+
+_winclip32.empty_clipboard()_ >> empty the clipboar
+\
+\
+\
+\
+That's all
+
+
+
+
+
+
+
