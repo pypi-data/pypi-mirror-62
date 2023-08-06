@@ -1,0 +1,16 @@
+copier/__init__.py,sha256=69jpaurAixZ3fHP21lhRVNdt7P3-qgllGFOfhHrgLXY,143
+copier/cli.py,sha256=MPiGvawXZIfBenS44ol8N6ynkhL7tWcM7JzEawl5-Lc,5429
+copier/config/__init__.py,sha256=zWcWCQsaIVZw-_gIHs1dtl7-qx3BJkyhNbwY_VXyObM,41
+copier/config/factory.py,sha256=TPR9C-v2fMwHHgoTXl9NwsxhG8EZn7aCdoUINdVWl3g,3368
+copier/config/objects.py,sha256=YrEM6EBna2dDPwx59Gj_2UOVFisBh-xeGESjUQweDOc,3016
+copier/config/user_data.py,sha256=lZr-QUkvLSlBAml94rT2ADdMSzSGahdqC6o50znOkG0,5358
+copier/main.py,sha256=wwQV6qZTj4FJe7zaPtTHvVa-7B4VDi4wUZCaNvh2YFE,10216
+copier/tools.py,sha256=it-NyfSlV49-0uikXPBBXNzwgToU8nKDugIgsOVt0bg,5214
+copier/types.py,sha256=WAP-YaG8rBhWSzZ_pLIrfgj_jLSCEo4728IwfFlG5u8,616
+copier/vcs.py,sha256=ruyCYew4Amo_iZOwPfqOYJIILphvYN77adI_AXYzMJU,2339
+copier/version.py,sha256=6IXiWJ-ePvR0bRWFiYTeiw-Cp-cNGVZ2T6V-HTPQhUU,226
+copier-3.0.0a6.dist-info/entry_points.txt,sha256=JR2TAvfOGxxoLdcfAie1J3I_els_rDx-iMia4gIhbRU,51
+copier-3.0.0a6.dist-info/LICENSE,sha256=kGSSEkV_bCVvVF2NprDF_RYL9pRiknBVHgb-eILnCnA,1076
+copier-3.0.0a6.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+copier-3.0.0a6.dist-info/METADATA,sha256=KYTgo-eKLsnjKOJcldDVDoictXClvTvoAgsdThWuZpg,15148
+copier-3.0.0a6.dist-info/RECORD,,
