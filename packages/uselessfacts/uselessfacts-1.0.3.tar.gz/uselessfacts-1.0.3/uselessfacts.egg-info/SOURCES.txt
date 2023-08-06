@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+uselessfacts/__init__.py
+uselessfacts/main.py
+uselessfacts.egg-info/PKG-INFO
+uselessfacts.egg-info/SOURCES.txt
+uselessfacts.egg-info/dependency_links.txt
+uselessfacts.egg-info/requires.txt
+uselessfacts.egg-info/top_level.txt
