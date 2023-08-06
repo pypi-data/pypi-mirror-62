@@ -1,0 +1,11 @@
+include README.rst
+include LICENSE.txt
+
+recursive-include doc *
+recursive-include reftools/src *.c *.h
+
+prune build
+prune doc/build
+
+global-exclude reftools/*.so
+global-exclude *.pyc *.o
