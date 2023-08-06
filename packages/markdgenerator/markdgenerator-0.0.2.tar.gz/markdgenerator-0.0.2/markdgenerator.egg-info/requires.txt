@@ -1,0 +1,11 @@
+pandas>=0.24.0
+
+[all]
+pytest
+sphinx
+
+[doc]
+sphinx
+
+[test]
+pytest
