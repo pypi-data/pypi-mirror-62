@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tentalog
+Version: 0.1.0
+Summary: Utility package for logging in Python
+Home-page: https://github.com/nextblu/tentalog
+Author: NextBlu
+Author-email: hello@nextblu.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: altgraph (==0.17)
+Requires-Dist: coloredlogs (==14.0)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: humanfriendly (==7.1.1)
+Requires-Dist: pefile (==2019.4.18)
+Requires-Dist: pyreadline (==2.1)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: PyYAML (==5.3)
+
+# tentalog
+Python logging utilities and enhancements
+
+
