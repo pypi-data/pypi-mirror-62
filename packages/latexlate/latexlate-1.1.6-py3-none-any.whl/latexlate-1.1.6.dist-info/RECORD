@@ -1,0 +1,14 @@
+latexlate/CodeBuilder.py,sha256=qs6qL0EkuZ_MwzzKPTK_YblnwctdhaXM-jlcv-n0NQw,761
+latexlate/StandartFilters.py,sha256=MXrfyHiBOVbtX3sFsnwIVWQrOsrWU-BfyqEt5Qq6bBA,477
+latexlate/SuperRenderer.py,sha256=9H7miqkxFZKlayivZKkyEJRoOSDAE0hNFSdt3c5PBcU,1995
+latexlate/Template.py,sha256=qR5ZRFk5DFoosRdL7o48juNTNnVZ-ee0OrWLbgb2ZMo,5804
+latexlate/TokenAnalyzer.py,sha256=PAo0aoYsMKI_lq1BmvsbvZR-5KRzsTQziaEwB0646DQ,2526
+latexlate/__init__.py,sha256=1tteZz-Bo7d97qgYgGjOwQvP--D-VxEL3NGokdy2k84,32
+latexlate/Errors/SyntaxError.py,sha256=ktuyBCpQ78zzSD_RsTkxb7ZAEkHNEzIoDi6FM95yVJs,155
+latexlate/Errors/__init__.py,sha256=L0rKCOwEPTJhk9HOEwhsa-tzIDP3GM6VGEJcTu9Yiqg,64
+latexlate/tests/__init__.py,sha256=tHpGG6NEOttuKt6SckC3ITu47SviZGFSztR3XRdWZKw,34
+latexlate/tests/test_TokenAnalyzer.py,sha256=6uVxQoZG8OgIsCsiZ9JNwoDVJtVGS92kfoGPvJ6p6yU,4633
+latexlate-1.1.6.dist-info/METADATA,sha256=J8moVKZYhs52kmtHPlZMpXSG1gVTCm8b4cFW7ArY9Sc,563
+latexlate-1.1.6.dist-info/RECORD,,
+latexlate-1.1.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+latexlate-1.1.6.dist-info/top_level.txt,sha256=sigeH5owxpEPgEDpiV2HpWWlbP_ESwFEHduGkIWDx_c,10
