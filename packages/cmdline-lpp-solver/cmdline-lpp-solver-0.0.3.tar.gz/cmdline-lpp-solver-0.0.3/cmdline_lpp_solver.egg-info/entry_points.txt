@@ -1,0 +1,3 @@
+[console_scripts]
+lpp_solver = lpp_solver.simplex:main
+
