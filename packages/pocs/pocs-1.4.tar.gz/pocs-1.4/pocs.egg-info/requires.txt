@@ -1,0 +1,7 @@
+requests
+gevent
+shodan
+google-api-python-client
+bottle
+paste
+click
