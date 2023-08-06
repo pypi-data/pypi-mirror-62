@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: snail_achilles
+Version: 0.0.6
+Summary: Model file manager
+Home-page: https://git.woniubaoxian.com/ai/ai-achilles-service
+Author: AngeloLi
+Author-email: libiao_0303@live.com
+License: UNKNOWN
+Description: # Achilles
+        
+        Model file Manager
+        
+        ### 模型管理
+        
+        #### 创建项目
+        ![创建项目](docs/images/achilles_project.jpg)
+        
+        #### 创建模型
+        ![创建模型](docs/images/achilles_model.jpg)
+        
+        #### 创建模型文件
+        ![创建模型文件](docs/images/achilles_model_version.png)
+        
+        ### 模型使用
+        
+        ```shell script
+        # 安装包
+        pip install -U snail_achilles
+        ```
+        
+        ```python
+        # 引入model
+        from achilles.model import *
+        # 指定服务器
+        Model.SERVER_HOST = "achilles.insnail.com"
+        
+        # 使用项目、模型、版本实例化model
+        model = Model("nlp_server", "emotional_classification", "0.0.1")
+        
+        # 得到模型文件的二进制文件
+        data = model.get_model_content()
+        
+        # 将模型下载到指定文件 
+        model.save_model("./model.model") 
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
