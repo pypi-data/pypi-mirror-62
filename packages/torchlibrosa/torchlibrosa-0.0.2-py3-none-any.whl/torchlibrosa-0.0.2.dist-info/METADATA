@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: torchlibrosa
+Version: 0.0.2
+Summary: PyTorch implemention of part of librosa functions.
+Home-page: https://github.com/qiuqiangkong/torchlibrosa
+Author: Qiuqiang Kong
+Author-email: qiuqiangkong@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Pytorch implementation of Fourier transform of librosa library. 
+
+This codebase implemented discrete Fourier Transform (DFT), inverse DFT as neural network layers in pytorch and can be calculated on GPU. Users can extract log mel spectrogram on GPU. The results are the same as obtained using librosa. The code is developed using pytorch 1.0. 
+
+# Usage
+Running examples:
+```
+python stft.py
+```
+
+
+# Summary
+This code provides Fourier transform related functions which can be calculated on GPU using pytorch. 
+
+
