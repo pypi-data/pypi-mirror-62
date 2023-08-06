@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: nycflights13
+Version: 0.0.1
+Summary: A data package for nyc flights (the nycflights13 R package)
+Home-page: https://github.com/machow/nycflights13
+Author: Michael Chow
+Author-email: mc_al_github@fastmail.com
+License: CC0
+Description: UNKNOWN
+Keywords: package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
