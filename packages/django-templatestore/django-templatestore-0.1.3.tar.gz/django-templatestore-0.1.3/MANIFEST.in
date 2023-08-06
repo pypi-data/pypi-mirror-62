@@ -1,0 +1,3 @@
+recursive-include templatestore/frontend/dist *
+recursive-include templatestore/migrations/*
+include LICENSE CHANGELOG.md README.md templatestore/templates/index.html
