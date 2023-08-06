@@ -1,0 +1,14 @@
+fmi_weather_client/__init__.py,sha256=h_f-V4hC4qiWlnBxtm-4U_GH7zqhnm2--h_13ntGMJQ,3776
+fmi_weather_client/errors.py,sha256=ViIvSHEKGafK6TYqI0I0YbOiHX3togORK4Bc7_BvdnY,541
+fmi_weather_client/http.py,sha256=wMSdW1hnQgFlIzJ3iT93pZbcNAPcCZ0RsT0nAef1KWY,4617
+fmi_weather_client/models.py,sha256=V9yqUa6KnageBseo5dnwuOl0_LXfJz5_R4Kwkwsze0c,1819
+fmi_weather_client/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmi_weather_client/parsers/forecast.py,sha256=ljCzET9Nq86GT5Xpak3_u6tv4MuHxTtrSN9RfAlyX9U,6392
+fmi_weather_client/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmi_weather_client/test/test_fmi_weather.py,sha256=tR23jCN5fNgqPw_r_8-nBMmShkvxfNOke7_-p17pHzY,6251
+fmi_weather_client/test/test_data/__init__.py,sha256=8iicla6Cms0G1UCKjEVDt99QTOg9gYsTL16riVNfPY4,1500
+fmi_weather_client-0.0.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fmi_weather_client-0.0.12.dist-info/METADATA,sha256=nR_0d3GZ5YAfyTrMsqWGxb39v-flh3khx5L0iJ5vQvM,4414
+fmi_weather_client-0.0.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fmi_weather_client-0.0.12.dist-info/top_level.txt,sha256=ICcZNXGVKQniA6hryB1IQMzECns2mZ3wLtQTeJ-XOAI,19
+fmi_weather_client-0.0.12.dist-info/RECORD,,
