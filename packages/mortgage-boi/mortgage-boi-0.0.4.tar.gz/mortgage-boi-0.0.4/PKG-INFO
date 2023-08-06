@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: mortgage-boi
+Version: 0.0.4
+Summary: A package for calculating mortgage data and cash flows
+Home-page: https://github.com/charliereese/mortgage_boi
+Author: Charlie Reese
+Author-email: j.charles.reese@gmail.com
+License: UNKNOWN
+Description: # Description
+        
+        mortgage-boi is a python package for calculating monthly mortgage cash flows.
+        
+        # Usage
+        
+        ```
+        pip install mortgage-boi
+        
+        ...
+        
+        import mortgage_boi as mbm
+        mortgage = mbm.Mortgage(principal=100_000, apr=0.06)
+        
+        # monthly CF data
+        mortgage.payments
+        
+        # specific monthly CF data
+        mortgage.payments_interest
+        ```
+        
+        # Appendix
+        
+        ### Creating a build
+        
+        First, update the version number in setup.py.
+        
+        Then, in the root folder:
+        
+        `python setup.py sdist bdist_wheel`
+        
+        In the root folder:
+        
+        ### Uploading a build
+        
+        Prod:
+        `python -m twine upload dist/*`
+        
+        Test:
+        `python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
+        
+        ### Installing the package
+        
+        See https://packaging.python.org/tutorials/packaging-projects/
+        
+        ### Useful information for building packages:
+        
+        - [what is __init__.py for](https://stackoverflow.com/questions/448271/what-is-init-py-for)
+        
+        ### Running test suite
+        
+        `python -m unittest discover tests`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
