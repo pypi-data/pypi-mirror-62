@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+kafka_api/__init__.py
+kafka_api/producer_api.py
+kafka_api.egg-info/PKG-INFO
+kafka_api.egg-info/SOURCES.txt
+kafka_api.egg-info/dependency_links.txt
+kafka_api.egg-info/not-zip-safe
+kafka_api.egg-info/requires.txt
+kafka_api.egg-info/top_level.txt
