@@ -1,0 +1,16 @@
+README.md
+requirements.txt
+setup.py
+iconify/__init__.py
+iconify/anim.py
+iconify/browser.py
+iconify/core.py
+iconify/fetch.py
+iconify/path.py
+iconify/qt.py
+iconify.egg-info/PKG-INFO
+iconify.egg-info/SOURCES.txt
+iconify.egg-info/dependency_links.txt
+iconify.egg-info/entry_points.txt
+iconify.egg-info/requires.txt
+iconify.egg-info/top_level.txt
