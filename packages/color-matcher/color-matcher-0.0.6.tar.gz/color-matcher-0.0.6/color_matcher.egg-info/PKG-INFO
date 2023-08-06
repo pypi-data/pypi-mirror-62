@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: color-matcher
+Version: 0.0.6
+Summary: Package enabling color transfer across images
+Home-page: http://github.com/hahnec/color-matcher
+Author: Christopher Hahne
+Author-email: inbox@christopherhahne.de
+License: GNU GPL V3.0
+Description: color-matcher is a Python package enabling color transfer across images.
+        This tool comes handy for automatic color-grading of photographs or film sequences.
+Keywords: color match histogram matching image colour transfer monge kantorovich mkl pitie reinhardrecolor re-color recolour re-colour paintings film movie sequence automatic grading color-grading colour-grading equalize equalise equalization equalisation light-field lightfield stop-motion stopmotion
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
