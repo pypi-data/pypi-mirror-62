@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: BrightPy
+Version: 0.1.1
+Summary: Control the backlight through sysfs
+Home-page: UNKNOWN
+Author: Cheaterman
+Author-email: the.cheaterman@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
