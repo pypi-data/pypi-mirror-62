@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sengkalancli
+Version: 0.1
+Summary: Sengkalan atau Candra Sengkala adalah cara orang Jawa menyembunyikan atau mengubah angka tahun menjadi kalimat. Contohnya adalah tahun runtuhnya kerajaan Majapahit, didapat dari candra sengkala Sirna Ilang Kertaning Bumi.
+Home-page: https://github.com/lantip/sengkalancli
+Author: lantip
+Author-email: lantip@gmail.comm
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Sengkalan atau Candra Sengkala adalah cara orang Jawa menyembunyikan atau mengubah angka tahun menjadi kalimat. Contohnya adalah tahun runtuhnya kerajaan Majapahit, didapat dari candra sengkala Sirna Ilang Kertaning Bumi.
+
+

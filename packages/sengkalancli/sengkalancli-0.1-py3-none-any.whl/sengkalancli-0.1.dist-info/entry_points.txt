@@ -1,0 +1,3 @@
+[console_scripts]
+sengkalancli = sengkalancli.sengkalancli:main
+
