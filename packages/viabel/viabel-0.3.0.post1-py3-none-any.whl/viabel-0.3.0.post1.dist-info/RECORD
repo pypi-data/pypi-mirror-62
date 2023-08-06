@@ -1,0 +1,9 @@
+viabel/__init__.py,sha256=EfAtObAlIobfzkbd0R_E_v6VF__JG1g1B9ugYVau3NQ,22
+viabel/_distributions.py,sha256=YvAt3T27mI0DJ3ielbgOQB85OBIAe66wF_4qYEsv2iY,1154
+viabel/bounds.py,sha256=r18WyyLmLi_s6OUvq7JVFBQ_vhXxiRwRvDEpIYxgS4g,6856
+viabel/vb.py,sha256=AHnmT4kqsDT58guWHfSfBhLZq4f_VjEpFgjU814IpK0,11184
+viabel-0.3.0.post1.dist-info/LICENSE,sha256=Ymf2bKJeEjUVMuq4FRLP1-PLMwfyUTJfs_uc-bYcadY,1059
+viabel-0.3.0.post1.dist-info/METADATA,sha256=4wXZGgTIRDosbhDnizRlvCMAxbNwa24hkUFdu5rDkJY,4390
+viabel-0.3.0.post1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+viabel-0.3.0.post1.dist-info/top_level.txt,sha256=s9FsNXRsHvTPHcBOM0h51J9NpPL1AbuWjR4zuhmARqk,7
+viabel-0.3.0.post1.dist-info/RECORD,,
