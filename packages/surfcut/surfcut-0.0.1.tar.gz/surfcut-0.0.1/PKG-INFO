@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: surfcut
+Version: 0.0.1
+Summary: Automated 3D cell detection and registration of whole-brain images
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

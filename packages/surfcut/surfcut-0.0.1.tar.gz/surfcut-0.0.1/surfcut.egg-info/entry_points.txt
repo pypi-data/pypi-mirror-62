@@ -1,0 +1,3 @@
+[console_scripts]
+surfcut = surfcut.run:main
+
