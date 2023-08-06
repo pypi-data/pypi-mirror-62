@@ -1,0 +1,14 @@
+mql5_zmq_backtrader/__init__.py,sha256=K9hij0n9Ij1dECjZYUpOLHFDkC2hGLIzU_N3El9iRGg,507
+mql5_zmq_backtrader/adapter.py,sha256=4MG7bAnOwR7x8H0o9Djd-9GpP8fivkeiV0Ra46uOP9w,763
+mql5_zmq_backtrader/cli.py,sha256=EJ2IQV0Kqj7djvAg_rzrkc53XA-HcsLEzpTGv-G5gqk,435
+mql5_zmq_backtrader/mql5_zmq_backtrader.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+mql5_zmq_backtrader/mt5broker.py,sha256=zdcdWnQJI92651iA8hFRBlo3lbJdI96LIYBYIWFCv54,12225
+mql5_zmq_backtrader/mt5data.py,sha256=3QGi_CuwQdogpLPZeZRQVvDwS-MgBj3mcqihBGI_fbA,8482
+mql5_zmq_backtrader/mt5store.py,sha256=qfUzqqKSs1_JYsZWh86XCoNB6fWiaYQ3aToYE2peas0,25267
+mql5_zmq_backtrader-0.1.1.dist-info/AUTHORS.rst,sha256=RtrU2XindrcjZCx1ONnGOS2N7NSNvsbD3wzIskJbP8k,142
+mql5_zmq_backtrader-0.1.1.dist-info/LICENSE,sha256=WXVgrpRDwXN0kfXeDTdTLe8h5S_9TvMF88DqofktQvc,1077
+mql5_zmq_backtrader-0.1.1.dist-info/METADATA,sha256=TsCWtzc5MsdUotsH-5FUDqPi_FfJr61Hv9YSqDQlKMg,2758
+mql5_zmq_backtrader-0.1.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+mql5_zmq_backtrader-0.1.1.dist-info/entry_points.txt,sha256=wDTDDuk4S5FT3zg9GRoxwEORMqNvefFz9rLm2S1jCyo,70
+mql5_zmq_backtrader-0.1.1.dist-info/top_level.txt,sha256=0abLmHztuajYfg7ymIb0BFBPdtbPHF4sbIDu_gecsjU,20
+mql5_zmq_backtrader-0.1.1.dist-info/RECORD,,
