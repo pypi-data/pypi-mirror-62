@@ -1,0 +1,13 @@
+confounds/__init__.py,sha256=SJQdR-lIfb-N0RwzUtqP4xG5ij33v1qSIwomfHkcXBM,481
+confounds/_version.py,sha256=eRU-p6Hy7_oeNhkfkvXzuXSfbhEdtmwhJGz_C0quqAo,497
+confounds/base.py,sha256=aAtkKkHKp4MzxNHRxs2S5gVAPktWdLICW7_5YTFWe80,8382
+confounds/harmonize.py,sha256=xOdQgd89ROj3uTsyvTMn0PvoGlckLVrqfSc4_XApKuY,494
+confounds/metrics.py,sha256=DjptpfwHz4zxd5otIEhl6Yiy5WzUQocBOSk7Yeof3c8,273
+confounds/stratify.py,sha256=Ss0wGx9vCduVa54w3vTF8ZOg4oWH0oxBGGKpw5WWPg4,329
+confounds/utils.py,sha256=_5opcVyU43fxHEq99xUNt0fnW7UXv3B8ymg4HeBTwsM,3056
+confounds/visualize.py,sha256=a3Re93fnsOWQ6MoYnpG8S-BH-xfRL7cLU24HpGaCilc,1297
+confounds-0.1.1.dist-info/LICENSE,sha256=9u2kO8Eo_D7chprK7vqv_9SwGQMlYHZvYjLFVIn9YjQ,593
+confounds-0.1.1.dist-info/METADATA,sha256=HJ8bIN-mIM7JpIfoiTx9KALDP6ZHPimic8Dwai5gGGs,1709
+confounds-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+confounds-0.1.1.dist-info/top_level.txt,sha256=jMg-Zlbuh6HNa29h_H6BZjgCSGXmHefzMJJoIoTRqAw,10
+confounds-0.1.1.dist-info/RECORD,,
