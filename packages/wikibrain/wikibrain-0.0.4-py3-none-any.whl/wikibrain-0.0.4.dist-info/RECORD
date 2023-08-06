@@ -1,0 +1,9 @@
+wikibrain/__init__.py,sha256=ModYzqx7t7z4DOrdR6CTYVATcnrpdeF03gA6WfGGcog,115
+wikibrain/apply_changes.py,sha256=sqvBcjTSghKLDoicpo6zZMB0bj2hnOXW1Go0tLVNR8s,540
+wikibrain/wikimedia_link_issue_reporter.py,sha256=G1_4w1qbKYP0IQvJl5V_2FwIpRVZjs4ebQ3dvAZdUVU,124026
+wikibrain/wikipedia_knowledge.py,sha256=32uqoa1m4kaY0YseWxrl5NoCY4GVYBocRXD6Zjxb5tI,2997
+wikibrain-0.0.4.dist-info/LICENSE,sha256=ALEYRXqpTNNajNzXWgW86tyhgY1LO9_tiuapeRNL1JE,1057
+wikibrain-0.0.4.dist-info/METADATA,sha256=E_9JVYtM9T0S5r8ufVp_7mqG4XZDHD73UY6OLeG3i7o,777
+wikibrain-0.0.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+wikibrain-0.0.4.dist-info/top_level.txt,sha256=0w4taWRJIUk1uVkBkFRXiFH2JUpoHcp66BSj02IfxwM,10
+wikibrain-0.0.4.dist-info/RECORD,,
