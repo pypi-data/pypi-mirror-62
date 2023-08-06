@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: strongsalt-strongdoc-python-sdk
+Version: 0.0.1
+Summary: The StrongDoc Python SDK for interacting with the StrongDoc API.
+Home-page: https://github.com/overnest/strongdoc-python-sdk
+Author: StrongDoc
+Author-email: info@strongsalt.com
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: six
+
+# StrongDoc Python SDK
+The StrongDoc Python SDK for interacting with the StrongDoc API.
+It allows users to add documents to the search index and make the search indexes searchable through API.
+
+# StrongDoc Python SDK Documentation
+Documenation is available on [ReadTheDocs](https://strongdoc-python-sdk.readthedocs.io/en/latest/).
+=======
+History
+=======
+
+1.0.0 (2020-XX-XX)
+-------------------
+
+* First release
+
+
