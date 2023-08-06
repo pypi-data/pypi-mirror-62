@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: command_line
+Version: 0.0.2
+Summary: A command_line module for Python to create a command line quickly
+Home-page: https://github.com/PM-yanmao/command_line
+Author: PM-Yanmao
+Author-email: pm.yanmao@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,command_line,pip,cmd
+Platform: any
+Provides-Extra: test
