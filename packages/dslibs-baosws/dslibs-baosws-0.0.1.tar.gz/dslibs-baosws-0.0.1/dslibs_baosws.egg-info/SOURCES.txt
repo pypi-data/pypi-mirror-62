@@ -1,0 +1,8 @@
+README.md
+setup.py
+dslibs/__init__.py
+dslibs_baosws.egg-info/PKG-INFO
+dslibs_baosws.egg-info/SOURCES.txt
+dslibs_baosws.egg-info/dependency_links.txt
+dslibs_baosws.egg-info/requires.txt
+dslibs_baosws.egg-info/top_level.txt
