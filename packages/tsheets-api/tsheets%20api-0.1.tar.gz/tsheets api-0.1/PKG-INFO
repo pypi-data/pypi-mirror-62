@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tsheets api
+Version: 0.1
+Summary: TSheets API Client
+Home-page: https://github.com/schir2/tsheets-api
+Author: Marek Schir
+Author-email: schir2@gmail.com
+License: MIT
+Description: TSheets client for use with TSheets API
+Keywords: tsheets api gps
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
