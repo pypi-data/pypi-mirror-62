@@ -1,0 +1,3 @@
+[console_scripts]
+forkie = client.forkie:main
+
