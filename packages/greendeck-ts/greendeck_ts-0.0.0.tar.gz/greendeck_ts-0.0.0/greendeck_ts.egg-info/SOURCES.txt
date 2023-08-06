@@ -1,0 +1,8 @@
+setup.py
+gd_generator/__init__.py
+gd_generator/src/__init__.py
+gd_generator/src/timseries_gen.py
+greendeck_ts.egg-info/PKG-INFO
+greendeck_ts.egg-info/SOURCES.txt
+greendeck_ts.egg-info/dependency_links.txt
+greendeck_ts.egg-info/top_level.txt
