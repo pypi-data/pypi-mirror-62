@@ -1,0 +1,23 @@
+#!python
+
+from sys import argv
+from mcrp_splitters import InputSplitter
+
+ig = InputSplitter(argv[1])
+
+if '-blocks' in argv:
+    i = argv.index('-blocks')
+    blocks = argv[i + 1]
+else:
+    blocks = 'c'
+
+if '-skipcomments' in argv:
+    i = argv.index('-skipcomments')
+    scomments = bool(argv[i + 1])
+else:
+    scomments = False
+
+for c in ig.cards(blocks=blocks, skipcomments=scomments):
+    print('{} card on line {}:'.format(c.type, c.position))
+    print('\n'.join(c.lines))
+    print('*'*80)
