@@ -1,0 +1,17 @@
+lakepowell/__init__.py,sha256=B79AW23fVsaUkXx_00L_ZW-70mi8LMeSg8NEmmyObVs,23
+lakepowell/biomass_functions.py,sha256=I2PKsUvucMcvUooUkGkeqBuoOBwIi2rT88fiDjVSEIE,723
+lakepowell/catch_per_unit_effort_functions.py,sha256=XYs1RwpiODb96W9YE1FPwj8FryGKz4mbGOh_I_PZOjQ,560
+lakepowell/cleaner.py,sha256=amIEWk-nJE8ew1J0TAIFrTX2h3_H8Uk_othYjVwnQ4U,4195
+lakepowell/correleation_functions.py,sha256=RYmfBPHzlSJUTPTzasS4UA4nm0lhUSHBiqJSLvUIb7M,961
+lakepowell/data.py,sha256=LalApPzLuvwTpfP-GIggWikZ6irbfkOKOFmUYhLQBIM,3842
+lakepowell/download.py,sha256=2VRoTEJqJUKk5803JhtQSIQ2CRKGfZCgQxH828GzIME,1732
+lakepowell/filter.py,sha256=cQNHIFKXIzQYaxrCMk5tKmLF8WCJ8V0lKJzCNAQXWX0,2705
+lakepowell/join.py,sha256=m3qytLspYSHkCeZUhKJyjuuiBARreJGRkV_DW5Wcw2g,5249
+lakepowell/mean_and_variance_functions.py,sha256=DcjSuewfXxKd0hcWkvu50YAVyWGpix-v8INnkkHiFSw,278
+lakepowell/water_data.py,sha256=z5iBPyVVYQQxyPWb3CvJ7T4WA4v_Ee6LXmfeaezR4vo,4675
+lakepowell/water_min_max.py,sha256=ZFaw0mhMEXT4HZaZlQdtv34pieiJNNLNKgT_osCiX5A,1239
+lakepowell-0.1.2.dist-info/LICENSE.md,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+lakepowell-0.1.2.dist-info/METADATA,sha256=y7XLPJnFSoZqlcMf5xLQsdL8mPcfKnxAdPQz4VFdrT0,506
+lakepowell-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lakepowell-0.1.2.dist-info/top_level.txt,sha256=YqBeP4R5ZtTnb9fso_sSvTHGkoimApeLkEOW94kBiMo,11
+lakepowell-0.1.2.dist-info/RECORD,,
