@@ -1,0 +1,9 @@
+Flask
+flask-cors
+opencv-python
+numpy
+requests
+pytz
+
+[dev]
+tensorflow==1.11.0
