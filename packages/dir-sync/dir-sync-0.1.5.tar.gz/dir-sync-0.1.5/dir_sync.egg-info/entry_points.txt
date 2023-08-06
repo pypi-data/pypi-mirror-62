@@ -1,0 +1,3 @@
+[console_scripts]
+dir-sync = sync.main:main
+
