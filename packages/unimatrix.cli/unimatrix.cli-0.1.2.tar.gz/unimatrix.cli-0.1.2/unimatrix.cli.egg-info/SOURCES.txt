@@ -1,0 +1,15 @@
+MANIFEST.in
+requirements.txt
+setup.py
+unimatrix/__init__.py
+unimatrix.cli.egg-info/PKG-INFO
+unimatrix.cli.egg-info/SOURCES.txt
+unimatrix.cli.egg-info/dependency_links.txt
+unimatrix.cli.egg-info/entry_points.txt
+unimatrix.cli.egg-info/requires.txt
+unimatrix.cli.egg-info/top_level.txt
+unimatrix/cli/VERSION
+unimatrix/cli/__init__.py
+unimatrix/cli/core/__init__.py
+unimatrix/cli/core/tests/test_main.py
+unimatrix/cli/ext/__init__.py

@@ -1,0 +1,2 @@
+include unimatrix/cli/VERSION
+include requirements.txt

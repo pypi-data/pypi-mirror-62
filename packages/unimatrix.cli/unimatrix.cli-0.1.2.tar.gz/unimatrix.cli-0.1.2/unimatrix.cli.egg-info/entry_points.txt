@@ -1,0 +1,3 @@
+[console_scripts]
+unimatrix = unimatrix.cli.core:main
+
