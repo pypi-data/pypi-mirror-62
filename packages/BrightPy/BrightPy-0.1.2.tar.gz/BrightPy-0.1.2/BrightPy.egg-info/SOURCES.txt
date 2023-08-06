@@ -1,0 +1,12 @@
+.gitignore
+BrightPy-0.1.2.ebuild
+README.md
+setup.py
+BrightPy.egg-info/PKG-INFO
+BrightPy.egg-info/SOURCES.txt
+BrightPy.egg-info/dependency_links.txt
+BrightPy.egg-info/entry_points.txt
+BrightPy.egg-info/top_level.txt
+brightpy/__init__.py
+brightpy/__main__.py
+brightpy/argparse_subparser_alias.py
