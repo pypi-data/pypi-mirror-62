@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: donutda
+Version: 1.0
+Summary: Donut-like Object segmeNtation Utilizing Topological Data Analysis
+Home-page: https://github.com/ulgenklc/DONUTDA
+Author: Bengier Ulgen Kilic
+Author-email: bengieru@buffalo.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: eztda
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# DONUTDA
+A python based semi-supervised software for Donut-like Object segmeNtation Utilizing Topological Data Analysis.
+
+DONUTDA implements persistent homology to perform image analysis on biomedical image data. Taking a 2d-grayscale image as an input, there are four easy steps for algorithm to spit out the desired masks of the regions of interest(ROI).
+
+The GUI is available.
+
+
