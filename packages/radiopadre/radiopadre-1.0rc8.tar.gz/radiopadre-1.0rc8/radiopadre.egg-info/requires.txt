@@ -1,0 +1,12 @@
+APLpy
+astropy
+ipython
+jupyter
+notebook
+matplotlib
+pillow
+python-casacore
+radiopadre-client
+
+[casacore]
+python-casacore
