@@ -1,0 +1,4 @@
+[console_scripts]
+cadmcnp = pirs.mcnp.cad_vols:main
+isocomp = pirs.mcnp.isocomps:main
+
