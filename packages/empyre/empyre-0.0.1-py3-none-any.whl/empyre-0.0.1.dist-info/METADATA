@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: empyre
+Version: 0.0.1
+Summary: Electron Microscopy Python Reconstruction
+Home-page: https://iffgit.fz-juelich.de/empyre/empyre
+Author: Jan Caron
+Author-email: j.caron@fz-juelich.de
+License: GPLv3
+Keywords: Electron Microscopy,Inverse Problem Solving,Model-based Reconstrution
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: matplotlib (>=3)
+Requires-Dist: scikit-image
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: Pillow
+Provides-Extra: all
+Requires-Dist: pyfftw ; extra == 'all'
+Requires-Dist: cmocean ; extra == 'all'
+Provides-Extra: colors
+Requires-Dist: cmocean ; extra == 'colors'
+Provides-Extra: fftw
+Requires-Dist: pyfftw ; extra == 'fftw'
+Provides-Extra: io
+Requires-Dist: hyperspy ; extra == 'io'
+
+The documentation can be found [here](https://empyre.iffgit.fz-juelich.de/empyre/)!
+
+
