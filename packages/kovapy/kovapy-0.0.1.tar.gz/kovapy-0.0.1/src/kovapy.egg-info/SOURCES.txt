@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/kovapy.py
+src/kovapy.egg-info/PKG-INFO
+src/kovapy.egg-info/SOURCES.txt
+src/kovapy.egg-info/dependency_links.txt
+src/kovapy.egg-info/requires.txt
+src/kovapy.egg-info/top_level.txt
