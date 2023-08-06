@@ -1,0 +1,14 @@
+doris/__init__.py,sha256=JyoWzNrZZ6HxbpeqXBAoiRcAHnqa9bmyJJeSTCSlkx0,725
+doris/__main__.py,sha256=-TmKc5tS9ZEK6q-ZRO_6vagL6emZm4NyHEx-EtlthT0,739
+doris/config.py,sha256=B3-jEnnrFM1g24TBsDi2W60HUPYQbRYGEHhz9yTimfw,4045
+doris/dialog.py,sha256=8FGrfs0mLI_xMjfZ4zgLn2xOzdMnaLI9pCD2_UXMThQ,5335
+doris/doris.py,sha256=s8Ae7xZ-Wtq9cKCppJXk1oHPDnp92rPcIS6kYDiXxgU,141273
+doris/doris_functions.py,sha256=pxjTiGwyhxlKXCzErTxByPz40ZTk71Yclu9pzfZb3QI,17620
+doris/doris_ui.py,sha256=d2ObDAtxTujf8oiqa82cD1iFrqJg2tEOkgvPwktZ37s,44684
+doris/version.py,sha256=Lp8k6hTmcplUhUKpB5cXr_gwvmgrZLJJqqrdG9OzAdg,788
+doris_tracker-20.2.2.dist-info/LICENSE.TXT,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+doris_tracker-20.2.2.dist-info/METADATA,sha256=q--02dWzRMnM0MC-FVnzErN9MexKUGHGQRLzRC7CowU,909
+doris_tracker-20.2.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+doris_tracker-20.2.2.dist-info/entry_points.txt,sha256=GUrIe2FIPk67PGJW8rq1zrHKF7XuDa8hutXojvbxKuI,38
+doris_tracker-20.2.2.dist-info/top_level.txt,sha256=2ayBrqp1s-_MHyIoOcFed4bUtHxSq_r6UonDoTddZOo,6
+doris_tracker-20.2.2.dist-info/RECORD,,
