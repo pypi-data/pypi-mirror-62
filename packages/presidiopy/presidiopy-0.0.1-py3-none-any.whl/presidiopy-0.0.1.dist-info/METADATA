@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: presidiopy
+Version: 0.0.1
+Summary: An API library to interact with Microsoft Presidio
+Home-page: https://github.com/querylayer/presidiopy
+Author: David Hernandez
+Author-email: hello@davidhernandez.info
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/querylayer/presidiopy
+Project-URL: Bug Tracker, https://github.com/querylayer/presidiopy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.22.0)
+
+# PresidioPY
+
+PresidioPY is a wrapper around requests library to interact with [Microsoft Presidio](https://github.com/microsoft/presidio).
+
+## Installation
+
+`pip install presidiopy`
+
+## Current support
+
+### V1
+
+| Path                                               | Method | Supported |
+| /api/v1/fieldTypes                                 | GET    | NO        |
+| /api/v1/templates/:project/:action/:id             | GET    | NO        |
+| /api/v1/templates/:project/:action/:id             | POST   | NO        |
+| /api/v1/templates/:project/:action/:id             | PUT    | NO        |
+| /api/v1/templates/:project/:action/:id             | DELETE | NO        |
+| /api/v1/projects/:project/analyze                  | POST   | YES       |
+| /api/v1/projects/:project/anonymize                | POST   | NO        |
+| /api/v1/projects/:project/anonymize-image          | POST   | NO        |
+| /api/v1/projects/:project/schedule-scanner-cronjob | POST   | NO        |
+| /api/v1/projects/:project/schedule-streams-job     | POST   | NO        |
+| /api/v1/analyzer/recognizers                       | GET    | YES       |
+| /api/v1/analyzer/recognizers/:id                   | GET    | YES       |
+| /api/v1/analyzer/recognizers/:id                   | POST   | NO        |
+| /api/v1/analyzer/recognizers/:id                   | PUT    | NO        |
+| /api/v1/analyzer/recognizers/:id                   | DELETE | NO        |
+
+
