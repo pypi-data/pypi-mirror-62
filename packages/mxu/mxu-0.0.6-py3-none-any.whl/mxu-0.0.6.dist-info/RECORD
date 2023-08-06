@@ -1,0 +1,9 @@
+mxu/__init__.py,sha256=cnX7fEi9C2SPsKURuUhrFUZCmiV3jtifcijQIB8Ycfg,357
+mxu/clstools.py,sha256=BaW99gYN-H5bBJbC-p3tVlpVtvrmCKJMrMy8LFYQceg,551
+mxu/itertools.py,sha256=hAFkVl7ovJQOnaotZefR17epDNSJCJ4q-qSZKeF1lIU,538
+mxu/maps.py,sha256=ogOCnUpV6n6uPVtbQ0r9foyP_a-MeKtaKSBw8R-Ysww,3534
+mxu/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mxu/sanity.py,sha256=FukZZjsK4v5ELOURx4Kcc_Y0VsoyqhIbzyQIrNi_VkY,1955
+mxu-0.0.6.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+mxu-0.0.6.dist-info/METADATA,sha256=l-T5yM3d35E3lubVIC9MHm11pTq5fzXDk7j8v4gSE6o,630
+mxu-0.0.6.dist-info/RECORD,,
