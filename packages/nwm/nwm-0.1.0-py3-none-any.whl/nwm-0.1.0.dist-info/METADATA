@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nwm
+Version: 0.1.0
+Summary: Fetch and process data from the National Water Model
+Home-page: http://csdms.colorado.edu
+Author: Tian Gan
+Author-email: jamy127@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bmipy
+Requires-Dist: click
+Requires-Dist: netcdf4
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: xarray
+Requires-Dist: owslib
+Requires-Dist: cftime
+Requires-Dist: pandas
+
+UNKNOWN
+
+
