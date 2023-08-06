@@ -1,0 +1,1 @@
+powerline_cpu_temp

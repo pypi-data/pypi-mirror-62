@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: powerline-cpu-temp
+Version: 0.1.0
+Summary: A Powerline segment to show CPU temperature
+Home-page: https://github.com/DCsunset/powerline-cpu-temp
+Author: DCsunset
+Author-email: DCsunset@protonmail.com
+License: MIT
+Description: # powerline-cpu-temp
+        
+        `powerline-cpu-temp` is a Powerline segment to show CPU temperature.
+        
+        ## Installation
+        
+        Using pip:
+        
+        ```
+        pip3 install powerline-cpu-temp
+        ```
+        
+        Or clone this repository and run:
+        
+        ```
+        python3 setup.py install
+        ```
+        
+        ## Usage
+        
+        ```json
+        {
+        	"function": "powerline_cpu_temp.cpu_temp"
+        }
+        ```
+        
+        ```json
+        "cpu_temp": { "fg": "gray8", "bg": "gray0", "attrs": [] },
+        "cpu_temp_gradient": { "fg": "green_yellow_orange_red", "bg": "gray0", "attrs": [] }
+        ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Terminals
+Description-Content-Type: text/markdown

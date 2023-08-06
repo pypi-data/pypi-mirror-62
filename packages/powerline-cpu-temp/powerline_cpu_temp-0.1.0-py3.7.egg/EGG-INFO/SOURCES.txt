@@ -1,0 +1,8 @@
+README.md
+powerline_cpu_temp.py
+setup.py
+powerline_cpu_temp.egg-info/PKG-INFO
+powerline_cpu_temp.egg-info/SOURCES.txt
+powerline_cpu_temp.egg-info/dependency_links.txt
+powerline_cpu_temp.egg-info/requires.txt
+powerline_cpu_temp.egg-info/top_level.txt
