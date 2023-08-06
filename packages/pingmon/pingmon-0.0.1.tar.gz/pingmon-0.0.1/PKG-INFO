@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pingmon
+Version: 0.0.1
+Summary: Monitor, record, and display ping results
+Home-page: https://github.com/veloduff/pingmon
+Author: Mark Duffield
+Author-email: veloduff@gmail.com
+License: Apache License 2.0
+Description: # pingmon
+        Monitor, record, and display ping results
+        
+        
+        
+Keywords: aws cfn control cloudformation stack
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/markdown
