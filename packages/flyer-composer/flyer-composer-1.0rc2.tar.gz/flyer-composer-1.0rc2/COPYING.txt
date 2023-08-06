@@ -1,0 +1,8 @@
+Flyer Composer is licenced under the
+GNU Affero General Public License v3 or later (AGPLv3+), see
+LICENSE-AGPLv3.txt for details.
+
+The icons used for the GUI are traken from the KDE Oxygen Icon Theme,
+which is licensed under the
+GNU Lesser General Public License v3 or later (LGPLv3+), see
+COPYING.icons.txt for details.

@@ -1,0 +1,9 @@
+/.vagrant/
+/build/
+/dist/
+
+/*.msi
+/*.exe
+/*.tar.gz
+/*.tar.bz2
+/*.tar.xz

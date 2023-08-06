@@ -1,0 +1,139 @@
+#pdf:
+#  script:
+#    - make pdf
+#  artifacts:
+#    expire_in: 1 mos
+#    paths:
+#      - output
+
+stages:
+  - test
+  - package
+  - release
+
+before_script:
+  - python --version
+  - pip install -U pip "setuptools>=30.3.0" wheel
+  - pip install tox -r requirements.txt
+  # Ensure test input-files are up to date
+  - python examples/gen-examplepages.py
+
+python3.5:
+  image: python:3.5
+  script:
+    - tox -e py35
+
+python3.6:
+  image: python:3.6
+  script:
+    - tox -e py36
+
+python3.7:
+  image: python:3.7
+  script:
+    - tox -e py37
+
+python3.8:
+  image: python:3.8
+  script:
+    - tox -e py38
+
+linters:
+  image: python:3.5
+  script:
+    # For now only check the readme
+    - tox -e readme
+    #- tox -e linters
+
+# As of 2017-02 not available in yml file.
+#coverage: /^TOTAL\s+.*\s+(\d+\%)/
+
+package-linux:
+  stage: package
+  image: python:3.7-slim
+  only:
+    - tags
+  artifacts:
+    expire_in: 1 days
+    paths:
+      - dist/*
+      - packaging/*-linux.tar.xz
+  before_script:
+    - apt-get update
+    - apt-get install -y --no-install-recommends
+        python3-pyqt5 qttranslations5-l10n
+        binutils libc-bin xz-utils
+    - export PYTHONPATH=/usr/lib/python3/dist-packages
+    - pip install --upgrade pip
+  script:
+    # For tags automatically create a sdist-archive and
+    # a linux package using PyInstaller
+    - pip install -r requirements.txt
+    - python3 ./setup.py sdist
+
+    - cd packaging
+    - pip install -r requirements.txt
+    - pip install -e ..
+    # Verify PyQt5 is actually available
+    - python -c "import sys ; print(sys.path)"
+    - python -c "from importlib.util import * ;
+         p = find_spec('PyQt5.Qt'); raise SystemExit(not p and 'MISSING')"
+    # Build one-dir distribution
+    - pyinstaller -y flyer-composer.spec
+    # Pack into an archive
+    - VER=$(pkginfo --single -f version flyer_composer)
+    - tar -c --xz -f flyer-composer-$VER-linux.tar.xz -C dist flyer-composer
+
+package-windows:
+  stage: package
+  only:
+    - tags
+  artifacts:
+    expire_in: 1 days
+    paths:
+      - dist/*
+      - packaging/*.msi
+      - packaging/*-portable.exe
+  tags:
+    - shared-windows
+    #- windows
+    - windows-1809
+  before_script:
+    - choco install -y python --version=3.7.6
+    - $env:Path = $env:Path + ';C:\Python37;C:\Python37\Scripts'
+    - python --version
+    - python -m pip install --upgrade pip
+  script:
+    # For tags automatically create a MSI package and
+    # a portable package using PyInstaller
+    - cd packaging
+    - python -m pip install -r requirements.txt
+    - python -m pip install -e ..
+    # Verify PyQt5 is actually available
+    - python -c "import sys ; print(sys.path)"
+    - python -c "from importlib.util import * ;
+         p = find_spec('PyQt5.Qt'); raise SystemExit(not p and 'MISSING')"
+    # Build one-dir and one-file/portable distribution
+    - python -m PyInstaller -y flyer-composer.spec
+    # build the msi from one-dir dirstribution using wix.py
+    - python flyer-composer-wix.py
+    - Move-Item dist/flyer-composer-*-portable.exe .
+
+release:
+  stage: release
+  image: python:3.7-slim
+  only:
+    - tags
+  before_script:
+    - pip install pkginfo gitlab-release
+  script:
+    # For tags automatically create a release at
+    # gitlab, uploading the artifacts to the release.
+    - VER=$(pkginfo --single -f version dist/*.tar.gz)
+    # ensure version matches the tag
+    - 'echo "Tag: $CI_BUILD_TAG --- Package Version: $VER"'
+    - '[ "$CI_BUILD_TAG" != "$VER" ] && exit 10'
+    - gitlab_release --private-token $PRIVATE_TOKEN
+        --link-prefix "* "
+        dist/* packaging/*-linux.tar.xz
+        packaging/*.msi packaging/*-portable.exe

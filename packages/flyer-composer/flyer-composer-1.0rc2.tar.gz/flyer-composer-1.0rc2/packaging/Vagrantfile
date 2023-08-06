@@ -1,0 +1,157 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+#
+# Automated packaging on misc. platforms
+#
+# Copyright (C) 2016-2020 Hartmut Goebel
+#
+# Originally based on a Vagrantfile by Thomas Waldmann. Thanks!
+# Copyright (C) 2015 The Borg Collective http://borgbackup.readthedocs.org/
+
+
+Vagrant.require_version ">= 1.9.5" # Enabling shared folders for winssh
+
+if not (Dir.exist?('../flyer_composer') and File.exist?('./Dockerfile'))
+   abort("vagrant must be called from within the 'packaging' directory")
+end
+
+# Test if a variable is `true`, like a shell-variable: Unset (nil), empty
+# string or some value expressing `false` means `false`.
+def is_set?(s)
+  not (s == nil or s == "" or (s =~ /^(false|f|n|no|0)$/i))
+end
+
+# Test if the environment variable `name` is set to `value` (case-insensitive)
+def is_env?(name, value)
+  ENV[name] and ENV[name].downcase == value.downcase
+end
+
+
+#----- Windows
+
+def windows_disable_updates()
+  # TODO: Add more entries to really disable all auto-updates and reboots.
+  return <<-EOF
+    echo > no-updates.ps1 '
+    $base = "HKLM:/Software/Policies/Microsoft/Windows/"
+    New-Item -Force -Path "$base/WindowsUpdate" | Out-Null
+    New-Item -Force -Path "$base/WindowsUpdate/AU" | Out-Null
+    New-ItemProperty -Path "$base/WindowsUpdate/AU" -Name "NoAutoUpdate" -Value 1 -PropertyType DWORD -Force | Out-Null
+    Get-ItemProperty "$base/WindowsUpdate/AU"
+    ' ; powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./no-updates.ps1
+  EOF
+end
+
+def install_chocolatey()
+  return <<-EOF
+    echo > install-choco.ps1 '
+    "Install chocolatey"
+    [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
+    iex ((New-Object System.Net.WebClient).DownloadString("https://chocolatey.org/install.ps1"))
+    ' ; powershell -NoProfile -ExecutionPolicy Bypass -File ./install-choco.ps1
+  EOF
+end
+
+def choco_install(packages)
+  # Using the full path for `choco` here saves the need to reload the machine
+  # to get $PATH set.
+   return <<-EOF
+    echo > install-choco.ps1 '
+    $env:Path += ";$($env:ProgramData)/Chocolatey/bin"
+    choco install -y #{packages}
+    ' ; powershell -NoProfile -ExecutionPolicy Bypass -File ./install-choco.ps1
+  EOF
+end
+
+def package_on_windows(boxname)
+  # running in cygwin sh
+  return <<-EOF
+    export PATH="/cygdrive/c/python37/:/cygdrive/c/python37/Scripts:$PATH"
+    cd c:/vagrant/packaging
+    python -m pip install --upgrade pip
+    python -m pip install -r requirements.txt
+    python -m pip install -e ..
+    pyinstaller -y flyer-composer.spec
+    # build the msi using wix.py
+    python flyer-composer-wix.py
+  EOF
+end
+
+Vagrant.configure(2) do |config|
+  # Do not leak information about usage by by update-checks.
+  config.vm.box_check_update = false
+
+  # Let the VM access the dirstribution folder (the parent directory) on the
+  # host machine via the default shared folder. We need to use the parent
+  # directory since for building the windows bootloader we need to access some
+  # image files in ../PyInstaller/bootloader/images/.
+  config.vm.synced_folder "..", "/vagrant"
+
+  config.vm.provider :virtualbox do |v|
+    v.gui = is_set?(ENV['GUI'])
+    v.cpus = 1
+  end
+
+  #--- Linux in docker container, for building ---
+  config.vm.define "docker-build" do |docker_build|
+    docker_build.vm.provider "docker" do |d1|
+      d1.build_dir = "."
+      d1.dockerfile = "Dockerfile"  # FIXME: anderer Name
+      # Argl, one can not sync to /vagrant in Docker
+      docker_build.vm.synced_folder "..", "/home/developer/vagrant"
+      docker_build.vm.synced_folder "/tmp/.X11-unix", "/tmp/.X11-unix"
+      # additional args for "docker run"
+      d1.create_args = ["-it"]
+      d1.env = { "DISPLAY" => ENV['DISPLAY'] }
+    end
+  end
+
+  #--- Linux in docker container, for running the frozen package ---
+  config.vm.define "docker-test" do |docker_test|
+    docker_test.vm.provider "docker" do |d2|
+      d2.build_dir = "."
+      d2.dockerfile = "Dockerfile.runtest"
+      docker_test.vm.synced_folder "../examples", "/home/developer/examples"
+      docker_test.vm.synced_folder "/tmp/.X11-unix", "/tmp/.X11-unix"
+      # additional args for "docker run"
+      d2.create_args = ["-it"]
+      d2.env = { "DISPLAY" => ENV['DISPLAY'] }
+    end
+  end
+
+  #--- Windows 64 bit
+  #- This box requires interaction, automated build is not possible at
+  #- the moment. Please see the README for more information.
+  config.vm.define "windows10" do |b|
+    b.vm.box = "Microsoft/EdgeOnWindows10"
+    b.vm.guest = :windows
+    b.vm.boot_timeout = 180
+    b.vm.graceful_halt_timeout = 120
+
+    b.ssh.shell = "sh -l"
+    b.ssh.username = "IEUser"
+    b.ssh.password = "Passw0rd!"
+    b.ssh.insert_key = false
+
+    # Disable auto-update - only partially working
+    b.vm.provision "disable auto-updates", :type => :shell,
+        :privileged => false, :inline => windows_disable_updates(),
+        :keep_color => true
+
+    b.vm.provider :virtualbox do |v|
+      v.memory = 2048
+    end
+
+    #-- Build using Visual C++
+    b.vm.provision "install chocolatey",
+        :type => :shell, :privileged => false, :keep_color => true,
+        :inline => install_chocolatey()
+    b.vm.provision "install packages",
+        :type => :shell, :privileged => false, :keep_color => true,
+        :inline => choco_install("python --version=3.7.6")
+    b.vm.provision "package",
+        :type => :shell, :privileged => false, :keep_color => true,
+        :inline => package_on_windows("windows10")
+  end
+
+end

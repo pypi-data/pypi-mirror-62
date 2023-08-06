@@ -1,0 +1,15 @@
+FROM debian:10-slim
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+	libgl1 fonts-quicksand \
+	&& rm -rf /var/lib/apt/lists/*
+
+# Replace 1000 with your user / group id
+RUN addgroup --gid 1000 developer && \
+	adduser  --uid 1000 --ingroup developer --disabled-password\
+	         developer </dev/null || true
+
+COPY dist/flyer-composer /opt/flyer-composer
+WORKDIR /home/developer
+USER developer
+CMD /opt/flyer-composer/flyer-composer

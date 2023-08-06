@@ -1,0 +1,21 @@
+# include requirements from project
+-r ../requirements.txt
+
+# these are the requirements for building the packages
+
+# for packages we use MuPDf, which is easier to handle then poppler
+PyMuPdf
+
+# for Linux PyQt5 gets installed by the package manager to fetch all
+# dependencies
+PyQt5 ; sys_platform == 'win32'
+
+# for building the MSI package
+WiX.Py ; sys_platform == 'win32'
+
+# Need to work around a bug in PyInstaller 3.6:
+#pyinstaller
+https://github.com/htgoebel/pyinstaller/archive/develop.tar.gz
+
+# to query package data
+pkginfo
