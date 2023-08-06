@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: all_algorithms
+Version: 1.0.0
+Summary: Use Alogrithms without reading them!!
+Home-page: https://github.com/sk1122/Python-Algorithms-Package
+Author: Satyam Kulkarni
+Author-email: punekar.satyam@gmail.com
+License: MIT
+Download-URL: https://github.com/sk1122/Python-Algorithms-Package/archive/V1.tar.gz
+Description: UNKNOWN
+Keywords: Algorithms,algorithms,algo,simple
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
