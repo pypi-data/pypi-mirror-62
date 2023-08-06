@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: rpa-getcmd
+Version: 1.0.1
+Summary: 取RPA传入的参数并解析，包括程序名和json参数
+Home-page: https://github.com/youqi6588/RPA
+Author: qi.you
+Author-email: youqi6588@126.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
