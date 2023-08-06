@@ -1,0 +1,10 @@
+try_nbdev/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+try_nbdev/_nbdev.py,sha256=zDkRXNZaUE7HqDipoEdwziXAvL1KX7bsbtCY79JjTUI,315
+try_nbdev/core.py,sha256=lKAH2XFyEvJlI-lo0tTA_S4K7G74TtmNZn8hgieBfTc,156
+try_nbdev/math_symbols.py,sha256=LUvMFmqriFyzzvx3aUBy6ZHHmWUP29mwLNRYc93WpQQ,109
+try_nbdev-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+try_nbdev-0.0.1.dist-info/METADATA,sha256=7DMBoibmA6BfH97YN2kdrO1crOJlUPdkPhnfUCjyfeg,1708
+try_nbdev-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+try_nbdev-0.0.1.dist-info/entry_points.txt,sha256=KgcC5rc2ZsXhEsqXRVCr5_6_heLTrm1P51lhgFSl0fE,51
+try_nbdev-0.0.1.dist-info/top_level.txt,sha256=RMzy6QmOt3vrKp93bTfVgVCor_Ucop4zhhKyGjihEVk,10
+try_nbdev-0.0.1.dist-info/RECORD,,
