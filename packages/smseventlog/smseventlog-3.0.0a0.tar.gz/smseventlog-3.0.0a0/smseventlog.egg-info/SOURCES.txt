@@ -1,0 +1,17 @@
+README.md
+setup.py
+smseventlog/__init__.py
+smseventlog/database.py
+smseventlog/eventlog.py
+smseventlog/factorycampaign.py
+smseventlog/folders.py
+smseventlog/functions.py
+smseventlog/userforms.py
+smseventlog.egg-info/PKG-INFO
+smseventlog.egg-info/SOURCES.txt
+smseventlog.egg-info/dependency_links.txt
+smseventlog.egg-info/requires.txt
+smseventlog.egg-info/top_level.txt
+smseventlog/data/config.yaml
+smseventlog/data/db_secret.txt
+smseventlog/data/images/SMS Icon.png
