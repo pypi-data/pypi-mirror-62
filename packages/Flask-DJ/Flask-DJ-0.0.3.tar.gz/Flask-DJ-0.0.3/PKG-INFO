@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Flask-DJ
+Version: 0.0.3
+Summary: Django (mvc) structure for your Flask project
+Home-page: https://github.com/AlexandrovRoman/Flask-DJ
+Author: Alexandrov Roman
+Author-email: AlexandrovRomanisi@ya.ru
+License: UNKNOWN
+Description: # Flask-DJ
+         Django structure for your flask project
+        
+Keywords: mvc django flask structure
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
