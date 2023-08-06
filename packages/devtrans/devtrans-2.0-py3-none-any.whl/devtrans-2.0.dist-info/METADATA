@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: devtrans
+Version: 2.0
+Summary: Convert among Devanagari transliteration schemes
+Home-page: https://gitlab.com/gaudha/devanagari-transliterators
+Author: Sanal Vikram
+Author-email: zombiechum@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Devanagari Transliterators
+
+Convert among common Devanagari transliteration schemes. The following codecs are currently integrated.
+
+| System     | Code   | Decoder  | Encoder  |
+|:-----------|:------:|:--------:|:--------:|
+| Devanagari | `dev`  | &#10003; | &#10003; |
+| IAST       | `iast` | &#10003; | &#10003; |
+| WX         | `wx`   | &#10003; | &#10003; |
+| SLP1       | `slp`  | &#10003; | &#10003; |
+| Velthuis   | `vel`  | &#10003; | &#10003; |
+| (La)TeX    | `tex`  | &#10007; | &#10003; |
+
+## Installation
+
+The best method to install is via `pip`.
+
+```sh
+pip3 install devtrans
+```
+
+Clone the [GitLab](https://gitlab.com/gaudha/devanagari-transliterators) repository to install from the source or to contribute.
+
+## Usage
+
+### As a script
+
+```sh
+transliterate -d dev -e iast -i input_file -o outputfile
+```
+The options
+- `-d` Decoder system code (defaults to`dev`)
+- `-e` Encoder system code (defaults to `iast`)
+- `-i` Input file (defaults to `STDIN`)
+- `-o` Output file (defaults to `STDOUT`)
+
+See help for more details
+```sh
+transliterate --help
+```
+
+### As a module
+
+Import the module.
+
+```python
+import devtrans
+```
+
+Call any codec function with appropriate input text
+```python
+target = devtrans.wx2iast('xevanAgarI')
+```
+
+Devanagari encoders can have an optional boolean argument. If `True`, which is default, the encoder transliterates digits to Devanagari digits. If `False`, it leaves digits as it is.
+```python
+target = devtrans.wx2dev('BagavaxgIwA 18.78', False)
+```
+
+## Disclaimer
+
+It has primarily been developed for personal use as a tea-time activity. Some of my colleagues and I are using it since 2015 for general texts from classical literature. I have been tweaking and making modifications whenever we found an issue.
+
+However, the transliterators are not tested exhaustively or thoroughly with various kinds of texts.
+
+## Contribute
+
+Find the repo on [GitLab](https://gitlab.com/gaudha/devanagari-transliterators). If found bugs, please fix and push them, raise an [issue](https://gitlab.com/gaudha/devanagari-transliterators/issues) or mail [me](mailto:zombiechum@gmail.com).
+
+

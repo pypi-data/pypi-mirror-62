@@ -1,0 +1,69 @@
+#!python
+
+import sys
+import argparse
+from devtrans import *
+
+transparser = argparse.ArgumentParser(
+    formatter_class=argparse.RawDescriptionHelpFormatter,
+    description='''Convert among common Devanagari transliteration schemes.
+Present implementation can convert among the following schemes.
+
+Decoders
+========
+dev : Devanagari Unicode
+wx  : WX-notation
+slp : Sanskrit Library Phonetic Basic (SLP1)
+vel : Velthuis notation
+iast: International Alphabet for Sanskrit Transliteration (IAST) diacritics
+
+Encoders
+========
+dev : Devanagari Unicode
+wx  : WX-notation
+slp : Sanskrit Library Phonetic Basic (SLP1)
+vel : Velthuis notation
+iast: International Alphabet for Sanskrit Transliteration (IAST) diacritics
+tex : Tex notation of IAST diacritics
+
+The program expects input data from STDIN if input file is not specified.
+If output file is not specified, data flows through STDOUT.''')
+
+transparser.add_argument(
+    '-d', default='dev',
+    choices=['dev', 'slp', 'wx', 'vel', 'iast'],
+    help='''specifies the decoder''')
+
+transparser.add_argument(
+    '-e', default='iast',
+    choices=['dev', 'slp', 'wx', 'vel', 'iast', 'tex'],
+    help='''specifies the encoder''')
+
+transparser.add_argument(
+    '-i', metavar='input_file',
+    help='''specifies the input file''')
+
+transparser.add_argument(
+    '-o', metavar='output_file',
+    help='''specifies the output file''')
+
+arguments = transparser.parse_args()
+
+try:
+    ifile = open(arguments.i)
+except TypeError:
+    ifile = sys.stdin
+except FileNotFoundError:
+    print('Specified input file not found. Please check its path.')
+    sys.exit(1)
+
+try:
+    ofile = open(arguments.o, 'w')
+except TypeError:
+    ofile = sys.stdout
+
+txt = ifile.read()
+
+txt = eval(arguments.d + '2' + arguments.e)(txt)
+
+ofile.write(txt)
