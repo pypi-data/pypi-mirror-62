@@ -1,0 +1,10 @@
+shylock/__init__.py,sha256=KAgLySR0nRiwkkDjVprjSp52ouvqE2Zdenj-2DMWg8Q,149
+shylock/exceptions.py,sha256=wf6FpK6n5Xctn6r67YU7gXptIh_i1wpCvbLUMj-3sqU,46
+shylock/manager.py,sha256=hS_L5ksqELcBJGtuSdImYYnikl79VOapFmTAgbCJQSk,2257
+shylock/backends/__init__.py,sha256=eCnqvtrBayQoDSIpmquycBr26dLqIoqVqQZmiPyhslI,278
+shylock/backends/motorasyncio.py,sha256=hrMSVYJ_Q_NZlCSVCKarV10De9R9TqUtMxZdfiFiJrU,5016
+shylock-1.0.0.dist-info/LICENSE,sha256=r_rxQvxfzcdvKLH5mhceYQwNBxP0bnZio1LEjNil9yM,1532
+shylock-1.0.0.dist-info/METADATA,sha256=-gMPb11zlFxnD5XNV6T7TbPNon3nOPAcDjlrN1guyz8,4429
+shylock-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+shylock-1.0.0.dist-info/top_level.txt,sha256=ETnZMKE0xcy0qeZW2uVkKXI-pxjcXcYB--kbV101YTs,8
+shylock-1.0.0.dist-info/RECORD,,
