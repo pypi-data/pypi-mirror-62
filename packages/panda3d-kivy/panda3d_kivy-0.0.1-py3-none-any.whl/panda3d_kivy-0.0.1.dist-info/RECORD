@@ -1,0 +1,9 @@
+panda3d_kivy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panda3d_kivy/app.py,sha256=D759OZ1hTiPjK5Ou5LZcQOKCd7oBaMyBqGlOxMzU7Tc,781
+panda3d_kivy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panda3d_kivy/core/window.py,sha256=UbnOzx96a5cLweqHGH2EPeRZx4A9Pffraz0TegRXycE,11059
+panda3d_kivy-0.0.1.dist-info/LICENSE,sha256=psk2s1686wntpCTlSjIgOXk8US3ZqnXVnS4Wm2JKSS8,1071
+panda3d_kivy-0.0.1.dist-info/METADATA,sha256=_fQ4tQuHFyuA116y-NiLoMCAPim0xtmaJi3hfoTexPg,730
+panda3d_kivy-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+panda3d_kivy-0.0.1.dist-info/top_level.txt,sha256=01JWqtBWVxV_WFx36VI9Nf2yzilgTXCmW3X7JwbIP2o,13
+panda3d_kivy-0.0.1.dist-info/RECORD,,
