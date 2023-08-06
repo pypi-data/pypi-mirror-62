@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: flashgeotext
+Version: 0.2.0
+Summary: Extract and count countries and cities (+their synonyms) from text
+Home-page: https://github.com/iwpnd/flashgeotext
+Author: Benjamin Ramser
+Author-email: ahoi@iwpnd.pw
