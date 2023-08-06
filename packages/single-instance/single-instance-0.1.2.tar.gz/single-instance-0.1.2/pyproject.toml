@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "single-instance"
+version = "0.1.2"
+description = ""
+authors = ["fx_kirin <fx.kirin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+kanilog = "^0.3.2"
+logzero = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
