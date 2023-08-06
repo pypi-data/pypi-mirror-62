@@ -1,0 +1,10 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_vidify.py,sha256=cEnb_zOUUHdKOulS0CHz7d2jnFpRqs6M_T1fKhy4sp0,2334
+vidify/__init__.py,sha256=h1GtS4xU0DmCHyRbxcdQOXvU5p4ewqhT141kjMsqUYs,51
+vidify/vidify.py,sha256=49KziNRY780iEq7GtWsmNsg3bQTP_yhnd2aeWN6M7BU,2072
+markdown_vidify-0.1.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+markdown_vidify-0.1.0.dist-info/METADATA,sha256=TDpCxMSqTdVPSA78_6vhZhdwJ2HqU1p0KG_G3NmVKO0,3183
+markdown_vidify-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+markdown_vidify-0.1.0.dist-info/entry_points.txt,sha256=PqD9QQ6rDWPO2RIPn5bU0S_TKn44qhrKNuSH4GVKedk,55
+markdown_vidify-0.1.0.dist-info/top_level.txt,sha256=RuF7u7E1D2zhO_NMd2uA9NVlupqJQ0QSno2b8hLhowQ,12
+markdown_vidify-0.1.0.dist-info/RECORD,,
