@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: guidos_time_machine
+Version: 0.0
+Summary: Guido's time machine
+Home-page: UNKNOWN
+Author: Guido van Rossum
+Author-email: guido@python.org
+License: PSF
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development

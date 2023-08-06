@@ -1,0 +1,7 @@
+setup.py
+guidos_time_machine/__init__.py
+guidos_time_machine/__main__.py
+guidos_time_machine.egg-info/PKG-INFO
+guidos_time_machine.egg-info/SOURCES.txt
+guidos_time_machine.egg-info/dependency_links.txt
+guidos_time_machine.egg-info/top_level.txt
