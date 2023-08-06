@@ -1,0 +1,2 @@
+django_dynamic_path
+dummy_project
