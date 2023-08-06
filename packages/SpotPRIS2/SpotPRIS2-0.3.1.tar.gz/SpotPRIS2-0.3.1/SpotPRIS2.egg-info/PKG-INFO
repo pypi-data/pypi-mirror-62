@@ -1,0 +1,48 @@
+Metadata-Version: 1.2
+Name: SpotPRIS2
+Version: 0.3.1
+Summary: MPRIS2 interface for Spotify Connect
+Home-page: https://github.com/freundTech/SpotPRIS2
+Author: Adrian Freund
+Author-email: adrian@freund.io
+License: UNKNOWN
+Description: SpotPRIS2
+        =========
+        
+        Control Spotify Connect devices using MPRIS2
+        
+        ****
+        
+        This software provides an MPRIS2 interface for Spotify Connect. It is more complete than the MPRIS2 interface built into the Spotify Linux client.  
+        In addition it can be used to control remote Spotify Connect devices (Like spotifyd running on a Raspberry Pi) from your PC.
+        
+        This software is still in development. Some things might not work as expected.
+        
+        Installation
+        ------------
+        * Arch Linux: Install from AUR  
+            ```yay -S python-spotpris2```
+        * Other distibutions: Install using pip  
+            ```pip install spotPRIS2```
+        
+        Then just run ```spotpris2```.
+        
+        Known problems
+        --------------
+        1. **Podcasts, Radios, etc. aren't supported.**  
+            This is a limitation of the Spotify Web API. There's currently nothing I can do about it.
+        
+        ****
+        
+        This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Spotify AB, or any of its subsidiaries or its affiliates.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Python: >=3.6
