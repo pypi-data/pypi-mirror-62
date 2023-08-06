@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: uspec
+Version: 1.0.22
+Summary: RSpec like behavior driven development (BDD) tool based on unittest
+Home-page: https://github.com/MountainField/uspec
+Author: Takahide Nogayama
+Author-email: NOGAYAMA@gmail.com
+License: MIT
+Download-URL: https://github.com/MountainField/uspec/releases
+Description: # USpec
+        
+        [USpec](https://github.com/MountainField/uspec) is a *Behaviour-Driven Development* tool for Python developers.
+        
+        USpec provides a Rspec like specification format, and generates tests executable by [unittest](https://docs.python.org/3/library/unittest.html) .
+        
+        
+        
+        Installing
+        ----------
+        
+        - via pip
+        
+        	```bash
+            $ pip install uspec
+            ```
+        
+        
+        
+        Usage
+        -----
+        
+        
+        
+        Test
+        ----
+        
+        ```bash
+        $ python -m unittest discover -s tests -p "*.py" -v
+        ```
+        
+        
+        
+        Author
+        ------
+        
+        - **Takahide Nogayama** - [Nogayama](https://github.com/nogayama)
+        
+        
+        
+        License
+        -------
+        
+        This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
+        
+        
+        
+        Contributing
+        ------------
+        
+        Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
