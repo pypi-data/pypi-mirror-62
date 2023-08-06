@@ -1,0 +1,15 @@
+ipydagred3/__init__.py,sha256=Fg43nwXN_c25wspVaDhioEdjQIVn7iLNXBv4P7t-hfQ,292
+ipydagred3/_version.py,sha256=E_ZC-2SSK2JqtJVf_KNflda0AhIuQagHfC-xkPzPtBA,677
+ipydagred3/edge.py,sha256=wJCPrf4COQrfCFdhonKd06uU4KoKo2ZBC9EdZgJywYY,2289
+ipydagred3/graph.py,sha256=kF1aXASgt4Vb4XwAqSrQWGWCc9mQwNGdmxB7ZJdKgzc,6636
+ipydagred3/node.py,sha256=mjUASJ-iwXaxun4YwK0uK_hk43ioCLnseP4nNBBLDuY,1840
+ipydagred3/widget.py,sha256=nVFaDa5ndNi9znGy3kPImgWAIdDut56dthDx4TgcrU8,1937
+ipydagred3/nbextension/__init__.py,sha256=BXZXZRbTY2dDMXxSqQoezYjEoGX1CPdVExcf9d1yYEE,213
+ipydagred3/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipydagred3/tests/conftest.py,sha256=f8DuFfpoQhw6TOWoOAF6yVtoLjqlvOKf1UZJWhOSMlY,1297
+ipydagred3/tests/test_nbextension_path.py,sha256=39NFYIDPqPeKfOrpwBQyjlyKMtaCDEoPj_Pe8xTS3I8,350
+ipydagred3-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ipydagred3-0.1.4.dist-info/METADATA,sha256=LLse2ziV47r4ok5HfNKTiFK2dRb56nRMUxWb8Aj8hRU,2637
+ipydagred3-0.1.4.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+ipydagred3-0.1.4.dist-info/top_level.txt,sha256=05qDTvDSkFjMSJuND4sTkorpMeD5DswPlz2y_IJzVh0,11
+ipydagred3-0.1.4.dist-info/RECORD,,
