@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kanimus-py-dev
+Version: 0.0.1
+Summary: Python common library
+Home-page: https://gitlab.com/spacecloud.kanimus/backend/kanimus-py
+Author: Bob Gold
+Author-email: kanimus.developers@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# kanimus-py
+
+The library for commonly used cases.
+
