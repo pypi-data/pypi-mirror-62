@@ -1,0 +1,17 @@
+README.md
+setup.py
+FHIR_Parser.egg-info/PKG-INFO
+FHIR_Parser.egg-info/SOURCES.txt
+FHIR_Parser.egg-info/dependency_links.txt
+FHIR_Parser.egg-info/requires.txt
+FHIR_Parser.egg-info/top_level.txt
+FHIR_parser.egg-info/PKG-INFO
+FHIR_parser.egg-info/SOURCES.txt
+FHIR_parser.egg-info/dependency_links.txt
+FHIR_parser.egg-info/requires.txt
+FHIR_parser.egg-info/top_level.txt
+fhir_parser/__init__.py
+fhir_parser/fhir.py
+fhir_parser/observation.py
+fhir_parser/parser.py
+fhir_parser/patient.py
