@@ -1,0 +1,11 @@
+README.md
+setup.py
+halo_splunk/__init__.py
+halo_splunk/hspi.py
+halo_splunk_d.egg-info/PKG-INFO
+halo_splunk_d.egg-info/SOURCES.txt
+halo_splunk_d.egg-info/dependency_links.txt
+halo_splunk_d.egg-info/entry_points.txt
+halo_splunk_d.egg-info/not-zip-safe
+halo_splunk_d.egg-info/requires.txt
+halo_splunk_d.egg-info/top_level.txt
