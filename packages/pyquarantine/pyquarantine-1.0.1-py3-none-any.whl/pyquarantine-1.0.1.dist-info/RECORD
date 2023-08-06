@@ -1,0 +1,14 @@
+pyquarantine/__init__.py,sha256=wtED4NwFadmv6R0Cfqux5XN_ZX2Jegj33Q93ZHaizZk,25637
+pyquarantine/cli.py,sha256=qokenIc3VMbuAYa3sITI5gqrm6hpSNOwSMScHWXn1MU,20251
+pyquarantine/mailer.py,sha256=YY3CzKWOoI1X0He3NP6LWA9cQj2kPq5tegJEYPdaS74,2581
+pyquarantine/notifications.py,sha256=kV082mTBpo8lDtKhi9wnVLPPca1GbZjgMZONABilamM,14638
+pyquarantine/run.py,sha256=ASij68aafi4pbjpTEcLtssLCOhRgPF-WzVWMVZE6wnc,4103
+pyquarantine/storages.py,sha256=-SxFAaKykxg4mWBeWE3eXs9mXNFnrLhBEyGDIb0DK60,8456
+pyquarantine/version.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+pyquarantine/whitelists.py,sha256=CQkmxNO_pw-f-naiDeZVTC1-6cj5oieHo5hkBg63USg,10097
+pyquarantine-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyquarantine-1.0.1.dist-info/METADATA,sha256=Uoh_qg1IaU7K0xd3VnWJKOiLkZGEEhxgTCSN5hEw4P4,8751
+pyquarantine-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyquarantine-1.0.1.dist-info/entry_points.txt,sha256=USTyisq0A7qvk-0KwvqdF--L2PQw4ZWkN4yz5NiPipU,100
+pyquarantine-1.0.1.dist-info/top_level.txt,sha256=hJXGD58hr-7oePu5OOBZBdGZsoIqQnQ6jefDo921VnQ,13
+pyquarantine-1.0.1.dist-info/RECORD,,
