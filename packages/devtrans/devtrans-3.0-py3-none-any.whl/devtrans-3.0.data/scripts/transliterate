@@ -1,0 +1,76 @@
+#!python
+
+import sys
+import argparse
+from devtrans import *
+
+transparser = argparse.ArgumentParser(
+    formatter_class=argparse.RawDescriptionHelpFormatter,
+    description='''Convert among common Devanagari transliteration systems.
+The following codecs are currently implemented.
+
+|---------------------------------------------|
+| System         | Code   | Decoder | Encoder |
+|----------------|--------|---------|---------|
+| Devanagari     | dev    |    Y    |    Y    |
+| Hardvard Kyoto | hk     |    Y    |    Y    |
+| IAST           | iast   |    Y    |    Y    |
+| ITRANS         | itrans |    Y    |    Y    |
+| SLP1           | slp    |    Y    |    Y    |
+| (La)TeX        | tex    |    -    |    Y    |
+| Velthuis       | vel    |    Y    |    Y    |
+| WX             | wx     |    Y    |    Y    |
+|---------------------------------------------|
+
+The program expects input data from STDIN if input file is not specified.
+If output file is not specified, data flows through STDOUT.''')
+
+transparser.add_argument(
+    '-d', default='dev',
+    choices=['dev', 'hk', 'iast', 'itrans', 'slp', 'vel', 'wx'],
+    help='''specifies the decoder''')
+
+transparser.add_argument(
+    '-e', default='iast',
+    choices=['dev', 'hk', 'iast', 'itrans', 'slp', 'vel', 'tex', 'wx'],
+    help='''specifies the encoder''')
+
+transparser.add_argument(
+    '-i', metavar='input_file',
+    help='''specifies the input file''')
+
+transparser.add_argument(
+    '-o', metavar='output_file',
+    help='''specifies the output file''')
+
+arguments = transparser.parse_args()
+
+if arguments.d == arguments.e:
+    print('Requested decoding and encoding scheme are the same.')
+    print('No transliteration required.')
+    sys.exit()
+
+try:
+    ifile = open(arguments.i)
+except TypeError:
+    ifile = sys.stdin
+except FileNotFoundError:
+    print('Specified input file not found. Please check the path.')
+    sys.exit(1)
+
+try:
+    ofile = open(arguments.o, 'w')
+except TypeError:
+    ofile = sys.stdout
+
+txt = ifile.read()
+
+txt = eval(arguments.d + '2' + arguments.e)(txt)
+
+ofile.write(txt)
+
+if ofile.name != '<stdout>':
+    print('Output written to', ofile.name)
+
+ifile.close()
+ofile.close()
