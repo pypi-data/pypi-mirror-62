@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dle
+Version: 0.1.1
+Summary: Download and Extract
+Home-page: https://github.com/jnalley/dle
+Author: Jon Nalley
+Author-email: code@bluebot.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: patool (~=1.12)
+Requires-Dist: pyunpack (~=0.1)
+Requires-Dist: requests (~=2.23)
+Requires-Dist: tqdm (~=4.43)
+
+# DLE
+Download and Extract
+
+`dle` is used to download and extract archives (e.g. tar.gz, .zip, .etc) and
+extract them to a specified path.
+
+## Installation
+```
+python3 -m pip install --upgrade dle
+```
+
+## Usage
+```
+dle --dest=/tmp/downloads https://example.com/archive/to/download/filename.zip
+```
+
+
