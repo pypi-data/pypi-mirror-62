@@ -1,0 +1,5 @@
+python-monerorpc>=0.5.10
+
+[test]
+mock
+pytest
