@@ -1,0 +1,12 @@
+README.md
+setup.py
+python_string_utils.egg-info/PKG-INFO
+python_string_utils.egg-info/SOURCES.txt
+python_string_utils.egg-info/dependency_links.txt
+python_string_utils.egg-info/top_level.txt
+string_utils/__init__.py
+string_utils/_regex.py
+string_utils/errors.py
+string_utils/generation.py
+string_utils/manipulation.py
+string_utils/validation.py
