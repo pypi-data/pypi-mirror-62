@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simonski-pycommon
+Version: 0.0.5
+Summary: holds my commonly used classes and functions.
+Home-page: https://github.com/simonski/pycommon
+Author: Simon Gauld
+Author-email: simon.gauld@gmail.com
+License: Apache 2.0
+Keywords: common development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+
+Common classes and functions I use.
+
+
