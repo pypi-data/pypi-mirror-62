@@ -1,0 +1,11 @@
+examples/NFAfromCustomRule.py,sha256=y32KkxR1ex55JNsfd7I08c5odyBLUY4Mjp9pfHPoHik,7239
+examples/NFAfromRegex.py,sha256=9z5RBZqox4QAP5NhaCSK5Td03SfFT8tmJtDKTgygQ6w,4570
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/cli.py,sha256=1g8KM8-hYZI8fTsnvP2isKESUtnLy7QBAkoeu-RWo-c,1441
+scripts/gui.py,sha256=CkUHvRAZxDRH9mKH1pJNi3WIXZkv9rNwYBJtADckd3E,11090
+automata_tools-1.0.6.dist-info/LICENSE,sha256=qV3_ZfTTnkHgQtk2yctIjpPV4KLL4M7XWku76kghED8,1067
+automata_tools-1.0.6.dist-info/METADATA,sha256=nEomXqFj7Ntpp70KN3HG_LupyvlsvF7GLMKAI6qGuVc,5016
+automata_tools-1.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+automata_tools-1.0.6.dist-info/top_level.txt,sha256=rhVQep3-mE8fJHuPKaUqsWku3U6n-Wa87L-qPjaF_7I,17
+automata_tools-1.0.6.dist-info/RECORD,,
