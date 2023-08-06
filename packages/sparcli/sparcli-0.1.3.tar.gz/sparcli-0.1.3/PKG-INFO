@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: sparcli
+Version: 0.1.3
+Summary: Visualize metrics as text in real-time (sparklines)
+Home-page: https://github.com/z0u/sparcli
+License: MIT
+Keywords: console,sparkline,data,visualization
+Author: Alex Fraser
+Author-email: alex.d.fraser@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Project-URL: Repository, https://github.com/z0u/sparcli
+Description-Content-Type: text/markdown
+
+# Sparcli
+
+Sparcli is a library for visualising metrics on the command line.
+
+Use this library to see the shape of data during execution of data pipelines, simulators and other long-running programs. Each metric is displayed as a sparkline that updates as the data changes. Sparcli is thread-safe and non-blocking.
+
+![Build](https://github.com/z0u/sparcli/workflows/Build/badge.svg)
+![Publish](https://github.com/z0u/sparcli/workflows/Publish/badge.svg)
+![Canary build](https://github.com/z0u/sparcli/workflows/Canary%20build/badge.svg)
+
+
+## Usage
+
+Sparcli is [available on pypi](https://pypi.org/project/sparcli/):
+
+```sh
+pip install sparcli
+```
+
+You can wrap an iterable that produces scalars:
+
+```python
+import sparcli, time
+
+for y in sparcli.gen(ys, name="y"):
+    do_something(y)
+```
+
+You can produce metrics using a context manager:
+
+```python
+with sparcli.ctx() as ctx:
+    for a, b in do_something_else():
+        ctx.record(a=a, b=b)
+```
+
+You can also manage the context manually. Just don't forget to close it:
+
+```python
+class MyMetricsPlugin:
+    def start(self):
+        self.ctx = sparcli.context()
+
+    def callback(self, metrics: Dict[str, Real]):
+        self.ctx.record(**metrics)
+
+    def stop(self):
+        self.ctx.close()
+
+some_library.register_plugin(MyPlugin())
+```
+
+
+## Development
+
+```sh
+pip install --user py-make poetry
+poetry install
+pymake all
+```
+
+```sh
+poetry run python demo.py
+```
+
