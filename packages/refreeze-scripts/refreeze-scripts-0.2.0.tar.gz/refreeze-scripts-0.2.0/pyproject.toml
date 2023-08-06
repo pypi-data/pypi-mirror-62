@@ -1,0 +1,38 @@
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+line_length = 88
+
+[tool.poetry]
+name = "refreeze-scripts"
+version = "0.2.0"
+description = "Rewrite EXE files in Scripts directory on Windows"
+authors = ["Fixpoint, Inc. <developer@fixpoint.co.jp>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/fixpoint/refreeze-scripts"
+repository = "https://github.com/fixpoint/refreeze-scripts"
+keywords = ["Windows", "pip", "setuptools"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+]
+
+[tool.poetry.scripts]
+"refreeze-scripts" = "refreeze_scripts.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+setuptools = "^45.2.0"
+typing-extensions = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+isort = "^4.3.21"
+mypy = "^0.761"
+black = "^19.10b0"
+autoflake = "^1.3.1"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
