@@ -1,0 +1,9 @@
+README.md
+setup.py
+py_variety/__init__.py
+py_variety/formal_fields.py
+py_variety.egg-info/PKG-INFO
+py_variety.egg-info/SOURCES.txt
+py_variety.egg-info/dependency_links.txt
+py_variety.egg-info/requires.txt
+py_variety.egg-info/top_level.txt
