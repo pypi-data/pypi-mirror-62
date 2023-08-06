@@ -1,0 +1,15 @@
+art
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels>=0.11.0
+pyflux
+tscv
+art
+fbprophet
+tensorflow>=2.0.0
+dnntime
+ipdb
