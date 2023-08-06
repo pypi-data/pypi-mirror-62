@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lrbd
+Version: 0.4
+Summary: Low-rank plus block diagonal matrix.
+Home-page: http://github.com/enzobusseti/lrbd/
+Author: Enzo Busseti
+Author-email: enzo.busseti@gmail.com
+License: Apache
+Platform: UNKNOWN
+Requires-Dist: scipy
+Requires-Dist: numpy
+
+UNKNOWN
+
+
