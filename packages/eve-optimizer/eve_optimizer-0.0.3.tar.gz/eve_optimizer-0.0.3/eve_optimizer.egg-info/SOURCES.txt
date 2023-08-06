@@ -1,0 +1,12 @@
+README.md
+setup.py
+eve/__init__.py
+eve/eve.py
+eve/lookahead.py
+eve/optimizers.py
+eve/radam.py
+eve/ralamb.py
+eve_optimizer.egg-info/PKG-INFO
+eve_optimizer.egg-info/SOURCES.txt
+eve_optimizer.egg-info/dependency_links.txt
+eve_optimizer.egg-info/top_level.txt
