@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: surfcut
+Version: 0.0.3rc0
+Summary: Cutting confocal stacks at various depths relative to surface signal 
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # surfcut
+        Python port of surfcut
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
