@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mx_utils
+Version: 0.0.1
+Summary: Utility scripts for softare development in data science.
+Home-page: https://github.com/hallmx/mx_utils
+Author: Mathew Hall
+Author-email: mathew.hall100@gmail.com
+License: Apache Software License 2.0
+Description: # MX_UTILS
+        > Utility scripts for software development in data science.
+        
+        
+        Contents:
+        
+        00. Core 
+        01. Common scripts
+        02. Library handling
+        03. Memory management
+        04. Device
+        05. Logging, exception handling and warnings
+        06. Visualizations
+        07. Image handling
+        08. Data downloading and preprocessing
+        
+        ## Install
+        
+        `pip install mx_utils`
+        
+        ## Documentation
+        
+        See [documentation](https://hallmx.github.io/mx_utils//) for script code and descriptions.
+        
+        
+        
+Keywords: data science software utilities nbdev python Colaboratory
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
