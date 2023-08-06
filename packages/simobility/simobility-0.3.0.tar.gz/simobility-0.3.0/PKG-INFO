@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: simobility
+Version: 0.3.0
+Summary: Lightweight mobility simulation for quick algorithm prototyping
+Home-page: https://github.com/sash-ko/simobility
+Author: Oleksandr Lysenko
+Author-email: sashkolysenko@gmail.com
+License: MIT
+Download-URL: https://github.com/sash-ko/simobility/archive/v0.3.0.tar.gz
+Description: # simobility
+        
+        **simobility** is a light-weight mobility simulation framework. Best for quick prototyping
+        
+        **simobility** is a human-friendly Python framework that helps scientists and engineers to prototype and compare fleet optimization algorithms (autonomous and human-driven vehicles). It provides a set of building blocks that can be used to design different simulation scenarious, run simulations and calculate metrics. It is easy to plug in custom demand models, customer behavior models, fleet types, spatio-temporal models (for example, use [OSRM](http://project-osrm.org/) for routing vehicles and machine learning models trained on historical data to predict [ETA](https://en.wikipedia.org/wiki/Estimated_time_of_arrival)).
+        
+        ### Motivation
+        
+        Create an environment for experiments with machine learning algorithms for decision-making problems in mobility services and compare them to classical solutions.
+        
+        <img src="./examples/moving_vehicles.gif" width="35%" align="right">
+        
+        Some examples:
+        * [Deep Reinforcement Learning with Applications in Transportation](https://outreach.didichuxing.com/tutorial/AAAI2019/)
+        
+        * [T. Oda and C. Joe-Wong, "Movi: A model-free approach to dynamic fleet management". 2018](https://arxiv.org/pdf/1804.04758.pdf)
+        
+        * [A. Alabbasi, A. Ghosh, and V. Aggarwal, "DeepPool: Distributed model-free algorithm for ride-sharing using deep reinforcement learning", IEEETrans. Intelligent Transportation Systems (to appear). 2019](https://arxiv.org/pdf/1903.03882)
+        
+        * [C Wang,Y Hou, M Barth, "Data-Driven Multi-step Demand Prediction for Ride-hailing Services Using Convolutional Neural Network". 2019](https://arxiv.org/pdf/1911.03441.pdf)
+        
+        * [J. Ke, F. Xiao, H. Yang, and J. Ye. Optimizing online matching for ride-sourcing services with multi-agent deep reinforcement learning. 2019](https://arxiv.org/abs/1902.06228)
+        
+        ### Installation
+        
+        `pip install simobility`
+        
+        ### Contributions and thanks
+        
+        Thanks to all who contributed to the concept/code:
+        
+        * [Steffen Häußler](https://www.linkedin.com/in/steffenhaeussler/)
+        * [Stephen Privitera](https://www.linkedin.com/in/stephen-privitera/)
+        * [Sultan Imanhodjaev](https://www.linkedin.com/in/imanhodjaev/)
+        * [Yábir Benchakhtir](https://www.linkedin.com/in/yabirgb/)
+        
+        ### Simulation example
+        
+        [Simple simulation example](./examples/simple_simulation.py)
+        
+        [Log example](./examples/simulation_output_example.csv)
+        
+        
+        ### Metrics example
+        
+        ```json
+        {
+            "avg_paid_utilization": 63.98,
+            "avg_utilization": 96.87,
+            "avg_waiting_time": 292.92,
+            "created": 3998,
+            "dropoffs": 589,
+            "empty_distance": 640.37,
+            "empty_distance_pcnt": 33.67,
+            "fleet_paid_utilization": 63.98,
+            "fleet_utilization": 96.87,
+            "num_vehicles": 50,
+            "pickup_rate": 15.48,
+            "pickups": 619,
+            "total_distance": 1902.04,
+        }
+        ```
+        
+        ### Simulation logs
+        
+        Read logs with pandas
+        
+        ```python
+        import pandas as pd
+        
+        data = pd.read_csv(
+            "simulation_output.csv",
+            sep=";",
+            converters={"details": lambda v: eval(v)},
+        )
+        
+        details = data.details.apply(pd.Series)
+        ```
+        
+        ### Run OSRM
+        
+        ```bash
+        wget http://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf
+        docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-extract -p /opt/car.lua /data/new-york-latest.osm.pbf
+        docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-partition /data/new-york-latest.osrm
+        docker run -t -v "${PWD}:/data" osrm/osrm-backend osrm-customize /data/new-york-latest.osrm
+        docker run -d -t -i -p 5010:5000 -v "${PWD}:/data" osrm/osrm-backend osrm-routed --algorithm mld /data/new-york-latest.osrm
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Provides-Extra: dev
