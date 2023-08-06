@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: treefit
+Version: 1.0.0
+Summary: The first software for quantitative trajectory inference
+Home-page: https://hayamizu-lab.github.io/treefit-python/
+Author: Momoko Hayamizu
+Author-email: hayamizu@ism.ac.jp
+License: LGPLv3+
+Project-URL: Documentation, https://hayamizu-lab.github.io/treefit-python/
+Project-URL: Source, https://github.com/hayamizu-lab/treefit-python/
+Project-URL: Tracker, https://github.com/hayamizu-lab/treefit-python/issues/
+Description: # Treefit for Python - The first software for quantitative trajectory inference
+        
+        This is an implementation of
+        [**Treefit**](https://hayamizu-lab.github.io/treefit/) in Python.
+        
+        **Treefit** is a novel data analysis toolkit that helps you perform
+        two types of analysis: 1) checking the goodness-of-fit of tree models
+        to your single-cell gene expression data; and 2) deciding which tree
+        best fits your data.
+        
+        ## Install
+        
+        ```bash
+        pip install treefit
+        ```
+        
+        ## Usage
+        
+        The main functions are `treefit.treefit()` and `treefit.plot()`:
+        
+        ```python
+        fit = treefit.treefit(YOUR_SINGLE_CELL_GENE_EXPRESSION_DATA)
+        treefit.plot(fit)
+        ```
+        
+        See https://hayamizu-lab.github.io/treefit-python/ for details.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3
+Description-Content-Type: text/markdown

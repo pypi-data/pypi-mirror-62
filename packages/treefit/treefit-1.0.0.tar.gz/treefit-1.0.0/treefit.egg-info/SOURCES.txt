@@ -1,0 +1,16 @@
+GPL-3
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+setup.cfg
+setup.py
+test/test_fit.py
+treefit/__init__.py
+treefit/data.py
+treefit/fit.py
+treefit.egg-info/PKG-INFO
+treefit.egg-info/SOURCES.txt
+treefit.egg-info/dependency_links.txt
+treefit.egg-info/requires.txt
+treefit.egg-info/top_level.txt
