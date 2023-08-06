@@ -1,0 +1,10 @@
+picdetect/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+picdetect/config.py,sha256=5bHxj-iQqvgfrMdYhxe2e3J_DQgCFA5G8O8UuYcAEQI,9147
+picdetect/detect.py,sha256=C7M0ImsPRqDJiXc4YLUf8ZH74xK_xZu6cYiPhHwcbnY,4925
+picdetect/model.py,sha256=-ZX1tePWvb0WYvzqBpqQUfE-5pmTTyUoqVIbYyAyECk,126705
+picdetect/utils.py,sha256=aH2OM55cTTKRqYyCmkVc51QjRHWQ6rXmtJEg1DcyUVA,35679
+picdetect/visualize1.py,sha256=Csp0xKtZqskoHqkON29GCLpLoQPl0z1SYFOkveh4Q08,4786
+picdetect-0.1.dist-info/METADATA,sha256=IqFckDghvjM85-lTa8Odjlr12xRsKM0i-njV-_SjNCM,487
+picdetect-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+picdetect-0.1.dist-info/top_level.txt,sha256=Bk8KI5HGAUTPXkA77AyR-5r6scrIn4wY62t6YQlYS5Q,10
+picdetect-0.1.dist-info/RECORD,,
