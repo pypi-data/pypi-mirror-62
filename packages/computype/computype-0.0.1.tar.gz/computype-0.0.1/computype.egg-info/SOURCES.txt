@@ -1,0 +1,8 @@
+setup.py
+computype/__init__.py
+computype/computype.py
+computype.egg-info/PKG-INFO
+computype.egg-info/SOURCES.txt
+computype.egg-info/dependency_links.txt
+computype.egg-info/requires.txt
+computype.egg-info/top_level.txt

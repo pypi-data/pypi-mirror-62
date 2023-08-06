@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: computype
+Version: 0.0.1
+Summary: A library that looks like the computer is typing and stuff, see https://codeberg.org/RevelCorp/Computype
+Home-page: https://codeberg.org/RevelCorp/Computype
+Author: Revel Corp (Jason Wang specifically)
+Author-email: revel.corporation@mailfence.com
+License: MIT
+Description: A library that looks like the computer is typing and stuff, see https://codeberg.org/RevelCorp/Computype
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
