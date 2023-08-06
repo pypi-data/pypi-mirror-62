@@ -1,0 +1,8 @@
+README.md
+setup.py
+margparse/__init__.py
+margparse/_common.py
+more_argparse.egg-info/PKG-INFO
+more_argparse.egg-info/SOURCES.txt
+more_argparse.egg-info/dependency_links.txt
+more_argparse.egg-info/top_level.txt
