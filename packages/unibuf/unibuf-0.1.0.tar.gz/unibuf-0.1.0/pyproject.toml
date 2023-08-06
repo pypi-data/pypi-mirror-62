@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "unibuf"
+version = "0.1.0"
+description = "An implementation of the buffer protocol for unicode strings."
+authors = [
+    "Maximilian Köhl <mkoehl@cs.uni-saarland.de>"
+]
+license = "MIT"
+readme = "README.rst"
+repository = "https://dgit.cs.uni-saarland.de/koehlma/python-unicode-buffer"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent"
+]
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hypothesis = "^5.5.4"
+pytest = "^5.3.5"
+
+[tool.poetry.dev-dependencies]
+black = { version = "^19.10b0", allow-prereleases = true }
+flake8 = "^3.7.9"
+flake8-bugbear = "^20.1.2"
+pep8-naming = "^0.9.1"
+mypy = "^0.761"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
