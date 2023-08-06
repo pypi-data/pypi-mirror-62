@@ -1,0 +1,19 @@
+# Intellij
+**/.idea/
+*.iml
+*.iws
+
+#VSCode
+.settings
+.vscode
+
+# Mac
+*.DS_Store
+
+# PyTest
+**/.pytest_cache/*
+**/__pycache__/*
+
+# VirtualEnv
+venv/
+.eggs
