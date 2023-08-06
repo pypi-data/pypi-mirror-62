@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+version.yml
+tabletop/__init__.py
+tabletop.egg-info/PKG-INFO
+tabletop.egg-info/SOURCES.txt
+tabletop.egg-info/dependency_links.txt
+tabletop.egg-info/top_level.txt
+tabletop.egg-info/zip-safe
