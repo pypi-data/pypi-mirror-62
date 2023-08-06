@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-icybackup-jl
+Version: 0.1.10
+Summary: A Django database/media backup tool with Amazon Glacier and local folder support
+Home-page: https://github.com/jlachowski/django-icybackup
+Author: Jaroslaw Lachowski
+Author-email: jalachowski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto
+Requires-Dist: python-dateutil
+Requires-Dist: future
+
+A Django database/media backup tool with Amazon Glacier and local folder support
+
+
