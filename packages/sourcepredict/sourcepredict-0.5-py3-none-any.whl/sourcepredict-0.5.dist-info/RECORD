@@ -1,0 +1,12 @@
+sourcepredict/__init__.py,sha256=VvhzqQKdbCVEMy3MuUiFfMoPDqptPU4-x39PiyQ8yrg,19
+sourcepredict/__main__.py,sha256=FI8jAZdZ75OKO22wnOBnnYd8rfOBK7es0wZZvOOUDks,6910
+sourcepredict/sourcepredictlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sourcepredict/sourcepredictlib/ml.py,sha256=uU8QqhHf_oy69y6vqVfZ_7uX9FbXRXU2vrkFXIExj14,15750
+sourcepredict/sourcepredictlib/normalize.py,sha256=T2eEIbLqRad3XCQnx3qphIS6g8BBGyJrU5bEm4AvXUU,3630
+sourcepredict/sourcepredictlib/utils.py,sha256=kKNDw3VTPh4Se-bieX5yhqlHL7uDwZrwp5AXyV2j298,6712
+sourcepredict-0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sourcepredict-0.5.dist-info/METADATA,sha256=NguN6zg9ttThcvdpwQGWBQVVE-lNoMSnfBvsl1MmrdE,6900
+sourcepredict-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sourcepredict-0.5.dist-info/entry_points.txt,sha256=DvMEGJ9yPrRpqNwTgslIYocEApoWHJ0zIHfGlOXRi6o,63
+sourcepredict-0.5.dist-info/top_level.txt,sha256=FsFKra_8i6OntmRsCi2aGI45FuCRKbUOsyXNkPmerrU,14
+sourcepredict-0.5.dist-info/RECORD,,
