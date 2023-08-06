@@ -1,0 +1,10 @@
+__testpkg__/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+__testpkg__/test.py,sha256=ciFtmsJPFynceowe_J9NeESf9ERsUioyCyrSN0KqIRU,39
+kpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__testpkg__/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__testpkg__/test_test.py,sha256=2Zs9KEA9pElUJLu5qWSFGFcySRSUeT_MxJTUA3oG1Rk,333
+kanimus_py_dev-0.0.4.dist-info/METADATA,sha256=qklGmz378I2pBrEz2yBdtHw78s70xDa4NfH5ORgtN10,494
+kanimus_py_dev-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kanimus_py_dev-0.0.4.dist-info/top_level.txt,sha256=aHnyjzQnANZpYjqPhfYHTBHEsEp61Qmj9f_DY8IJV0w,22
+kanimus_py_dev-0.0.4.dist-info/RECORD,,
