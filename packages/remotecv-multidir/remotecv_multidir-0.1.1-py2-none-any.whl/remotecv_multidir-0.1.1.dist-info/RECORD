@@ -1,0 +1,10 @@
+remotecv_multidir/__init__.py,sha256=BISgIA8oiIauuizrUHNH7HFCDyAgPtV02CIGvfrRbeE,37
+remotecv_multidir/_version.py,sha256=IthG91yLQy92_QTmDOKdu2epmmHZ32XYSmO4BKPYCL8,106
+remotecv_multidir/loader.py,sha256=9-d0cCghmhm5ysPfo9b9EUq5vT0GdgX4FLUNg_3Wjnk,1820
+remotecv_redis/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+remotecv_redis/loader.py,sha256=AOXYjG_LwJbDJ4gUlMt7AJo9VTLua74REwjRMaSAP1c,1597
+remotecv_multidir-0.1.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+remotecv_multidir-0.1.1.dist-info/METADATA,sha256=6y0SVdIvZqsfQd1W8vIkWps1nU49NF8GOoGUrhy7iqs,1648
+remotecv_multidir-0.1.1.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+remotecv_multidir-0.1.1.dist-info/top_level.txt,sha256=aIKiuHOxiPGKXgkGEQX2fOQWF7ZaXhL_RwAFGR59CZg,18
+remotecv_multidir-0.1.1.dist-info/RECORD,,
