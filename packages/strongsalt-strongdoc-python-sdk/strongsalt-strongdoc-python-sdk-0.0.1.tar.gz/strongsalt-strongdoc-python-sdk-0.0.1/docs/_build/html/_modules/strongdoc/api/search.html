@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>strongdoc.api.search &#8212; strongdoc 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">strongdoc 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for strongdoc.api.search</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
+
+<span class="kn">from</span> <span class="nn">strongdoc</span> <span class="kn">import</span> <span class="n">client</span>
+<span class="kn">from</span> <span class="nn">strongdoc</span> <span class="kn">import</span> <span class="n">constants</span>
+<span class="kn">from</span> <span class="nn">strongdoc.proto</span> <span class="kn">import</span> <span class="n">search_pb2</span><span class="p">,</span> <span class="n">strongdoc_pb2_grpc</span>
+
+
+<div class="viewcode-block" id="search"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.search.search">[docs]</a><span class="k">def</span> <span class="nf">search</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">query</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Search for document that contains a specific word.</span>
+<span class="sd">    A gRPC connection timeout will be implemented.</span>
+<span class="sd">    </span>
+<span class="sd">    :param token:</span>
+<span class="sd">        The user JWT token.</span>
+<span class="sd">    :type token:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param query:</span>
+<span class="sd">        The query string.</span>
+<span class="sd">    :type query:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :raises grpc.RpcError:</span>
+<span class="sd">        Raised by the gRPC library to indicate non-OK-status RPC termination.</span>
+
+<span class="sd">    returns:</span>
+<span class="sd">        The hit list of the search.</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">        `Array` of :class:`DocumentResult`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">client</span><span class="o">.</span><span class="n">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">as</span> <span class="n">auth_conn</span><span class="p">:</span>
+        <span class="n">client_stub</span> <span class="o">=</span> <span class="n">strongdoc_pb2_grpc</span><span class="o">.</span><span class="n">StrongDocServiceStub</span><span class="p">(</span><span class="n">auth_conn</span><span class="p">)</span>
+
+        <span class="n">request</span> <span class="o">=</span> <span class="n">search_pb2</span><span class="o">.</span><span class="n">SearchRequest</span><span class="p">(</span><span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">)</span>
+
+        <span class="n">response</span> <span class="o">=</span> <span class="n">client_stub</span><span class="o">.</span><span class="n">Search</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">constants</span><span class="o">.</span><span class="n">GRPC_TIMEOUT</span><span class="p">)</span>
+
+        <span class="n">hits</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">DocumentResult</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">hit_result</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">hits</span><span class="p">:</span>
+            <span class="n">hits</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">DocumentResult</span><span class="p">(</span><span class="n">hit_result</span><span class="o">.</span><span class="n">docID</span><span class="p">,</span> <span class="n">hit_result</span><span class="o">.</span><span class="n">score</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="n">hits</span></div>
+
+
+<div class="viewcode-block" id="DocumentResult"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.search.DocumentResult">[docs]</a><span class="k">class</span> <span class="nc">DocumentResult</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A class that will hold a single document that matches the search result from the Search query.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docid</span><span class="p">,</span> <span class="n">score</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Constructs a document that matches the search result</span>
+
+<span class="sd">        :param docid:</span>
+<span class="sd">            The matching document ID</span>
+<span class="sd">        :type docid:</span>
+<span class="sd">            `string`</span>
+<span class="sd">        :param score:</span>
+<span class="sd">            The score of the matching document</span>
+<span class="sd">        :type score:</span>
+<span class="sd">            `float`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_docid</span> <span class="o">=</span> <span class="n">docid</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_score</span> <span class="o">=</span> <span class="n">score</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">docid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Get the matching document ID</span>
+
+<span class="sd">        returns:</span>
+<span class="sd">            The matching document ID</span>
+<span class="sd">        :rtype:</span>
+<span class="sd">            `string`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_docid</span>
+
+    <span class="nd">@docid</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">docid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">docid</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Set the matching document ID</span>
+
+<span class="sd">        :param docid:</span>
+<span class="sd">            The matching document ID</span>
+<span class="sd">        :type docid:</span>
+<span class="sd">            `string`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_docid</span> <span class="o">=</span> <span class="n">docid</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">score</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Get the score of the matching document</span>
+
+<span class="sd">        returns:</span>
+<span class="sd">            The score of the matching document</span>
+<span class="sd">        :rtype:</span>
+<span class="sd">            `float`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_score</span>
+
+    <span class="nd">@score</span><span class="o">.</span><span class="n">setter</span>
+    <span class="k">def</span> <span class="nf">score</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">score</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Set the score of the matching document</span>
+
+<span class="sd">        :param score:</span>
+<span class="sd">            The score of the matching document</span>
+<span class="sd">        :type score:</span>
+<span class="sd">            `float`</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_score</span> <span class="o">=</span> <span class="n">score</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">strongdoc 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright Copyright 2020 - 2020 StrongSalt.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+  </body>
+</html>

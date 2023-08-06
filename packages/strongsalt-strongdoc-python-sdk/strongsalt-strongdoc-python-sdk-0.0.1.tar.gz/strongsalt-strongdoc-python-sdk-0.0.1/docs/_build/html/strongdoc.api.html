@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>strongdoc.api package &#8212; strongdoc 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="strongdoc package" href="strongdoc.html" />
+    <link rel="prev" title="Welcome to strongdoc’s documentation!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="strongdoc.html" title="strongdoc package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to strongdoc’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">strongdoc 0.0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="strongdoc-api-package">
+<h1>strongdoc.api package<a class="headerlink" href="#strongdoc-api-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-strongdoc.api.account">
+<span id="strongdoc-api-account-module"></span><h2>strongdoc.api.account module<a class="headerlink" href="#module-strongdoc.api.account" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="strongdoc.api.account.register_organization">
+<code class="sig-prename descclassname">strongdoc.api.account.</code><code class="sig-name descname">register_organization</code><span class="sig-paren">(</span><em class="sig-param">org_name</em>, <em class="sig-param">org_addr</em>, <em class="sig-param">admin_name</em>, <em class="sig-param">admin_password</em>, <em class="sig-param">admin_email</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/account.html#register_organization"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.account.register_organization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Registers a new organization. A new administrator user will also be created.
+New users can be added using this administrator account.
+A gRPC connection timeout will be implemented.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>org_name</strong> (<cite>string</cite>) – The organization name to create.</p></li>
+<li><p><strong>org_addr</strong> (<cite>string</cite>) – The organization address.</p></li>
+<li><p><strong>admin_name</strong> (<cite>string</cite>) – The organization administrator name.</p></li>
+<li><p><strong>admin_password</strong> (<cite>string</cite>) – The organization administrator password.</p></li>
+<li><p><strong>admin_email</strong> (<cite>string</cite>) – The organization administrator email.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>grpc.RpcError</strong> – Raised by the gRPC library to indicate non-OK-status RPC termination.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><ul class="simple">
+<li><p><strong>orgID</strong> (<em>string</em>) – The newly created organization ID.</p></li>
+<li><p><strong>userID</strong> (<em>string</em>) – The newly created user ID.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="strongdoc.api.account.remove_organization">
+<code class="sig-prename descclassname">strongdoc.api.account.</code><code class="sig-name descname">remove_organization</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">force</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/account.html#remove_organization"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.account.remove_organization" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes an organization, deleting all data stored with the organization.
+This requires an administrator priviledge.
+A gRPC connection timeout will be implemented.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>force</strong> (<cite>bool</cite>) – If this is false, removal will fail if there are still data stored with the organization.
+This prevents accidental deletion.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>grpc.RpcError</strong> – Raised by the gRPC library to indicate non-OK-status RPC termination.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Whether the removal was a success.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><cite>bool</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-strongdoc.api.document">
+<span id="strongdoc-api-document-module"></span><h2>strongdoc.api.document module<a class="headerlink" href="#module-strongdoc.api.document" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="strongdoc.api.document.decrypt_document">
+<code class="sig-prename descclassname">strongdoc.api.document.</code><code class="sig-name descname">decrypt_document</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">docid</em>, <em class="sig-param">ciphertext</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/document.html#decrypt_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.document.decrypt_document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decrypt a document using the service.
+The user must provide the ciphertext returned during the encryptDocument API call.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>docid</strong> (<cite>string</cite>) – The ID of the document.</p></li>
+<li><p><strong>ciphertext</strong> (<cite>bye array</cite>) – The document ciphertext to be decrypted.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The decrypted plaintext content of the document.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><cite>byte array</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="strongdoc.api.document.download_document">
+<code class="sig-prename descclassname">strongdoc.api.document.</code><code class="sig-name descname">download_document</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">docid</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/document.html#download_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.document.download_document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Download a document from the service.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>docid</strong> (<cite>string</cite>) – The ID of the document.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The downloaded document.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><cite>byte array</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="strongdoc.api.document.encrypt_document">
+<code class="sig-prename descclassname">strongdoc.api.document.</code><code class="sig-name descname">encrypt_document</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">doc_name</em>, <em class="sig-param">plaintext</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/document.html#encrypt_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.document.encrypt_document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encrypts a document using the service, but do not store it.
+Instead return the encrypted ciphertext.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>doc_name</strong> (<cite>string</cite>) – The name of the document.</p></li>
+<li><p><strong>plaintext</strong> (<cite>byte array</cite>) – The text of the document.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><strong>docID</strong> (<em>string</em>) – The document ID for the uploaded document.
+This ID is needed to decrypt the document.</p></li>
+<li><p><strong>ciphertext</strong> (<em>byte array</em>) – The encrypted ciphertext of the document.</p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="strongdoc.api.document.remove_document">
+<code class="sig-prename descclassname">strongdoc.api.document.</code><code class="sig-name descname">remove_document</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">docid</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/document.html#remove_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.document.remove_document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a document from the service.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>docid</strong> (<cite>string</cite>) – The ID of the document.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Whether the removal was a success.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><cite>bool</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="strongdoc.api.document.upload_document">
+<code class="sig-prename descclassname">strongdoc.api.document.</code><code class="sig-name descname">upload_document</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">doc_name</em>, <em class="sig-param">plaintext</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/document.html#upload_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.document.upload_document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Uploads a document to the service for storage.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>doc_name</strong> (<cite>string</cite>) – The name of the document.</p></li>
+<li><p><strong>plaintext</strong> (<cite>byte array</cite>) – The text of the document.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>The uploaded document ID.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><cite>string</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-strongdoc.api.login">
+<span id="strongdoc-api-login-module"></span><h2>strongdoc.api.login module<a class="headerlink" href="#module-strongdoc.api.login" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="strongdoc.api.login.login">
+<code class="sig-prename descclassname">strongdoc.api.login.</code><code class="sig-name descname">login</code><span class="sig-paren">(</span><em class="sig-param">userid</em>, <em class="sig-param">password</em>, <em class="sig-param">orgid</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/login.html#login"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.login.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>Verify the user and organization identity, and returns a JWT token for future API use.
+A gRPC connection timeout will be implemented.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>userid</strong> (<cite>string</cite>) – The login user ID</p></li>
+<li><p><strong>password</strong> (<cite>string</cite>) – The ogin user password</p></li>
+<li><p><strong>orgid</strong> (<cite>string</cite>) – The login organization ID</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>grpc.RpcError</strong> – Raised by the gRPC library to indicate non-OK-status RPC termination.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The JWT token used to authenticate user/org when using StrongDoc APIs.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><cite>string</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-strongdoc.api.search">
+<span id="strongdoc-api-search-module"></span><h2>strongdoc.api.search module<a class="headerlink" href="#module-strongdoc.api.search" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="strongdoc.api.search.DocumentResult">
+<em class="property">class </em><code class="sig-prename descclassname">strongdoc.api.search.</code><code class="sig-name descname">DocumentResult</code><span class="sig-paren">(</span><em class="sig-param">docid</em>, <em class="sig-param">score</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/search.html#DocumentResult"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.search.DocumentResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class that will hold a single document that matches the search result from the Search query.</p>
+<dl class="method">
+<dt id="strongdoc.api.search.DocumentResult.docid">
+<em class="property">property </em><code class="sig-name descname">docid</code><a class="headerlink" href="#strongdoc.api.search.DocumentResult.docid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the matching document ID</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The matching document ID</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><cite>string</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="strongdoc.api.search.DocumentResult.score">
+<em class="property">property </em><code class="sig-name descname">score</code><a class="headerlink" href="#strongdoc.api.search.DocumentResult.score" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the score of the matching document</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The score of the matching document</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><cite>float</cite></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="strongdoc.api.search.search">
+<code class="sig-prename descclassname">strongdoc.api.search.</code><code class="sig-name descname">search</code><span class="sig-paren">(</span><em class="sig-param">token</em>, <em class="sig-param">query</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/strongdoc/api/search.html#search"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#strongdoc.api.search.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Search for document that contains a specific word.
+A gRPC connection timeout will be implemented.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>token</strong> (<cite>string</cite>) – The user JWT token.</p></li>
+<li><p><strong>query</strong> (<cite>string</cite>) – The query string.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>grpc.RpcError</strong> – Raised by the gRPC library to indicate non-OK-status RPC termination.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The hit list of the search.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><cite>Array</cite> of <a class="reference internal" href="#strongdoc.api.search.DocumentResult" title="strongdoc.api.search.DocumentResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">DocumentResult</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-strongdoc.api">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-strongdoc.api" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">strongdoc.api package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-strongdoc.api.account">strongdoc.api.account module</a></li>
+<li><a class="reference internal" href="#module-strongdoc.api.document">strongdoc.api.document module</a></li>
+<li><a class="reference internal" href="#module-strongdoc.api.login">strongdoc.api.login module</a></li>
+<li><a class="reference internal" href="#module-strongdoc.api.search">strongdoc.api.search module</a></li>
+<li><a class="reference internal" href="#module-strongdoc.api">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to strongdoc’s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="strongdoc.html"
+                        title="next chapter">strongdoc package</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/strongdoc.api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="strongdoc.html" title="strongdoc package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to strongdoc’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">strongdoc 0.0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright Copyright 2020 - 2020 StrongSalt.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+  </body>
+</html>

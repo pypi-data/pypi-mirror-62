@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>strongdoc.api.document &#8212; strongdoc 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">strongdoc 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for strongdoc.api.document</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">strongdoc</span> <span class="kn">import</span> <span class="n">client</span>
+<span class="kn">from</span> <span class="nn">strongdoc.proto</span> <span class="kn">import</span> <span class="n">document_pb2</span><span class="p">,</span> <span class="n">documentNoStore_pb2</span><span class="p">,</span> <span class="n">strongdoc_pb2_grpc</span>
+
+<span class="n">BLOCK_SIZE</span> <span class="o">=</span> <span class="mi">10000</span>
+
+
+<span class="k">def</span> <span class="nf">_stream_upload_request_generator</span><span class="p">(</span><span class="n">doc_name</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">,</span> <span class="n">block_size</span><span class="o">=</span><span class="n">BLOCK_SIZE</span><span class="p">):</span>
+    <span class="n">request</span> <span class="o">=</span> <span class="n">document_pb2</span><span class="o">.</span><span class="n">UploadDocStreamReq</span><span class="p">(</span><span class="n">docName</span><span class="o">=</span><span class="n">doc_name</span><span class="p">)</span>
+
+    <span class="k">yield</span> <span class="n">request</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">plaintext</span><span class="p">),</span> <span class="n">block_size</span><span class="p">):</span>
+        <span class="n">block</span> <span class="o">=</span> <span class="n">plaintext</span><span class="p">[</span><span class="n">i</span><span class="p">:</span> <span class="n">i</span> <span class="o">+</span> <span class="n">block_size</span><span class="p">]</span>
+        <span class="n">request</span> <span class="o">=</span> <span class="n">document_pb2</span><span class="o">.</span><span class="n">UploadDocStreamReq</span><span class="p">(</span><span class="n">plaintext</span><span class="o">=</span><span class="n">block</span><span class="p">)</span>
+
+        <span class="k">yield</span> <span class="n">request</span>
+
+
+<span class="k">def</span> <span class="nf">_stream_encrypt_request_generator</span><span class="p">(</span><span class="n">doc_name</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">,</span> <span class="n">block_size</span><span class="o">=</span><span class="n">BLOCK_SIZE</span><span class="p">):</span>
+    <span class="n">request</span> <span class="o">=</span> <span class="n">documentNoStore_pb2</span><span class="o">.</span><span class="n">EncryptDocStreamReq</span><span class="p">(</span><span class="n">docName</span><span class="o">=</span><span class="n">doc_name</span><span class="p">)</span>
+
+    <span class="k">yield</span> <span class="n">request</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">plaintext</span><span class="p">),</span> <span class="n">block_size</span><span class="p">):</span>
+        <span class="n">block</span> <span class="o">=</span> <span class="n">plaintext</span><span class="p">[</span><span class="n">i</span><span class="p">:</span> <span class="n">i</span> <span class="o">+</span> <span class="n">block_size</span><span class="p">]</span>
+        <span class="n">request</span> <span class="o">=</span> <span class="n">documentNoStore_pb2</span><span class="o">.</span><span class="n">EncryptDocStreamReq</span><span class="p">(</span><span class="n">plaintext</span><span class="o">=</span><span class="n">block</span><span class="p">)</span>
+
+        <span class="k">yield</span> <span class="n">request</span>
+
+
+<span class="k">def</span> <span class="nf">_stream_decrypt_request_generator</span><span class="p">(</span><span class="n">docid</span><span class="p">,</span> <span class="n">ciphertext</span><span class="p">,</span> <span class="n">block_size</span><span class="o">=</span><span class="n">BLOCK_SIZE</span><span class="p">):</span>
+    <span class="n">request</span> <span class="o">=</span> <span class="n">documentNoStore_pb2</span><span class="o">.</span><span class="n">DecryptDocStreamReq</span><span class="p">(</span><span class="n">docID</span><span class="o">=</span><span class="n">docid</span><span class="p">)</span>
+
+    <span class="k">yield</span> <span class="n">request</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">ciphertext</span><span class="p">),</span> <span class="n">block_size</span><span class="p">):</span>
+        <span class="n">block</span> <span class="o">=</span> <span class="n">ciphertext</span><span class="p">[</span><span class="n">i</span><span class="p">:</span> <span class="n">i</span> <span class="o">+</span> <span class="n">block_size</span><span class="p">]</span>
+        <span class="n">request</span> <span class="o">=</span> <span class="n">documentNoStore_pb2</span><span class="o">.</span><span class="n">DecryptDocStreamReq</span><span class="p">(</span><span class="n">ciphertext</span><span class="o">=</span><span class="n">block</span><span class="p">)</span>
+
+        <span class="k">yield</span> <span class="n">request</span>
+
+
+<span class="c1"># upload_document uploads a document to be stored by strongdoc</span>
+<div class="viewcode-block" id="upload_document"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.document.upload_document">[docs]</a><span class="k">def</span> <span class="nf">upload_document</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">doc_name</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Uploads a document to the service for storage.</span>
+
+<span class="sd">    :param token:</span>
+<span class="sd">        The user JWT token.</span>
+<span class="sd">    :type token:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param doc_name:</span>
+<span class="sd">        The name of the document.</span>
+<span class="sd">    :type doc_name:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param plaintext:</span>
+<span class="sd">        The text of the document.</span>
+<span class="sd">    :type plaintext:</span>
+<span class="sd">        `byte array`</span>
+<span class="sd">    :returns:</span>
+<span class="sd">        The uploaded document ID.</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">client</span><span class="o">.</span><span class="n">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">as</span> <span class="n">auth_conn</span><span class="p">:</span>
+        <span class="n">client_stub</span> <span class="o">=</span> <span class="n">strongdoc_pb2_grpc</span><span class="o">.</span><span class="n">StrongDocServiceStub</span><span class="p">(</span><span class="n">auth_conn</span><span class="p">)</span>
+
+        <span class="n">request_iterator</span> <span class="o">=</span> <span class="n">_stream_upload_request_generator</span><span class="p">(</span><span class="n">doc_name</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">)</span>
+
+        <span class="n">response</span> <span class="o">=</span> <span class="n">client_stub</span><span class="o">.</span><span class="n">UploadDocumentStream</span><span class="p">(</span><span class="n">request_iterator</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">docID</span></div>
+
+
+<span class="c1"># download_document downloads a document stored in strongdoc</span>
+<div class="viewcode-block" id="download_document"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.document.download_document">[docs]</a><span class="k">def</span> <span class="nf">download_document</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">docid</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Download a document from the service.</span>
+
+<span class="sd">    :param token:</span>
+<span class="sd">        The user JWT token.</span>
+<span class="sd">    :type token:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param docid:</span>
+<span class="sd">        The ID of the document.</span>
+<span class="sd">    :type docid:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :returns:</span>
+<span class="sd">        The downloaded document.</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">        `byte array`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">client</span><span class="o">.</span><span class="n">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">as</span> <span class="n">auth_conn</span><span class="p">:</span>
+        <span class="n">client_stub</span> <span class="o">=</span> <span class="n">strongdoc_pb2_grpc</span><span class="o">.</span><span class="n">StrongDocServiceStub</span><span class="p">(</span><span class="n">auth_conn</span><span class="p">)</span>
+
+        <span class="n">request</span> <span class="o">=</span> <span class="n">document_pb2</span><span class="o">.</span><span class="n">DownloadDocStreamReq</span><span class="p">(</span><span class="n">docID</span><span class="o">=</span><span class="n">docid</span><span class="p">)</span>
+
+        <span class="n">plaintext</span> <span class="o">=</span> <span class="sa">b</span><span class="s2">&quot;&quot;</span>
+        <span class="n">response_iterator</span> <span class="o">=</span> <span class="n">client_stub</span><span class="o">.</span><span class="n">DownloadDocumentStream</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">response_iterator</span><span class="p">:</span>
+            <span class="n">plaintext</span> <span class="o">+=</span> <span class="n">res</span><span class="o">.</span><span class="n">plaintext</span>
+
+        <span class="k">return</span> <span class="n">plaintext</span></div>
+
+
+<span class="c1"># encrypt_document encrypts a document with strongdoc, but does not store the actual document</span>
+<div class="viewcode-block" id="encrypt_document"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.document.encrypt_document">[docs]</a><span class="k">def</span> <span class="nf">encrypt_document</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">doc_name</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Encrypts a document using the service, but do not store it.</span>
+<span class="sd">    Instead return the encrypted ciphertext.</span>
+
+<span class="sd">    :param token:</span>
+<span class="sd">        The user JWT token.</span>
+<span class="sd">    :type token:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param doc_name:</span>
+<span class="sd">        The name of the document.</span>
+<span class="sd">    :type doc_name:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param plaintext:</span>
+<span class="sd">        The text of the document.</span>
+<span class="sd">    :type plaintext:</span>
+<span class="sd">        `byte array`</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    docID: string</span>
+<span class="sd">        The document ID for the uploaded document.</span>
+<span class="sd">        This ID is needed to decrypt the document.</span>
+<span class="sd">    ciphertext: byte array</span>
+<span class="sd">        The encrypted ciphertext of the document.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">client</span><span class="o">.</span><span class="n">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">as</span> <span class="n">auth_conn</span><span class="p">:</span>
+        <span class="n">client_stub</span> <span class="o">=</span> <span class="n">strongdoc_pb2_grpc</span><span class="o">.</span><span class="n">StrongDocServiceStub</span><span class="p">(</span><span class="n">auth_conn</span><span class="p">)</span>
+
+        <span class="n">request_iterator</span> <span class="o">=</span> <span class="n">_stream_encrypt_request_generator</span><span class="p">(</span><span class="n">doc_name</span><span class="p">,</span> <span class="n">plaintext</span><span class="p">)</span>
+
+        <span class="n">docid</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">ciphertext</span> <span class="o">=</span> <span class="sa">b</span><span class="s2">&quot;&quot;</span>
+        <span class="n">response_iterator</span> <span class="o">=</span> <span class="n">client_stub</span><span class="o">.</span><span class="n">EncryptDocumentStream</span><span class="p">(</span><span class="n">request_iterator</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">response_iterator</span><span class="p">:</span>
+            <span class="n">docid</span> <span class="o">=</span> <span class="n">res</span><span class="o">.</span><span class="n">docID</span>
+            <span class="n">ciphertext</span> <span class="o">+=</span> <span class="n">res</span><span class="o">.</span><span class="n">ciphertext</span>
+
+        <span class="k">return</span> <span class="n">docid</span><span class="p">,</span> <span class="n">ciphertext</span></div>
+
+
+<span class="c1"># decrypt_document encrypts a document with strongdoc. It requires original ciphertext, since the document is not stored</span>
+<div class="viewcode-block" id="decrypt_document"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.document.decrypt_document">[docs]</a><span class="k">def</span> <span class="nf">decrypt_document</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">docid</span><span class="p">,</span> <span class="n">ciphertext</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Decrypt a document using the service.</span>
+<span class="sd">    The user must provide the ciphertext returned during the encryptDocument API call.</span>
+
+<span class="sd">    :param token:</span>
+<span class="sd">        The user JWT token.</span>
+<span class="sd">    :type token:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param docid:</span>
+<span class="sd">        The ID of the document.</span>
+<span class="sd">    :type docid:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param ciphertext:</span>
+<span class="sd">        The document ciphertext to be decrypted.</span>
+<span class="sd">    :type ciphertext:</span>
+<span class="sd">        `bye array`</span>
+<span class="sd">    :returns:</span>
+<span class="sd">        The decrypted plaintext content of the document.</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">        `byte array`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">client</span><span class="o">.</span><span class="n">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">as</span> <span class="n">auth_conn</span><span class="p">:</span>
+        <span class="n">client_stub</span> <span class="o">=</span> <span class="n">strongdoc_pb2_grpc</span><span class="o">.</span><span class="n">StrongDocServiceStub</span><span class="p">(</span><span class="n">auth_conn</span><span class="p">)</span>
+
+        <span class="n">request_iterator</span> <span class="o">=</span> <span class="n">_stream_decrypt_request_generator</span><span class="p">(</span><span class="n">docid</span><span class="p">,</span> <span class="n">ciphertext</span><span class="p">)</span>
+
+        <span class="n">plaintext</span> <span class="o">=</span> <span class="sa">b</span><span class="s2">&quot;&quot;</span>
+        <span class="n">response_iterator</span> <span class="o">=</span> <span class="n">client_stub</span><span class="o">.</span><span class="n">DecryptDocumentStream</span><span class="p">(</span><span class="n">request_iterator</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">response_iterator</span><span class="p">:</span>
+            <span class="n">plaintext</span> <span class="o">+=</span> <span class="n">res</span><span class="o">.</span><span class="n">plaintext</span>
+
+        <span class="k">return</span> <span class="n">plaintext</span></div>
+
+
+<span class="c1"># remove_document deletes the document from strongdoc storage</span>
+<div class="viewcode-block" id="remove_document"><a class="viewcode-back" href="../../../strongdoc.api.html#strongdoc.api.document.remove_document">[docs]</a><span class="k">def</span> <span class="nf">remove_document</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">docid</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Remove a document from the service.</span>
+
+<span class="sd">    :param token:</span>
+<span class="sd">        The user JWT token.</span>
+<span class="sd">    :type token:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :param docid:</span>
+<span class="sd">        The ID of the document.</span>
+<span class="sd">    :type docid:</span>
+<span class="sd">        `string`</span>
+<span class="sd">    :returns:</span>
+<span class="sd">        Whether the removal was a success.</span>
+<span class="sd">    :rtype:</span>
+<span class="sd">        `bool`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">client</span><span class="o">.</span><span class="n">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">as</span> <span class="n">auth_conn</span><span class="p">:</span>
+        <span class="n">client_stub</span> <span class="o">=</span> <span class="n">strongdoc_pb2_grpc</span><span class="o">.</span><span class="n">StrongDocServiceStub</span><span class="p">(</span><span class="n">auth_conn</span><span class="p">)</span>
+
+        <span class="n">request</span> <span class="o">=</span> <span class="n">document_pb2</span><span class="o">.</span><span class="n">RemoveDocumentRequest</span><span class="p">(</span><span class="n">docID</span><span class="o">=</span><span class="n">docid</span><span class="p">)</span>
+
+        <span class="n">client_stub</span><span class="o">.</span><span class="n">RemoveDocument</span><span class="p">(</span><span class="n">request</span><span class="p">)</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">strongdoc 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright Copyright 2020 - 2020 StrongSalt.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+  </body>
+</html>

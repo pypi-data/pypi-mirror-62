@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>strongdoc.client &#8212; strongdoc 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">strongdoc 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for strongdoc.client</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">path</span>
+<span class="kn">from</span> <span class="nn">strongdoc</span> <span class="kn">import</span> <span class="n">constants</span>
+
+<span class="kn">import</span> <span class="nn">grpc</span>
+
+<span class="c1">#&quot;&quot;&quot; </span>
+<span class="c1">#Location of StrongDoc Service</span>
+<span class="c1">#&quot;&quot;&quot;</span>
+<span class="c1">#HOST = &#39;localhost&#39;  # UPDATE TO USE api.strongsalt.com</span>
+<span class="c1">#PORT = 9090</span>
+<span class="c1">#CERT = path.join(path.dirname(__file__), &quot;data&quot;, &quot;certs&quot;, &quot;grpc.root.localhost.pem&quot;)  # UPDATE TO USE grpc.root.pem`</span>
+<span class="c1">#</span>
+<span class="c1">#global GRPC_TIMEOUT = 60</span>
+
+<span class="k">def</span> <span class="nf">_open_cert</span><span class="p">():</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">constants</span><span class="o">.</span><span class="n">CERT</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+
+<div class="viewcode-block" id="connect_to_server_with_no_auth"><a class="viewcode-back" href="../../strongdoc.html#strongdoc.client.connect_to_server_with_no_auth">[docs]</a><span class="k">def</span> <span class="nf">connect_to_server_with_no_auth</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Creates a secure channel to the StrongDoc Server</span>
+
+<span class="sd">    :returns: channel -- A secure gRPC SSL channel.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">trusted_certs</span> <span class="o">=</span> <span class="n">_open_cert</span><span class="p">()</span>
+
+    <span class="c1"># Create the SSL and authorization token credentials</span>
+    <span class="n">channel_credentials</span> <span class="o">=</span> <span class="n">grpc</span><span class="o">.</span><span class="n">ssl_channel_credentials</span><span class="p">(</span><span class="n">root_certificates</span><span class="o">=</span><span class="n">trusted_certs</span><span class="p">)</span>
+
+    <span class="c1"># Create a secure channel to the server</span>
+    <span class="n">channel</span> <span class="o">=</span> <span class="n">grpc</span><span class="o">.</span><span class="n">secure_channel</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">constants</span><span class="o">.</span><span class="n">HOST</span><span class="p">,</span> <span class="n">constants</span><span class="o">.</span><span class="n">PORT</span><span class="p">),</span> <span class="n">channel_credentials</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">channel</span></div>
+
+
+<div class="viewcode-block" id="connect_to_server_with_auth"><a class="viewcode-back" href="../../strongdoc.html#strongdoc.client.connect_to_server_with_auth">[docs]</a><span class="k">def</span> <span class="nf">connect_to_server_with_auth</span><span class="p">(</span><span class="n">token</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Creates a secure channel with an authentication token to the StrongDoc Server</span>
+
+<span class="sd">    :param token: The user JWT token</span>
+<span class="sd">    :type token: string</span>
+<span class="sd">    :returns: channel -- A secure gRPC SSL channel.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">trusted_certs</span> <span class="o">=</span> <span class="n">_open_cert</span><span class="p">()</span>
+
+    <span class="c1"># Create the SSL and authorization token credentials</span>
+    <span class="n">channel_credentials</span> <span class="o">=</span> <span class="n">grpc</span><span class="o">.</span><span class="n">ssl_channel_credentials</span><span class="p">(</span><span class="n">root_certificates</span><span class="o">=</span><span class="n">trusted_certs</span><span class="p">)</span>
+    <span class="n">call_credentials</span> <span class="o">=</span> <span class="n">grpc</span><span class="o">.</span><span class="n">access_token_call_credentials</span><span class="p">(</span><span class="n">token</span><span class="p">)</span>
+    <span class="n">composite_credentials</span> <span class="o">=</span> <span class="n">grpc</span><span class="o">.</span><span class="n">composite_channel_credentials</span><span class="p">(</span><span class="n">channel_credentials</span><span class="p">,</span> <span class="n">call_credentials</span><span class="p">)</span>
+
+    <span class="c1"># Create a secure channel to the server</span>
+    <span class="n">channel</span> <span class="o">=</span> <span class="n">grpc</span><span class="o">.</span><span class="n">secure_channel</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">:</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">constants</span><span class="o">.</span><span class="n">HOST</span><span class="p">,</span> <span class="n">constants</span><span class="o">.</span><span class="n">PORT</span><span class="p">),</span> <span class="n">composite_credentials</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">channel</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">strongdoc 0.0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright Copyright 2020 - 2020 StrongSalt.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.3.
+    </div>
+  </body>
+</html>
