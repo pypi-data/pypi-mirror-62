@@ -1,0 +1,3 @@
+[console_scripts]
+startapp = Flask_DJ:start
+
