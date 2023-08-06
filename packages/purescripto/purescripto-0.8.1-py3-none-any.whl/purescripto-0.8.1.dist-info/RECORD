@@ -1,0 +1,16 @@
+purescripto/__init__.py,sha256=HAHKQ2wpw07mluJ9HFI-FPThqN-RqAUL1LVh7AG9OfI,108
+purescripto/configure.py,sha256=pOHY4_68jSvpB9xYPaZQpy-BeGYxfhWyiKItYc6sPQs,8422
+purescripto/configure_consts.py,sha256=Clu5QYmuMnNqBf3bQDk-069ZPSX5JyP_XMPDo-FKbHU,697
+purescripto/pspy.py,sha256=dSsTthEHPvesWwkITDcwR3D6wV5MQcgU0-fDUbJyoSk,103
+purescripto/purescript_loader.py,sha256=T4yoCbCO-3plUwygtWlZFe9KWtFuUBXoAJRg2dogfXI,1627
+purescripto/rts.py,sha256=HZY4YmxJW_L6V37IXLBbj3w7AT4wDMN4khtankPPbJ8,1814
+purescripto/topdown.py,sha256=gaa345CU8kUZfZqpILIYiKuwT63gTmPiEdblbpY8Z5M,3624
+purescripto/utilities.py,sha256=kjIVV3du0iI8XbC3hpM9QzbiPDtKJZ_jsWj4g19JG1Y,1513
+purescripto/version.py,sha256=mFjBObl8j1xmOuBZBDla1RUWyNk49Gs9OboffOTtYeo,56
+purescripto/workaround.py,sha256=VSLYBUsFMWaom1-SKKJ3opzVORxNw0g6iEOeMKwXyEc,967
+purescripto-0.8.1.dist-info/LICENSE,sha256=ONDYNv3llJjcYUKz7kHAXdp8E1-3OWegz7FsoGy6smM,1120
+purescripto-0.8.1.dist-info/METADATA,sha256=PCZ2rypmbVVOuIHt9RgM95xI0OiazuCieHh2Qq8mQ4c,1792
+purescripto-0.8.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+purescripto-0.8.1.dist-info/entry_points.txt,sha256=YiFMV4xxxSunJkbunVuHLin5Q634JPiWHFDG7T-tbOA,48
+purescripto-0.8.1.dist-info/top_level.txt,sha256=Q-Fo_Hi5XUcMEIAnKfncMN7cg4o3PemoLd1hXT6x0Ws,12
+purescripto-0.8.1.dist-info/RECORD,,
