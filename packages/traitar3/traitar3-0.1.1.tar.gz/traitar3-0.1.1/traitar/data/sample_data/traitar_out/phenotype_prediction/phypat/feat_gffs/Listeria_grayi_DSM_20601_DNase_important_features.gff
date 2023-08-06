@@ -1,0 +1,7 @@
+##gff-version 3
+accn|NZ_GG692932	HMMER	phypat	55503	55746	6.3000000000000004e-18	+	.	Parent=HMPREF0556_0929;Name=PF02588;Note=DUF161;Description=Uncharacterized BCR, YitT family COG1284
+accn|NZ_GG692932	HMMER	phypat	535749	535989	3.4999999999999997e-13	-	.	Parent=HMPREF0556_1437;Name=PF02588;Note=DUF161;Description=Uncharacterized BCR, YitT family COG1284
+accn|NZ_GG692932	HMMER	phypat	633125	633665	1.3e-15	+	.	Parent=HMPREF0556_1527;Name=PF01633;Note=Choline_kinase;Description=Choline/ethanolamine kinase
+accn|NZ_GG692932	HMMER	phypat	910609	910852	8.9000000000000008e-19	-	.	Parent=HMPREF0556_1790;Name=PF02588;Note=DUF161;Description=Uncharacterized BCR, YitT family COG1284
+accn|NZ_GG692935	HMMER	phypat	75325	75565	1.6999999999999999e-19	+	.	Parent=HMPREF0556_2069;Name=PF02588;Note=DUF161;Description=Uncharacterized BCR, YitT family COG1284
+accn|NZ_GG692935	HMMER	phypat	169006	169681	5.4000000000000002e-94	+	.	Parent=HMPREF0556_2156;Name=PF06415;Note=iPGM_N;Description=BPG-independent PGAM N-terminus (iPGM_N)

@@ -1,0 +1,22 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	75739	77149	1.6999999999999993e-140	+	.	Parent=AX25_00345;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	159549	160992	2.3999999999999993e-120	+	.	Parent=AX25_00740;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	333151	334585	5.5999999999999992e-135	+	.	Parent=AX25_01545;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	340767	342171	5.4999999999999981e-174	-	.	Parent=AX25_01580;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	366227	367613	9.1999999999999985e-146	+	.	Parent=AX25_01700;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	367672	367834	2.6e-23	+	.	Parent=AX25_01705;Name=PF03123;Note=CAT_RBD;Description=CAT RNA binding domain
+accn|CP007172	HMMER	phypat	393179	394544	1.9999999999999999e-126	+	.	Parent=AX25_01870;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	588561	589941	3.1999999999999992e-136	+	.	Parent=AX25_02850;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	673648	673873	2.6000000000000001e-09	+	.	Parent=AX25_03220;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	963377	964796	1.0999999999999997e-121	+	.	Parent=AX25_04690;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	965111	965324	1.6e-12	+	.	Parent=AX25_04695;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	1697627	1697879	4.9000000000000007e-16	-	.	Parent=AX25_08390;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	2246497	2246725	4.8999999999999997e-12	-	.	Parent=AX25_11125;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	2284373	2284742	4.9000000000000002e-48	-	.	Parent=AX25_11295;Name=PF02903;Note=Alpha-amylase_N;Description=Alpha amylase, N-terminal ig-like domain
+accn|CP007172	HMMER	phypat	2297706	2297946	1.2e-10	-	.	Parent=AX25_11390;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	2460381	2460624	3.3999999999999998e-22	-	.	Parent=AX25_12125;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	2526690	2526861	1.7000000000000001e-26	-	.	Parent=AX25_12550;Name=PF03123;Note=CAT_RBD;Description=CAT RNA binding domain
+accn|CP007172	HMMER	phypat	2745214	2745439	5.4999999999999997e-11	-	.	Parent=AX25_13725;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	2771415	2771619	1.1000000000000001e-08	-	.	Parent=AX25_13855;Name=PF05043;Note=Mga;Description=Mga helix-turn-helix domain
+accn|CP007172	HMMER	phypat	2833859	2835221	4.5999999999999982e-126	-	.	Parent=AX25_14175;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1
+accn|CP007172	HMMER	phypat	2900176	2901580	1.2999999999999996e-171	+	.	Parent=AX25_14510;Name=PF00232;Note=Glyco_hydro_1;Description=Glycosyl hydrolase family 1

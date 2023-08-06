@@ -1,0 +1,2 @@
+##gff-version 3
+accn|NZ_GG692932	HMMER	phypat	691105	691612	8.2999999999999998e-11	+	.	Parent=HMPREF0556_1583;Name=PF06833;Note=MdcE;Description=Malonate decarboxylase gamma subunit (MdcE)

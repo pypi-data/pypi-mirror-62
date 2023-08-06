@@ -1,0 +1,9 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	705988	706246	1.2999999999999999e-32	+	.	Parent=AX25_03395;Name=PF04241;Note=DUF423;Description=Protein of unknown function (DUF423)
+accn|CP007172	HMMER	phypat	822340	822847	1.6e-52	-	.	Parent=AX25_04005;Name=PF04264;Note=YceI;Description=YceI-like domain
+accn|CP007172	HMMER	phypat	1481672	1482032	5.2999999999999992e-51	-	.	Parent=AX25_07360;Name=PF02803;Note=Thiolase_C;Description=Thiolase, C-terminal domain
+accn|CP007172	HMMER	phypat	2200814	2201657	1.0999999999999998e-63	+	.	Parent=AX25_10870;Name=PF02628;Note=COX15-CtaA;Description=Cytochrome oxidase assembly protein
+accn|CP007172	HMMER	phypat	2207638	2207926	1.0000000000000001e-29	-	.	Parent=AX25_10905;Name=PF04234;Note=CopC;Description=CopC domain
+accn|CP007172	HMMER	phypat	2376895	2377903	4.5999999999999988e-115	-	.	Parent=AX25_11740;Name=PF01208;Note=URO-D;Description=Uroporphyrinogen decarboxylase (URO-D)
+accn|CP007172	HMMER	phypat	2915692	2915986	7.0999999999999982e-45	-	.	Parent=AX25_14595;Name=PF00199;Note=Catalase;Description=Catalase
+accn|CP007172	HMMER	phypat	2916125	2916515	2.5000000000000001e-60	-	.	Parent=AX25_14600;Name=PF00199;Note=Catalase;Description=Catalase

@@ -1,0 +1,9 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	37208	37565	5.7999999999999993e-46	-	.	Parent=HMPREF0556_0041;Name=PF02803;Note=Thiolase_C;Description=Thiolase, C-terminal domain
+accn|NZ_GG692933	HMMER	phypat	174489	174840	4.6999999999999999e-40	+	.	Parent=HMPREF0556_0255;Name=PF02803;Note=Thiolase_C;Description=Thiolase, C-terminal domain
+accn|NZ_GG692933	HMMER	phypat	454293	454800	5.0999999999999995e-53	-	.	Parent=HMPREF0556_0543;Name=PF04264;Note=YceI;Description=YceI-like domain
+accn|NZ_GG692933	HMMER	phypat	505800	506088	1.2e-29	+	.	Parent=HMPREF0556_0601;Name=PF04234;Note=CopC;Description=CopC domain
+accn|NZ_GG692933	HMMER	phypat	511717	512557	6.9000000000000001e-61	-	.	Parent=HMPREF0556_0605;Name=PF02628;Note=COX15-CtaA;Description=Cytochrome oxidase assembly protein
+accn|NZ_GG692932	HMMER	phypat	92529	93537	3.3999999999999997e-113	+	.	Parent=HMPREF0556_0969;Name=PF01208;Note=URO-D;Description=Uroporphyrinogen decarboxylase (URO-D)
+accn|NZ_GG692932	HMMER	phypat	184824	185085	6.1999999999999996e-34	+	.	Parent=HMPREF0556_1060;Name=PF04241;Note=DUF423;Description=Protein of unknown function (DUF423)
+accn|NZ_GG692934	HMMER	phypat	137926	139069	1.9999999999999993e-176	-	.	Parent=HMPREF0556_2392;Name=PF00199;Note=Catalase;Description=Catalase

@@ -1,0 +1,14 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	46498	46705	2.0999999999999996e-25	-	.	Parent=HMPREF0556_0045;Name=PF14310;Note=Fn3-like;Description=Fibronectin type III-like domain
+accn|NZ_GG692933	HMMER	phypat	315906	316113	6.0999999999999993e-17	+	.	Parent=HMPREF0556_0399;Name=PF14310;Note=Fn3-like;Description=Fibronectin type III-like domain
+accn|NZ_GG692933	HMMER	phypat	408406	408559	6.4999999999999995e-11	-	.	Parent=HMPREF0556_0500;Name=PF06347;Note=SH3_4;Description=Bacterial SH3 domain
+accn|NZ_GG692933	HMMER	phypat	558881	559535	1.5999999999999999e-93	-	.	Parent=HMPREF0556_0655;Name=PF03306;Note=AAL_decarboxy;Description=Alpha-acetolactate decarboxylase
+accn|NZ_GG692932	HMMER	phypat	22359	22695	6.7999999999999993e-43	-	.	Parent=HMPREF0556_0901;Name=PF06993;Note=DUF1304;Description=Protein of unknown function (DUF1304)
+accn|NZ_GG692932	HMMER	phypat	304644	305013	4.8999999999999999e-11	+	.	Parent=HMPREF0556_1197;Name=PF14526;Note=Cass2;Description=Integron-associated effector binding protein
+accn|NZ_GG692932	HMMER	phypat	404632	405235	1.5e-50	+	.	Parent=HMPREF0556_1305;Name=PF03932;Note=CutC;Description=CutC family
+accn|NZ_GG692932	HMMER	phypat	749536	749680	2.7e-11	-	.	Parent=HMPREF0556_1637;Name=PF06347;Note=SH3_4;Description=Bacterial SH3 domain
+accn|NZ_GG692932	HMMER	phypat	820111	820576	9.300000000000001e-10	+	.	Parent=HMPREF0556_1707;Name=PF10662;Note=PduV-EutP;Description=Ethanolamine utilisation - propanediol utilisation
+accn|NZ_GG692935	HMMER	phypat	107066	107267	2.1999999999999999e-15	+	.	Parent=HMPREF0556_2098;Name=PF13345;Note=DUF4098;Description=Domain of unknown function (DUF4098)
+accn|NZ_GG692935	HMMER	phypat	108433	108655	1.8000000000000001e-15	+	.	Parent=HMPREF0556_2099;Name=PF13345;Note=DUF4098;Description=Domain of unknown function (DUF4098)
+accn|NZ_GG692935	HMMER	phypat	141592	141955	9.9000000000000012e-19	+	.	Parent=HMPREF0556_2131;Name=PF14526;Note=Cass2;Description=Integron-associated effector binding protein
+accn|NZ_GG692935	HMMER	phypat	179563	179830	1.3999999999999999e-24	-	.	Parent=HMPREF0556_2165;Name=PF05973;Note=Gp49;Description=Phage derived protein Gp49-like (DUF891)

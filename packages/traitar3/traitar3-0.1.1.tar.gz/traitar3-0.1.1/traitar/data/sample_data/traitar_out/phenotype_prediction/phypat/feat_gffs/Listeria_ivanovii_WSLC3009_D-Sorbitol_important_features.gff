@@ -1,0 +1,2 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	558315	558636	3.5000000000000004e-24	-	.	Parent=AX25_02695;Name=PF06923;Note=GutM;Description=Glucitol operon activator protein (GutM)

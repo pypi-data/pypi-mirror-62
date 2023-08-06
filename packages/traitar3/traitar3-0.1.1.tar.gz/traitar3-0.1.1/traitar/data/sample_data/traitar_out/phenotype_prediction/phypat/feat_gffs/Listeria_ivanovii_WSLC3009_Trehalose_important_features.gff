@@ -1,0 +1,23 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	153698	154139	3.0000000000000001e-58	+	.	Parent=AX25_00705;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	302981	303413	4e-41	+	.	Parent=AX25_01400;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	464070	464244	4.5000000000000001e-20	+	.	Parent=AX25_02210;Name=PF13556;Note=HTH_30;Description=PucR C-terminal helix-turn-helix domain
+accn|CP007172	HMMER	phypat	477006	477468	1.2999999999999999e-30	+	.	Parent=AX25_02285;Name=PF06445;Note=GyrI-like;Description=GyrI-like small molecule binding domain
+accn|CP007172	HMMER	phypat	528103	528436	2.1000000000000001e-42	-	.	Parent=AX25_02560;Name=PF06993;Note=DUF1304;Description=Protein of unknown function (DUF1304)
+accn|CP007172	HMMER	phypat	691219	691369	7.4000000000000001e-20	+	.	Parent=AX25_03305;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|CP007172	HMMER	phypat	705119	705272	2.3999999999999999e-21	+	.	Parent=AX25_03385;Name=PF12464;Note=Mac;Description=Maltose acetyltransferase
+accn|CP007172	HMMER	phypat	805395	805842	6.5000000000000003e-62	-	.	Parent=AX25_03945;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	860701	861511	5.999999999999999e-45	+	.	Parent=AX25_04185;Name=PF06224;Note=HTH_42;Description=Winged helix DNA-binding domain
+accn|CP007172	HMMER	phypat	1061160	1061592	3.3999999999999997e-48	+	.	Parent=AX25_05210;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|CP007172	HMMER	phypat	1062710	1063298	3.9999999999999999e-48	+	.	Parent=AX25_05220;Name=PF03932;Note=CutC;Description=CutC family
+accn|CP007172	HMMER	phypat	1462276	1464034	3.5999999999999986e-211	+	.	Parent=AX25_07275;Name=PF02901;Note=PFL;Description=Pyruvate formate lyase
+accn|CP007172	HMMER	phypat	1490511	1491306	5.6999999999999994e-63	+	.	Parent=AX25_07400;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|CP007172	HMMER	phypat	1494579	1495377	1.9e-62	-	.	Parent=AX25_07420;Name=PF04069;Note=OpuAC;Description=Substrate binding domain of ABC-type glycine betaine transport system
+accn|CP007172	HMMER	phypat	1652228	1652534	2.7000000000000001e-33	-	.	Parent=AX25_08170;Name=PF07085;Note=DRTGG;Description=DRTGG domain
+accn|CP007172	HMMER	phypat	1856790	1857639	2.599999999999999e-112	-	.	Parent=AX25_09205;Name=PF04898;Note=Glu_syn_central;Description=Glutamate synthase central domain
+accn|CP007172	HMMER	phypat	2050250	2052026	8.1999999999999975e-165	+	.	Parent=AX25_10165;Name=PF02901;Note=PFL;Description=Pyruvate formate lyase
+accn|CP007172	HMMER	phypat	2139659	2140106	9.6999999999999983e-52	-	.	Parent=AX25_10595;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|CP007172	HMMER	phypat	2567983	2568133	7.3e-23	-	.	Parent=AX25_12730;Name=PF13906;Note=AA_permease_C;Description=C-terminus of AA_permease
+accn|CP007172	HMMER	phypat	2711589	2712543	1.2999999999999999e-45	-	.	Parent=AX25_13480;Name=PF06224;Note=HTH_42;Description=Winged helix DNA-binding domain
+accn|CP007172	HMMER	phypat	2804068	2804962	2.3999999999999996e-112	+	.	Parent=AX25_14025;Name=PF02733;Note=Dak1;Description=Dak1 domain
+accn|CP007172	HMMER	phypat	2869060	2869213	9.9e-20	+	.	Parent=AX25_14360;Name=PF13556;Note=HTH_30;Description=PucR C-terminal helix-turn-helix domain

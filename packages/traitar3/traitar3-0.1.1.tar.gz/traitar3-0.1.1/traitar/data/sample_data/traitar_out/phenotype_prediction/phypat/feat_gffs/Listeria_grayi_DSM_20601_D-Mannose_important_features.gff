@@ -1,0 +1,13 @@
+##gff-version 3
+accn|NZ_GG692933	HMMER	phypat	116716	117160	3.7999999999999997e-55	+	.	Parent=HMPREF0556_0202;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|NZ_GG692933	HMMER	phypat	117842	118280	5.5999999999999996e-59	+	.	Parent=HMPREF0556_0203;Name=PF03830;Note=PTSIIB_sorb;Description=PTS system sorbose subfamily IIB component
+accn|NZ_GG692933	HMMER	phypat	120962	121064	3.7000000000000003e-18	-	.	Parent=HMPREF0556_0207;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692933	HMMER	phypat	209317	209416	6.2000000000000001e-18	+	.	Parent=HMPREF0556_0295;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692933	HMMER	phypat	235378	235474	4.9000000000000001e-17	+	.	Parent=HMPREF0556_0319;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692932	HMMER	phypat	136060	136153	3.5000000000000002e-14	+	.	Parent=HMPREF0556_1014;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692932	HMMER	phypat	991034	991133	6.9000000000000009e-14	-	.	Parent=HMPREF0556_1878;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692935	HMMER	phypat	157607	158789	2.7999999999999991e-139	+	.	Parent=HMPREF0556_2145;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|NZ_GG692934	HMMER	phypat	2718	3870	2.1999999999999996e-100	-	.	Parent=HMPREF0556_2245;Name=PF03611;Note=EIIC-GAT;Description=PTS system sugar-specific permease component
+accn|NZ_GG692934	HMMER	phypat	44549	44624	2.3e-14	+	.	Parent=HMPREF0556_2303;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692934	HMMER	phypat	180180	180282	5.3999999999999999e-20	+	.	Parent=HMPREF0556_2432;Name=PF00367;Note=PTS_EIIB;Description=phosphotransferase system, EIIB
+accn|NZ_GG692934	HMMER	phypat	237179	237542	5.5999999999999999e-27	+	.	Parent=HMPREF0556_2493;Name=PF01232;Note=Mannitol_dh;Description=Mannitol dehydrogenase Rossmann domain

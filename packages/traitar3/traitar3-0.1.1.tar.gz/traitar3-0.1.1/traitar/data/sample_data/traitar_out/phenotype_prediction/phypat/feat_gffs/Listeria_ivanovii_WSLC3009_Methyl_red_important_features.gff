@@ -1,0 +1,5 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	872833	873025	1.8e-24	-	.	Parent=AX25_04220;Name=PF06146;Note=PsiE;Description=Phosphate-starvation-inducible E
+accn|CP007172	HMMER	phypat	1363517	1364072	8.299999999999998e-79	-	.	Parent=AX25_06785;Name=PF11922;Note=DUF3440;Description=Domain of unknown function (DUF3440)
+accn|CP007172	HMMER	phypat	2442434	2443307	1.7999999999999993e-139	-	.	Parent=AX25_12055;Name=PF04227;Note=Indigoidine_A;Description=Indigoidine synthase A like protein
+accn|CP007172	HMMER	phypat	2741684	2742632	1.6999999999999995e-55	-	.	Parent=AX25_13705;Name=PF02126;Note=PTE;Description=Phosphotriesterase family

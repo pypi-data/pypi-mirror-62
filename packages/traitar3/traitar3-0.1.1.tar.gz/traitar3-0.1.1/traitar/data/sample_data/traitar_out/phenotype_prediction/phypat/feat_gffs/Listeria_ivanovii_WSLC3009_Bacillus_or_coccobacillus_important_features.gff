@@ -1,0 +1,3 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	1299564	1299777	4.3e-23	+	.	Parent=AX25_06440;Name=PF03880;Note=DbpA;Description=DbpA RNA binding domain
+accn|CP007172	HMMER	phypat	1817280	1817532	9.4999999999999995e-11	+	.	Parent=AX25_09030;Name=PF08447;Note=PAS_3;Description=PAS fold

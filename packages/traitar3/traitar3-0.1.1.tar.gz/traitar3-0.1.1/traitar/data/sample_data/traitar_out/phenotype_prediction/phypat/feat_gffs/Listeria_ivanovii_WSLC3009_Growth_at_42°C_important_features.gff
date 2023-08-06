@@ -1,0 +1,10 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	101569	102724	5.5999999999999991e-95	+	.	Parent=AX25_00465;Name=PF02274;Note=Amidinotransf;Description=Amidinotransferase
+accn|CP007172	HMMER	phypat	363004	363649	1.7000000000000001e-09	+	.	Parent=AX25_01685;Name=PF13483;Note=Lactamase_B_3;Description=Beta-lactamase superfamily domain
+accn|CP007172	HMMER	phypat	1132737	1133799	6.6999999999999999e-87	+	.	Parent=AX25_05545;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|CP007172	HMMER	phypat	1137167	1138277	2.9999999999999991e-121	+	.	Parent=AX25_05565;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|CP007172	HMMER	phypat	1138364	1139429	1.2999999999999998e-78	+	.	Parent=AX25_05570;Name=PF04464;Note=Glyphos_transf;Description=CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
+accn|CP007172	HMMER	phypat	1179084	1179507	1.2999999999999998e-63	+	.	Parent=AX25_05820;Name=PF10662;Note=PduV-EutP;Description=Ethanolamine utilisation - propanediol utilisation
+accn|CP007172	HMMER	phypat	1530819	1531284	4.8e-10	-	.	Parent=AX25_07590;Name=PF10662;Note=PduV-EutP;Description=Ethanolamine utilisation - propanediol utilisation
+accn|CP007172	HMMER	phypat	1653345	1653918	1.5999999999999998e-30	-	.	Parent=AX25_08175;Name=PF13483;Note=Lactamase_B_3;Description=Beta-lactamase superfamily domain
+accn|CP007172	HMMER	phypat	2411024	2411606	2.3999999999999998e-28	+	.	Parent=AX25_11905;Name=PF01865;Note=PhoU_div;Description=Protein of unknown function DUF47

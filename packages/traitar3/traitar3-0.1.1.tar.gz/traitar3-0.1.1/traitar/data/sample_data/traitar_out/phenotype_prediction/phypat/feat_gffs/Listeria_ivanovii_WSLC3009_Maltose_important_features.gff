@@ -1,0 +1,19 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	33936	34089	1.8e-09	-	.	Parent=AX25_00175;Name=PF03633;Note=Glyco_hydro_65C;Description=Glycosyl hydrolase family 65, C-terminal domain
+accn|CP007172	HMMER	phypat	137112	137520	1.5999999999999999e-38	-	.	Parent=AX25_00640;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	264898	265066	9.3000000000000014e-18	+	.	Parent=AX25_01215;Name=PF11734;Note=TilS_C;Description=TilS substrate C-terminal domain
+accn|CP007172	HMMER	phypat	392576	392975	6.6000000000000001e-35	-	.	Parent=AX25_01865;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	590281	590689	2.7000000000000001e-40	+	.	Parent=AX25_02855;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	950429	950825	1.6999999999999999e-40	+	.	Parent=AX25_04605;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	1007768	1008182	9.7999999999999998e-43	+	.	Parent=AX25_04925;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	1307774	1308185	2.2000000000000001e-33	+	.	Parent=AX25_06510;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	1467528	1467867	8.8000000000000004e-14	+	.	Parent=AX25_07295;Name=PF11188;Note=DUF2975;Description=Protein of unknown function (DUF2975)
+accn|CP007172	HMMER	phypat	1694455	1695190	5.0000000000000002e-63	-	.	Parent=AX25_08375;Name=PF01915;Note=Glyco_hydro_3_C;Description=Glycosyl hydrolase family 3 C-terminal domain
+accn|CP007172	HMMER	phypat	1849330	1850020	1.4999999999999999e-53	-	.	Parent=AX25_09180;Name=PF01915;Note=Glyco_hydro_3_C;Description=Glycosyl hydrolase family 3 C-terminal domain
+accn|CP007172	HMMER	phypat	2015284	2016757	2.299999999999999e-192	-	.	Parent=AX25_09990;Name=PF02074;Note=Peptidase_M32;Description=Carboxypeptidase Taq (M32) metallopeptidase
+accn|CP007172	HMMER	phypat	2140440	2140803	9.9999999999999998e-13	-	.	Parent=AX25_10600;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	2141129	2141528	2.7999999999999995e-34	-	.	Parent=AX25_10605;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	2279595	2279742	6.4999999999999999e-15	-	.	Parent=AX25_11270;Name=PF03633;Note=Glyco_hydro_65C;Description=Glycosyl hydrolase family 65, C-terminal domain
+accn|CP007172	HMMER	phypat	2658923	2659463	2.0999999999999999e-17	-	.	Parent=AX25_13205;Name=PF13439;Note=Glyco_transf_4;Description=Glycosyltransferase Family 4
+accn|CP007172	HMMER	phypat	2840378	2840789	7.6000000000000004e-39	-	.	Parent=AX25_14200;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|CP007172	HMMER	phypat	2816438	2816984	6.7000000000000001e-12	-	.	Parent=AX25_14095;Name=PF13439;Note=Glyco_transf_4;Description=Glycosyltransferase Family 4

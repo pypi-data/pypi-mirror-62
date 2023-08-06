@@ -1,0 +1,17 @@
+##gff-version 3
+accn|CP007172	HMMER	phypat	153233	153578	5.7999999999999991e-39	+	.	Parent=AX25_00705;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|CP007172	HMMER	phypat	305073	305376	7.1999999999999999e-32	+	.	Parent=AX25_01415;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|CP007172	HMMER	phypat	585910	586861	2.5e-46	+	.	Parent=AX25_02840;Name=PF04245;Note=NA37;Description=37-kD nucleoid-associated bacterial protein
+accn|CP007172	HMMER	phypat	614393	615107	5.5000000000000008e-60	+	.	Parent=AX25_02955;Name=PF01226;Note=Form_Nir_trans;Description=Formate/nitrite transporter
+accn|CP007172	HMMER	phypat	805886	806225	2.3999999999999999e-37	-	.	Parent=AX25_03950;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|CP007172	HMMER	phypat	808379	808688	5.9000000000000001e-13	-	.	Parent=AX25_03955;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|CP007172	HMMER	phypat	958797	959532	3.2999999999999996e-87	+	.	Parent=AX25_04665;Name=PF01226;Note=Form_Nir_trans;Description=Formate/nitrite transporter
+accn|CP007172	HMMER	phypat	1462276	1464034	3.5999999999999986e-211	+	.	Parent=AX25_07275;Name=PF02901;Note=PFL;Description=Pyruvate formate lyase
+accn|CP007172	HMMER	phypat	1531703	1531940	8.7000000000000003e-13	-	.	Parent=AX25_07595;Name=PF08211;Note=dCMP_cyt_deam_2;Description=Cytidine and deoxycytidylate deaminase zinc-binding region
+accn|CP007172	HMMER	phypat	1788797	1789724	1.4999999999999998e-123	-	.	Parent=AX25_08815;Name=PF08267;Note=Meth_synt_1;Description=Cobalamin-independent synthase, N-terminal domain
+accn|CP007172	HMMER	phypat	1804276	1804471	1.6000000000000001e-25	-	.	Parent=AX25_08965;Name=PF04167;Note=DUF402;Description=Protein of unknown function (DUF402)
+accn|CP007172	HMMER	phypat	1838406	1838706	3.9e-13	-	.	Parent=AX25_09140;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|CP007172	HMMER	phypat	2044479	2044818	7.6999999999999999e-12	+	.	Parent=AX25_10140;Name=PF07694;Note=5TM-5TMR_LYT;Description=5TMR of 5TMR-LYT
+accn|CP007172	HMMER	phypat	2050250	2052026	8.1999999999999975e-165	+	.	Parent=AX25_10165;Name=PF02901;Note=PFL;Description=Pyruvate formate lyase
+accn|CP007172	HMMER	phypat	2135493	2135829	3.7000000000000002e-28	-	.	Parent=AX25_10570;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component
+accn|CP007172	HMMER	phypat	2805647	2805965	6.5999999999999998e-31	+	.	Parent=AX25_14035;Name=PF03610;Note=EIIA-man;Description=PTS system fructose IIA component

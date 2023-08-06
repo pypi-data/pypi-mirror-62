@@ -1,0 +1,19 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	45700	46390	5.599999999999999e-56	-	.	Parent=HMPREF0556_0045;Name=PF01915;Note=Glyco_hydro_3_C;Description=Glycosyl hydrolase family 3 C-terminal domain
+accn|NZ_GG692933	HMMER	phypat	123297	123699	3.3000000000000002e-37	-	.	Parent=HMPREF0556_0208;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692933	HMMER	phypat	158756	158909	1.5e-17	+	.	Parent=HMPREF0556_0241;Name=PF03633;Note=Glyco_hydro_65C;Description=Glycosyl hydrolase family 65, C-terminal domain
+accn|NZ_GG692933	HMMER	phypat	207350	207710	5.0999999999999995e-24	+	.	Parent=HMPREF0556_0293;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692933	HMMER	phypat	229349	229745	9.4000000000000013e-24	+	.	Parent=HMPREF0556_0313;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692933	HMMER	phypat	272557	272956	7.4999999999999997e-36	-	.	Parent=HMPREF0556_0360;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692933	HMMER	phypat	296044	296731	1.9000000000000003e-21	+	.	Parent=HMPREF0556_0380;Name=PF04230;Note=PS_pyruv_trans;Description=Polysaccharide pyruvyl transferase
+accn|NZ_GG692933	HMMER	phypat	315045	315801	1.8000000000000002e-54	+	.	Parent=HMPREF0556_0399;Name=PF01915;Note=Glyco_hydro_3_C;Description=Glycosyl hydrolase family 3 C-terminal domain
+accn|NZ_GG692933	HMMER	phypat	331339	331561	1.7000000000000001e-29	+	.	Parent=HMPREF0556_0414;Name=PF01773;Note=Nucleos_tra2_N;Description=Na+ dependent nucleoside transporter N-terminus
+accn|NZ_GG692933	HMMER	phypat	404678	405077	5.8999999999999996e-37	+	.	Parent=HMPREF0556_0495;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692933	HMMER	phypat	650317	651784	1.0999999999999997e-188	+	.	Parent=HMPREF0556_0750;Name=PF02074;Note=Peptidase_M32;Description=Carboxypeptidase Taq (M32) metallopeptidase
+accn|NZ_GG692932	HMMER	phypat	268043	268727	4.8000000000000001e-16	+	.	Parent=HMPREF0556_1151;Name=PF04230;Note=PS_pyruv_trans;Description=Polysaccharide pyruvyl transferase
+accn|NZ_GG692932	HMMER	phypat	332010	332424	2.9999999999999996e-39	+	.	Parent=HMPREF0556_1229;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692932	HMMER	phypat	532041	532848	5.7999999999999996e-26	+	.	Parent=HMPREF0556_1433;Name=PF04230;Note=PS_pyruv_trans;Description=Polysaccharide pyruvyl transferase
+accn|NZ_GG692935	HMMER	phypat	25475	26015	8.6999999999999999e-18	+	.	Parent=HMPREF0556_2018;Name=PF13439;Note=Glyco_transf_4;Description=Glycosyltransferase Family 4
+accn|NZ_GG692934	HMMER	phypat	21148	21970	5.8e-19	-	.	Parent=HMPREF0556_2266;Name=PF04230;Note=PS_pyruv_trans;Description=Polysaccharide pyruvyl transferase
+accn|NZ_GG692934	HMMER	phypat	47226	47634	1.5999999999999999e-33	+	.	Parent=HMPREF0556_2305;Name=PF07702;Note=UTRA;Description=UTRA domain
+accn|NZ_GG692934	HMMER	phypat	342869	343061	6.0999999999999993e-17	+	.	Parent=HMPREF0556_2608;Name=PF11734;Note=TilS_C;Description=TilS substrate C-terminal domain

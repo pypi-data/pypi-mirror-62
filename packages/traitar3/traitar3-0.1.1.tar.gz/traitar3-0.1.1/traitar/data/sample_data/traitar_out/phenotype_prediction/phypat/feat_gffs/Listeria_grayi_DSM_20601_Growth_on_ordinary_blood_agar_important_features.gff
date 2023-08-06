@@ -1,0 +1,14 @@
+##gff-version 3
+accn|NZ_GG692936	HMMER	phypat	70750	71125	4.7000000000000003e-36	-	.	Parent=HMPREF0556_0071;Name=PF00781;Note=DAGK_cat;Description=Diacylglycerol kinase catalytic domain
+accn|NZ_GG692933	HMMER	phypat	250847	251759	6.0999999999999987e-85	+	.	Parent=HMPREF0556_0337;Name=PF03601;Note=Cons_hypoth698;Description=Conserved hypothetical protein 698
+accn|NZ_GG692933	HMMER	phypat	449903	450275	4.8999999999999993e-37	+	.	Parent=HMPREF0556_0537;Name=PF00781;Note=DAGK_cat;Description=Diacylglycerol kinase catalytic domain
+accn|NZ_GG692933	HMMER	phypat	683478	683643	2.1000000000000001e-16	+	.	Parent=HMPREF0556_0786;Name=PF01471;Note=PG_binding_1;Description=Putative peptidoglycan binding domain
+accn|NZ_GG692932	HMMER	phypat	77377	77755	9.1999999999999992e-11	-	.	Parent=HMPREF0556_0955;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
+accn|NZ_GG692932	HMMER	phypat	318673	319087	7.7999999999999996e-40	-	.	Parent=HMPREF0556_1212;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
+accn|NZ_GG692932	HMMER	phypat	438094	438343	2.3999999999999999e-13	-	.	Parent=HMPREF0556_1337;Name=PF04397;Note=LytTR;Description=LytTr DNA-binding domain
+accn|NZ_GG692932	HMMER	phypat	511243	511642	2e-35	+	.	Parent=HMPREF0556_1410;Name=PF02706;Note=Wzz;Description=Chain length determinant protein
+accn|NZ_GG692935	HMMER	phypat	44479	44821	5.8999999999999996e-23	+	.	Parent=HMPREF0556_2037;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
+accn|NZ_GG692935	HMMER	phypat	99820	100111	2.8e-27	-	.	Parent=HMPREF0556_2094;Name=PF04397;Note=LytTR;Description=LytTr DNA-binding domain
+accn|NZ_GG692934	HMMER	phypat	192563	192830	1.1000000000000001e-27	+	.	Parent=HMPREF0556_2446;Name=PF04397;Note=LytTR;Description=LytTr DNA-binding domain
+accn|NZ_GG692934	HMMER	phypat	217815	218130	3.1999999999999999e-18	-	.	Parent=HMPREF0556_2473;Name=PF06114;Note=DUF955;Description=Domain of unknown function (DUF955)
+accn|NZ_GG692934	HMMER	phypat	239650	239977	1.8999999999999998e-32	-	.	Parent=HMPREF0556_2496;Name=PF01451;Note=LMWPc;Description=Low molecular weight phosphotyrosine protein phosphatase
