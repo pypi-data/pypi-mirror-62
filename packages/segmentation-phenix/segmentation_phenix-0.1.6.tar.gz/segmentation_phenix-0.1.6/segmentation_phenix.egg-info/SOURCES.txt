@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+segmentation_phenix/__init__.py
+segmentation_phenix/fastmm.cpp
+segmentation_phenix/fmath.hpp
+segmentation_phenix/segmentation.pyx
+segmentation_phenix.egg-info/PKG-INFO
+segmentation_phenix.egg-info/SOURCES.txt
+segmentation_phenix.egg-info/dependency_links.txt
+segmentation_phenix.egg-info/requires.txt
+segmentation_phenix.egg-info/top_level.txt
