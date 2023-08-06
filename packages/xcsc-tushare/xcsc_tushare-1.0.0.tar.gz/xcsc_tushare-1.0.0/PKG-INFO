@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: xcsc_tushare
+Version: 1.0.0
+Summary: Tushare_Xiangcai Securities version
+Home-page: https://www.xcsc.com
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: 
+        PingAn API 
+        ===============
+        
+        xcsc_tushare stock data api
+        
+        
+Keywords: Financial Data
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
