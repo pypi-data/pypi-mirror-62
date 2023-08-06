@@ -1,0 +1,5 @@
+pipfile
+setuptools
+wheel
+twine
+perseus-restful-api-client-library
