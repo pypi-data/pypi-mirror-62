@@ -1,0 +1,11 @@
+codecov
+coverage
+gitpipe
+glovebox
+hypothesis
+izzy
+numpy
+pandas
+pyyaml
+scipy
+sphinx
