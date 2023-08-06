@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: agilicus
+Version: 1.4.0
+Summary: Agilicus SDK
+License: MIT
+Author: Don Bowman
+Author-email: don@agilicus.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: certifi (>=14.05.14)
+Requires-Dist: python_dateutil (>2.5.3)
+Requires-Dist: six (>1.10)
+Requires-Dist: urllib3 (>1.15.1)
+Description-Content-Type: text/markdown
+
+## Agilicus SDK (Python)
+
+[generated](agilicus_README.md)
+
