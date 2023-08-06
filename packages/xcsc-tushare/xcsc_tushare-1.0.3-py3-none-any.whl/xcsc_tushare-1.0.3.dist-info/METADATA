@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: xcsc-tushare
+Version: 1.0.3
+Summary: xcsc_tushare stock data api
+Home-page: https://www.xcsc.com
+Author: Xiangcai Security
+Author-email: itsupport@xcsc.com
+License: MIT
+Keywords: Financial Data
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas (>=0.16.0)
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: lxml (>=3.8.0)
+Requires-Dist: simplejson (>=3.16.0)
+Requires-Dist: beautifulsoup4 (>=0.0.1)
+
+
+PingAn API 
+===============
+
+http://101.226.250.236:7173/document/1
+
+
+
