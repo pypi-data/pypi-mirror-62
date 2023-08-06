@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: Flasko
+Version: 0.1.0
+Summary: A Flask Boilerplate
+Home-page: https://github.com/fitiavana07/flasko
+Author: Fitiavana Ramanandafy
+Author-email: fitiavana.ramanandafy@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/fitiavana07/flasko
+Project-URL: Code, https://github.com/fitiavana07/flasko
+Project-URL: Issue tracker, https://github.com/fitiavana07/flasko/issues
+Description: Flasko: A Flask Boilerplate
+        ===========================
+        
+        (Boostraped from `pybo`_ 0.1)
+        
+        .. _pybo: https://github.com/fitiavana07/pybo
+        
+        Installation
+        ------------
+        
+        Virtualenv::
+        
+            make venv
+        
+        Install `pre-commit` hooks::
+        
+            make hooks
+        
+        Start Development
+        -----------------
+        
+        Install locally::
+        
+            make install
+        
+        
+        TODO
+        ----
+        
+        * Pytest Fixutres
+        * Blueprint generation: ``flasko generate blueprint``
+        * Test generation with a blueprint
+        * Data validation
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Provides-Extra: dev
