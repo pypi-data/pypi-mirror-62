@@ -1,0 +1,16 @@
+pyImpinj/ImpinjR2K.py,sha256=tHOZvPYbV0262E7aqSf7cqSNIR_8jhusdr2bPJT9Qv0,7311
+pyImpinj/__init__.py,sha256=zUG2RpkYYdloGv5y32TSpYWWJ1zjvK4aEYESTemXS2k,21419
+pyImpinj/constant.py,sha256=TMFgIkkEZtxEuDJhxs9gWWR3UoyusLalZ15agLWT0Qw,718
+pyImpinj/enums.py,sha256=bjM4rSIXEOZHUOgUiKd3Ca3kdE60gIzyWCVXhKt-vGM,6415
+pyImpinj/protocol.py,sha256=PNogWv31XuJGKeBdoOVlM02uStrdfk4VZIatQdRUGWg,11310
+pyImpinj/test/auto_config.py,sha256=KiuGIPLEJYj3chXT721BJ1RAqrg2yKVc3ywhiY14Wdg,1173
+pyImpinj/test/case_read.py,sha256=tj1wXMhwla4aY4AMGkXQAQY5BQqYyBcWSeLS9D5y0_Q,1503
+pyImpinj/test/case_write.py,sha256=DGrm4vLDyLC_KE-n3-BZxp-d0Z6c0Vtjmbda73LOZUE,1475
+pyImpinj/test/inventory-fast.py,sha256=DPWSdNE8TW1gzIrOGhJLYd56DbK0Jr-BrlL4WBMmod8,1720
+pyImpinj/test/inventory-rt.py,sha256=QbKO3OQwMe369j7tBrxnLRlYyEnCH9UZoRR1ESjwDsI,1657
+pyImpinj/test/inventory.py,sha256=v46OUYxGyq860vNn-YCSVi7eZGrLlqgO9Ql0MWIEuh8,1755
+pyImpinj-1.2.dist-info/LICENSE,sha256=uycq_kg_yZpqcLzey1bWZznTQ467HDlT92b5J-cyt_w,1063
+pyImpinj-1.2.dist-info/METADATA,sha256=A5FuTVHDKcV-JA7En7pmgBMF1ogK3wAS5paAukG5wjk,1657
+pyImpinj-1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pyImpinj-1.2.dist-info/top_level.txt,sha256=uF0eZvjfyKbLww7sEqO5pWHK1EEqE95I-hTqEUmsat8,9
+pyImpinj-1.2.dist-info/RECORD,,
