@@ -1,0 +1,11 @@
+mtneedlet/__init__.py,sha256=mHIQIPsmhWm62ME7tMppbeKWyYfx6zh0NrT45gNP-MM,787
+mtneedlet/maxima.py,sha256=6cwGDen3SgFj-6E30LBYjziOWchx29jKFioU_CkGTPc,7331
+mtneedlet/mt.py,sha256=pNGDseBux4ONhEqcZk2N8Czv4OrTXwzC-z5ppZzVLmg,9656
+mtneedlet/needlets.py,sha256=b5Hj5JOmdQ9z7d5JyB7b9-TIwF1lmKMkQC1XE8ZOkRM,9253
+mtneedlet/tools.py,sha256=ZbByUUeW45f_ACi4VnuYfZNgUk-VrYrfxkNf8QlvwGs,3346
+mtneedlet/version.py,sha256=IyW3fZJBmKY6v89EjC1u6GtpcrfhhkJd5DPZjU34I-8,20
+mtneedlet-0.0.5.dist-info/LICENSE,sha256=kyZh1dww_EkgDWzilr7It3y1RSfyEG_ZNuixp1RwW_g,1064
+mtneedlet-0.0.5.dist-info/METADATA,sha256=obBm5n3GmNE7c3ygso2rGOKopAgFJnQFKPSa6O0HvEU,1361
+mtneedlet-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mtneedlet-0.0.5.dist-info/top_level.txt,sha256=Xx7gKI4jNWUVCqp4B8B1o80BTFq2qgolhY6rEMLkCAM,10
+mtneedlet-0.0.5.dist-info/RECORD,,
