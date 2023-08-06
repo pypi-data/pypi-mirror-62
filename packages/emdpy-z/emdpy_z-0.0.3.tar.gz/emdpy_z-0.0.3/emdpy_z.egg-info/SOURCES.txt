@@ -1,0 +1,16 @@
+README.md
+setup.py
+emdpy/__init__.py
+emdpy/emd.py
+emdpy/metrics.py
+emdpy/utils.py
+emdpy/visualize.py
+emdpy/eqs/lineqs_direct.py
+emdpy/eqs/lineqs_itera.py
+emdpy/insert_value/cubic_spline.py
+emdpy/insert_value/lagrange.py
+emdpy_z.egg-info/PKG-INFO
+emdpy_z.egg-info/SOURCES.txt
+emdpy_z.egg-info/dependency_links.txt
+emdpy_z.egg-info/requires.txt
+emdpy_z.egg-info/top_level.txt

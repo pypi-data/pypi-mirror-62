@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: emdpy-z
+Version: 0.0.3
+Summary: Empirical Mode Decomposition, EMD
+Home-page: https://github.com/zhf026/emd
+Author: zhf026
+Author-email: zhf026@outlook.com
+License: UNKNOWN
+Description: # Empirical Mode Decomposition, EMD
+        ## Installation
+        ```python
+            pip install emdpy-z
+        ```
+        ## Quick Start
+        ```python
+            # Import 
+            from emdpy.emd import *
+            import numpy as np
+        
+            # Input
+            t = np.linspace(0, 1, 1000)
+            modes = np.sin(2 * np.pi * 5 * t) + np.sin(2 * np.pi * 10 * t)
+            y = modes + t
+            x, y = t, y
+        
+            # EMD
+            imfs, res, (mean, std) = emd(x, y, mode=0, ps=len(x), max_iter_num = 20)
+            
+            # Plot the figs
+            plot_imfs(imfs, res, col=1)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
