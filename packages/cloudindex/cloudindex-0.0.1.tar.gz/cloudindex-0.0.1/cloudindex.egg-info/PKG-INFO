@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cloudindex
+Version: 0.0.1
+Summary: Cloud bucker indexer
+Home-page: https://github.com/divi255/cloud-index
+Author: Sergei S.
+Author-email: s@makeitwork.cz
+License: MIT
+Description: # cloudindex
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Archiving :: Backup
+Description-Content-Type: text/markdown
