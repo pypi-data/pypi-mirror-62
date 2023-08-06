@@ -1,0 +1,10 @@
+tabular_data_synthesizer/__init__.py,sha256=zB3FAn7CvlE_Bocd_P9pGilKntWNVb3dn9NAjgKxmok,131
+tabular_data_synthesizer/constants.py,sha256=szAVUaznb3ydJLC3lXElcKBDOIbhidGOHUzmsHg7zFM,100
+tabular_data_synthesizer/ctgan.py,sha256=ujLLq74jkeNzHoOIWr7HuhbaLsSwZW5dCnAyWx3JfkM,17533
+tabular_data_synthesizer/nonlinearity.py,sha256=Euxhh1t2Cpsz5ZPliKhtEEM967X34i4_XQcu_V5J9rU,714
+tabular_data_synthesizer/optimizers.py,sha256=1yerJb3n7ASlM4vur2cyBjjN7Uj3C1escVhg_NhSQTU,7233
+tabular_data_synthesizer/preprocessor.py,sha256=E96_SBM2a_zAvUhOVh7uUDozvDn-YL8fSEJbMI0soy0,14892
+Tabular_Data_Synthesizer-0.1.dist-info/METADATA,sha256=fXtD5kOXqZUnp0OiMAawwaZaMVmv5vQuIYMMn4KvUJo,2484
+Tabular_Data_Synthesizer-0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+Tabular_Data_Synthesizer-0.1.dist-info/top_level.txt,sha256=-QOAyoCJaiEJl-ACFiwGpEtOd1xQfFIyKpzrXNSTreQ,25
+Tabular_Data_Synthesizer-0.1.dist-info/RECORD,,
