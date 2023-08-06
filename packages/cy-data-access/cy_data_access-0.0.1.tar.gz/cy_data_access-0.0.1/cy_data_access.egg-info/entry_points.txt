@@ -1,0 +1,3 @@
+[console_scripts]
+cy_data_access = cy_data_access.cli:main
+
