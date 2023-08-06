@@ -1,0 +1,11 @@
+pyosrm.cpython-37m-x86_64-linux-gnu.so,sha256=Nh3hLXoIpR4de3khKUXrJhAOPl4WvtOM7qHWiHPEq44,4918824
+.libspyosrm/libboost_filesystem-8e731c7e.so.1.54.0,sha256=QNOC4CUoUrFW7H4hqpFt0g4wOAEQ28FxMYoe9VIDsTo,284264
+.libspyosrm/libboost_iostreams-5b527283.so.1.54.0,sha256=r5OYaY-3BRIAjAdXdXLXX4idymC6ACsdDUSgUnNHupA,230776
+.libspyosrm/libbz2-a273e504.so.1.0.6,sha256=NuNXWorrhZjhY6L6cTe8aSQJ3QUGY4v7JnMFnjs5hSc,70992
+.libspyosrm/libz-d8a329de.so.1.2.7,sha256=3UKbcYlgGJ4uwAkIdNw8fL3nrEKkaa5JOjm9hEzNdvw,96272
+.libspyosrm/libboost_system-762e0962.so.1.54.0,sha256=0do05c4Qev2jkDYrYVb7zD26JF95fb86OLGnKKaNRAc,21664
+.libspyosrm/libboost_thread-75bfc3e3.so.1.54.0,sha256=ms2d7SaSVZnJPcYecJexvL76WaHgenpmLR0u-3wCQgo,360064
+pyosrm-0.0.1.dist-info/top_level.txt,sha256=TIkzN8fQ4HRbUxzFYNIdFg40uip3NTU-AjaL4uwyuJs,7
+pyosrm-0.0.1.dist-info/WHEEL,sha256=pS-jVmEZOyrgrXNZ7O0l1UkFev76jSvEsnqlDkXLK84,112
+pyosrm-0.0.1.dist-info/RECORD,,
+pyosrm-0.0.1.dist-info/METADATA,sha256=8LPGyq90NOrFxwodMj8DTAa0ON_2Kq0EnBAoXGaB-_8,2273
