@@ -1,0 +1,10 @@
+gevent
+gunicorn
+pyramid
+pyramid-debugtoolbar
+pyramid-layout
+pyramid_chameleon
+pyramid_tm
+transaction
+waitress
+zope.sqlalchemy

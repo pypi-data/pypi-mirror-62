@@ -1,0 +1,6 @@
+factory-boy
+faker
+pytest
+pytest-cov
+pytest-runner
+tox
