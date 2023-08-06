@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: supertokens-jwt-ref
+Version: 2.0.0
+Summary: SuperTokens session management solution
+Home-page: https://github.com/supertokens/supertokens-django-ref-jwt
+Author: Bhumil Sarvaiya, Rishabh Poddar
+Author-email: sarvaiyabhumil@gmail.com, rishabh@supertokens.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: django
+Requires-Dist: djangorestframework
+Requires-Dist: pycryptodome
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-django; extra == 'dev'
+Requires-Dist: jsonschema; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: autopep8; extra == 'dev'
+
+![SuperTokens banner](https://raw.githubusercontent.com/supertokens/supertokens-logo/master/images/Artboard%20%E2%80%93%2027%402x.png)
+
+**This repository has been deprecated in favour of [SuperTokens core - Community version](https://github.com/supertokens/supertokens-core)**. For any new user, we heavily recommend using the SuperTokens core - Community version over this repository as all new features will be added to that.
+
+Please refer to our [migration guide](https://supertokens.io/docs/community/migration) on how to move to the new version. For existing users of this repository, we will be happy to provide free dedicated support for the purpose of migration.
+
+## Documentation
+
+- If you intend to keep using this version, the documentation for this is [here](https://supertokens.github.io/supertokens-django-ref-jwt/docs/introduction/what-and-why). We will keep maintaining this repository for bug fixes, **but will not be adding any new features to it**.
+- This is only compatible with version ```4+``` of the ```supertokens-website``` respository, and version ```1+``` of any other frontend SDK that we provide.
+
+
