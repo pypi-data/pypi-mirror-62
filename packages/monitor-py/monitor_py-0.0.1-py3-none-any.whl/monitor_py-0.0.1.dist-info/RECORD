@@ -1,0 +1,10 @@
+monitor/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitor/modules/filecheck.py,sha256=U1e0P1-Gy5H19NJ2l7oylv74BI0VRtELA6Kd01okb2U,1328
+monitor/modules/logs.py,sha256=vssXWWojddVhivbA7aSymwAW7CwIRnUP1XXkxC3F7NY,994
+monitor/modules/suppress.py,sha256=Btee_VU0o-J1_CkWSyhjbB1bVsCiyET7ubl3MGYkNLs,282
+monitor_py-0.0.1.data/scripts/scan.py,sha256=DadMQSBflqtq3iP-Ts46gNwmjSq7vQVFTTAbS77wERg,1822
+monitor_py-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitor_py-0.0.1.dist-info/METADATA,sha256=MU7Rt10XHJygkVHOyU1ko4NoCtEEtpWBlZFcR5hZEc8,1830
+monitor_py-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+monitor_py-0.0.1.dist-info/top_level.txt,sha256=tGkQDkVeyKgP5Rr7acpp0df83NBAnI8up0sGwRxuuQ4,8
+monitor_py-0.0.1.dist-info/RECORD,,
