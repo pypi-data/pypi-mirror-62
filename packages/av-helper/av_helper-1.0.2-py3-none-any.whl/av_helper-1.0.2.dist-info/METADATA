@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: av-helper
+Version: 1.0.2
+Summary: An Audio-Video Helper Utility Package in Python
+Home-page: https://github.com/Vibhu-Agarwal/av_helper
+Author: Vibhu Agarwal
+Author-email: vibhu4agarwal@gmail.com
+License: MIT
+Keywords: audio video av moviepy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: idna (==2.9)
+Requires-Dist: imageio (==2.8.0)
+Requires-Dist: imageio-ffmpeg (==0.4.1)
+Requires-Dist: moviepy (==1.0.1)
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: opencv-contrib-python (==4.2.0.32)
+Requires-Dist: Pillow (==7.0.0)
+Requires-Dist: proglog (==0.1.9)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: tqdm (==4.43.0)
+Requires-Dist: urllib3 (==1.25.8)
+
+# av_helper
+An Audio-Video Helper Utility Package in Python
+
+
