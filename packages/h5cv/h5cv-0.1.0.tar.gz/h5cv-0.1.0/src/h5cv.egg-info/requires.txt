@@ -1,0 +1,9 @@
+h5py
+click
+PyYAML
+imgcat
+
+[test]
+tox
+twine
+wheel
