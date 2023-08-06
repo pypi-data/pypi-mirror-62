@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: polyasite-models
+Version: 0.0.1
+Summary: Models for PolyASite web service
+Home-page: UNKNOWN
+Author: Christina J. Herrmann
+Author-email: christina.herrmann@unibas.ch
+License: UNKNOWN
+Description: # Database schema for PolyASite
+        [PolyASite](https://polyasite.unibas.ch)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
