@@ -1,0 +1,17 @@
+starship_loader/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+starship_loader/swapi.py,sha256=k7PNvkmfmDhRvkeYBU3X33ETY5ITA12bAWyI-1bVqV0,4364
+sw_journey_planner/__init__.py,sha256=tQspo-FFT19uib7hohs1dp0VGdQZrTpqsNJeC5vue6c,88
+sw_journey_planner/command_line.py,sha256=q4iyX4zwiksliDNH6PKH63gjl8IPTkUCgryxi5rBHGs,886
+sw_journey_planner/starship.py,sha256=1AY-wB1NARxBRClhOEMcyA0yU-IE8DfuP9TITH2EiQw,2212
+sw_journey_planner/swapi.py,sha256=osKxGgxIU6XzjZn6qhivd5lsFBvXlySGpuma5wo8D7w,4375
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_starship.py,sha256=CA-mMDqaGKi6WRqndNORIIwhgXanBCs6I6dqT6DRV3U,1969
+test/test_swapi_convert_consumables_to_hours.py,sha256=AXX34no3XuM-hedgj6K3n2unVS8lsaPu7COzQFbAzwE,1093
+test/test_swapi_create_starship.py,sha256=psFSDihbDKcwt1rh9iot1HtmQWQBA4_OKXF1kvBy_rQ,1399
+test/test_swapi_load_starships.py,sha256=2cpoM0PX_o9D-TsRKuB1sAHq27uzMXhv8APemmeEsQw,1613
+test/test_swapi_parse_consumables.py,sha256=OdpwdntIXzLNOOvNjrQRed0OjWHJS7jWy0pVm_0O0ec,1185
+sw_journey_planner-1.0.5.dist-info/METADATA,sha256=xJVUjRaXCQPG9R5xttUWD1b_kOcBQlLQTrxb1NRvL-M,201
+sw_journey_planner-1.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sw_journey_planner-1.0.5.dist-info/entry_points.txt,sha256=xnJD-VoCH4Omj8Wda9vhPkVELcRhus49qvPSL8wbPSQ,77
+sw_journey_planner-1.0.5.dist-info/top_level.txt,sha256=EU5HwlNCNZsSMr1dFgBs0XimQU38l34h9hc3610JQEQ,19
+sw_journey_planner-1.0.5.dist-info/RECORD,,
