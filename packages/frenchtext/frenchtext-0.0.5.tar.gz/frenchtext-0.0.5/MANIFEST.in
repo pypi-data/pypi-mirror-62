@@ -1,0 +1,8 @@
+include settings.ini
+include LICENSE
+include CONTRIBUTING.md
+include README.md
+include frenchtext/data/chars/*.csv
+include frenchtext/data/chars/stats/*.csv
+include frenchtext/data/datasets/*.csv
+recursive-exclude * __pycache__
