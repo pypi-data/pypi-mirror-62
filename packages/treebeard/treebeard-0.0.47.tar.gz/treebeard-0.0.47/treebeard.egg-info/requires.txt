@@ -1,0 +1,14 @@
+click
+google-cloud-storage
+halo
+papermill
+jupyter-repo2docker
+colorama
+ipykernel
+pathlib
+timeago
+humanfriendly
+sentry-sdk
+pyyaml
+pydantic
+docker
