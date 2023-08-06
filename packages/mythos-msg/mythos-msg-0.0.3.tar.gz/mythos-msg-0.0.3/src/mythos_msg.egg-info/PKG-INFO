@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mythos-msg
+Version: 0.0.3
+Summary: Mythos Messaging
+Home-page: https://github.com/theyarek/mythos-msg
+Author: Jaroslaw Wojtas
+License: Apache 2.0
+Description: Mythos Messaging
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Provides-Extra: tests
+Provides-Extra: dev
