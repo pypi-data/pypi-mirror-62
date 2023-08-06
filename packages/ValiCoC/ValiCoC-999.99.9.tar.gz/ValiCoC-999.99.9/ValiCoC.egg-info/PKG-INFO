@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: ValiCoC
+Version: 999.99.9
+Summary: Validation code filter
+Home-page: https://github.com/Adam-Miao/ValiCoC/
+Author: O_O
+Author-email: Adammiao@outlook.com
+License: UNKNOWN
+Description: =============================================
+        Valicoc - Validation Code Check and save
+        =============================================
+        This module uses module `re` to match more-than-four-digits-validation-code
+        +-------------------+------------+
+        |      Message      |   Result   |
+        +===================+============+
+        | 【***】您好，本次 |            |
+        | 登录验证码为103562|   103562   |
+        | ，请注意查收      |            |
+        +-------------------+------------+
+        | 【***】短信验证码 |            |
+        | 806549，请在十分  |   806549   |
+        | 钟内完成验证。    |            |
+        +-------------------+------------+
+        ...
+        
+        Usage:
+        `import valicoc
+        valicoc.get("Your message")`
+        
+        This module is only for Chinese messages, and messages have to have
+        keyword `验证码`.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
