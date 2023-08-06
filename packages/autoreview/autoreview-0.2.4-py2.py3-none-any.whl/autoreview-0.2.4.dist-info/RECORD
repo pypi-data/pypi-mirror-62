@@ -1,0 +1,14 @@
+autoreview/__init__.py,sha256=UG4IzC6QX8MFsKfu3PsmJJMCs3jvLoDbNZxPNhKoXdE,116
+autoreview/config.py,sha256=6TnVADoWyXZLhp7C9Hn0LJzmLyL1L3t01gaXCsa-WwU,7355
+autoreview/core.py,sha256=XU_36eklYdFdP3JxoQzGFY_xO1lnHP6zOmeTkPX35VI,21418
+autoreview/pipeline_autoreview.py,sha256=SotfldZ6j6z59GZnmySWyrhMg8CGpSopT4F-IKH-0SA,4829
+autoreview/spark_get_papers_2_degrees_out.py,sha256=wQ7fDDGRea6ChMEgdu4_k6koAE5iGzTyjZ1QMaIpKTE,5848
+autoreview/transformers.py,sha256=FbOY4XutkaY71_cAc7BVkROY0l1Kj-WBHTZrgRyCE9Y,6220
+autoreview/util.py,sha256=M0YLLY4UYurKMI88x4qGkU1LMRBrGAsMmW-6XFJ0gWw,7942
+autoreview/reanalysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoreview/reanalysis/collect_precision_recall.py,sha256=i5prsszkRAxgsvG3kSGTdD7Sl4n7XK5DWQN0a4KB474,6353
+autoreview-0.2.4.dist-info/LICENSE,sha256=AECJ4GgFEls2HY_bD2dxiwoNw17eOz7yFMLlbY2Zh94,1071
+autoreview-0.2.4.dist-info/METADATA,sha256=dL7aEM87PqgziBaAsopEiyLEH-t4ZO75WKZdnvSJR2E,3393
+autoreview-0.2.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+autoreview-0.2.4.dist-info/top_level.txt,sha256=BRwtoyOH6aMem3I-aD-HgDkZ3wFJpfRZQi-fYK-2f7E,11
+autoreview-0.2.4.dist-info/RECORD,,
