@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: enroll_gcalendar
+Version: 0.2
+Summary: Convert enroll-me.iiet.pl schedules to google calendar for CS IET students
+Home-page: https://github.com/hoob3rt/enroll-gcalendar
+Author: Hubert Pelczarski
+Author-email: pelczarskihubert@gmail.com
+License: MIT
+Download-URL: https://github.com/hoob3rt/enroll-gcalendar/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: agh,google-calendar-api,enroll-me.iiet.pl
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
