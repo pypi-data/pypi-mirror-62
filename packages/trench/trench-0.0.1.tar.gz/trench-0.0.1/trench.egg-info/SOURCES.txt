@@ -1,0 +1,7 @@
+README.md
+setup.py
+trench/__init__.py
+trench.egg-info/PKG-INFO
+trench.egg-info/SOURCES.txt
+trench.egg-info/dependency_links.txt
+trench.egg-info/top_level.txt
