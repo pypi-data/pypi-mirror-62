@@ -1,0 +1,3 @@
+[console_scripts]
+resnet_models = src.main:main
+
