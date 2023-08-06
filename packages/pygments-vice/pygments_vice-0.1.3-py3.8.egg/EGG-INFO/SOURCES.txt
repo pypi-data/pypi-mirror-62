@@ -1,0 +1,10 @@
+README.md
+setup.py
+pygments_vice.egg-info/PKG-INFO
+pygments_vice.egg-info/SOURCES.txt
+pygments_vice.egg-info/dependency_links.txt
+pygments_vice.egg-info/entry_points.txt
+pygments_vice.egg-info/requires.txt
+pygments_vice.egg-info/top_level.txt
+vice/__init__.py
+vice/vice.py
