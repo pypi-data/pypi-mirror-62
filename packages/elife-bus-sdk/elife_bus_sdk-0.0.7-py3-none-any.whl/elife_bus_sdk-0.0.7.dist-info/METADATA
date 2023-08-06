@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: elife-bus-sdk
+Version: 0.0.7
+Summary: This library provides a Python SDK for the eLife Sciences Bus
+Home-page: https://github.com/elifesciences/bus-sdk-python.git
+Maintainer: eLife Sciences Publications Ltd.
+Maintainer-email: tech-team@elifesciences.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: boto3 (>=1.4.7)
+
+UNKNOWN
+
+
