@@ -1,0 +1,6 @@
+numpy
+pandas
+pandasql
+msrest
+scipy
+statsmodelsantlr4-python3-runtime==4.8
