@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pvlv-interactions
+Version: 0.0.2
+Summary: Natural language processing for Pavlov
+Home-page: https://github.com/The-Pavlov-Project/pvlv-interactions
+Author: AbbestiaDC
+Author-email: not.simone.scuola@outlook.com
+License: LGPLv3
+Description: # Pavlov Interactions
+        
+        To interact with text in easy way
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
