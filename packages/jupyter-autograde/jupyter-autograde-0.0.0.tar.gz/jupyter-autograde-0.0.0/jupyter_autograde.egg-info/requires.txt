@@ -1,0 +1,10 @@
+ipykernel
+jupyter
+matplotlib
+seaborn
+numpy
+pandas
+tabulate
+
+[develop]
+nose
