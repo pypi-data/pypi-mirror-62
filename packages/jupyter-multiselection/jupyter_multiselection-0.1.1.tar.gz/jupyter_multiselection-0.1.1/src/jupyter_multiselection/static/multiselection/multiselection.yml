@@ -1,0 +1,33 @@
+Type: Jupyter Notebook Extension
+Compatibility: 5.x 6.x
+Name: Multiselection
+Main: multiselection.js
+Icon: icon.png
+Link: README.md
+Description: A nbextension to select occurences of the currently selected text
+# Section: Multiselection
+Parameters:
+- name: highlight
+  description: Enables/deactivates selection highlight
+  input_type: checkbox
+  default: true
+- name: wrapcell
+  description: Wraps selection after end of cell
+  input_type: checkbox
+  default: true
+- name: allcells
+  description: Wraps selection across all cells
+  input_type: checkbox
+  default: false
+- name: nextHotkey
+  description: Hotkey to select next occurence
+  input_type: hotkey
+  default: Ctrl+m
+- name: allHotkey
+  description: Hotkey to select all occurences
+  input_type: hotkey
+  default: Ctrl+Shift+m
+- name: splitSelectionHotkey
+  description: Hotkey to split multi-line selection to multiple selections
+  input_type: hotkey
+  default: Ctrl+Shift+l
