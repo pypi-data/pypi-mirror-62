@@ -1,0 +1,3 @@
+__testpkg__
+kpy
+tests
