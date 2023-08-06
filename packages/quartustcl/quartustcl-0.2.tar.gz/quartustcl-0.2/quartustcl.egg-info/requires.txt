@@ -1,0 +1,4 @@
+
+[docs]
+mkautodoc>=0.1.0
+mkdocs>=1.0
