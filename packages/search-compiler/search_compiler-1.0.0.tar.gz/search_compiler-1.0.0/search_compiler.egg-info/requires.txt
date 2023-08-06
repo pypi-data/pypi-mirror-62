@@ -1,0 +1,8 @@
+numpy
+scipy
+
+[cma]
+cma
+
+[graphics]
+matplotlib
