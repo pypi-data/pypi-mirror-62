@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+modelwithlog/__init__.py
+modelwithlog/modelWithLog.py
+modelwithlog.egg-info/PKG-INFO
+modelwithlog.egg-info/SOURCES.txt
+modelwithlog.egg-info/dependency_links.txt
+modelwithlog.egg-info/not-zip-safe
+modelwithlog.egg-info/requires.txt
+modelwithlog.egg-info/top_level.txt

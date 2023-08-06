@@ -1,0 +1,84 @@
+# KF Django Model with Log
+
+Model with log for django
+
+## Installation
+
+### With requirements.txt
+
+Add the following line in your `requirements.txt` file:
+
+```
+modelwithlog
+```
+
+### With PIP
+
+```bash
+$ pip install modelwithlog
+```
+
+## Getting Started
+
+Allow to create a model with log, adding a log field to the model. This create a log message with the formated datetime and a message
+
+```
+Format example:
+[2019-03-15 03:00:02] My message
+```
+
+Only must define logger in your model
+
+```
+For example:
+
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class MyModel(ModelWithLog):
+
+    logger = logger
+
+    class Meta:
+        verbose_name = _('MyModel')
+        verbose_name_plural = _('MyModels')
+
+    my_field = models.<Tipe>
+    ....
+
+```
+
+
+Also, this model allows to define the logger level for that log. This are the differents levels loggers
+
+### INFO
+
+Set log level to Info
+
+### DEBUG
+
+Set log level to debug
+
+### WARNING
+
+Set log level to warning
+
+### ERROR
+
+Set log level to error
+
+### CRITICAL
+
+Set log level to critical
+
+## How to use it
+Only call your level error with yo message error
+
+```
+For example:
+mymodel.info("MY ERROR")
+
+```
+
