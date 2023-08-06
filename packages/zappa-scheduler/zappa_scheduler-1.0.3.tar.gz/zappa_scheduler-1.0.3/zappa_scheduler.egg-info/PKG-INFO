@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: zappa-scheduler
+Version: 1.0.3
+Summary: store future tasks in the db and call them after set delays
+Home-page: https://github.com/wisaac407/zappa-call-later
+Author: andytwoods, Isaac Weaver
+Author-email: andytwoods@gmail.com, wisaac407@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
