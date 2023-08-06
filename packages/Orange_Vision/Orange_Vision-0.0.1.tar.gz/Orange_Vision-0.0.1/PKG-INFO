@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Orange_Vision
+Version: 0.0.1
+Summary: FRC Orange Vision
+Home-page: https://github.com/Danny-Dasilva/Orange_Vision
+Author: Danny Dasilva
+Author-email: dannydasilva.solutions@gmail.com
+License: UNKNOWN
+Description: # Orange_Vision
+        FRC Orange Vision package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
