@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+twitter_cleaner/__init__.py
+twitter_cleaner/__main__.py
+twitter_cleaner/app.py
+twitter_cleaner/archivefilter.py
+twitter_cleaner.egg-info/PKG-INFO
+twitter_cleaner.egg-info/SOURCES.txt
+twitter_cleaner.egg-info/dependency_links.txt
+twitter_cleaner.egg-info/requires.txt
+twitter_cleaner.egg-info/top_level.txt
