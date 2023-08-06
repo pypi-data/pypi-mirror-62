@@ -1,0 +1,10 @@
+setup.py
+libwsgi/__init__.py
+libwsgi/request.py
+libwsgi/response.py
+libwsgi/routing.py
+libwsgi/utils.py
+libwsgi.egg-info/PKG-INFO
+libwsgi.egg-info/SOURCES.txt
+libwsgi.egg-info/dependency_links.txt
+libwsgi.egg-info/top_level.txt
