@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: cli-parser
+Version: 0.1.3
+Summary: Simple CLI Parser with command chaining
+Home-page: https://github.com/ranzvi/cli_parser
+License: MIT
+Keywords: CLI,Python,Tool,Simple
+Author: Ran Zvi
+Author-email: ran.zvi@bluevine.com
+Maintainer: Ran Zvi
+Maintainer-email: ran.zvi@bluevine.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/ranzvi/cli_parser
+Description-Content-Type: text/markdown
+
+# CLI Parser
+## Simple Chained Command Parser
+
+This tool will allow you to create a simple command hierarchy to execute from the command line.
+
+### Example
+```python
+from cli_parser import command, CliParser, ParentCommand, CommandException
+
+get = ParentCommand('get')
+
+@command
+def product(x, y):
+    return x * y
+
+@command
+def sum(x, y):
+    return x + y
+    
+get.add_sub_cmds(product, sum)
+
+parser = CliParser([get])
+
+while True:
+    in_ = input("Enter command:\n==> ")
+    
+    try:
+        response = parser.process_response(in_)
+        print(response)
+    except CommandException:
+       pass
+```  
+
+Execute your script from the command line:
+
+```
+Enter command:
+==> get product 5 10
+50
+
+Enter command:
+==> get sum 10 20
+30
+
+Enter command:
+==> q
+
+'Quitting Interpreter'
+
+```
+
+pypi: https://pypi.org/project/cli-parser/
