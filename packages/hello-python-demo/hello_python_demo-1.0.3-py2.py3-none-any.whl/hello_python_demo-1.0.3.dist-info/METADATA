@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: hello-python-demo
+Version: 1.0.3
+Summary: 学习如何构建python模块，并打包上传pypi
+Home-page: https://github.com/zqw/hello_python_demo
+Author: zhaoqiangwei
+Author-email: demo@qq.com
+Maintainer: zhaoqiangwei
+Maintainer-email: demo@qq.com
+License: MIT
+Keywords: hello_python_demo,hello_python_demo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires: request
+Requires: six
+Requires: redis
+Requires: pytest
+Requires-Dist: request
+Requires-Dist: six
+Requires-Dist: redis (>=2.10.5)
+Requires-Dist: pytest
+Requires-Dist: pywin32 (>=1.0) ; platform_system == "Windows"
+Requires-Dist: enum34 ; python_version < "3.4"
+
+# -!- coding: utf-8 -!-
+
+# 这是我尝试进行构建的第一个python包
+
+# 配置文件的优先级 setup.py < MANIFEST.in < setup.cfg
+
+#创建.pypirc
+# windows的用户文件夹目录为：
+# C:\Users\Administrator\.pypirc
+# .pypirc内容：
+#
+# [distutils]
+# index-servers = pypi
+#
+# [pypi]
+# username: 用户名
+# password: 密码
+
+#python setup.py register
+
+#本地打包
+#python setup.py sdist build
+#python setup.py bdist_wheel --universal
+
+#上传到pypi
+#python setup.py sdist upload
+#python setup.py bdist_wheel upload
+
+
+#或者使用twine上传,先安装twine
+# pip install twine
+#
+
+rm -rf src/hello_python_demo_demo.egg-info dist build &&  python setup.py sdist build && python setup.py bdist_wheel --universal
+twine upload dist/*
+

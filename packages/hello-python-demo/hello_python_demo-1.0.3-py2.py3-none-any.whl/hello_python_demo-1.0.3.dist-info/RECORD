@@ -1,0 +1,16 @@
+hello_python_demo_top1.py,sha256=p54xJXkUg4FMA49kk4KPeS2lp_QS_sinolbaAOAaLCM,190
+hello_python_demo_top2.py,sha256=DV8Wv-pyacGNQWKK7w0a47sVPj1hlONri2UYqUtbMS4,116
+hello_python_demo-1.0.3.data/data/hello_python_demo_bm/b1.txt,sha256=fclvd2yEI-V6J4VImj-cQ_tudWh21q2anKxKpOcuwZM,2
+hello_python_demo-1.0.3.data/data/hello_python_demo_bm/b2.txt,sha256=SBTZIJOsig9KIWOrh97lCbowalj1iIvg7csvzQcSAos,2
+hello_python_demo-1.0.3.data/data/hello_python_demo_cfg/data.cfg,sha256=LJ810a-iIwjZ0O96B_Vto_TmKunnADYdjw5HzZ5O9wA,42
+hello_python_demo-1.0.3.data/data/hello_python_demo_sh/shell1.sh,sha256=TY83PbMU-aAoGYGSQbvlMnp4FMmwuov20ufbCyaS4HQ,33
+hello_python_demo-1.0.3.data/scripts/hello_python_demo_script1.py,sha256=EMMCB7Ddt0u-mkCqBShe3vgBMSEdHpw5kFKRvkQWGns,93
+module1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+module1/hello2.py,sha256=SXEU03nTCWUz7u5A3kJbh9aUI2OzyLZQ8O3lzsDTApM,52
+module1/hello3.py,sha256=6pIxlULM6yn_QGOBUvGkEvmXu5zeKStC9J09rdjP3sc,56
+module1/submodule1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+module1/submodule1/hello1.py,sha256=i85H2KU5sQrBZhwzZeeBAn2S9374xljjPysnPoqa2SU,29
+hello_python_demo-1.0.3.dist-info/METADATA,sha256=3LfiRhIRjUeOdHgLblnnzlnCxY5JbrM1PSaQlMHkFTg,1775
+hello_python_demo-1.0.3.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+hello_python_demo-1.0.3.dist-info/top_level.txt,sha256=PSEBoIF_UGnrHFLQe4-IYLZYqQW0SUD_F3TsweY2g_4,54
+hello_python_demo-1.0.3.dist-info/RECORD,,
