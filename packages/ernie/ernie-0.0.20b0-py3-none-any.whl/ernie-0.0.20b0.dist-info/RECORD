@@ -1,0 +1,15 @@
+ernie/__init__.py,sha256=uQ11_gbtfQEgONgTGFXEeb2w9Pa-E533O7lJzD2TWik,894
+ernie/aggregation_strategies.py,sha256=hDfHlpAo6wwzn83p_5hVqXEsf49FU9faLn2kobqm1SY,2441
+ernie/ernie.py,sha256=0IEDp7gQLk5Usr5EFSsRKK_bmJhCiV9AF2lm2Wn551Y,10620
+ernie/helper.py,sha256=4GV8fOl9D_mERjMox-jNmWyiEeITMd7MnBwVrFvPq-A,2426
+ernie/models.py,sha256=5A999yBUEBR5d_Op70JnrA5Z50eGGFI7LGHY6Rq2xhc,1132
+ernie/split_strategies.py,sha256=DaW-fIQb4weuPgXet3Ca4FDhniuU-zKSJ4skiKwei1M,4362
+test/__init__.py,sha256=Ft6qirr8uZuaXJPy3JwhU-wWt4ZhKR3VUzMvV74d_0Q,66
+test/dump_load.py,sha256=c3ZpVrbK86zGbKkVrfupAyFqoT7p4FtMllOGnqA_R9I,1424
+test/main.py,sha256=A1YsDwZYOol-nlwFWMPk9nM5F-mGO-5sksl3SPa5III,1474
+test/split_aggregate.py,sha256=YQZ_5ju0-D0NbemPT5O8wLjhsIFfPd3qO5bF9grehFY,17596
+ernie-0.0.20b0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+ernie-0.0.20b0.dist-info/METADATA,sha256=tV4t9HkWbBaVs-23foDjYdQfQHOKAm2xGKZ8beokb5I,1013
+ernie-0.0.20b0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ernie-0.0.20b0.dist-info/top_level.txt,sha256=IHK6af4HA-M8LcMpdIUJTH0DG1QRIai_1zA3kGcbwqI,11
+ernie-0.0.20b0.dist-info/RECORD,,
