@@ -1,0 +1,11 @@
+eve/__init__.py,sha256=HuPcjxtg4xJ-uQv33TjLo_BcWHHSXyyJhQQg4mmq9yo,18
+eve/eve.py,sha256=hOdxRKpYTnSKZkzLtWQMa7YhChRw-imx82SLECZlzxg,4757
+eve/lookahead.py,sha256=s1xX2hslr_7gvIaZeH1CuGMWLsv2pLVwaBF5xj2WPCE,3906
+eve/optimizers.py,sha256=KIy2OEfYr-Bp3a65Chlhxabs-UjBwr81yyWmx2rMgcE,859
+eve/radam.py,sha256=lrYtIe95NtoQuMxIyzgqGu-JTeHyZmo-6msQlGHLDng,10350
+eve/ralamb.py,sha256=7EG8zS9cxvgehvjm7vz62wkEzo7S-Zo4hidFipdwlPs,4117
+eve_optimizer-0.0.4.dist-info/LICENSE,sha256=TDZiBZ5P73m5SKxM7MxcxjISojX8axCXQ-WxktDHR2Y,1074
+eve_optimizer-0.0.4.dist-info/METADATA,sha256=7CzAZAKHjiGkF8Rp8AclUho_iQS2iBSOt3lTCtga74c,3507
+eve_optimizer-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eve_optimizer-0.0.4.dist-info/top_level.txt,sha256=UXzyP2d5BHxfkpG1Xg5NWtkAp5UNXoRvv4g20zGvjWE,4
+eve_optimizer-0.0.4.dist-info/RECORD,,
