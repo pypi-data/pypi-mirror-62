@@ -1,0 +1,5 @@
+aiocqhttp-sanic==1.2.3rc1
+aiocache<1.0,>=0.10
+
+[scheduler]
+apscheduler
