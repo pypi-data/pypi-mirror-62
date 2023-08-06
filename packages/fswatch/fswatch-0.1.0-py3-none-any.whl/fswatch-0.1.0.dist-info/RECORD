@@ -1,0 +1,7 @@
+fswatch/__init__.py,sha256=ZRErpWujS6bZ4sn0hMDOWMHo3jayrDxmoRGKDV5jdg0,92
+fswatch/fswatch.py,sha256=16Dog6r5Hpsk9eVgFPnwjJtxs6GJp90L9tWfRpJyLzY,1761
+fswatch/libfswatch.py,sha256=hjbH15yjAKjROTaL8zDlz1RJYQzsnYht1DSc5PrGQfs,2569
+fswatch-0.1.0.dist-info/LICENSE,sha256=VoS2lT6Kfx1Y20okGZjxJbXh1tBUh3vC4IWFzBpf8CQ,1065
+fswatch-0.1.0.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+fswatch-0.1.0.dist-info/METADATA,sha256=ThPUK4KZLosuMqqjDHNvotpgjtSjlpb4WvOTISJH5K0,1053
+fswatch-0.1.0.dist-info/RECORD,,
