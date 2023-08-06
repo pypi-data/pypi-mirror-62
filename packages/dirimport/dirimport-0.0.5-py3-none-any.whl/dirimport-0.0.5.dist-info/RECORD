@@ -1,0 +1,10 @@
+dirimport/__init__.py,sha256=S8mfj68sM3Rzy-vg8xkiJbashEjicMxhQEbE491F6dc,72
+dirimport/_cli.py,sha256=HKaD94JuidrIfsJtoMkuRk2x7aBkGNTDYoNp0xUMYJw,1114
+dirimport/_version.py,sha256=VziqZQWrsSA5KvRzV5zCOgNlH_2XIeF7YDZd44i7pp4,18
+dirimport/gen.py,sha256=gLtZX5kq0Ztl4A4IUJw_zCltmKacd0hJo5UH1A9TmCg,3066
+dirimport-0.0.5.dist-info/LICENSE,sha256=X6mi2NWaxdkxBKOv73diHoS08Ex4Igex3QWg-AjmahI,1073
+dirimport-0.0.5.dist-info/METADATA,sha256=pe0bXvOc-Ns2cDaj4haqQWwfUb6aj-uY-b1eY75fHlo,2025
+dirimport-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dirimport-0.0.5.dist-info/entry_points.txt,sha256=CTuqPux2rzLGbzbk3qYm3W4t8RThlNGV9hgfw94uaoY,50
+dirimport-0.0.5.dist-info/top_level.txt,sha256=2HyuVLDSGTTMMyimbGWZrNNM02E8AH7V1nYsB7mjJpI,10
+dirimport-0.0.5.dist-info/RECORD,,
