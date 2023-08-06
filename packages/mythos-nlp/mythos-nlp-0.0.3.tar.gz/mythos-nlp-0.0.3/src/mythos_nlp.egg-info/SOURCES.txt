@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/mythos/__init__.py
+src/mythos/nlp/__init__.py
+src/mythos/nlp/__version__.py
+src/mythos_nlp.egg-info/PKG-INFO
+src/mythos_nlp.egg-info/SOURCES.txt
+src/mythos_nlp.egg-info/dependency_links.txt
+src/mythos_nlp.egg-info/entry_points.txt
+src/mythos_nlp.egg-info/namespace_packages.txt
+src/mythos_nlp.egg-info/not-zip-safe
+src/mythos_nlp.egg-info/requires.txt
+src/mythos_nlp.egg-info/top_level.txt
