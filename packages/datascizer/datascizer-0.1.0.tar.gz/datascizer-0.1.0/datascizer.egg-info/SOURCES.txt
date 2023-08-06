@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+datascizer/__init__.py
+datascizer.egg-info/PKG-INFO
+datascizer.egg-info/SOURCES.txt
+datascizer.egg-info/dependency_links.txt
+datascizer.egg-info/not-zip-safe
+datascizer.egg-info/requires.txt
+datascizer.egg-info/top_level.txt
+datascizer/tests/__init__.py
