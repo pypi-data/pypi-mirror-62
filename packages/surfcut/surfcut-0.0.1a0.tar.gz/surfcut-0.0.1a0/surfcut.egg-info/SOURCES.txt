@@ -1,0 +1,5 @@
+setup.py
+surfcut.egg-info/PKG-INFO
+surfcut.egg-info/SOURCES.txt
+surfcut.egg-info/dependency_links.txt
+surfcut.egg-info/top_level.txt
