@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pyardourclient
+Version: 0.1.1
+Summary: Provides a client library to interact with the Ardour WebSockets Server surface
+Home-page: https://github.com/lucianoiam/pyardourclient
+Author: Luciano Iam
+Author-email: lucianito@Gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7

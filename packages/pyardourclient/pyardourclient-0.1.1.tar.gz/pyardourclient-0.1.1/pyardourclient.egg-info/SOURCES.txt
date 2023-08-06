@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pyardourclient/__init__.py
+pyardourclient/asyncio.py
+pyardourclient/callback.py
+pyardourclient/message.py
+pyardourclient/websocket.py
+pyardourclient.egg-info/PKG-INFO
+pyardourclient.egg-info/SOURCES.txt
+pyardourclient.egg-info/dependency_links.txt
+pyardourclient.egg-info/top_level.txt
