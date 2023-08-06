@@ -1,0 +1,15 @@
+hyperhyper/__init__.py,sha256=66fuKg9IqGHk6eY674_TUqn_gV8bYJIenR55g0FHfgw,314
+hyperhyper/bunch.py,sha256=B-oHyZbUq-N80VMdU8CHALy2xX22JpBqtoYZpjIuRBQ,7898
+hyperhyper/corpus.py,sha256=hnLDXPiWwa9JMBbPZieD-VwWZ4BI6-vQt9TXgBsqh7o,8989
+hyperhyper/evaluation.py,sha256=XfcdhtjCyLdANZEPZcohL1H82OD4SgM9eCxFOFfjmIg,4987
+hyperhyper/experiment.py,sha256=1mG7tWLGt82ZYA32vVImt4Pa_5BLhyBSfnXydxlPL9E,4911
+hyperhyper/pair_counts.py,sha256=pchWN9w0emByiq0KvdBFUv5---i1jgMF0ZfI6RlZ-gw,8851
+hyperhyper/pmi.py,sha256=GE-gX7xO4xQrEFTiOQStzB_Rf5e8SjVwy_kz0Xh1md4,2436
+hyperhyper/preprocessing.py,sha256=p7iBfD8tAaxybvmuXtNHqFXvfj7iG-SMRgJEQkdfuTU,1989
+hyperhyper/svd.py,sha256=pXtMOtYzdM_RGmReXwME1INbvggxQen_mBTnEdKwf2A,2704
+hyperhyper/utils.py,sha256=hpg8milkl-WDo9UalM0r5hjG7xvy2WFYDIGag0XBQ0g,2715
+hyperhyper-0.1.0.dist-info/LICENSE,sha256=98tVX-l2IQd2b4Fx6z_fb5eS4pqgqUD0F1bxCUZtc2g,1431
+hyperhyper-0.1.0.dist-info/METADATA,sha256=_OeoBlz5imXnitWd1BrTI1gwJEGGaYXkHMGOIL8G2uo,7397
+hyperhyper-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+hyperhyper-0.1.0.dist-info/top_level.txt,sha256=eKjNFwh2Da01j28rEIeRLz8v2L0en1vEyA_ePK4Apdc,11
+hyperhyper-0.1.0.dist-info/RECORD,,
