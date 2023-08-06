@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sparcli
+Version: 0.1.1
+Summary: Visualize metrics as text in real-time (sparklines)
+Home-page: https://github.com/z0u/sparcli
+License: MIT
+Keywords: console,sparkline,data,visualization
+Author: Alex Fraser
+Author-email: alex.d.fraser@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Requires-Dist: numpy (>=1.18.1,<2.0.0)
+Project-URL: Repository, https://github.com/z0u/sparcli
+Description-Content-Type: text/markdown
+
+![Tests](https://github.com/z0u/sparcli/workflows/Tests/badge.svg)
+![Linters](https://github.com/z0u/sparcli/workflows/Linters/badge.svg)
+![Canary build](https://github.com/z0u/sparcli/workflows/Canary%20build/badge.svg)
+![Publish](https://github.com/z0u/sparcli/workflows/Publish/badge.svg)
+
+SparCLI is a library for visualising metrics on the command line.
+
+Use this library to see the shape of data during execution of data pipelines and other long-running programs. Each metric is displayed as a sparkline that updates as the data changes.
+
+
+```
+pip install --user py-make poetry
+pymake all
+```
+
+```
+poetry run python demo.py
+```
+
