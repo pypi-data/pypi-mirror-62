@@ -1,0 +1,2 @@
+# A minimal setup.py
+

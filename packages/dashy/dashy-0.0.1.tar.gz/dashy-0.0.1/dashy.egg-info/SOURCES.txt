@@ -1,0 +1,6 @@
+README.md
+setup.py
+dashy.egg-info/PKG-INFO
+dashy.egg-info/SOURCES.txt
+dashy.egg-info/dependency_links.txt
+dashy.egg-info/top_level.txt
