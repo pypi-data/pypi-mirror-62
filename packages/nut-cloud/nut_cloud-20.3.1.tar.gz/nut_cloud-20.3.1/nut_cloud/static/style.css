@@ -1,0 +1,257 @@
+
+body {
+    background-color: #e7e6e6;
+  }
+  
+  .smtext{
+    width: 220px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  
+  .have-margin{
+    margin:1%;
+  }
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+  
+  .dir-color{
+    color: blue;
+  }
+  
+  .navbar {
+      margin-bottom: 1%;
+  }
+  
+  .no-padding{
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .smbut{
+    position: absolute; 
+    right: 7%;
+  }
+  
+  #drop_zone {
+    width:  100%;
+    height: 100px;
+    border: 2px dashed black;
+  }
+  
+  .fullwidth{
+    width: 100%;
+  }
+
+  .log {
+    width: 100%;
+    max-width: 660px;
+    padding: 15px;
+    margin: auto;
+  }
+
+  .editor-toolbar,.CodeMirror,.editor-statusbar{
+    background-color: #ffffff;
+  }
+  .smtextbox{
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    max-width: 80%;
+  }
+  .smrow{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .smrmpadding{
+    padding:0;
+    margin:0;
+  }
+  .smrmbutton{
+    -webkit-appearance: none;
+  }
+
+/* redefine colors for dark mode */
+
+@media (prefers-color-scheme: dark) {
+
+body {
+  background-color: #1E1F21;
+}
+
+.footer {
+  background-color: #474749;
+}
+
+#drop_zone {
+  border: 2px dashed white;
+}
+
+.editor-toolbar,.CodeMirror,.editor-statusbar{
+  background-color: #474749;
+}
+
+.card {
+  background-color: #1E1F21;
+  border: 1.5px solid white;
+}
+
+h5.card-title {
+  color: white;
+}
+
+p.card-text {
+  color: white;
+}
+
+h1.text-center.h3.mb-3.font-weight-normal {
+  color: white;
+}
+
+.form-control {
+  background-color: #343a40;
+}
+
+p {
+  color: white;
+}
+
+.text-secondary {
+  color: wheat!important;
+}
+
+.card-header:first-child {
+  color: white;
+}
+
+.text-dark {
+  color: white!important;
+}
+
+.card-header {
+  border-bottom: 1px solid white;
+}
+
+.border-dark {
+  border-color: #f8f9fa!important;
+}
+
+.font-weight-normal {
+  color: white;
+}
+
+.table td, .table th {
+  color: white;
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+.card-footer {
+  border-top: 1px solid white;
+}
+
+.bg-light {
+  background-color: black!important;
+}
+
+.form-signin .form-control {
+  color: wheat;
+}
+
+.h2, h2 {
+  color: white;
+}
+
+.list-group-item {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.modal-content {
+  background-color: rgb(75, 74, 74);
+}
+
+.modal-header {
+  border-bottom: 1px solid slategray;
+}
+
+.modal-footer {
+  border-top: 1px solid slategray;
+}
+
+.modal-title {
+  color: white;
+}
+
+.modal-body {
+  color: white;
+}
+
+.close {
+  color: white;
+  text-shadow: 0 1px 0 white;
+}
+
+}
