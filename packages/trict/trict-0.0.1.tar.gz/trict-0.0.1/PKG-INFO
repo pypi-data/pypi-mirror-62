@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: trict
+Version: 0.0.1
+Summary: UserDict subclass with extra stuff
+Home-page: https://github.com/saskakarsi/trict
+Author: Saska Karsi
+Author-email: saska.karsi@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: mapping,map,dictionary,recursive,dict
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
