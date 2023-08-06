@@ -1,0 +1,7 @@
+hellogrpc/__init__.py,sha256=WZMCQsXu13zZG07xb-TWKs1cUgf9KaHsS6zxceeIzq8,207
+hellogrpc/hellogrpc_pb2.py,sha256=72QVX1nXXR5RglBSbMpEjkphZS-7dkM_vapY9lvoCps,3775
+hellogrpc/hellogrpc_pb2_grpc.py,sha256=-Nt9j0Uqtaj2Ruuowkcpn3s2H0rtt8_Z48Qz6PgE-qE,1333
+hellogrpc-0.1.1.dist-info/METADATA,sha256=90To1QPtAMg9-6G3V2MXI_V2bRmPF8bP42xIqtuLnN4,707
+hellogrpc-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hellogrpc-0.1.1.dist-info/top_level.txt,sha256=fx-IjuZN1fgA4aZ2gu8ArVJ5YjA363SruJvLzO5c4zU,10
+hellogrpc-0.1.1.dist-info/RECORD,,
