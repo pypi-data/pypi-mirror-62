@@ -1,0 +1,79 @@
+{% extends "django-power-cms/templates/blank.html" %}
+
+{% block header %}
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+.djangl-power-cms-topbar {
+    height: 50px;
+}
+.djangl-power-cms-body {
+    width: 1170px;
+    margin: 0 auto;
+}
+.djangl-power-cms-main {
+    clear: both;
+    margin-top: 20px;
+}
+.djangl-power-cms-main-left{
+    width: 750px;
+    float: left;
+}
+.djangl-power-cms-main-right{
+    width: 400px;
+    float: right;
+}
+.djangl-power-cms-main-left-content,
+.djangl-power-cms-main-right-content {
+    margin-bottom: 20px;
+}
+.djangl-power-cms-footer {
+    clear: both;
+    width: 1170px;
+    margin: 0 auto 50px auto;
+}
+.djangl-power-cms-footer-content {
+    margin-bottom: 20px;
+}
+</style>
+{% endblock %}
+
+
+{% block body %}
+<div class="djangl-power-cms-topbar">
+    {% for item in widgets.topbars %}
+    <div class="djangl-power-cms-topbar-content">{% autoescape off %}{{item}}{% endautoescape %}</div>
+    {% endfor %}
+</div>
+<div class="djangl-power-cms-body">
+
+    <div class="djangl-power-cms-header">
+    {% for item in widgets.headers %}
+    <div class="djangl-power-cms-header-content">{% autoescape off %}{{item}}{% endautoescape %}</div>
+    {% endfor %}
+    </div>
+
+    <div class="djangl-power-cms-main">
+        <div class="djangl-power-cms-main-left">
+            {% for item in widgets.mains %}
+            <div class="djangl-power-cms-main-left-content">{% autoescape off %}{{item}}{% endautoescape %}</div>
+            {% endfor %}
+        </div>
+        <div class="djangl-power-cms-main-right">
+            {% for item in widgets.portlets %}
+            <div class="djangl-power-cms-main-right-content">{% autoescape off %}{{item}}{% endautoescape %}</div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="djangl-power-cms-footer">
+        {% for item in widgets.footers %}
+        <div class="djangl-power-cms-footer-content">{% autoescape off %}{{item}}{% endautoescape %}</div>
+        {% endfor %}
+    </div>
+
+</div>
+{% endblock %}
+

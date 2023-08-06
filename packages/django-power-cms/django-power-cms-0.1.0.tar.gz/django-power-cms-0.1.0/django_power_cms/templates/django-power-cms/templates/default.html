@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>{% load staticfiles %}
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="renderer" content="ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    {% autoescape off %}{{css_links}}{% endautoescape %}
+    {% autoescape off %}{{js_links}}{% endautoescape %}
+    {% block head %}
+    {% autoescape off %}{{head}}{% endautoescape %}
+    {% endblock %}
+    <link rel="stylesheet" type="text/css" href="{% static "fontawesome/css/all.min.css" %}" />
+    
+    <style>
+        .np21-topbar {
+            height: 50px;
+            width: 100%;
+            z-index: 999999;
+        }
+        .np21-topbar-padding {
+            height: 50px;
+        }
+        .np21-topbar-inner {
+            height: 50px;
+            width: 1170px;
+            margin: 0 auto;
+        }
+        .np21-topbar-pad{
+            height: 50px;
+        }
+        .np21-promote {
+            width: 1170px;
+            margin: 0 auto;
+        }
+        .np21-row2 {
+            width: 1170px;
+            margin: 20px auto 0 auto;
+            clear: both;
+        }
+        .np21-row2-left {
+            height: 350px;
+            width: 770px;
+            float: left;
+            background-color: red;
+        }
+        .np21-row2-right {
+            height: 350px;
+            width: 380px;
+            float: right;
+            margin-bottom: 20px;
+        }
+        .np21-row1 {
+            min-height: 100px;
+            width: 1170px;
+            margin: 20px auto 0 auto;
+            background-color: blue;
+            clear: both;
+        }
+        .np21-footer {
+            width: 1140px;
+            margin: 40px auto;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="np21">
+        {% if topbar %}
+        <div class="np21-topbar">
+            {% autoescape off %}{{topbar}}{% endautoescape %}
+        </div>
+        {% endif %}
+    
+        {% if promote %}
+        <div class="np21-promote">
+            {% autoescape off %}{{promote}}{% endautoescape %}
+        </div>
+        {% endif %}
+
+        <div class="np21-row2">
+            <div class="np21-row2-left">
+                
+            </div>
+            <div class="np21-row2-right">
+                {% autoescape off %}{{announce}}{% endautoescape %}
+            </div>
+        </div>
+
+        <div class="np21-row2">
+            <div class="np21-row2-left"></div>
+            <div class="np21-row2-right"></div>
+        </div>
+    
+        <div class="np21-row1"></div>
+        <div class="np21-row1"></div>
+        <div class="np21-footer">{% autoescape off %}{{footer}}{% endautoescape %}</div>
+    </div>
+
+</body>
+</html>
