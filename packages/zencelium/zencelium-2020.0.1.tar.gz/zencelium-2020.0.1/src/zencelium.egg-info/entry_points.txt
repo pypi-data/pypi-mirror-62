@@ -1,0 +1,3 @@
+[console_scripts]
+zencelium = zencelium.cli:main
+
