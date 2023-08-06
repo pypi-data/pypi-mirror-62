@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kafka-api
+Version: 0.1.0a1.dev0
+Summary: High level API for Apache Kafka (over kafka-python lib)
+Home-page: UNKNOWN
+Author: Evgenii Polyak
+Author-email: epolyak@yandex.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
