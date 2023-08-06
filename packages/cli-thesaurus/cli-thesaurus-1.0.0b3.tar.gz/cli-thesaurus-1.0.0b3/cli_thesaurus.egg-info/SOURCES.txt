@@ -1,0 +1,8 @@
+README.md
+setup.py
+cli_thesaurus.egg-info/PKG-INFO
+cli_thesaurus.egg-info/SOURCES.txt
+cli_thesaurus.egg-info/dependency_links.txt
+cli_thesaurus.egg-info/entry_points.txt
+cli_thesaurus.egg-info/requires.txt
+cli_thesaurus.egg-info/top_level.txt
