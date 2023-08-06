@@ -1,0 +1,3 @@
+[console_scripts]
+atmopy=atmopy.cli:main
+

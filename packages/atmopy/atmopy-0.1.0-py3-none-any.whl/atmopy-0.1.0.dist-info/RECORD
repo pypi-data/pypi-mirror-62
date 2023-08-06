@@ -1,0 +1,10 @@
+atmopy/__init__.py,sha256=CkCxqKr0DGvhv2eSQT0EvuKcFEarPmY9wsRubjVzJcQ,38
+atmopy/utils.py,sha256=CaTySfJlbUwJ5HMGc92rbl9K2h0gWwx174caFEh8J-I,993
+atmopy/diehl22/__init__.py,sha256=OqLNnezV0mZdrnQf2pbEfXny7SvflYzk0vb9tuJzeSw,50
+atmopy/diehl22/constants.py,sha256=uTMnZD8gTdZHP-7lnLt89bXfGsG1SUJsmmO4K6sN4UI,618
+atmopy/diehl22/model.py,sha256=_fq8g8psfaYSdbjEwsMLIhayCRRFGzOwrA0gQYmX3uk,1572
+atmopy-0.1.0.dist-info/entry_points.txt,sha256=wtPg7qFdUkaLbdYWOQcGDzz6pVx_cKSiqlZUuyNl0t0,42
+atmopy-0.1.0.dist-info/LICENSE,sha256=zDS9EsJrl1bNhlqbCzu-JQhoObzpelnzuGRWOtP_rb8,1077
+atmopy-0.1.0.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+atmopy-0.1.0.dist-info/METADATA,sha256=MPrYXCUqmsEkcTlrmeqx-tEtKWDmNdnYJH2HZXwCHQY,3109
+atmopy-0.1.0.dist-info/RECORD,,
