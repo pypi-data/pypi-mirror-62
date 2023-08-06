@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: highdicom
+Version: 0.2.0
+Summary: High-level abstractions for the DICOM standard.
+Home-page: https://github.com/mghcomputationalpathology/highdicom
+Author: Markus D. Herrmann
+Maintainer: Markus D. Herrmann
+License: MIT
+Platform: Linux
+Platform: MacOS
+Platform: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: pydicom (>=1.4.1)
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: pillow (>=6.0)
+Provides-Extra: docs
+Requires-Dist: sphinx (>=1.7.1) ; extra == 'docs'
+Requires-Dist: sphinx-pyreverse (>=0.0.12) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-autoprogram (>=0.1.4) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=0.2.4) ; extra == 'docs'
+
+UNKNOWN
+
+
