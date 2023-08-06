@@ -1,0 +1,8 @@
+README.md
+data_butler.py
+setup.py
+data_butler.egg-info/PKG-INFO
+data_butler.egg-info/SOURCES.txt
+data_butler.egg-info/dependency_links.txt
+data_butler.egg-info/requires.txt
+data_butler.egg-info/top_level.txt
