@@ -1,0 +1,31 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="cciaa.intranetworkflow">
+
+  <include package="rt.lastmodifier" />
+  <include file="permissions.zcml" /> 
+  
+  <genericsetup:registerProfile
+      name="default"
+      title="CCIAA Workflow"
+      directory="profiles/default"
+      description="Workflow e permessi della intranet camerale"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="CCIAA Workflow (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the ccmo.policy add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+
+  <include package=".browser" /> 
+  <include package=".portlets" /> 
+
+</configure>

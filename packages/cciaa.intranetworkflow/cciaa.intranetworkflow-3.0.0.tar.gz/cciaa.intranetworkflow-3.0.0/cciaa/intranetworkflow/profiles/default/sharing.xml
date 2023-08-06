@@ -1,0 +1,30 @@
+<sharing xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+         i18n:domain="plone">
+  
+  <role
+      id="SegGen"
+      title="Può dirigere l'ente"
+      permission="Sharing page: Delegate SegGen role"
+      i18n:attributes="title"
+      />
+  <role
+      id="CSer"
+      title="Può gestire il servizio"
+      permission="Sharing page: Delegate CSer role"
+      i18n:attributes="title"
+      />
+  
+  <role
+      id="CUff"
+      title="Può gestire l'ufficio"
+      permission="Sharing page: Delegate CUff role"
+      i18n:attributes="title"
+      />
+  
+  <role
+      id="DUff"
+      title="Può gestire contenuti"
+      permission="Sharing page: Delegate DUff role"
+      i18n:attributes="title"
+      />
+</sharing>

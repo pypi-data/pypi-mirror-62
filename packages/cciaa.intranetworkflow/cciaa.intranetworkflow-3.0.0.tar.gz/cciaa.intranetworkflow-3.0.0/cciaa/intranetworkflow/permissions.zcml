@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="cciaa.intranetworkflow">
+
+    <permission
+        id="cciaa.ReviewLevel1"
+        title="CamCom: Approvazione livello 1"
+       />
+    <permission
+        id="cciaa.ReviewLevel2"
+        title="CamCom: Approvazione livello 2"
+       />
+    <permission
+        id="cciaa.workflow.DelegateCUffRole"
+        title="Sharing page: Delegate CUff role"
+       />
+    <permission
+        id="cciaa.workflow.DelegateCSerRole"
+        title="Sharing page: Delegate CSer role"
+       />
+    <permission
+        id="cciaa.workflow.DelegateSegGenRole"
+        title="Sharing page: Delegate SegGen role"
+    />
+
+</configure>
