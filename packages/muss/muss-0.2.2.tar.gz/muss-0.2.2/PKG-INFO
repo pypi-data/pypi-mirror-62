@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: muss
+Version: 0.2.2
+Summary: Python code execution module
+Home-page: https://github.com/jalepi/muss
+Author: jalepi
+Author-email: jalepi@live.com
+License: UNKNOWN
+Description: # muss
+        Muss is a python module to execute and evaluate python code.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
