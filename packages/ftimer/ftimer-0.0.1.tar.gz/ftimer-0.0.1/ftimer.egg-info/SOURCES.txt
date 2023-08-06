@@ -1,0 +1,8 @@
+setup.py
+ftimer/__init__.py
+ftimer/main.py
+ftimer.egg-info/PKG-INFO
+ftimer.egg-info/SOURCES.txt
+ftimer.egg-info/dependency_links.txt
+ftimer.egg-info/entry_points.txt
+ftimer.egg-info/top_level.txt
