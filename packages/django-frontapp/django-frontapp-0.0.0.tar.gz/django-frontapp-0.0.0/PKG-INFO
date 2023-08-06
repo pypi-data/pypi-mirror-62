@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: django-frontapp
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/humitos/django-frontapp
+Author: Manuel Kaufmann
+Author-email: humitos@gmail.com
+License: MIT
+Project-URL: Documentation, https://django-frontapp.readthedocs.io/
+Project-URL: Source, https://github.com/humitos/django-frontapp
+Project-URL: Tracker, https://github.com/humitos/django-frontapp/issues
+Description: UNKNOWN
+Keywords: django front frontapp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
