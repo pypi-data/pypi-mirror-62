@@ -1,0 +1,15 @@
+telethon_secret_chat/__init__.py,sha256=VuyPwoHRa_zZAxp4OcvZuqhQEj8TpGprh-jPlKUK2-4,226
+telethon_secret_chat/secret_chat_manager.py,sha256=suOX91ngsSfadjeopVeDVSo_Z2WnobB9d506-WBdUsM,3753
+telethon_secret_chat/secret_methods.py,sha256=4yYTM4b-Xv2vOT4pXNoxd5yTTAq3Z0OT3Z4Bbmc_ejg,33253
+telethon_secret_chat/version.py,sha256=wzhZj2v_aBZ0sLKmANMJjiQYjuNBt1zd94EZuga9ZI8,99
+telethon_secret_chat/secret_sechma/__init__.py,sha256=_3XPOz7SWC0QPV-9yisEjpdgJIk14FcSEGjf_YuJMO0,4330
+telethon_secret_chat/secret_sechma/secretTL.py,sha256=yjmpAhSwM24Rr7_MZHBLFpXWQCSU9_hyHsLaxG6zlgQ,108339
+telethon_secret_chat/storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telethon_secret_chat/storage/abstract.py,sha256=1R38S0Q0Hgs29M5USh_bm2pV_VdGQSOrmcmPXGNKQ1E,2278
+telethon_secret_chat/storage/memory.py,sha256=BDjROWmvAQVQ30ToNRRDfoHnkUomyiEoQ-19Jpjm158,1472
+telethon_secret_chat/storage/sqlite.py,sha256=giiWxJfZu2Ojab-_7Z3bjnJdjq3dkwXo92pM1dZcaKs,5364
+telethon_secret_chat-0.1.16.dist-info/LICENSE,sha256=8NKnHVao0hMtvBqmhQdTklGBFTeZqOxckULlJ1O8eH4,1084
+telethon_secret_chat-0.1.16.dist-info/METADATA,sha256=x5hq0GKk1wbqVPfxEScAiPrtF-0bqY6tWs8-9hqITRY,3135
+telethon_secret_chat-0.1.16.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+telethon_secret_chat-0.1.16.dist-info/top_level.txt,sha256=Fp5YKDlKenatPNq_Klvar9GSo3j1yb-GJEKk_5SAlRM,21
+telethon_secret_chat-0.1.16.dist-info/RECORD,,
