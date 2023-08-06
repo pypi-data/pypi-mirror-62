@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vise
+Version: 0.1.5
+Summary: Package for handling io of vasp package in kumagai group at Tokyo Institute of Technology
+Home-page: https://github.com/kumagai-group/vise
+Author: Yu Kumagai
+Author-email: yuuukuma@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: spglib (~=1.14.1.post0)
+Requires-Dist: matplotlib (~=3.1.3)
+Requires-Dist: scipy (~=1.4.1)
+Requires-Dist: tabulate (~=0.8.6)
+Requires-Dist: pymatgen (~=2020.1.28)
+Requires-Dist: monty (~=3.0.2)
+Requires-Dist: palettable (~=3.3.0)
+Requires-Dist: seekpath (~=1.9.4)
+Requires-Dist: numpy (~=1.18.1)
+Requires-Dist: custodian (~=2019.9.23)
+Requires-Dist: PyYAML (~=5.3)
+
+
+[![License](https://img.shields.io/apm/l/vise)](https://img.shields.io/apm/l/vise)
+
+# vise
+Vasp Integrated Simulation Environment. 
+
+
