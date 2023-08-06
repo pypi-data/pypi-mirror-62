@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: pycahrm-external
+Version: 1.1.1
+Summary: pycahrm external tools
+Home-page: http://106.12.87.246:8080/myhotupdate/homepage/
+Author: QQ：2920007919
+Author-email: 2920007919@qq.com
+License: UNKNOWN
+Description: 引号替换
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7
