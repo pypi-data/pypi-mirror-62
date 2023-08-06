@@ -1,0 +1,11 @@
+search_fs/__init__.py,sha256=F5dDsCuEI0VkTeD5AIlieJ4iywKWnn6Cco0ZWra01zs,117
+search_fs/create_db.py,sha256=18gYm3zV2M5YjDLMB1CQdfhzz-Gb0A_kJUl6SU6nFhk,2892
+search_fs/search.py,sha256=2q9ta_52mgZrpkI6zshl9RfdZOVmKnJuBsiNnXPGfUk,3573
+search_fs/web.py,sha256=Wvm68QPPZ9f0NE9YBoug07w21FaFrWAuS2XdNW9h0tk,818
+search_fs-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+search_fs-0.0.3.dist-info/METADATA,sha256=6OW-sTP_h_COPksRlKOJFOQ5A3K-8_xALx6ssF2E-4I,1871
+search_fs-0.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+search_fs-0.0.3.dist-info/entry_points.txt,sha256=I2pM7XNih94Mb7UoxEUnfUCCeDc1Rqr7GTEjqMWFlLs,97
+search_fs-0.0.3.dist-info/top_level.txt,sha256=vQmXCnn2J4x7wTCx7DIXbdBO6CVNFXxl-RAaTsBre6k,10
+search_fs-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+search_fs-0.0.3.dist-info/RECORD,,
