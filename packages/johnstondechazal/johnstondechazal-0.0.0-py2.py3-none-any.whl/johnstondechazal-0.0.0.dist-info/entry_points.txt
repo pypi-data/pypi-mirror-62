@@ -1,0 +1,3 @@
+[console_scripts]
+johnstondechazal = johnstondechazal.cli:main
+
