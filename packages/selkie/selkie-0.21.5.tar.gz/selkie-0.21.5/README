@@ -1,0 +1,32 @@
+
+			       S E A L
+
+			     Steven Abney
+			University of Michigan
+
+		       http://vinartus.net/spa
+
+
+    Seal is a Python library of natural language processing code.
+
+
+PREREQUISITES
+
+    Seal requires Python 3.
+
+INSTALLATION
+
+    Most of the Seal functionality is pure Python.  If the directory
+    in which this README is found is $seal, put $seal/python on your
+    PYTHONPATH.
+
+DOCUMENTATION
+
+    There is no user manual yet.
+
+    The developer's manual is doc/html/index.html - open it in a
+    browser.
+
+TERMS OF USE
+
+    See the COPYRIGHT file.

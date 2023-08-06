@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: selkie
+Version: 0.21.5
+Summary: Computational Linguistics
+Home-page: http://www.umich.edu/~abney/
+Author: Steven Abney
+Author-email: abney@umich.edu
+License: UNKNOWN
+Description: Computational Linguistics
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
