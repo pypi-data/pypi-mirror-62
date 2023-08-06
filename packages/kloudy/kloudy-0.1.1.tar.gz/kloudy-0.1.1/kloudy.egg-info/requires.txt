@@ -1,0 +1,9 @@
+Click
+boto3
+requests
+texttable
+colorama
+click-completion
+oauth2client
+google-api-python-client
+azure

@@ -1,0 +1,21 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kloudy/__init__.py
+kloudy/kloudy.py
+kloudy.egg-info/PKG-INFO
+kloudy.egg-info/PKG-INFO 2
+kloudy.egg-info/SOURCES 2.txt
+kloudy.egg-info/SOURCES.txt
+kloudy.egg-info/dependency_links 2.txt
+kloudy.egg-info/dependency_links.txt
+kloudy.egg-info/entry_points 2.txt
+kloudy.egg-info/entry_points.txt
+kloudy.egg-info/requires 2.txt
+kloudy.egg-info/requires.txt
+kloudy.egg-info/top_level 2.txt
+kloudy.egg-info/top_level.txt
+kloudy/aws/commands/aws.py
+kloudy/azure/commands/azure.py
+kloudy/gcp/commands/gcp.py
