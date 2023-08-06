@@ -1,0 +1,7 @@
+flask
+bs4
+html5lib
+archivenow
+requests
+readability-lxml
+Pillow
