@@ -1,0 +1,7 @@
+setup.py
+supervisor_multiprocesslogging/__init__.py
+supervisor_multiprocesslogging.egg-info/PKG-INFO
+supervisor_multiprocesslogging.egg-info/SOURCES.txt
+supervisor_multiprocesslogging.egg-info/dependency_links.txt
+supervisor_multiprocesslogging.egg-info/entry_points.txt
+supervisor_multiprocesslogging.egg-info/top_level.txt
