@@ -1,0 +1,4 @@
+docopt
+numpy
+rlbot>=1.36.3
+watchdog
