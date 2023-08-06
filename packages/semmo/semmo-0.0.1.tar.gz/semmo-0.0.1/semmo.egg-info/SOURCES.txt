@@ -1,0 +1,9 @@
+README.md
+setup.py
+semmo/__init__.py
+semmo/semmo.py
+semmo.egg-info/PKG-INFO
+semmo.egg-info/SOURCES.txt
+semmo.egg-info/dependency_links.txt
+semmo.egg-info/requires.txt
+semmo.egg-info/top_level.txt
