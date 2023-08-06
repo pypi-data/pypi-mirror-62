@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+Hotel_Lite_VF.egg-info/PKG-INFO
+Hotel_Lite_VF.egg-info/SOURCES.txt
+Hotel_Lite_VF.egg-info/dependency_links.txt
+Hotel_Lite_VF.egg-info/top_level.txt
