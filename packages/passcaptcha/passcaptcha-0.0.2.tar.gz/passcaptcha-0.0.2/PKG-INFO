@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: passcaptcha
+Version: 0.0.2
+Summary: An asynchronized Python library to automate solving ReCAPTCHA v2 by images/audio
+Home-page: https://github.com/GreatWriter/PassCatpcha
+Author: GreatWriter <cheung.jay@hotmail.com>, Cheung jay <cheung.jay@hotmail.com>
+Author-email: cheung.jay@hotmail.com, cheung.jay@hotmail.com
+License: GPL-3.0
+Description: Reference GoodByeCatpcha
+Platform: all
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: JavaScript
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
