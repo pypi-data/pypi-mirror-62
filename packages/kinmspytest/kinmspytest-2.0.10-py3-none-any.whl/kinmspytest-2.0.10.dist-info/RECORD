@@ -1,0 +1,11 @@
+KinMS/KinMS_core.py,sha256=HRgGh84SJd-68g_WZsmoD7HAttk04xYwCbb_ZyS5oNQ,50162
+KinMS/KinMS_testsuite.py,sha256=_4umIwcK_Dqx1Kj3t_osvVr10GAXyaTmJehVCtw0xZA,21341
+KinMS/__init__.py,sha256=4uy0p0ZQJPglQTjfsGtrgF1aA6siGVD-9oSDyg41h3A,123
+KinMS/utils/KinMS_figures.py,sha256=kwdiegxD8foh5h6A8XEDpFWrpOVjAUAtX7JTcbg-dcA,15070
+KinMS/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KinMS/utils/sauron_colormap.py,sha256=8APka-_L432wyICcHcySjk3qmjNOynb3iDjjlMuUTU0,4448
+kinmspytest-2.0.10.dist-info/LICENSE,sha256=o5EApbH15xSLLcK6izg1KLvkrsoGsXgOjR1AMEyxs-M,1106
+kinmspytest-2.0.10.dist-info/METADATA,sha256=ViQZiKxbq19GV7RIN5KyDJHliXSluCT1EGpEUAXVn2g,1085
+kinmspytest-2.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kinmspytest-2.0.10.dist-info/top_level.txt,sha256=F1fB8sZUMveeOV73LbEFv7vxLmV9ydo-ItsG4RLPQ6Q,6
+kinmspytest-2.0.10.dist-info/RECORD,,
