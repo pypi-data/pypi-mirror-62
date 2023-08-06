@@ -1,0 +1,6 @@
+README.md
+setup.py
+attendance.egg-info/PKG-INFO
+attendance.egg-info/SOURCES.txt
+attendance.egg-info/dependency_links.txt
+attendance.egg-info/top_level.txt
