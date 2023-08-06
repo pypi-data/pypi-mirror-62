@@ -1,0 +1,10 @@
+ideas/__init__.py,sha256=HI-9KThpTir20-hfauRbFbtrcIzyWCc6Rg435hV798A,24
+ideas/console.py,sha256=lpuA0VUnH0T_HKSSsOfeiIQTLD1PY50eJPREo2WrFOQ,6500
+ideas/encoding.py,sha256=gP4xX1X9fkERgy3v4NbauRT2K53grjIYna61256IxX4,2241
+ideas/import_hook.py,sha256=YSWu6o-10pYAAGZmWObyz0hEpoQyBM-X0tEszYhidqI,8769
+ideas/utils.py,sha256=LExuTLkRXf4Q3BVtIR59YOHWrf1mj4nQrLu2HIF2-f8,2347
+ideas-0.0.14.dist-info/LICENSE,sha256=M_m-ccXDL5u5EgtXc1m9_fTVtjWwiVqcZv0wskurCy0,1219
+ideas-0.0.14.dist-info/METADATA,sha256=sCR5c-J6fse5enlj-bTuIpmOGpQgAvfIi1Pma5d0674,6913
+ideas-0.0.14.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ideas-0.0.14.dist-info/top_level.txt,sha256=WForzRPk97lx0JI38FUCkqNXFmCZQFWj319hH1EK6TU,6
+ideas-0.0.14.dist-info/RECORD,,
