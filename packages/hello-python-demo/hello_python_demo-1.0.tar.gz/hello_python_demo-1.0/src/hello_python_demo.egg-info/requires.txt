@@ -1,0 +1,10 @@
+request
+six
+redis>=2.10.5
+pytest
+
+[:platform_system == "Windows"]
+pywin32>=1.0
+
+[:python_version < "3.4"]
+enum34
