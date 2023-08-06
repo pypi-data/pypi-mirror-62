@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: automata-tools
+Version: 1.0.0
+Summary: Tools to build automata from your custom rule
+Home-page: https://github.com/linonetwo/automata-tools
+Author: LinOnetwo
+Author-email: linonetwo012@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/linonetwo/automata-tools/issues
+Project-URL: Source, https://github.com/linonetwo/automata-tools/
+Description: # Automata Tools
+        
+        ## Development
+        
+        ### Environment
+        
+        Create environment from the text file:
+        
+        ```shell
+        conda env create --file automataTools-env.txt
+        conda activate automataTools
+        ```
+        
+        Save env file: `conda list --explicit > automataTools-env.txt`
+        
+        ### Python Path
+        
+        Create a `.env` file with content `PYTHONPATH=automataTools`
+        
+        ## Resources
+        
+        [Automata Theory Course Slides](http://www.cs.may.ie/staff/jpower/Courses/Previous/parsing/node5.html)
+        
+        Probably the original reference [source](https://github.com/sdht0/automata-from-regex)
+        
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Typing :: Typed
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
