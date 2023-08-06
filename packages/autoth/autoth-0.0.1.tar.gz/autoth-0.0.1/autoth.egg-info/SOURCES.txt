@@ -1,0 +1,8 @@
+README.md
+setup.py
+autoth/__init__.py
+autoth/core.py
+autoth.egg-info/PKG-INFO
+autoth.egg-info/SOURCES.txt
+autoth.egg-info/dependency_links.txt
+autoth.egg-info/top_level.txt
