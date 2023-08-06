@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+multiprocess_chunks/__init__.py
+multiprocess_chunks/methods.py
+multiprocess_chunks.egg-info/PKG-INFO
+multiprocess_chunks.egg-info/SOURCES.txt
+multiprocess_chunks.egg-info/dependency_links.txt
+multiprocess_chunks.egg-info/requires.txt
+multiprocess_chunks.egg-info/top_level.txt
