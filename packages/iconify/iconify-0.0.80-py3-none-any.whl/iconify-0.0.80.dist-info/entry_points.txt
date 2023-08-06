@@ -1,0 +1,7 @@
+[console_scripts]
+iconify-browser = iconify.browser:run
+iconify-fetch = iconify.fetch:fetch
+iconify-fetch-ei = iconify.fetch:elusiveIcons
+iconify-fetch-fa = iconify.fetch:fontAwesome
+iconify-fetch-mdi = iconify.fetch:materialDesign
+
