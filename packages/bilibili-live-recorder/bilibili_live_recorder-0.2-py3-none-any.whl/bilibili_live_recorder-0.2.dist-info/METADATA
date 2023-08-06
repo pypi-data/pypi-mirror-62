@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bilibili-live-recorder
+Version: 0.2
+Summary: This is an script used to record bilibili live stream
+Home-page: UNKNOWN
+Author: yuzao
+Author-email: UNKNOWN
+License: MIT
+Keywords: bilibili live
+Platform: unix
+Requires-Dist: requests
+Requires-Dist: loguru
+
+UNKNOWN
+
+
