@@ -1,0 +1,7 @@
+README.md
+setup.py
+pygametext/__init__.py
+pygametext.egg-info/PKG-INFO
+pygametext.egg-info/SOURCES.txt
+pygametext.egg-info/dependency_links.txt
+pygametext.egg-info/top_level.txt
