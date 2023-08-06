@@ -1,0 +1,9 @@
+blxo/__init__.py,sha256=NtGzgLMnfYZCxQQiuDjy5b7RfrbSOQv6E-yKSbqIiAY,65
+blxo/geometry.py,sha256=2W-oqMb_hJm6gjxNJG7FT5KzrThW7suXFqS4hvGsXO0,3578
+blxo/math_physics.py,sha256=exsXTbEheThNdYGDNiC0RlKAOA4y4hkN6CF2X5JWKfg,39872
+blxo/mc.py,sha256=dDJGFFoIyphKxdgG4lPbsn_cKdz8Bpdi5VIvYwkoyCs,7387
+blxo-0.1.10.dist-info/METADATA,sha256=KxHZN62n_5YMwELgP4lXYS6uPwpDjsy6hwlGTT1pO0A,2266
+blxo-0.1.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+blxo-0.1.10.dist-info/entry_points.txt,sha256=a_lcqeli9CY7rflfuIooVfvmJ1ExRF20mFby515E8BM,90
+blxo-0.1.10.dist-info/top_level.txt,sha256=9yNRWQPPfcnwTgijPYJlu-CsAHgjIHXEoNwU602mSmc,5
+blxo-0.1.10.dist-info/RECORD,,
