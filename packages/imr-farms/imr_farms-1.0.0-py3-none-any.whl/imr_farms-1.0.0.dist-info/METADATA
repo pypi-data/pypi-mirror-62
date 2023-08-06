@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: imr-farms
+Version: 1.0.0
+Summary: Retrieve public data on Norwegian aquaculture locations
+Home-page: https://travis-ci.com/pnsaevik/imr_farms
+Author: Pål Næverlid Sævik
+Author-email: a5606@hi.no
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: GDAL
+Requires-Dist: xarray
+Requires-Dist: netCDF4
+
+UNKNOWN
+
+
