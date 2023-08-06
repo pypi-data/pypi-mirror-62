@@ -1,0 +1,13 @@
+<RCC>
+    <qresource>
+        <file alias="average">images/average.png</file>
+        <file alias="cube">images/cube.png</file>
+        <file alias="histogram">images/histogram.png</file>
+        <file alias="iteration">images/iteration.png</file>
+        <file alias="library">images/library_24.png</file>
+        <file alias="lumos">images/lumos_24.png</file>
+        <file alias="lumos_full">images/lumos_h60.png</file>
+        <file alias="percentage">images/percentage.png</file>
+        <file alias="profile">images/profile.png</file>
+    </qresource>
+</RCC>

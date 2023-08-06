@@ -1,0 +1,34 @@
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=Spectral Libraries Tool
+qgisMinimumVersion=3.4
+description=Spectral Library Creation and Optimization
+version=0.0.1
+author=Benjamin Jakimow (HU Berlin); Ann Crabbé (KU Leuven)
+email=ann.crabbe@kuleuven.be
+
+about=The Spectral Library Tool software package provides a suite of processing tools for multi- and hyperspectral
+ spectral libraries: library creation (from import or image) and optimization (IES, EAR-MASA-COB, CRES).
+
+tracker=https://bitbucket.org/kul-reseco/spectral-libraries/issues
+repository=https://bitbucket.org/kul-reseco/spectral-libraries/src
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=https://spectral-libraries.readthedocs.io
+
+# Tags are comma separated with spaces allowed
+tags=ies, ear, masa, cob, emc, cres, square array, spectral library, remote sensing
+
+homepage=https://spectral-libraries.readthedocs.io
+category=Raster
+icon=images/lumos_h60.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
