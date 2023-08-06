@@ -1,0 +1,11 @@
+fuzzywuzzy
+omdbpy
+python-Levenshtein
+requests
+
+[testing]
+faker
+pyfakefs
+pytest-cov
+pytest
+tox
