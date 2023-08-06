@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fusionflow-upload
+Version: 0.0.6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: loganluo
+Author-email: chong.luo@cidatahub.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.3
+Requires-Dist: Click (==7.0)
+Requires-Dist: cx-Oracle (==7.3.0)
+Requires-Dist: Django (==2.2.7)
+Requires-Dist: requests (==2.23.0)
+
+UNKNOWN
+
+
