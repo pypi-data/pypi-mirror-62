@@ -1,0 +1,16 @@
+chatbase_track/__init__.py,sha256=dzSFCyVHMDGjnM9bCS79OCwNaO2wfPu5D16tsXambnE,54
+chatbase_track/aiogram.py,sha256=BxdtK-DYmitEWEKOXNcSySDDA92KQ7o0LJDah4QcNcs,1932
+chatbase_track/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatbase_track/backend/aiohttp.py,sha256=kFjz7EgeEERzbCwtlvgFX1YFVNuBpBH7YXGb0HBhz2g,1679
+chatbase_track/backend/base.py,sha256=lEArX9fSrQsTl8JIEUX7M7YCX1H6VQeeEH2yRuqVbg0,1804
+chatbase_track/backend/httpx.py,sha256=uWi1qZ79r1UiFoVLvAzcn495ukWaJ2II5obH65Y9M9A,1506
+chatbase_track/backend/requests.py,sha256=M8AjeE51YCkuCJ3xQuxiV4BS5DV2DsWb04_FYhJktDs,1336
+chatbase_track/chatbase.py,sha256=KvtPA5z8n1NdQxAkqZV8Ttj7G58paelCZiaYaGGTD-Y,1682
+chatbase_track/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatbase_track/types/base.py,sha256=7hxQ_gmy5EPJlhbgNj4Eo5AZTcd7S46dbAu6O59tdiA,129
+chatbase_track/types/message.py,sha256=BPNkubx9b7aA9PnW1y6RR7Na5ELjec5Kcikum1qy_qc,749
+chatbase_track/types/message_type.py,sha256=x4f2a3hWoDy5C9t7NbdXlniiQYYPefB4rHVGyLnKavI,87
+chatbase_track/types/response.py,sha256=5qbnECwcU2gyfo5-Qm0N1rdr8wjxkVUdxym4diS9EdM,496
+chatbase_track-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+chatbase_track-0.1.0.dist-info/METADATA,sha256=TOGdo2fQDl4CWM8HL9VgJZo1WehVWyMu_cwRU2xdbNg,679
+chatbase_track-0.1.0.dist-info/RECORD,,
