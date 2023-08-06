@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: oenkelhash
+Version: 1.0
+Summary: Oenkel Hash
+Home-page: https://github.com/jobfeikens/oenkelhash
+Author: job
+Author-email: job@vv32.nl
+License: MIT
+Download-URL: https://github.com/jobfeikens/oenkelhash/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: oenkel,hash
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
