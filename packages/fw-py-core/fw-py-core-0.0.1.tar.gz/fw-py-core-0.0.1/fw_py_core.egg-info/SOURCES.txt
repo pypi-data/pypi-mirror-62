@@ -1,0 +1,11 @@
+setup.py
+core/__init__.py
+core/clean.py
+core/gitCommands.py
+core/release.py
+fw_py_core.egg-info/PKG-INFO
+fw_py_core.egg-info/SOURCES.txt
+fw_py_core.egg-info/dependency_links.txt
+fw_py_core.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
