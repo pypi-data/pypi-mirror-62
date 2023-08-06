@@ -1,0 +1,13 @@
+requests
+bs4
+selenium
+chronometry
+requests_ntlm
+PyJWT
+slytherin
+abstract
+pensieve
+linguistics
+pandas
+ravenclaw
+silverware
