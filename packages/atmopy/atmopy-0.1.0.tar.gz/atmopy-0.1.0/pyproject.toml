@@ -1,0 +1,46 @@
+[build-system]
+requires = [
+    "flit_core >=2.0,<3",
+    "wheel",
+]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "atmopy"
+author = "Jorge M.G."
+author-email = "jorge@on-orbit.dev"
+description-file = "README.md"
+home-page = "https://github.com/jorgepiloto/atmopy/"
+keywords = "aerospace,atmosphere,orbital mechanics"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+requires-python = ">=3.6"
+requires = [
+    "numpy",
+]
+
+[tool.flit.metadata.requires-extra]
+dev = [
+    "black",
+    "isort",
+    "pytest",
+    "pytest-cov",
+    "sphinx",
+    "tox",
+]
+
+[tool.flit.metadata.urls]
+Source = "https://github.com/jorgepiloto/atmopy"
+Tracker = "https://github.com/jorgepiloto/atmopy/issues"
+
+[tool.flit.entrypoints."console_scripts"]
+atmopy = "atmopy.cli:main"
+
