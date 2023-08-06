@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: reactive-platform
+Version: 0.2.0
+Summary: reactive-platform: Reactive Platform Python API
+Home-page: https://www.reactiveexchange.com
+Author: Reactive Platform
+Author-email: development@reactiveexchange.com
+Maintainer: Fan Zhao
+License: Apache
+Project-URL: Source, https://github.com/reactivemarkets/platform-py
+Project-URL: Tracker, https://github.com/reactivemarkets/platform-py/issues
+Description: # Reactive-Platform Python
+        
+        ## Getting Started
+        
+        Start by creating a virtual environment and installing required packages:
+        
+        ```bash
+        $ python3 -m venv venv
+        $ source venv/bin/activate
+        $ pip install -r requirements.txt
+        ```
+        
+        Run the tests:
+        
+        ```bash
+        $ python setup.py test
+        ```
+        
+        Deactivate the virtual environment when you are done:
+        
+        ```bash
+        $ deactivate
+        ```
+        
+        ## Upgrade Dependencies
+        
+        Dependencies can be upgraded as follows:
+        
+        ```bash
+        $ pip install pip-tools
+        $ pip-compile requirements.in >requirements.txt
+        $ pip install -r requirements.txt
+        ```
+        
+        ## Testing
+        
+        Run the tests:
+        
+        ```bash
+        $ python setup.py test
+        ```
+        
+        Run nosestests:
+        
+        ```bash
+        $ pip install coverage flake8 nose pylint
+        $ python setup.py nosetests
+        ```
+        
+        Generate coverage report:
+        
+        ```bash
+        $ python setup.py nosetests --cover-html --cover-html-dir=DIR
+        ```
+        
+        Run tox:
+        
+        ```bash
+        $ pip install tox
+        $ tox
+        ```
+        
+        ## Installation
+        
+        Install locally:
+        
+        ```bash
+        $ pip install .
+        ```
+        
+        ## Build Python Package
+        
+        Build Python package:
+        
+        ```bash
+        $ python setup.py sdist
+        ```
+        
+        Build wheel:
+        
+        ```bash
+        $ python setup.py bdist_wheel
+        ```
+        
+Keywords: reactive platform
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing

@@ -1,0 +1,10 @@
+flatbuffers
+pytz
+requests
+websockets
+
+[testing]
+pytest
+pytest-cov
+flake8
+tox
