@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+tf_quat2rot/__init__.py
+tf_quat2rot/check.py
+tf_quat2rot/converter.py
+tf_quat2rot/generator.py
+tf_quat2rot.egg-info/PKG-INFO
+tf_quat2rot.egg-info/SOURCES.txt
+tf_quat2rot.egg-info/dependency_links.txt
+tf_quat2rot.egg-info/not-zip-safe
+tf_quat2rot.egg-info/requires.txt
+tf_quat2rot.egg-info/top_level.txt
+tf_quat2rot/tests/__init__.py
+tf_quat2rot/tests/test_quat2rot.py
