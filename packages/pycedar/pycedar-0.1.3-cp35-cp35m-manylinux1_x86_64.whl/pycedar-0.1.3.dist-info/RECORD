@@ -1,0 +1,8 @@
+pycedar.cpython-35m-x86_64-linux-gnu.so,sha256=Yo1w6kH0ShCsiH4Mo_WxCxBC_Yjdp0pwrHDv2F91vAk,2487691
+pycedar/VERSION,sha256=2_CXjsK1h6XWGH_cxBzOn_LA647vrboOtR84QKtu60Y,5
+pycedar/pycedar.pxd,sha256=2DinDB94We8Y_5KoumEWv0hVt5M3o1U_rRH-YkdGQt0,1577
+pycedar/core/cedar/src/cedarpp.h,sha256=y_CM8F0WVJB8eTB-wyUzFvZy7XkoRy0qSoBU_H7RCxg,35607
+pycedar-0.1.3.dist-info/METADATA,sha256=rCGu-QDVN7USGUkTZN6xwQsUs7nSEVf8c3OkiAtkBS4,3801
+pycedar-0.1.3.dist-info/RECORD,,
+pycedar-0.1.3.dist-info/WHEEL,sha256=c8uKbdQypV832y6wpTaH7LmB9UQOPgqCSt-bcR7krHw,109
+pycedar-0.1.3.dist-info/top_level.txt,sha256=MklXmuOaF_rioFgdV3d9Sd0wXDcAz1UFY4EDWf2v18Q,8
