@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: vehiclemapperscript
+Version: 36.0
+Summary: Vehicle Mapper
+Home-page: UNKNOWN
+Author: yzcop
+Author-email: yadugkrishnan@gmail.com
+License: MIT
+Description: #### Installation
+        Install python3 using the following article
+        [Install python](https://realpython.com/installing-python/)
+        #### Run these commands after installing python3
+        ```sh
+        python3.7 -m pip install vehiclemapperscript
+        python3 -m vehiclemapperscript   
+        ```
+        #### Inputs
+        * __Enter base sheet name__ -  Name of the first sheet eg: Digit
+        * __Enter Comparing sheet name__ - Name of the sheet to be compared with the base sheet Eg: HDFC
+        * __Enter sheet full path__ - Full path of the excel sheet located in your system
+        * __Enter base sheet index__ -  Index of the base sheet. If sheet is the first one, index will be 0, and 1 for second sheet
+        * __Enter index of sheet to be compared__ - Index of the sheet to be compared with the base sheet
+        * __Enter base sheet make__ - Make column name of the base sheet
+        * __Enter base sheet model__ - Model column name of the base sheet
+        * __Enter base sheet variant__ - Variant column name of the base sheet
+        * __Enter base sheet fuel type__  - Fuel type column nae of the base sheet
+        * __Enter base sheet vehicle code__ - Vehicle code column name of the base sheet
+        * __Enter comparing sheet make__ - Make column name of the comparing sheet
+        * __Enter comparing sheet model__ - Model column name of the comparing sheet
+        * __Enter comparing sheet variant__ - Variant column name of the comparing sheet
+        * __Enter comparing sheet fuel type__  - Fuel type column name of the comparing sheet
+        * __Enter comparing sheet vehile code__ - Vehicle code column name of the comparing sheet
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
