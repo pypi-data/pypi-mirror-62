@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: helldiver
+Version: 0.1.6
+Summary: A lightweight markdown to blog-aware HTML converter.
+Author: Rohan Bansal
+Author-email: rohanarunbansal@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.8.2,<5.0.0)
+Requires-Dist: markdown2 (>=2.3.8,<3.0.0)
