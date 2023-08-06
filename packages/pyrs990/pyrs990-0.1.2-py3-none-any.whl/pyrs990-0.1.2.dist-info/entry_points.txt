@@ -1,0 +1,3 @@
+[console_scripts]
+pyrs990=pyrs990
+
