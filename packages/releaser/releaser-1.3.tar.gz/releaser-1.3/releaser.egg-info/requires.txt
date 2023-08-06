@@ -1,0 +1,7 @@
+nine>0.3.2
+bag>0.3.7
+docutils<0.13a
+grimace==0.0.14
+path.py<10.0a
+requests
+wheel
