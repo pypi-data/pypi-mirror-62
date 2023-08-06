@@ -1,0 +1,16 @@
+icybackup/__init__.py,sha256=gKmR72lrAYqKjiwaXHnc0lX_60eU0a0NFfGzSNp8h9M,46
+icybackup/admin.py,sha256=s0uBR7rbsAPFLrONEjFPh3fd2J7nDDjBM1siVzQL2NE,620
+icybackup/models.py,sha256=_HinrRR-mGA7i0yXQyUOb-IBY2ORgZf9GNKUoPJBIHk,830
+icybackup/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icybackup/components/db.py,sha256=N8JATSkPkIPynkxqOOBCqUiM_e39ja8fAwrLN3OuOR8,5578
+icybackup/components/glacier.py,sha256=WjP_OkGNeGC2qiB_LzQ2m-fUTyZ-bDVjbsQwUq5XD-c,3454
+icybackup/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icybackup/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icybackup/management/commands/backup.py,sha256=NMxUEd4spd5RYTF58PxapBuV7azn5JW6MYFRPJVIHms,4848
+icybackup/management/commands/restore.py,sha256=fCrRCvLpoqIDcRPAt9v8MhbPf3y65wUC_iAEJ8lSx_0,3417
+icybackup/migrations/0001_initial.py,sha256=sZhSfALudsSC8CoIeyrdU8rtXqjCymLR112g1vSHIw4,1257
+icybackup/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_icybackup_jl-0.1.9.dist-info/METADATA,sha256=Ep-7EE2-fRBfEtyLpDnGYqRA_HGTCXx52jv38ZsJ234,466
+django_icybackup_jl-0.1.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_icybackup_jl-0.1.9.dist-info/top_level.txt,sha256=L4xJgsuEF7mNzWjZStQg45WMc2CLK_FGPHjcP4HxmjE,10
+django_icybackup_jl-0.1.9.dist-info/RECORD,,
