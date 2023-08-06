@@ -1,0 +1,7 @@
+README.md
+setup.py
+musk/__init__.py
+musk.egg-info/PKG-INFO
+musk.egg-info/SOURCES.txt
+musk.egg-info/dependency_links.txt
+musk.egg-info/top_level.txt
