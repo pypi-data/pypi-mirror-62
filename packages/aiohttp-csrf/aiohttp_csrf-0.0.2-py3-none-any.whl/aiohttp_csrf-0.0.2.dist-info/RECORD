@@ -1,0 +1,9 @@
+aiohttp_csrf/__init__.py,sha256=qgWmNW2HqcpCPC_7tdXEtWX_ZxGozSo_dL00ahk3Sp8,4729
+aiohttp_csrf/policy.py,sha256=TS9apVd0AfxFnDmnowlnz5rZIqcwcxTq5jGvY7ASYSc,1552
+aiohttp_csrf/storage.py,sha256=KOxd0pvZWdAAJrH5oETcdj1MnRxUIMg2nLWSpWM7f70,3112
+aiohttp_csrf/token_generator.py,sha256=0xJV8CHDw98rVuTD_MLc5j3LFPlgzMqMNpLcSDKbntY,636
+aiohttp_csrf-0.0.2.dist-info/LICENCE,sha256=eeLGOcqHnxRyDTp7di0effYfEQnRTnZnKlxY3t2Y35A,1084
+aiohttp_csrf-0.0.2.dist-info/METADATA,sha256=V3v9ijSvNsz7QtwGHP_UDAVXrRHCKSc7BgN1lCp1hoA,8514
+aiohttp_csrf-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiohttp_csrf-0.0.2.dist-info/top_level.txt,sha256=s2KZK5tDFTT_R9mSYiNXWo0sO2lQ5MHGamxqp6s3fe8,13
+aiohttp_csrf-0.0.2.dist-info/RECORD,,
