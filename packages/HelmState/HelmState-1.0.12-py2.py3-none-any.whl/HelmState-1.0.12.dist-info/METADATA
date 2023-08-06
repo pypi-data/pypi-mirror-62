@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HelmState
+Version: 1.0.12
+Summary: Helm state tool
+Home-page: https://github.com/hansehe/HelmState
+Author: Hans Erik Heggem
+Author-email: hans.erik.heggem@gmail.com
+License: UNKNOWN
+Requires-Dist: gitpython
+Requires-Dist: PyYAML
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# Helm State
+
+
