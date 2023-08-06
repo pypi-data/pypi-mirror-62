@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: datapenosql
+Version: 0.3
+Summary: DataPeno SQL Query Builder Utility
+Home-page: https://github.com/compufreq/datapenosql.git
+Author: Alaa Alhorani
+Author-email: alaa.alhorani@outlook.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
