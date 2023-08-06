@@ -1,0 +1,10 @@
+django_dynamic_path/__init__.py,sha256=12KgKQHyT8tKLRSRVqr0GD4dyHn-t5kNRTkUHUhfWzA,823
+dummy_project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dummy_project/settings.py,sha256=2o-o-ZIWmOAlHHhF_E-Mna7NJ9GfkVQHTnUL9CDu808,3160
+dummy_project/urls.py,sha256=YqeVob52p_YUJPXkEutHyyPxEf3U_UMwn13u6CoJCgM,755
+dummy_project/wsgi.py,sha256=sQE4qmgXhL97E6rsUmMRYmU45EzD64JIDkNVrgrzpsU,403
+django_dynamic_path-0.0.1.dist-info/LICENSE,sha256=3zadg6RilfqcoXgQ6j6BXFbJBGZbjlpiAxtVboyrBQk,1072
+django_dynamic_path-0.0.1.dist-info/METADATA,sha256=QQf3yXHwJUJUmAggi5qaiBkZNRtLRel6Gu7DWwZe4Ro,939
+django_dynamic_path-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_dynamic_path-0.0.1.dist-info/top_level.txt,sha256=xhjp4JPviFe43j9FKxWxgTwjTHc6KO0R5GEuXpaai9o,34
+django_dynamic_path-0.0.1.dist-info/RECORD,,
