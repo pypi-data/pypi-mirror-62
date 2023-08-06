@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: TKinterManagedFrame
+Version: 0.0.5
+Summary: Adds a Tkinter Frame class that offers simple update functionality
+Home-page: UNKNOWN
+Author: Christopher "Arkevorkhat" Trent
+Author-email: UNKNOWN
+License: GNU GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Tcl Extensions
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
