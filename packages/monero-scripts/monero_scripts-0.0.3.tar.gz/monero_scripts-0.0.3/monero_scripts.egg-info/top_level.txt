@@ -1,0 +1,2 @@
+get_monero_hard_fork_info
+get_monero_seed_nodes
