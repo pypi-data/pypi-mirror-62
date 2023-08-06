@@ -1,0 +1,9 @@
+cambak/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cambak/__main__.py,sha256=QKDM8GML3HkYMG-FwclGITDJs9HeqEkXE5r8R07ldnU,1202
+cambak/backup.py,sha256=PfRH7bxyxbEPz7HAlzKrNT32Vu6CxvxThkQzLFfyHT8,2750
+cambak/cameras/Sony.py,sha256=ScNxxH8fiizTtiGc0g0KLGi2SwnMJPT-KHV-TXd77W0,303
+cambak/cameras/__init__.py,sha256=E0rIlRii7x8Ibof1amtYTrHlj30Fc99kOUEg2-HOyJQ,755
+cambak/scanner.py,sha256=luzidP4YBp3P-cCnEXFlAX_-2SaWUXQqmrJWvUJRqI8,664
+cambak-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+cambak-0.1.0.dist-info/METADATA,sha256=cUIYt0BIzw6qCerwpoLM5KXWsN0Mwfql1FStlIbXQEw,456
+cambak-0.1.0.dist-info/RECORD,,
