@@ -1,0 +1,4 @@
+voluptuous
+
+[:sys_platform != "win32"]
+pyudev
