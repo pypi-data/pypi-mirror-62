@@ -1,0 +1,10 @@
+gqlmod
+
+[app]
+jwcrypto
+python-dateutil
+
+[async]
+gqlmod[aiohttp]
+
+[sync]
