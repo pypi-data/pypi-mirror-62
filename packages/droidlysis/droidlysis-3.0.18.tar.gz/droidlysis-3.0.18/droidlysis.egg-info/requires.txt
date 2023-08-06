@@ -1,0 +1,4 @@
+configparser
+python-magic
+SQLAlchemy
+rarfile
