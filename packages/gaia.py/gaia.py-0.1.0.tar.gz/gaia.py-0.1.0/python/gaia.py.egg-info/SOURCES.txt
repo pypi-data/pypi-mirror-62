@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+python/gaia/__init__.py
+python/gaia/server.py
+python/gaia.py.egg-info/PKG-INFO
+python/gaia.py.egg-info/SOURCES.txt
+python/gaia.py.egg-info/dependency_links.txt
+python/gaia.py.egg-info/top_level.txt
