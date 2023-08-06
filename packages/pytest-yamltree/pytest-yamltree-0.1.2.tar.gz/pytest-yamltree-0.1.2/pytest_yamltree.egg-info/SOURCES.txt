@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_yamltree.py
+setup.cfg
+setup.py
+pytest_yamltree.egg-info/PKG-INFO
+pytest_yamltree.egg-info/SOURCES.txt
+pytest_yamltree.egg-info/dependency_links.txt
+pytest_yamltree.egg-info/entry_points.txt
+pytest_yamltree.egg-info/requires.txt
+pytest_yamltree.egg-info/top_level.txt

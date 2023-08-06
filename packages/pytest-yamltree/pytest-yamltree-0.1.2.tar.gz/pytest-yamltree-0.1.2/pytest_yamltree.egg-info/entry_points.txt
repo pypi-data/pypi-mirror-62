@@ -1,0 +1,3 @@
+[pytest11]
+yamltree = pytest_yamltree
+
