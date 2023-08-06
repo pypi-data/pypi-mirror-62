@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: iot-manager-client
+Version: 0.0.1
+Summary: A client used for connecting to a IoT Manager Server instance.
+Home-page: https://github.com/dylancrockett/iot-manager-client
+Author: Dylan Crockett
+Author-email: dylanrcrockett@gmail.com
+License: MIT
+Project-URL: Documentation, https://iotmanager-client.readthedocs.io/
+Project-URL: Source Code, https://github.com/dylancrockett/iot-manager-client
+Description: iot-manager-client
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
