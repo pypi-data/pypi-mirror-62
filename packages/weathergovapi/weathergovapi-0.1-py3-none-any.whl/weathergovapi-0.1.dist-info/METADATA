@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: weathergovapi
+Version: 0.1
+Summary: Simple interface for weather.gov
+Home-page: https://gitlab.com/blfordham/weather-api
+Author: Bryan Fordham
+Author-email: bryan@nativesavannah.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Weather API
+
+This is a very simple library to access information from the weather.gov api.
+
+```python
+>>> from weathergovapi import WeatherGovApi
+>>> point = WeatherGovApi.getPoint(31.9383,-81.3034)
+# Information from the API can be accessed directly
+>>> point.forecastUrl
+'https://api.weather.gov/gridpoints/CHS/39,33/forecast'
+# There are a few convenience methods
+>>> forecast = point.forecast()
+>>> current = forecast.periods[0]
+>>> current.detailedForecast
+'A chance of showers and thunderstorms before 4am, then a chance of rain showers and patchy fog. Cloudy, with a low around 62. West wind 2 to 9 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.'
+```
+
+
