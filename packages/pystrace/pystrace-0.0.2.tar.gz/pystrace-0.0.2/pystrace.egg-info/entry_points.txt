@@ -1,0 +1,3 @@
+[console_scripts]
+pystrace = pystrace.__main__:main
+
