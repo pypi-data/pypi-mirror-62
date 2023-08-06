@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tentalog/__init__.py
+tentalog/default_configuration.yaml
+tentalog.egg-info/PKG-INFO
+tentalog.egg-info/SOURCES.txt
+tentalog.egg-info/dependency_links.txt
+tentalog.egg-info/requires.txt
+tentalog.egg-info/top_level.txt
