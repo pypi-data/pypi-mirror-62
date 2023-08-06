@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ElegantDevelopment/AWSCDKFeatureFlags/__init__.py
+src/ElegantDevelopment/AWSCDKFeatureFlags/py.typed
+src/ElegantDevelopment/AWSCDKFeatureFlags/_jsii/__init__.py
+src/ElegantDevelopment/AWSCDKFeatureFlags/_jsii/aws-cdk-featureflags@0.1.2.jsii.tgz
+src/aws_cdk_featureflags.egg-info/PKG-INFO
+src/aws_cdk_featureflags.egg-info/SOURCES.txt
+src/aws_cdk_featureflags.egg-info/dependency_links.txt
+src/aws_cdk_featureflags.egg-info/requires.txt
+src/aws_cdk_featureflags.egg-info/top_level.txt
