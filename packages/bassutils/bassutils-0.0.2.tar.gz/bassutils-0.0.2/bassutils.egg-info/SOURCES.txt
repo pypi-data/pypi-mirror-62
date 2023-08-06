@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bassutils/__init__.py
+bassutils/abc.py
+bassutils/text.py
+bassutils.egg-info/PKG-INFO
+bassutils.egg-info/SOURCES.txt
+bassutils.egg-info/dependency_links.txt
+bassutils.egg-info/top_level.txt
