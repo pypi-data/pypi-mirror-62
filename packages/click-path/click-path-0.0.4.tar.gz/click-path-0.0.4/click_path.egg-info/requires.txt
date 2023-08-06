@@ -1,0 +1,10 @@
+typeguard
+click
+
+[dev]
+pytest
+pytest-cov
+pylint
+mypy
+flake8
+snoop
