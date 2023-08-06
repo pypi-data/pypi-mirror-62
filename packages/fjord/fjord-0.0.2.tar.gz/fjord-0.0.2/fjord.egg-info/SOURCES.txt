@@ -1,0 +1,8 @@
+README.md
+setup.py
+fjord.egg-info/PKG-INFO
+fjord.egg-info/SOURCES.txt
+fjord.egg-info/dependency_links.txt
+fjord.egg-info/not-zip-safe
+fjord.egg-info/requires.txt
+fjord.egg-info/top_level.txt
