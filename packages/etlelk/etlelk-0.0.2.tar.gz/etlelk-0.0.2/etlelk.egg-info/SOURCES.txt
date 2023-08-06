@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+etlelk.egg-info/PKG-INFO
+etlelk.egg-info/SOURCES.txt
+etlelk.egg-info/dependency_links.txt
+etlelk.egg-info/requires.txt
+etlelk.egg-info/top_level.txt
