@@ -1,0 +1,16 @@
+README.rst
+setup.py
+bigger/__init__.py
+bigger/decorators.py
+bigger/encoding.py
+bigger/lamination.py
+bigger/load.py
+bigger/mappingclassgroup.py
+bigger/triangulation.py
+bigger/utilities.py
+bigger.egg-info/PKG-INFO
+bigger.egg-info/SOURCES.txt
+bigger.egg-info/dependency_links.txt
+bigger.egg-info/not-zip-safe
+bigger.egg-info/requires.txt
+bigger.egg-info/top_level.txt
