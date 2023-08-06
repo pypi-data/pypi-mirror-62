@@ -1,0 +1,13 @@
+pycx4/__init__.py,sha256=0MzgxwToyfLpOHoyripaYPxN6iJO52WxXJq-rWLdt8E,35
+pycx4/aux.py,sha256=HSC6ahVE_gpbGS5O0fRZTzTr5wIbwpGASlMvsaSzJYI,1063
+pycx4/pycda.cpython-36m-x86_64-linux-gnu.so,sha256=IPVscAEp_2esX7dl131bEP5re9FNf-AHp7Vl6wI6iNQ,1870288
+pycx4/q4cda.cpython-36m-x86_64-linux-gnu.so,sha256=mKpkGU1pFUV-EzuqPleLqZMUv39jJNDB8NsuNbpGijY,1629704
+pycx4/q5cda.cpython-36m-x86_64-linux-gnu.so,sha256=yjaxeP9jzho74GxxAT7PobU0q4CTseEFs5F6ewPhmDk,1634072
+pycx4/qcda.py,sha256=c-vwZ5hJQi5mIn9bSTD0HgLog6dPr2A6Tnwjp2mfyjE,745
+pycx4/version.py,sha256=sbi0xh4nPh_x5-jbaMJUla3kzzFhmlxve-H6toRa0fg,22
+pycx4-0.516.dist-info/DESCRIPTION.rst,sha256=ueIWGIUsdvtWaSzOA2Cqm1iTDR7d57QgODUAXQNxR-w,72
+pycx4-0.516.dist-info/METADATA,sha256=k4QFC5-7TvuH2fppdXyeBDwb7oVikWsyRptLC8PncLw,1220
+pycx4-0.516.dist-info/RECORD,,
+pycx4-0.516.dist-info/WHEEL,sha256=X8kVdBCq85ICewwfaE6btv5qKsFQfVq8NYJIXUK0i1A,104
+pycx4-0.516.dist-info/metadata.json,sha256=9ZkVlchTDsoJEUaDxjZwgP5gmCC1ms6Ec4DnUPrwmyY,1262
+pycx4-0.516.dist-info/top_level.txt,sha256=RCq9hQlhlvkgz5D-lWLBRoiROjrV1zDR4erUw0c4f0w,6
