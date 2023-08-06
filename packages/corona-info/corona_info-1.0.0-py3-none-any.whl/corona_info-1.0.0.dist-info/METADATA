@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: corona-info
+Version: 1.0.0
+Summary: Get quick information about the corona virus!
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: tabulate
+
+UNKNOWN
+
+
