@@ -1,0 +1,13 @@
+README.md
+setup.py
+automata_tools.egg-info/PKG-INFO
+automata_tools.egg-info/SOURCES.txt
+automata_tools.egg-info/dependency_links.txt
+automata_tools.egg-info/requires.txt
+automata_tools.egg-info/top_level.txt
+examples/NFAfromCustomRule.py
+examples/NFAfromRegex.py
+examples/__init__.py
+scripts/__init__.py
+scripts/cli.py
+scripts/gui.py
