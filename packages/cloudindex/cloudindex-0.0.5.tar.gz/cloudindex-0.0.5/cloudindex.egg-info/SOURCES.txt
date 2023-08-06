@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/cloud-index
+cloudindex/__init__.py
+cloudindex.egg-info/PKG-INFO
+cloudindex.egg-info/SOURCES.txt
+cloudindex.egg-info/dependency_links.txt
+cloudindex.egg-info/requires.txt
+cloudindex.egg-info/top_level.txt
