@@ -1,0 +1,7 @@
+README.md
+setup.py
+Netio.egg-info/PKG-INFO
+Netio.egg-info/SOURCES.txt
+Netio.egg-info/dependency_links.txt
+Netio.egg-info/requires.txt
+Netio.egg-info/top_level.txt
