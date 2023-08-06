@@ -1,0 +1,14 @@
+fastcountvectorizer/fastcountvectorizer.py,sha256=bmUjBHOg-rvV6cPdMe1y1-N1NHhHiJNSxr4yyIXFTxE,17008
+fastcountvectorizer/version.py,sha256=r_SIMIHc9z6UHqWx7MGMnu3yUCK1modp6qPB256ioD4,116
+fastcountvectorizer/_ext.cpython-37m-i386-linux-gnu.so,sha256=0yA4Y0jfrOKk9y-ip9Aqc_KNadLR1HiSJL87klwzNmI,5663447
+fastcountvectorizer/_stopwords.py,sha256=BofdHHiwVrlGKP_MYAzp07UV2xPMeyLUP3j3dvPJm3M,5755
+fastcountvectorizer/__init__.py,sha256=pFu8UL9FiaPJUs5JZkbu5nHzsL4zn6GZwQF4Mp-7850,194
+fastcountvectorizer/compat.py,sha256=umaNcDKVN1Vxb2ax7H0op7Ej4R3SH5NojJS9rco700k,5828
+fastcountvectorizer/benchmark.py,sha256=dKAlKd_L-9Sxb9e7QbCbpNIfnlvZrVM5RZ1ZY1Yt75c,1717
+fastcountvectorizer/tests/test_sklearn.py,sha256=Td19Vf42p3TMZ_myfEGvm6ErUABqpJjonurdD9Bd7Zk,35799
+fastcountvectorizer/tests/test_fastcountvectorizer.py,sha256=FVckUqqJcRKbN9tOGucLDxur6QIyrnPDzijnndNDKXM,7218
+fastcountvectorizer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastcountvectorizer-0.1.0.dist-info/top_level.txt,sha256=drvSgGf02Te3RXtabR_r0zueUttqHSd0bMqXSszYjQY,20
+fastcountvectorizer-0.1.0.dist-info/RECORD,,
+fastcountvectorizer-0.1.0.dist-info/METADATA,sha256=WfRE6GseC0Ghe3lvI_xapwEdZwM1BNuPPQG09vR63nI,3098
+fastcountvectorizer-0.1.0.dist-info/WHEEL,sha256=e1_WZKsoHV1IIaYJKFwXtC2sSoi0Dll6iY6tWNRvKIA,107
