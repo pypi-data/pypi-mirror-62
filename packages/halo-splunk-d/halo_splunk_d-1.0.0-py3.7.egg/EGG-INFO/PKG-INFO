@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: halo-splunk-d
+Version: 1.0.0
+Summary: Package for Halo Splunk plugin.
+Home-page: https://github.com/cloudpassage/splunk-halo-python
+Author: Tom Miller
+Author-email: tmiller@cloudpassage.com
+License: MIT
+Description: Halo Splunk plugin Package made     for a demo of its making for the Halo Splunk Integration.
+Keywords: halo splunk plugin python package halo_splunk
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
