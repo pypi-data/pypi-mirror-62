@@ -1,0 +1,9 @@
+parade/__init__.py,sha256=3QA0AWpxjVWEZaA8Fi3_iMFakXTtbkw7xIqeH26tT10,552
+parade/command/check.py,sha256=AcnqOwEn1U-0n6WftUsvPoivXwEF3OoYI0wMP5eT-94,2849
+parade/tests/__init__.py,sha256=3QA0AWpxjVWEZaA8Fi3_iMFakXTtbkw7xIqeH26tT10,552
+parade/tests/test_check.py,sha256=4iz9HS4gMSESHuZga6fcK-SYr_etwUoml1MPbVLTLKg,1018
+parade_check-0.0.1.2.dist-info/LICENSE,sha256=2b2Id9fyBCiOXYeZrWqRQvIXT4a62bCnS75hTDqBBnc,1065
+parade_check-0.0.1.2.dist-info/METADATA,sha256=vun17YL0IFBk56gWoF6yW_3C7Z8-xkLzxvv-q1ZM-lA,761
+parade_check-0.0.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+parade_check-0.0.1.2.dist-info/top_level.txt,sha256=xxqDOsrJpDjXRv7ZSVQIURUJXzQOi1nEXI-2yjWlyL0,7
+parade_check-0.0.1.2.dist-info/RECORD,,
