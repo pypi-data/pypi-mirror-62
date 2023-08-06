@@ -1,0 +1,10 @@
+_tomotopy.cp38-win32.pyd,sha256=6HQwnUzuRcvLmFXo7qp8Q00wjHXLKy7LXUGSfMnF8pA,3428864
+_tomotopy_sse2.cp38-win32.pyd,sha256=r0oHCE4d_ZaUqVkXwqA8NeXECjy_SElU4UR8H0t3TRg,3428864
+tomotopy/__init__.py,sha256=A4DwL3LoQRIDhlzUBwJaYN9RHvomWfhZLDmflFfrbPI,7419
+tomotopy/documentation.kr.rst,sha256=Bsco7VQXYc9BbkJyqQ9LYL9Ew_Lc3tTM9yZeOqiDtuA,17969
+tomotopy/documentation.rst,sha256=3Huk8I8pemg34r0EJNWEpqIZajsoY_-dKDKoExnOTlw,15416
+tomotopy-0.5.2.dist-info/LICENSE,sha256=FWKmOdeuq0-as6Ji4MlsWTspqZtVAx_R7IOU7m3Xdyc,1078
+tomotopy-0.5.2.dist-info/METADATA,sha256=aDICBlYFraGJN5IQsNjm5nhjZqm8Y_XcCd_VzDuzddE,267
+tomotopy-0.5.2.dist-info/WHEEL,sha256=4TRfulwMrP8YSxpInGvijpm1wI5U2HlC51tdD-QDOYU,101
+tomotopy-0.5.2.dist-info/top_level.txt,sha256=Qmo-_cMr3Y3mP5GH5qdcgkQG4B7lE2yyUOMdhYvPhbM,34
+tomotopy-0.5.2.dist-info/RECORD,,
