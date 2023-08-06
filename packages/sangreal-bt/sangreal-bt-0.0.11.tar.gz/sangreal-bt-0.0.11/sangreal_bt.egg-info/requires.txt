@@ -1,0 +1,7 @@
+attrs
+fastcache
+pandas
+numpy
+matplotlib
+addict
+empyrical
