@@ -1,0 +1,3 @@
+djangoldp~=0.0
+cryptography<3,>=2
+requests-http-signature~=0.0
