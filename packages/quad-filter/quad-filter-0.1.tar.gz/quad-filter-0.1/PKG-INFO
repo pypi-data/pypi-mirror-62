@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: quad-filter
+Version: 0.1
+Summary: Filtering tools for quad trees
+Home-page: https://www.gitlab.com/jbrobertson/quad-filter/
+Author: JB Robertson
+Author-email: jbr@freeshell.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
