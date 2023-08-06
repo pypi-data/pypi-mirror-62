@@ -1,0 +1,3 @@
+[console_scripts]
+fsorg=fsorg.entry:run
+
