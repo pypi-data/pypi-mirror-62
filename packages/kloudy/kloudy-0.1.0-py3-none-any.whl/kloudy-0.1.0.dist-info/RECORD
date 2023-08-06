@@ -1,0 +1,10 @@
+kloudy/__init__.py,sha256=OIl4_sEz0azVmtxmboC91OI29BAkfJ_Eaiob0Azy3Jg,250
+kloudy/kloudy.py,sha256=TltVMTjACnS2w9rrDyAcWpRCjUdp8k--d6ymMq520vs,278
+kloudy/aws/commands/aws.py,sha256=LmeS1QU4U_cbvUilvRQrGU1UloiUw6Q2RU0FsiKzyfI,59278
+kloudy/gcp/commands/gcp.py,sha256=RBTA8eFsD6yoZmv256eoZWPM5uvEdtJeY__us_ah9c4,3716
+kloudy-0.1.0.dist-info/LICENSE,sha256=xCs5ywcMLkMC-TvTeDkUMLmDVEBNtjCVCqz5NAo3SJY,1073
+kloudy-0.1.0.dist-info/METADATA,sha256=AydgnJeGstVPu5U_ImvbFO_rWRL3lD0In3sQgvRlA8E,7337
+kloudy-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+kloudy-0.1.0.dist-info/entry_points.txt,sha256=s7rlQIc0MnCP7YKnlMPRtzYLmfNajUktxtlWUwU1-1o,57
+kloudy-0.1.0.dist-info/top_level.txt,sha256=3aPoPLrD2xtO4OvI3gGgBum0BPAqZXLHTHACGczSkDc,7
+kloudy-0.1.0.dist-info/RECORD,,
