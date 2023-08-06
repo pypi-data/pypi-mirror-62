@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+iopenscad/__init__.py
+iopenscad/__main__.py
+iopenscad/kernel.py
+iopenscad/parser.py
+iopenscad/scanner.py
+iopenscad/test.py
+pschatzmann_test_001.egg-info/PKG-INFO
+pschatzmann_test_001.egg-info/SOURCES.txt
+pschatzmann_test_001.egg-info/dependency_links.txt
+pschatzmann_test_001.egg-info/requires.txt
+pschatzmann_test_001.egg-info/top_level.txt
