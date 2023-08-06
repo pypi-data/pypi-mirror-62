@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: polyproto
+Version: 0.2
+Summary: generator using polygons for testing a Keras CNN
+Home-page: https://github.com/kevinkit/polyproto
+Author: kevin
+Author-email: wiederkleinehof@gmail.com
+License: MIT
+Download-URL: https://github.com/kevinkit/polyproto/archive/V_02.tar.gz
+Description: UNKNOWN
+Keywords: testing,keras,tensorflow,CNN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
