@@ -1,0 +1,12 @@
+README.md
+setup.py
+htbapi/__init__.py
+htbapi/challenges.py
+htbapi/core.py
+htbapi/machines.py
+htbapi/social.py
+htbapi.egg-info/PKG-INFO
+htbapi.egg-info/SOURCES.txt
+htbapi.egg-info/dependency_links.txt
+htbapi.egg-info/requires.txt
+htbapi.egg-info/top_level.txt
