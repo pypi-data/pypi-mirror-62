@@ -1,0 +1,11 @@
+svinst/svinst.py,sha256=EEIwplAVhznVu8VTK5d4DPq9weXdT_Mzww7lHa25yhg,228
+svinst/.crates2.json,sha256=ETV2YybaXIowOBpsvVNGq884Na_cPziDTP7RHi_UGlA,454
+svinst/modchk.py,sha256=eWlje5IX-dSm-oKC8JpaOkiQiJmS9bnvdukbcdkqvZ4,5780
+svinst/__init__.py,sha256=K0FLCFoV5JrcycZMu1X9b5TM_ygOiRRgYDt7H8xC-9o,49
+svinst/.crates.toml,sha256=muOhEAy6FxIqmoXTWLBlw6ZMpPJ0Wfiu_wR5pkdUVnk,89
+svinst/bin/svinst,sha256=6aM7G9X-IrXZuV7OnFxbaxwKRCJBoxuYkvSkSJ2CT2U,35058035
+svinst-0.0.7.dist-info/entry_points.txt,sha256=DEeZZdTNHRo2C3vOvRUHdNrC_OryKeMPJfCyLjHlnuQ,47
+svinst-0.0.7.dist-info/top_level.txt,sha256=N8xJ0r-O_FKpdDW_EwpkNuR7e7yWvIKgh4c7bt5mI2o,7
+svinst-0.0.7.dist-info/RECORD,,
+svinst-0.0.7.dist-info/METADATA,sha256=D8_xrW_A-r7aAWekgvqsBEKYC4up921Zp6CC4ihuEFQ,4520
+svinst-0.0.7.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
