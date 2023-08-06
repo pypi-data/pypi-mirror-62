@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: steck
+Version: 0.0.0
+Summary: Command line client for pinnwand pastebin.
+Home-page: https://github.com/supakeen/stich
+License: MIT
+Keywords: pastebin
+Author: supakeen
+Author-email: cmdr@supakeen.com
+Requires-Python: >=3.6,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Project-URL: Repository, https://github.com/supakeen/stich
+Description-Content-Type: text/x-rst
+
+
