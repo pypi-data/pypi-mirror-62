@@ -1,0 +1,10 @@
+dnsgen/__init__.py,sha256=uj-pHnQNetZUVHC_DO81M6B6vC2k0vyybeTJMUL9jZ4,41
+dnsgen/cli.py,sha256=RID3HSEyxQhZmhjWVpk6h49wK6_B0JlmKWFGSDmnHNc,814
+dnsgen/dnsgen.py,sha256=QDGq2sLE9iHK0oq39qwWUpoB6Ew2MNCWyvZ85teSmkY,6342
+dnsgen/words.txt,sha256=yCFUYAJSi8u-Yf_Atp1UG0rn0ReCCxw3qFhYeM2REn8,1103
+dnsgen-1.0.4.dist-info/LICENSE,sha256=8q72p8gI8hFCS9xIRVO4PbIvuB-_VKaJ8CzV02fC4UI,1053
+dnsgen-1.0.4.dist-info/METADATA,sha256=ijmoDgi3eVkMRV-jiEEBsCKBPITSspd1jzp2boRzLKY,4019
+dnsgen-1.0.4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+dnsgen-1.0.4.dist-info/entry_points.txt,sha256=MIlHEsGPqKRdhXBoZdIaS0kMVHbFp6dBjCqcf_igjgI,44
+dnsgen-1.0.4.dist-info/top_level.txt,sha256=wlZ2ET404oEk_B7Tkgd7HZuZKfov_LM60Ory1vsaZRM,7
+dnsgen-1.0.4.dist-info/RECORD,,
