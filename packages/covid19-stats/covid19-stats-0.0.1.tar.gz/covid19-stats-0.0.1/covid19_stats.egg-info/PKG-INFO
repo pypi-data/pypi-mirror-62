@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: covid19-stats
+Version: 0.0.1
+Summary: Python wrapper functions for retrieving real-time and past information from JHU CSSE database
+Home-page: https://github.com/chinokenochkan/covid19_stats
+Author: Chi Nok Enoch Kan
+Author-email: kanxx030@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
