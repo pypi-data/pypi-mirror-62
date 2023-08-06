@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: BioPro
+Version: 0.1.1
+Summary: BioPro is a bioinformatics pipeline that predicts the functional targets of RNA-binding protein and the biological processes to which these functional targets contribute. 
+Home-page: https://github.com/Crazy-Jack/SuperdopeBioinformatics
+Author: Tianqin Li, Zeyuan Zuo, Jui-Chia Chung, Serena Abraham, Snigdha Agarwal
+Author-email: jacklitianqin@gmail.com
+License: UNKNOWN
+Description: # Predicting Biochemical Pathways Involving Target RBP
+        
+        
+        
+        ## Install
+        
+        Our project consists of 6 part of softwares. To prevent dependency issues, we provide singularity imgage that can take the following command as input. Additionally, an integrated python package is also released to PyPI so that our software can be installed from pip directly.
+        
+        ### Install via source code
+        
+        To install via source code, clone our github repo and run:
+        
+        `bash install.sh`
+        
+        
+        ### Install via pip
+        
+        Or you can directly install our software from pip:
+        
+        `pip3 install Team3`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
