@@ -1,0 +1,7 @@
+README.txt
+setup.py
+dumb_fcks_101/__init__.py
+dumb_fcks_101_Enlin.egg-info/PKG-INFO
+dumb_fcks_101_Enlin.egg-info/SOURCES.txt
+dumb_fcks_101_Enlin.egg-info/dependency_links.txt
+dumb_fcks_101_Enlin.egg-info/top_level.txt
