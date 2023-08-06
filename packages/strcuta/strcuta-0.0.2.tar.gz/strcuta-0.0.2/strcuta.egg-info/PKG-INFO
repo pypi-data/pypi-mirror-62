@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: strcuta
+Version: 0.0.2
+Summary: Load UTAU voice banks into the Python data structure.
+Home-page: https://github.com/takagiy/strcutau
+Author: takagiy
+Author-email: takagiy.4dev@gmail.com
+License: BSL-1.0
+Description: UNKNOWN
+Platform: UNKNOWN
