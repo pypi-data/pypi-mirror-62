@@ -1,0 +1,10 @@
+setup.py
+xcsc_tushare/__init__.py
+xcsc_tushare/client.py
+xcsc_tushare/data_pro.py
+xcsc_tushare/upass.py
+xcsc_tushare.egg-info/PKG-INFO
+xcsc_tushare.egg-info/SOURCES.txt
+xcsc_tushare.egg-info/dependency_links.txt
+xcsc_tushare.egg-info/requires.txt
+xcsc_tushare.egg-info/top_level.txt
