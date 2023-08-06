@@ -1,0 +1,12 @@
+README.md
+setup.py
+heritagego_core_library.egg-info/PKG-INFO
+heritagego_core_library.egg-info/SOURCES.txt
+heritagego_core_library.egg-info/dependency_links.txt
+heritagego_core_library.egg-info/requires.txt
+heritagego_core_library.egg-info/top_level.txt
+majormode/__init__.py
+majormode/heritagego/__init__.py
+majormode/heritagego/model/__init__.py
+majormode/heritagego/model/contest.py
+majormode/heritagego/model/heritagego.py
