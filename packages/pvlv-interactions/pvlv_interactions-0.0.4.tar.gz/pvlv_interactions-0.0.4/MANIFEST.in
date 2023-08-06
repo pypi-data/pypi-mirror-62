@@ -1,0 +1,3 @@
+include pvlv_interactions/generators/bad_words_generator/data/base.txt
+include pvlv_interactions/generators/badass_sentences/data/eng_badass_sentences.txt
+include pvlv_interactions/generators/badass_sentences/data/ita_badass_sentences.txt
