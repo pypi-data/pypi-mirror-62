@@ -1,0 +1,8 @@
+setup.py
+inheritance_py_sa/__init__.py
+inheritance_py_sa/clothing.py
+inheritance_py_sa.egg-info/PKG-INFO
+inheritance_py_sa.egg-info/SOURCES.txt
+inheritance_py_sa.egg-info/dependency_links.txt
+inheritance_py_sa.egg-info/not-zip-safe
+inheritance_py_sa.egg-info/top_level.txt
