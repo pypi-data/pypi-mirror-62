@@ -1,0 +1,8 @@
+README.rst
+setup.py
+xbox_smartglass_auxiliary.egg-info/PKG-INFO
+xbox_smartglass_auxiliary.egg-info/SOURCES.txt
+xbox_smartglass_auxiliary.egg-info/dependency_links.txt
+xbox_smartglass_auxiliary.egg-info/not-zip-safe
+xbox_smartglass_auxiliary.egg-info/requires.txt
+xbox_smartglass_auxiliary.egg-info/top_level.txt
