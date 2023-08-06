@@ -1,0 +1,12 @@
+dotez/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotez/config.py,sha256=I2pG10GNDTr6EquE328xYWSgMElPdg4D3F2pRB7gvlY,503
+dotez/dotez.py,sha256=V1yaCCXfsQ6Um8Fs29k4_cyjShKwuWI6Z8FNyiMZOLE,2899
+dotez/example.conf,sha256=-DlizzcKvzqxrF88lrVH-Ia4MqYZImlLFyKbKtVIj8o,345
+dotez/__pycache__/__init__.cpython-36.pyc,sha256=eKfaiZFdyRDKk93RfCwkTunRKA7EyErrjvROZCe7Wtc,128
+dotez/__pycache__/config.cpython-36.pyc,sha256=_u-6BHw8b0S-sbIJF88z_jk5wxnAH20UiOuWRokclLk,595
+dotez-0.0.1.dist-info/LICENSE,sha256=smTEoNktTnBJR6TnHnqNdmV0pyH5gapbEXeQ1W-JXns,1051
+dotez-0.0.1.dist-info/METADATA,sha256=QLKv0sC9QPWUoFpVdnltaWrQUh1crL4hnAKl-c-X_tg,586
+dotez-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dotez-0.0.1.dist-info/entry_points.txt,sha256=XeJLRPuySVzh5alGfFn_nj0xw3tqb-OC1ihPtxIywzQ,44
+dotez-0.0.1.dist-info/top_level.txt,sha256=_Kz-mNrCyAr2IRBw4AdWcbnPIU19FnNhSnBAAgqpJ5c,6
+dotez-0.0.1.dist-info/RECORD,,
