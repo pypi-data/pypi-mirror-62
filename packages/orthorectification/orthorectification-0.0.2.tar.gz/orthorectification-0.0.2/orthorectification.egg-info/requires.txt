@@ -1,0 +1,9 @@
+boto3
+sardem
+gdal
+shapely
+numba
+scikit-image
+opencv-python
+numpy
+scipy
