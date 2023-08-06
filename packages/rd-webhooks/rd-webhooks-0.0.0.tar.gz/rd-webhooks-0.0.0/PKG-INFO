@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: rd-webhooks
+Version: 0.0.0
+Summary: TODO
+Home-page: https://gitlab.com/jlecomte/projects/rd-webhooks
+Author: Julien Lecomte
+Author-email: julien@lecomte.at
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4

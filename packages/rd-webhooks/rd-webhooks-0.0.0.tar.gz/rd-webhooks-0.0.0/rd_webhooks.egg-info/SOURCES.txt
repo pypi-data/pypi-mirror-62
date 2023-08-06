@@ -1,0 +1,5 @@
+setup.py
+rd_webhooks.egg-info/PKG-INFO
+rd_webhooks.egg-info/SOURCES.txt
+rd_webhooks.egg-info/dependency_links.txt
+rd_webhooks.egg-info/top_level.txt
