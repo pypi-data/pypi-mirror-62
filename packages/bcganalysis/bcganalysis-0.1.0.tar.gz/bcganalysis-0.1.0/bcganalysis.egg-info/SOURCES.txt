@@ -1,0 +1,6 @@
+setup.py
+bcg_analysis/bcg_analysis.py
+bcganalysis.egg-info/PKG-INFO
+bcganalysis.egg-info/SOURCES.txt
+bcganalysis.egg-info/dependency_links.txt
+bcganalysis.egg-info/top_level.txt
