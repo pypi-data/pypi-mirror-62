@@ -1,0 +1,12 @@
+README.md
+setup.py
+picdetect/__init__.py
+picdetect/config.py
+picdetect/detect.py
+picdetect/model.py
+picdetect/utils.py
+picdetect/visualize1.py
+picdetect.egg-info/PKG-INFO
+picdetect.egg-info/SOURCES.txt
+picdetect.egg-info/dependency_links.txt
+picdetect.egg-info/top_level.txt
