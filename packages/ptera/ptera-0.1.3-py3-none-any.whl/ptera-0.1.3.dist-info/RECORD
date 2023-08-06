@@ -1,0 +1,15 @@
+ptera/__init__.py,sha256=I3pD5RfPQA9RyAoiFcSpqaaKve20DSJVG9sC_zFBRFk,949
+ptera/categories.py,sha256=hjocJsoGoMj1lNoBTAY8kXFDopYuAYSv9YadQp53R4s,1293
+ptera/core.py,sha256=GtV7CVU6KXr7IXT-8KY1nuLgeBzBRgmqsq8SzjssVig,19192
+ptera/opparse.py,sha256=dfHUiSJ4VZHLD2MNZ211TQ3v__3IXa9yjciiB-CNUYI,5268
+ptera/recur.py,sha256=FiViAoJ6kYhyM6SsOrqTb-YkQ9v61VAbFCTFtbg41m0,841
+ptera/selector.py,sha256=3m2GpB9ACDHVEL4YpYKZD6YN8LVgxaLlNqNvQae2Nu0,17560
+ptera/selfless.py,sha256=IRekK3X3mQ7NGSXpGuVmp1tok6Qz_xMOGtFiN51AksY,12474
+ptera/storage.py,sha256=8-cw1zxKdZqA7UR8lVvPNt1oR0QrEKp3w_4YOsqPZNI,4315
+ptera/tools.py,sha256=R_xALcJDJMz9dSqccDB7ZBS9tROyppVIuIWi-4t_Hh0,6585
+ptera/torch.py,sha256=njeyNFkBw2FETgkhmQDwiYna3kOQpE45Lu1VPR0kM8I,2369
+ptera/utils.py,sha256=QA5yL2Upv7D44bzOLegQopjGyZZM03igIA9jASyJ21A,1605
+ptera-0.1.3.dist-info/LICENSE,sha256=X6flH6hT62r32Kg3Jzbf7Sox1lINiCdGqGDxXkQQios,1061
+ptera-0.1.3.dist-info/WHEEL,sha256=2cuNvJXfe2HLnOJxNBVnVfpJIOzFSTsZ7ZQ2qj1jFGs,85
+ptera-0.1.3.dist-info/METADATA,sha256=m3AmbMtWQK5L6Ypc0nGFuPCzUTnCU1dI-_JIjr0CmJM,13875
+ptera-0.1.3.dist-info/RECORD,,
