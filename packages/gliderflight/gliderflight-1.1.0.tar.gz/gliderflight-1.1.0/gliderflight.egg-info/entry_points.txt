@@ -1,0 +1,6 @@
+[console_scripts]
+glidertrim = gliderflight.glidertrim:main
+
+[gui_scripts]
+
+
