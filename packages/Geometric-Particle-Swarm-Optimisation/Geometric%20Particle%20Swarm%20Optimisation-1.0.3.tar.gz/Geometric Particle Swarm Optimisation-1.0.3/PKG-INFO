@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Geometric Particle Swarm Optimisation
+Version: 1.0.3
+Summary: A python package to find the best features in a dataset using Geometric Particle Swarm Optimisation
+Home-page: https://github.com/LegenderDePavilo/GPSO
+Author: Lakshajyoti Paul
+Author-email: klakshajyotipaul@gmail.com
+License: MIT
+Description: #Geometric Particle Swarm Optimisation Feature Selection Techinque
+        
+        A python package to find the best features in a dataset using the Geometric Particle Swarm Optimisation Techinque
+        
+        ##Usage
+        
+        By calling the function pso followed by a dataset as a parameter optionally with the population size
+        
+        '''
+        features,accuracy=kpso(dataset)
+        '''
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
