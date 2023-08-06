@@ -1,0 +1,7 @@
+pyboolector.cpython-36m-x86_64-linux-gnu.so,sha256=6Rg0RlM30MiJdhCFtCgE1BVRiO1bNndQcYB6QYlfF94,4102680
+.libspyboolector/libbtor2parser-e90a6422.so,sha256=wuvEZAtT94D-cTyShhvCtuUIfOJhc8a8W8HWtAZglZ4,33440
+.libspyboolector/libboolector-13286aab.so,sha256=4Ho47fCs2Nvnx4sPdn_1OctPzfRbl6b8Qng753wjOFg,1770320
+PyBoolector-3.2.0.20200301.4.dist-info/METADATA,sha256=6SY6N2Aq27nFJEYGcJhoMsEXuVqaTadSHLPD2E_q5fg,1279
+PyBoolector-3.2.0.20200301.4.dist-info/RECORD,,
+PyBoolector-3.2.0.20200301.4.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
+PyBoolector-3.2.0.20200301.4.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
