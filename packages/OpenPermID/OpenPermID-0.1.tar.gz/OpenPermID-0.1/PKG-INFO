@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: OpenPermID
+Version: 0.1
+Summary: Open PermID APIs: Record Matching, Entity Search, and Intelligent Tagging
+Home-page: https://github.com/Refinitiv-API-Samples/Article.OpenPermID.Python.APIs
+Author: Jirapongse Phuriphanvichai
+Author-email: jirapongse.phuriphanvichai@refinitiv.com
+License: MIT
+Download-URL: https://github.com/Refinitiv-API-Samples/Article.OpenPermID.Python.APIs/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Open PermID,Calais,Tagging
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
