@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/wttime
+wttime/__init__.py
+wttime/parser.py
+wttime/strategy.py
+wttime.egg-info/PKG-INFO
+wttime.egg-info/SOURCES.txt
+wttime.egg-info/dependency_links.txt
+wttime.egg-info/not-zip-safe
+wttime.egg-info/requires.txt
+wttime.egg-info/top_level.txt
