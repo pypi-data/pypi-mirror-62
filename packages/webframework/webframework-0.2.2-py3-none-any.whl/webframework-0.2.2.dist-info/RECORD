@@ -1,0 +1,12 @@
+webframework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webframework/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webframework/core/capabilites.py,sha256=7xNIar3CUPhG3VZbLjYT9w8A-K_smx0vS9QQVwcSTEw,461
+webframework/core/webdriver.py,sha256=TMhmeikG50UvFxmkcH4QQt1DsUWGQfmFNr_fFffVwBg,1064
+webframework/setting.py,sha256=HhmIbJuQ2yD0h6WZEnOJx5hygKv-qilmvv2gs1Hkr3c,291
+webframework/utils.py,sha256=Ca_tZEfoydJ--NryKOwjNaQABhb7E5YLZVdZjfcCB2Q,391
+webframework/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webframework/web/element.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webframework/web/webelement.py,sha256=My2RzXqfayBrbRzs9aNa6NE8dSryXUTrhwdc8JrqWxA,2754
+webframework-0.2.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+webframework-0.2.2.dist-info/METADATA,sha256=HCBp_zK_tMzfOglM1GpoZEmenZXXwGJ7DowvsUSy0yY,901
+webframework-0.2.2.dist-info/RECORD,,
