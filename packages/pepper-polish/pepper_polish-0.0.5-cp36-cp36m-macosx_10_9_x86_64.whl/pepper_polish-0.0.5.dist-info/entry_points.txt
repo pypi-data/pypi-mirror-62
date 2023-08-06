@@ -1,0 +1,4 @@
+[console_scripts]
+pepper = pepper.pepper:main
+pepper_train = pepper.pepper_train:main
+
