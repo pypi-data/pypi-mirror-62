@@ -1,0 +1,17 @@
+sphinx_alice_theme/__init__.py,sha256=UEAnnaQ7S7wyzMThmbOqYKme2OMPWjEXi3VNAZd6JPQ,347
+sphinx_alice_theme/__main__.py,sha256=u2Xf2QLxDdCvh_TVEcgJO_OL_Wxa5bpyNJVgMPOaGY4,460
+sphinx_alice_theme/breadcrumbs.html,sha256=BeDzW1QUmGVP3tTHZ5VUr4NSAohcPp8N-gRfotm7jZA,261
+sphinx_alice_theme/footer.html,sha256=1eXAZTsaIQltdrn8aXHyoRpUymLIYID--pCG5J5heWU,1130
+sphinx_alice_theme/layout.html,sha256=kCI46PpvR3Nnq5zZP0Vp5ZQJNkIteawuNYr0B0pb0P8,3672
+sphinx_alice_theme/nav.html,sha256=9J6mGiyfWBINWrwgN1KCve8h2KDGPXzMm_sZyFeomB4,1688
+sphinx_alice_theme/search.html,sha256=MqU1sKJDEHXk3UZt2-NiJihlg0QuIXMQHpHNLY-3USo,1515
+sphinx_alice_theme/searchbox.html,sha256=Getgw6Wi1TXaHrZjGrMtVkFMcaOK4VValQth5I8WQKc,224
+sphinx_alice_theme/theme.conf,sha256=VzzoESgy1waUinQnHkV0txU2SVkJqtvsdcfhGEk0YgM,224
+sphinx_alice_theme/static/css/normalize.css,sha256=2lf72YMpM8iq4LbGNU7MDHH7Wto6nCZjluGETM6dNTQ,6487
+sphinx_alice_theme/static/css/sphinx-alice-theme.css,sha256=d34JPNSRnQrK_Aqkw9_FKHmuL-65DF_Ri-AhrrL53A8,7309
+sphinx_alice_theme-0.1.0.dist-info/LICENSE,sha256=Bhgy7R5kV32W0m2k6uaz_6UtefOEktE8bBLOrvbNdO8,1298
+sphinx_alice_theme-0.1.0.dist-info/METADATA,sha256=JHXfDZ40A9t-qJxKrtflSvi0_tGpxPzZb4_IowlMJF0,1837
+sphinx_alice_theme-0.1.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+sphinx_alice_theme-0.1.0.dist-info/entry_points.txt,sha256=TWSXWD9fIy6J7dFlTilF5ySnB7tDuFo6wtutZMf9RnA,62
+sphinx_alice_theme-0.1.0.dist-info/top_level.txt,sha256=N4-fIsbRuIV-7namTFZz2tpZLZFxqpMn2WFZWUD55a8,19
+sphinx_alice_theme-0.1.0.dist-info/RECORD,,
