@@ -1,0 +1,13 @@
+json_excel_converter/__init__.py,sha256=v_rqkqy9M2c-2x-An6QjzzXa8CvinQOlTJfr98X8CGs,1174
+json_excel_converter/converter.py,sha256=eEiGz11QPv7Gd0d3oixKlcRu28xzbP2xtuktnH7G9Tc,1194
+json_excel_converter/csv/__init__.py,sha256=qKbYRpa56xs1rQuveHrz2B8no5G2RvDMOxcgaBAnb8s,1092
+json_excel_converter/linearize.py,sha256=RIzEkC-y8_RdEWqiEt9QpXzUoAE5KKJfs8Gfsc_pQJ8,7823
+json_excel_converter/options.py,sha256=5LFaIsxyA-vCPbs3L0tGUFxQb1Kwh8q0f7I-giwm5a4,1737
+json_excel_converter/xlsx/__init__.py,sha256=BXeR380kjStW5oFe1fVPFYQUFGafryM2SKguYskdPE8,6878
+json_excel_converter/xlsx/formats.py,sha256=ivBH53fqx5EUU0naKLVtqaM1ba0NiwFW9F571ssUKC4,924
+poetry.lock,sha256=zT1o_MGsfYElkkSc_ZiyMp3hxgv6T6TxsK1g9ZLhTQ8,15461
+json_excel_converter-1.2.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_excel_converter-1.2.0.dist-info/LICENSE,sha256=rZkCnjDEVwjkvCLW8LWsoEhcxsWt-uRbhitsa6_eRuk,1054
+json_excel_converter-1.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+json_excel_converter-1.2.0.dist-info/METADATA,sha256=2gI5PXRMz59hTOP6unthusfs2cpghS1m7gq_qgtCR4Q,7346
+json_excel_converter-1.2.0.dist-info/RECORD,,
