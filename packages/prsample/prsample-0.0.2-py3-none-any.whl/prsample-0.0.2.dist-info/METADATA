@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: prsample
+Version: 0.0.2
+Summary: A pseudo-random data sampler
+Home-page: https://github.com/andrewstanfordjason/prsample
+Author: Andrew Stanford-Jason
+Author-email: andrewstanfordjason@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# prsample
+
+Inplementation of pseudo-random sampling from a 
+
+# Installation
+
+```sh
+pip3 install prsample
+```
+or
+```sh
+pip3 install --user prsample
+```
+
+# Example usage
+
+...
+
+
+
