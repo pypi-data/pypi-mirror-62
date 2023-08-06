@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: data-butler
+Version: 0.0.9
+Summary: A data cataloguing package
+Home-page: https://github.com/DataButler/Data-Butler
+Author: Rahul Madhu
+Author-email: rahul.madhu93@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: geonamescache
+Requires-Dist: pycountry
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: PrettyTable
+
+# DataButler
+##### A python-based software for automatic data profiling and cataloging
+
+It takes a lot of man-hours and energy to transform data dumps into forms that are more understandable and suitable for databases. The objective of DataButler is to model a framework that performs data profiling and cataloging, thereby providing more efficient search/discover functionalities.
+
+### Process Flow
+![Methodology](https://github.com/DataButler/Data-Butler/blob/master/Processflow.png)
+
+### Installation
+
+```sh
+$ pip install --index-url https://test.pypi.org/simple/ db_st
+```
+### Directions
+```sh
+import data_butler
+
+data_butler.db('file directory/filename.csv')
+```
+### Authors
+Keerthi Pullela, Rahul Madhu, Rukmini Sunil, Sagar Kurada, Xema Pathak
+
+### Acknowledgments
+Professor Matthew Lanham, 
+Krannert School of Management,
+Purdue University\
+Mike Lutz, Caleb Keller, 
+Samtec Inc. 
+
+
