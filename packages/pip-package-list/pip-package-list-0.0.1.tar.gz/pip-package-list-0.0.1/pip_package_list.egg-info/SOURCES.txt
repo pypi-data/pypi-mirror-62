@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pip_package_list.egg-info/PKG-INFO
+pip_package_list.egg-info/SOURCES.txt
+pip_package_list.egg-info/dependency_links.txt
+pip_package_list.egg-info/entry_points.txt
+pip_package_list.egg-info/requires.txt
+pip_package_list.egg-info/top_level.txt
+pippackagelist/__init__.py
+pippackagelist/__main__.py
+pippackagelist/identify_package_list_file_type.py
+pippackagelist/list.py
+pippackagelist/requirements.py
+pippackagelist/requirements_txt_parser.py
+pippackagelist/setup_py_parser.py
