@@ -1,0 +1,12 @@
+MANIFEST.in
+readme.md
+setup.py
+vehiclemapperscript/__init__.py
+vehiclemapperscript/__main__.py
+vehiclemapperscript/script.py
+vehiclemapperscript.egg-info/PKG-INFO
+vehiclemapperscript.egg-info/SOURCES.txt
+vehiclemapperscript.egg-info/dependency_links.txt
+vehiclemapperscript.egg-info/not-zip-safe
+vehiclemapperscript.egg-info/requires.txt
+vehiclemapperscript.egg-info/top_level.txt
