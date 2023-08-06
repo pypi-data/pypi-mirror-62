@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jokeapi
+Version: 0.1.2
+Summary: An API Wrapper for Sv443's JokeAPI
+Home-page: https://github.com/thenamesweretakenalready/Sv443s-JokeAPI-Python-Wrapper
+Author: thenamesweretakenalready
+Author-email: leet_haker@cyber-wizard.com
+License: GNU General Public License v3 (GPLv3)
+Download-URL: https://github.com/user/Sv443s-JokeAPI-Python-Wrapper/archive/v0.1.2.tar.gz
+Description: UNKNOWN
+Keywords: api wrapper,wrapper,api,jokes
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
