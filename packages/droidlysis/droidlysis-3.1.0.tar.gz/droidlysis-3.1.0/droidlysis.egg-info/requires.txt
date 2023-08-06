@@ -1,0 +1,5 @@
+configparser
+python-magic
+SQLAlchemy
+rarfile
+androguard
