@@ -1,0 +1,8 @@
+setup.py
+dinesh/__init__.py
+dinesh/dinesh.py
+dinesh.egg-info/PKG-INFO
+dinesh.egg-info/SOURCES.txt
+dinesh.egg-info/dependency_links.txt
+dinesh.egg-info/not-zip-safe
+dinesh.egg-info/top_level.txt
