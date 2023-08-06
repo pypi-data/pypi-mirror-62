@@ -1,0 +1,28 @@
+name: codetree
+version: 0.1.6-1
+summary: A tool for collating and building trees of files from various sources.
+description: A tool for collating and building trees of files from various sources.
+# Switch to strict once https://bugs.launchpad.net/snappy/+bug/1657021
+# is addressed.
+confinement: classic
+grade: stable
+apps:
+  codetree:
+    command: bin/codetree
+    # Classic mode has no plugs.
+    # plugs:
+    #   - home
+    #   - network
+    #   - network-bind
+parts:
+  codetree:
+    plugin: python
+    python-version: python3
+    source: .
+    stage-packages:
+      - bzr
+      - git
+      - rsync
+      - unzip
+      - python3-paramiko
+      - python3-yaml
