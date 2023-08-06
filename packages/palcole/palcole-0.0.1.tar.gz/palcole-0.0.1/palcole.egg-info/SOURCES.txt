@@ -1,0 +1,9 @@
+README.md
+setup.py
+modules/__init__.py
+modules/calculator/__init__.py
+modules/calculator/calculator.py
+palcole.egg-info/PKG-INFO
+palcole.egg-info/SOURCES.txt
+palcole.egg-info/dependency_links.txt
+palcole.egg-info/top_level.txt

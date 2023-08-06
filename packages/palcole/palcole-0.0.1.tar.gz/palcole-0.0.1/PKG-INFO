@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: palcole
+Version: 0.0.1
+Summary: Modulo preparado para el colegio
+Home-page: https://github.com/marcelo-nugatti/PalCole
+Author: Marcelo Nuñez
+Author-email: real.nugatti@gmail.com
+License: UNKNOWN
+Description: # Módulo preparado para la Escuela.
+        
+        ## Instalación:
+        * pip3 install palcole
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
