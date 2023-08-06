@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: spectra-torch
+Version: 0.2.1
+Summary: Spectra Extraction based on PyTorch
+Home-page: https://github.com/mechanicalsea/spectra
+Author: WangRui
+Author-email: rwang@tongji.edu.cn
+License: UNKNOWN
+Description: spectra
+        
+        - python: 3.7.3
+        
+        - torch: 1.4.0
+        - torchaudio: 0.4.0
+        
+        Usage
+        
+        - MFCC
+        - Filterbank
+        - Log Filterbank
+        
+        The difference between spectra(A) and python_speech_features(B):
+        
+        - Precision bais: 1e-4
+        - Speed up: 0.1s/mfcc
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
