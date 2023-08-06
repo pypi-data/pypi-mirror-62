@@ -1,0 +1,4 @@
+dynaconf
+sqlalchemy
+pycryptodome
+pyside2
