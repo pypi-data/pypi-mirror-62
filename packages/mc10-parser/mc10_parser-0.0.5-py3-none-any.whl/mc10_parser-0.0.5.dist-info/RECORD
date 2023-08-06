@@ -1,0 +1,9 @@
+mc10_parser/__init__.py,sha256=DKp7g6WVvfSRIH8xpIYf6m_yvUDotyaAtJVz3izoy68,66
+mc10_parser/dataio.py,sha256=8SQShwT7L3Wg4nJw5FoF6PThxlQPYNQvrWuhMeZ6cNU,5822
+mc10_parser/dictio.py,sha256=_pOxEN1gC4tLqM56C9UGcu6Jku_d1M-0bFASn7yemwQ,1704
+mc10_parser/session.py,sha256=xS6xHwuXcO3XoM1o_vovC3V5jD2uMbuWaKfJm4Kury0,6711
+mc10_parser-0.0.5.dist-info/LICENSE,sha256=hD5Drcy5AxE3amC977CR4xYtcQVZj0H2CKWFHpVOkEI,1071
+mc10_parser-0.0.5.dist-info/METADATA,sha256=ygxdbSbjAsnNmuuyUHxvoM6vQhQ_nBwgr-Qzkk3cwhg,6802
+mc10_parser-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mc10_parser-0.0.5.dist-info/top_level.txt,sha256=QraRK9PBfebSsBN-EroRsXrCo-TGmaKN0gqTAK-aGqo,12
+mc10_parser-0.0.5.dist-info/RECORD,,
