@@ -1,0 +1,9 @@
+README.md
+setup.py
+pkcs7_detached/__init__.py
+pkcs7_detached/aws_certificates.py
+pkcs7_detached.egg-info/PKG-INFO
+pkcs7_detached.egg-info/SOURCES.txt
+pkcs7_detached.egg-info/dependency_links.txt
+pkcs7_detached.egg-info/requires.txt
+pkcs7_detached.egg-info/top_level.txt

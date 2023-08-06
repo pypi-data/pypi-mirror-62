@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pkcs7_detached
+Version: 0.0.3
+Summary: Validate PKCS7 detached signatures
+Home-page: https://github.com/jnewbigin/pkcs7_detached
+Author: John Newbigin
+Author-email: jnewbigin@chrysocome.net
+License: UNKNOWN
+Description: # PKCS7
+        
+        A python module for validating detached PKCS7 signatures.
+        
+        This can be used to verify AWS EC2 Instance Identity documents as described at
+        https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
