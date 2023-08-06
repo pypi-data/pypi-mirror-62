@@ -1,0 +1,8 @@
+minty_infra_storage/__init__.py,sha256=qICYhVPEPgfg5K0q0zh4qjYKBSKJC6FG1fQx3goFV9M,150
+minty_infra_storage/s3.py,sha256=I1SkeRI8Ew6uxIG1GwTQMJJmt2ALDJkq_7va4AijWnc,8137
+minty_infra_storage/swift.py,sha256=7M3bdb_c7R1LUDo3NZdPIXKE3IbxwL97sFoUp9p0E8Q,7933
+minty_infra_storage-0.0.8.dist-info/LICENSE,sha256=f-l6oY_PIHkuhTBX7NZ4ymHXmIImslftUGNzuRlYGWA,13961
+minty_infra_storage-0.0.8.dist-info/METADATA,sha256=ZLrf9CcxPhZK7EGa9hnLRTm8_2_WIf3jq5M-Pqz_keU,2224
+minty_infra_storage-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+minty_infra_storage-0.0.8.dist-info/top_level.txt,sha256=K49zAkmgTUnooF3_a8_cXIWHv8aiFSuV8X7FcPzxENE,20
+minty_infra_storage-0.0.8.dist-info/RECORD,,
