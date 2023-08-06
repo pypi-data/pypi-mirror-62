@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: cautil
+Version: 2.3
+Summary: The UTILITY for Cloud Agnostic
+Home-page: http://github.com/whirldata/cautil
+Author: Whirldata
+Author-email: info@whirldatascience.com.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: APScheduler (==3.6.3)
+Requires-Dist: boto3 (==1.11.0)
+Requires-Dist: botocore (==1.14.0)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: configparser (==4.0.2)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: ecdsa (==0.15)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: Flask-Cors (==3.0.8)
+Requires-Dist: gitdb2 (==2.0.6)
+Requires-Dist: GitPython (==3.0.5)
+Requires-Dist: gunicorn (==20.0.4)
+Requires-Dist: idna (==2.8)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10.3)
+Requires-Dist: jmespath (==0.9.4)
+Requires-Dist: jose (==1.0.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: minio (==5.0.7)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyfcm (==1.4.7)
+Requires-Dist: pykwalify (==1.7.0)
+Requires-Dist: PyMySQL (==0.9.3)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-jose (==3.1.0)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: PyYAML (==5.3)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: rsa (==4.0)
+Requires-Dist: s3transfer (==0.3.0)
+Requires-Dist: six (==1.13.0)
+Requires-Dist: smmap2 (==2.0.5)
+Requires-Dist: tzlocal (==2.0.0)
+Requires-Dist: urllib3 (==1.25.7)
+Requires-Dist: Werkzeug (==0.16.0)
+
+UNKNOWN
+
+
