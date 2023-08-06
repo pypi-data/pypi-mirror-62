@@ -1,0 +1,5 @@
+pvlv-database
+pvlv-commando
+pvlv-img_builder
+SpeechRecognition==3.8.1
+pydub==0.23.1
