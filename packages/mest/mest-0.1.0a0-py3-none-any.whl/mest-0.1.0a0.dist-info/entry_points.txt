@@ -1,0 +1,3 @@
+[console_scripts]
+mest = mest.cli:main
+
