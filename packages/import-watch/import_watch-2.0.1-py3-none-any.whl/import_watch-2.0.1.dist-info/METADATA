@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: import-watch
+Version: 2.0.1
+Summary: Trace module imports and detect/deny cyclic imports at runtime
+Home-page: https://github.com/hartwork/import-watch
+Author: Sebastian Pipping
+Author-email: sebastian@pipping.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+
+# Welcome!
+
+**import-watch** allows to
+trace module imports
+and
+detect/deny cyclic imports
+*at runtime*
+with Python 2 and 3.
+It is licensed under the MIT license.
+
+Enjoy!
+
+
+# Installation
+```console
+# pip install import-watch
+```
+
+
+# Usage
+
+## Trace imports
+```python
+import import_watch
+import_watch.trace_imports(depth=2)  # default depth is unlimited
+```
+
+## Detect and warn about cyclic imports (at runtime)
+```python
+import import_watch
+import_watch.warn_about_cyclic_imports()
+```
+
+## Deny cyclic imports (at runtime)
+```python
+import import_watch
+import_watch.deny_cyclic_imports()
+```
+
+## Start fresh
+```python
+import import_watch
+[..]
+import_watch.reset()
+```
+
+
