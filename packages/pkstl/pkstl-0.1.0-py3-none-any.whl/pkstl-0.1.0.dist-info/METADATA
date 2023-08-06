@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pkstl
+Version: 0.1.0
+Summary: Public key secure transport layer
+Home-page: https://git.duniter.org/tools/py-pkstl
+Author: Pascal Engélibert
+Author-email: tuxmain@zettascript.org
+License: UNKNOWN
+Keywords: security network transport cryptography
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Py-PKSTL
+
+Python 3 bindings for [Rust PKSTL](https://github.com/librelois/pkstl). PKSTL is a security layer for network connections (public key cryptography & Diffie-Hellman secret generation).
+
+## Install
+
+	sudo pip3 install pkstl
+
+## Build & install
+
+	sudo pip3 install --upgrade setuptools wheel
+	sh build_wheel.sh
+	sudo pip3 install target/wheel/dist/pkstl-*-py3-none-any.whl
+
+## Example
+
+Run an example (client-server echo):
+
+	python3 py/example_echo.py server
+	python3 py/example_echo.py client
+	# and type some text into the client!
+
+Minimal example code: (Bob knows Alice's public key and contacts her)
+
+	import pkstl
+
+	# Generate keypairs
+	alice_seed = pkstl.Seed32.random() # Alice's permanent private key
+	alice_pubkey = pkstl.Ed25519KeyPair.from_seed_unchecked(alice_seed.bytes).pubkey
+	bob_seed = pkstl.Seed32.random() # Bob's ephemeral private key
+	alice_msl = pkstl.SecureLayer.create(pkstl.SecureLayerConfig.default(), alice_seed)
+	bob_msl = pkstl.SecureLayer.create(pkstl.SecureLayerConfig.default(), bob_seed, alice_pubkey)
+
+	# Establish connection
+	msg = bob_msl.write_connect_msg_bin(b"Hello Alice!")
+	alice_msl.read_bin(msg)
+
+	msg = alice_msl.write_connect_msg_bin(b"Hello Bob!")
+	bob_msl.read_bin(msg)
+
+	msg = alice_msl.write_ack_msg_bin(b"Nice to meet you Bob!")
+	bob_msl.read_bin(msg)
+
+	msg = bob_msl.write_ack_msg_bin(b"Nice to meet you Alice!")
+	alice_msl.read_bin(msg)
+
+	# Send messages
+	msg = alice_msl.write_bin(b"Is this channel encrypted?")
+	print(bob_msl.read_bin(msg)[0].data[0])
+
+	msg = bob_msl.write_bin(b"Yes it is.")
+	print(alice_msl.read_bin(msg)[0].data[0])
+
+
