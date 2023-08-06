@@ -1,0 +1,10 @@
+fire
+requests
+redis
+future
+
+[test]
+pylint
+pytest
+pytest-mock
+responses
