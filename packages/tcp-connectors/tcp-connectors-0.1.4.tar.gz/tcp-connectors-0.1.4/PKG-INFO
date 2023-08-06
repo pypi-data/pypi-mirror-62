@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tcp-connectors
+Version: 0.1.4
+Summary: Connectors for connecting to any TCP-based service
+Home-page: https://github.com/evocount/tcp-connectors
+Author: EvoCount GmbH
+Author-email: abhishek.mv1995@gmail.com
+License: MIT
+Download-URL: https://github.com/evocount/tcp-connectors/archive/v0.1.4.tar.gz
+Description: # Connectors
+        
+        Library to handle any TCP based connection.
+        
+        ## Features
+        
+        - Handles both persistent and non-peristent connections.
+        - Support for both pull and push connections.
+        - Super light-weight implementations well suited for IoT applications.
+        - Fully asynchronous.
+        
+        ## Currently available connectors
+        
+        1. `TCPConnector` - This will handle peristent TCP connections.
+        2. `GMQTTConnector` - This will handle MQTT connections.
+        3. `ServerConnector` - Creates a HTTP server that can handle requests and send responses.
+        
+        ## License
+        
+        This project is licensed under the [MIT License](LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
