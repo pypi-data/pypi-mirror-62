@@ -1,0 +1,3 @@
+eztda
+numpy
+matplotlib
