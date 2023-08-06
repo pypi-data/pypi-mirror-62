@@ -1,0 +1,28 @@
+from pyPhases.storage.Storage import Storage, DataNotFound
+
+class {{name}}(Storage):
+    """{{description}}
+
+    """
+    
+    def read(self, path):
+        """ reads data from {{name}}-Storage
+        Parameters
+        ----------
+        path : str
+            the relative path, from the basepath, the actual normalized path can be retreived with self.getPath(path)
+        Raises
+        ------
+        DataNotFound
+            is thrown when the data doesnt exists
+        """
+        pass
+
+    def write(self, path, data):
+        """ writes data from {{name}}-Storage
+        Parameters
+        ----------
+        data : str
+            the data is in form of a bytestring
+        """
+        pass

@@ -1,0 +1,115 @@
+image: docker:stable
+services:
+  - docker:18.09.7-dind
+
+variables:
+  PROJECTNAME: $CI_PROJECT_NAME
+  CONTAINER_IMAGES: $CI_REGISTRY_IMAGE
+  DOCKER_TARGETS: prod
+  RELEASETAG: $CI_COMMIT_SHORT_SHA
+  # DOCKER_DRIVER: overlay2
+  # For Kubernetes Runner:
+  # DOCKER_HOST: tcp://localhost:2375/
+  # FOR Docker Runner
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: "/certs"
+
+stages:
+{{#stages}}
+- {{.}}
+{{/stages}}
+  - release
+  - publish
+  - deploy
+
+before_script:
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  - '[ "$CI_COMMIT_TAG" != "" ] && export RELEASETAG=$CI_COMMIT_TAG'
+  # - wget $CI_PAGES_URL/VERSION && versionexists=1 && VERSION=$(cat VERSION)
+  - echo $versionexists
+  - echo $VERSION
+  - '[ "$VERSION" = "" ] && VERSION=0.0.1'
+  - CURRENT_VERSION=$VERSION
+  - echo $versionexists-$VERSION
+  - '[ "$CI_COMMIT_TAG" = "" ] && VERSION=$VERSION-rc$RELEASETAG'
+  - echo The current Version is $VERSION
+  - '[ "$CI_COMMIT_REF_NAME" != "master" ] && export VERSION=$VERSION-branch-$CI_COMMIT_REF_NAME'
+  - '[ "$CI_COMMIT_TAG" != "" ] && export VERSION=$CI_COMMIT_TAG'
+  - echo The current stable Version is $CURRENT_VERSION and the new VERSION IS $VERSION
+  - apk add --no-cache py-pip
+  - pip install docker-compose==1.23.2
+  - docker-compose build --parallel
+
+{{#stages}}
+test:
+  stage: {{.}}
+  script:
+    - docker-compose run app {{.}}
+  artifacts:
+    paths:
+      - dist
+
+  except:
+    - tags
+{{/stages}}
+
+docker-releaseimage:
+  stage: release
+  except:
+    - tags
+  script:
+    - export targets="prod cronjob cli"
+    - export images="$CONTAINER_IMAGES"
+    - export tags="latest $CI_COMMIT_SHORT_SHA"
+    - |
+      i=1
+      for image in $images
+      do
+        target=$(echo $targets | cut -d' ' -f$i)
+        docker build --build-arg RELEASE=$RELEASETAG --target $target -t $image .
+        for tag in $tags
+        do
+          docker tag $image:latest $image:$tag
+          docker push $image:$tag
+        done
+        i=$((i+1))
+      done
+
+docker-releaseimage-production:
+  stage: publish
+  only:
+    - tags
+  script:
+    - export images="$CONTAINER_IMAGES"
+    - export tags="stable $RELEASETAG"
+    - |
+      i=1
+      for image in $images
+      do
+        target=$(echo $targets | cut -d' ' -f$i)
+        docker pull $image:latest
+        for tag in $tags
+        do
+          docker tag $image:latest $image:$tag
+          docker push $image:$tag
+        done
+        i=$((i+1))
+      done
+
+pages:
+  stage: deploy
+#   when: always
+  only:
+    - master
+    - tags
+    - branches
+  script:
+    - apk add markdown
+    - mkdir -p public
+    - cp -R docs public
+    - cp -R dist public
+    - echo $VERSION > public/VERSION
+    - markdown docs/README.txt > public/index.html
+  artifacts:
+    paths:
+      - public

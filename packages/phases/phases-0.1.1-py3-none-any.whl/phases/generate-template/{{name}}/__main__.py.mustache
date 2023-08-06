@@ -1,0 +1,56 @@
+from pyPhases.Project import Project
+
+{{#usedClasses}}
+from {{package}}.{{name}} import {{name}}
+{{/usedClasses}}
+
+import sys
+
+# Project setup
+project = Project()
+project.name = '{{name}}'
+project.namespace = '{{namespace}}'
+
+project.setClasses([
+    {{#classes}}
+    "{{.}}",
+    {{/classes}}
+])
+
+#used publisher
+{{#publisher}}
+project.registerPublisher({{name}}({{#config}}{ {{#items}}
+    "{{name}}": "{{value}}",{{/items}} 
+}{{/config}}))
+{{/publisher}}
+
+#used exporter
+{{#exporter}}
+project.registerExporter({{name}}({{#config}}{ {{#items}}
+    "{{name}}": "{{value}}",{{/items}} 
+}{{/config}}))
+{{/exporter}}
+
+# used storage engine
+{{#storage}}
+project.addStorage({{name}}({{#config}}{ {{#items}}
+    "{{name}}": "{{value}}",{{/items}} 
+}{{/config}}))
+{{/storage}}
+
+# stages
+{{#stages}}
+project.addStage("{{.}}")
+{{/stages}}
+
+# add phases
+{{#userPhases}}
+project.addPhase({{name}}(), "{{stage}}", "{{description}}")
+{{/userPhases}}
+
+
+# run all phases or a specific phase if there is an argument
+if(len(sys.argv) > 1):
+    project.run(sys.argv[1])
+else:
+    project.run()
