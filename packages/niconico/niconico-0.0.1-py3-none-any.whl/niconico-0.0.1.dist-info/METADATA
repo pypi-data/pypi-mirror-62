@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: niconico
+Version: 0.0.1
+Summary: download bilibili big data
+Home-page: https://iseuwei.000webhostapp.com/
+Author: Iseuwei
+Author-email: iseu1130@sina.cn
+License: BSD
+Keywords: bilibili,big data
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: pandas (>=0.18.0)
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: SQLAlchemy (>=1.2.11)
+Requires-Dist: beautifulsoup4 (>=4.8.1)
+Requires-Dist: PyYAML (>=5.1.2)
+
+
+niconico
+===============
+
+* （°－°）つ
+
+Target Users
+--------------
+
+* anyone
+
+Installation
+--------------
+
+    pip install niconico
+
+Upgrade
+---------------
+
+    pip install niconico --upgrade
+
+Quick Start
+--------------
+
+::
+
+    from niconico import BiliBili
+
+    chi = BiliBili()
+    chi.user_update()								# 在线更新user列表
+
+
+return::
+
+
+                                视频地址                           专栏地址                           相册地址  
+    0  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    1  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    2  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    3  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    4  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    5  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    6  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    7  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    8  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+    9  https://api.bilibili.com/x...  https://api.bilibili.com/x...  https://api.bilibili.com/x...  
+
+
+
+
