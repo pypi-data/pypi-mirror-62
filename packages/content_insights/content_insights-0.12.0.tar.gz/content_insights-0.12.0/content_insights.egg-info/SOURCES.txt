@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+content_insights/__init__.py
+content_insights/prom_statsd.py
+content_insights/wrapperbash_operator.py
+content_insights/wrapperpython_operator.py
+content_insights.egg-info/PKG-INFO
+content_insights.egg-info/SOURCES.txt
+content_insights.egg-info/dependency_links.txt
+content_insights.egg-info/top_level.txt
