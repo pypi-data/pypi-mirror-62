@@ -1,0 +1,15 @@
+README.md
+setup.py
+webdebug/__init__.py
+webdebug/__main__.py
+webdebug/callback.py
+webdebug/config.py
+webdebug/core.py
+webdebug/server.py
+webdebug/test.py
+webdebug.egg-info/PKG-INFO
+webdebug.egg-info/SOURCES.txt
+webdebug.egg-info/dependency_links.txt
+webdebug.egg-info/not-zip-safe
+webdebug.egg-info/requires.txt
+webdebug.egg-info/top_level.txt
