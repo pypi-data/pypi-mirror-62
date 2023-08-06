@@ -1,0 +1,9 @@
+README.md
+setup.py
+appini/main.py
+appini.egg-info/PKG-INFO
+appini.egg-info/SOURCES.txt
+appini.egg-info/dependency_links.txt
+appini.egg-info/not-zip-safe
+appini.egg-info/top_level.txt
+bin/appini

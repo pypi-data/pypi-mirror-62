@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: appini
+Version: 0.0.2
+Summary: A tool to create mobile apps from websites using flutter and dart.
+Home-page: https://appini.ml/cli
+Author: Umut YILDIRIM
+Author-email: umut374@gmail.com
+License: GNU
+Project-URL: Bug Tracker, https://gitlab.com/HopeSweaty/appini/issues
+Project-URL: Documentation, https://docs.appini.ml/CLI/get_started/
+Project-URL: Source Code, https://gitlab.com/HopeSweaty/appini/
+Description: # Appini
+        
+        Command Line Interface that generates mobile apps from responsive websites.
+        
+        ## Installation
+        Installation is very simple
+        ```$ pip install appini```
+        Also check out flutter installation guide [from here!] (https://flutter.dev/docs/get-started/install/)
+        ## Usage 
+        Just type ```$ appini``` from your favorite terminal.
+        
+        Todo List
+        - [x] Create Mobile app 
+        - [ ] Setup flutter and add flutter to path so user can call it from terminal 
+        - [ ] Add Firebase feature
+        - [ ] Launch emulator
+        - [ ] Upgrade CLI
+        
+Keywords: mobileapp websites appini
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Description-Content-Type: text/markdown
