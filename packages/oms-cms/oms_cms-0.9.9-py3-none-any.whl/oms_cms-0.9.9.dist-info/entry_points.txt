@@ -1,0 +1,3 @@
+[console_scripts]
+oms-start = oms_cms.scripts.create_project:cli_create
+

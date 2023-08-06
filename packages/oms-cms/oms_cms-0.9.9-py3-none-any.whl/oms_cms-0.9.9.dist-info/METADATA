@@ -1,0 +1,193 @@
+Metadata-Version: 2.1
+Name: oms-cms
+Version: 0.9.9
+Summary: A high-level Python Web CMS
+Home-page: https://github.com/DJWOMS/oms_cms
+Author: DJWOMS - Omelchenko Michael
+Author-email: socanime@gmail.com
+License: BSD
+Project-URL: Documentation, https://oms-cms.readthedocs.io/ru/latest/
+Project-URL: Source, https://github.com/DJWOMS/oms_cms
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Requires-Dist: asgiref (==3.2.3)
+Requires-Dist: certifi (==2019.11.28)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: coreapi (==2.3.3)
+Requires-Dist: coreschema (==0.0.4)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: Django (==3.0.3)
+Requires-Dist: django-allauth (==0.41.0)
+Requires-Dist: django-ckeditor (==5.9.0)
+Requires-Dist: django-contrib-comments (==1.9.2)
+Requires-Dist: django-cors-headers (==3.2.1)
+Requires-Dist: django-debug-toolbar (==2.2)
+Requires-Dist: django-filter (==2.2.0)
+Requires-Dist: django-js-asset (==1.2.2)
+Requires-Dist: django-mptt (==0.11.0)
+Requires-Dist: django-nose (==1.4.6)
+Requires-Dist: djangorestframework (==3.11.0)
+Requires-Dist: drf-yasg (==1.17.1)
+Requires-Dist: idna (==2.9)
+Requires-Dist: inflection (==0.3.1)
+Requires-Dist: itypes (==1.1.0)
+Requires-Dist: Jinja2 (==2.11.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: nose (==1.3.7)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: oms-gallery (==0.3.4)
+Requires-Dist: packaging (==20.1)
+Requires-Dist: Pillow (==7.0.0)
+Requires-Dist: psycopg2-binary (==2.8.4)
+Requires-Dist: pyparsing (==2.4.6)
+Requires-Dist: python-http-client (==3.2.5)
+Requires-Dist: python3-openid (==3.1.0)
+Requires-Dist: pytz (==2019.3)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: ruamel.yaml (==0.16.10)
+Requires-Dist: ruamel.yaml.clib (==0.2.0)
+Requires-Dist: sendgrid (==6.1.2)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: sqlparse (==0.3.0)
+Requires-Dist: uritemplate (==3.0.1)
+Requires-Dist: urllib3 (==1.25.8)
+
+OMS CMS
+=======
+[![Build Status](https://travis-ci.org/DJWOMS/oms_cms.svg?branch=master)](https://travis-ci.org/DJWOMS/oms_cms)
+[![Coverage Status](https://coveralls.io/repos/github/DJWOMS/oms_cms/badge.svg?branch=master)](https://coveralls.io/github/DJWOMS/oms_cms?branch=master)
+[![License](https://img.shields.io/pypi/l/oms-cms)](https://opensource.org/licenses/BSD-3-Clause)
+[![Version](https://img.shields.io/pypi/v/oms-cms)](https://pypi.org/project/oms-cms/) 
+[![Slack](https://img.shields.io/badge/Slack-chat-green)](https://join.slack.com/t/oms-cms/) 
+
+[Website](https://oms-cms.site/en/)
+
+[Documentation](https://oms-cms.readthedocs.io/ru/latest/)
+
+* Python = 3.7, 3.8
+* Django = 2.2, 3
+
+OMS CMS is designed for a wide range of developers.
+
+The system is open source, written using the Django framework in the Python programming language.
+
+This CMS was designed by developers for a quick start and easy scalability.
+OMS allows you to easily integrate with other django applications and use them immediately,
+Or create new compatible applications!
+
+This cms allows you to make a website in minutes.
+You can use the basic template or download from the official site.
+
+Modules
+-------
+* Pages
+* News
+   * Categories
+   * Articles
+   * Tags
+* Comments
+* Contacts
+* Info block
+* Languages, multilingualism
+* Menu
+* SEO
+* Partners
+* Search
+* Links to social networks
+
+Installation:
+-------------
+
+Create virtual environment ::
+
+    python -m venv venv
+
+Activate virtual environment
+
+Install CMS ::
+
+    pip install oms-cms
+
+Create Project ::
+
+    oms-start
+
+
+[Development](https://github.com/DJWOMS/oms_cms/wiki/Development)
+
+__________________________________________________________
+
+[Сайт](https://oms-cms.site)
+
+[Документация](https://oms-cms.readthedocs.io/ru/latest/)
+
+* Python = 3.7, 3.8
+* Django = 2.2, 3
+
+OMS CMS создана для широкого круга разработчиков. 
+
+Система имеет открытый исходный код, написана с использованием фреймворка Django на языке программирования Python. 
+
+Данная CMS была задумана разработчиками для быстрого старта и легкой масштабируемости. 
+OMS позволяет без трудностей интегрироваться с другими приложениями django и сразу же использовать их, 
+либо создавать новые совместимые приложения!
+
+Данная cms позволяет сделать сайт за считанные минуту. 
+Вы можете использовать базовый шаблон или скачать с официального сайта.
+
+Модули
+------
+* Страницы
+* Новости
+   * Категории
+   * Статьи
+   * Теги
+* Комментарии
+* Контакты
+* Инфо блк
+* Языки \ мультиязычность
+* Меню
+* SEO
+* Партнеры
+* Поиск
+* Ссылки на социальные сети
+
+Установка:
+----------
+
+Создать виртуальное окружение ::
+
+    python -m venv venv
+
+Активировать виртуальное окружение
+
+Установить CMS ::
+
+    pip install oms-cms
+
+Создать проект ::
+
+    oms-start
+
+
+[Разработка](https://github.com/DJWOMS/oms_cms/wiki/Development)
+
+
