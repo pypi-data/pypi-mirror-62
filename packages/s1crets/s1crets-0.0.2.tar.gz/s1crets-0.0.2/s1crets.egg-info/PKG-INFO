@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: s1crets
+Version: 0.0.2
+Summary: Convenience wrapper for AWS Parameter Store/Secrets Manager
+Home-page: https://github.com/bra-fsn/s1crets
+Author: NAGY, Attila
+Author-email: nagy.attila@gmail.com
+License: UNKNOWN
+Description: # s1crets
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
