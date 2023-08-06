@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: xnatbidsfns
+Version: 1.0
+Summary: Utility functions for BIDS data
+Home-page: https://github.com/radiologics/docker-images
+Author: Radiologics/NRG
+Author-email: kate@radiologics.com
+License: UNKNOWN
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown
