@@ -1,0 +1,7 @@
+README.md
+setup.py
+LindexURI/__init__.py
+LindexURI.egg-info/PKG-INFO
+LindexURI.egg-info/SOURCES.txt
+LindexURI.egg-info/dependency_links.txt
+LindexURI.egg-info/top_level.txt
