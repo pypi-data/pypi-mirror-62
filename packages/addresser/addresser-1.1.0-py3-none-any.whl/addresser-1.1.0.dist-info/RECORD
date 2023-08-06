@@ -1,0 +1,10 @@
+addresser/__init__.py,sha256=k9_NTg0FxPdPSD270NSjfvpwBsWU9gpzlUHbpssBweg,220
+addresser/config.py,sha256=-3FsPrhc_ymaF0EkcE_OlJAaHLmi5zJmKQjs-zYVC_0,9717
+addresser/parser.py,sha256=5dSm8lQ2z0rDwYHdlC33X940zfthP8LKQvi4dDM51A4,2538
+addresser/patterns.py,sha256=Andaq_a3QNfezIHv3XEdOr31mUzscVkyzkRrob5Zq50,3754
+addresser/utils.py,sha256=66YEYrIZxj_fkw96Mokc-QhggOJe5dSh4IsuBrTYPmM,361
+addresser-1.1.0.dist-info/LICENSE,sha256=SU5c1SX3I4A10PGTkGJGmy22HJs-zoyFfzollt6ETUg,2378
+addresser-1.1.0.dist-info/METADATA,sha256=i-45kYhujq4TZ0-6BFPQLj1ErCvdyhaWl8k-UQS5gLA,1857
+addresser-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+addresser-1.1.0.dist-info/top_level.txt,sha256=HINmA3rVURnDaezSpP8GtYKFsIHW2Ct2JNTeQTCeuNg,10
+addresser-1.1.0.dist-info/RECORD,,
