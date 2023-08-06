@@ -1,0 +1,8 @@
+basemath/__init__.py,sha256=GvOcc0s4Rwu3V9z_C6cWVT-MraCtdnS8P1ILe-Meq_Y,19473
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basemath.py,sha256=W79t1789Y1o-rft2UoSYX_7Me3rzBt7IyAXAhKfOcCE,1542
+basemath-1.0.2.dist-info/LICENSE,sha256=r3W0C-_k0pyEj6XFRSgi-obAz-7DbePZEixC_nO8RXE,1084
+basemath-1.0.2.dist-info/METADATA,sha256=611_ijip3vggjIksBZhCc9-P9jFxVg5Rxt_59vhEFA8,10951
+basemath-1.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+basemath-1.0.2.dist-info/top_level.txt,sha256=8K2Nzcmar_EQuMs_G-0vDqHI5xXkeQurRRS5XtlAxlI,15
+basemath-1.0.2.dist-info/RECORD,,
