@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: topic-ontologies
+Version: 0.2.0
+Summary: An ESA implementation in python.
+Home-page: https://git.webis.de/args/args-topic-modeling/tree/master/src/python/esa
+Author: Yamen Ajjour
+Author-email: yajjour@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Configuration Topic Ontologies. 
+
+
