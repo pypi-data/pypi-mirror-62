@@ -1,0 +1,15 @@
+peaksql/__about__.py,sha256=AFLNocgJOV6Ld8npku9w1UW3xOi-WAHL8RIot_Ph_PA,74
+peaksql/__init__.py,sha256=Lu_mKQCO1ezxaTkh6CIJFAVA_qIgU4l1pNvtcK0q1ME,314
+peaksql/database.py,sha256=lrF-YCsopsD9TsuhA94MND7hOzpSVz6k8wBtwbUTSQ4,9775
+peaksql/tables.py,sha256=4wAf5oibSGqNrpHS4FXIWg4wR919EDFGB1cCaW5DKsA,1301
+peaksql/util.py,sha256=V34iSmEOdQ4P254V2MVUECQmi4czUX-qr3GRjg7Fd-g,2790
+peaksql/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peaksql/datasets/base.py,sha256=WGd8LHebsp1qPcV7NzLWdFC2wI5jtItg2o17phrN5RA,8296
+peaksql/datasets/bed.py,sha256=2haBDb7ix3WVV92djX9H43_T1TFN5nZZTF_Wg6IGL-8,3949
+peaksql/datasets/bedregion.py,sha256=YVTLtLWyfWRbrxWpzt1ShTbAZGGua1W2RfCMLaoPbHk,1217
+peaksql/datasets/narrowpeak.py,sha256=L8YbXcGombGtsWdXnl7oOvlRtY1gXPqbuvSzuMjq1gc,1173
+peaksql-0.0.2.dist-info/LICENSE,sha256=OMyRHl3Lpj0e4U9Hye6fczhDHKz09aITQ0FVo4MynfE,1078
+peaksql-0.0.2.dist-info/METADATA,sha256=Y-XB3KgwDl4OjYKqfTyO0fHydwsmPlHbhWo_6EyQLWE,1388
+peaksql-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+peaksql-0.0.2.dist-info/top_level.txt,sha256=AYY1XBkmMliEgwgM5hm61mwogtSBKZPBbeAZbsVl2UI,25
+peaksql-0.0.2.dist-info/RECORD,,
