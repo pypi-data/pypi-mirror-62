@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+linearly_varying_binomial_distribution.egg-info/PKG-INFO
+linearly_varying_binomial_distribution.egg-info/SOURCES.txt
+linearly_varying_binomial_distribution.egg-info/dependency_links.txt
+linearly_varying_binomial_distribution.egg-info/top_level.txt
+lvbdist/__init__.py
+lvbdist/lvbdist_back.c
+lvbdist/lvbdistcalcs/prob_func.c
+lvbdist/lvbdistcalcs/prob_func.h
