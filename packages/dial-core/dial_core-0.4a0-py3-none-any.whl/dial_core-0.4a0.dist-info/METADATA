@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dial-core
+Version: 0.4a0
+Summary: A Deep Learning, node-based framework
+Home-page: https://github.com/dial-app/dial-core
+Author: David Afonso
+License: GPL
+Download-URL: https://github.com/dial-app/dial-core/archive/v0.4a0.tar.gz
+Keywords: Deep Learning,UI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=2.0.0a0)
+Requires-Dist: tensorboard (>=2.0.1)
+Requires-Dist: dependency-injector (>=3.14.12)
+
+# Dial
+Deep Learning GUI Framework
+
+![PyPI](https://img.shields.io/pypi/v/dial?color=blue)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dial)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+[![Build Status](https://travis-ci.com/davafons/dial.svg?token=fs4XBftACRVS4B1BAwY3&branch=master)](https://travis-ci.com/davafons/dial)
+[![codecov](https://codecov.io/gh/davafons/dial/branch/master/graph/badge.svg?token=6N3h3D3qNI)](https://codecov.io/gh/davafons/dial)
+
+
