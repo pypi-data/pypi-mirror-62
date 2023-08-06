@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+files/usr/local/bin/tess_event
+tess_event/__init__.py
+tess_event/__main__.py
+tess_event/_version.py
+tess_event/tess_event.py
+tessdb_stats.egg-info/PKG-INFO
+tessdb_stats.egg-info/SOURCES.txt
+tessdb_stats.egg-info/dependency_links.txt
+tessdb_stats.egg-info/top_level.txt
