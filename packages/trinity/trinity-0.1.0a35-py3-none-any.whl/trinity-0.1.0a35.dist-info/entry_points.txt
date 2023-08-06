@@ -1,0 +1,5 @@
+[console_scripts]
+trinity = trinity:main
+trinity-beacon = trinity:main_beacon
+trinity-validator = trinity:main_validator
+
