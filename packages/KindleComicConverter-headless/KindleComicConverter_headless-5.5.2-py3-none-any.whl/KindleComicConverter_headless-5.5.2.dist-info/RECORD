@@ -1,0 +1,17 @@
+kindlecomicconverter/__init__.py,sha256=Nq2poTd2OU086I636yaLFZkPu1hrc7JFivSZiuKwxio,189
+kindlecomicconverter/comic2ebook.py,sha256=bI9UWJ87TdM3DcybYxzCH-sJTY7uUV-vRrhjY6pFiBI,52360
+kindlecomicconverter/comic2panel.py,sha256=Sdr_SW4RrnrZ-TVOVjczBnAdchWkN2gONRV9MHVgsz4,11063
+kindlecomicconverter/comicarchive.py,sha256=D-lAggKZs-jUDijQJAiANg10hLEokn0jBd2l__6y5mo,3479
+kindlecomicconverter/dualmetafix.py,sha256=QzdKSTyiVbax7-E_KEAATtXlc8lIOLQ1hFCtdHTxHjI,6262
+kindlecomicconverter/image.py,sha256=SJkwwkuFSzEYBJe2OZ1M_feTMWC4UrFZ_IctEZEH0eQ,15571
+kindlecomicconverter/kindle.py,sha256=aQnMeigNWagaNJSM2o6Dx-29_Qczhd3oXmlxyTF0qG4,1691
+kindlecomicconverter/metadata.py,sha256=7GeEDOTeC365shWPRRzIOr4F_q_Fj1lBFqMT-PzBAgE,6048
+kindlecomicconverter/pdfjpgextract.py,sha256=OVXZOkJNBBXwT58DCQxynI76jpDNHC7WLLICJ1THPQQ,2429
+kindlecomicconverter/shared.py,sha256=B-oo1Rhy9q9_CIspZ610ilKrIw8mhuFMCUQT0d1Gv6E,4036
+kindlecomicconverter/startup.py,sha256=clWcw5sdyqyiEBzhUmqKiY7ZBpjjCuNl2NjNS2DnZBg,1385
+KindleComicConverter_headless-5.5.2.dist-info/LICENSE.txt,sha256=X6sQwhnwR-gl0eIoG409q1Q4iv3kXYV2k6m2y0jtcLE,843
+KindleComicConverter_headless-5.5.2.dist-info/METADATA,sha256=mTq59z5xOexgvcHv8oBBg2ofydEcQsOxzMdVMJqqApc,485
+KindleComicConverter_headless-5.5.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+KindleComicConverter_headless-5.5.2.dist-info/entry_points.txt,sha256=jWTttuxnOj0_71q1wHCLXF1xdnyQT3wAwSukah-RxEU,115
+KindleComicConverter_headless-5.5.2.dist-info/top_level.txt,sha256=1G-aLJh5NmIQWHGrl76saO0bMP7qsnlqEzCeFAi8Yy4,21
+KindleComicConverter_headless-5.5.2.dist-info/RECORD,,

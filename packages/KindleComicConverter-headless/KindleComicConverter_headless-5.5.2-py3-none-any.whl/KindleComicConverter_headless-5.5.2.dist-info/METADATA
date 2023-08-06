@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: KindleComicConverter-headless
+Version: 5.5.2
+Summary: KindleComicConverter sans GUI, PyQt and raven(Sentry).
+Home-page: http://github.com/whtsky/kcc
+Author: Ciro Mattia Gonano, Pawel Jastrzebski
+Author-email: ciromattia@gmail.com, pawelj@iosphe.re
+License: ISC License (ISCL)
+Keywords: kindle,kobo,comic,manga,mobi,epub,cbz
+Platform: UNKNOWN
+Requires-Dist: Pillow (>=5.2.0)
+Requires-Dist: psutil (>=5.0.0)
+Requires-Dist: python-slugify (>=1.2.1)
+
+UNKNOWN
+
+
