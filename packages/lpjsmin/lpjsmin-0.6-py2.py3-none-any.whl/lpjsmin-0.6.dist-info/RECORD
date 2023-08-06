@@ -1,0 +1,12 @@
+lpjsmin/__init__.py,sha256=47c6fB1rQAeEXrW4g1kPijVcDOQ6gsNm6zdeCfQpfCs,2201
+lpjsmin/jsmin.py,sha256=edy8IY0fYddcD6ANstPddQp8zt0cmAmTbODlrgRR04M,7649
+lpjsmin/tests/__init__.py,sha256=DDOrCk8E3VZhs-ly9tMc0hanDXtJTZoBTGebd7k2J7k,4095
+lpjsmin/tests/jsfiles/sample1.js,sha256=gXMn9Bx1MqvOz65Y_cnzbalFc_zRweF7SQEbXBkspSM,91
+lpjsmin/tests/jsfiles/sample2.js,sha256=oWPdrWv-4pZO7vkBE83tveHHrQahmlxq-kljNLaAoEo,96
+lpjsmin-0.6.dist-info/DESCRIPTION.rst,sha256=jyYAQQVvmKGpmv7K-L8NhaWpO5jEyROUBp76yR5pVuQ,2448
+lpjsmin-0.6.dist-info/METADATA,sha256=REQCKfSsjZBSas7rNU6NELsJ4z-qrtkT_MhM_d_42ks,3330
+lpjsmin-0.6.dist-info/RECORD,,
+lpjsmin-0.6.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+lpjsmin-0.6.dist-info/entry_points.txt,sha256=J5VEgygquzWxOLvGQ33LmBx3xJsVxzDsEEuLU9S8YO8,42
+lpjsmin-0.6.dist-info/metadata.json,sha256=fcP-lF4hDpZBh0B5DhhSBGhmV7tX5mCutaMw2xv0ZfY,1234
+lpjsmin-0.6.dist-info/top_level.txt,sha256=5HjgnE8Dq6dGADK5qdQQcE9wDN-lhn4Htf4hZf-EEwo,8
