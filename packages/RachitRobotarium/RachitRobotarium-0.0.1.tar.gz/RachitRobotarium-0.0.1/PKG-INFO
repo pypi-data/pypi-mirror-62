@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RachitRobotarium
+Version: 0.0.1
+Summary: Enhanced package for Georgia Tech's Robotarium
+Home-page: UNKNOWN
+Author: Rachit Bhargava
+Author-email: rachitbhargava99@gmail.com
+License: UNKNOWN
+Description: #RachitRobotarium
+        
+        Enhanced module to interface with Georgia Tech's robotarium facility.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
