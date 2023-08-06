@@ -1,0 +1,7 @@
+README.md
+hazelib
+setup.py
+hazelib.egg-info/PKG-INFO
+hazelib.egg-info/SOURCES.txt
+hazelib.egg-info/dependency_links.txt
+hazelib.egg-info/top_level.txt
