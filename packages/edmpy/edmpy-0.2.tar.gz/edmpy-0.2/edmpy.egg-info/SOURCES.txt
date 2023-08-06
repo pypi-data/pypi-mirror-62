@@ -1,0 +1,7 @@
+setup.py
+edmpy/__init__.py
+edmpy.egg-info/PKG-INFO
+edmpy.egg-info/SOURCES.txt
+edmpy.egg-info/dependency_links.txt
+edmpy.egg-info/not-zip-safe
+edmpy.egg-info/top_level.txt
