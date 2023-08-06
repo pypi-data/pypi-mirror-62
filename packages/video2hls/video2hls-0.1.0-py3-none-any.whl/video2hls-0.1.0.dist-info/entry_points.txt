@@ -1,0 +1,3 @@
+[console_scripts]
+seg=video2hls.seg:run
+
