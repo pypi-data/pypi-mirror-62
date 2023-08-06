@@ -1,0 +1,15 @@
+docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docs/conf.py,sha256=ceKuEm6Y7qlh5R2FSeQn3ScsMMStrRmgjj3bToPMtnA,955
+pyimport/__init__.py,sha256=xbOQ99jxxEsvHfSYw9PD8KjGJxp87JRP_aRXXCclRfU,74
+pyimport/main.py,sha256=pzZi2vkSbndj7AQqOs0PoRf3Qi9ipBfDhDKiTi102C0,1583
+pyimport/__pycache__/__init__.cpython-36.pyc,sha256=Bs02HTW_Yau0TARUjk-T4oFmlGEDqNrYFu8yPtTaJsk,133
+pyimport/__pycache__/main.cpython-36.pyc,sha256=9Y1tI1M6VNYulvBHyQGsumTuL4glDSjGLpQUqhr3hYM,2357
+tests/__init__.py,sha256=48F2geZIFpq1j6bSbVIeM4kXkH2y0yR8U3YetmM_Gds,16
+tests/test_externals.py,sha256=L0jP0SQ4P3v59V8AOPJ79Xaicy_gbJ5ejsGDdbpK-ds,407
+tests/test_guards.py,sha256=tuUbnBtKS82CW2F5SyvIZGRaD0HllDeltFZZ7A1b0_Y,498
+pyimport-0.1.4.dist-info/LICENSE.md,sha256=VKeuwXvFCZe-znYAjmB6lP-3eZ0LFwC0c95wUA4U_k4,1071
+pyimport-0.1.4.dist-info/METADATA,sha256=ig6G_ZHnnjSf60Qod2S94yLMoE-DJGNNc_3i6ibUFNQ,2967
+pyimport-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyimport-0.1.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pyimport-0.1.4.dist-info/top_level.txt,sha256=R4399c4yx0sjzrFXWO1U9mQ1xzCdfItQQZNhS9rP7t0,20
+pyimport-0.1.4.dist-info/RECORD,,
