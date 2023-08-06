@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mindwavelsl
+Version: 1.0
+Summary: A package to send Mindwave Mobile 2 data over Lab Streaming Layer (LSL).
+Home-page: https://github.com/gmierz/mindwave-lsl
+Author: Gregory Mierzwinski
+Author-email: gmierz1@live.ca
+License: GPLv3
+Description: See this page: https://github.com/gmierz/mindwave-lsl 
+        After installation, run with `mindwavelsl`.
+Keywords: mindwave lab streaming layer lsl
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering
