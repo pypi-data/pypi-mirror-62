@@ -1,0 +1,5 @@
+decorator
+dm.saml2>=3.2
+dm.zope.schema>=4
+five.formlib
+setuptools
