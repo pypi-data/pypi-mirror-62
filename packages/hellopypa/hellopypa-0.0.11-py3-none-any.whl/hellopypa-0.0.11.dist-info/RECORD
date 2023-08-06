@@ -1,0 +1,11 @@
+hellopypa/__init__.py,sha256=vPX458jHljHVZ8FbX9BzQ_9rigsxc0mjQGtPZCa1DAg,80
+hellopypa/__main__.py,sha256=QZNWA6GWcXC1vg0koqOzQ6E10FqzUhLRcT3JtqIK6c4,575
+hellopypa/example.cfg,sha256=HWCuVF-HeFXzQXdvyikA6K5RI0qUXMgKtv2OMOxOuk0,27
+hellopypa/hellopypa.py,sha256=U_MuQw2tRKuHXOKtfpx2ivPGxZFF1xNGcpcMycvbd8Y,308
+hellopypa/version.py,sha256=hiU_rp5scA1P5fsYbz24O_RUsChart9LA0KijNB5GvU,23
+hellopypa-0.0.11.dist-info/LICENSE,sha256=1rI08IffKTtQqmpn3Sru8vj0lkM3qMjjxUYavr4GDus,1074
+hellopypa-0.0.11.dist-info/METADATA,sha256=xrEQCCWsnG47LnhvHXkmDTzo9S6fxUXFx7jx8adqvyo,15076
+hellopypa-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hellopypa-0.0.11.dist-info/entry_points.txt,sha256=rLZGnA85ucXasCLDReVUeJiJa_dJggN9FlOOA_1U6G4,55
+hellopypa-0.0.11.dist-info/top_level.txt,sha256=_syR40yoUdZ2zmiEQI4va8IVyJQHq6vRM_A_gGKh_ho,10
+hellopypa-0.0.11.dist-info/RECORD,,
