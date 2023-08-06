@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cpdseqer/__init__.py
+cpdseqer/__main__.py
+cpdseqer/__version__.py
+cpdseqer/analysis.py
+cpdseqer/hg38_promoter.bed
+cpdseqer/hg38_tf.bed
+cpdseqer.egg-info/PKG-INFO
+cpdseqer.egg-info/SOURCES.txt
+cpdseqer.egg-info/dependency_links.txt
+cpdseqer.egg-info/entry_points.txt
+cpdseqer.egg-info/not-zip-safe
+cpdseqer.egg-info/requires.txt
+cpdseqer.egg-info/top_level.txt
