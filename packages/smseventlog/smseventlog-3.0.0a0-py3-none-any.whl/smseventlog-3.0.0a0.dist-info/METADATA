@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: smseventlog
+Version: 3.0.0a0
+Summary: SMS Event Log
+Home-page: https://github.com/jaymegordo/SMSEventLog
+Author: Jayme Gordon
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bs4 (>=0.0.1)
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: pyodbc (==4.0.28)
+Requires-Dist: pypika (>=0.35.21)
+Requires-Dist: pyqt5 (>=5.14.1)
+Requires-Dist: pyyaml (>=5.3)
+Requires-Dist: sqlalchemy (>=1.3.13)
+Requires-Dist: xlrd (>=1.2.0)
+Requires-Dist: xlwings (>=0.18.0)
+
+UNKNOWN
+
+

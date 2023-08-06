@@ -1,0 +1,15 @@
+smseventlog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smseventlog/database.py,sha256=IfuSn9XJ1NTQ1F9OAiMbEDvO37l_xXd-MgrNq_Nf2D0,2969
+smseventlog/eventlog.py,sha256=vd6E20ZfsMKT6J-xwgKCyukYmati0HVZTObC_YdPfDs,5146
+smseventlog/factorycampaign.py,sha256=Cm1w7Gi2gLz6GwPiv3GNsUI-WKj3AGHuiao9gAXk0js,5172
+smseventlog/folders.py,sha256=C9DGtCvxv9xhNi4_SkW7t8AoPyB0PaDg35xUPeIilds,8806
+smseventlog/functions.py,sha256=7EAAVb6t8d2lDNv28cmxJDtxexvvaNz5KlF_u2Smg0c,3446
+smseventlog/userforms.py,sha256=6a_iIvepeNj7xdzrgxm1cknrV6jbCEiZ40Bs7vK4_JY,4978
+smseventlog/data/config.yaml,sha256=DPEUa6AWw-rilW2bz2tJX3EAvNYK9ZgGtjHd5nsNUQA,2086
+smseventlog/data/db_secret.txt,sha256=taxkjr32vCpoVOnik5JhkWfcI1PwMbwL80J6BGVVE6o,232
+smseventlog/data/images/SMS Icon.png,sha256=OFJEjAa9mJrGpWyZVdhHH5g_ZO5NX3nhr85Hazgm1Bc,1318
+smseventlog-3.0.0a0.dist-info/LICENSE,sha256=Bwdm2Z19Rm2CQb9QFkotcpYc5LhPWVMqAvzk4WBWtnA,1099
+smseventlog-3.0.0a0.dist-info/METADATA,sha256=bGKr33Zokupcnt5R8X4KwAqQ2AnSM6phfkkdJtekyiM,715
+smseventlog-3.0.0a0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+smseventlog-3.0.0a0.dist-info/top_level.txt,sha256=AC6EccBC9Kg-TxLElzBuSl_B2fz4Op2WqcOO17YiIMI,12
+smseventlog-3.0.0a0.dist-info/RECORD,,
