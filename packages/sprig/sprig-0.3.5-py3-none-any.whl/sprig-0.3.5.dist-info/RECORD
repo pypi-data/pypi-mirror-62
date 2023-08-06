@@ -1,0 +1,11 @@
+sprig/__init__.py,sha256=ENCHWX0btTt3cWp_zuk2Xr_mTJ1B2u3edtFCF-146C4,97
+sprig/comb.py,sha256=AwzsfUFCLRjOvLHKaqgq0lFBK59Y_ml1-IR5Xozfz6U,5055
+sprig/dictutils.py,sha256=ezj7b2LLlwTN20MDgkdrd4GW1Vo6iq5ZVUCc0F0-Deo,6347
+sprig/iterutils.py,sha256=LxiBgB8BbHmRpHiNzFAaUvL03XMcfpyUKE5MEjHtgT0,2065
+sprig/streamutils.py,sha256=iHcSpup88Rn7v866GxcLWxL97GLMckMYda5ut37EsgQ,4742
+sprig/version.py,sha256=CHijwXsyPPpHBfZ67_UKNn5tO5Kb1SVhPt9IP93qf_w,58
+sprig-0.3.5.dist-info/LICENSE,sha256=DqES3VcyLoEf0U13eOl8XNGU6gayEg9Gdkoh_pXCStE,1069
+sprig-0.3.5.dist-info/METADATA,sha256=qZ02GTaajDCuXf10z_lvGmkPAHJQgMyImb_GHXQEf9E,1106
+sprig-0.3.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sprig-0.3.5.dist-info/top_level.txt,sha256=thImmtSSzwG-0yz1onkilBW1yXytK3j14c-n7C1ZHcw,6
+sprig-0.3.5.dist-info/RECORD,,
