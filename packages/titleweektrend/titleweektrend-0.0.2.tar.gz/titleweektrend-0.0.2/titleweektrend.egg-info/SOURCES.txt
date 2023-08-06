@@ -1,0 +1,8 @@
+README.md
+setup.py
+titleweektrend/__init__.py
+titleweektrend/titleWeekTrend.py
+titleweektrend.egg-info/PKG-INFO
+titleweektrend.egg-info/SOURCES.txt
+titleweektrend.egg-info/dependency_links.txt
+titleweektrend.egg-info/top_level.txt
