@@ -1,0 +1,13 @@
+pyzure/AzureDBStream.py,sha256=8P7k1wA0vJB7ivlSlAvZ6P1vtGzTKXe4FHsZdd4G2OU,7003
+pyzure/__init__.py,sha256=1FmeDPx9fibvoJFqy4JIaXQeGZLmULcR4gX08EO8Sck,46
+pyzure/core/Column.py,sha256=eeayKB5LB-JtJlYBLeCHoFCqSio27E39qYOJoj1-YBM,2518
+pyzure/core/Table.py,sha256=2_lA_pdV_jzBDJH-0kM09ifr7wdNLUFVDgtLau4s2cE,2769
+pyzure/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzure/core/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyzure/core/tools/detect_types.py,sha256=gWFkOMzsPAND_HxxXpCl0FALAsID1ZpIo1Ab_XCUs8I,2062
+pyzure/core/tools/print_colors.py,sha256=0wouPUkvbWP1qSyNXOzM4HuAbg_r7LCd6kNh5y8iRSQ,197
+pyzure/core/tools/progress_bar.py,sha256=YwpkfGAOh7KExif4EhTmsPoaR7hdWeWSvTxLlSysuao,995
+pyzure-0.1.22.dist-info/METADATA,sha256=3L0_Dfx33uqksH9fhxVbsks6bSPR-aAK4_yYnyUV7Y8,445
+pyzure-0.1.22.dist-info/RECORD,,
+pyzure-0.1.22.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyzure-0.1.22.dist-info/top_level.txt,sha256=02yMbMTocWRdZVHB-nG7QLnvskKa6Svy6gDEtJ873zw,7
