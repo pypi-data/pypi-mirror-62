@@ -1,0 +1,10 @@
+zencelium/__init__.py,sha256=WSe2y1bV_rksW6_PQp1QVW2zXwl1vx2_l5aT6MrizfI,25
+zencelium/__main__.py,sha256=yhvWUdPEYBSnM8Zi7GCIfEVcW6a7NNVPT1BFUMAmt0Y,365
+zencelium/cli.py,sha256=WSZXOIzyHoPOHKo8GRTJo4zH_7osOOnaTcIFazrUQGU,738
+zencelium-2020.0.1.dist-info/AUTHORS.rst,sha256=C0dALQGAw3Hc17t-qC_pQVHXXN0gpYlP1tSJuAyNcDQ,64
+zencelium-2020.0.1.dist-info/LICENSE,sha256=tbUt-zI5q7YCJrmCL-kGvhUQEFGaeS-OEVbqU6H7dEM,1518
+zencelium-2020.0.1.dist-info/METADATA,sha256=SavEtKZYpY1Yf-4ZjHSZDyK3GsEN6nnaowJ8W8QNbxc,1960
+zencelium-2020.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+zencelium-2020.0.1.dist-info/entry_points.txt,sha256=ny-r9fEd4n-t6rEfIchW8JuSbxK4gW4LPuwJYazC73g,50
+zencelium-2020.0.1.dist-info/top_level.txt,sha256=6p_C-KrEz1QlFSEjoU1eHmPQzRlRXVOvLfcGreFM7co,10
+zencelium-2020.0.1.dist-info/RECORD,,
