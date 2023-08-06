@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: iso19794
+Version: 0.1.0
+Summary: ISO-19794 Image format for Python
+Home-page: https://github.com/idemia/python-iso19794
+Author: Olivier Heurtier
+Author-email: olivier.heurtier@idemia.com
+License: CeCILL-C
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: CeCILL-C Free Software License Agreement (CECILL-C)
+Classifier: Operating System :: OS Independent
+Requires-Dist: setuptools
+Requires-Dist: Pillow (>=5.0.0)
+
+========
+iso19794
+========
+
+.. image:: https://readthedocs.org/projects/iso19794/badge/?version=latest
+    :target: https://iso19794.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://img.shields.io/pypi/l/iso19794.svg
+    :target: https://pypi.org/project/iso19794/
+    :alt: CeCILL-C
+
+.. image:: https://img.shields.io/pypi/pyversions/iso19794.svg
+    :target: https://pypi.org/project/iso19794/
+    :alt: Python 3.x
+
+.. image:: https://travis-ci.org/idemia/python-iso19794.svg?branch=master
+    :target: https://travis-ci.org/idemia/python-iso19794
+    :alt: Build Status (Travis CI)
+
+.. image:: https://codecov.io/gh/idemia/python-iso19794/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/idemia/python-iso19794
+    :alt: Code Coverage Status (Codecov)
+
+
+A Python library extending Pillow to support ISO-19794 images.
+
+Installation
+============
+
+``iso19794`` is published on PyPI and can be installed from there::
+
+    pip install -U iso19794
+
+Quick Start
+===========
+
+To open an ISO 19794 image:
+
+.. code-block:: python
+
+    from import Image
+    import iso19794
+
+    img = Image("my_image.fir")
+    img = Image("my_image.fac")
+
+
+
