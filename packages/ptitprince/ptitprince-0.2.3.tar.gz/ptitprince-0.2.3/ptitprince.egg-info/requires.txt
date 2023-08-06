@@ -1,0 +1,6 @@
+seaborn>=0.10
+matplotlib
+numpy
+scipy
+PyHamcrest>=1.9.0
+cython
