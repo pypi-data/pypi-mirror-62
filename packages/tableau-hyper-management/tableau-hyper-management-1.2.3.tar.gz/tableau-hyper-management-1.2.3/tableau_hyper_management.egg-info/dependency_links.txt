@@ -1,0 +1,1 @@
+http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-win_amd64.whl
