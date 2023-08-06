@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: migratron
+Version: 1.1.0
+Summary: Run the database migrations
+Home-page: UNKNOWN
+Author: Jampp
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development
+Requires-Dist: pygments
+Requires-Dist: psycopg2
+Provides-Extra: dev
+Requires-Dist: twine (>=1.13.0) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.5.0) ; extra == 'dev'
+Requires-Dist: coverage (>=4.5.1) ; extra == 'dev'
+Requires-Dist: pytest (>=4.6.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.7.1) ; extra == 'dev'
+Requires-Dist: pytest-runner (>=5.1) ; extra == 'dev'
+Requires-Dist: flake8-assertive (>=1.1.0) ; extra == 'dev'
+Provides-Extra: dev-strict
+Requires-Dist: twine (==1.13.0) ; extra == 'dev-strict'
+Requires-Dist: flake8 (==3.5.0) ; extra == 'dev-strict'
+Requires-Dist: coverage (==4.5.1) ; extra == 'dev-strict'
+Requires-Dist: pytest (==4.6.3) ; extra == 'dev-strict'
+Requires-Dist: pytest-cov (==2.7.1) ; extra == 'dev-strict'
+Requires-Dist: pytest-runner (==5.1) ; extra == 'dev-strict'
+Requires-Dist: flake8-assertive (==1.1.0) ; extra == 'dev-strict'
+Requires-Dist: black (==19.3b0) ; (python_version > "3.5") and extra == 'dev-strict'
+Requires-Dist: flake8-blind-except (==0.1.1) ; (python_version > "3.6") and extra == 'dev-strict'
+Requires-Dist: flake8-broken-line (==0.1.0) ; (python_version > "3.6") and extra == 'dev-strict'
+Requires-Dist: black (>=19.3b0) ; (python_version > "3.5") and extra == 'dev'
+Requires-Dist: flake8-blind-except (>=0.1.1) ; (python_version > "3.6") and extra == 'dev'
+Requires-Dist: flake8-broken-line (>=0.1.0) ; (python_version > "3.6") and extra == 'dev'
+
+UNKNOWN
+
+
