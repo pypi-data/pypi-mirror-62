@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: cvxpower
+Version: 0.1.2
+Summary: Power Network Optimization and Simulation.
+Home-page: http://github.com/cvxgrp/cvxpower
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache
+Platform: UNKNOWN
+Requires-Dist: cvxpy (>=1.0.6)
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
