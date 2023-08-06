@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: datascizer
+Version: 0.1.0
+Summary: An opinionated abstraction of doing common data science tasks without worrying about the size of your dataset.
+Home-page: https://github.com/hnluu8/datascizer
+Author: Hung Luu
+Author-email: hung.luu@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: <3.8,>=3.6
+Description-Content-Type: text/markdown; charset=UTF-8
+Provides-Extra: test
+Requires-Dist: pytest (>=5.0.0) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# datascizer
+
+
