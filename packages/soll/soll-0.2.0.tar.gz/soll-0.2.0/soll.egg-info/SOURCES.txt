@@ -1,0 +1,8 @@
+README.md
+setup.py
+soll/api.py
+soll.egg-info/PKG-INFO
+soll.egg-info/SOURCES.txt
+soll.egg-info/dependency_links.txt
+soll.egg-info/requires.txt
+soll.egg-info/top_level.txt
