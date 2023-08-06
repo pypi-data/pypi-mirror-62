@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RSAhandler
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 2runo
+Author-email: 2runo04@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: crypto
+Requires-Dist: pycrypto
+
+UNKNOWN
+
+
