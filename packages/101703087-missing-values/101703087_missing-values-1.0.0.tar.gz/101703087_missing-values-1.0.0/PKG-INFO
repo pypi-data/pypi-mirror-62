@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: 101703087_missing-values
+Version: 1.0.0
+Summary: A Python package to detect outliers.
+Home-page: https://github.com/anukritigarg13/missing_values/tree/1.0.0
+Author: Anukriti Garg
+Author-email: anukritigarg13@gmail.com
+License: MIT
+Download-URL: https://github.com/anukritigarg13/missing_values/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
