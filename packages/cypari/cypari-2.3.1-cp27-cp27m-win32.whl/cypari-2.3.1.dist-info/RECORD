@@ -1,0 +1,17 @@
+cypari/__init__.py,sha256=DD0ujyxCv-L6FOgSlDlHrb5wnvV301wtlVAYyNdLnwk,345
+cypari/__init__.pyc,sha256=t2zkr-6Dwhxmf_UUtwzJhlbqp_3oP6ucK257X1mUQ3g,502
+cypari/_pari.pyd,sha256=syo0KAuDYxlgYBg_UC_5_IjQDmFRIoeyXQyXoVyPnKk,8080384
+cypari/memory.py,sha256=SojUgKr9pG88YSZTSTSm6Fvy30Kga88Vw9EK0TDwRSI,1086
+cypari/py2tests.py,sha256=PYSsu8mjLqSY6OO-cn06sfb9WZWGeBkbWVabtYNfDJU,555
+cypari/py2tests.pyc,sha256=_5-Hyc2CymvVs1BrDUSCiN5rFO7PvswTVO4PsMY5TIg,730
+cypari/py3tests.py,sha256=BHhQSUMesIXKswBSSeD957aGE4DfPiT_iFKHOqM-xLM,520
+cypari/test.py,sha256=OwzOS2iZzYl0__wb1BfN86TCmXJlrd77TTGRATaF7oQ,3555
+cypari/test.pyc,sha256=TG4LiFT2kgrG8_dZ0N36Ax96g01nTEztaBwq-7yOcos,3473
+cypari/tests.py,sha256=RVylMbV-EC5w5nqxeBCQrdixNhgbzTnLrJ_C_HVlEGI,44288
+cypari/tests.pyc,sha256=oySmzyX-l7R5B3bUok-ckbB47I9R56Rtk7mo54SI4qQ,44458
+cypari/version.py,sha256=CaprwA4k2AX4OTjeedl2IUZyC608nZdW7ZTo45EtTPU,247
+cypari/version.pyc,sha256=rvp0Yayy8tmXlUwIdNABHEPBc7iL4mhEZ2soaLxJ2BU,786
+cypari-2.3.1.dist-info/METADATA,sha256=1F03Y66cLZoNPDruwZtK1KTwkmO5NotVv0hwixXopUA,1226
+cypari-2.3.1.dist-info/WHEEL,sha256=fXPVprehJfa7RPT94NKSOhqRzuC9xTfkXpd7QSc0lvw,102
+cypari-2.3.1.dist-info/top_level.txt,sha256=lO_bsDdfiuHXQG4G9EkFEKQcjdWehl4PrL-c2VUbS9w,7
+cypari-2.3.1.dist-info/RECORD,,
