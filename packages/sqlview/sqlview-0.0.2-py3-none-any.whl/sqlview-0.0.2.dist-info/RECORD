@@ -1,0 +1,10 @@
+sqlview/__init__.py,sha256=WHoGIdUVtaru0nAy0Y_neSL0r308rg8ZNr4TM7trrqs,77
+sqlview/command.py,sha256=wx3zwgfD37vehVQSw4BnzQ0f9G1-PnXU2WmCfIMJfRA,563
+sqlview/reader.py,sha256=3El-K0TUlROt_1ZXVxd3uWl7fdufUcp3wHKPJ8PLEZE,1626
+sqlview/utils.py,sha256=diI59jehEc4KZc67APf6sq8A6YE871AISMydZlCb3Ss,274
+sqlview-0.0.2.dist-info/LICENSE,sha256=0tNHXfCacj_eX-GwlIVtBc7i881BDBotZvM9QeCIUPY,1090
+sqlview-0.0.2.dist-info/METADATA,sha256=SYObBAkKVO0B9lpbzPoKajz-xYQh07blAf2Vgp-KfIg,524
+sqlview-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqlview-0.0.2.dist-info/entry_points.txt,sha256=Qc9FVTqzW9Kpa1YfIxSrQgmtqAqEnuc9gTG1Ao1ICQA,93
+sqlview-0.0.2.dist-info/top_level.txt,sha256=ef0U1Nf2nRxX3jgdLV_d1i3K7FDQvVm3zGtnwvTwqvU,8
+sqlview-0.0.2.dist-info/RECORD,,
