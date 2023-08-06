@@ -1,0 +1,16 @@
+example/__init__.py,sha256=rQYn-p4Pp7AkW8E-_g9RrN0Ct7u5c4wv9LeN54vF0xU,444
+image_app/SmoothAreaProvider.py,sha256=ZtzTvadYzjwAOEtMteP4GSXfP769ACfrPkJMknRZGYI,6401
+image_app/__init__.py,sha256=1J5B98X-ZndYF0qO7mFNOm6JOzMl3c0M_NZrCf66vv8,741
+image_app/area.py,sha256=-KzyiQdfo3FHgXRd_FVEuaDFDQCA4hS55xCSQPjZREM,2469
+image_app/area_py_s.py,sha256=VU1c0W35ObBoZV78s_sktB2e9lTDHqD01UATDNfHrv0,2434
+image_app/group.py,sha256=znNVybx26mCmRZIRBp-1W3WQfMrVPsxwzMHE7ZnXUK4,1428
+image_app/run.py,sha256=cEuyQSSOIkjPsBQ_NI1FhiloPoqvBUPLwHb_GpJlqTw,1120
+image_app/setup_py.py,sha256=ISP4sIJQKxKDJzUIjUj597kNvYkwlZov-U_9IwG0ZaA,444
+image_app/libs/__init__.py,sha256=4xpV7T6lONXWOLdK_bYDmuFArdoxvtjFQ5whHz-alG4,235
+image_app/libs/select_by_kp.cpython-36m-x86_64-linux-gnu.so,sha256=wnnCGRMDpeB6laI1J8dDVClGaMdTohouG3ID8jNZnrM,539599
+image_app/libs/select_by_kp.cpython-37m-darwin.so,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_app-0.0.3.20030218.dist-info/LICENSE,sha256=DiEz4gwHdYAEvPaI0_jYHv8mbX_unE1DTjP26yhDg7Y,1088
+image_app-0.0.3.20030218.dist-info/METADATA,sha256=z-BSEB8aSD1PGLOlAiGCr_-i2d-Tv-WzVczullFxIHU,1024
+image_app-0.0.3.20030218.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+image_app-0.0.3.20030218.dist-info/top_level.txt,sha256=XeB90tGKd7apJrFg7wdk8aAYCNMKe-gP8OYLtyuUDXc,18
+image_app-0.0.3.20030218.dist-info/RECORD,,
