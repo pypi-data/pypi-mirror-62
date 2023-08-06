@@ -1,0 +1,9 @@
+README.rst
+setup.py
+ValiCoC.egg-info/PKG-INFO
+ValiCoC.egg-info/SOURCES.txt
+ValiCoC.egg-info/dependency_links.txt
+ValiCoC.egg-info/top_level.txt
+valicoc/__init__.py
+valicoc/__main__.py
+valicoc/core.py
