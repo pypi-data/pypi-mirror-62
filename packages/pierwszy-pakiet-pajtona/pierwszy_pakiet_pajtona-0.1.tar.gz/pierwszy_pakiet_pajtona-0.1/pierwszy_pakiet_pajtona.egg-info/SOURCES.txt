@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+moj_pakiet/__init__.py
+moj_pakiet/calc.py
+moj_pakiet/my_module.py
+pierwszy_pakiet_pajtona.egg-info/PKG-INFO
+pierwszy_pakiet_pajtona.egg-info/SOURCES.txt
+pierwszy_pakiet_pajtona.egg-info/dependency_links.txt
+pierwszy_pakiet_pajtona.egg-info/top_level.txt
