@@ -1,0 +1,12 @@
+dataget/__init__.py,sha256=qr6wm_GCvz33un6cc8AjTSSrp9CPA2w_JjWva2QuUW0,129
+dataget/dataset.py,sha256=ikD1F0IW919G9BdfUV8fvgD2hMX0KXnrhQqjYTQdyR4,1399
+dataget/kaggle.py,sha256=3-3zDX9_cUIQsyfFztZZkTbgpGP455Qn_kwy07Ytpi4,1175
+dataget/toy/__init__.py,sha256=zHmqn4a1A0TSkvybNU1AxNuxoqRRNRSG9yAd9FfAQm8,30
+dataget/toy/spirals.py,sha256=EaurzU6MWnMCPMUt4tmUlhWqfRXVyab-C5bD9pwNiJs,918
+dataget/utils.py,sha256=CALJxz1A0cJFMFaM7yIoPsO962YorCO0RQNEpkOxnek,1135
+dataget/vision/__init__.py,sha256=ItE93XE0EmFGeMJOnDotSRt0Q1MKJY9scxft4vwiMF0,25
+dataget/vision/mnist.py,sha256=yckTBanIsqwKh61wTXmmbLln16puUfWN5UZA0PuO1JU,1954
+dataget-0.4.3.dist-info/LICENSE,sha256=ZmQQhqRY7GOpg2-SbCcKB5s9QZ-ex2AS4HRXmu1uNSU,1072
+dataget-0.4.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dataget-0.4.3.dist-info/METADATA,sha256=qF9oVGgKFWnvImufUhYvUswGA0oaH5NEo_yGoZLxRl4,3408
+dataget-0.4.3.dist-info/RECORD,,
