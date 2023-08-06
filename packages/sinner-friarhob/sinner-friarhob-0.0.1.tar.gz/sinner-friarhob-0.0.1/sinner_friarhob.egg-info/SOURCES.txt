@@ -1,0 +1,8 @@
+README.md
+setup.py
+sinner/NeuralNetwork.py
+sinner/__init__.py
+sinner_friarhob.egg-info/PKG-INFO
+sinner_friarhob.egg-info/SOURCES.txt
+sinner_friarhob.egg-info/dependency_links.txt
+sinner_friarhob.egg-info/top_level.txt
