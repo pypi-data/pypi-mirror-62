@@ -1,0 +1,11 @@
+click
+matplotlib
+pyarrow
+pandas
+docopt
+GitPython
+pillow
+tensorflow
+keras
+tqdm
+xlsxwriter
