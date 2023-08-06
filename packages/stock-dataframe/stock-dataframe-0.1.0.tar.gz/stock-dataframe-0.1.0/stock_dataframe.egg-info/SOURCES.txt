@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+stock_dataframe/__init__.py
+stock_dataframe/dataframe.py
+stock_dataframe.egg-info/PKG-INFO
+stock_dataframe.egg-info/SOURCES.txt
+stock_dataframe.egg-info/dependency_links.txt
+stock_dataframe.egg-info/requires.txt
+stock_dataframe.egg-info/top_level.txt
+test/test_main.py
