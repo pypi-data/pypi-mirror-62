@@ -1,0 +1,11 @@
+falcon_arrogante/__init__.py,sha256=6n10fwC0VadM-0IseapANZD373dRyNj0qfoW5MTMJ24,168
+falcon_arrogante/middleware.py,sha256=mPQ1SX-2-bj1zn6CkWQUtWanOVeqlZ9e3JbtW-XqZU8,4505
+falcon_arrogante/router.py,sha256=Ar7ru7Qd3ZeccjihyicN1RLsVof4P4ER1C_fyBA6184,2044
+falcon_confiante/__init__.py,sha256=2zZxZs_oSuOJBLV-jeVX0Fd8HCp0m1i2EkuzMo1sFyQ,214
+falcon_confiante/middleware.py,sha256=3H69jAjF0f4cixmVs0xJgFcmLz54GfegaXRWWRScWkU,6148
+falcon_confiante/router.py,sha256=-V0Kuj316f0TzNS9OCjaM1F1BOn1rvc4kCfBqjdBK9E,2590
+falcon_confiante-0.2.7.dist-info/LICENSE,sha256=KEZQ00IGiIU3-KG9v63BX8-_FolLIfjK6cSH2E0jYSk,1093
+falcon_confiante-0.2.7.dist-info/METADATA,sha256=htuU-OK6yTMMb63Fx1YnrINNU-7eaya93v8rinGF-lo,735
+falcon_confiante-0.2.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+falcon_confiante-0.2.7.dist-info/top_level.txt,sha256=C5ofeupE_xbKSJsYp1VmFI9CQKNcS7RcXBwZSzts3RI,17
+falcon_confiante-0.2.7.dist-info/RECORD,,
