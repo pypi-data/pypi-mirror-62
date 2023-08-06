@@ -1,0 +1,6 @@
+--index-url https://${FURY_AUTH}:@pypi.fury.io/cqcl/
+--extra-index-url https://pypi.org/simple/
+pytest
+pytket == 0.4.1
+qiskit ~= 0.15.0
+numpy ~= 1.18
