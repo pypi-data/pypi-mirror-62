@@ -1,0 +1,3 @@
+dealer
+google-cloud-logger
+google-cloud-monitoring
