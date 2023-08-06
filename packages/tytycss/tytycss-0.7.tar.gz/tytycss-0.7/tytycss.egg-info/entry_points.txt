@@ -1,0 +1,3 @@
+[console_scripts]
+tytycss_beau = tytycss.bin.beau:main
+
