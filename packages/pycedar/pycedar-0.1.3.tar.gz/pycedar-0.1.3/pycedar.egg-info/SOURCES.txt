@@ -1,0 +1,11 @@
+README.md
+setup.py
+pycedar/VERSION
+pycedar/pycedar.pxd
+pycedar/pycedar.pyx
+pycedar.egg-info/PKG-INFO
+pycedar.egg-info/SOURCES.txt
+pycedar.egg-info/dependency_links.txt
+pycedar.egg-info/top_level.txt
+pycedar/core/cedar/src/cedarpp.h
+test/test-dict.py
