@@ -1,0 +1,15 @@
+hepdata_validator/__init__.py,sha256=KzgOtlGO66PJ0dZ80KKUhY8MfKjPqmFyshdtrJK5upo,4393
+hepdata_validator/data_file_validator.py,sha256=j5jTeLmLzEoSJTawmFNv6gLJSyzWay4ijJdJgKWO5fQ,7506
+hepdata_validator/submission_file_validator.py,sha256=NbOlI4WOMgwSNaGOv_tWHvdsKTh_XlbWF5p_TWEuF3w,3739
+hepdata_validator/version.py,sha256=GIVDhrmmwxDGtop_Rh4rIuZsXeY6S6-llldcDe4_6lc,1101
+hepdata_validator/schemas/0.1.0/additional_info_schema.json,sha256=41EJZ7Cxl9tkAym9AtF08N8umefrVvcgYPqEyeaNQ_c,5308
+hepdata_validator/schemas/0.1.0/data_schema.json,sha256=eq4hjIeSByFO_Noivh3S9mbbKJzK50qr7kQ_sZHj54M,7886
+hepdata_validator/schemas/0.1.0/submission_schema.json,sha256=OfzAF1xp_DL39AnpDXQLG4Swn7fFxrvTiJJH1ryZH0E,4878
+hepdata_validator/schemas/1.0.0/additional_info_schema.json,sha256=lWZWU1Nztuse3dOaX1MF7aXSsdaG1f4WLz9X2a7ki6A,2262
+hepdata_validator/schemas/1.0.0/data_schema.json,sha256=otVNxb1kNgohVVgrYcdqWHpRyPDwGCEdcdimYFfTILY,3423
+hepdata_validator/schemas/1.0.0/submission_schema.json,sha256=s70Z_guLY8x0DmMY20ZKvO2QWjOep93_2BbIM1tySt0,2119
+hepdata_validator-0.2.1.dist-info/LICENSE.txt,sha256=Ihgl7HqUBW01Flu0iz8iXJyBSmHAxnboixX9U9pp4LY,18035
+hepdata_validator-0.2.1.dist-info/METADATA,sha256=oueo5FoAvMo8cnqtb3ChO42ideCbzRrT_3DVax_G4R0,782
+hepdata_validator-0.2.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+hepdata_validator-0.2.1.dist-info/top_level.txt,sha256=_Fn6DdBvY-4oXzyuiZJ1MXJYTOWfZq9F6Lz2oLHiDv0,18
+hepdata_validator-0.2.1.dist-info/RECORD,,

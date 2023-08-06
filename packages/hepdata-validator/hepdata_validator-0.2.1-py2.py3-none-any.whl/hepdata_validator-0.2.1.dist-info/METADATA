@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hepdata-validator
+Version: 0.2.1
+Summary: UNKNOWN
+Home-page: https://github.com/hepdata/hepdata-validator
+Author: HEPData Team
+Author-email: info@hepdata.net
+License: GPLv2
+Keywords: hepdata validator
+Platform: any
+Requires-Dist: pyyaml
+Requires-Dist: jsonschema
+Provides-Extra: all
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=1.4.2) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest (>=2.7.0) ; extra == 'tests'
+Requires-Dist: pytest-cache (>=1.0) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=1.8.0) ; extra == 'tests'
+Requires-Dist: pytest-pep8 (>=1.0.6) ; extra == 'tests'
+Requires-Dist: coverage (>=3.7.1) ; extra == 'tests'
+
+HEPData validator code. More information and source code at https://github.com/hepdata/hepdata-validator
+
+
