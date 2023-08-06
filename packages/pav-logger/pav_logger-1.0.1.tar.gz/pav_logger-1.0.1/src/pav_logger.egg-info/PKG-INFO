@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pav-logger
+Version: 1.0.1
+Summary: PavLogger provides the ability to log debug and exception to a text file or a SQLite database with optional Backtrace output.
+Home-page: https://github.com/PavtheDog/pav_logger
+Author: PavtheDog
+Author-email: 
+License: UNKNOWN
+Description: ![PavWeb2](https://user-images.githubusercontent.com/51343959/58841379-986b4180-8637-11e9-9dd2-219979601ac8.PNG)
+        
+        # PavLogger
+        
+        This currently provides a easy to use sqlite and postgres database commands.  If you install SQLCypher, the library can also handle the encryption of the database.
+        
+        ## Installation 
+        Run the following to install:
+        
+        ```python
+        pip install pav_logger
+        ```
+        
+        ## Usage
+        
+        
+        ```python
+        Optional:
+            log_name:
+                Provides a way to specify another log file name:
+                Default: debug and exception
+            show_backtrace:
+                Provides a way to specify to show the backtrace of an message
+                Default:
+                    Debug: False
+                    Error: True
+            log_severity:
+                Provides a way to specify a number for the log for SQLite database
+                Default:
+                    Debug: 0
+                    Error: 4
+            line_divider:
+                Provides a way to change the dividing line between messages.
+                Default:
+                    '#'
+        
+        import pav_logger
+        
+        pav_logger = pav_logger.PavLogger()
+        pav_logger.log_path = "<Location Folder Path>"
+        pav_logger.debug('This is a debug message.')
+        
+        try:
+            raise ValueError('There is an error')
+        except Exception as error:
+            pav_logger.error(error)
+        
+        pav_logger.log_to_database = True
+        pav_logger.debug('This is a debug message.')
+        
+        try:
+            raise ValueError('There is an error')
+        except Exception as error:
+            pav_logger.error(error)
+                    
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
