@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+PyMODAlib.egg-info/PKG-INFO
+PyMODAlib.egg-info/SOURCES.txt
+PyMODAlib.egg-info/dependency_links.txt
+PyMODAlib.egg-info/requires.txt
+PyMODAlib.egg-info/top_level.txt
+pymodalib/__init__.py
