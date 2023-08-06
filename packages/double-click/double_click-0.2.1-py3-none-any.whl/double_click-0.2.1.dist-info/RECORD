@@ -1,0 +1,11 @@
+double_click/__init__.py,sha256=P-YkO_lerq_Rp279dCMwtyGUhceyXWk4t7OyLz4vk6k,238
+double_click/markdown.py,sha256=9hWw5prgi42d3O2A_Uq4B-Qdjxso2E6leVuokwG7CPk,1196
+double_click/models.py,sha256=ATkdvIjOPkx0A6mr5f32mQ3Wr8Uy64-tjue367XTGJs,5163
+double_click/request.py,sha256=o-OfYncZ9C6p3is0StERlyYIdMbaFacUjYEZeOeyObU,7638
+double_click/user.py,sha256=tS2G82qrsy12Li4NwhaBmrSAcdUjmTABllKtC-frrDY,4407
+double_click/utils.py,sha256=mZWlkYXEuP_dtnXJzIpCAIVi1xSZx3i0D1Cb4zVCIlQ,4366
+double_click-0.2.1.dist-info/LICENSE.txt,sha256=To5lh1x38fETWV4ksFr1R4p3tpLLY-MKQglvNvz967Y,1068
+double_click-0.2.1.dist-info/METADATA,sha256=XFziUqrs2QHCHQ7q7-DVwP5wGwyMRh9lF6-uO_kOq6U,822
+double_click-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+double_click-0.2.1.dist-info/top_level.txt,sha256=hZXzWoaPFMafUxOTJzoVd7rIPtsQqbqYqRMIhRFXQ7I,13
+double_click-0.2.1.dist-info/RECORD,,
