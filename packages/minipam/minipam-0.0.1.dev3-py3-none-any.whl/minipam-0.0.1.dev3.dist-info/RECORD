@@ -1,0 +1,15 @@
+minipam/__init__.py,sha256=YCBrAdvRLU5gbwqS-9FjArDt5ASylu6vArob5Uhmav4,188
+minipam/__main__.py,sha256=AqOW9t-TFEG5TFABM64dqDLMika-MRQCj4pofWjy5aM,141
+minipam/ipam.py,sha256=9rXj9vTynUGrnyCuPsJcWzxMv8HSD1Onl-sqGpMOnDo,10292
+minipam/utils.py,sha256=VBA-m5wbLmYwJEl_3lV-9IwZ5U4sJnHu75_EMjsOtbI,1540
+minipam/version.py,sha256=J3BuRE3fhG80WuXE6Z1zaT-m2wyz3EDBqIJdZshkPTY,23
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ipam.py,sha256=BXfbKwJNt_kW-E8uWuyAmWqJs7u7Z8AHGlyVdDcfEJ4,1307
+tests/test_main.py,sha256=muFZFUacB5Mnz3fH6SRovTVRxkn5zekj4vOBVy2Uut0,79
+tests/test_utils.py,sha256=DUqoa-3BBoyeSQE9AX1Xiu8VpRXrRkRkcKyW00aZi-o,1843
+minipam-0.0.1.dev3.dist-info/LICENSE,sha256=MqUY-zhC4FIKwtvkyq6kNW27vXnkgtl0hgN5Wv89ewE,35075
+minipam-0.0.1.dev3.dist-info/METADATA,sha256=geDiodoFUVjumD7D_QKeqqWkAeoipzrTh0XVDQH0h7w,571
+minipam-0.0.1.dev3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+minipam-0.0.1.dev3.dist-info/entry_points.txt,sha256=BqcIxjxgc9AK8xO3IYFG67HqwdTb6AQNN6VEaZA5dnU,51
+minipam-0.0.1.dev3.dist-info/top_level.txt,sha256=tFoIy4O4Z2S5BXu9l6Ba_ZYzA9C5az0iV1HtAEN5Gek,14
+minipam-0.0.1.dev3.dist-info/RECORD,,
