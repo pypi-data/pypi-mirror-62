@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ezcad-plugins
+Version: 0.2.0
+Summary: Easy computer-aided design
+Home-page: http://ezcad.org
+Author: ezcad team
+Author-email: ezcad.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Yapsy
+
+# plugins
+
+
