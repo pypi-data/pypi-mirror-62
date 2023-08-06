@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: iconify
+Version: 0.0.80
+Summary: An SVG based icon library for Qt
+Home-page: https://github.com/jasongilholme/iconify
+Author: Jason Gilholme
+Author-email: jasongilholme@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: Qt,icons,svg,PySide,PyQt
+Platform: OS-independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: User Interfaces
+Description-Content-Type: text/markdown
