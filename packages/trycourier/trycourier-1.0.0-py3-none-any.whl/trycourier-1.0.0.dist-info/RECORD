@@ -1,0 +1,9 @@
+trycourier/__init__.py,sha256=2fRLDBTEcDKGNcHqayPH49FXZx9GXpKSiaGqZXpRSfQ,36
+trycourier/client.py,sha256=npx88VMepx-FMwA-r-smmqNIo9v7wREnbRFb3B_6KF0,2016
+trycourier/exceptions.py,sha256=Q6CCGcTHDkpYlgWGHu8pMODV6Kk6GCm7OqBT8vLT2Z8,443
+trycourier/session.py,sha256=THAbCk8slMKjvuj3sMyroB3vUWZUeM46zTUULCcf4po,928
+trycourier-1.0.0.dist-info/LICENSE,sha256=tlLSIGe9dSbv9wzqEI1jimdNVNC6Iur3rg-AyAZGv4s,1063
+trycourier-1.0.0.dist-info/METADATA,sha256=eLBOLbCdK23N7ScJqheBkIv0yuE1NNUa5-TtHIATsZg,2168
+trycourier-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+trycourier-1.0.0.dist-info/top_level.txt,sha256=KC7-k8ydejwZ7whWlv2PVUbT4tigRD5GYhWpG5KqIW8,11
+trycourier-1.0.0.dist-info/RECORD,,
