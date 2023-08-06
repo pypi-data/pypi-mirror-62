@@ -1,0 +1,9 @@
+README.md
+enumchecker.py
+pyproject.toml
+setup.py
+enumchecker.egg-info/PKG-INFO
+enumchecker.egg-info/SOURCES.txt
+enumchecker.egg-info/dependency_links.txt
+enumchecker.egg-info/entry_points.txt
+enumchecker.egg-info/top_level.txt
