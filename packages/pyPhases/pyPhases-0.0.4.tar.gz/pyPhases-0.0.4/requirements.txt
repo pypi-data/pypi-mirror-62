@@ -1,0 +1,6 @@
+pyarrow==0.16.0
+pandas
+numpy
+keras
+tensorflow
+h5py
