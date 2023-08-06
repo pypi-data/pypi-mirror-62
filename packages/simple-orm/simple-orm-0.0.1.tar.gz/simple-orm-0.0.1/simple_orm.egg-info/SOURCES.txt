@@ -1,0 +1,10 @@
+CONTRIBUTING.md
+MANIFEST.in
+README.md
+orm.py
+setup.py
+simple_orm.egg-info/PKG-INFO
+simple_orm.egg-info/SOURCES.txt
+simple_orm.egg-info/dependency_links.txt
+simple_orm.egg-info/not-zip-safe
+simple_orm.egg-info/top_level.txt
