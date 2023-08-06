@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wttime
+Version: 0.1
+Summary: Smart timestamp utility
+Home-page: https://github.com/PJK/wttime/actions
+Author: Pavel Kalvoda
+Author-email: me@pavelkalvoda.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: python-dateutil
+
+UNKNOWN
+
+
