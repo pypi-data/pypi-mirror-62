@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pythonista-docgen
+Version: 1.0
+Summary: Pythonista markdown document generator from single file docstrings
+Home-page: https://github.com/mikaelho/docgen
+Author: Mikael Honkala
+Author-email: mikael.honkala@gmail.com
