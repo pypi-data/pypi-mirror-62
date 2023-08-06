@@ -1,0 +1,6 @@
+include *.6
+include *.lock
+include *.py
+include *.txt
+include Pipfile
+recursive-include src *.py

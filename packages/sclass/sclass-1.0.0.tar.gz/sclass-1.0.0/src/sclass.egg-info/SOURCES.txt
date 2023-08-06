@@ -1,0 +1,14 @@
+3.6
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+test_sclass.py
+src/__init__.py
+src/sclass.py
+src/sclass.egg-info/PKG-INFO
+src/sclass.egg-info/SOURCES.txt
+src/sclass.egg-info/dependency_links.txt
+src/sclass.egg-info/top_level.txt
