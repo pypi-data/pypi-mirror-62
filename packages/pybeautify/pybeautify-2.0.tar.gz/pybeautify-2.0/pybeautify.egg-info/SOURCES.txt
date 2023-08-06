@@ -1,0 +1,7 @@
+README.md
+setup.py
+beautify/__init__.py
+pybeautify.egg-info/PKG-INFO
+pybeautify.egg-info/SOURCES.txt
+pybeautify.egg-info/dependency_links.txt
+pybeautify.egg-info/top_level.txt
