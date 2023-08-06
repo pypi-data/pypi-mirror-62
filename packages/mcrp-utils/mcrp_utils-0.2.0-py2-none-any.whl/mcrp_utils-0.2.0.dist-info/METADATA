@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mcrp-utils
+Version: 0.2.0
+Summary: MCNP-related packages. Common uitlities
+Home-page: https://github.com/travleev/mcrp_utils
+Author: A. Travleev
+Author-email: anton.travleev@gmail.com
+License: UNKNOWN
+Keywords: MCNP utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering
+Provides: mcrp_utils
+Description-Content-Type: text/markdown
+
+# MCNP-related packages: utilities
+
+Stuff, not directly related to handling MCNP files, but useful for debugging. Timers, string formatters, etc.
+
+Currently this package is used in packages ``mcrp_splitters`` and ``mcrp_cgam``.
+
+
